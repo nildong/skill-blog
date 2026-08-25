@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Cluster Map — Comedouro Automático para Pet</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: system-ui, sans-serif; margin: 0; padding: 24px; background: #fff; color: #111; }
+  @media (prefers-color-scheme: dark) { body { background: #0f1115; color: #e6e6e6; } }
+  h1 { font-size: 1.2rem; margin-bottom: 4px; }
+  p.sub { color: #666; margin-top: 0; font-size: .9rem; }
+  .wrap { overflow-x: auto; }
+  svg { display: block; margin: 0 auto; }
+  .node rect { stroke-width: 1.5; }
+  .node text { font-size: 11px; fill: #111; }
+  @media (prefers-color-scheme: dark) { .node text { fill: #f0f0f0; } }
+  .pillar rect { fill: #1e293b; stroke: #0f172a; }
+  .pillar text { fill: #fff; font-weight: 600; }
+  .link { stroke: #94a3b8; stroke-width: 1; fill: none; opacity: .6; }
+  .cluster-label { font-size: 12px; font-weight: 600; }
+  .legend rect { rx: 3; }
+  .legend text { font-size: 11px; }
+</style>
+</head>
+<body>
+<h1>Mapa do Cluster: Comedouro Automático para Pet</h1>
+<p class="sub">1 pillar · 4 clusters · 11 spokes · 28 links internos planejados</p>
+<div class="wrap">
+<svg width="1100" height="820" viewBox="0 0 1100 820" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mapTitle">
+<title id="mapTitle">Mapa hub-and-spoke do cluster Comedouro Automático para Pet</title>
+
+<!-- links: pillar to clusters -->
+<g class="link">
+<path d="M550,410 C420,300 300,200 250,120"/>
+<path d="M550,410 C420,470 300,530 250,650"/>
+<path d="M550,410 C650,300 780,200 850,120"/>
+<path d="M550,410 C650,470 780,560 850,650"/>
+</g>
+
+<!-- Pillar node -->
+<g class="node pillar">
+<rect x="450" y="380" width="200" height="60" rx="8"/>
+<text x="550" y="405" text-anchor="middle">Pillar</text>
+<text x="550" y="422" text-anchor="middle" font-size="9">Comedouro Automático para Pet</text>
+</g>
+
+<!-- Cluster A: Cães (top-left) -->
+<text class="cluster-label" x="90" y="60" fill="#2563eb">Cluster A — Cães</text>
+<g class="node"><rect x="60" y="75" width="220" height="40" rx="6" fill="#dbeafe" stroke="#2563eb"/><text x="170" y="99" text-anchor="middle">A1. Melhor comedouro cachorro (listicle)</text></g>
+<g class="node"><rect x="60" y="125" width="220" height="40" rx="6" fill="#dbeafe" stroke="#2563eb"/><text x="170" y="149" text-anchor="middle">A2. Review Newpet 4L</text></g>
+<g class="node"><rect x="60" y="175" width="220" height="40" rx="6" fill="#dbeafe" stroke="#2563eb"/><text x="170" y="199" text-anchor="middle">A3. Review VDRBG 4L Wi-Fi</text></g>
+<g class="link"><path d="M170,115 C170,120 170,120 170,125"/><path d="M170,165 C170,170 170,170 170,175"/></g>
+
+<!-- Cluster B: Gatos (bottom-left) -->
+<text class="cluster-label" x="90" y="590" fill="#16a34a">Cluster B — Gatos</text>
+<g class="node"><rect x="60" y="605" width="220" height="40" rx="6" fill="#dcfce7" stroke="#16a34a"/><text x="170" y="629" text-anchor="middle">B1. Melhor alimentador gatos (listicle)</text></g>
+<g class="node"><rect x="60" y="655" width="220" height="40" rx="6" fill="#dcfce7" stroke="#16a34a"/><text x="170" y="679" text-anchor="middle">B2. Review Cat Mate C500</text></g>
+<g class="node"><rect x="60" y="705" width="220" height="40" rx="6" fill="#dcfce7" stroke="#16a34a"/><text x="170" y="729" text-anchor="middle">B3. Gato x Cachorro diferença</text></g>
+<g class="link"><path d="M170,645 C170,650 170,650 170,655"/><path d="M170,695 C170,700 170,700 170,705"/></g>
+
+<!-- Cluster C: Tecnologia (top-right) -->
+<text class="cluster-label" x="820" y="60" fill="#d97706">Cluster C — Tecnologia/App</text>
+<g class="node"><rect x="820" y="75" width="220" height="40" rx="6" fill="#fef3c7" stroke="#d97706"/><text x="930" y="99" text-anchor="middle">C1. Vale a pena? (FAQ)</text></g>
+<g class="node"><rect x="820" y="125" width="220" height="40" rx="6" fill="#fef3c7" stroke="#d97706"/><text x="930" y="149" text-anchor="middle">C2. Configurar app Wi-Fi</text></g>
+<g class="node"><rect x="820" y="175" width="220" height="40" rx="6" fill="#fef3c7" stroke="#d97706"/><text x="930" y="199" text-anchor="middle">C3. Comedouro x Bebedouro</text></g>
+<g class="link"><path d="M930,115 C930,120 930,120 930,125"/><path d="M930,165 C930,170 930,170 930,175"/></g>
+
+<!-- Cluster D: Bebedouros (bottom-right) -->
+<text class="cluster-label" x="820" y="590" fill="#7c3aed">Cluster D — Bebedouros (adjacente)</text>
+<g class="node"><rect x="820" y="605" width="220" height="40" rx="6" fill="#ede9fe" stroke="#7c3aed"/><text x="930" y="629" text-anchor="middle">D1. Melhor bebedouro (listicle)</text></g>
+<g class="node"><rect x="820" y="655" width="220" height="40" rx="6" fill="#ede9fe" stroke="#7c3aed"/><text x="930" y="679" text-anchor="middle">D2. Inox x Cerâmica</text></g>
+<g class="link"><path d="M930,645 C930,650 930,650 930,655"/></g>
+
+<!-- cross-cluster link C3 <-> D1 -->
+<g class="link"><path d="M820,190 C700,400 700,600 820,620" stroke-dasharray="4,3"/></g>
+<!-- cross-cluster link B3 <-> C3 -->
+<g class="link"><path d="M280,720 C500,720 700,400 820,190" stroke-dasharray="4,3"/></g>
+
+<!-- Legend -->
+<g class="legend" transform="translate(400,760)">
+<rect x="0" y="0" width="14" height="14" fill="#dbeafe" stroke="#2563eb"/><text x="20" y="11">Comercial (Cães/Gatos)</text>
+<rect x="180" y="0" width="14" height="14" fill="#fef3c7" stroke="#d97706"/><text x="200" y="11">Informacional</text>
+<rect x="330" y="0" width="14" height="14" fill="#ede9fe" stroke="#7c3aed"/><text x="350" y="11">Comercial adjacente</text>
+</g>
+</svg>
+</div>
+</body>
+</html>

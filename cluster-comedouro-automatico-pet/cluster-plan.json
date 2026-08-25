@@ -1,0 +1,172 @@
+{
+  "seed_keyword": "comedouro automático para pet",
+  "generated_at": "2026-08-20T00:00:00Z",
+  "pillar": {
+    "id": "P",
+    "title": "Comedouro Automático para Pet: Guia Completo 2026",
+    "primary_keyword": "comedouro automático para pet",
+    "secondary_keywords": [
+      "alimentador automático para cachorro e gato",
+      "comedouro automático como funciona",
+      "melhor comedouro automático 2026"
+    ],
+    "search_volume_estimate": "high",
+    "template": "pillar-page",
+    "word_count_target": 3200,
+    "cluster": "pillar"
+  },
+  "clusters": [
+    {
+      "name": "Cluster A: Comedouros para Cães",
+      "intent": "commercial",
+      "color": "#2563eb",
+      "posts": [
+        {
+          "id": "A1",
+          "title": "Melhor Comedouro Automático para Cachorro: os 8 Mais Vendidos no Mercado Livre",
+          "primary_keyword": "melhor comedouro automático para cachorro",
+          "secondary_keywords": ["comedouro automático cachorro mais vendido", "alimentador automático cão"],
+          "search_volume_estimate": "high",
+          "template": "listicle",
+          "word_count_target": 2000,
+          "links_to": ["P", "A2", "A3"],
+          "links_from": ["P", "A2", "A3"]
+        },
+        {
+          "id": "A2",
+          "title": "Comedouro Newpet 4L: Review Completo (Vale a Pena?)",
+          "primary_keyword": "comedouro newpet 4l review",
+          "secondary_keywords": ["newpet 4l vale a pena", "newpet app funciona"],
+          "search_volume_estimate": "medium",
+          "template": "product-review",
+          "word_count_target": 1600,
+          "links_to": ["P", "A1", "A3"],
+          "links_from": ["P", "A1"]
+        },
+        {
+          "id": "A3",
+          "title": "Comedouro VDRBG 4L Wi-Fi: Vale a Pena Comprar?",
+          "primary_keyword": "comedouro vdrbg 4l wifi review",
+          "secondary_keywords": ["vdrbg comedouro vale a pena", "comedouro wifi cachorro completo"],
+          "search_volume_estimate": "medium",
+          "template": "product-review",
+          "word_count_target": 1600,
+          "links_to": ["P", "A1", "A2"],
+          "links_from": ["P", "A1"]
+        }
+      ]
+    },
+    {
+      "name": "Cluster B: Comedouros para Gatos",
+      "intent": "commercial",
+      "color": "#16a34a",
+      "posts": [
+        {
+          "id": "B1",
+          "title": "Melhor Alimentador Automático para Gatos: os 8 Mais Vendidos no Mercado Livre",
+          "primary_keyword": "melhor alimentador automático para gatos",
+          "secondary_keywords": ["comedouro automático gato mais vendido", "alimentador automático felino"],
+          "search_volume_estimate": "high",
+          "template": "listicle",
+          "word_count_target": 2000,
+          "links_to": ["P", "B2", "B3"],
+          "links_from": ["P", "B2", "B3"]
+        },
+        {
+          "id": "B2",
+          "title": "Cat Mate C500: Review do Comedouro para Ração Úmida e Seca",
+          "primary_keyword": "cat mate c500 review",
+          "secondary_keywords": ["cat mate c500 vale a pena", "comedouro para ração úmida gato"],
+          "search_volume_estimate": "low",
+          "template": "product-review",
+          "word_count_target": 1500,
+          "links_to": ["P", "B1", "B3"],
+          "links_from": ["P", "B1"]
+        },
+        {
+          "id": "B3",
+          "title": "Comedouro Automático para Gato x Cachorro: Qual a Diferença?",
+          "primary_keyword": "comedouro automático gato x cachorro diferença",
+          "secondary_keywords": ["comedouro serve para gato e cachorro", "alimentador automático multipet"],
+          "search_volume_estimate": "low",
+          "template": "comparison",
+          "word_count_target": 1400,
+          "links_to": ["P", "B1", "B2", "C3"],
+          "links_from": ["P", "B1"]
+        }
+      ]
+    },
+    {
+      "name": "Cluster C: Tecnologia e App",
+      "intent": "informational",
+      "color": "#d97706",
+      "posts": [
+        {
+          "id": "C1",
+          "title": "Vale a Pena Comprar um Comedouro Automático? Prós, Contras e Preço",
+          "primary_keyword": "comedouro automático vale a pena",
+          "secondary_keywords": ["comedouro automático pros e contras", "comedouro automático preço médio"],
+          "search_volume_estimate": "high",
+          "template": "faq-knowledge",
+          "word_count_target": 1500,
+          "links_to": ["P", "A1", "B1"],
+          "links_from": ["P"]
+        },
+        {
+          "id": "C2",
+          "title": "Como Configurar o App do Comedouro Automático Wi-Fi (Tuya e Similares)",
+          "primary_keyword": "configurar app comedouro automático wifi",
+          "secondary_keywords": ["comedouro tuya smart configurar", "comedouro automático app não conecta"],
+          "search_volume_estimate": "medium",
+          "template": "how-to-guide",
+          "word_count_target": 1400,
+          "links_to": ["P", "A3", "C1"],
+          "links_from": ["A3"]
+        },
+        {
+          "id": "C3",
+          "title": "Comedouro x Bebedouro Automático: Você Precisa dos Dois?",
+          "primary_keyword": "comedouro x bebedouro automático diferença",
+          "secondary_keywords": ["preciso de bebedouro automático", "kit comedouro e bebedouro pet"],
+          "search_volume_estimate": "medium",
+          "template": "comparison",
+          "word_count_target": 1400,
+          "links_to": ["P", "C1", "D1"],
+          "links_from": ["B3", "D1"]
+        }
+      ]
+    },
+    {
+      "name": "Cluster D: Bebedouros Automáticos (adjacente)",
+      "intent": "commercial",
+      "color": "#7c3aed",
+      "posts": [
+        {
+          "id": "D1",
+          "title": "Melhor Bebedouro Automático para Pet: os 6 Mais Vendidos no Mercado Livre",
+          "primary_keyword": "melhor bebedouro automático para pet",
+          "secondary_keywords": ["bebedouro fonte de água pet mais vendido", "bebedouro automático 2026"],
+          "search_volume_estimate": "high",
+          "template": "listicle",
+          "word_count_target": 1800,
+          "links_to": ["P", "C3", "D2"],
+          "links_from": ["C3", "D2"]
+        },
+        {
+          "id": "D2",
+          "title": "Bebedouro Fonte para Gato: Inox x Cerâmica, Qual Escolher?",
+          "primary_keyword": "bebedouro fonte gato inox x cerâmica",
+          "secondary_keywords": ["bebedouro inox ou cerâmica gato", "melhor material bebedouro pet"],
+          "search_volume_estimate": "low",
+          "template": "comparison",
+          "word_count_target": 1300,
+          "links_to": ["P", "D1"],
+          "links_from": ["D1"]
+        }
+      ]
+    }
+  ],
+  "total_posts": 11,
+  "total_interlinks": 28,
+  "estimated_total_words": 19700
+}

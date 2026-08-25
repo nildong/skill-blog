@@ -1,0 +1,116 @@
+{
+  "seed_keyword": "comedouro automático para pet",
+  "generated_at": "2026-08-21T00:00:00Z",
+  "phase": 2,
+  "note": "Expansão do cluster já publicado (pillar-comedouro-automatico-para-pet.md + 10 spokes já no ar). Esta fase adiciona 7 novos spokes de cauda longa ainda não cobertos, todos linkando de volta ao pillar existente.",
+  "pillar": {
+    "id": "P",
+    "title": "Comedouro Automático para Pet: Guia Completo 2026",
+    "primary_keyword": "comedouro automático para pet",
+    "status": "já publicado (/comedouro-automatico-para-pet/)",
+    "cluster": "pillar"
+  },
+  "clusters": [
+    {
+      "name": "Cluster E: Manutenção e Cuidados",
+      "intent": "informational",
+      "color": "#16a34a",
+      "posts": [
+        {
+          "id": "E1",
+          "title": "Como Limpar o Comedouro Automático do Pet: Passo a Passo e Frequência Ideal",
+          "primary_keyword": "como limpar comedouro automático",
+          "secondary_keywords": ["limpeza comedouro automático pet", "higienização comedouro eletrônico"],
+          "search_volume_estimate": "medium",
+          "template": "how-to-guide",
+          "word_count_target": 1400,
+          "links_to": ["P", "E2"],
+          "links_from": ["P"]
+        },
+        {
+          "id": "E2",
+          "title": "Comedouro Automático Faz Mal para o Pet? Riscos Reais e Como Evitar",
+          "primary_keyword": "comedouro automático faz mal problemas",
+          "secondary_keywords": ["sobrealimentação comedouro automático", "ansiedade alimentar pet comedouro"],
+          "search_volume_estimate": "medium",
+          "template": "informational-explainer",
+          "word_count_target": 1500,
+          "links_to": ["P", "E1", "G1"],
+          "links_from": ["E1"]
+        },
+        {
+          "id": "E3",
+          "title": "Como Preparar o Pet para Usar o Comedouro Automático Antes de Viajar",
+          "primary_keyword": "comedouro automático para viagem preparar pet",
+          "secondary_keywords": ["adaptação comedouro automático", "comedouro automático viagem cão gato"],
+          "search_volume_estimate": "low",
+          "template": "how-to-guide",
+          "word_count_target": 1300,
+          "links_to": ["P", "E1"],
+          "links_from": ["P"]
+        }
+      ]
+    },
+    {
+      "name": "Cluster F: Entrada e Orçamento",
+      "intent": "commercial",
+      "color": "#2563eb",
+      "posts": [
+        {
+          "id": "F1",
+          "title": "Comedouro Automático Newpet 2L: Vale a Pena o Modelo de Entrada?",
+          "primary_keyword": "comedouro automático barato newpet 2l",
+          "secondary_keywords": ["newpet 2l review", "comedouro automático mais barato"],
+          "search_volume_estimate": "medium",
+          "template": "product-review",
+          "word_count_target": 1500,
+          "links_to": ["P", "comedouro-newpet-4l-review"],
+          "links_from": ["P"]
+        },
+        {
+          "id": "F2",
+          "title": "Comedouro Automático Com ou Sem Wi-Fi: Qual Vale Mais a Pena?",
+          "primary_keyword": "comedouro sem wifi x com wifi qual escolher",
+          "secondary_keywords": ["comedouro automático sem app", "vale a pena comedouro com wifi"],
+          "search_volume_estimate": "low",
+          "template": "comparison",
+          "word_count_target": 1400,
+          "links_to": ["P", "F1", "comedouro-vdrbg-4l-wifi-review", "configurar-app-comedouro-wifi"],
+          "links_from": ["F1"]
+        }
+      ]
+    },
+    {
+      "name": "Cluster G: Casos de Uso Específicos",
+      "intent": "informational",
+      "color": "#d97706",
+      "posts": [
+        {
+          "id": "G1",
+          "title": "Comedouro Automático para Gato com Sobrepeso: Ajuda no Controle de Peso?",
+          "primary_keyword": "comedouro automático gato obeso controle peso",
+          "secondary_keywords": ["comedouro porção controlada gato gordo", "dieta gato comedouro automático"],
+          "search_volume_estimate": "low",
+          "template": "informational-explainer",
+          "word_count_target": 1400,
+          "links_to": ["P", "E2", "comedouro-gato-x-cachorro-diferenca"],
+          "links_from": ["E2"]
+        },
+        {
+          "id": "G2",
+          "title": "Comedouro Automático Anti-Formiga: Funciona de Verdade?",
+          "primary_keyword": "comedouro automático anti formiga funciona",
+          "secondary_keywords": ["comedouro anti formiga pet", "proteção formiga ração pet"],
+          "search_volume_estimate": "low",
+          "template": "informational-explainer",
+          "word_count_target": 1200,
+          "links_to": ["P", "F1"],
+          "links_from": ["P"]
+        }
+      ]
+    }
+  ],
+  "total_new_posts": 7,
+  "existing_posts_linked": ["comedouro-newpet-4l-review", "comedouro-vdrbg-4l-wifi-review", "configurar-app-comedouro-wifi", "comedouro-gato-x-cachorro-diferenca"],
+  "estimated_total_words": 9700
+}
