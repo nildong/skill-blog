@@ -1,0 +1,15 @@
+{
+  "name": "v2-shared",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Utilitários pequenos e reutilizáveis entre módulos da V2 (skill-blog): extração de texto de HTML e termos em português. Não é um pacote publicável, só um ponto de reuso dentro de tools/.",
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
