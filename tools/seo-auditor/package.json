@@ -1,0 +1,15 @@
+{
+  "name": "seo-auditor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Auditoria SEO local (determinística, sem APIs externas) a partir de .data/site-index.json. Gera .data/seo-audit.json e reports/seo-audit.md. Parte da V2 (skill-blog).",
+  "main": "src/index.js",
+  "scripts": {
+    "audit": "node src/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18"
+  }
+}

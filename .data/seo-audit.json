@@ -1,0 +1,1211 @@
+{
+  "version": 1,
+  "generated_at": "2026-08-25T16:38:34.618Z",
+  "site": {
+    "total_pages": 72,
+    "source_index_generated_at": "2026-08-25T16:29:25.006Z"
+  },
+  "summary": {
+    "critical": 0,
+    "errors": 0,
+    "warnings": 1,
+    "info": 62
+  },
+  "categories": {
+    "technical": {
+      "critical": 0,
+      "error": 0,
+      "warning": 0,
+      "info": 0
+    },
+    "metadata": {
+      "critical": 0,
+      "error": 0,
+      "warning": 0,
+      "info": 3
+    },
+    "headings": {
+      "critical": 0,
+      "error": 0,
+      "warning": 0,
+      "info": 0
+    },
+    "content": {
+      "critical": 0,
+      "error": 0,
+      "warning": 0,
+      "info": 12
+    },
+    "internal_links": {
+      "critical": 0,
+      "error": 0,
+      "warning": 0,
+      "info": 2
+    },
+    "images": {
+      "critical": 0,
+      "error": 0,
+      "warning": 0,
+      "info": 5
+    },
+    "media": {
+      "critical": 0,
+      "error": 0,
+      "warning": 0,
+      "info": 0
+    },
+    "schema": {
+      "critical": 0,
+      "error": 0,
+      "warning": 0,
+      "info": 3
+    },
+    "faq": {
+      "critical": 0,
+      "error": 0,
+      "warning": 1,
+      "info": 37
+    },
+    "site_structure": {
+      "critical": 0,
+      "error": 0,
+      "warning": 0,
+      "info": 0
+    }
+  },
+  "pages": [
+    {
+      "path": "autores/nildo-alves/index.html",
+      "url": "/autores/nildo-alves/",
+      "slug": "nildo-alves",
+      "page_type": "author",
+      "title": "Nildo Alves — Autor no Smart Pet Gadgets",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "IMAGE_DIMENSIONS_MISSING",
+          "category": "images",
+          "severity": "INFO",
+          "evidence": "Nenhuma imagem da página declara width/height",
+          "recommendation": "Considerar declarar width/height (ou aspect-ratio via CSS) para reduzir Cumulative Layout Shift."
+        }
+      ]
+    },
+    {
+      "path": "bebedouro-inox-x-ceramica/index.html",
+      "url": "/bebedouro-inox-x-ceramica/",
+      "slug": "bebedouro-inox-x-ceramica",
+      "page_type": "post",
+      "title": "Bebedouro Fonte para Gato: Inox x Cerâmica, Qual Escolher?",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "brinquedo-automatico-cachorro-sozinho/index.html",
+      "url": "/brinquedo-automatico-cachorro-sozinho/",
+      "slug": "brinquedo-automatico-cachorro-sozinho",
+      "page_type": "post",
+      "title": "Brinquedo Automático para Cachorro Sozinho: Funciona?",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "brinquedo-interativo-automatico-para-gato/index.html",
+      "url": "/brinquedo-interativo-automatico-para-gato/",
+      "slug": "brinquedo-interativo-automatico-para-gato",
+      "page_type": "post",
+      "title": "Brinquedo Interativo Automático para Gato: Guia Completo",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "brinquedo-interativo-gato-idoso-vale-a-pena/index.html",
+      "url": "/brinquedo-interativo-gato-idoso-vale-a-pena/",
+      "slug": "brinquedo-interativo-gato-idoso-vale-a-pena",
+      "page_type": "post",
+      "title": "Brinquedo Interativo para Gato Idoso: Vale a Pena?",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "CONTENT_BRIEF",
+          "category": "content",
+          "severity": "INFO",
+          "evidence": "393 palavras detectadas (entre 300 e 400)",
+          "recommendation": "Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva."
+        },
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "brinquedo-interativo-pilha-x-recarregavel/index.html",
+      "url": "/brinquedo-interativo-pilha-x-recarregavel/",
+      "slug": "brinquedo-interativo-pilha-x-recarregavel",
+      "page_type": "post",
+      "title": "Brinquedo Interativo para Gato: Pilha ou Recarregável?",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "CONTENT_BRIEF",
+          "category": "content",
+          "severity": "INFO",
+          "evidence": "361 palavras detectadas (entre 300 e 400)",
+          "recommendation": "Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva."
+        },
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "brinquedo-interativo-sensor-infravermelho-como-funciona/index.html",
+      "url": "/brinquedo-interativo-sensor-infravermelho-como-funciona/",
+      "slug": "brinquedo-interativo-sensor-infravermelho-como-funciona",
+      "page_type": "post",
+      "title": "Brinquedo Interativo com Sensor Infravermelho: Como Funciona",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "CONTENT_BRIEF",
+          "category": "content",
+          "severity": "INFO",
+          "evidence": "379 palavras detectadas (entre 300 e 400)",
+          "recommendation": "Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva."
+        },
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "brinquedo-interativo-substitui-brincadeira-tutor/index.html",
+      "url": "/brinquedo-interativo-substitui-brincadeira-tutor/",
+      "slug": "brinquedo-interativo-substitui-brincadeira-tutor",
+      "page_type": "post",
+      "title": "Brinquedo Interativo Substitui a Brincadeira com o Tutor?",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "camera-para-monitorar-pet/index.html",
+      "url": "/camera-para-monitorar-pet/",
+      "slug": "camera-para-monitorar-pet",
+      "page_type": "post",
+      "title": "Câmera para Monitorar Pet: Como Escolher o Modelo Ideal",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "DESCRIPTION_TOO_LONG",
+          "category": "metadata",
+          "severity": "INFO",
+          "evidence": "meta description com 164 caracteres (recomendado até 160)",
+          "recommendation": "Considerar encurtar para reduzir risco de truncamento no SERP."
+        }
+      ]
+    },
+    {
+      "path": "camera-pet-cachorro-ansiedade-separacao/index.html",
+      "url": "/camera-pet-cachorro-ansiedade-separacao/",
+      "slug": "camera-pet-cachorro-ansiedade-separacao",
+      "page_type": "post",
+      "title": "Câmera Pet Ajuda na Ansiedade de Separação do Cachorro?",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "camera-pet-com-dispensador-de-petisco/index.html",
+      "url": "/camera-pet-com-dispensador-de-petisco/",
+      "slug": "camera-pet-com-dispensador-de-petisco",
+      "page_type": "post",
+      "title": "Câmera Pet com Dispensador de Petisco: Vale a Pena?",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "CONTENT_BRIEF",
+          "category": "content",
+          "severity": "INFO",
+          "evidence": "391 palavras detectadas (entre 300 e 400)",
+          "recommendation": "Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva."
+        },
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "camera-pet-grava-sem-internet/index.html",
+      "url": "/camera-pet-grava-sem-internet/",
+      "slug": "camera-pet-grava-sem-internet",
+      "page_type": "post",
+      "title": "Câmera Pet Grava Sem Internet? O Que Funciona Offline",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "CONTENT_BRIEF",
+          "category": "content",
+          "severity": "INFO",
+          "evidence": "398 palavras detectadas (entre 300 e 400)",
+          "recommendation": "Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva."
+        },
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "camera-pet-resolucao-1080p-x-2k/index.html",
+      "url": "/camera-pet-resolucao-1080p-x-2k/",
+      "slug": "camera-pet-resolucao-1080p-x-2k",
+      "page_type": "post",
+      "title": "Câmera Pet: 1080p ou 2K — Qual Resolução Escolher?",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "CONTENT_BRIEF",
+          "category": "content",
+          "severity": "INFO",
+          "evidence": "389 palavras detectadas (entre 300 e 400)",
+          "recommendation": "Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva."
+        },
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "camera-pet-visao-noturna-funciona/index.html",
+      "url": "/camera-pet-visao-noturna-funciona/",
+      "slug": "camera-pet-visao-noturna-funciona",
+      "page_type": "post",
+      "title": "Visão Noturna em Câmera Pet: Como Funciona de Verdade",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "CONTENT_BRIEF",
+          "category": "content",
+          "severity": "INFO",
+          "evidence": "379 palavras detectadas (entre 300 e 400)",
+          "recommendation": "Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva."
+        },
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "camera-pet-x-coleira-gps-qual-escolher/index.html",
+      "url": "/camera-pet-x-coleira-gps-qual-escolher/",
+      "slug": "camera-pet-x-coleira-gps-qual-escolher",
+      "page_type": "post",
+      "title": "Câmera Pet ou Coleira GPS: Qual Escolher para seu Pet?",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "cat-mate-c500-review/index.html",
+      "url": "/cat-mate-c500-review/",
+      "slug": "cat-mate-c500-review",
+      "page_type": "post",
+      "title": "Cat Mate C500: Review do Comedouro para Ração Úmida e Seca",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "cerca-virtual-para-cachorro/index.html",
+      "url": "/cerca-virtual-para-cachorro/",
+      "slug": "cerca-virtual-para-cachorro",
+      "page_type": "post",
+      "title": "Cerca Virtual para Cachorro: O Que É e Como Configurar",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "cercado-para-cachorros/index.html",
+      "url": "/cercado-para-cachorros/",
+      "slug": "cercado-para-cachorros",
+      "page_type": "post",
+      "title": "Cercado para Cachorros Divipets: Vale a Pena? Review",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "coleira-gps-bluetooth-x-chip-operadora/index.html",
+      "url": "/coleira-gps-bluetooth-x-chip-operadora/",
+      "slug": "coleira-gps-bluetooth-x-chip-operadora",
+      "page_type": "post",
+      "title": "Coleira GPS Sem Chip: Bluetooth ou Rede da Operadora?",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "coleira-gps-cachorro-pequeno-porte/index.html",
+      "url": "/coleira-gps-cachorro-pequeno-porte/",
+      "slug": "coleira-gps-cachorro-pequeno-porte",
+      "page_type": "post",
+      "title": "Coleira GPS para Cachorro de Pequeno Porte: O Que Considerar",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "coleira-gps-cachorro-que-foge/index.html",
+      "url": "/coleira-gps-cachorro-que-foge/",
+      "slug": "coleira-gps-cachorro-que-foge",
+      "page_type": "post",
+      "title": "Coleira GPS para Cachorro Que Foge Muito: Como Escolher",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "coleira-gps-para-gato/index.html",
+      "url": "/coleira-gps-para-gato/",
+      "slug": "coleira-gps-para-gato",
+      "page_type": "post",
+      "title": "Coleira GPS Funciona em Gatos? O Que Muda em Relação ao Cão",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "coleira-gps-para-pet/index.html",
+      "url": "/coleira-gps-para-pet/",
+      "slug": "coleira-gps-para-pet",
+      "page_type": "post",
+      "title": "Coleira GPS para Cachorro e Gato: Guia Completo 2026",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "coleira-gps-x-microchip/index.html",
+      "url": "/coleira-gps-x-microchip/",
+      "slug": "coleira-gps-x-microchip",
+      "page_type": "post",
+      "title": "Coleira GPS ou Microchip: Qual a Diferença e Quando Usar",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "comedouro-automatico-anti-formiga/index.html",
+      "url": "/comedouro-automatico-anti-formiga/",
+      "slug": "comedouro-automatico-anti-formiga",
+      "page_type": "post",
+      "title": "Comedouro Automático Anti-Formiga: Funciona de Verdade?",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "comedouro-automatico-faz-mal/index.html",
+      "url": "/comedouro-automatico-faz-mal/",
+      "slug": "comedouro-automatico-faz-mal",
+      "page_type": "post",
+      "title": "Comedouro Automático Faz Mal para o Pet? Riscos Reais",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "comedouro-automatico-gato-obeso/index.html",
+      "url": "/comedouro-automatico-gato-obeso/",
+      "slug": "comedouro-automatico-gato-obeso",
+      "page_type": "post",
+      "title": "Comedouro Automático Ajuda no Controle de Peso do Gato?",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "comedouro-automatico-para-pet/index.html",
+      "url": "/comedouro-automatico-para-pet/",
+      "slug": "comedouro-automatico-para-pet",
+      "page_type": "post",
+      "title": "Comedouro Automático para Pet: Guia Completo de 2026",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "comedouro-automatico-para-viagem/index.html",
+      "url": "/comedouro-automatico-para-viagem/",
+      "slug": "comedouro-automatico-para-viagem",
+      "page_type": "post",
+      "title": "Como Preparar o Pet para Usar o Comedouro em Viagens",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "comedouro-automatico-vale-a-pena/index.html",
+      "url": "/comedouro-automatico-vale-a-pena/",
+      "slug": "comedouro-automatico-vale-a-pena",
+      "page_type": "post",
+      "title": "Vale a Pena Comprar um Comedouro Automático? Guia 2026",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "comedouro-cachorro/index.html",
+      "url": "/comedouro-cachorro/",
+      "slug": "comedouro-cachorro",
+      "page_type": "post",
+      "title": "Comedouro para Cachorro com Suporte Baia: Review 2026",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "comedouro-com-ou-sem-wifi/index.html",
+      "url": "/comedouro-com-ou-sem-wifi/",
+      "slug": "comedouro-com-ou-sem-wifi",
+      "page_type": "post",
+      "title": "Comedouro Automático Com ou Sem Wi-Fi: Qual Escolher?",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "DESCRIPTION_TOO_LONG",
+          "category": "metadata",
+          "severity": "INFO",
+          "evidence": "meta description com 161 caracteres (recomendado até 160)",
+          "recommendation": "Considerar encurtar para reduzir risco de truncamento no SERP."
+        }
+      ]
+    },
+    {
+      "path": "comedouro-gato-x-cachorro-diferenca/index.html",
+      "url": "/comedouro-gato-x-cachorro-diferenca/",
+      "slug": "comedouro-gato-x-cachorro-diferenca",
+      "page_type": "post",
+      "title": "Comedouro Automático para Gato x Cachorro: Qual a Diferença?",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "comedouro-newpet-2l-review/index.html",
+      "url": "/comedouro-newpet-2l-review/",
+      "slug": "comedouro-newpet-2l-review",
+      "page_type": "post",
+      "title": "Comedouro Automático Newpet 2L: Vale a Pena? Review",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "comedouro-newpet-4l-review/index.html",
+      "url": "/comedouro-newpet-4l-review/",
+      "slug": "comedouro-newpet-4l-review",
+      "page_type": "post",
+      "title": "Comedouro Newpet 4L: Review Completo (Vale a Pena?)",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "comedouro-vdrbg-4l-wifi-review/index.html",
+      "url": "/comedouro-vdrbg-4l-wifi-review/",
+      "slug": "comedouro-vdrbg-4l-wifi-review",
+      "page_type": "post",
+      "title": "Comedouro VDRBG 4L Wi-Fi: Vale a Pena Comprar? Review",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "comedouro-x-bebedouro-automatico/index.html",
+      "url": "/comedouro-x-bebedouro-automatico/",
+      "slug": "comedouro-x-bebedouro-automatico",
+      "page_type": "post",
+      "title": "Comedouro x Bebedouro Automático: Você Precisa dos Dois?",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "como-configurar-camera-pet-wifi/index.html",
+      "url": "/como-configurar-camera-pet-wifi/",
+      "slug": "como-configurar-camera-pet-wifi",
+      "page_type": "post",
+      "title": "Como Configurar a Câmera Pet no Wi-Fi (Sem Erros de Conexão)",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "como-escolher-brinquedo-interativo-gato-entediado/index.html",
+      "url": "/como-escolher-brinquedo-interativo-gato-entediado/",
+      "slug": "como-escolher-brinquedo-interativo-gato-entediado",
+      "page_type": "post",
+      "title": "Como Escolher Brinquedo Interativo para Gato Entediado",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "como-funciona-coleira-gps-cachorro/index.html",
+      "url": "/como-funciona-coleira-gps-cachorro/",
+      "slug": "como-funciona-coleira-gps-cachorro",
+      "page_type": "post",
+      "title": "Como Funciona a Coleira GPS para Cachorro: Tipos e Uso",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "como-instalar-porta-eletronica-pet/index.html",
+      "url": "/como-instalar-porta-eletronica-pet/",
+      "slug": "como-instalar-porta-eletronica-pet",
+      "page_type": "post",
+      "title": "Como Instalar Porta Eletrônica para Pet: Passo a Passo",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "como-limpar-comedouro-automatico/index.html",
+      "url": "/como-limpar-comedouro-automatico/",
+      "slug": "como-limpar-comedouro-automatico",
+      "page_type": "post",
+      "title": "Como Limpar o Comedouro Automático do Pet: Guia Rápido",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "configurar-app-comedouro-wifi/index.html",
+      "url": "/configurar-app-comedouro-wifi/",
+      "slug": "configurar-app-comedouro-wifi",
+      "page_type": "post",
+      "title": "Como Configurar o App do Comedouro Automático Wi-Fi",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "contato/index.html",
+      "url": "/contato/",
+      "slug": "contato",
+      "page_type": "institutional",
+      "title": "Contato — Smart Pet Gadgets",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "LOW_INTERNAL_LINKS",
+          "category": "internal_links",
+          "severity": "INFO",
+          "evidence": "Apenas 3 links internos de saída",
+          "recommendation": "Considerar adicionar mais links contextuais para conteúdo relacionado."
+        },
+        {
+          "id": "IMAGE_DIMENSIONS_MISSING",
+          "category": "images",
+          "severity": "INFO",
+          "evidence": "Nenhuma imagem da página declara width/height",
+          "recommendation": "Considerar declarar width/height (ou aspect-ratio via CSS) para reduzir Cumulative Layout Shift."
+        },
+        {
+          "id": "JSONLD_MISSING",
+          "category": "schema",
+          "severity": "INFO",
+          "evidence": "Nenhum bloco JSON-LD encontrado na página",
+          "recommendation": "Adicionar structured data apropriado ao tipo de página (BlogPosting para posts, Organization/WebSite para institucionais)."
+        }
+      ]
+    },
+    {
+      "path": "duvidas-brinquedo-interativo-gato/index.html",
+      "url": "/duvidas-brinquedo-interativo-gato/",
+      "slug": "duvidas-brinquedo-interativo-gato",
+      "page_type": "post",
+      "title": "Brinquedo Interativo para Gato: Perguntas Frequentes",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "duvidas-camera-para-monitorar-pet/index.html",
+      "url": "/duvidas-camera-para-monitorar-pet/",
+      "slug": "duvidas-camera-para-monitorar-pet",
+      "page_type": "post",
+      "title": "Câmera para Monitorar Pet: Perguntas Frequentes (FAQ)",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "duvidas-coleira-gps-pet/index.html",
+      "url": "/duvidas-coleira-gps-pet/",
+      "slug": "duvidas-coleira-gps-pet",
+      "page_type": "post",
+      "title": "Coleira GPS para Pet: Perguntas Frequentes Respondidas",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "duvidas-porta-eletronica-pet/index.html",
+      "url": "/duvidas-porta-eletronica-pet/",
+      "slug": "duvidas-porta-eletronica-pet",
+      "page_type": "post",
+      "title": "Porta Eletrônica para Pet: Perguntas Frequentes (FAQ)",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "erros-comuns-brinquedo-interativo-gato/index.html",
+      "url": "/erros-comuns-brinquedo-interativo-gato/",
+      "slug": "erros-comuns-brinquedo-interativo-gato",
+      "page_type": "post",
+      "title": "Erros Comuns ao Usar Brinquedo Interativo para Gato",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "erros-comuns-camera-monitorar-pet/index.html",
+      "url": "/erros-comuns-camera-monitorar-pet/",
+      "slug": "erros-comuns-camera-monitorar-pet",
+      "page_type": "post",
+      "title": "Erros Comuns ao Usar Câmera para Monitorar Pet em Casa",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "erros-comuns-coleira-gps-pet/index.html",
+      "url": "/erros-comuns-coleira-gps-pet/",
+      "slug": "erros-comuns-coleira-gps-pet",
+      "page_type": "post",
+      "title": "Erros Comuns ao Usar Coleira GPS no Pet (E Como Evitar)",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "erros-comuns-porta-eletronica-pet/index.html",
+      "url": "/erros-comuns-porta-eletronica-pet/",
+      "slug": "erros-comuns-porta-eletronica-pet",
+      "page_type": "post",
+      "title": "Erros Comuns ao Instalar e Usar Porta Eletrônica para Pet",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "index.html",
+      "url": "/",
+      "slug": null,
+      "page_type": "home",
+      "title": "Smart Pet Gadgets — Cuidados e Produtos para Cães e Gatos",
+      "status": "warning",
+      "issues": [
+        {
+          "id": "DESCRIPTION_TOO_LONG",
+          "category": "metadata",
+          "severity": "INFO",
+          "evidence": "meta description com 168 caracteres (recomendado até 160)",
+          "recommendation": "Considerar encurtar para reduzir risco de truncamento no SERP."
+        },
+        {
+          "id": "IMAGE_COUNT_HIGH",
+          "category": "images",
+          "severity": "INFO",
+          "evidence": "68 imagens na página (acima de 15)",
+          "recommendation": "Revisar se todas as imagens têm contexto/valor editorial claro, ou se algumas podem ser removidas/otimizadas."
+        },
+        {
+          "id": "FAQ_HEADING_WITHOUT_SCHEMA",
+          "category": "faq",
+          "severity": "WARNING",
+          "evidence": "Heading menciona FAQ/perguntas frequentes, mas não há schema FAQPage correspondente",
+          "recommendation": "Adicionar JSON-LD FAQPage para tornar o conteúdo elegível a rich results de FAQ."
+        }
+      ]
+    },
+    {
+      "path": "melhor-alimentador-automatico-gatos/index.html",
+      "url": "/melhor-alimentador-automatico-gatos/",
+      "slug": "melhor-alimentador-automatico-gatos",
+      "page_type": "post",
+      "title": "Melhor Alimentador Automático para Gatos: Guia 2026",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "melhor-bebedouro-automatico-pet/index.html",
+      "url": "/melhor-bebedouro-automatico-pet/",
+      "slug": "melhor-bebedouro-automatico-pet",
+      "page_type": "post",
+      "title": "Melhor Bebedouro Automático para Pet: Como Escolher",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "melhor-bolinha-inteligente-para-gato/index.html",
+      "url": "/melhor-bolinha-inteligente-para-gato/",
+      "slug": "melhor-bolinha-inteligente-para-gato",
+      "page_type": "post",
+      "title": "Melhor Bolinha Inteligente para Gato: Como Escolher",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "CONTENT_BRIEF",
+          "category": "content",
+          "severity": "INFO",
+          "evidence": "388 palavras detectadas (entre 300 e 400)",
+          "recommendation": "Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva."
+        },
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "melhor-camera-para-monitorar-pet/index.html",
+      "url": "/melhor-camera-para-monitorar-pet/",
+      "slug": "melhor-camera-para-monitorar-pet",
+      "page_type": "post",
+      "title": "Melhor Câmera para Monitorar Pet: Modelos Recomendados",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "melhor-coleira-gps-sem-mensalidade/index.html",
+      "url": "/melhor-coleira-gps-sem-mensalidade/",
+      "slug": "melhor-coleira-gps-sem-mensalidade",
+      "page_type": "post",
+      "title": "Melhor Coleira GPS Sem Mensalidade: Como Escolher a Sua",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "melhor-comedouro-automatico-cachorro/index.html",
+      "url": "/melhor-comedouro-automatico-cachorro/",
+      "slug": "melhor-comedouro-automatico-cachorro",
+      "page_type": "post",
+      "title": "Melhor Comedouro Automático para Cachorro: Guia 2026",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "melhor-comedouro-interativo-gato/index.html",
+      "url": "/melhor-comedouro-interativo-gato/",
+      "slug": "melhor-comedouro-interativo-gato",
+      "page_type": "post",
+      "title": "Melhor Comedouro Interativo para Gato: Guia Completo 2026",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "politica-editorial/index.html",
+      "url": "/politica-editorial/",
+      "slug": "politica-editorial",
+      "page_type": "institutional",
+      "title": "Política Editorial e de Afiliados — Smart Pet Gadgets",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "LOW_INTERNAL_LINKS",
+          "category": "internal_links",
+          "severity": "INFO",
+          "evidence": "Apenas 3 links internos de saída",
+          "recommendation": "Considerar adicionar mais links contextuais para conteúdo relacionado."
+        },
+        {
+          "id": "IMAGE_DIMENSIONS_MISSING",
+          "category": "images",
+          "severity": "INFO",
+          "evidence": "Nenhuma imagem da página declara width/height",
+          "recommendation": "Considerar declarar width/height (ou aspect-ratio via CSS) para reduzir Cumulative Layout Shift."
+        },
+        {
+          "id": "JSONLD_MISSING",
+          "category": "schema",
+          "severity": "INFO",
+          "evidence": "Nenhum bloco JSON-LD encontrado na página",
+          "recommendation": "Adicionar structured data apropriado ao tipo de página (BlogPosting para posts, Organization/WebSite para institucionais)."
+        }
+      ]
+    },
+    {
+      "path": "porta-eletronica-automatica-para-pet/index.html",
+      "url": "/porta-eletronica-automatica-para-pet/",
+      "slug": "porta-eletronica-automatica-para-pet",
+      "page_type": "post",
+      "title": "Porta Eletrônica Automática para Pet: Guia Completo",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "porta-eletronica-funciona-porta-de-vidro/index.html",
+      "url": "/porta-eletronica-funciona-porta-de-vidro/",
+      "slug": "porta-eletronica-funciona-porta-de-vidro",
+      "page_type": "post",
+      "title": "Porta Eletrônica para Pet Funciona em Porta de Vidro?",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "porta-eletronica-gato-x-cachorro-diferenca/index.html",
+      "url": "/porta-eletronica-gato-x-cachorro-diferenca/",
+      "slug": "porta-eletronica-gato-x-cachorro-diferenca",
+      "page_type": "post",
+      "title": "Porta Eletrônica para Gato x Cachorro: Qual a Diferença?",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "porta-eletronica-impede-entrada-outros-animais/index.html",
+      "url": "/porta-eletronica-impede-entrada-outros-animais/",
+      "slug": "porta-eletronica-impede-entrada-outros-animais",
+      "page_type": "post",
+      "title": "Porta Eletrônica Impede a Entrada de Outros Animais?",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "CONTENT_BRIEF",
+          "category": "content",
+          "severity": "INFO",
+          "evidence": "365 palavras detectadas (entre 300 e 400)",
+          "recommendation": "Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva."
+        },
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "porta-eletronica-microchip-x-rfid-coleira/index.html",
+      "url": "/porta-eletronica-microchip-x-rfid-coleira/",
+      "slug": "porta-eletronica-microchip-x-rfid-coleira",
+      "page_type": "post",
+      "title": "Porta Eletrônica: Microchip ou Medalhão RFID na Coleira?",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "CONTENT_BRIEF",
+          "category": "content",
+          "severity": "INFO",
+          "evidence": "395 palavras detectadas (entre 300 e 400)",
+          "recommendation": "Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva."
+        },
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "porta-eletronica-reconhecimento-facial-vale-a-pena/index.html",
+      "url": "/porta-eletronica-reconhecimento-facial-vale-a-pena/",
+      "slug": "porta-eletronica-reconhecimento-facial-vale-a-pena",
+      "page_type": "post",
+      "title": "Porta Eletrônica com Reconhecimento Facial: Vale a Pena?",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "CONTENT_BRIEF",
+          "category": "content",
+          "severity": "INFO",
+          "evidence": "366 palavras detectadas (entre 300 e 400)",
+          "recommendation": "Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva."
+        },
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "porta-eletronica-sensor-de-luz-como-funciona/index.html",
+      "url": "/porta-eletronica-sensor-de-luz-como-funciona/",
+      "slug": "porta-eletronica-sensor-de-luz-como-funciona",
+      "page_type": "post",
+      "title": "Porta Eletrônica com Sensor de Luz para Pet: Como Funciona",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "porta-eletronica-x-alcapao-tradicional/index.html",
+      "url": "/porta-eletronica-x-alcapao-tradicional/",
+      "slug": "porta-eletronica-x-alcapao-tradicional",
+      "page_type": "post",
+      "title": "Porta Eletrônica ou Alçapão Tradicional: Qual Escolher?",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "CONTENT_BRIEF",
+          "category": "content",
+          "severity": "INFO",
+          "evidence": "397 palavras detectadas (entre 300 e 400)",
+          "recommendation": "Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva."
+        },
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
+      "path": "sobre/index.html",
+      "url": "/sobre/",
+      "slug": "sobre",
+      "page_type": "institutional",
+      "title": "Sobre o Smart Pet Gadgets",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "IMAGE_DIMENSIONS_MISSING",
+          "category": "images",
+          "severity": "INFO",
+          "evidence": "Nenhuma imagem da página declara width/height",
+          "recommendation": "Considerar declarar width/height (ou aspect-ratio via CSS) para reduzir Cumulative Layout Shift."
+        },
+        {
+          "id": "JSONLD_MISSING",
+          "category": "schema",
+          "severity": "INFO",
+          "evidence": "Nenhum bloco JSON-LD encontrado na página",
+          "recommendation": "Adicionar structured data apropriado ao tipo de página (BlogPosting para posts, Organization/WebSite para institucionais)."
+        }
+      ]
+    },
+    {
+      "path": "soprador-pet/index.html",
+      "url": "/soprador-pet/",
+      "slug": "soprador-pet",
+      "page_type": "post",
+      "title": "Soprador Pet de Dois Motores: Vale a Pena? Guia 2026",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "tapete-higienico-para-cachorro/index.html",
+      "url": "/tapete-higienico-para-cachorro/",
+      "slug": "tapete-higienico-para-cachorro",
+      "page_type": "post",
+      "title": "Tapete Higiênico para Cachorro: Vale a Pena? Review 2026",
+      "status": "pass",
+      "issues": []
+    }
+  ]
+}
