@@ -1,3 +1,7 @@
 .tmp_*
 *.env
 .env
+
+# tools/* (V2) — dependências instaladas via npm (package-lock.json É versionado
+# para reprodutibilidade; só node_modules/ fica de fora)
+tools/**/node_modules/
