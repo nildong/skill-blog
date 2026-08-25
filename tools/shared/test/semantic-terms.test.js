@@ -66,6 +66,27 @@ test('sharedTermsWeighted: prioriza termos de nicho sobre termos genéricos', ()
   assert.ok(shared.includes('coleira') || shared.includes('gps'));
 });
 
+// -------------------------------------------------------- Fase 4.1
+
+test('termWeight: "pet" e "automatico" têm peso reduzido (Fase 4.1 — achado real de falso positivo)', () => {
+  assert.equal(termWeight('pet'), GENERIC_TERM_WEIGHT);
+  assert.equal(termWeight('automatico'), GENERIC_TERM_WEIGHT);
+});
+
+test('weightedOverlapCoefficient: temas diferentes de produto (gatos vs cachorro) não são inflados por "melhor/automático/pet/guia/2026"', () => {
+  const a = extractTerms('Melhor Alimentador Automático para Gatos: Guia 2026');
+  const b = extractTerms('Melhor Comedouro Automático para Cachorro: Guia 2026');
+  const overlap = weightedOverlapCoefficient(a, b);
+  assert.ok(overlap < 0.3, `esperado overlap baixo (gatos != cachorro), obtido ${overlap}`);
+});
+
+test('weightedOverlapCoefficient: conflito real entre reviews da mesma linha de produto continua alto mesmo após Fase 4.1', () => {
+  const a = extractTerms('Comedouro Automático Newpet 2L: Vale a Pena? Review');
+  const b = extractTerms('Comedouro Newpet 4L: Review Completo (Vale a Pena?)');
+  const overlap = weightedOverlapCoefficient(a, b);
+  assert.ok(overlap > 0.5, `esperado overlap alto (mesmo produto "Newpet"), obtido ${overlap}`);
+});
+
 test('sharedTermsWeighted: cai para termos genéricos só se não houver termo de nicho em comum', () => {
   const a = extractTerms('coleira gps guia completo 2026');
   const b = extractTerms('comedouro automatico guia completo 2026');

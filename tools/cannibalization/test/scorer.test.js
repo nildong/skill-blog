@@ -125,6 +125,32 @@ test('scorer: dois conteúdos realmente concorrentes (mesmo formato, nenhum é p
   assert.ok(score >= 40, `esperado score real de possível canibalização, obtido ${score}`);
 });
 
+// ------------------------------------------------------------- Fase 4.2
+
+test('scorer: pilar + satélite INFORMATIONAL do mesmo cluster (sem prefixo de slug) -> complementary (achado real da Fase 4.1)', () => {
+  const pillarPost = post({ slug: 'porta-eletronica-automatica-para-pet', title: 'Porta Eletrônica Automática para Pet: Guia Completo' });
+  const informationalSatellite = post({ slug: 'porta-eletronica-impede-entrada-outros-animais', title: 'Porta Eletrônica Impede a Entrada de Outros Animais?' });
+
+  const a = profileFor(pillarPost, 'porta eletronica pet automatica microchip rfid sensor instalacao outros animais entrada');
+  const b = profileFor(informationalSatellite, 'porta eletronica pet impede entrada outros animais microchip rfid sensor');
+
+  const { level, relationship, score } = scoreCannibalization(a, b, pillarPost, informationalSatellite, { inboundCount: 23 }, { inboundCount: 4 });
+  assert.equal(relationship, 'pillar_satellite');
+  assert.equal(level, 'complementary');
+  assert.ok(score >= 60, `esperado score alto para confirmar que a evidência de overlap era real, obtido ${score}`);
+});
+
+test('scorer: pilar + página INFORMATIONAL de outro cluster (baixo overlap) NÃO vira pillar_satellite', () => {
+  const pillarPost = post({ slug: 'coleira-gps-para-pet', title: 'Coleira GPS para Cachorro e Gato: Guia Completo' });
+  const unrelatedInformational = post({ slug: 'algum-post-sem-prefixo', title: 'Assunto Totalmente Diferente Sobre Outro Tema' });
+
+  const a = profileFor(pillarPost, 'coleira gps rastreamento bateria bluetooth sinal chip localizacao');
+  const b = profileFor(unrelatedInformational, 'assunto totalmente diferente outro tema nada a ver');
+
+  const { relationship } = scoreCannibalization(a, b, pillarPost, unrelatedInformational, { inboundCount: 24 }, { inboundCount: 2 });
+  assert.notEqual(relationship, 'pillar_satellite');
+});
+
 test('scorer: how_to + troubleshooting sobre o mesmo tema (nenhum é pilar) -> complementary (não high automático)', () => {
   const howToPost = post({ slug: 'como-instalar-porta-eletronica-pet', title: 'Como Instalar Porta Eletrônica para Pet: Passo a Passo' });
   const troubleshootingPost = post({ slug: 'erros-comuns-porta-eletronica-pet', title: 'Erros Comuns ao Instalar Porta Eletrônica para Pet' });

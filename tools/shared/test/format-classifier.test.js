@@ -120,3 +120,31 @@ test('relationshipType: dois PILLAR -> different_format (não pillar_satellite, 
 test('relationshipType: UNKNOWN de qualquer lado -> unknown', () => {
   assert.equal(relationshipType(FORMATS.UNKNOWN, FORMATS.FAQ), 'unknown');
 });
+
+// -------------------------------------------------------- Fase 4.2
+
+test('relationshipType: PILLAR + INFORMATIONAL sem evidência de cluster (sem 3º argumento) -> different_format, NÃO pillar_satellite', () => {
+  assert.equal(relationshipType(FORMATS.PILLAR, FORMATS.INFORMATIONAL), 'different_format');
+});
+
+test('relationshipType: PILLAR + INFORMATIONAL com overlap topical baixo -> different_format', () => {
+  assert.equal(relationshipType(FORMATS.PILLAR, FORMATS.INFORMATIONAL, { topicalOverlap: 0.1 }), 'different_format');
+});
+
+test('relationshipType: PILLAR + INFORMATIONAL com overlap topical acima do threshold -> pillar_satellite (achado real: porta-eletronica-impede-entrada-outros-animais)', () => {
+  assert.equal(relationshipType(FORMATS.PILLAR, FORMATS.INFORMATIONAL, { topicalOverlap: 0.5 }), 'pillar_satellite');
+});
+
+test('relationshipType: PILLAR + INSTITUTIONAL nunca vira pillar_satellite, mesmo com overlap topical alto (institucional não é INFORMATIONAL)', () => {
+  assert.equal(relationshipType(FORMATS.PILLAR, FORMATS.INSTITUTIONAL, { topicalOverlap: 0.9 }), 'different_format');
+});
+
+test('relationshipType: PILLAR + INFORMATIONAL com overlap exatamente no threshold -> pillar_satellite (limite inclusivo)', () => {
+  assert.equal(relationshipType(FORMATS.PILLAR, FORMATS.INFORMATIONAL, { topicalOverlap: 0.34 }), 'pillar_satellite');
+});
+
+test('detectFormat: página institucional nunca recebe format INFORMATIONAL (garante que a evidência de overlap nunca se aplica a institucionais)', () => {
+  const institutional = { slug: 'sobre', title: 'Sobre Nós Guia Completo', page_type: 'institutional', headings: [], faq: {}, content: { word_count: 100 }, heading_summary: { h2_count: 0 } };
+  assert.equal(detectFormat(institutional), FORMATS.INSTITUTIONAL);
+  assert.notEqual(detectFormat(institutional), FORMATS.INFORMATIONAL);
+});

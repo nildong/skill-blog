@@ -157,7 +157,38 @@ function isDifferentiatedSatellitePair(formatA, formatB) {
   return isSpecificFormat(formatA) && isSpecificFormat(formatB);
 }
 
-function relationshipType(formatA, formatB) {
+/**
+ * Threshold de evidência para reconhecer um satélite SEM prefixo de slug
+ * reconhecido (`format: informational`) como pertencente ao cluster de um
+ * pilar específico (Fase 4.2). Mesmo valor conservador já usado pela
+ * heurística fraca de cluster do Content Strategy Engine
+ * (`tools/content-strategy/src/classifier.js#WEAK_CLUSTER_OVERLAP_
+ * THRESHOLD`) — reaproveitado aqui em vez de inventar um novo número.
+ *
+ * Achado real que motivou isso: `porta-eletronica-automatica-para-pet`
+ * (PILLAR) ↔ `porta-eletronica-impede-entrada-outros-animais`
+ * (INFORMATIONAL — sem prefixo `duvidas-`/`erros-comuns-`/etc.) é um
+ * satélite genuíno do mesmo cluster, mas sem esta evidência ficava
+ * indistinguível de uma página informational de OUTRO cluster qualquer.
+ */
+const INFORMATIONAL_SATELLITE_MIN_OVERLAP = 0.34;
+
+/**
+ * `evidence.topicalOverlap` (0-1, opcional) é a evidência de
+ * pertencimento ao mesmo cluster — tipicamente a média de overlap
+ * ponderado de título+slug entre as duas páginas, já calculada pelo
+ * chamador (scorer.js de Internal Linking/Cannibalization) antes de
+ * chamar esta função. Sem essa evidência (chamada antiga, sem 3º
+ * argumento), o comportamento é idêntico ao anterior à Fase 4.2 —
+ * mudança aditiva, retrocompatível.
+ *
+ * IMPORTANTE: páginas INSTITUTIONAL nunca chegam a este branch — o
+ * próprio `detectFormat()` já as classifica como FORMATS.INSTITUTIONAL
+ * (não FORMATS.INFORMATIONAL) antes de qualquer outra checagem, para
+ * qualquer `page_type !== 'post'`. Esta função não precisa (e não deve)
+ * reimplementar essa distinção — ela já vem garantida na origem.
+ */
+function relationshipType(formatA, formatB, evidence = {}) {
   if (formatA === FORMATS.UNKNOWN || formatB === FORMATS.UNKNOWN) return 'unknown';
 
   const isPillarA = formatA === FORMATS.PILLAR;
@@ -166,6 +197,11 @@ function relationshipType(formatA, formatB) {
   if (isPillarA !== isPillarB) {
     const satelliteFormat = isPillarA ? formatB : formatA;
     if (SATELLITE_FORMATS.has(satelliteFormat)) return 'pillar_satellite';
+
+    if (satelliteFormat === FORMATS.INFORMATIONAL) {
+      const overlap = evidence.topicalOverlap || 0;
+      if (overlap >= INFORMATIONAL_SATELLITE_MIN_OVERLAP) return 'pillar_satellite';
+    }
   }
 
   if (formatA === formatB) return 'same_format';
@@ -179,6 +215,7 @@ module.exports = {
   FORMATS,
   SATELLITE_FORMATS,
   PILLAR_MIN_INBOUND,
+  INFORMATIONAL_SATELLITE_MIN_OVERLAP,
   detectFormat,
   relationshipType,
   isSpecificFormat,

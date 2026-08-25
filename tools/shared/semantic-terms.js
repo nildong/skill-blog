@@ -19,6 +19,16 @@ const GENERIC_EDITORIAL_TERMS = new Set([
   'definitivo', 'definitiva', 'passo', 'passos', 'ideal', 'saiba',
   'conheca', 'descubra', 'top', 'atualizado', 'atualizada', 'novo', 'nova',
   'completo2026', // defensivo — não deve ocorrer após tokenize, mantido caso mude a regra de split
+  // Adicionados na Fase 4.1: termos que aparecem em quase todo título do
+  // site (é um blog de produtos PET, a maioria "AUTOMÁTICO"), com baixo
+  // poder discriminativo NESTE corpus específico — não são stopwords
+  // universais do português, mas são "boilerplate" para este nicho.
+  // Achado real: "Melhor Alimentador Automático para Gatos: Guia 2026"
+  // vs "Melhor Comedouro Automático para Cachorro: Guia 2026" pontuava
+  // por "automático" sozinho contribuir ~30% do overlap de título, apesar
+  // de "gatos" vs "cachorro" (os termos que realmente diferenciam os dois
+  // produtos) serem completamente distintos. Ver histórico da Fase 4.1.
+  'pet', 'automatico', 'automatica',
 ]);
 
 const YEAR_TERM_RE = /^(19|20)\d{2}$/;

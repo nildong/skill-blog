@@ -1,0 +1,15 @@
+{
+  "name": "content-strategy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Camada de priorização editorial (Content Strategy Engine): cruza site-index, seo-audit, internal-linking e cannibalization para responder 'o que criar, melhorar ou atualizar primeiro?'. Não escreve artigos, não modifica HTML. Parte da V2 (skill-blog).",
+  "main": "src/index.js",
+  "scripts": {
+    "strategy": "node src/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18"
+  }
+}

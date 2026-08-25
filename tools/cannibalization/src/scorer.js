@@ -80,7 +80,11 @@ function scoreCannibalization(profileA, profileB, postA, postB, contextA = {}, c
 
   const formatA = detectFormat(postA, contextA);
   const formatB = detectFormat(postB, contextB);
-  const relationship = relationshipType(formatA, formatB);
+  // Evidência de pertencimento ao mesmo cluster (Fase 4.2), usada só
+  // quando um dos lados é INFORMATIONAL sem prefixo de slug reconhecido —
+  // ver tools/shared/format-classifier.js#relationshipType.
+  const topicalOverlap = (titleOverlap + slugOverlap) / 2;
+  const relationship = relationshipType(formatA, formatB, { topicalOverlap });
 
   const differentiationSignals = [];
   if (relationship === 'pillar_satellite') {

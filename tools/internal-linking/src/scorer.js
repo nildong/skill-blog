@@ -73,7 +73,10 @@ function scoreRelation(profileA, profileB, postA, postB, contextA = {}, contextB
 
   const formatA = detectFormat(postA, contextA);
   const formatB = detectFormat(postB, contextB);
-  const relationship = relationshipType(formatA, formatB);
+  // Evidência de pertencimento ao mesmo cluster (Fase 4.2) — ver
+  // tools/shared/format-classifier.js#relationshipType.
+  const topicalOverlap = (titleOverlap + slugOverlap) / 2;
+  const relationship = relationshipType(formatA, formatB, { topicalOverlap });
 
   const baseScore = titleOverlap * WEIGHTS.TITLE + headingOverlap * WEIGHTS.HEADING + contentOverlap * WEIGHTS.CONTENT + slugOverlap * WEIGHTS.SLUG + (sameCluster ? WEIGHTS.CLUSTER : 0);
   const isPillarSatellite = relationship === 'pillar_satellite' && baseScore >= PILLAR_SATELLITE_MIN_BASE;
