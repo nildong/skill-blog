@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "generated_at": "2026-08-26T21:32:54.975Z",
+  "slug": "comedouro-automatico-para-dois-gatos",
+  "status": "APPROVED",
+  "summary": {
+    "blockers": 0,
+    "warnings": 1,
+    "info": 1
+  },
+  "findings": [
+    {
+      "id": "TITLE_TOO_LONG",
+      "category": "seo_metadata",
+      "severity": "INFO",
+      "evidence": "Title com 74 caracteres (recomendado até 60)",
+      "recommendation": "Considerar encurtar o title para reduzir risco de truncamento no SERP."
+    },
+    {
+      "id": "CANNIBALIZATION_MEDIUM",
+      "category": "cannibalization",
+      "severity": "WARNING",
+      "evidence": "Possível canibalização MEDIUM (score 48) com \"Vale a Pena Comprar um Comedouro Automático? Guia 2026\" (/comedouro-automatico-vale-a-pena/).",
+      "recommendation": "Documentar a justificativa de diferenciação (seção 3 do brief) antes de publicar."
+    }
+  ],
+  "note": "Nenhum defeito estrutural conhecido foi encontrado. Isto NÃO é uma avaliação de qualidade editorial — apenas ausência de violações estruturais detectáveis automaticamente. Revisão humana de conteúdo continua recomendada."
+}

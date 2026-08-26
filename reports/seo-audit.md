@@ -1,15 +1,15 @@
 # SEO Audit
 
-**Gerado em:** 2026-08-26T19:52:22.663Z
+**Gerado em:** 2026-08-26T21:37:59.288Z
 
 ## Summary
 
-Total de páginas: 72
+Total de páginas: 73
 
 🔴 Critical: 0
 🟠 Errors: 0
 🟡 Warnings: 1
-🔵 Info: 59
+🔵 Info: 60
 
 ### Top Priorities
 
@@ -115,6 +115,9 @@ Nenhum item nesta severidade.
 - **FAQ_OPPORTUNITY** (faq) — `/coleira-gps-x-microchip/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
+- **TITLE_TOO_LONG** (metadata) — `/comedouro-automatico-para-dois-gatos/`
+  - Evidência: Title com 74 caracteres (recomendado até 60)
+  - Recomendação: Considerar encurtar o title para reduzir risco de truncamento no SERP.
 - **FAQ_OPPORTUNITY** (faq) — `/como-configurar-camera-pet-wifi/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
@@ -149,7 +152,7 @@ Nenhum item nesta severidade.
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
 - **IMAGE_COUNT_HIGH** (images) — `/`
-  - Evidência: 68 imagens na página (acima de 15)
+  - Evidência: 69 imagens na página (acima de 15)
   - Recomendação: Revisar se todas as imagens têm contexto/valor editorial claro, ou se algumas podem ser removidas/otimizadas.
 - **CONTENT_BRIEF** (content) — `/melhor-bolinha-inteligente-para-gato/`
   - Evidência: 388 palavras detectadas (entre 300 e 400)
@@ -223,7 +226,7 @@ Nenhum item nesta severidade.
 | Categoria | Critical | Error | Warning | Info |
 |---|---:|---:|---:|---:|
 | technical | 0 | 0 | 0 | 0 |
-| metadata | 0 | 0 | 0 | 0 |
+| metadata | 0 | 0 | 0 | 1 |
 | headings | 0 | 0 | 0 | 0 |
 | content | 0 | 0 | 0 | 12 |
 | internal_links | 0 | 0 | 0 | 2 |
@@ -244,7 +247,7 @@ Nenhum item encontrado nesta categoria.
 
 ## Metadata
 
-Nenhum item encontrado nesta categoria.
+- 🔵 **TITLE_TOO_LONG** — `/comedouro-automatico-para-dois-gatos/` — Title com 74 caracteres (recomendado até 60)
 
 ## Headings
 
@@ -269,7 +272,7 @@ Nenhum item encontrado nesta categoria.
 
 - 🔵 **IMAGE_DIMENSIONS_MISSING** — `/autores/nildo-alves/` — Nenhuma imagem da página declara width/height
 - 🔵 **IMAGE_DIMENSIONS_MISSING** — `/contato/` — Nenhuma imagem da página declara width/height
-- 🔵 **IMAGE_COUNT_HIGH** — `/` — 68 imagens na página (acima de 15)
+- 🔵 **IMAGE_COUNT_HIGH** — `/` — 69 imagens na página (acima de 15)
 - 🔵 **IMAGE_DIMENSIONS_MISSING** — `/politica-editorial/` — Nenhuma imagem da página declara width/height
 - 🔵 **IMAGE_DIMENSIONS_MISSING** — `/sobre/` — Nenhuma imagem da página declara width/height
 

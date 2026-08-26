@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "generated_at": "2026-08-26T21:21:20.786Z",
+  "slug": "comedouro-automatico-para-dois-gatos",
+  "theme": "Comedouro Automático para Dois Gatos",
+  "keyword_candidate": "comedouro automático para dois gatos",
+  "type_candidate": null,
+  "cluster_candidate": "comedouro-automatico-para-pet",
+  "personal_experience_confirmed": false,
+  "status": "proposed",
+  "notes": "Proposta inicial, ainda não validada. type_candidate e cluster_candidate são hipóteses do usuário/agente, sujeitas a revisão nas etapas de intent/cluster/cannibalization do preflight — não são decisões finais."
+}

@@ -1,0 +1,99 @@
+{
+  "version": 2,
+  "generated_at": "2026-08-26T21:21:41.905Z",
+  "proposal_slug": "comedouro-automatico-para-dois-gatos",
+  "slug_collision": {
+    "exists": false
+  },
+  "intent": {
+    "version": 1,
+    "input_text": "comedouro automatico para dois gatos comedouro automatico para dois gatos",
+    "primary_intent": "informational",
+    "secondary_intent": null,
+    "funnel_stage": "tofu",
+    "recommended_type": "informational",
+    "matched_rules": [],
+    "rationale": "Nenhum padrão lexical conhecido reconhecido — classificado como informacional/ToFu por padrão conservador, requer revisão humana.",
+    "confidence": "LOW",
+    "keyword_research": {
+      "search_volume_estimate": "não disponível",
+      "keyword_difficulty": "não disponível",
+      "cpc": "não disponível",
+      "current_position": "não disponível",
+      "basis": "Heurística lexical local (padrões de título/keyword observados nos posts existentes) — sem fonte de dados externa. Ver seção \"Keyword Research\" da arquitetura V2 para extensão futura opcional."
+    }
+  },
+  "cluster_check": {
+    "cluster_candidate": "comedouro-automatico-para-pet",
+    "known": true,
+    "is_pillar": true,
+    "detected_format": "pillar",
+    "note": "cluster_candidate corresponde a uma página existente classificada como PILLAR — consistente com um cluster real."
+  },
+  "cannibalization_preview": {
+    "method": "simulate: aproximado (title/slug/headings planejados da proposta — sem conteúdo real, artigo ainda não existe)",
+    "compared_against": 67,
+    "top_matches": [
+      {
+        "slug": "comedouro-automatico-para-pet",
+        "url": "/comedouro-automatico-para-pet/",
+        "title": "Comedouro Automático para Pet: Guia Completo de 2026",
+        "score": 43,
+        "level": "COMPLEMENTARY",
+        "relationship": "pillar_satellite",
+        "differentiation_signals": [
+          "relação pilar↔satélite (página B é o pilar; a outra é do formato \"informational\") — complementar, não concorrente"
+        ]
+      },
+      {
+        "slug": "comedouro-x-bebedouro-automatico",
+        "url": "/comedouro-x-bebedouro-automatico/",
+        "title": "Comedouro x Bebedouro Automático: Você Precisa dos Dois?",
+        "score": 35,
+        "level": "LOW",
+        "relationship": "different_format",
+        "differentiation_signals": []
+      },
+      {
+        "slug": "comedouro-automatico-vale-a-pena",
+        "url": "/comedouro-automatico-vale-a-pena/",
+        "title": "Vale a Pena Comprar um Comedouro Automático? Guia 2026",
+        "score": 31,
+        "level": "LOW",
+        "relationship": "different_format",
+        "differentiation_signals": []
+      },
+      {
+        "slug": "melhor-alimentador-automatico-gatos",
+        "url": "/melhor-alimentador-automatico-gatos/",
+        "title": "Melhor Alimentador Automático para Gatos: Guia 2026",
+        "score": 26,
+        "level": "LOW",
+        "relationship": "different_format",
+        "differentiation_signals": []
+      },
+      {
+        "slug": "melhor-comedouro-automatico-cachorro",
+        "url": "/melhor-comedouro-automatico-cachorro/",
+        "title": "Melhor Comedouro Automático para Cachorro: Guia 2026",
+        "score": 26,
+        "level": "LOW",
+        "relationship": "different_format",
+        "differentiation_signals": []
+      }
+    ],
+    "worst_level": "LOW",
+    "gate_recommendation": "PROCEED"
+  },
+  "internal_linking_plan": {
+    "method": "simulate: aproximado (headings planejados opcionais da proposta — sem corpo de texto real, artigo ainda não existe)",
+    "should_link_to": [],
+    "should_receive_links_from": []
+  },
+  "limitations": [
+    "Componente de CONTENT do score é sempre 0 aqui (artigo ainda não escrito) — score tende a subestimar o risco real comparado a uma detecção pós-publicação.",
+    "Plano de internal linking usa apenas headings planejados (se informados na proposta) e o corpo de texto real das páginas EXISTENTES — a proposta em si não tem conteúdo real ainda, então o sinal do lado dela é mais fraco que o de um artigo já escrito.",
+    "content-strategy (lacunas/prioridade editorial) ainda não está integrado a este preflight.",
+    "Nenhum dado de volume de busca/dificuldade/CPC/posição é usado — ver keyword_research dentro de intent."
+  ]
+}

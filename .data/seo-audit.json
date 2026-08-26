@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T19:52:22.663Z",
+  "generated_at": "2026-08-26T21:37:59.288Z",
   "site": {
-    "total_pages": 72,
-    "source_index_generated_at": "2026-08-26T19:52:15.415Z"
+    "total_pages": 73,
+    "source_index_generated_at": "2026-08-26T21:37:34.663Z"
   },
   "summary": {
     "critical": 0,
     "errors": 0,
     "warnings": 1,
-    "info": 59
+    "info": 60
   },
   "categories": {
     "technical": {
@@ -22,7 +22,7 @@
       "critical": 0,
       "error": 0,
       "warning": 0,
-      "info": 0
+      "info": 1
     },
     "headings": {
       "critical": 0,
@@ -511,6 +511,23 @@
       "issues": []
     },
     {
+      "path": "comedouro-automatico-para-dois-gatos/index.html",
+      "url": "/comedouro-automatico-para-dois-gatos/",
+      "slug": "comedouro-automatico-para-dois-gatos",
+      "page_type": "post",
+      "title": "Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida",
+      "status": "pass",
+      "issues": [
+        {
+          "id": "TITLE_TOO_LONG",
+          "category": "metadata",
+          "severity": "INFO",
+          "evidence": "Title com 74 caracteres (recomendado até 60)",
+          "recommendation": "Considerar encurtar o title para reduzir risco de truncamento no SERP."
+        }
+      ]
+    },
+    {
       "path": "comedouro-automatico-para-pet/index.html",
       "url": "/comedouro-automatico-para-pet/",
       "slug": "comedouro-automatico-para-pet",
@@ -833,7 +850,7 @@
           "id": "IMAGE_COUNT_HIGH",
           "category": "images",
           "severity": "INFO",
-          "evidence": "68 imagens na página (acima de 15)",
+          "evidence": "69 imagens na página (acima de 15)",
           "recommendation": "Revisar se todas as imagens têm contexto/valor editorial claro, ou se algumas podem ser removidas/otimizadas."
         },
         {

@@ -1,36 +1,36 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T19:52:15.415Z",
+  "generated_at": "2026-08-26T21:37:34.663Z",
   "site": {
     "root": "/home/projetos/blog",
-    "total_html_files_found": 72,
-    "total_posts_indexed": 72,
+    "total_html_files_found": 73,
+    "total_posts_indexed": 73,
     "domain": "smartpetgadgets.com.br"
   },
   "stats": {
-    "total_posts": 72,
+    "total_posts": 73,
     "metadata": {
-      "titles": 72,
-      "descriptions": 72,
-      "canonical": 72
+      "titles": 73,
+      "descriptions": 73,
+      "canonical": 73
     },
     "structure": {
-      "h1_detected": 72,
+      "h1_detected": 73,
       "multiple_h1": 0,
       "no_h1": 0
     },
     "links": {
-      "internal_links": 1091,
-      "external_links": 186
+      "internal_links": 1106,
+      "external_links": 193
     },
     "media": {
-      "images": 165,
+      "images": 167,
       "images_missing_alt": 0,
       "videos": 2
     },
     "schema": {
-      "jsonld_posts": 69,
-      "faqpage_posts": 30,
+      "jsonld_posts": 70,
+      "faqpage_posts": 31,
       "posts_with_invalid_jsonld": 0
     },
     "warnings": 0,
@@ -5811,6 +5811,276 @@
       "date_modified": null
     },
     {
+      "path": "comedouro-automatico-para-dois-gatos/index.html",
+      "slug": "comedouro-automatico-para-dois-gatos",
+      "url_path": "/comedouro-automatico-para-dois-gatos/",
+      "page_type": "post",
+      "title": "Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida",
+      "meta_description": "Descubra como usar um comedouro automático para dois gatos, organizar porções e horários e reduzir disputas pela comida com uma rotina mais tranquila.",
+      "canonical": "https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/",
+      "robots": null,
+      "language": "pt-BR",
+      "charset": "UTF-8",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "É possível usar um comedouro automático para dois gatos?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Por que dois gatos podem brigar pela comida?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Como configurar a alimentação de dois gatos",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Defina horários",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Controle as porções",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Separe os locais de alimentação",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Observe o comportamento dos gatos",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Um comedouro ou dois comedouros?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Comedouro com identificação individual vale a pena?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Erros comuns ao alimentar dois gatos",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Conclusão",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Posso usar o mesmo comedouro automático para dois gatos?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Como configurar porções diferentes para cada gato no comedouro automático?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Um gato pode comer a ração do outro no comedouro automático?",
+          "empty": false
+        }
+      ],
+      "heading_summary": {
+        "total": 16,
+        "h1_count": 1,
+        "h2_count": 8,
+        "h3_count": 7,
+        "h4_count": 0
+      },
+      "structural_warnings": [],
+      "content": {
+        "word_count": 1439,
+        "char_count": 8845,
+        "paragraph_count": 32,
+        "list_count": 0,
+        "table_count": 0,
+        "blockquote_count": 1,
+        "method": "texto de <body> após remover script/style/noscript/nav/header/svg; palavras = split por espaço em branco"
+      },
+      "internal_links": [
+        {
+          "href": "https://smartpetgadgets.com.br/",
+          "anchor_text": "Início",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-automatico-para-pet/",
+          "anchor_text": "Comedouro Automático para Pet",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/autores/nildo-alves/",
+          "anchor_text": "Nildo Alves",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-automatico-para-pet/",
+          "anchor_text": "guia completo de comedouro automático para pet",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/",
+          "anchor_text": "a diferença entre comedouro automático para gato e para cachorro",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/sobre/",
+          "anchor_text": "Equipe Smart Pet Gadgets",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/politica-editorial/",
+          "anchor_text": "política editorial",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/autores/nildo-alves/",
+          "anchor_text": "Nildo Alves",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/sobre/",
+          "anchor_text": "Sobre o Smart Pet Gadgets",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/contato/",
+          "anchor_text": "Contato",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/politica-editorial/",
+          "anchor_text": "Política editorial e de afiliados",
+          "type": "absolute"
+        }
+      ],
+      "external_links": [
+        {
+          "href": "https://hospitalveterinariosaude.com.br/gato-roubando-comida/",
+          "anchor_text": "Hospital Veterinário Saúde",
+          "domain": "hospitalveterinariosaude.com.br"
+        },
+        {
+          "href": "https://www.petlove.com.br/dicas/gatos-brigando-na-hora-de-comer",
+          "anchor_text": "Petlove",
+          "domain": "petlove.com.br"
+        },
+        {
+          "href": "https://www.peritoanimal.com.br/como-fazer-dois-gatos-se-darem-bem-22690.html",
+          "anchor_text": "Peritoanimal",
+          "domain": "peritoanimal.com.br"
+        },
+        {
+          "href": "https://hospitalveterinariosaude.com.br/gato-roubando-comida/",
+          "anchor_text": "Hospital Veterinário Saúde",
+          "domain": "hospitalveterinariosaude.com.br"
+        },
+        {
+          "href": "https://www.petlove.com.br/dicas/gatos-brigando-na-hora-de-comer",
+          "anchor_text": "Petlove",
+          "domain": "petlove.com.br"
+        },
+        {
+          "href": "https://www.peritoanimal.com.br/como-fazer-dois-gatos-se-darem-bem-22690.html",
+          "anchor_text": "Peritoanimal",
+          "domain": "peritoanimal.com.br"
+        },
+        {
+          "href": "https://lista.mercadolivre.com.br/comedouro-automatico?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "anchor_text": "Ver no Mercado Livre →",
+          "domain": "lista.mercadolivre.com.br"
+        }
+      ],
+      "internal_link_count": 11,
+      "external_link_count": 7,
+      "images": [
+        {
+          "src": "img/comedouro-automatico-para-dois-gatos-hero.jpg",
+          "alt": "Dois gatos comendo próximos um do outro, um branco e um laranja, dividindo o mesmo espaço de alimentação",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "1280",
+          "height": "751",
+          "loading": "eager",
+          "format": "jpg"
+        }
+      ],
+      "image_count": 1,
+      "images_missing_alt": 0,
+      "images_empty_alt": 0,
+      "videos": [],
+      "video_count": 0,
+      "has_video": false,
+      "schemas": [
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "BlogPosting"
+          ],
+          "raw_length": 964
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "BreadcrumbList"
+          ],
+          "raw_length": 569
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1531
+        }
+      ],
+      "schema_types": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "schema_count": 3,
+      "schema_invalid_count": 0,
+      "faq": {
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 3
+      },
+      "cluster": null,
+      "category": null,
+      "author": null,
+      "date_published": null,
+      "date_modified": null
+    },
+    {
       "path": "comedouro-automatico-para-pet/index.html",
       "slug": "comedouro-automatico-para-pet",
       "url_path": "/comedouro-automatico-para-pet/",
@@ -5922,9 +6192,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1468,
-        "char_count": 9280,
-        "paragraph_count": 39,
+        "word_count": 1504,
+        "char_count": 9476,
+        "paragraph_count": 40,
         "list_count": 1,
         "table_count": 1,
         "blockquote_count": 2,
@@ -5964,6 +6234,11 @@
         {
           "href": "https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/",
           "anchor_text": "comedouro automático gato x cachorro — diferença detalhada",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/",
+          "anchor_text": "configurar um comedouro automático para dois gatos e evitar brigas na hora da comida",
           "type": "absolute"
         },
         {
@@ -6059,7 +6334,7 @@
           "domain": "lista.mercadolivre.com.br"
         }
       ],
-      "internal_link_count": 19,
+      "internal_link_count": 20,
       "external_link_count": 6,
       "images": [
         {
@@ -11963,6 +12238,11 @@
         },
         {
           "tag": "h3",
+          "text": "Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida",
+          "empty": false
+        },
+        {
+          "tag": "h3",
           "text": "Comedouro Automático Ajuda no Controle de Peso do Gato?",
           "empty": false
         },
@@ -12298,17 +12578,17 @@
         }
       ],
       "heading_summary": {
-        "total": 72,
+        "total": 73,
         "h1_count": 1,
         "h2_count": 1,
-        "h3_count": 70,
+        "h3_count": 71,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 2419,
-        "char_count": 15408,
-        "paragraph_count": 72,
+        "word_count": 2454,
+        "char_count": 15647,
+        "paragraph_count": 73,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -12338,6 +12618,21 @@
         {
           "href": "https://smartpetgadgets.com.br/contato/",
           "anchor_text": "Contato",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/",
+          "anchor_text": "",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/",
+          "anchor_text": "Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/",
+          "anchor_text": "Ler artigo completo →",
           "type": "absolute"
         },
         {
@@ -13367,7 +13662,7 @@
         }
       ],
       "external_links": [],
-      "internal_link_count": 210,
+      "internal_link_count": 213,
       "external_link_count": 0,
       "images": [
         {
@@ -13380,6 +13675,17 @@
           "height": "40",
           "loading": null,
           "format": "png"
+        },
+        {
+          "src": "https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/img/comedouro-automatico-para-dois-gatos-hero.jpg",
+          "alt": "Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": null,
+          "height": null,
+          "loading": "lazy",
+          "format": "jpg"
         },
         {
           "src": "https://smartpetgadgets.com.br/comedouro-automatico-gato-obeso/img/comedouro-automatico-gato-obeso-hero.webp",
@@ -14119,7 +14425,7 @@
           "format": "jpg"
         }
       ],
-      "image_count": 68,
+      "image_count": 69,
       "images_missing_alt": 0,
       "images_empty_alt": 0,
       "videos": [],
