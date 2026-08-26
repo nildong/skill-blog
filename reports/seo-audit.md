@@ -1,6 +1,6 @@
 # SEO Audit
 
-**Gerado em:** 2026-08-25T17:39:35.181Z
+**Gerado em:** 2026-08-26T19:52:22.663Z
 
 ## Summary
 
@@ -9,7 +9,7 @@ Total de páginas: 72
 🔴 Critical: 0
 🟠 Errors: 0
 🟡 Warnings: 1
-🔵 Info: 62
+🔵 Info: 59
 
 ### Top Priorities
 
@@ -67,9 +67,6 @@ Nenhum item nesta severidade.
 - **FAQ_OPPORTUNITY** (faq) — `/brinquedo-interativo-substitui-brincadeira-tutor/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **DESCRIPTION_TOO_LONG** (metadata) — `/camera-para-monitorar-pet/`
-  - Evidência: meta description com 164 caracteres (recomendado até 160)
-  - Recomendação: Considerar encurtar para reduzir risco de truncamento no SERP.
 - **FAQ_OPPORTUNITY** (faq) — `/camera-pet-cachorro-ansiedade-separacao/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
@@ -118,9 +115,6 @@ Nenhum item nesta severidade.
 - **FAQ_OPPORTUNITY** (faq) — `/coleira-gps-x-microchip/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **DESCRIPTION_TOO_LONG** (metadata) — `/comedouro-com-ou-sem-wifi/`
-  - Evidência: meta description com 161 caracteres (recomendado até 160)
-  - Recomendação: Considerar encurtar para reduzir risco de truncamento no SERP.
 - **FAQ_OPPORTUNITY** (faq) — `/como-configurar-camera-pet-wifi/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
@@ -154,9 +148,6 @@ Nenhum item nesta severidade.
 - **FAQ_OPPORTUNITY** (faq) — `/erros-comuns-porta-eletronica-pet/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **DESCRIPTION_TOO_LONG** (metadata) — `/`
-  - Evidência: meta description com 168 caracteres (recomendado até 160)
-  - Recomendação: Considerar encurtar para reduzir risco de truncamento no SERP.
 - **IMAGE_COUNT_HIGH** (images) — `/`
   - Evidência: 68 imagens na página (acima de 15)
   - Recomendação: Revisar se todas as imagens têm contexto/valor editorial claro, ou se algumas podem ser removidas/otimizadas.
@@ -232,7 +223,7 @@ Nenhum item nesta severidade.
 | Categoria | Critical | Error | Warning | Info |
 |---|---:|---:|---:|---:|
 | technical | 0 | 0 | 0 | 0 |
-| metadata | 0 | 0 | 0 | 3 |
+| metadata | 0 | 0 | 0 | 0 |
 | headings | 0 | 0 | 0 | 0 |
 | content | 0 | 0 | 0 | 12 |
 | internal_links | 0 | 0 | 0 | 2 |
@@ -253,9 +244,7 @@ Nenhum item encontrado nesta categoria.
 
 ## Metadata
 
-- 🔵 **DESCRIPTION_TOO_LONG** — `/camera-para-monitorar-pet/` — meta description com 164 caracteres (recomendado até 160)
-- 🔵 **DESCRIPTION_TOO_LONG** — `/comedouro-com-ou-sem-wifi/` — meta description com 161 caracteres (recomendado até 160)
-- 🔵 **DESCRIPTION_TOO_LONG** — `/` — meta description com 168 caracteres (recomendado até 160)
+Nenhum item encontrado nesta categoria.
 
 ## Headings
 

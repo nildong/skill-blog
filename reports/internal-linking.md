@@ -1,11 +1,11 @@
 # Internal Linking — Sugestões
 
-**Gerado em:** 2026-08-25T17:47:56.400Z
+**Gerado em:** 2026-08-26T19:52:29.181Z
 
 ## Resumo
 
 Páginas analisadas: 72
-Total de sugestões: 190
+Total de sugestões: 188
 Sugestões priorizadas por página órfã: 0
 
 **Nota importante:** este relatório contém apenas SUGESTÕES. Nenhum link foi inserido, removido ou alterado em nenhum artigo. Toda inclusão precisa de revisão e ação manual.
@@ -63,14 +63,14 @@ Sugestões priorizadas por página órfã: 0
 17. **/comedouro-automatico-para-pet/** → **/comedouro-vdrbg-4l-wifi-review/** — score 53/100
    - Anchor sugerido: "Como Funciona o App do VDRBG 4L Wi-Fi"
    - Motivo: relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial; similaridade moderada de conteúdo/título/headings
-18. **/melhor-comedouro-automatico-cachorro/** → **/comedouro-gato-x-cachorro-diferenca/** — score 53/100
-   - Anchor sugerido: "O Que Muda na Prática"
-   - Motivo: similaridade moderada de conteúdo/título/headings
-19. **/comedouro-automatico-vale-a-pena/** → **/comedouro-vdrbg-4l-wifi-review/** — score 51/100
+18. **/comedouro-automatico-vale-a-pena/** → **/comedouro-vdrbg-4l-wifi-review/** — score 51/100
    - Anchor sugerido: "Como Funciona o App do VDRBG 4L Wi-Fi"
    - Motivo: similaridade moderada de conteúdo/título/headings
-20. **/comedouro-vdrbg-4l-wifi-review/** → **/comedouro-automatico-vale-a-pena/** — score 51/100
+19. **/comedouro-vdrbg-4l-wifi-review/** → **/comedouro-automatico-vale-a-pena/** — score 51/100
    - Anchor sugerido: "Quando Vale a Pena"
+   - Motivo: similaridade moderada de conteúdo/título/headings
+20. **/brinquedo-interativo-pilha-x-recarregavel/** → **/duvidas-brinquedo-interativo-gato/** — score 49/100
+   - Anchor sugerido: "Brinquedo Interativo para Gato: Perguntas Frequentes"
    - Motivo: similaridade moderada de conteúdo/título/headings
 
 ## Páginas com Baixa Conectividade
@@ -83,7 +83,7 @@ Nenhuma página com conectividade baixa encontrada.
 
 ### sem cluster definido
 
-190 sugestão(ões) nesta categoria.
+188 sugestão(ões) nesta categoria.
 
 ## Sugestões por Página
 
@@ -187,13 +187,6 @@ Nenhuma página com conectividade baixa encontrada.
   **Evidências:** título compartilha termo(s): comedouro, guia, completo; headings compartilham termo(s): comedouro, funciona, tipos; conteúdo compartilha termo(s): comedouro, mercado, modelos; slug compartilha termo(s): comedouro; relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial
 
 - **Origem:** `/melhor-comedouro-interativo-gato/`
-  **Destino:** `/comedouro-gato-x-cachorro-diferenca/`
-  **Score:** 45/100
-  **Anchor sugerido:** "O Que Muda na Prática"
-  **Motivo:** similaridade moderada de conteúdo/título/headings
-  **Evidências:** título compartilha termo(s): comedouro, gato; headings compartilham termo(s): comedouro, gato, tipos; conteúdo compartilha termo(s): comedouro, gato, gatos; slug compartilha termo(s): comedouro, gato
-
-- **Origem:** `/melhor-comedouro-interativo-gato/`
   **Destino:** `/brinquedo-interativo-gato-idoso-vale-a-pena/`
   **Score:** 44/100
   **Anchor sugerido:** "Brinquedo Interativo para Gato Idoso: Vale a Pena?"
@@ -209,10 +202,17 @@ Nenhuma página com conectividade baixa encontrada.
 
 - **Origem:** `/melhor-comedouro-interativo-gato/`
   **Destino:** `/comedouro-automatico-gato-obeso/`
-  **Score:** 41/100
+  **Score:** 42/100
   **Anchor sugerido:** "Obesidade em Gatos: Um Problema Mais Comum do que Parece"
   **Motivo:** similaridade moderada de conteúdo/título/headings
   **Evidências:** título compartilha termo(s): comedouro, gato; headings compartilham termo(s): comedouro, gato, comum; conteúdo compartilha termo(s): comedouro, gato, racao; slug compartilha termo(s): comedouro, gato
+
+- **Origem:** `/melhor-comedouro-interativo-gato/`
+  **Destino:** `/como-escolher-brinquedo-interativo-gato-entediado/`
+  **Score:** 41/100
+  **Anchor sugerido:** "Como Escolher Brinquedo Interativo para Gato Entediado"
+  **Motivo:** similaridade moderada de conteúdo/título/headings
+  **Evidências:** título compartilha termo(s): interativo, gato; headings compartilham termo(s): interativo, brinquedo, gato; conteúdo compartilha termo(s): brinquedo, interativo, gato; slug compartilha termo(s): interativo, gato
 
 ### `/porta-eletronica-automatica-para-pet/`
 
@@ -398,36 +398,6 @@ Nenhuma página com conectividade baixa encontrada.
   **Motivo:** similaridade moderada de conteúdo/título/headings
   **Evidências:** título compartilha termo(s): brinquedo, interativo, gato; headings compartilham termo(s): brinquedo, interativo, gato; conteúdo compartilha termo(s): brinquedo, gato, mercado; slug compartilha termo(s): brinquedo, interativo
 
-### `/melhor-comedouro-automatico-cachorro/`
-
-- **Origem:** `/melhor-comedouro-automatico-cachorro/`
-  **Destino:** `/comedouro-gato-x-cachorro-diferenca/`
-  **Score:** 53/100
-  **Anchor sugerido:** "O Que Muda na Prática"
-  **Motivo:** similaridade moderada de conteúdo/título/headings
-  **Evidências:** título compartilha termo(s): comedouro, cachorro, automatico; headings compartilham termo(s): comedouro, cachorro, tipos; conteúdo compartilha termo(s): comedouro, gatos, 4l; slug compartilha termo(s): comedouro, cachorro
-
-- **Origem:** `/melhor-comedouro-automatico-cachorro/`
-  **Destino:** `/comedouro-cachorro/`
-  **Score:** 48/100
-  **Anchor sugerido:** "Comedouro para Cachorro com Suporte Baia: Review 2026"
-  **Motivo:** similaridade moderada de conteúdo/título/headings
-  **Evidências:** título compartilha termo(s): comedouro, cachorro; headings compartilham termo(s): comedouro, cachorro, porte; conteúdo compartilha termo(s): comedouro, caes, mercado; slug compartilha termo(s): comedouro, cachorro
-
-- **Origem:** `/melhor-comedouro-automatico-cachorro/`
-  **Destino:** `/comedouro-com-ou-sem-wifi/`
-  **Score:** 35/100
-  **Anchor sugerido:** "Comedouro Automático Com ou Sem Wi-Fi: Qual Escolher?"
-  **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
-  **Evidências:** título compartilha termo(s): comedouro, automatico; headings compartilham termo(s): comedouro, wi, fi; conteúdo compartilha termo(s): wi, fi, comedouro; slug compartilha termo(s): comedouro
-
-- **Origem:** `/melhor-comedouro-automatico-cachorro/`
-  **Destino:** `/comedouro-newpet-2l-review/`
-  **Score:** 35/100
-  **Anchor sugerido:** "Comedouro Automático Newpet 2L: Vale a Pena? Review"
-  **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
-  **Evidências:** título compartilha termo(s): comedouro, automatico; headings compartilham termo(s): newpet, comedouro, 4l; conteúdo compartilha termo(s): newpet, 4l, comedouro; slug compartilha termo(s): comedouro
-
 ### `/comedouro-automatico-vale-a-pena/`
 
 - **Origem:** `/comedouro-automatico-vale-a-pena/`
@@ -516,7 +486,7 @@ Nenhuma página com conectividade baixa encontrada.
   **Score:** 48/100
   **Anchor sugerido:** "Melhor Comedouro Automático para Cachorro: Guia 2026"
   **Motivo:** similaridade moderada de conteúdo/título/headings
-  **Evidências:** título compartilha termo(s): comedouro, cachorro; headings compartilham termo(s): comedouro, cachorro, porte; conteúdo compartilha termo(s): comedouro, caes, mercado; slug compartilha termo(s): comedouro, cachorro
+  **Evidências:** título compartilha termo(s): comedouro, cachorro; headings compartilham termo(s): comedouro, cachorro, porte; conteúdo compartilha termo(s): comedouro, cao, caes; slug compartilha termo(s): comedouro, cachorro
 
 - **Origem:** `/comedouro-cachorro/`
   **Destino:** `/comedouro-gato-x-cachorro-diferenca/`
@@ -539,7 +509,7 @@ Nenhuma página com conectividade baixa encontrada.
   **Score:** 49/100
   **Anchor sugerido:** "Tamanho do Vão de Passagem"
   **Motivo:** similaridade moderada de conteúdo/título/headings
-  **Evidências:** título compartilha termo(s): gato, cachorro, diferenca; headings compartilham termo(s): gato, cachorro, diferenca; conteúdo compartilha termo(s): gatos, caes, gato; slug compartilha termo(s): gato, cachorro, diferenca
+  **Evidências:** título compartilha termo(s): gato, cachorro, diferenca; headings compartilham termo(s): gato, cachorro, diferenca; conteúdo compartilha termo(s): gatos, comedouro, gato; slug compartilha termo(s): gato, cachorro, diferenca
 
 - **Origem:** `/comedouro-gato-x-cachorro-diferenca/`
   **Destino:** `/melhor-comedouro-interativo-gato/`
@@ -584,43 +554,6 @@ Nenhuma página com conectividade baixa encontrada.
   **Anchor sugerido:** "Como Funciona o App do VDRBG 4L Wi-Fi"
   **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
   **Evidências:** título compartilha termo(s): wi, fi; headings compartilham termo(s): wi, fi, conexao; conteúdo compartilha termo(s): fi, wi, app; slug compartilha termo(s): wifi
-
-### `/porta-eletronica-gato-x-cachorro-diferenca/`
-
-- **Origem:** `/porta-eletronica-gato-x-cachorro-diferenca/`
-  **Destino:** `/comedouro-gato-x-cachorro-diferenca/`
-  **Score:** 49/100
-  **Anchor sugerido:** "O Que Muda na Prática"
-  **Motivo:** similaridade moderada de conteúdo/título/headings
-  **Evidências:** título compartilha termo(s): gato, cachorro, diferenca; headings compartilham termo(s): gato, cachorro, diferenca; conteúdo compartilha termo(s): gatos, caes, gato; slug compartilha termo(s): gato, cachorro, diferenca
-
-- **Origem:** `/porta-eletronica-gato-x-cachorro-diferenca/`
-  **Destino:** `/como-instalar-porta-eletronica-pet/`
-  **Score:** 42/100
-  **Anchor sugerido:** "Passo a Passo Geral"
-  **Motivo:** similaridade moderada de conteúdo/título/headings
-  **Evidências:** título compartilha termo(s): porta, eletronica; headings compartilham termo(s): porta, eletronica, conclusao; conteúdo compartilha termo(s): porta, mercado, produtos; slug compartilha termo(s): porta, eletronica
-
-- **Origem:** `/porta-eletronica-gato-x-cachorro-diferenca/`
-  **Destino:** `/porta-eletronica-reconhecimento-facial-vale-a-pena/`
-  **Score:** 36/100
-  **Anchor sugerido:** "Porta Eletrônica com Reconhecimento Facial: Vale a Pena?"
-  **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
-  **Evidências:** título compartilha termo(s): porta, eletronica; headings compartilham termo(s): porta, eletronica, conclusao; conteúdo compartilha termo(s): mercado, porta, produtos; slug compartilha termo(s): porta, eletronica
-
-- **Origem:** `/porta-eletronica-gato-x-cachorro-diferenca/`
-  **Destino:** `/porta-eletronica-x-alcapao-tradicional/`
-  **Score:** 36/100
-  **Anchor sugerido:** "Porta Eletrônica ou Alçapão Tradicional: Qual Escolher?"
-  **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
-  **Evidências:** título compartilha termo(s): porta, eletronica; headings compartilham termo(s): porta, eletronica, conclusao; conteúdo compartilha termo(s): eletronica, porta, mercado; slug compartilha termo(s): porta, eletronica
-
-- **Origem:** `/porta-eletronica-gato-x-cachorro-diferenca/`
-  **Destino:** `/duvidas-porta-eletronica-pet/`
-  **Score:** 35/100
-  **Anchor sugerido:** "Porta Eletrônica para Pet: Perguntas Frequentes (FAQ)"
-  **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
-  **Evidências:** título compartilha termo(s): porta, eletronica; headings compartilham termo(s): porta, eletronica, conclusao; conteúdo compartilha termo(s): porta, eletronica, modelos; slug compartilha termo(s): porta, eletronica
 
 ### `/comedouro-com-ou-sem-wifi/`
 
@@ -740,7 +673,7 @@ Nenhuma página com conectividade baixa encontrada.
   **Score:** 40/100
   **Anchor sugerido:** "Melhor Comedouro Interativo para Gato: Guia Completo 2026"
   **Motivo:** similaridade moderada de conteúdo/título/headings
-  **Evidências:** título compartilha termo(s): interativo, gato; headings compartilham termo(s): brinquedo, interativo, gato; conteúdo compartilha termo(s): brinquedo, gato, interativo; slug compartilha termo(s): interativo, gato
+  **Evidências:** título compartilha termo(s): interativo, gato; headings compartilham termo(s): brinquedo, interativo, gato; conteúdo compartilha termo(s): gato, brinquedo, interativo; slug compartilha termo(s): interativo, gato
 
 - **Origem:** `/erros-comuns-brinquedo-interativo-gato/`
   **Destino:** `/erros-comuns-coleira-gps-pet/`
@@ -755,6 +688,36 @@ Nenhuma página com conectividade baixa encontrada.
   **Anchor sugerido:** "Não Considerar o Porte do Maior Animal da Casa"
   **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
   **Evidências:** título compartilha termo(s): erros, comuns, usar; headings compartilham termo(s): nao, erros, comuns; conteúdo compartilha termo(s): mercado, produtos, smart; slug compartilha termo(s): erros, comuns
+
+### `/melhor-comedouro-automatico-cachorro/`
+
+- **Origem:** `/melhor-comedouro-automatico-cachorro/`
+  **Destino:** `/comedouro-cachorro/`
+  **Score:** 48/100
+  **Anchor sugerido:** "Comedouro para Cachorro com Suporte Baia: Review 2026"
+  **Motivo:** similaridade moderada de conteúdo/título/headings
+  **Evidências:** título compartilha termo(s): comedouro, cachorro; headings compartilham termo(s): comedouro, cachorro, porte; conteúdo compartilha termo(s): comedouro, cao, caes; slug compartilha termo(s): comedouro, cachorro
+
+- **Origem:** `/melhor-comedouro-automatico-cachorro/`
+  **Destino:** `/comedouro-com-ou-sem-wifi/`
+  **Score:** 35/100
+  **Anchor sugerido:** "Comedouro Automático Com ou Sem Wi-Fi: Qual Escolher?"
+  **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
+  **Evidências:** título compartilha termo(s): comedouro, automatico; headings compartilham termo(s): comedouro, wi, fi; conteúdo compartilha termo(s): wi, fi, comedouro; slug compartilha termo(s): comedouro
+
+- **Origem:** `/melhor-comedouro-automatico-cachorro/`
+  **Destino:** `/comedouro-newpet-2l-review/`
+  **Score:** 35/100
+  **Anchor sugerido:** "Comedouro Automático Newpet 2L: Vale a Pena? Review"
+  **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
+  **Evidências:** título compartilha termo(s): comedouro, automatico; headings compartilham termo(s): newpet, comedouro, 4l; conteúdo compartilha termo(s): newpet, 4l, comedouro; slug compartilha termo(s): comedouro
+
+- **Origem:** `/melhor-comedouro-automatico-cachorro/`
+  **Destino:** `/melhor-comedouro-interativo-gato/`
+  **Score:** 35/100
+  **Anchor sugerido:** "Melhor Comedouro Interativo para Gato: Guia Completo 2026"
+  **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
+  **Evidências:** título compartilha termo(s): comedouro, melhor, guia; headings compartilham termo(s): comedouro, tipos, conclusao; conteúdo compartilha termo(s): comedouro, mercado, modelos; slug compartilha termo(s): comedouro, melhor
 
 ### `/porta-eletronica-funciona-porta-de-vidro/`
 
@@ -874,7 +837,7 @@ Nenhuma página com conectividade baixa encontrada.
   **Score:** 42/100
   **Anchor sugerido:** "Tamanho do Vão de Passagem"
   **Motivo:** similaridade moderada de conteúdo/título/headings
-  **Evidências:** título compartilha termo(s): porta, eletronica; headings compartilham termo(s): porta, eletronica, conclusao; conteúdo compartilha termo(s): porta, mercado, produtos; slug compartilha termo(s): porta, eletronica
+  **Evidências:** título compartilha termo(s): porta, eletronica; headings compartilham termo(s): porta, eletronica, conclusao; conteúdo compartilha termo(s): porta, produtos, mercado; slug compartilha termo(s): porta, eletronica
 
 - **Origem:** `/como-instalar-porta-eletronica-pet/`
   **Destino:** `/porta-eletronica-reconhecimento-facial-vale-a-pena/`
@@ -985,7 +948,7 @@ Nenhuma página com conectividade baixa encontrada.
   **Score:** 42/100
   **Anchor sugerido:** "As Três Tecnologias de Localização"
   **Motivo:** similaridade moderada de conteúdo/título/headings
-  **Evidências:** título compartilha termo(s): coleira, gps; headings compartilham termo(s): coleira, gps, nao; conteúdo compartilha termo(s): gps, nao, chip; slug compartilha termo(s): coleira, gps
+  **Evidências:** título compartilha termo(s): coleira, gps; headings compartilham termo(s): coleira, gps, nao; conteúdo compartilha termo(s): gps, nao, coleira; slug compartilha termo(s): coleira, gps
 
 - **Origem:** `/melhor-coleira-gps-sem-mensalidade/`
   **Destino:** `/duvidas-coleira-gps-pet/`
@@ -1002,13 +965,6 @@ Nenhuma página com conectividade baixa encontrada.
   **Evidências:** título compartilha termo(s): coleira, gps; headings compartilham termo(s): gps, coleira, coleiras; conteúdo compartilha termo(s): gatos, coleira, gps; slug compartilha termo(s): coleira, gps
 
 ### `/coleira-gps-cachorro-que-foge/`
-
-- **Origem:** `/coleira-gps-cachorro-que-foge/`
-  **Destino:** `/como-funciona-coleira-gps-cachorro/`
-  **Score:** 45/100
-  **Anchor sugerido:** "As Três Tecnologias de Localização"
-  **Motivo:** similaridade moderada de conteúdo/título/headings
-  **Evidências:** título compartilha termo(s): coleira, gps, cachorro; headings compartilham termo(s): coleira, gps, nao; conteúdo compartilha termo(s): gps, coleira, nao; slug compartilha termo(s): coleira, gps, cachorro
 
 - **Origem:** `/coleira-gps-cachorro-que-foge/`
   **Destino:** `/camera-pet-x-coleira-gps-qual-escolher/`
@@ -1037,43 +993,6 @@ Nenhuma página com conectividade baixa encontrada.
   **Anchor sugerido:** "O Que é o Microchip e Como Funciona"
   **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
   **Evidências:** título compartilha termo(s): coleira, gps; headings compartilham termo(s): coleira, gps, conclusao; conteúdo compartilha termo(s): gps, coleira, produtos; slug compartilha termo(s): coleira, gps
-
-### `/como-funciona-coleira-gps-cachorro/`
-
-- **Origem:** `/como-funciona-coleira-gps-cachorro/`
-  **Destino:** `/coleira-gps-cachorro-que-foge/`
-  **Score:** 45/100
-  **Anchor sugerido:** "Priorize Alcance Real, Não Apenas Preço"
-  **Motivo:** similaridade moderada de conteúdo/título/headings
-  **Evidências:** título compartilha termo(s): coleira, gps, cachorro; headings compartilham termo(s): coleira, gps, nao; conteúdo compartilha termo(s): gps, coleira, nao; slug compartilha termo(s): coleira, gps, cachorro
-
-- **Origem:** `/como-funciona-coleira-gps-cachorro/`
-  **Destino:** `/camera-pet-x-coleira-gps-qual-escolher/`
-  **Score:** 42/100
-  **Anchor sugerido:** "Quando a Câmera Resolve"
-  **Motivo:** similaridade moderada de conteúdo/título/headings
-  **Evidências:** título compartilha termo(s): coleira, gps; headings compartilham termo(s): coleira, gps, conclusao; conteúdo compartilha termo(s): gps, coleira, nao; slug compartilha termo(s): coleira, gps
-
-- **Origem:** `/como-funciona-coleira-gps-cachorro/`
-  **Destino:** `/melhor-coleira-gps-sem-mensalidade/`
-  **Score:** 42/100
-  **Anchor sugerido:** "Por Que Algumas Coleiras Têm Mensalidade e Outras Não"
-  **Motivo:** similaridade moderada de conteúdo/título/headings
-  **Evidências:** título compartilha termo(s): coleira, gps; headings compartilham termo(s): coleira, gps, nao; conteúdo compartilha termo(s): gps, nao, chip; slug compartilha termo(s): coleira, gps
-
-- **Origem:** `/como-funciona-coleira-gps-cachorro/`
-  **Destino:** `/coleira-gps-para-gato/`
-  **Score:** 38/100
-  **Anchor sugerido:** "Por Que Gatos Fogem — e Como Isso Afeta o GPS"
-  **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
-  **Evidências:** título compartilha termo(s): funciona, coleira, gps; headings compartilham termo(s): gps, coleira, funciona; conteúdo compartilha termo(s): gps, coleira, gatos; slug compartilha termo(s): coleira, gps
-
-- **Origem:** `/como-funciona-coleira-gps-cachorro/`
-  **Destino:** `/coleira-gps-cachorro-pequeno-porte/`
-  **Score:** 36/100
-  **Anchor sugerido:** "Quanto Pesa um Dispositivo GPS para Pet"
-  **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
-  **Evidências:** título compartilha termo(s): coleira, gps, cachorro; headings compartilham termo(s): gps, coleira, cachorro; conteúdo compartilha termo(s): gps, coleira, nao; slug compartilha termo(s): coleira, gps, cachorro
 
 ### `/porta-eletronica-impede-entrada-outros-animais/`
 
@@ -1195,6 +1114,45 @@ Nenhuma página com conectividade baixa encontrada.
   **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
   **Evidências:** título compartilha termo(s): coleira, gps, cachorro; headings compartilham termo(s): gps, coleira, cachorro; conteúdo compartilha termo(s): gps, coleira, nao; slug compartilha termo(s): coleira, gps, cachorro
 
+### `/comedouro-automatico-gato-obeso/`
+
+- **Origem:** `/comedouro-automatico-gato-obeso/`
+  **Destino:** `/melhor-comedouro-interativo-gato/`
+  **Score:** 42/100
+  **Anchor sugerido:** "Melhor Comedouro Interativo para Gato: Guia Completo 2026"
+  **Motivo:** similaridade moderada de conteúdo/título/headings
+  **Evidências:** título compartilha termo(s): comedouro, gato; headings compartilham termo(s): comedouro, gato, comum; conteúdo compartilha termo(s): comedouro, gato, nao; slug compartilha termo(s): comedouro, gato
+
+### `/como-funciona-coleira-gps-cachorro/`
+
+- **Origem:** `/como-funciona-coleira-gps-cachorro/`
+  **Destino:** `/camera-pet-x-coleira-gps-qual-escolher/`
+  **Score:** 42/100
+  **Anchor sugerido:** "Quando a Câmera Resolve"
+  **Motivo:** similaridade moderada de conteúdo/título/headings
+  **Evidências:** título compartilha termo(s): coleira, gps; headings compartilham termo(s): coleira, gps, conclusao; conteúdo compartilha termo(s): gps, coleira, nao; slug compartilha termo(s): coleira, gps
+
+- **Origem:** `/como-funciona-coleira-gps-cachorro/`
+  **Destino:** `/melhor-coleira-gps-sem-mensalidade/`
+  **Score:** 42/100
+  **Anchor sugerido:** "Por Que Algumas Coleiras Têm Mensalidade e Outras Não"
+  **Motivo:** similaridade moderada de conteúdo/título/headings
+  **Evidências:** título compartilha termo(s): coleira, gps; headings compartilham termo(s): coleira, gps, nao; conteúdo compartilha termo(s): gps, nao, coleira; slug compartilha termo(s): coleira, gps
+
+- **Origem:** `/como-funciona-coleira-gps-cachorro/`
+  **Destino:** `/coleira-gps-para-gato/`
+  **Score:** 38/100
+  **Anchor sugerido:** "Por Que Gatos Fogem — e Como Isso Afeta o GPS"
+  **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
+  **Evidências:** título compartilha termo(s): funciona, coleira, gps; headings compartilham termo(s): gps, coleira, funciona; conteúdo compartilha termo(s): gps, coleira, gatos; slug compartilha termo(s): coleira, gps
+
+- **Origem:** `/como-funciona-coleira-gps-cachorro/`
+  **Destino:** `/coleira-gps-cachorro-pequeno-porte/`
+  **Score:** 36/100
+  **Anchor sugerido:** "Quanto Pesa um Dispositivo GPS para Pet"
+  **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
+  **Evidências:** título compartilha termo(s): coleira, gps, cachorro; headings compartilham termo(s): gps, coleira, cachorro; conteúdo compartilha termo(s): gps, coleira, nao; slug compartilha termo(s): coleira, gps, cachorro
+
 ### `/duvidas-camera-para-monitorar-pet/`
 
 - **Origem:** `/duvidas-camera-para-monitorar-pet/`
@@ -1224,6 +1182,43 @@ Nenhuma página com conectividade baixa encontrada.
   **Anchor sugerido:** "Melhor Câmera para Monitorar Pet: Modelos Recomendados"
   **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
   **Evidências:** título compartilha termo(s): camera, monitorar, pet; headings compartilham termo(s): camera, monitorar, conclusao; conteúdo compartilha termo(s): camera, mercado, 22; slug compartilha termo(s): camera, monitorar, pet
+
+### `/porta-eletronica-gato-x-cachorro-diferenca/`
+
+- **Origem:** `/porta-eletronica-gato-x-cachorro-diferenca/`
+  **Destino:** `/como-instalar-porta-eletronica-pet/`
+  **Score:** 42/100
+  **Anchor sugerido:** "Passo a Passo Geral"
+  **Motivo:** similaridade moderada de conteúdo/título/headings
+  **Evidências:** título compartilha termo(s): porta, eletronica; headings compartilham termo(s): porta, eletronica, conclusao; conteúdo compartilha termo(s): porta, produtos, mercado; slug compartilha termo(s): porta, eletronica
+
+- **Origem:** `/porta-eletronica-gato-x-cachorro-diferenca/`
+  **Destino:** `/porta-eletronica-reconhecimento-facial-vale-a-pena/`
+  **Score:** 36/100
+  **Anchor sugerido:** "Porta Eletrônica com Reconhecimento Facial: Vale a Pena?"
+  **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
+  **Evidências:** título compartilha termo(s): porta, eletronica; headings compartilham termo(s): porta, eletronica, conclusao; conteúdo compartilha termo(s): produtos, mercado, porta; slug compartilha termo(s): porta, eletronica
+
+- **Origem:** `/porta-eletronica-gato-x-cachorro-diferenca/`
+  **Destino:** `/porta-eletronica-x-alcapao-tradicional/`
+  **Score:** 36/100
+  **Anchor sugerido:** "Porta Eletrônica ou Alçapão Tradicional: Qual Escolher?"
+  **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
+  **Evidências:** título compartilha termo(s): porta, eletronica; headings compartilham termo(s): porta, eletronica, conclusao; conteúdo compartilha termo(s): eletronica, porta, mercado; slug compartilha termo(s): porta, eletronica
+
+- **Origem:** `/porta-eletronica-gato-x-cachorro-diferenca/`
+  **Destino:** `/duvidas-porta-eletronica-pet/`
+  **Score:** 35/100
+  **Anchor sugerido:** "Porta Eletrônica para Pet: Perguntas Frequentes (FAQ)"
+  **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
+  **Evidências:** título compartilha termo(s): porta, eletronica; headings compartilham termo(s): porta, eletronica, conclusao; conteúdo compartilha termo(s): porta, eletronica, modelos; slug compartilha termo(s): porta, eletronica
+
+- **Origem:** `/porta-eletronica-gato-x-cachorro-diferenca/`
+  **Destino:** `/erros-comuns-porta-eletronica-pet/`
+  **Score:** 35/100
+  **Anchor sugerido:** "Não Considerar o Porte do Maior Animal da Casa"
+  **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
+  **Evidências:** título compartilha termo(s): porta, eletronica; headings compartilham termo(s): casa, porta, eletronica; conteúdo compartilha termo(s): porta, porte, mercado; slug compartilha termo(s): porta, eletronica
 
 ### `/porta-eletronica-microchip-x-rfid-coleira/`
 
@@ -1298,15 +1293,6 @@ Nenhuma página com conectividade baixa encontrada.
   **Anchor sugerido:** "Não Considerar o Porte do Maior Animal da Casa"
   **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
   **Evidências:** título compartilha termo(s): porta, eletronica; headings compartilham termo(s): porta, eletronica, considerar; conteúdo compartilha termo(s): porta, mercado, produtos; slug compartilha termo(s): porta, eletronica
-
-### `/comedouro-automatico-gato-obeso/`
-
-- **Origem:** `/comedouro-automatico-gato-obeso/`
-  **Destino:** `/melhor-comedouro-interativo-gato/`
-  **Score:** 41/100
-  **Anchor sugerido:** "Melhor Comedouro Interativo para Gato: Guia Completo 2026"
-  **Motivo:** similaridade moderada de conteúdo/título/headings
-  **Evidências:** título compartilha termo(s): comedouro, gato; headings compartilham termo(s): comedouro, gato, comum; conteúdo compartilha termo(s): comedouro, gato, nao; slug compartilha termo(s): comedouro, gato
 
 ### `/porta-eletronica-x-alcapao-tradicional/`
 

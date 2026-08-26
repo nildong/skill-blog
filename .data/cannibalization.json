@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T17:47:59.955Z",
+  "generated_at": "2026-08-26T19:52:35.129Z",
   "summary": {
     "pages_analyzed": 67,
     "pairs_analyzed": 2211,
@@ -500,28 +500,6 @@
       "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
     },
     {
-      "page_a": "/brinquedo-interativo-automatico-para-gato/",
-      "page_a_title": "Brinquedo Interativo Automático para Gato: Guia Completo",
-      "page_b": "/melhor-comedouro-interativo-gato/",
-      "page_b_title": "Melhor Comedouro Interativo para Gato: Guia Completo 2026",
-      "score": 65,
-      "level": "complementary",
-      "format_a": "pillar",
-      "format_b": "list",
-      "relationship": "pillar_satellite",
-      "signals": [
-        "títulos semelhantes: interativo, gato, guia, completo",
-        "slugs semelhantes: interativo, gato",
-        "headings semelhantes: interativo, brinquedo, gato, funciona",
-        "conteúdo semelhante: gato, interativo, brinquedo, mercado"
-      ],
-      "differentiation_signals": [
-        "relação pilar↔satélite (página A é o pilar; a outra é do formato \"list\") — complementar, não concorrente"
-      ],
-      "explanation": "\"Brinquedo Interativo Automático para Gato: Guia Completo\" e \"Melhor Comedouro Interativo para Gato: Guia Completo 2026\" têm sobreposição textual (score 65/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.",
-      "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
-    },
-    {
       "page_a": "/brinquedo-interativo-gato-idoso-vale-a-pena/",
       "page_a_title": "Brinquedo Interativo para Gato Idoso: Vale a Pena?",
       "page_b": "/duvidas-brinquedo-interativo-gato/",
@@ -604,6 +582,28 @@
         "relação pilar↔satélite (página B é o pilar; a outra é do formato \"troubleshooting\") — complementar, não concorrente"
       ],
       "explanation": "\"Erros Comuns ao Instalar e Usar Porta Eletrônica para Pet\" e \"Porta Eletrônica Automática para Pet: Guia Completo\" têm sobreposição textual (score 65/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.",
+      "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
+    },
+    {
+      "page_a": "/brinquedo-interativo-automatico-para-gato/",
+      "page_a_title": "Brinquedo Interativo Automático para Gato: Guia Completo",
+      "page_b": "/melhor-comedouro-interativo-gato/",
+      "page_b_title": "Melhor Comedouro Interativo para Gato: Guia Completo 2026",
+      "score": 64,
+      "level": "complementary",
+      "format_a": "pillar",
+      "format_b": "list",
+      "relationship": "pillar_satellite",
+      "signals": [
+        "títulos semelhantes: interativo, gato, guia, completo",
+        "slugs semelhantes: interativo, gato",
+        "headings semelhantes: interativo, brinquedo, gato, funciona",
+        "conteúdo semelhante: gato, interativo, brinquedo, mercado"
+      ],
+      "differentiation_signals": [
+        "relação pilar↔satélite (página A é o pilar; a outra é do formato \"list\") — complementar, não concorrente"
+      ],
+      "explanation": "\"Brinquedo Interativo Automático para Gato: Guia Completo\" e \"Melhor Comedouro Interativo para Gato: Guia Completo 2026\" têm sobreposição textual (score 64/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.",
       "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
     },
     {
@@ -798,7 +798,7 @@
         "títulos semelhantes: comedouro, cachorro",
         "slugs semelhantes: comedouro, cachorro",
         "headings semelhantes: comedouro, cachorro, porte, conclusao",
-        "conteúdo semelhante: comedouro, caes, mercado, cao"
+        "conteúdo semelhante: comedouro, cao, caes, mercado"
       ],
       "differentiation_signals": [
         "formatos editoriais diferentes e específicos (\"review\" vs. \"list\"), nenhum dos dois é a página pilar — provável conteúdo complementar, não concorrente"
@@ -851,26 +851,6 @@
       "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
     },
     {
-      "page_a": "/coleira-gps-cachorro-pequeno-porte/",
-      "page_a_title": "Coleira GPS para Cachorro de Pequeno Porte: O Que Considerar",
-      "page_b": "/coleira-gps-cachorro-que-foge/",
-      "page_b_title": "Coleira GPS para Cachorro Que Foge Muito: Como Escolher",
-      "score": 61,
-      "level": "possible",
-      "format_a": "informational",
-      "format_b": "informational",
-      "relationship": "same_format",
-      "signals": [
-        "títulos semelhantes: coleira, gps, cachorro",
-        "slugs semelhantes: coleira, gps, cachorro",
-        "headings semelhantes: gps, caes, pequenos, coleira",
-        "conteúdo semelhante: caes, coleira, gps, mercado"
-      ],
-      "differentiation_signals": [],
-      "explanation": "Sobreposição moderada entre \"Coleira GPS para Cachorro de Pequeno Porte: O Que Considerar\" e \"Coleira GPS para Cachorro Que Foge Muito: Como Escolher\" — pode ser conteúdo relacionado ou possível canibalização parcial.",
-      "recommendation": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles)."
-    },
-    {
       "page_a": "/comedouro-gato-x-cachorro-diferenca/",
       "page_a_title": "Comedouro Automático para Gato x Cachorro: Qual a Diferença?",
       "page_b": "/porta-eletronica-gato-x-cachorro-diferenca/",
@@ -884,7 +864,7 @@
         "títulos semelhantes: gato, cachorro, diferenca",
         "slugs semelhantes: gato, cachorro, diferenca",
         "headings semelhantes: gato, cachorro, diferenca, tamanho",
-        "conteúdo semelhante: gatos, caes, gato, cachorro"
+        "conteúdo semelhante: gatos, comedouro, gato, caes"
       ],
       "differentiation_signals": [],
       "explanation": "Sobreposição moderada entre \"Comedouro Automático para Gato x Cachorro: Qual a Diferença?\" e \"Porta Eletrônica para Gato x Cachorro: Qual a Diferença?\" — pode ser conteúdo relacionado ou possível canibalização parcial.",
@@ -911,6 +891,26 @@
       ],
       "explanation": "\"Câmera para Monitorar Pet: Como Escolher o Modelo Ideal\" e \"Erros Comuns ao Usar Câmera para Monitorar Pet em Casa\" têm sobreposição textual (score 60/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.",
       "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
+    },
+    {
+      "page_a": "/coleira-gps-cachorro-pequeno-porte/",
+      "page_a_title": "Coleira GPS para Cachorro de Pequeno Porte: O Que Considerar",
+      "page_b": "/coleira-gps-cachorro-que-foge/",
+      "page_b_title": "Coleira GPS para Cachorro Que Foge Muito: Como Escolher",
+      "score": 60,
+      "level": "possible",
+      "format_a": "informational",
+      "format_b": "informational",
+      "relationship": "same_format",
+      "signals": [
+        "títulos semelhantes: coleira, gps, cachorro",
+        "slugs semelhantes: coleira, gps, cachorro",
+        "headings semelhantes: gps, caes, pequenos, coleira",
+        "conteúdo semelhante: caes, coleira, gps, mercado"
+      ],
+      "differentiation_signals": [],
+      "explanation": "Sobreposição moderada entre \"Coleira GPS para Cachorro de Pequeno Porte: O Que Considerar\" e \"Coleira GPS para Cachorro Que Foge Muito: Como Escolher\" — pode ser conteúdo relacionado ou possível canibalização parcial.",
+      "recommendation": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles)."
     },
     {
       "page_a": "/coleira-gps-para-pet/",
@@ -1193,6 +1193,26 @@
       "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
     },
     {
+      "page_a": "/coleira-gps-cachorro-que-foge/",
+      "page_a_title": "Coleira GPS para Cachorro Que Foge Muito: Como Escolher",
+      "page_b": "/como-funciona-coleira-gps-cachorro/",
+      "page_b_title": "Como Funciona a Coleira GPS para Cachorro: Tipos e Uso",
+      "score": 58,
+      "level": "possible",
+      "format_a": "informational",
+      "format_b": "how_to",
+      "relationship": "different_format",
+      "signals": [
+        "títulos semelhantes: coleira, gps, cachorro",
+        "slugs semelhantes: coleira, gps, cachorro",
+        "headings semelhantes: coleira, gps, nao, cachorro",
+        "conteúdo semelhante: gps, coleira, nao, produtos"
+      ],
+      "differentiation_signals": [],
+      "explanation": "Sobreposição moderada entre \"Coleira GPS para Cachorro Que Foge Muito: Como Escolher\" e \"Como Funciona a Coleira GPS para Cachorro: Tipos e Uso\" — pode ser conteúdo relacionado ou possível canibalização parcial.",
+      "recommendation": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles)."
+    },
+    {
       "page_a": "/coleira-gps-para-gato/",
       "page_a_title": "Coleira GPS Funciona em Gatos? O Que Muda em Relação ao Cão",
       "page_b": "/coleira-gps-para-pet/",
@@ -1320,26 +1340,6 @@
       ],
       "explanation": "\"Brinquedo Interativo para Gato: Pilha ou Recarregável?\" e \"Brinquedo Interativo para Gato: Perguntas Frequentes\" têm sobreposição textual (score 57/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.",
       "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
-    },
-    {
-      "page_a": "/coleira-gps-cachorro-que-foge/",
-      "page_a_title": "Coleira GPS para Cachorro Que Foge Muito: Como Escolher",
-      "page_b": "/como-funciona-coleira-gps-cachorro/",
-      "page_b_title": "Como Funciona a Coleira GPS para Cachorro: Tipos e Uso",
-      "score": 57,
-      "level": "possible",
-      "format_a": "informational",
-      "format_b": "how_to",
-      "relationship": "different_format",
-      "signals": [
-        "títulos semelhantes: coleira, gps, cachorro",
-        "slugs semelhantes: coleira, gps, cachorro",
-        "headings semelhantes: coleira, gps, nao, cachorro",
-        "conteúdo semelhante: gps, coleira, nao, produtos"
-      ],
-      "differentiation_signals": [],
-      "explanation": "Sobreposição moderada entre \"Coleira GPS para Cachorro Que Foge Muito: Como Escolher\" e \"Como Funciona a Coleira GPS para Cachorro: Tipos e Uso\" — pode ser conteúdo relacionado ou possível canibalização parcial.",
-      "recommendation": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles)."
     },
     {
       "page_a": "/comedouro-x-bebedouro-automatico/",
@@ -1718,26 +1718,6 @@
       "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
     },
     {
-      "page_a": "/coleira-gps-cachorro-que-foge/",
-      "page_a_title": "Coleira GPS para Cachorro Que Foge Muito: Como Escolher",
-      "page_b": "/melhor-coleira-gps-sem-mensalidade/",
-      "page_b_title": "Melhor Coleira GPS Sem Mensalidade: Como Escolher a Sua",
-      "score": 54,
-      "level": "possible",
-      "format_a": "informational",
-      "format_b": "list",
-      "relationship": "different_format",
-      "signals": [
-        "títulos semelhantes: coleira, gps, escolher",
-        "slugs semelhantes: coleira, gps",
-        "headings semelhantes: nao, coleira, gps, conclusao",
-        "conteúdo semelhante: nao, mensalidade, custo, bluetooth"
-      ],
-      "differentiation_signals": [],
-      "explanation": "Sobreposição moderada entre \"Coleira GPS para Cachorro Que Foge Muito: Como Escolher\" e \"Melhor Coleira GPS Sem Mensalidade: Como Escolher a Sua\" — pode ser conteúdo relacionado ou possível canibalização parcial.",
-      "recommendation": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles)."
-    },
-    {
       "page_a": "/comedouro-automatico-para-pet/",
       "page_a_title": "Comedouro Automático para Pet: Guia Completo de 2026",
       "page_b": "/comedouro-vdrbg-4l-wifi-review/",
@@ -1773,7 +1753,7 @@
         "títulos semelhantes: comedouro, gato",
         "slugs semelhantes: comedouro, gato",
         "headings semelhantes: comedouro, gato, diferenca, conclusao",
-        "conteúdo semelhante: comedouro, gato, gatos, nao"
+        "conteúdo semelhante: comedouro, gato, gatos, cachorro"
       ],
       "differentiation_signals": [
         "formatos editoriais diferentes e específicos (\"comparison\" vs. \"list\"), nenhum dos dois é a página pilar — provável conteúdo complementar, não concorrente"
@@ -1872,6 +1852,26 @@
       "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
     },
     {
+      "page_a": "/coleira-gps-cachorro-que-foge/",
+      "page_a_title": "Coleira GPS para Cachorro Que Foge Muito: Como Escolher",
+      "page_b": "/melhor-coleira-gps-sem-mensalidade/",
+      "page_b_title": "Melhor Coleira GPS Sem Mensalidade: Como Escolher a Sua",
+      "score": 53,
+      "level": "possible",
+      "format_a": "informational",
+      "format_b": "list",
+      "relationship": "different_format",
+      "signals": [
+        "títulos semelhantes: coleira, gps, escolher",
+        "slugs semelhantes: coleira, gps",
+        "headings semelhantes: nao, coleira, gps, conclusao",
+        "conteúdo semelhante: nao, mensalidade, custo, coleira"
+      ],
+      "differentiation_signals": [],
+      "explanation": "Sobreposição moderada entre \"Coleira GPS para Cachorro Que Foge Muito: Como Escolher\" e \"Melhor Coleira GPS Sem Mensalidade: Como Escolher a Sua\" — pode ser conteúdo relacionado ou possível canibalização parcial.",
+      "recommendation": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles)."
+    },
+    {
       "page_a": "/comedouro-automatico-para-pet/",
       "page_a_title": "Comedouro Automático para Pet: Guia Completo de 2026",
       "page_b": "/configurar-app-comedouro-wifi/",
@@ -1916,6 +1916,28 @@
       "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
     },
     {
+      "page_a": "/como-funciona-coleira-gps-cachorro/",
+      "page_a_title": "Como Funciona a Coleira GPS para Cachorro: Tipos e Uso",
+      "page_b": "/melhor-coleira-gps-sem-mensalidade/",
+      "page_b_title": "Melhor Coleira GPS Sem Mensalidade: Como Escolher a Sua",
+      "score": 53,
+      "level": "complementary",
+      "format_a": "how_to",
+      "format_b": "list",
+      "relationship": "differentiated_satellites",
+      "signals": [
+        "títulos semelhantes: coleira, gps",
+        "slugs semelhantes: coleira, gps",
+        "headings semelhantes: coleira, gps, nao, conclusao",
+        "conteúdo semelhante: gps, nao, coleira, chip"
+      ],
+      "differentiation_signals": [
+        "formatos editoriais diferentes e específicos (\"how_to\" vs. \"list\"), nenhum dos dois é a página pilar — provável conteúdo complementar, não concorrente"
+      ],
+      "explanation": "\"Como Funciona a Coleira GPS para Cachorro: Tipos e Uso\" e \"Melhor Coleira GPS Sem Mensalidade: Como Escolher a Sua\" têm sobreposição textual (score 53/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.",
+      "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
+    },
+    {
       "page_a": "/como-instalar-porta-eletronica-pet/",
       "page_a_title": "Como Instalar Porta Eletrônica para Pet: Passo a Passo",
       "page_b": "/porta-eletronica-gato-x-cachorro-diferenca/",
@@ -1929,7 +1951,7 @@
         "títulos semelhantes: porta, eletronica",
         "slugs semelhantes: porta, eletronica",
         "headings semelhantes: porta, eletronica, conclusao",
-        "conteúdo semelhante: porta, mercado, produtos, smart"
+        "conteúdo semelhante: porta, produtos, mercado, smart"
       ],
       "differentiation_signals": [
         "formatos editoriais diferentes e específicos (\"how_to\" vs. \"comparison\"), nenhum dos dois é a página pilar — provável conteúdo complementar, não concorrente"
@@ -2108,28 +2130,6 @@
         "formatos editoriais diferentes e específicos (\"how_to\" vs. \"troubleshooting\"), nenhum dos dois é a página pilar — provável conteúdo complementar, não concorrente"
       ],
       "explanation": "\"Como Configurar a Câmera Pet no Wi-Fi (Sem Erros de Conexão)\" e \"Erros Comuns ao Usar Câmera para Monitorar Pet em Casa\" têm sobreposição textual (score 52/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.",
-      "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
-    },
-    {
-      "page_a": "/como-funciona-coleira-gps-cachorro/",
-      "page_a_title": "Como Funciona a Coleira GPS para Cachorro: Tipos e Uso",
-      "page_b": "/melhor-coleira-gps-sem-mensalidade/",
-      "page_b_title": "Melhor Coleira GPS Sem Mensalidade: Como Escolher a Sua",
-      "score": 52,
-      "level": "complementary",
-      "format_a": "how_to",
-      "format_b": "list",
-      "relationship": "differentiated_satellites",
-      "signals": [
-        "títulos semelhantes: coleira, gps",
-        "slugs semelhantes: coleira, gps",
-        "headings semelhantes: coleira, gps, nao, conclusao",
-        "conteúdo semelhante: gps, nao, chip, operadora"
-      ],
-      "differentiation_signals": [
-        "formatos editoriais diferentes e específicos (\"how_to\" vs. \"list\"), nenhum dos dois é a página pilar — provável conteúdo complementar, não concorrente"
-      ],
-      "explanation": "\"Como Funciona a Coleira GPS para Cachorro: Tipos e Uso\" e \"Melhor Coleira GPS Sem Mensalidade: Como Escolher a Sua\" têm sobreposição textual (score 52/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.",
       "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
     },
     {
@@ -2569,6 +2569,28 @@
       "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
     },
     {
+      "page_a": "/erros-comuns-brinquedo-interativo-gato/",
+      "page_a_title": "Erros Comuns ao Usar Brinquedo Interativo para Gato",
+      "page_b": "/melhor-comedouro-interativo-gato/",
+      "page_b_title": "Melhor Comedouro Interativo para Gato: Guia Completo 2026",
+      "score": 50,
+      "level": "complementary",
+      "format_a": "troubleshooting",
+      "format_b": "list",
+      "relationship": "differentiated_satellites",
+      "signals": [
+        "títulos semelhantes: interativo, gato",
+        "slugs semelhantes: interativo, gato",
+        "headings semelhantes: brinquedo, interativo, gato, conclusao",
+        "conteúdo semelhante: gato, brinquedo, interativo, produtos"
+      ],
+      "differentiation_signals": [
+        "formatos editoriais diferentes e específicos (\"troubleshooting\" vs. \"list\"), nenhum dos dois é a página pilar — provável conteúdo complementar, não concorrente"
+      ],
+      "explanation": "\"Erros Comuns ao Usar Brinquedo Interativo para Gato\" e \"Melhor Comedouro Interativo para Gato: Guia Completo 2026\" têm sobreposição textual (score 50/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.",
+      "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
+    },
+    {
       "page_a": "/erros-comuns-camera-monitorar-pet/",
       "page_a_title": "Erros Comuns ao Usar Câmera para Monitorar Pet em Casa",
       "page_b": "/melhor-camera-para-monitorar-pet/",
@@ -2699,28 +2721,6 @@
       "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
     },
     {
-      "page_a": "/erros-comuns-brinquedo-interativo-gato/",
-      "page_a_title": "Erros Comuns ao Usar Brinquedo Interativo para Gato",
-      "page_b": "/melhor-comedouro-interativo-gato/",
-      "page_b_title": "Melhor Comedouro Interativo para Gato: Guia Completo 2026",
-      "score": 49,
-      "level": "complementary",
-      "format_a": "troubleshooting",
-      "format_b": "list",
-      "relationship": "differentiated_satellites",
-      "signals": [
-        "títulos semelhantes: interativo, gato",
-        "slugs semelhantes: interativo, gato",
-        "headings semelhantes: brinquedo, interativo, gato, conclusao",
-        "conteúdo semelhante: brinquedo, gato, interativo, produtos"
-      ],
-      "differentiation_signals": [
-        "formatos editoriais diferentes e específicos (\"troubleshooting\" vs. \"list\"), nenhum dos dois é a página pilar — provável conteúdo complementar, não concorrente"
-      ],
-      "explanation": "\"Erros Comuns ao Usar Brinquedo Interativo para Gato\" e \"Melhor Comedouro Interativo para Gato: Guia Completo 2026\" têm sobreposição textual (score 49/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.",
-      "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
-    },
-    {
       "page_a": "/porta-eletronica-sensor-de-luz-como-funciona/",
       "page_a_title": "Porta Eletrônica com Sensor de Luz para Pet: Como Funciona",
       "page_b": "/porta-eletronica-x-alcapao-tradicional/",
@@ -2783,6 +2783,26 @@
       ],
       "explanation": "\"Câmera para Monitorar Pet: Como Escolher o Modelo Ideal\" e \"Como Configurar a Câmera Pet no Wi-Fi (Sem Erros de Conexão)\" têm sobreposição textual (score 48/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.",
       "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
+    },
+    {
+      "page_a": "/coleira-gps-cachorro-pequeno-porte/",
+      "page_a_title": "Coleira GPS para Cachorro de Pequeno Porte: O Que Considerar",
+      "page_b": "/como-funciona-coleira-gps-cachorro/",
+      "page_b_title": "Como Funciona a Coleira GPS para Cachorro: Tipos e Uso",
+      "score": 48,
+      "level": "possible",
+      "format_a": "informational",
+      "format_b": "how_to",
+      "relationship": "different_format",
+      "signals": [
+        "títulos semelhantes: coleira, gps, cachorro",
+        "slugs semelhantes: coleira, gps, cachorro",
+        "headings semelhantes: gps, coleira, cachorro, conclusao",
+        "conteúdo semelhante: gps, coleira, nao, caes"
+      ],
+      "differentiation_signals": [],
+      "explanation": "Sobreposição moderada entre \"Coleira GPS para Cachorro de Pequeno Porte: O Que Considerar\" e \"Como Funciona a Coleira GPS para Cachorro: Tipos e Uso\" — pode ser conteúdo relacionado ou possível canibalização parcial.",
+      "recommendation": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles)."
     },
     {
       "page_a": "/coleira-gps-cachorro-que-foge/",
@@ -2993,26 +3013,6 @@
       ],
       "differentiation_signals": [],
       "explanation": "Sobreposição moderada entre \"Brinquedo Interativo Substitui a Brincadeira com o Tutor?\" e \"Erros Comuns ao Usar Brinquedo Interativo para Gato\" — pode ser conteúdo relacionado ou possível canibalização parcial.",
-      "recommendation": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles)."
-    },
-    {
-      "page_a": "/coleira-gps-cachorro-pequeno-porte/",
-      "page_a_title": "Coleira GPS para Cachorro de Pequeno Porte: O Que Considerar",
-      "page_b": "/como-funciona-coleira-gps-cachorro/",
-      "page_b_title": "Como Funciona a Coleira GPS para Cachorro: Tipos e Uso",
-      "score": 47,
-      "level": "possible",
-      "format_a": "informational",
-      "format_b": "how_to",
-      "relationship": "different_format",
-      "signals": [
-        "títulos semelhantes: coleira, gps, cachorro",
-        "slugs semelhantes: coleira, gps, cachorro",
-        "headings semelhantes: gps, coleira, cachorro, conclusao",
-        "conteúdo semelhante: gps, coleira, nao, caes"
-      ],
-      "differentiation_signals": [],
-      "explanation": "Sobreposição moderada entre \"Coleira GPS para Cachorro de Pequeno Porte: O Que Considerar\" e \"Como Funciona a Coleira GPS para Cachorro: Tipos e Uso\" — pode ser conteúdo relacionado ou possível canibalização parcial.",
       "recommendation": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles)."
     },
     {
@@ -3250,28 +3250,6 @@
     {
       "page_a": "/coleira-gps-cachorro-que-foge/",
       "page_a_title": "Coleira GPS para Cachorro Que Foge Muito: Como Escolher",
-      "page_b": "/coleira-gps-x-microchip/",
-      "page_b_title": "Coleira GPS ou Microchip: Qual a Diferença e Quando Usar",
-      "score": 46,
-      "level": "possible",
-      "format_a": "informational",
-      "format_b": "comparison",
-      "relationship": "different_format",
-      "signals": [
-        "títulos semelhantes: coleira, gps",
-        "slugs semelhantes: coleira, gps",
-        "headings semelhantes: coleira, gps, conclusao",
-        "conteúdo semelhante: gps, coleira, produtos, smart"
-      ],
-      "differentiation_signals": [
-        "um dos títulos usa formato comparativo explícito (\"X vs Y\" / \"X ou Y\")"
-      ],
-      "explanation": "Sobreposição moderada entre \"Coleira GPS para Cachorro Que Foge Muito: Como Escolher\" e \"Coleira GPS ou Microchip: Qual a Diferença e Quando Usar\" — pode ser conteúdo relacionado ou possível canibalização parcial. Sinais de diferenciação de intenção encontrados: um dos títulos usa formato comparativo explícito (\"X vs Y\" / \"X ou Y\").",
-      "recommendation": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles)."
-    },
-    {
-      "page_a": "/coleira-gps-cachorro-que-foge/",
-      "page_a_title": "Coleira GPS para Cachorro Que Foge Muito: Como Escolher",
       "page_b": "/erros-comuns-coleira-gps-pet/",
       "page_b_title": "Erros Comuns ao Usar Coleira GPS no Pet (E Como Evitar)",
       "score": 46,
@@ -3442,28 +3420,6 @@
       "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
     },
     {
-      "page_a": "/comedouro-vdrbg-4l-wifi-review/",
-      "page_a_title": "Comedouro VDRBG 4L Wi-Fi: Vale a Pena Comprar? Review",
-      "page_b": "/melhor-comedouro-automatico-cachorro/",
-      "page_b_title": "Melhor Comedouro Automático para Cachorro: Guia 2026",
-      "score": 46,
-      "level": "complementary",
-      "format_a": "review",
-      "format_b": "list",
-      "relationship": "differentiated_satellites",
-      "signals": [
-        "títulos semelhantes: comedouro",
-        "slugs semelhantes: comedouro",
-        "headings semelhantes: 4l, wi, fi, vdrbg",
-        "conteúdo semelhante: fi, wi, 4l, comedouro"
-      ],
-      "differentiation_signals": [
-        "formatos editoriais diferentes e específicos (\"review\" vs. \"list\"), nenhum dos dois é a página pilar — provável conteúdo complementar, não concorrente"
-      ],
-      "explanation": "\"Comedouro VDRBG 4L Wi-Fi: Vale a Pena Comprar? Review\" e \"Melhor Comedouro Automático para Cachorro: Guia 2026\" têm sobreposição textual (score 46/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.",
-      "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
-    },
-    {
       "page_a": "/duvidas-coleira-gps-pet/",
       "page_a_title": "Coleira GPS para Pet: Perguntas Frequentes Respondidas",
       "page_b": "/duvidas-porta-eletronica-pet/",
@@ -3623,7 +3579,7 @@
         "títulos semelhantes: coleira, gps",
         "slugs semelhantes: coleira, gps",
         "headings semelhantes: coleira, gps, conclusao, escolher",
-        "conteúdo semelhante: nao, coleira, operadora, gps"
+        "conteúdo semelhante: nao, coleira, gps, operadora"
       ],
       "differentiation_signals": [
         "um dos títulos usa formato comparativo explícito (\"X vs Y\" / \"X ou Y\")"
@@ -3653,6 +3609,28 @@
       ],
       "explanation": "\"Coleira GPS Sem Chip: Bluetooth ou Rede da Operadora?\" e \"Coleira GPS para Pet: Perguntas Frequentes Respondidas\" têm sobreposição textual (score 45/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.",
       "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
+    },
+    {
+      "page_a": "/coleira-gps-cachorro-que-foge/",
+      "page_a_title": "Coleira GPS para Cachorro Que Foge Muito: Como Escolher",
+      "page_b": "/coleira-gps-x-microchip/",
+      "page_b_title": "Coleira GPS ou Microchip: Qual a Diferença e Quando Usar",
+      "score": 45,
+      "level": "possible",
+      "format_a": "informational",
+      "format_b": "comparison",
+      "relationship": "different_format",
+      "signals": [
+        "títulos semelhantes: coleira, gps",
+        "slugs semelhantes: coleira, gps",
+        "headings semelhantes: coleira, gps, conclusao",
+        "conteúdo semelhante: gps, coleira, produtos, smart"
+      ],
+      "differentiation_signals": [
+        "um dos títulos usa formato comparativo explícito (\"X vs Y\" / \"X ou Y\")"
+      ],
+      "explanation": "Sobreposição moderada entre \"Coleira GPS para Cachorro Que Foge Muito: Como Escolher\" e \"Coleira GPS ou Microchip: Qual a Diferença e Quando Usar\" — pode ser conteúdo relacionado ou possível canibalização parcial. Sinais de diferenciação de intenção encontrados: um dos títulos usa formato comparativo explícito (\"X vs Y\" / \"X ou Y\").",
+      "recommendation": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles)."
     },
     {
       "page_a": "/coleira-gps-para-gato/",
@@ -3716,6 +3694,28 @@
         "formatos editoriais diferentes e específicos (\"faq\" vs. \"comparison\"), nenhum dos dois é a página pilar — provável conteúdo complementar, não concorrente"
       ],
       "explanation": "\"Comedouro Automático Ajuda no Controle de Peso do Gato?\" e \"Comedouro Automático para Gato x Cachorro: Qual a Diferença?\" têm sobreposição textual (score 45/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.",
+      "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
+    },
+    {
+      "page_a": "/comedouro-vdrbg-4l-wifi-review/",
+      "page_a_title": "Comedouro VDRBG 4L Wi-Fi: Vale a Pena Comprar? Review",
+      "page_b": "/melhor-comedouro-automatico-cachorro/",
+      "page_b_title": "Melhor Comedouro Automático para Cachorro: Guia 2026",
+      "score": 45,
+      "level": "complementary",
+      "format_a": "review",
+      "format_b": "list",
+      "relationship": "differentiated_satellites",
+      "signals": [
+        "títulos semelhantes: comedouro",
+        "slugs semelhantes: comedouro",
+        "headings semelhantes: 4l, wi, fi, vdrbg",
+        "conteúdo semelhante: fi, wi, 4l, comedouro"
+      ],
+      "differentiation_signals": [
+        "formatos editoriais diferentes e específicos (\"review\" vs. \"list\"), nenhum dos dois é a página pilar — provável conteúdo complementar, não concorrente"
+      ],
+      "explanation": "\"Comedouro VDRBG 4L Wi-Fi: Vale a Pena Comprar? Review\" e \"Melhor Comedouro Automático para Cachorro: Guia 2026\" têm sobreposição textual (score 45/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.",
       "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
     },
     {
@@ -4108,7 +4108,7 @@
         "títulos semelhantes: porta, eletronica",
         "slugs semelhantes: porta, eletronica",
         "headings semelhantes: porta, eletronica, conclusao",
-        "conteúdo semelhante: mercado, porta, produtos, smart"
+        "conteúdo semelhante: produtos, mercado, porta, smart"
       ],
       "differentiation_signals": [],
       "explanation": "Sobreposição moderada entre \"Porta Eletrônica para Gato x Cachorro: Qual a Diferença?\" e \"Porta Eletrônica com Reconhecimento Facial: Vale a Pena?\" — pode ser conteúdo relacionado ou possível canibalização parcial.",
@@ -4384,7 +4384,7 @@
         "títulos semelhantes: porta, eletronica",
         "slugs semelhantes: porta, eletronica",
         "headings semelhantes: casa, porta, eletronica, conclusao",
-        "conteúdo semelhante: porta, mercado, porte, produtos"
+        "conteúdo semelhante: porta, porte, mercado, produtos"
       ],
       "differentiation_signals": [
         "formatos editoriais diferentes e específicos (\"troubleshooting\" vs. \"comparison\"), nenhum dos dois é a página pilar — provável conteúdo complementar, não concorrente"
@@ -4433,6 +4433,26 @@
       "recommendation": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles)."
     },
     {
+      "page_a": "/melhor-comedouro-automatico-cachorro/",
+      "page_a_title": "Melhor Comedouro Automático para Cachorro: Guia 2026",
+      "page_b": "/melhor-comedouro-interativo-gato/",
+      "page_b_title": "Melhor Comedouro Interativo para Gato: Guia Completo 2026",
+      "score": 43,
+      "level": "possible",
+      "format_a": "list",
+      "format_b": "list",
+      "relationship": "same_format",
+      "signals": [
+        "títulos semelhantes: comedouro, melhor, guia",
+        "slugs semelhantes: comedouro, melhor",
+        "headings semelhantes: comedouro, tipos, conclusao, melhor",
+        "conteúdo semelhante: comedouro, mercado, modelos, livre"
+      ],
+      "differentiation_signals": [],
+      "explanation": "Sobreposição moderada entre \"Melhor Comedouro Automático para Cachorro: Guia 2026\" e \"Melhor Comedouro Interativo para Gato: Guia Completo 2026\" — pode ser conteúdo relacionado ou possível canibalização parcial.",
+      "recommendation": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles)."
+    },
+    {
       "page_a": "/porta-eletronica-funciona-porta-de-vidro/",
       "page_a_title": "Porta Eletrônica para Pet Funciona em Porta de Vidro?",
       "page_b": "/porta-eletronica-gato-x-cachorro-diferenca/",
@@ -4446,7 +4466,7 @@
         "títulos semelhantes: porta, eletronica",
         "slugs semelhantes: porta, eletronica",
         "headings semelhantes: porta, eletronica, conclusao",
-        "conteúdo semelhante: porta, mercado, produtos, smart"
+        "conteúdo semelhante: porta, produtos, mercado, smart"
       ],
       "differentiation_signals": [],
       "explanation": "Sobreposição moderada entre \"Porta Eletrônica para Pet Funciona em Porta de Vidro?\" e \"Porta Eletrônica para Gato x Cachorro: Qual a Diferença?\" — pode ser conteúdo relacionado ou possível canibalização parcial.",
@@ -4597,30 +4617,10 @@
         "títulos semelhantes: perguntas, frequentes",
         "slugs semelhantes: duvidas",
         "headings semelhantes: funciona, perguntas, frequentes, bateria",
-        "conteúdo semelhante: nao, mercado, produtos, smart"
+        "conteúdo semelhante: nao, mercado, veja, produtos"
       ],
       "differentiation_signals": [],
       "explanation": "Sobreposição moderada entre \"Brinquedo Interativo para Gato: Perguntas Frequentes\" e \"Porta Eletrônica para Pet: Perguntas Frequentes (FAQ)\" — pode ser conteúdo relacionado ou possível canibalização parcial.",
-      "recommendation": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles)."
-    },
-    {
-      "page_a": "/melhor-comedouro-automatico-cachorro/",
-      "page_a_title": "Melhor Comedouro Automático para Cachorro: Guia 2026",
-      "page_b": "/melhor-comedouro-interativo-gato/",
-      "page_b_title": "Melhor Comedouro Interativo para Gato: Guia Completo 2026",
-      "score": 42,
-      "level": "possible",
-      "format_a": "list",
-      "format_b": "list",
-      "relationship": "same_format",
-      "signals": [
-        "títulos semelhantes: comedouro, melhor, guia",
-        "slugs semelhantes: comedouro, melhor",
-        "headings semelhantes: comedouro, tipos, conclusao, melhor",
-        "conteúdo semelhante: comedouro, mercado, modelos, livre"
-      ],
-      "differentiation_signals": [],
-      "explanation": "Sobreposição moderada entre \"Melhor Comedouro Automático para Cachorro: Guia 2026\" e \"Melhor Comedouro Interativo para Gato: Guia Completo 2026\" — pode ser conteúdo relacionado ou possível canibalização parcial.",
       "recommendation": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles)."
     },
     {
@@ -4752,28 +4752,6 @@
       "recommendation": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles)."
     },
     {
-      "page_a": "/como-limpar-comedouro-automatico/",
-      "page_a_title": "Como Limpar o Comedouro Automático do Pet: Guia Rápido",
-      "page_b": "/melhor-comedouro-automatico-cachorro/",
-      "page_b_title": "Melhor Comedouro Automático para Cachorro: Guia 2026",
-      "score": 41,
-      "level": "complementary",
-      "format_a": "how_to",
-      "format_b": "list",
-      "relationship": "differentiated_satellites",
-      "signals": [
-        "títulos semelhantes: comedouro, automatico, guia",
-        "slugs semelhantes: comedouro, automatico",
-        "headings semelhantes: comedouro, conclusao, automatico, guia",
-        "conteúdo semelhante: comedouro, wi, fi, modelos"
-      ],
-      "differentiation_signals": [
-        "formatos editoriais diferentes e específicos (\"how_to\" vs. \"list\"), nenhum dos dois é a página pilar — provável conteúdo complementar, não concorrente"
-      ],
-      "explanation": "\"Como Limpar o Comedouro Automático do Pet: Guia Rápido\" e \"Melhor Comedouro Automático para Cachorro: Guia 2026\" têm sobreposição textual (score 41/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.",
-      "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
-    },
-    {
       "page_a": "/porta-eletronica-gato-x-cachorro-diferenca/",
       "page_a_title": "Porta Eletrônica para Gato x Cachorro: Qual a Diferença?",
       "page_b": "/porta-eletronica-impede-entrada-outros-animais/",
@@ -4787,10 +4765,32 @@
         "títulos semelhantes: porta, eletronica",
         "slugs semelhantes: porta, eletronica",
         "headings semelhantes: porta, eletronica, conclusao",
-        "conteúdo semelhante: mercado, porta, produtos, smart"
+        "conteúdo semelhante: produtos, mercado, porta, smart"
       ],
       "differentiation_signals": [],
       "explanation": "Sobreposição moderada entre \"Porta Eletrônica para Gato x Cachorro: Qual a Diferença?\" e \"Porta Eletrônica Impede a Entrada de Outros Animais?\" — pode ser conteúdo relacionado ou possível canibalização parcial.",
+      "recommendation": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles)."
+    },
+    {
+      "page_a": "/porta-eletronica-gato-x-cachorro-diferenca/",
+      "page_a_title": "Porta Eletrônica para Gato x Cachorro: Qual a Diferença?",
+      "page_b": "/porta-eletronica-microchip-x-rfid-coleira/",
+      "page_b_title": "Porta Eletrônica: Microchip ou Medalhão RFID na Coleira?",
+      "score": 41,
+      "level": "possible",
+      "format_a": "comparison",
+      "format_b": "comparison",
+      "relationship": "same_format",
+      "signals": [
+        "títulos semelhantes: porta, eletronica",
+        "slugs semelhantes: porta, eletronica",
+        "headings semelhantes: porta, eletronica, conclusao",
+        "conteúdo semelhante: microchip, produtos, mercado, porta"
+      ],
+      "differentiation_signals": [
+        "um dos títulos usa formato comparativo explícito (\"X vs Y\" / \"X ou Y\")"
+      ],
+      "explanation": "Sobreposição moderada entre \"Porta Eletrônica para Gato x Cachorro: Qual a Diferença?\" e \"Porta Eletrônica: Microchip ou Medalhão RFID na Coleira?\" — pode ser conteúdo relacionado ou possível canibalização parcial. Sinais de diferenciação de intenção encontrados: um dos títulos usa formato comparativo explícito (\"X vs Y\" / \"X ou Y\").",
       "recommendation": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles)."
     },
     {
@@ -4986,6 +4986,28 @@
       "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
     },
     {
+      "page_a": "/como-limpar-comedouro-automatico/",
+      "page_a_title": "Como Limpar o Comedouro Automático do Pet: Guia Rápido",
+      "page_b": "/melhor-comedouro-automatico-cachorro/",
+      "page_b_title": "Melhor Comedouro Automático para Cachorro: Guia 2026",
+      "score": 40,
+      "level": "complementary",
+      "format_a": "how_to",
+      "format_b": "list",
+      "relationship": "differentiated_satellites",
+      "signals": [
+        "títulos semelhantes: comedouro, automatico, guia",
+        "slugs semelhantes: comedouro, automatico",
+        "headings semelhantes: comedouro, conclusao, automatico, guia",
+        "conteúdo semelhante: comedouro, wi, fi, modelos"
+      ],
+      "differentiation_signals": [
+        "formatos editoriais diferentes e específicos (\"how_to\" vs. \"list\"), nenhum dos dois é a página pilar — provável conteúdo complementar, não concorrente"
+      ],
+      "explanation": "\"Como Limpar o Comedouro Automático do Pet: Guia Rápido\" e \"Melhor Comedouro Automático para Cachorro: Guia 2026\" têm sobreposição textual (score 40/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.",
+      "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
+    },
+    {
       "page_a": "/configurar-app-comedouro-wifi/",
       "page_a_title": "Como Configurar o App do Comedouro Automático Wi-Fi",
       "page_b": "/melhor-comedouro-automatico-cachorro/",
@@ -5021,7 +5043,7 @@
         "títulos semelhantes: perguntas, frequentes",
         "slugs semelhantes: duvidas",
         "headings semelhantes: perguntas, frequentes, funciona, conclusao",
-        "conteúdo semelhante: nao, mercado, produtos, smart"
+        "conteúdo semelhante: nao, mercado, veja, produtos"
       ],
       "differentiation_signals": [],
       "explanation": "Sobreposição moderada entre \"Brinquedo Interativo para Gato: Perguntas Frequentes\" e \"Câmera para Monitorar Pet: Perguntas Frequentes (FAQ)\" — pode ser conteúdo relacionado ou possível canibalização parcial.",
@@ -5069,28 +5091,6 @@
       ],
       "explanation": "\"Erros Comuns ao Instalar e Usar Porta Eletrônica para Pet\" e \"Porta Eletrônica: Microchip ou Medalhão RFID na Coleira?\" têm sobreposição textual (score 40/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.",
       "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
-    },
-    {
-      "page_a": "/porta-eletronica-gato-x-cachorro-diferenca/",
-      "page_a_title": "Porta Eletrônica para Gato x Cachorro: Qual a Diferença?",
-      "page_b": "/porta-eletronica-microchip-x-rfid-coleira/",
-      "page_b_title": "Porta Eletrônica: Microchip ou Medalhão RFID na Coleira?",
-      "score": 40,
-      "level": "possible",
-      "format_a": "comparison",
-      "format_b": "comparison",
-      "relationship": "same_format",
-      "signals": [
-        "títulos semelhantes: porta, eletronica",
-        "slugs semelhantes: porta, eletronica",
-        "headings semelhantes: porta, eletronica, conclusao",
-        "conteúdo semelhante: microchip, mercado, porta, produtos"
-      ],
-      "differentiation_signals": [
-        "um dos títulos usa formato comparativo explícito (\"X vs Y\" / \"X ou Y\")"
-      ],
-      "explanation": "Sobreposição moderada entre \"Porta Eletrônica para Gato x Cachorro: Qual a Diferença?\" e \"Porta Eletrônica: Microchip ou Medalhão RFID na Coleira?\" — pode ser conteúdo relacionado ou possível canibalização parcial. Sinais de diferenciação de intenção encontrados: um dos títulos usa formato comparativo explícito (\"X vs Y\" / \"X ou Y\").",
-      "recommendation": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles)."
     },
     {
       "page_a": "/porta-eletronica-gato-x-cachorro-diferenca/",

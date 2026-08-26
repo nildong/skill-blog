@@ -1,16 +1,16 @@
 # Content Strategy Report
 
-**Gerado em:** 2026-08-25T17:48:00.819Z
+**Gerado em:** 2026-08-26T19:52:37.657Z
 
 ## Executive Summary
 
 
 Páginas analisadas: 72
 Clusters identificados: 5
-Oportunidades totais: 48
+Oportunidades totais: 47
 NO_ACTION: 19
 
-P0: 0 | P1: 9 | P2: 39 | P3: 0
+P0: 0 | P1: 8 | P2: 39 | P3: 0
 
 ## Site Overview
 
@@ -28,7 +28,7 @@ Distribuição de oportunidades por tipo e prioridade:
 | Tipo | P0 | P1 | P2 | P3 | Total |
 |---|---:|---:|---:|---:|---:|
 | DIFFERENTIATE_CONTENT | 0 | 8 | 29 | 0 | 37 |
-| IMPROVE_INTERNAL_LINKING | 0 | 1 | 5 | 0 | 6 |
+| IMPROVE_INTERNAL_LINKING | 0 | 0 | 5 | 0 | 5 |
 | IMPROVE_FAQ | 0 | 0 | 1 | 0 | 1 |
 | NEW_CONTENT | 0 | 0 | 4 | 0 | 4 |
 
@@ -38,16 +38,16 @@ Distribuição de oportunidades por tipo e prioridade:
 1. **[P1] DIFFERENTIATE_CONTENT** (score 68, confidence MEDIUM) — `/comedouro-newpet-4l-review/`
    - Sobreposição moderada entre "Comedouro Newpet 4L: Review Completo (Vale a Pena?)" e "Comedouro VDRBG 4L Wi-Fi: Vale a Pena Comprar? Review" — pode ser conteúdo relacionado ou possível canibalização parcial.
    - Ação: Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles).
-2. **[P1] DIFFERENTIATE_CONTENT** (score 63, confidence MEDIUM) — `/comedouro-gato-x-cachorro-diferenca/`
+2. **[P1] DIFFERENTIATE_CONTENT** (score 66, confidence MEDIUM) — `/comedouro-gato-x-cachorro-diferenca/`
    - Sobreposição moderada entre "Comedouro Automático para Gato x Cachorro: Qual a Diferença?" e "Porta Eletrônica para Gato x Cachorro: Qual a Diferença?" — pode ser conteúdo relacionado ou possível canibalização parcial.
    - Ação: Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles).
-3. **[P2] DIFFERENTIATE_CONTENT** (score 63, confidence LOW) — `/melhor-comedouro-automatico-cachorro/`
-   - Sobreposição moderada entre "Melhor Comedouro Automático para Cachorro: Guia 2026" e "Melhor Comedouro Interativo para Gato: Guia Completo 2026" — pode ser conteúdo relacionado ou possível canibalização parcial.
-   - Ação: Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles).
-4. **[P1] DIFFERENTIATE_CONTENT** (score 62, confidence MEDIUM) — `/coleira-gps-cachorro-que-foge/`
+3. **[P1] DIFFERENTIATE_CONTENT** (score 63, confidence MEDIUM) — `/coleira-gps-cachorro-que-foge/`
    - Sobreposição moderada entre "Coleira GPS para Cachorro Que Foge Muito: Como Escolher" e "Como Funciona a Coleira GPS para Cachorro: Tipos e Uso" — pode ser conteúdo relacionado ou possível canibalização parcial.
    - Ação: Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles).
-5. **[P1] DIFFERENTIATE_CONTENT** (score 61, confidence MEDIUM) — `/brinquedo-interativo-gato-idoso-vale-a-pena/`
+4. **[P2] DIFFERENTIATE_CONTENT** (score 63, confidence LOW) — `/melhor-comedouro-automatico-cachorro/`
+   - Sobreposição moderada entre "Melhor Comedouro Automático para Cachorro: Guia 2026" e "Melhor Comedouro Interativo para Gato: Guia Completo 2026" — pode ser conteúdo relacionado ou possível canibalização parcial.
+   - Ação: Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles).
+5. **[P1] DIFFERENTIATE_CONTENT** (score 62, confidence MEDIUM) — `/brinquedo-interativo-gato-idoso-vale-a-pena/`
    - Sobreposição moderada entre "Brinquedo Interativo para Gato Idoso: Vale a Pena?" e "Brinquedo Interativo para Gato: Perguntas Frequentes" — pode ser conteúdo relacionado ou possível canibalização parcial.
    - Ação: Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles).
 6. **[P1] DIFFERENTIATE_CONTENT** (score 61, confidence MEDIUM) — `/coleira-gps-cachorro-pequeno-porte/`
@@ -90,22 +90,19 @@ Nenhuma oportunidade de atualização/expansão identificada.
 ## Internal Linking Opportunities
 
 
-1. **[P1] IMPROVE_INTERNAL_LINKING** (score 53, confidence MEDIUM) — `/comedouro-gato-x-cachorro-diferenca/`
-   - Página bem-relacionada, mas sem receber os links internos que a análise já identificou como relevantes.
-   - Ação: Adicionar link(s) a partir de: melhor-comedouro-automatico-cachorro, porta-eletronica-gato-x-cachorro-diferenca, melhor-comedouro-interativo-gato.
-2. **[P2] IMPROVE_INTERNAL_LINKING** (score 48, confidence MEDIUM) — `/camera-pet-x-coleira-gps-qual-escolher/`
+1. **[P2] IMPROVE_INTERNAL_LINKING** (score 48, confidence MEDIUM) — `/camera-pet-x-coleira-gps-qual-escolher/`
    - Página bem-relacionada, mas sem receber os links internos que a análise já identificou como relevantes.
    - Ação: Adicionar link(s) a partir de: coleira-gps-para-pet, coleira-gps-x-microchip, coleira-gps-bluetooth-x-chip-operadora.
-3. **[P2] IMPROVE_INTERNAL_LINKING** (score 48, confidence MEDIUM) — `/comedouro-com-ou-sem-wifi/`
+2. **[P2] IMPROVE_INTERNAL_LINKING** (score 48, confidence MEDIUM) — `/comedouro-com-ou-sem-wifi/`
    - Página bem-relacionada, mas sem receber os links internos que a análise já identificou como relevantes.
    - Ação: Adicionar link(s) a partir de: comedouro-vdrbg-4l-wifi-review, configurar-app-comedouro-wifi, como-configurar-camera-pet-wifi.
-4. **[P2] IMPROVE_INTERNAL_LINKING** (score 48, confidence MEDIUM) — `/como-escolher-brinquedo-interativo-gato-entediado/`
+3. **[P2] IMPROVE_INTERNAL_LINKING** (score 48, confidence MEDIUM) — `/como-escolher-brinquedo-interativo-gato-entediado/`
    - Página bem-relacionada, mas sem receber os links internos que a análise já identificou como relevantes.
    - Ação: Adicionar link(s) a partir de: duvidas-brinquedo-interativo-gato, erros-comuns-brinquedo-interativo-gato, brinquedo-interativo-gato-idoso-vale-a-pena, brinquedo-interativo-pilha-x-recarregavel.
-5. **[P2] IMPROVE_INTERNAL_LINKING** (score 48, confidence MEDIUM) — `/duvidas-brinquedo-interativo-gato/`
+4. **[P2] IMPROVE_INTERNAL_LINKING** (score 48, confidence MEDIUM) — `/duvidas-brinquedo-interativo-gato/`
    - Página bem-relacionada, mas sem receber os links internos que a análise já identificou como relevantes.
    - Ação: Adicionar link(s) a partir de: brinquedo-interativo-gato-idoso-vale-a-pena, brinquedo-interativo-pilha-x-recarregavel, como-escolher-brinquedo-interativo-gato-entediado, erros-comuns-brinquedo-interativo-gato.
-6. **[P2] IMPROVE_INTERNAL_LINKING** (score 48, confidence MEDIUM) — `/erros-comuns-brinquedo-interativo-gato/`
+5. **[P2] IMPROVE_INTERNAL_LINKING** (score 48, confidence MEDIUM) — `/erros-comuns-brinquedo-interativo-gato/`
    - Página bem-relacionada, mas sem receber os links internos que a análise já identificou como relevantes.
    - Ação: Adicionar link(s) a partir de: como-escolher-brinquedo-interativo-gato-entediado, duvidas-brinquedo-interativo-gato, brinquedo-interativo-gato-idoso-vale-a-pena.
 
@@ -122,13 +119,13 @@ Nenhuma oportunidade de atualização/expansão identificada.
 1. **[P1] DIFFERENTIATE_CONTENT** (score 68, confidence MEDIUM) — `/comedouro-newpet-4l-review/`
    - Sobreposição moderada entre "Comedouro Newpet 4L: Review Completo (Vale a Pena?)" e "Comedouro VDRBG 4L Wi-Fi: Vale a Pena Comprar? Review" — pode ser conteúdo relacionado ou possível canibalização parcial.
    - Ação: Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles).
-2. **[P1] DIFFERENTIATE_CONTENT** (score 63, confidence MEDIUM) — `/comedouro-gato-x-cachorro-diferenca/`
+2. **[P1] DIFFERENTIATE_CONTENT** (score 66, confidence MEDIUM) — `/comedouro-gato-x-cachorro-diferenca/`
    - Sobreposição moderada entre "Comedouro Automático para Gato x Cachorro: Qual a Diferença?" e "Porta Eletrônica para Gato x Cachorro: Qual a Diferença?" — pode ser conteúdo relacionado ou possível canibalização parcial.
    - Ação: Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles).
-3. **[P1] DIFFERENTIATE_CONTENT** (score 62, confidence MEDIUM) — `/coleira-gps-cachorro-que-foge/`
+3. **[P1] DIFFERENTIATE_CONTENT** (score 63, confidence MEDIUM) — `/coleira-gps-cachorro-que-foge/`
    - Sobreposição moderada entre "Coleira GPS para Cachorro Que Foge Muito: Como Escolher" e "Como Funciona a Coleira GPS para Cachorro: Tipos e Uso" — pode ser conteúdo relacionado ou possível canibalização parcial.
    - Ação: Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles).
-4. **[P1] DIFFERENTIATE_CONTENT** (score 61, confidence MEDIUM) — `/brinquedo-interativo-gato-idoso-vale-a-pena/`
+4. **[P1] DIFFERENTIATE_CONTENT** (score 62, confidence MEDIUM) — `/brinquedo-interativo-gato-idoso-vale-a-pena/`
    - Sobreposição moderada entre "Brinquedo Interativo para Gato Idoso: Vale a Pena?" e "Brinquedo Interativo para Gato: Perguntas Frequentes" — pode ser conteúdo relacionado ou possível canibalização parcial.
    - Ação: Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles).
 5. **[P1] DIFFERENTIATE_CONTENT** (score 61, confidence MEDIUM) — `/coleira-gps-cachorro-pequeno-porte/`
@@ -242,7 +239,7 @@ Nenhuma oportunidade de atualização/expansão identificada.
 - Formatos presentes: FAQ, PILLAR, HOW_TO, REVIEW, COMPARISON, SATELLITE
 - Formatos ausentes: (nenhum)
 - Cobertura: GOOD
-- Issues de SEO no cluster: 3
+- Issues de SEO no cluster: 2
 
 ### camera-para-monitorar-pet
 
@@ -252,7 +249,7 @@ Nenhuma oportunidade de atualização/expansão identificada.
 - Formatos presentes: PILLAR, SATELLITE, COMPARISON, HOW_TO, FAQ
 - Formatos ausentes: REVIEW
 - Cobertura: GOOD
-- Issues de SEO no cluster: 14
+- Issues de SEO no cluster: 13
 
 ### coleira-gps-para-pet
 

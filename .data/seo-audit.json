@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T17:39:35.181Z",
+  "generated_at": "2026-08-26T19:52:22.663Z",
   "site": {
     "total_pages": 72,
-    "source_index_generated_at": "2026-08-25T17:39:30.636Z"
+    "source_index_generated_at": "2026-08-26T19:52:15.415Z"
   },
   "summary": {
     "critical": 0,
     "errors": 0,
     "warnings": 1,
-    "info": 62
+    "info": 59
   },
   "categories": {
     "technical": {
@@ -22,7 +22,7 @@
       "critical": 0,
       "error": 0,
       "warning": 0,
-      "info": 3
+      "info": 0
     },
     "headings": {
       "critical": 0,
@@ -222,15 +222,7 @@
       "page_type": "post",
       "title": "Câmera para Monitorar Pet: Como Escolher o Modelo Ideal",
       "status": "pass",
-      "issues": [
-        {
-          "id": "DESCRIPTION_TOO_LONG",
-          "category": "metadata",
-          "severity": "INFO",
-          "evidence": "meta description com 164 caracteres (recomendado até 160)",
-          "recommendation": "Considerar encurtar para reduzir risco de truncamento no SERP."
-        }
-      ]
+      "issues": []
     },
     {
       "path": "camera-pet-cachorro-ansiedade-separacao/index.html",
@@ -561,15 +553,7 @@
       "page_type": "post",
       "title": "Comedouro Automático Com ou Sem Wi-Fi: Qual Escolher?",
       "status": "pass",
-      "issues": [
-        {
-          "id": "DESCRIPTION_TOO_LONG",
-          "category": "metadata",
-          "severity": "INFO",
-          "evidence": "meta description com 161 caracteres (recomendado até 160)",
-          "recommendation": "Considerar encurtar para reduzir risco de truncamento no SERP."
-        }
-      ]
+      "issues": []
     },
     {
       "path": "comedouro-gato-x-cachorro-diferenca/index.html",
@@ -845,13 +829,6 @@
       "title": "Smart Pet Gadgets — Cuidados e Produtos para Cães e Gatos",
       "status": "warning",
       "issues": [
-        {
-          "id": "DESCRIPTION_TOO_LONG",
-          "category": "metadata",
-          "severity": "INFO",
-          "evidence": "meta description com 168 caracteres (recomendado até 160)",
-          "recommendation": "Considerar encurtar para reduzir risco de truncamento no SERP."
-        },
         {
           "id": "IMAGE_COUNT_HIGH",
           "category": "images",

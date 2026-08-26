@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T17:47:56.400Z",
+  "generated_at": "2026-08-26T19:52:29.181Z",
   "summary": {
     "pages_analyzed": 72,
-    "suggestions": 190,
+    "suggestions": 188,
     "orphan_target_suggestions": 0,
     "read_errors": 0
   },
@@ -17,7 +17,7 @@
       "score_breakdown": {
         "title": 20.9,
         "heading": 8.8,
-        "content": 13.6,
+        "content": 13.8,
         "slug": 9.3,
         "cluster": 0,
         "pillar_satellite": 10
@@ -68,7 +68,7 @@
       "score_breakdown": {
         "title": 24.4,
         "heading": 9.9,
-        "content": 9.7,
+        "content": 9.9,
         "slug": 7.7,
         "cluster": 0,
         "pillar_satellite": 10
@@ -94,7 +94,7 @@
       "score_breakdown": {
         "title": 24.4,
         "heading": 9.9,
-        "content": 9.7,
+        "content": 9.9,
         "slug": 7.7,
         "cluster": 0,
         "pillar_satellite": 10
@@ -444,31 +444,6 @@
       "relationship": "pillar_satellite"
     },
     {
-      "source": "/melhor-comedouro-automatico-cachorro/",
-      "source_slug": "melhor-comedouro-automatico-cachorro",
-      "target": "/comedouro-gato-x-cachorro-diferenca/",
-      "target_slug": "comedouro-gato-x-cachorro-diferenca",
-      "score": 53,
-      "score_breakdown": {
-        "title": 26.3,
-        "heading": 8.4,
-        "content": 9.9,
-        "slug": 8.7,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "O Que Muda na Prática",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): comedouro, cachorro, automatico",
-        "headings compartilham termo(s): comedouro, cachorro, tipos",
-        "conteúdo compartilha termo(s): comedouro, gatos, 4l",
-        "slug compartilha termo(s): comedouro, cachorro"
-      ],
-      "target_is_orphan": false,
-      "relationship": "differentiated_satellites"
-    },
-    {
       "source": "/comedouro-automatico-vale-a-pena/",
       "source_slug": "comedouro-automatico-vale-a-pena",
       "target": "/comedouro-vdrbg-4l-wifi-review/",
@@ -578,7 +553,7 @@
       "score_breakdown": {
         "title": 21.7,
         "heading": 8.9,
-        "content": 10.9,
+        "content": 11.1,
         "slug": 7.5,
         "cluster": 0,
         "pillar_satellite": 0
@@ -588,7 +563,7 @@
       "evidence": [
         "título compartilha termo(s): gato, cachorro, diferenca",
         "headings compartilham termo(s): gato, cachorro, diferenca",
-        "conteúdo compartilha termo(s): gatos, caes, gato",
+        "conteúdo compartilha termo(s): gatos, comedouro, gato",
         "slug compartilha termo(s): gato, cachorro, diferenca"
       ],
       "target_is_orphan": false,
@@ -645,31 +620,6 @@
       "relationship": "same_format"
     },
     {
-      "source": "/porta-eletronica-gato-x-cachorro-diferenca/",
-      "source_slug": "porta-eletronica-gato-x-cachorro-diferenca",
-      "target": "/comedouro-gato-x-cachorro-diferenca/",
-      "target_slug": "comedouro-gato-x-cachorro-diferenca",
-      "score": 49,
-      "score_breakdown": {
-        "title": 21.7,
-        "heading": 8.9,
-        "content": 10.9,
-        "slug": 7.5,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "O Que Muda na Prática",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): gato, cachorro, diferenca",
-        "headings compartilham termo(s): gato, cachorro, diferenca",
-        "conteúdo compartilha termo(s): gatos, caes, gato",
-        "slug compartilha termo(s): gato, cachorro, diferenca"
-      ],
-      "target_is_orphan": false,
-      "relationship": "same_format"
-    },
-    {
       "source": "/comedouro-cachorro/",
       "source_slug": "comedouro-cachorro",
       "target": "/melhor-comedouro-automatico-cachorro/",
@@ -678,7 +628,7 @@
       "score_breakdown": {
         "title": 24.5,
         "heading": 4.6,
-        "content": 8.5,
+        "content": 8.7,
         "slug": 10,
         "cluster": 0,
         "pillar_satellite": 0
@@ -688,7 +638,7 @@
       "evidence": [
         "título compartilha termo(s): comedouro, cachorro",
         "headings compartilham termo(s): comedouro, cachorro, porte",
-        "conteúdo compartilha termo(s): comedouro, caes, mercado",
+        "conteúdo compartilha termo(s): comedouro, cao, caes",
         "slug compartilha termo(s): comedouro, cachorro"
       ],
       "target_is_orphan": false,
@@ -853,7 +803,7 @@
       "score_breakdown": {
         "title": 24.5,
         "heading": 4.6,
-        "content": 8.5,
+        "content": 8.7,
         "slug": 10,
         "cluster": 0,
         "pillar_satellite": 0
@@ -863,7 +813,7 @@
       "evidence": [
         "título compartilha termo(s): comedouro, cachorro",
         "headings compartilham termo(s): comedouro, cachorro, porte",
-        "conteúdo compartilha termo(s): comedouro, caes, mercado",
+        "conteúdo compartilha termo(s): comedouro, cao, caes",
         "slug compartilha termo(s): comedouro, cachorro"
       ],
       "target_is_orphan": false,
@@ -1245,31 +1195,6 @@
       "relationship": "different_format"
     },
     {
-      "source": "/coleira-gps-cachorro-que-foge/",
-      "source_slug": "coleira-gps-cachorro-que-foge",
-      "target": "/como-funciona-coleira-gps-cachorro/",
-      "target_slug": "como-funciona-coleira-gps-cachorro",
-      "score": 45,
-      "score_breakdown": {
-        "title": 21.7,
-        "heading": 6.3,
-        "content": 9.7,
-        "slug": 7.5,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "As Três Tecnologias de Localização",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): coleira, gps, cachorro",
-        "headings compartilham termo(s): coleira, gps, nao",
-        "conteúdo compartilha termo(s): gps, coleira, nao",
-        "slug compartilha termo(s): coleira, gps, cachorro"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
-    },
-    {
       "source": "/comedouro-gato-x-cachorro-diferenca/",
       "source_slug": "comedouro-gato-x-cachorro-diferenca",
       "target": "/melhor-comedouro-interativo-gato/",
@@ -1278,7 +1203,7 @@
       "score_breakdown": {
         "title": 17.4,
         "heading": 11.2,
-        "content": 9.8,
+        "content": 10,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
@@ -1295,56 +1220,6 @@
       "relationship": "differentiated_satellites"
     },
     {
-      "source": "/como-funciona-coleira-gps-cachorro/",
-      "source_slug": "como-funciona-coleira-gps-cachorro",
-      "target": "/coleira-gps-cachorro-que-foge/",
-      "target_slug": "coleira-gps-cachorro-que-foge",
-      "score": 45,
-      "score_breakdown": {
-        "title": 21.7,
-        "heading": 6.3,
-        "content": 9.7,
-        "slug": 7.5,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Priorize Alcance Real, Não Apenas Preço",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): coleira, gps, cachorro",
-        "headings compartilham termo(s): coleira, gps, nao",
-        "conteúdo compartilha termo(s): gps, coleira, nao",
-        "slug compartilha termo(s): coleira, gps, cachorro"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
-    },
-    {
-      "source": "/melhor-comedouro-interativo-gato/",
-      "source_slug": "melhor-comedouro-interativo-gato",
-      "target": "/comedouro-gato-x-cachorro-diferenca/",
-      "target_slug": "comedouro-gato-x-cachorro-diferenca",
-      "score": 45,
-      "score_breakdown": {
-        "title": 17.4,
-        "heading": 11.2,
-        "content": 9.8,
-        "slug": 6.3,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "O Que Muda na Prática",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): comedouro, gato",
-        "headings compartilham termo(s): comedouro, gato, tipos",
-        "conteúdo compartilha termo(s): comedouro, gato, gatos",
-        "slug compartilha termo(s): comedouro, gato"
-      ],
-      "target_is_orphan": false,
-      "relationship": "differentiated_satellites"
-    },
-    {
       "source": "/brinquedo-interativo-gato-idoso-vale-a-pena/",
       "source_slug": "brinquedo-interativo-gato-idoso-vale-a-pena",
       "target": "/melhor-comedouro-interativo-gato/",
@@ -1353,7 +1228,7 @@
       "score_breakdown": {
         "title": 17.4,
         "heading": 10.2,
-        "content": 9.9,
+        "content": 10.2,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
@@ -1378,7 +1253,7 @@
       "score_breakdown": {
         "title": 19.5,
         "heading": 7.6,
-        "content": 10.3,
+        "content": 10.5,
         "slug": 6.1,
         "cluster": 0,
         "pillar_satellite": 0
@@ -1403,7 +1278,7 @@
       "score_breakdown": {
         "title": 19.5,
         "heading": 7.6,
-        "content": 10.3,
+        "content": 10.5,
         "slug": 6.1,
         "cluster": 0,
         "pillar_satellite": 0
@@ -1453,7 +1328,7 @@
       "score_breakdown": {
         "title": 17.4,
         "heading": 10.2,
-        "content": 9.9,
+        "content": 10.2,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
@@ -1653,7 +1528,7 @@
       "score_breakdown": {
         "title": 19.5,
         "heading": 7.3,
-        "content": 9.8,
+        "content": 9.5,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
@@ -1870,6 +1745,31 @@
       "relationship": "different_format"
     },
     {
+      "source": "/comedouro-automatico-gato-obeso/",
+      "source_slug": "comedouro-automatico-gato-obeso",
+      "target": "/melhor-comedouro-interativo-gato/",
+      "target_slug": "melhor-comedouro-interativo-gato",
+      "score": 42,
+      "score_breakdown": {
+        "title": 17.4,
+        "heading": 7.4,
+        "content": 10.4,
+        "slug": 6.3,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Melhor Comedouro Interativo para Gato: Guia Completo 2026",
+      "reason": "similaridade moderada de conteúdo/título/headings",
+      "evidence": [
+        "título compartilha termo(s): comedouro, gato",
+        "headings compartilham termo(s): comedouro, gato, comum",
+        "conteúdo compartilha termo(s): comedouro, gato, nao",
+        "slug compartilha termo(s): comedouro, gato"
+      ],
+      "target_is_orphan": false,
+      "relationship": "differentiated_satellites"
+    },
+    {
       "source": "/como-funciona-coleira-gps-cachorro/",
       "source_slug": "como-funciona-coleira-gps-cachorro",
       "target": "/camera-pet-x-coleira-gps-qual-escolher/",
@@ -1878,7 +1778,7 @@
       "score_breakdown": {
         "title": 18.2,
         "heading": 7.3,
-        "content": 10.4,
+        "content": 10.7,
         "slug": 6.1,
         "cluster": 0,
         "pillar_satellite": 0
@@ -1903,7 +1803,7 @@
       "score_breakdown": {
         "title": 18.2,
         "heading": 7,
-        "content": 10.1,
+        "content": 10.5,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
@@ -1913,7 +1813,7 @@
       "evidence": [
         "título compartilha termo(s): coleira, gps",
         "headings compartilham termo(s): coleira, gps, nao",
-        "conteúdo compartilha termo(s): gps, nao, chip",
+        "conteúdo compartilha termo(s): gps, nao, coleira",
         "slug compartilha termo(s): coleira, gps"
       ],
       "target_is_orphan": false,
@@ -1928,7 +1828,7 @@
       "score_breakdown": {
         "title": 18.2,
         "heading": 6.6,
-        "content": 11.1,
+        "content": 11,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
@@ -1938,7 +1838,7 @@
       "evidence": [
         "título compartilha termo(s): porta, eletronica",
         "headings compartilham termo(s): porta, eletronica, conclusao",
-        "conteúdo compartilha termo(s): porta, mercado, produtos",
+        "conteúdo compartilha termo(s): porta, produtos, mercado",
         "slug compartilha termo(s): porta, eletronica"
       ],
       "target_is_orphan": false,
@@ -2028,7 +1928,7 @@
       "score_breakdown": {
         "title": 18.2,
         "heading": 7,
-        "content": 10.1,
+        "content": 10.5,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
@@ -2038,7 +1938,7 @@
       "evidence": [
         "título compartilha termo(s): coleira, gps",
         "headings compartilham termo(s): coleira, gps, nao",
-        "conteúdo compartilha termo(s): gps, nao, chip",
+        "conteúdo compartilha termo(s): gps, nao, coleira",
         "slug compartilha termo(s): coleira, gps"
       ],
       "target_is_orphan": false,
@@ -2070,6 +1970,31 @@
       "relationship": "differentiated_satellites"
     },
     {
+      "source": "/melhor-comedouro-interativo-gato/",
+      "source_slug": "melhor-comedouro-interativo-gato",
+      "target": "/comedouro-automatico-gato-obeso/",
+      "target_slug": "comedouro-automatico-gato-obeso",
+      "score": 42,
+      "score_breakdown": {
+        "title": 17.4,
+        "heading": 7.4,
+        "content": 10.4,
+        "slug": 6.3,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Obesidade em Gatos: Um Problema Mais Comum do que Parece",
+      "reason": "similaridade moderada de conteúdo/título/headings",
+      "evidence": [
+        "título compartilha termo(s): comedouro, gato",
+        "headings compartilham termo(s): comedouro, gato, comum",
+        "conteúdo compartilha termo(s): comedouro, gato, racao",
+        "slug compartilha termo(s): comedouro, gato"
+      ],
+      "target_is_orphan": false,
+      "relationship": "differentiated_satellites"
+    },
+    {
       "source": "/porta-eletronica-gato-x-cachorro-diferenca/",
       "source_slug": "porta-eletronica-gato-x-cachorro-diferenca",
       "target": "/como-instalar-porta-eletronica-pet/",
@@ -2078,7 +2003,7 @@
       "score_breakdown": {
         "title": 18.2,
         "heading": 6.6,
-        "content": 11.1,
+        "content": 11,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
@@ -2088,7 +2013,7 @@
       "evidence": [
         "título compartilha termo(s): porta, eletronica",
         "headings compartilham termo(s): porta, eletronica, conclusao",
-        "conteúdo compartilha termo(s): porta, mercado, produtos",
+        "conteúdo compartilha termo(s): porta, produtos, mercado",
         "slug compartilha termo(s): porta, eletronica"
       ],
       "target_is_orphan": false,
@@ -2145,31 +2070,6 @@
       "relationship": "different_format"
     },
     {
-      "source": "/comedouro-automatico-gato-obeso/",
-      "source_slug": "comedouro-automatico-gato-obeso",
-      "target": "/melhor-comedouro-interativo-gato/",
-      "target_slug": "melhor-comedouro-interativo-gato",
-      "score": 41,
-      "score_breakdown": {
-        "title": 17.4,
-        "heading": 7.4,
-        "content": 10.3,
-        "slug": 6.3,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Melhor Comedouro Interativo para Gato: Guia Completo 2026",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): comedouro, gato",
-        "headings compartilham termo(s): comedouro, gato, comum",
-        "conteúdo compartilha termo(s): comedouro, gato, nao",
-        "slug compartilha termo(s): comedouro, gato"
-      ],
-      "target_is_orphan": false,
-      "relationship": "differentiated_satellites"
-    },
-    {
       "source": "/como-instalar-porta-eletronica-pet/",
       "source_slug": "como-instalar-porta-eletronica-pet",
       "target": "/porta-eletronica-impede-entrada-outros-animais/",
@@ -2222,24 +2122,24 @@
     {
       "source": "/melhor-comedouro-interativo-gato/",
       "source_slug": "melhor-comedouro-interativo-gato",
-      "target": "/comedouro-automatico-gato-obeso/",
-      "target_slug": "comedouro-automatico-gato-obeso",
+      "target": "/como-escolher-brinquedo-interativo-gato-entediado/",
+      "target_slug": "como-escolher-brinquedo-interativo-gato-entediado",
       "score": 41,
       "score_breakdown": {
         "title": 17.4,
         "heading": 7.4,
-        "content": 10.3,
+        "content": 9.7,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
       },
-      "anchor": "Obesidade em Gatos: Um Problema Mais Comum do que Parece",
+      "anchor": "Como Escolher Brinquedo Interativo para Gato Entediado",
       "reason": "similaridade moderada de conteúdo/título/headings",
       "evidence": [
-        "título compartilha termo(s): comedouro, gato",
-        "headings compartilham termo(s): comedouro, gato, comum",
-        "conteúdo compartilha termo(s): comedouro, gato, racao",
-        "slug compartilha termo(s): comedouro, gato"
+        "título compartilha termo(s): interativo, gato",
+        "headings compartilham termo(s): interativo, brinquedo, gato",
+        "conteúdo compartilha termo(s): brinquedo, interativo, gato",
+        "slug compartilha termo(s): interativo, gato"
       ],
       "target_is_orphan": false,
       "relationship": "differentiated_satellites"
@@ -2428,7 +2328,7 @@
       "score_breakdown": {
         "title": 17.4,
         "heading": 10.3,
-        "content": 9.2,
+        "content": 9.3,
         "slug": 3.2,
         "cluster": 0,
         "pillar_satellite": 0
@@ -2703,7 +2603,7 @@
       "score_breakdown": {
         "title": 17.4,
         "heading": 7.4,
-        "content": 8.4,
+        "content": 8.7,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
@@ -2713,7 +2613,7 @@
       "evidence": [
         "título compartilha termo(s): interativo, gato",
         "headings compartilham termo(s): brinquedo, interativo, gato",
-        "conteúdo compartilha termo(s): brinquedo, gato, interativo",
+        "conteúdo compartilha termo(s): gato, brinquedo, interativo",
         "slug compartilha termo(s): interativo, gato"
       ],
       "target_is_orphan": false,
@@ -3428,7 +3328,7 @@
       "score_breakdown": {
         "title": 15,
         "heading": 6.5,
-        "content": 9.5,
+        "content": 9.6,
         "slug": 6.7,
         "cluster": 0,
         "pillar_satellite": 0
@@ -3553,7 +3453,7 @@
       "score_breakdown": {
         "title": 15,
         "heading": 6.5,
-        "content": 9.5,
+        "content": 9.6,
         "slug": 6.7,
         "cluster": 0,
         "pillar_satellite": 0
@@ -4203,7 +4103,7 @@
       "score_breakdown": {
         "title": 15,
         "heading": 5,
-        "content": 8.6,
+        "content": 8.9,
         "slug": 7.5,
         "cluster": 0,
         "pillar_satellite": 0
@@ -4253,7 +4153,7 @@
       "score_breakdown": {
         "title": 15,
         "heading": 5,
-        "content": 8.6,
+        "content": 8.9,
         "slug": 7.5,
         "cluster": 0,
         "pillar_satellite": 0
@@ -4413,7 +4313,7 @@
       "evidence": [
         "título compartilha termo(s): porta, eletronica",
         "headings compartilham termo(s): porta, eletronica, conclusao",
-        "conteúdo compartilha termo(s): mercado, porta, produtos",
+        "conteúdo compartilha termo(s): produtos, mercado, porta",
         "slug compartilha termo(s): porta, eletronica"
       ],
       "target_is_orphan": false,
@@ -4553,7 +4453,7 @@
       "score_breakdown": {
         "title": 14.1,
         "heading": 7.3,
-        "content": 8.6,
+        "content": 8.8,
         "slug": 5,
         "cluster": 0,
         "pillar_satellite": 0
@@ -4628,7 +4528,7 @@
       "score_breakdown": {
         "title": 14.1,
         "heading": 6,
-        "content": 10.6,
+        "content": 10.7,
         "slug": 4.3,
         "cluster": 0,
         "pillar_satellite": 0
@@ -4703,7 +4603,7 @@
       "score_breakdown": {
         "title": 14.1,
         "heading": 7.3,
-        "content": 8.6,
+        "content": 8.8,
         "slug": 5,
         "cluster": 0,
         "pillar_satellite": 0
@@ -4728,7 +4628,7 @@
       "score_breakdown": {
         "title": 14.1,
         "heading": 6,
-        "content": 10.6,
+        "content": 10.7,
         "slug": 4.3,
         "cluster": 0,
         "pillar_satellite": 0
@@ -4743,6 +4643,31 @@
       ],
       "target_is_orphan": false,
       "relationship": "differentiated_satellites"
+    },
+    {
+      "source": "/melhor-comedouro-automatico-cachorro/",
+      "source_slug": "melhor-comedouro-automatico-cachorro",
+      "target": "/melhor-comedouro-interativo-gato/",
+      "target_slug": "melhor-comedouro-interativo-gato",
+      "score": 35,
+      "score_breakdown": {
+        "title": 15.9,
+        "heading": 6.1,
+        "content": 7.5,
+        "slug": 5,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Melhor Comedouro Interativo para Gato: Guia Completo 2026",
+      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
+      "evidence": [
+        "título compartilha termo(s): comedouro, melhor, guia",
+        "headings compartilham termo(s): comedouro, tipos, conclusao",
+        "conteúdo compartilha termo(s): comedouro, mercado, modelos",
+        "slug compartilha termo(s): comedouro, melhor"
+      ],
+      "target_is_orphan": false,
+      "relationship": "same_format"
     },
     {
       "source": "/porta-eletronica-gato-x-cachorro-diferenca/",
@@ -4764,6 +4689,31 @@
         "título compartilha termo(s): porta, eletronica",
         "headings compartilham termo(s): porta, eletronica, conclusao",
         "conteúdo compartilha termo(s): porta, eletronica, modelos",
+        "slug compartilha termo(s): porta, eletronica"
+      ],
+      "target_is_orphan": false,
+      "relationship": "differentiated_satellites"
+    },
+    {
+      "source": "/porta-eletronica-gato-x-cachorro-diferenca/",
+      "source_slug": "porta-eletronica-gato-x-cachorro-diferenca",
+      "target": "/erros-comuns-porta-eletronica-pet/",
+      "target_slug": "erros-comuns-porta-eletronica-pet",
+      "score": 35,
+      "score_breakdown": {
+        "title": 12,
+        "heading": 7.1,
+        "content": 11,
+        "slug": 4.8,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Não Considerar o Porte do Maior Animal da Casa",
+      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
+      "evidence": [
+        "título compartilha termo(s): porta, eletronica",
+        "headings compartilham termo(s): casa, porta, eletronica",
+        "conteúdo compartilha termo(s): porta, porte, mercado",
         "slug compartilha termo(s): porta, eletronica"
       ],
       "target_is_orphan": false,

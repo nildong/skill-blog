@@ -1,10 +1,10 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T17:48:00.819Z",
+  "generated_at": "2026-08-26T19:52:37.657Z",
   "summary": {
     "pages_analyzed": 72,
     "clusters_identified": 5,
-    "total_opportunities": 48,
+    "total_opportunities": 47,
     "no_action_count": 19,
     "pillar_count": 5,
     "clusters_with_pillar": 5,
@@ -12,13 +12,13 @@
   },
   "priorities": {
     "P0": 0,
-    "P1": 9,
+    "P1": 8,
     "P2": 39,
     "P3": 0
   },
   "opportunities": [
     {
-      "id": "DIFFERENTIATE_CONTENT-0062",
+      "id": "DIFFERENTIATE_CONTENT-0061",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 68,
       "score_breakdown": {
@@ -47,16 +47,16 @@
       "priority": "P1"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0059",
+      "id": "DIFFERENTIATE_CONTENT-0058",
       "type": "DIFFERENTIATE_CONTENT",
-      "score": 63,
+      "score": 66,
       "score_breakdown": {
         "impact": 15,
-        "strategic_value": 14,
+        "strategic_value": 17,
         "evidence": 20,
         "confidence": 9,
         "effort": 5,
-        "total": 63
+        "total": 66
       },
       "confidence": "MEDIUM",
       "page": "/comedouro-gato-x-cachorro-diferenca/",
@@ -68,7 +68,7 @@
         "títulos semelhantes: gato, cachorro, diferenca",
         "slugs semelhantes: gato, cachorro, diferenca",
         "headings semelhantes: gato, cachorro, diferenca, tamanho",
-        "conteúdo semelhante: gatos, caes, gato, cachorro"
+        "conteúdo semelhante: gatos, comedouro, gato, caes"
       ],
       "recommended_action": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles).",
       "involves_pillar": false,
@@ -76,16 +76,16 @@
       "priority": "P1"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0043",
+      "id": "DIFFERENTIATE_CONTENT-0042",
       "type": "DIFFERENTIATE_CONTENT",
-      "score": 62,
+      "score": 63,
       "score_breakdown": {
         "impact": 15,
-        "strategic_value": 13,
+        "strategic_value": 14,
         "evidence": 20,
         "confidence": 9,
         "effort": 5,
-        "total": 62
+        "total": 63
       },
       "confidence": "MEDIUM",
       "page": "/coleira-gps-cachorro-que-foge/",
@@ -101,20 +101,20 @@
       ],
       "recommended_action": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles).",
       "involves_pillar": false,
-      "pair_score": 57,
+      "pair_score": 58,
       "priority": "P1"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0009",
+      "id": "DIFFERENTIATE_CONTENT-0008",
       "type": "DIFFERENTIATE_CONTENT",
-      "score": 61,
+      "score": 62,
       "score_breakdown": {
         "impact": 15,
-        "strategic_value": 12,
+        "strategic_value": 13,
         "evidence": 20,
         "confidence": 9,
         "effort": 5,
-        "total": 61
+        "total": 62
       },
       "confidence": "MEDIUM",
       "page": "/brinquedo-interativo-gato-idoso-vale-a-pena/",
@@ -134,7 +134,7 @@
       "priority": "P1"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0036",
+      "id": "DIFFERENTIATE_CONTENT-0035",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 61,
       "score_breakdown": {
@@ -159,11 +159,11 @@
       ],
       "recommended_action": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles).",
       "involves_pillar": false,
-      "pair_score": 61,
+      "pair_score": 60,
       "priority": "P1"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0089",
+      "id": "DIFFERENTIATE_CONTENT-0088",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 61,
       "score_breakdown": {
@@ -192,7 +192,7 @@
       "priority": "P1"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0049",
+      "id": "DIFFERENTIATE_CONTENT-0048",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 60,
       "score_breakdown": {
@@ -221,7 +221,7 @@
       "priority": "P1"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0063",
+      "id": "DIFFERENTIATE_CONTENT-0062",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 60,
       "score_breakdown": {
@@ -250,33 +250,7 @@
       "priority": "P1"
     },
     {
-      "id": "IMPROVE_INTERNAL_LINKING-0003",
-      "type": "IMPROVE_INTERNAL_LINKING",
-      "score": 53,
-      "score_breakdown": {
-        "impact": 15,
-        "strategic_value": 14,
-        "evidence": 5,
-        "confidence": 9,
-        "effort": 10,
-        "total": 53
-      },
-      "confidence": "MEDIUM",
-      "page": "/comedouro-gato-x-cachorro-diferenca/",
-      "related_pages": [
-        "/melhor-comedouro-automatico-cachorro/",
-        "/porta-eletronica-gato-x-cachorro-diferenca/",
-        "/melhor-comedouro-interativo-gato/"
-      ],
-      "reason": "Página bem-relacionada, mas sem receber os links internos que a análise já identificou como relevantes.",
-      "evidence": [
-        "3 sugestão(ões) de link de entrada com score >= 45 ainda não aplicada(s)"
-      ],
-      "recommended_action": "Adicionar link(s) a partir de: melhor-comedouro-automatico-cachorro, porta-eletronica-gato-x-cachorro-diferenca, melhor-comedouro-interativo-gato.",
-      "priority": "P1"
-    },
-    {
-      "id": "DIFFERENTIATE_CONTENT-0088",
+      "id": "DIFFERENTIATE_CONTENT-0087",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 63,
       "score_breakdown": {
@@ -301,11 +275,11 @@
       ],
       "recommended_action": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles).",
       "involves_pillar": false,
-      "pair_score": 42,
+      "pair_score": 43,
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0064",
+      "id": "DIFFERENTIATE_CONTENT-0063",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 59,
       "score_breakdown": {
@@ -334,7 +308,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0028",
+      "id": "DIFFERENTIATE_CONTENT-0027",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 58,
       "score_breakdown": {
@@ -363,7 +337,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0033",
+      "id": "DIFFERENTIATE_CONTENT-0032",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 58,
       "score_breakdown": {
@@ -392,7 +366,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0060",
+      "id": "DIFFERENTIATE_CONTENT-0059",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 58,
       "score_breakdown": {
@@ -421,7 +395,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0071",
+      "id": "DIFFERENTIATE_CONTENT-0070",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 58,
       "score_breakdown": {
@@ -450,7 +424,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0074",
+      "id": "DIFFERENTIATE_CONTENT-0073",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 58,
       "score_breakdown": {
@@ -479,7 +453,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0054",
+      "id": "DIFFERENTIATE_CONTENT-0053",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 57,
       "score_breakdown": {
@@ -508,7 +482,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0104",
+      "id": "DIFFERENTIATE_CONTENT-0103",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 57,
       "score_breakdown": {
@@ -537,7 +511,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0058",
+      "id": "DIFFERENTIATE_CONTENT-0057",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 56,
       "score_breakdown": {
@@ -566,7 +540,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0083",
+      "id": "DIFFERENTIATE_CONTENT-0082",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 56,
       "score_breakdown": {
@@ -595,7 +569,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0100",
+      "id": "DIFFERENTIATE_CONTENT-0099",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 56,
       "score_breakdown": {
@@ -624,7 +598,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0016",
+      "id": "DIFFERENTIATE_CONTENT-0015",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 55,
       "score_breakdown": {
@@ -653,7 +627,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0027",
+      "id": "DIFFERENTIATE_CONTENT-0026",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 55,
       "score_breakdown": {
@@ -682,7 +656,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0023",
+      "id": "DIFFERENTIATE_CONTENT-0022",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 54,
       "score_breakdown": {
@@ -711,7 +685,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0026",
+      "id": "DIFFERENTIATE_CONTENT-0025",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 54,
       "score_breakdown": {
@@ -740,7 +714,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0081",
+      "id": "DIFFERENTIATE_CONTENT-0080",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 54,
       "score_breakdown": {
@@ -769,7 +743,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0095",
+      "id": "DIFFERENTIATE_CONTENT-0094",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 54,
       "score_breakdown": {
@@ -790,7 +764,7 @@
         "títulos semelhantes: porta, eletronica",
         "slugs semelhantes: porta, eletronica",
         "headings semelhantes: porta, eletronica, conclusao",
-        "conteúdo semelhante: mercado, porta, produtos, smart"
+        "conteúdo semelhante: produtos, mercado, porta, smart"
       ],
       "recommended_action": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles).",
       "involves_pillar": false,
@@ -798,7 +772,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0109",
+      "id": "DIFFERENTIATE_CONTENT-0108",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 54,
       "score_breakdown": {
@@ -827,7 +801,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0008",
+      "id": "DIFFERENTIATE_CONTENT-0007",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 53,
       "score_breakdown": {
@@ -856,7 +830,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0018",
+      "id": "DIFFERENTIATE_CONTENT-0017",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 53,
       "score_breakdown": {
@@ -885,7 +859,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0055",
+      "id": "DIFFERENTIATE_CONTENT-0054",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 53,
       "score_breakdown": {
@@ -914,7 +888,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0056",
+      "id": "DIFFERENTIATE_CONTENT-0055",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 53,
       "score_breakdown": {
@@ -943,7 +917,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0057",
+      "id": "DIFFERENTIATE_CONTENT-0056",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 53,
       "score_breakdown": {
@@ -972,7 +946,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0068",
+      "id": "DIFFERENTIATE_CONTENT-0067",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 53,
       "score_breakdown": {
@@ -1001,7 +975,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0073",
+      "id": "DIFFERENTIATE_CONTENT-0072",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 53,
       "score_breakdown": {
@@ -1030,7 +1004,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0078",
+      "id": "DIFFERENTIATE_CONTENT-0077",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 53,
       "score_breakdown": {
@@ -1059,7 +1033,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0084",
+      "id": "DIFFERENTIATE_CONTENT-0083",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 53,
       "score_breakdown": {
@@ -1088,7 +1062,7 @@
       "priority": "P2"
     },
     {
-      "id": "DIFFERENTIATE_CONTENT-0107",
+      "id": "DIFFERENTIATE_CONTENT-0106",
       "type": "DIFFERENTIATE_CONTENT",
       "score": 53,
       "score_breakdown": {
@@ -1169,7 +1143,7 @@
       "priority": "P2"
     },
     {
-      "id": "IMPROVE_INTERNAL_LINKING-0004",
+      "id": "IMPROVE_INTERNAL_LINKING-0003",
       "type": "IMPROVE_INTERNAL_LINKING",
       "score": 48,
       "score_breakdown": {
@@ -1196,7 +1170,7 @@
       "priority": "P2"
     },
     {
-      "id": "IMPROVE_INTERNAL_LINKING-0005",
+      "id": "IMPROVE_INTERNAL_LINKING-0004",
       "type": "IMPROVE_INTERNAL_LINKING",
       "score": 48,
       "score_breakdown": {
@@ -1223,7 +1197,7 @@
       "priority": "P2"
     },
     {
-      "id": "IMPROVE_INTERNAL_LINKING-0006",
+      "id": "IMPROVE_INTERNAL_LINKING-0005",
       "type": "IMPROVE_INTERNAL_LINKING",
       "score": 48,
       "score_breakdown": {
@@ -1249,7 +1223,7 @@
       "priority": "P2"
     },
     {
-      "id": "IMPROVE_FAQ-0007",
+      "id": "IMPROVE_FAQ-0006",
       "type": "IMPROVE_FAQ",
       "score": 46,
       "score_breakdown": {
@@ -1271,7 +1245,7 @@
       "priority": "P2"
     },
     {
-      "id": "NEW_CONTENT-0110",
+      "id": "NEW_CONTENT-0109",
       "type": "NEW_CONTENT",
       "score": 44,
       "score_breakdown": {
@@ -1305,7 +1279,7 @@
       "priority": "P2"
     },
     {
-      "id": "NEW_CONTENT-0111",
+      "id": "NEW_CONTENT-0110",
       "type": "NEW_CONTENT",
       "score": 44,
       "score_breakdown": {
@@ -1339,7 +1313,7 @@
       "priority": "P2"
     },
     {
-      "id": "NEW_CONTENT-0112",
+      "id": "NEW_CONTENT-0111",
       "type": "NEW_CONTENT",
       "score": 44,
       "score_breakdown": {
@@ -1372,7 +1346,7 @@
       "priority": "P2"
     },
     {
-      "id": "NEW_CONTENT-0113",
+      "id": "NEW_CONTENT-0112",
       "type": "NEW_CONTENT",
       "score": 44,
       "score_breakdown": {
@@ -1420,7 +1394,7 @@
         "SATELLITE"
       ],
       "formats_missing": [],
-      "seo_issue_count": 3,
+      "seo_issue_count": 2,
       "error_page_count": 0,
       "coverage": "GOOD",
       "pages": [
@@ -1458,7 +1432,7 @@
       "formats_missing": [
         "REVIEW"
       ],
-      "seo_issue_count": 14,
+      "seo_issue_count": 13,
       "error_page_count": 0,
       "coverage": "GOOD",
       "pages": [
@@ -1627,7 +1601,7 @@
       "cluster": "brinquedo-interativo-automatico-para-gato",
       "cluster_confidence": "known",
       "word_count": 393,
-      "inbound_links": 7,
+      "inbound_links": 8,
       "outbound_links": 10,
       "seo_status": "pass"
     },
@@ -1818,9 +1792,9 @@
       "role": "SATELLITE",
       "cluster": "coleira-gps-para-pet",
       "cluster_confidence": "known",
-      "word_count": 530,
-      "inbound_links": 8,
-      "outbound_links": 14,
+      "word_count": 546,
+      "inbound_links": 9,
+      "outbound_links": 15,
       "seo_status": "pass"
     },
     {
@@ -1963,7 +1937,7 @@
       "cluster": "comedouro-automatico-para-pet",
       "cluster_confidence": "known",
       "word_count": 1456,
-      "inbound_links": 9,
+      "inbound_links": 12,
       "outbound_links": 18,
       "seo_status": "pass"
     },
@@ -2046,9 +2020,9 @@
       "role": "HOW_TO",
       "cluster": "coleira-gps-para-pet",
       "cluster_confidence": "known",
-      "word_count": 655,
-      "inbound_links": 6,
-      "outbound_links": 12,
+      "word_count": 677,
+      "inbound_links": 7,
+      "outbound_links": 13,
       "seo_status": "pass"
     },
     {
@@ -2106,9 +2080,9 @@
       "role": "FAQ",
       "cluster": "brinquedo-interativo-automatico-para-gato",
       "cluster_confidence": "known",
-      "word_count": 463,
+      "word_count": 470,
       "inbound_links": 4,
-      "outbound_links": 13,
+      "outbound_links": 14,
       "seo_status": "pass"
     },
     {
@@ -2274,9 +2248,9 @@
       "role": "SATELLITE",
       "cluster": "comedouro-automatico-para-pet",
       "cluster_confidence": "known",
-      "word_count": 827,
+      "word_count": 854,
       "inbound_links": 14,
-      "outbound_links": 14,
+      "outbound_links": 15,
       "seo_status": "pass"
     },
     {
@@ -2286,9 +2260,9 @@
       "role": "SATELLITE",
       "cluster": "comedouro-automatico-para-pet",
       "cluster_confidence": "known",
-      "word_count": 414,
+      "word_count": 437,
       "inbound_links": 5,
-      "outbound_links": 11,
+      "outbound_links": 12,
       "seo_status": "pass"
     },
     {
@@ -2334,9 +2308,9 @@
       "role": "COMPARISON",
       "cluster": "porta-eletronica-automatica-para-pet",
       "cluster_confidence": "known",
-      "word_count": 409,
+      "word_count": 432,
       "inbound_links": 5,
-      "outbound_links": 11,
+      "outbound_links": 12,
       "seo_status": "pass"
     },
     {

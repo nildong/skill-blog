@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-25T17:39:30.636Z",
+  "generated_at": "2026-08-26T19:52:15.415Z",
   "site": {
     "root": "/home/projetos/blog",
     "total_html_files_found": 72,
@@ -20,7 +20,7 @@
       "no_h1": 0
     },
     "links": {
-      "internal_links": 1085,
+      "internal_links": 1091,
       "external_links": 186
     },
     "media": {
@@ -1591,7 +1591,7 @@
       "url_path": "/camera-para-monitorar-pet/",
       "page_type": "post",
       "title": "Câmera para Monitorar Pet: Como Escolher o Modelo Ideal",
-      "meta_description": "Como escolher uma câmera para monitorar cão ou gato sozinho em casa: resolução, visão noturna, áudio bidirecional, dispensador de petisco e preços no Mercado Livre.",
+      "meta_description": "Como escolher uma câmera para monitorar cão ou gato sozinho em casa: resolução, visão noturna, áudio bidirecional, dispensador de petisco e preço médio.",
       "canonical": "https://smartpetgadgets.com.br/camera-para-monitorar-pet/",
       "robots": null,
       "language": "pt-BR",
@@ -1812,7 +1812,7 @@
           "types": [
             "BlogPosting"
           ],
-          "raw_length": 898
+          "raw_length": 886
         },
         {
           "valid": true,
@@ -4158,8 +4158,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 530,
-        "char_count": 3167,
+        "word_count": 546,
+        "char_count": 3251,
         "paragraph_count": 17,
         "list_count": 0,
         "table_count": 0,
@@ -4180,6 +4180,11 @@
         {
           "href": "https://smartpetgadgets.com.br/autores/nildo-alves/",
           "anchor_text": "Nildo Alves",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/como-funciona-coleira-gps-cachorro/",
+          "anchor_text": "como a coleira GPS funciona na prática",
           "type": "absolute"
         },
         {
@@ -4245,7 +4250,7 @@
           "domain": "lista.mercadolivre.com.br"
         }
       ],
-      "internal_link_count": 14,
+      "internal_link_count": 15,
       "external_link_count": 1,
       "images": [
         {
@@ -6945,7 +6950,7 @@
       "url_path": "/comedouro-com-ou-sem-wifi/",
       "page_type": "post",
       "title": "Comedouro Automático Com ou Sem Wi-Fi: Qual Escolher?",
-      "meta_description": "Comedouro automático com Wi-Fi ou sem Wi-Fi: entenda as diferenças reais, quando cada um vale a pena e como escolher sem pagar por recurso que você não vai usar.",
+      "meta_description": "Comedouro automático com Wi-Fi ou sem Wi-Fi: entenda as diferenças reais e quando vale a pena pagar por Wi-Fi ou não.",
       "canonical": "https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/",
       "robots": null,
       "language": "pt-BR",
@@ -7203,7 +7208,7 @@
           "types": [
             "BlogPosting"
           ],
-          "raw_length": 922
+          "raw_length": 878
         },
         {
           "valid": true,
@@ -9154,9 +9159,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 655,
-        "char_count": 3896,
-        "paragraph_count": 18,
+        "word_count": 677,
+        "char_count": 4026,
+        "paragraph_count": 19,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -9186,6 +9191,11 @@
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-bluetooth-x-chip-operadora/",
           "anchor_text": "aprofunde a diferença técnica entre Bluetooth e chip de operadora",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/coleira-gps-cachorro-que-foge/",
+          "anchor_text": "coleira GPS para cachorro que foge muito: como escolher",
           "type": "absolute"
         },
         {
@@ -9236,7 +9246,7 @@
           "domain": "lista.mercadolivre.com.br"
         }
       ],
-      "internal_link_count": 12,
+      "internal_link_count": 13,
       "external_link_count": 2,
       "images": [
         {
@@ -10232,8 +10242,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 463,
-        "char_count": 2784,
+        "word_count": 470,
+        "char_count": 2824,
         "paragraph_count": 20,
         "list_count": 0,
         "table_count": 0,
@@ -10287,6 +10297,11 @@
           "type": "absolute"
         },
         {
+          "href": "https://smartpetgadgets.com.br/brinquedo-interativo-gato-idoso-vale-a-pena/",
+          "anchor_text": "Veja o guia completo para gatos idosos",
+          "type": "absolute"
+        },
+        {
           "href": "https://smartpetgadgets.com.br/autores/nildo-alves/",
           "anchor_text": "Nildo Alves",
           "type": "absolute"
@@ -10319,7 +10334,7 @@
           "domain": "lista.mercadolivre.com.br"
         }
       ],
-      "internal_link_count": 13,
+      "internal_link_count": 14,
       "external_link_count": 2,
       "images": [
         {
@@ -11915,7 +11930,7 @@
       "url_path": "/",
       "page_type": "home",
       "title": "Smart Pet Gadgets — Cuidados e Produtos para Cães e Gatos",
-      "meta_description": "Guias práticos e reviews de produtos para cães e gatos: alimentação, saúde, higiene e bem-estar, com curadoria baseada em dados de mercado e boas práticas veterinárias.",
+      "meta_description": "Guias práticos e reviews de produtos para cães e gatos: alimentação, saúde, higiene e bem-estar, com curadoria baseada em dados de mercado.",
       "canonical": "https://smartpetgadgets.com.br/",
       "robots": null,
       "language": "pt-BR",
@@ -15336,9 +15351,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 827,
-        "char_count": 5020,
-        "paragraph_count": 24,
+        "word_count": 854,
+        "char_count": 5169,
+        "paragraph_count": 25,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 1,
@@ -15378,6 +15393,11 @@
         {
           "href": "https://smartpetgadgets.com.br/comedouro-automatico-vale-a-pena/",
           "anchor_text": "vale a pena um comedouro automático — prós, contras e preço",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/",
+          "anchor_text": "qual a diferença entre comedouro automático para gato e para cachorro",
           "type": "absolute"
         },
         {
@@ -15443,7 +15463,7 @@
           "domain": "lista.mercadolivre.com.br"
         }
       ],
-      "internal_link_count": 14,
+      "internal_link_count": 15,
       "external_link_count": 5,
       "images": [
         {
@@ -15552,9 +15572,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 414,
-        "char_count": 2698,
-        "paragraph_count": 13,
+        "word_count": 437,
+        "char_count": 2832,
+        "paragraph_count": 14,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -15579,6 +15599,11 @@
         {
           "href": "https://smartpetgadgets.com.br/melhor-bolinha-inteligente-para-gato/",
           "anchor_text": "veja o comparativo de bolinhas inteligentes para estímulo físico",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/",
+          "anchor_text": "qual a diferença entre comedouro automático para gato e para cachorro",
           "type": "absolute"
         },
         {
@@ -15629,7 +15654,7 @@
           "domain": "lista.mercadolivre.com.br"
         }
       ],
-      "internal_link_count": 11,
+      "internal_link_count": 12,
       "external_link_count": 2,
       "images": [
         {
@@ -16299,9 +16324,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 409,
-        "char_count": 2441,
-        "paragraph_count": 13,
+        "word_count": 432,
+        "char_count": 2579,
+        "paragraph_count": 14,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -16326,6 +16351,11 @@
         {
           "href": "https://smartpetgadgets.com.br/porta-eletronica-microchip-x-rfid-coleira/",
           "anchor_text": "veja como funciona o cadastro de múltiplos animais",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/",
+          "anchor_text": "qual a diferença entre comedouro automático para gato e para cachorro",
           "type": "absolute"
         },
         {
@@ -16376,7 +16406,7 @@
           "domain": "lista.mercadolivre.com.br"
         }
       ],
-      "internal_link_count": 11,
+      "internal_link_count": 12,
       "external_link_count": 2,
       "images": [
         {
