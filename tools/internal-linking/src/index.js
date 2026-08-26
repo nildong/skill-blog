@@ -7,6 +7,7 @@ const path = require('path');
 const { extractBodyTextFromFile } = require('../../shared/html-text');
 const { analyzeInternalLinking } = require('./analyzer');
 const { writeReports } = require('./report');
+const { simulateLinksForProposal } = require('./simulate');
 
 const HELP = `
 Internal Linking Engine — sugestões analíticas de link interno (não modifica artigos)
@@ -14,6 +15,7 @@ Internal Linking Engine — sugestões analíticas de link interno (não modific
 Uso:
   npm run suggest [-- opções]
   node src/index.js [opções]
+  node src/index.js --simulate <article-proposal.json> [opções]
 
 Opções:
   --site-index <caminho>   Caminho do site-index.json (padrão: <raiz>/.data/site-index.json)
@@ -23,13 +25,22 @@ Opções:
   --quiet                  Suprime o resumo no stdout
   --help                    Mostra esta ajuda e sai
 
+Modo --simulate (opt-in, Fase 5 — orquestração pré-escrita):
+  --simulate <caminho>     Caminho de um article-proposal.json (formato:
+                           { slug, theme|title, keyword_candidate?, headings? })
+                           Responde: de quais páginas a proposta deveria
+                           RECEBER link, e para quais deveria ENVIAR link.
+                           NÃO sobrescreve .data/internal-linking.json nem
+                           reports/internal-linking.md — grava em caminho
+                           separado (--output, se informado) ou só imprime.
+
 Apenas SUGERE. Nunca insere, remove ou altera links em nenhum artigo.
 Não acessa a internet. Requer .data/site-index.json (rode o Site Indexer
 antes) e, opcionalmente, .data/seo-audit.json (para priorizar órfãs).
 `.trim();
 
 function parseArgs(argv) {
-  const args = { siteIndex: null, seoAudit: null, output: null, report: null, quiet: false, help: false };
+  const args = { siteIndex: null, seoAudit: null, output: null, report: null, quiet: false, help: false, simulate: null };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--help' || a === '-h') args.help = true;
@@ -38,6 +49,7 @@ function parseArgs(argv) {
     else if (a === '--seo-audit') args.seoAudit = argv[++i];
     else if (a === '--output') args.output = argv[++i];
     else if (a === '--report') args.report = argv[++i];
+    else if (a === '--simulate') args.simulate = argv[++i];
   }
   return args;
 }
@@ -54,6 +66,13 @@ function main() {
   }
 
   const root = defaultRoot();
+
+  // Modo --simulate: caminho totalmente separado do fluxo padrão abaixo.
+  // Retorna cedo — nenhuma linha do modo padrão é executada nem afetada.
+  if (args.simulate) {
+    return runSimulate(args, root);
+  }
+
   const siteIndexPath = path.resolve(args.siteIndex || path.join(root, '.data', 'site-index.json'));
   const seoAuditPath = path.resolve(args.seoAudit || path.join(root, '.data', 'seo-audit.json'));
   const outputPath = path.resolve(args.output || path.join(root, '.data', 'internal-linking.json'));
@@ -106,6 +125,66 @@ function main() {
   }
 }
 
+function runSimulate(args, root) {
+  const siteIndexPath = path.resolve(args.siteIndex || path.join(root, '.data', 'site-index.json'));
+  const proposalPath = path.resolve(args.simulate);
+
+  if (!fs.existsSync(siteIndexPath)) {
+    console.error(`Erro: ${siteIndexPath} não existe. Rode o Site Indexer primeiro.`);
+    process.exitCode = 1;
+    return;
+  }
+  if (!fs.existsSync(proposalPath)) {
+    console.error(`Erro: ${proposalPath} (proposta) não existe.`);
+    process.exitCode = 1;
+    return;
+  }
+
+  const siteIndex = JSON.parse(fs.readFileSync(siteIndexPath, 'utf8'));
+  const proposal = JSON.parse(fs.readFileSync(proposalPath, 'utf8'));
+  const posts = siteIndex.posts || [];
+
+  const bodyTextByPath = new Map();
+  for (const post of posts) {
+    try {
+      const absPath = path.join(root, post.path);
+      bodyTextByPath.set(post.path, extractBodyTextFromFile(absPath));
+    } catch {
+      // Mesma tolerância do modo padrão: um erro de leitura individual
+      // não interrompe a simulação, só deixa o conteúdo daquele post fora
+      // do componente de content overlap (fica com string vazia).
+    }
+  }
+
+  const result = simulateLinksForProposal(proposal, posts, bodyTextByPath);
+
+  if (args.output) {
+    const outputPath = path.resolve(args.output);
+    fs.mkdirSync(path.dirname(outputPath), { recursive: true });
+    fs.writeFileSync(outputPath, JSON.stringify(result, null, 2) + '\n', 'utf8');
+    if (!args.quiet) console.log(`Output: ${outputPath}`);
+  }
+
+  if (!args.quiet) {
+    console.log('INTERNAL LINKING ENGINE — SIMULATE');
+    console.log('===================================');
+    console.log('');
+    console.log(`Proposta: ${result.proposal_slug}`);
+    console.log('');
+    console.log(`A proposta DEVERIA LINKAR PARA (${result.should_link_to.length}):`);
+    for (const s of result.should_link_to) {
+      console.log(`  [score ${s.score}] ${s.target} — anchor sugerido: "${s.anchor}"`);
+    }
+    console.log('');
+    console.log(`A proposta DEVERIA RECEBER LINK DE (${result.should_receive_links_from.length}):`);
+    for (const s of result.should_receive_links_from) {
+      console.log(`  [score ${s.score}] ${s.source} — anchor sugerido: "${s.anchor}"`);
+    }
+  }
+
+  return result;
+}
+
 function printReport({ result, outputPath, reportPath, jsonBytes, mdBytes }) {
   const lines = [];
   lines.push('INTERNAL LINKING ENGINE');
@@ -126,4 +205,4 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { main, parseArgs, defaultRoot };
+module.exports = { main, parseArgs, defaultRoot, runSimulate };

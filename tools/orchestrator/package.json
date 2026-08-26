@@ -1,0 +1,19 @@
+{
+  "name": "orchestrator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Camada de orquestração pré-escrita da V2 (skill-blog): agrega os módulos site-indexer, content-strategy, cannibalization e internal-linking para responder 'este artigo merece existir e qual função deve cumprir?' antes de qualquer texto ser escrito. Não escreve artigos, não modifica HTML, não faz deploy.",
+  "main": "src/index.js",
+  "bin": {
+    "blog-pipeline": "src/index.js"
+  },
+  "scripts": {
+    "propose": "node src/index.js propose",
+    "preflight": "node src/index.js preflight",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18"
+  }
+}

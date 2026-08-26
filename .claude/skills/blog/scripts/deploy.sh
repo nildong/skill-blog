@@ -30,6 +30,9 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BLOG_ROOT="$(cd "$SCRIPT_DIR/../../../.." && pwd)"
 
+# shellcheck disable=SC1091
+source "$SCRIPT_DIR/generate-sitemap.sh"
+
 POST_DIR="${1:-}"
 REMOTE_SUBDIR="${2:-}"
 
@@ -125,32 +128,7 @@ echo "--> [4/6] Gerando sitemap.xml..."
 SITEMAP="$BLOG_ROOT/sitemap.xml"
 DOMAIN="${SITE_DOMAIN:-https://smartpetgadgets.com.br}"
 
-{
-  echo '<?xml version="1.0" encoding="UTF-8"?>'
-  echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
-  # Raiz do site (home)
-  if [[ -f "$BLOG_ROOT/index.html" ]]; then
-    lastmod="$(date -r "$BLOG_ROOT/index.html" +%Y-%m-%d 2>/dev/null || date +%Y-%m-%d)"
-    echo "  <url>"
-    echo "    <loc>${DOMAIN}/</loc>"
-    echo "    <lastmod>${lastmod}</lastmod>"
-    echo "  </url>"
-  fi
-  # Todas as subpastas com index.html, em qualquer profundidade (inclui autores/nome/, etc.)
-  # Exclui diretórios de infraestrutura (.git, .claude, img, briefs, calendars, node_modules)
-  while IFS= read -r -d '' htmlfile; do
-    rel_dir="$(dirname "${htmlfile#"$BLOG_ROOT"/}")"
-    case "$rel_dir" in
-      img|img/*|briefs|briefs/*|calendars|calendars/*|node_modules|node_modules/*) continue ;;
-    esac
-    lastmod="$(date -r "$htmlfile" +%Y-%m-%d 2>/dev/null || date +%Y-%m-%d)"
-    echo "  <url>"
-    echo "    <loc>${DOMAIN}/${rel_dir}/</loc>"
-    echo "    <lastmod>${lastmod}</lastmod>"
-    echo "  </url>"
-  done < <(find "$BLOG_ROOT" -mindepth 2 -name index.html -not -path '*/.*' -print0 | sort -z)
-  echo '</urlset>'
-} > "$SITEMAP"
+generate_sitemap "$BLOG_ROOT" "$DOMAIN" "$SITEMAP"
 echo "    OK: sitemap.xml atualizado ($SITEMAP)"
 
 # ---------------------------------------------------------------------------
