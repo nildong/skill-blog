@@ -1,0 +1,157 @@
+{
+  "_meta": {
+    "description": "Fonte única e autorizada de links de afiliado do Mercado Livre para o site smartpetgadgets.com.br. Nenhuma ferramenta ou skill deve construir, inferir, modificar, encurtar ou inventar URLs do Mercado Livre — apenas ler deste arquivo.",
+    "rules": [
+      "product_url é o link do anúncio como fornecido pelo usuário (importação fiel, sem limpeza de parâmetros de tracking).",
+      "affiliate_url só deve ser preenchido pelo usuário com o link gerado pela Central de Afiliados do Mercado Livre. Nunca gerado automaticamente.",
+      "role e cluster começam como null. Serão propostos pela Fase 1 (auditoria/mapeamento, somente leitura) e só se tornam definitivos após aprovação humana.",
+      "active=false remove o produto das recomendações sem apagar o registro."
+    ],
+    "imported_at": "2026-08-30",
+    "source": "Wishlist do Mercado Livre (colada manualmente pelo usuário)"
+  },
+  "list": {
+    "name": "COMEDOUROS AUTO P GATOS",
+    "affiliate_url": "https://meli.la/1YoZvow"
+  },
+  "products": [
+    {
+      "id": "MLB54558374",
+      "name": "Comedouro Automático New Pet 4L com Gravação de Voz para Cães e Gatos",
+      "product_url": "https://www.mercadolivre.com.br/comedouro-automatico-new-pet-4l-com-gravacao-de-voz-para-caes-e-gatos/p/MLB54558374?pdp_filters=item_id:MLB4191169733#is_advertising=true&searchVariation=MLB54558374&backend_model=search-backend;fallback_productos-promocionados_supple_view_view&be_origin=backend&position=1&search_layout=grid&type=pad&tracking_id=70821b33-1911-4c0a-8dd1-4fedd59d8eeb&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=ODBlODBmNmYtODMxNS00MTI5LWJiOWItMGM3YWY3NTgzYjRj",
+      "affiliate_url": "https://meli.la/1tguuU6",
+      "cluster": "comedouro-automatico-para-pet",
+      "role": "principal-newpet-4l-voz",
+      "role_notes": "Escolhido pelo usuário como produto principal entre os 3 anúncios equivalentes de 'NewPet 4L com voz' (dado reportado pelo usuário, não verificado por scraping — ML bloqueia acesso externo: +1000 vendidos, 4,8, 586 avaliações, selo Mais Vendido).",
+      "active": true
+    },
+    {
+      "id": "MLB50393304",
+      "name": "Comedouro Automático Ração Gatos e Cães Velds com App e Programação, Alimentador Smart 4L Branco",
+      "product_url": "https://www.mercadolivre.com.br/comedouro-automatico-racao-gatos-e-caes-velds-com-app-e-programacao-alimentador-smart-4l-branco/p/MLB50393304?pdp_filters=item_id:MLB4074862099#is_advertising=true&searchVariation=MLB50393304&backend_model=search-backend;fallback_productos-promocionados_supple_view_view;EQ:COMEDOURO%20AUTOMATICO%20GATO%20TEMPORIZADOR;EQ:COMEDOURO%20AUTOMATICO%20GATO%20WIFI&be_origin=backend&position=4&search_layout=grid&type=pad&tracking_id=8d4d7613-95c4-41ae-a44f-1177564b4df9&ad_domain=VQCATCORE_LST&ad_position=4&ad_click_id=NTdhYTY2NDQtMDg1ZC00ZjVkLTg2ODQtZGY1N2YwZjRlMDQ3",
+      "affiliate_url": "https://meli.la/2CyWKk6",
+      "cluster": null,
+      "role": null,
+      "active": true
+    },
+    {
+      "id": "MLB48883369",
+      "name": "Comedouro Automático 4L Newpet para Cães e Gatos com Voz e App",
+      "product_url": "https://www.mercadolivre.com.br/comedouro-automatico-4l-newpet-para-caes-e-gatos-com-voz-e-app/p/MLB48883369?pdp_filters=shipping:fulfillment#intervention_type=full&position=3&search_layout=grid&type=cart_intervention&tracking_id=c86f36a1-1479-4cf2-9d70-e03578e1c138",
+      "affiliate_url": null,
+      "cluster": "comedouro-automatico-para-pet",
+      "role": "secundario-newpet-4l-voz-app",
+      "role_notes": "Escolhido pelo usuário como alternativa de preço/funcionalidade ao principal (dado reportado pelo usuário, não verificado: +100 vendidos, 4,9, R$225).",
+      "active": true
+    },
+    {
+      "id": "MLB63214646",
+      "name": "Comedouro Automático NewPet com Gravação de Voz para Cães e Gatos 4L",
+      "product_url": "https://www.mercadolivre.com.br/comedouro-automatico-newpet-com-gravacao-de-voz-para-caes-e-gatos-4l/p/MLB63214646#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=6&type=product&tracking_id=8d4d7613-95c4-41ae-a44f-1177564b4df9&wid=MLB4750566895&sid=search",
+      "affiliate_url": null,
+      "cluster": "comedouro-automatico-para-pet",
+      "role": "duplicado-suspeito-nao-usar",
+      "role_notes": "Título quase idêntico ao principal (MLB54558374). Não verificável por scraping (ML retorna 403 para acesso externo). Por decisão do usuário, tratado como duplicado do produto principal e excluído das recomendações da Fase 2 até confirmação manual de que é um anúncio distinto.",
+      "active": false
+    },
+    {
+      "id": "MLBU757044226",
+      "name": "Kit Comedouro Automático Bebedouro Cachorro Gato Pet 3L",
+      "product_url": "https://www.mercadolivre.com.br/kit-comedouro-automatico-bebedouro-cachorro-gato-pet-3l/up/MLBU757044226#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=22&type=product&tracking_id=8d4d7613-95c4-41ae-a44f-1177564b4df9&wid=MLB5541941846&sid=search",
+      "affiliate_url": "https://meli.la/1yw2Tt1",
+      "cluster": null,
+      "role": null,
+      "active": true
+    },
+    {
+      "id": "MLB61673849",
+      "name": "Bebedouro com Comedouro Alimentador Automático Gravidade Pet Cor Rosa",
+      "product_url": "https://www.mercadolivre.com.br/bebedouro-com-comedouro-alimentador-automatico-gravidade-pet-cor-rosa/p/MLB61673849#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=34&type=product&tracking_id=8d4d7613-95c4-41ae-a44f-1177564b4df9&wid=MLB7059219508&sid=search",
+      "affiliate_url": null,
+      "cluster": null,
+      "role": null,
+      "active": true
+    },
+    {
+      "id": "MLB59318484",
+      "name": "Alimentador Automático 8L com Wi-Fi App Tuya para Gatos New Pet",
+      "product_url": "https://www.mercadolivre.com.br/alimentador-automatico-8l-com-wi-fi-app-tuya-para-gatos-new-pet/p/MLB59318484?pdp_filters=item_id:MLB4243603963#is_advertising=true&searchVariation=MLB59318484&backend_model=search-backend;fallback_productos-promocionados_supple_view_view;EQ:COMEDOURO%20GATO%20WIFI&be_origin=backend&position=1&search_layout=grid&type=pad&tracking_id=388656db-d71a-4ae0-a8df-007c0eeedbe0&ad_domain=VQCATCORE_LST&ad_position=1&ad_click_id=MTE1Nzg3ZjAtNDcyMi00ZTAyLTgxZjYtNDRmMmNlMTdmNmNl",
+      "affiliate_url": "https://meli.la/2c9hSTQ",
+      "cluster": null,
+      "role": null,
+      "active": true
+    },
+    {
+      "id": "MLB57624711",
+      "name": "Kit Comedouro e Bebedouro Automático para Cães e Gatos 1L",
+      "product_url": "https://www.mercadolivre.com.br/kit-comedouro-e-bebedouro-automatico-para-caes-e-gatos-1l-cor-preto/p/MLB57624711#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=37&type=product&tracking_id=8faf0a9c-2fa5-4ac5-9fc6-6f911e8cb734&wid=MLB4219966809&sid=search",
+      "affiliate_url": null,
+      "cluster": null,
+      "role": null,
+      "active": true
+    },
+    {
+      "id": "MLBU1123709264",
+      "name": "5L Dispensador Automático de Alimentos para Cães Gato Newpet",
+      "product_url": "https://www.mercadolivre.com.br/5l-dispensador-automatico-de-alimentos-para-caes-gato-newpet/up/MLBU1123709264#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=6&type=product&tracking_id=35c61465-52aa-4090-986a-cf26a7c35285&wid=MLB5058138840&sid=search",
+      "affiliate_url": null,
+      "cluster": null,
+      "role": null,
+      "active": true
+    },
+    {
+      "id": "MLB25732402",
+      "name": "Comedouro Automático Inteligente Madog Câmera Visão Noturna",
+      "product_url": "https://www.mercadolivre.com.br/comedouro-automatico-inteligente-madog-camera-visao-noturna/p/MLB25732402#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=12&type=product&tracking_id=35c61465-52aa-4090-986a-cf26a7c35285&wid=MLB3882357136&sid=search",
+      "affiliate_url": null,
+      "cluster": null,
+      "role": null,
+      "active": true
+    },
+    {
+      "id": "MLB29804487",
+      "name": "Alimentador Automático RoHS Elf para Cães e Gatos com 3,5L Branco",
+      "product_url": "https://www.mercadolivre.com.br/alimentador-automatico-rohs-elf-para-caes-e-gatos-com-35l-branco/p/MLB29804487#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=51&type=product&tracking_id=35c61465-52aa-4090-986a-cf26a7c35285&wid=MLB4600656082&sid=search",
+      "affiliate_url": null,
+      "cluster": null,
+      "role": null,
+      "active": true
+    },
+    {
+      "id": "MLB63273800",
+      "name": "6L Comedouro Automático para Gatos com 3 Tigelas Newpet Preto",
+      "product_url": "https://www.mercadolivre.com.br/6l-comedouro-automatico-para-gatos-com-3-tigelas-newpet-preto/p/MLB63273800?pdp_filters=item_id:MLB4707839865#is_advertising=true&searchVariation=MLB63273800&backend_model=search-backend;fallback_productos-promocionados_supple_view_buy;EQ:COMEDOURO%20AUTOMATICO%203%20LITROS;EQ:COMEDOURO%20AUTOMATICO%20PROGRAMAVEL&be_origin=backend&position=3&search_layout=grid&type=pad&tracking_id=3bb22f13-bb63-4fae-a9d8-1054ef2af943&ad_domain=VQCATCORE_LST&ad_position=3&ad_click_id=MDAxZTIxZDMtM2EwMS00NDBlLTkxZWYtNmE5ODE3MTJmODcx",
+      "affiliate_url": "https://meli.la/2hiYAmt",
+      "cluster": null,
+      "role": null,
+      "active": true
+    },
+    {
+      "id": "MLBU1756932985",
+      "name": "Alimentador Automático Timer 12V Sistema de Agitação",
+      "product_url": "https://www.mercadolivre.com.br/alimentador-automatico-timer-12v-sistema-de-agitacao/up/MLBU1756932985#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=17&type=product&tracking_id=429257a4-f9f3-4c97-9d2b-1c3701734d17&wid=MLB4438284234&sid=search",
+      "affiliate_url": null,
+      "cluster": null,
+      "role": null,
+      "active": true
+    },
+    {
+      "id": "MLB-5501729782",
+      "name": "Comedouro e Bebedouro Automático Inteligente Alimentador",
+      "product_url": "https://produto.mercadolivre.com.br/MLB-5501729782-comedouro-e-bebedouro-automatico-inteligente-alimentador-_JM?searchVariation=189046779843#polycard_client=search-desktop&searchVariation=189046779843&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=35&type=item&tracking_id=429257a4-f9f3-4c97-9d2b-1c3701734d17&sid=search",
+      "affiliate_url": null,
+      "cluster": null,
+      "role": null,
+      "active": true
+    },
+    {
+      "id": "MLB54519773",
+      "name": "Comedouro WIFI Automático Newpet 5L Cães e Gatos TUYA APP",
+      "product_url": "https://www.mercadolivre.com.br/comedouro-wifi-automatico-newpet-5l-caes-e-gatos-tuya-app/p/MLB54519773#polycard_client=search-desktop&be_origin=backend&overlay_label=not_apply&search_layout=grid&position=7&type=product&tracking_id=8faf0a9c-2fa5-4ac5-9fc6-6f911e8cb734&wid=MLB5004740773&sid=search",
+      "affiliate_url": "https://meli.la/17VqkwJ",
+      "cluster": null,
+      "role": null,
+      "active": true
+    }
+  ]
+}

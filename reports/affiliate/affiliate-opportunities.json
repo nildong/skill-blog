@@ -1,0 +1,89 @@
+{
+  "_meta": {
+    "phase": "1 - audit only (revisado após decisões do usuário em 2026-08-30)",
+    "generated_at": "2026-08-30",
+    "read_only": true,
+    "source_index": ".data/site-index.json (regenerated 2026-08-30)",
+    "source_products": ".data/affiliate-products.json",
+    "note": "Nenhum HTML foi modificado. Nenhum link foi trocado. Nenhum commit/deploy foi feito.",
+    "decisions_applied": [
+      "NewPet 4L: MLB54558374 = principal (aprovado), MLB48883369 = secundário (registrado, não usado na Fase 2A), MLB63214646 = duplicado, active:false, não usado.",
+      "comedouro-cachorro: conteúdo verificado (kit manual de 20 cochos com suporte baia, não é alimentador eletrônico) — confirmado NO_MATCH, sem uso do New Pet 4L.",
+      "comedouro-com-ou-sem-wifi: Lista de Afiliados como CTA principal; menção contextual ao Velds 4L (MLB50393304) no corpo do texto, sem CTA duplo.",
+      "5 artigos NO_MATCH confirmados para Fase 2B, fora do escopo da Fase 2A: cat-mate-c500-review, comedouro-newpet-2l-review, comedouro-vdrbg-4l-wifi-review, melhor-comedouro-interativo-gato, comedouro-cachorro."
+    ],
+    "fase2a_authorized_articles": 15,
+    "fase2b_deferred_articles": 5,
+    "blocking_dependency": "list.affiliate_url e o affiliate_url dos 6 produtos usados na Fase 2A continuam null — migração real não pode rodar até serem preenchidos. Ver reports/affiliate/dry-run-fase2.md.",
+    "post_audit_correction_2026_08_30": "comedouro-cachorro foi reclassificado: NÃO é órfão de monetização (já tinha 2 links meli.la/1iG4YjY pré-existentes, fora da base de 15). Ver mapping[] e summary.note_articles_with_zero_ml_links.",
+    "permanent_rule_for_future_clusters": "Nunca classificar um artigo como 'órfão de monetização' sem verificar TODAS estas fontes: (1) URLs meli.la/*; (2) URLs oficiais de afiliado do Mercado Livre em qualquer formato; (3) URLs mercadolivre.com.br explicitamente registradas como affiliate_url em alguma base; (4) URLs presentes em .data/affiliate-products.json. Aplicar antes de auditar próximos clusters (coleiras GPS, câmeras, portas eletrônicas etc.)."
+  },
+  "summary": {
+    "articles_analyzed_total": 73,
+    "articles_related_to_comedouros": 20,
+    "mercadolivre_links_found": 29,
+    "mercadolivre_links_problematic": 29,
+    "articles_with_zero_ml_links": 0,
+    "note_articles_with_zero_ml_links": "Corrigido pós-auditoria (2026-08-30): o valor original era 1 (comedouro-cachorro), mas a varredura só buscava o domínio mercadolivre.com.br. comedouro-cachorro já tinha 2 links meli.la pré-existentes — não é órfão. Nenhum artigo do cluster de 20 está de fato sem monetização."
+  },
+  "problem_pattern": {
+    "description": "Todos os 29 links do Mercado Livre encontrados nos 20 artigos seguem o padrão https://lista.mercadolivre.com.br/<termo-de-busca>?matt_word=...&matt_tool=..., ou seja, são resultados de BUSCA por palavra-chave, não links de produto individual nem o link oficial da Lista de Afiliados compartilhável. Isso significa: (1) o destino pode mudar/variar conforme o catálogo do Mercado Livre muda, (2) nenhum desses links aponta para um dos 15 produtos oficiais da base, (3) nenhum aponta para list.affiliate_url (ainda null).",
+    "affected_articles": 20,
+    "total_occurrences": 29
+  },
+  "mapping": [
+    {"slug": "cat-mate-c500-review", "intent": "review-produto-especifico", "current_ml_links": 2, "current_ml_pattern": "lista.../cat-mate-c500", "recommended_product_id": null, "recommended_action": "sem-correspondencia-na-base", "confidence": "baixa", "justification": "Artigo é review do produto 'Cat Mate C500' (sistema de gelo, ração úmida). Nenhum dos 15 produtos da base é esse modelo. Não trocar até você confirmar produto equivalente ou manter fora do escopo desta migração."},
+    {"slug": "comedouro-automatico-anti-formiga", "intent": "informacional-mito-vs-fato", "current_ml_links": 1, "current_ml_pattern": "lista.../comedouro-anti-formiga", "recommended_product_id": null, "recommended_action": "lista-de-afiliados", "confidence": "media", "justification": "Artigo é educativo sobre um recurso (barreira anti-formiga), não recomenda um modelo específico. Intenção é informacional/comparativa, não há match direto com 1 produto único entre os 15."},
+    {"slug": "comedouro-automatico-faz-mal", "intent": "informacional-riscos", "current_ml_links": 1, "current_ml_pattern": "lista.../comedouro-automatico", "recommended_product_id": null, "recommended_action": "lista-de-afiliados", "confidence": "media", "justification": "Artigo desmistifica riscos gerais do equipamento, sem foco em um modelo. CTA de lista é mais honesto que empurrar um produto específico."},
+    {"slug": "comedouro-automatico-gato-obeso", "intent": "controle-de-porcao-gato", "current_ml_links": 1, "current_ml_pattern": "lista.../comedouro-automatico-gatos", "recommended_product_id": "MLB50393304", "recommended_action": "produto-individual", "confidence": "media-alta", "justification": "Produto Velds 4L tem App + Programação de porções, recurso central para controle de peso citado no artigo."},
+    {"slug": "comedouro-automatico-para-dois-gatos", "intent": "multi-gatos", "current_ml_links": 1, "current_ml_pattern": "lista.../comedouro-automatico", "recommended_product_id": "MLB63273800", "recommended_action": "produto-individual", "confidence": "alta", "justification": "Único produto da base com 3 tigelas e 6L, desenhado explicitamente para múltiplos gatos comerem separadamente — corresponde à intenção literal do título do artigo."},
+    {"slug": "comedouro-automatico-para-pet", "intent": "guia-comparativo-geral", "current_ml_links": 3, "current_ml_pattern": "lista.../comedouro-automatico", "recommended_product_id": null, "recommended_action": "lista-de-afiliados", "confidence": "alta", "justification": "Guia completo/pilar do cluster, menciona 'tipos' e 'preços' no plural — intenção é comparação ampla, não recomendação de 1 produto. Melhor candidato para apontar para a Lista de Afiliados quando o link estiver disponível."},
+    {"slug": "comedouro-automatico-para-viagem", "intent": "autonomia-capacidade", "current_ml_links": 1, "current_ml_pattern": "lista.../comedouro-automatico", "recommended_product_id": "MLB59318484", "recommended_action": "produto-individual", "confidence": "media-alta", "justification": "Alimentador 8L com Wi-Fi permite maior autonomia de dias e monitoramento remoto via app — relevante para o cenário de viagem descrito no artigo."},
+    {"slug": "comedouro-automatico-vale-a-pena", "intent": "decisao-de-compra-geral", "current_ml_links": 1, "current_ml_pattern": "lista.../comedouro-automatico", "recommended_product_id": null, "recommended_action": "lista-de-afiliados", "confidence": "alta", "justification": "Artigo avalia a categoria como um todo ('vale a pena', faixa de preço, prós/contras gerais), não um modelo. Lista é mais adequada."},
+    {"slug": "comedouro-cachorro", "intent": "review-kit-manual-nao-eletronico", "current_ml_links": 2, "current_ml_pattern": "meli.la/1iG4YjY (link de afiliado próprio, pré-existente, fora da base de 15)", "recommended_product_id": null, "recommended_action": "NO_MATCH-confirmado-ja-monetizado", "confidence": "alta", "justification": "Verificado no conteúdo (JSON-LD/FAQ): kit de 20 cochos manuais de 8L com suporte metálico tipo baia, para fixação em cerca/curral — não é alimentador automático eletrônico. New Pet 4L não é substituto adequado. NO_MATCH confirmado quanto à base de 15 produtos. CORREÇÃO PÓS-AUDITORIA (2026-08-30): este artigo NÃO é órfão de monetização — já tinha 2 links de afiliado próprios (meli.la/1iG4YjY) desde antes da Fase 2A. O dado 'current_ml_links: 0' registrado originalmente estava incorreto porque a varredura da Fase 1 só procurava pelo domínio mercadolivre.com.br, não por links já encurtados em meli.la. Não é oportunidade para a Fase 2B."},
+    {"slug": "comedouro-com-ou-sem-wifi", "intent": "comparacao-wifi-vs-sem-wifi", "current_ml_links": 1, "current_ml_pattern": "lista.../comedouro-automatico", "recommended_product_id": null, "recommended_action": "lista-de-afiliados-com-mencao-contextual-velds", "confidence": "media", "justification": "Decisão do usuário: Lista de Afiliados como CTA principal (sem CTA duplo redundante); menção orgânica ao Velds 4L App (MLB50393304) no corpo do texto, se fizer sentido editorialmente."},
+    {"slug": "comedouro-gato-x-cachorro-diferenca", "intent": "comparacao-gato-vs-cachorro", "current_ml_links": 1, "current_ml_pattern": "lista.../comedouro-automatico", "recommended_product_id": null, "recommended_action": "lista-de-afiliados", "confidence": "media", "justification": "Compara categorias por espécie, não recomenda 1 modelo. Lista é mais adequada."},
+    {"slug": "comedouro-newpet-2l-review", "intent": "review-produto-especifico", "current_ml_links": 2, "current_ml_pattern": "lista.../newpet-2l", "recommended_product_id": null, "recommended_action": "sem-correspondencia-na-base", "confidence": "baixa", "justification": "Review do modelo NewPet 2L. Nenhum dos 15 produtos da base é a versão 2L (temos 4L/5L/6L/8L). Não substituir sem confirmação."},
+    {"slug": "comedouro-newpet-4l-review", "intent": "review-produto-especifico", "current_ml_links": 3, "current_ml_pattern": "lista.../newpet-4l", "recommended_product_id": "MLB54558374", "recommended_action": "produto-individual-confirmado", "confidence": "alta", "justification": "Ambiguidade resolvida pelo usuário: MLB54558374 é o produto principal (mais vendidos/avaliações, dado reportado pelo usuário — não verificável por scraping, ML bloqueia acesso externo). MLB48883369 registrado como secundário/alternativa de preço, não usado nesta fase. MLB63214646 marcado como duplicado (active:false), fora de uso."},
+    {"slug": "comedouro-vdrbg-4l-wifi-review", "intent": "review-produto-especifico", "current_ml_links": 2, "current_ml_pattern": "lista.../comedouro-automatico-programavel", "recommended_product_id": null, "recommended_action": "sem-correspondencia-na-base — prioridade alta para decisão", "confidence": "baixa", "justification": "Review é de um produto de marca VDRBG. A base não tem esse produto (temos NewPet/Velds). Trocar o link por outro produto/marca dentro de um artigo de review nomeado por marca é editorialmente arriscado — recomendo tratar como caso especial na sua revisão."},
+    {"slug": "comedouro-x-bebedouro-automatico", "intent": "kit-combo", "current_ml_links": 2, "current_ml_pattern": "lista.../kit-comedouro-e-bebedouro-automatico", "recommended_product_id": "MLBU757044226", "recommended_action": "produto-individual", "confidence": "alta", "justification": "Artigo discute exatamente kits combinados comedouro+bebedouro. Kit 3L é o produto da base mais alinhado; Kit 1L (MLB57624711) pode ser mencionado como opção de entrada."},
+    {"slug": "como-limpar-comedouro-automatico", "intent": "informacional-manutencao", "current_ml_links": 1, "current_ml_pattern": "lista.../comedouro-automatico", "recommended_product_id": null, "recommended_action": "lista-de-afiliados-ou-cta-leve", "confidence": "media", "justification": "Conteúdo de manutenção, baixa intenção comercial direta. Melhor um CTA leve para a Lista do que empurrar 1 produto específico."},
+    {"slug": "configurar-app-comedouro-wifi", "intent": "tutorial-app-tuya", "current_ml_links": 1, "current_ml_pattern": "lista.../comedouro-automatico-programavel", "recommended_product_id": "MLB54519773", "recommended_action": "produto-individual", "confidence": "media", "justification": "Tutorial é sobre o app Tuya Smart. MLB54519773 (5L WiFi NewPet Tuya App) é o produto da base mais explicitamente ligado a esse app, entre os que usam Wi-Fi/app."},
+    {"slug": "melhor-alimentador-automatico-gatos", "intent": "guia-comparativo-gatos", "current_ml_links": 2, "current_ml_pattern": "lista.../comedouro-automatico-gatos", "recommended_product_id": null, "recommended_action": "lista-de-afiliados", "confidence": "alta", "justification": "Título e descrição são explicitamente comparativos ('comparativo dos mais vendidos'). Lista é a escolha correta."},
+    {"slug": "melhor-comedouro-automatico-cachorro", "intent": "guia-comparativo-cachorro", "current_ml_links": 2, "current_ml_pattern": "lista.../comedouro-automatico", "recommended_product_id": null, "recommended_action": "lista-de-afiliados", "confidence": "alta", "justification": "Mesmo padrão do anterior: comparativo por faixa de preço/recurso, não recomendação única."},
+    {"slug": "melhor-comedouro-interativo-gato", "intent": "review-categoria-interativo", "current_ml_links": 1, "current_ml_pattern": "lista.../comedouro-interativo-gato", "recommended_product_id": null, "recommended_action": "sem-correspondencia-na-base", "confidence": "baixa", "justification": "Artigo é sobre comedouro interativo tipo quebra-cabeça. Nenhum dos 15 produtos é descrito como esse tipo (o mais próximo, Madog, é câmera com visão noturna, não quebra-cabeça). Sem match direto."}
+  ],
+  "fase2a_final_list": {
+    "note": "Lista final aprovada. Requer list.affiliate_url e/ou affiliate_url dos produtos preenchidos antes de qualquer edição real de HTML — ver blocking_dependency em _meta.",
+    "produto_individual": [
+      {"slug": "comedouro-automatico-gato-obeso", "product_id": "MLB50393304"},
+      {"slug": "comedouro-automatico-para-dois-gatos", "product_id": "MLB63273800"},
+      {"slug": "comedouro-automatico-para-viagem", "product_id": "MLB59318484"},
+      {"slug": "comedouro-x-bebedouro-automatico", "product_id": "MLBU757044226"},
+      {"slug": "configurar-app-comedouro-wifi", "product_id": "MLB54519773"},
+      {"slug": "comedouro-newpet-4l-review", "product_id": "MLB54558374"}
+    ],
+    "lista_de_afiliados": [
+      "comedouro-automatico-anti-formiga",
+      "comedouro-automatico-faz-mal",
+      "comedouro-automatico-para-pet",
+      "comedouro-automatico-vale-a-pena",
+      "comedouro-gato-x-cachorro-diferenca",
+      "como-limpar-comedouro-automatico",
+      "melhor-alimentador-automatico-gatos",
+      "melhor-comedouro-automatico-cachorro",
+      "comedouro-com-ou-sem-wifi"
+    ],
+    "no_match_fase2b": [
+      "cat-mate-c500-review",
+      "comedouro-newpet-2l-review",
+      "comedouro-vdrbg-4l-wifi-review",
+      "melhor-comedouro-interativo-gato",
+      "comedouro-cachorro"
+    ]
+  },
+  "products_with_no_article_yet": {
+    "note": "Produtos da base sem nenhum artigo mapeado como recomendação principal acima — oportunidade de conteúdo futuro, não ação desta fase.",
+    "ids": ["MLB61673849", "MLB57624711", "MLBU1123709264", "MLB25732402", "MLB29804487", "MLBU1756932985", "MLB-5501729782"]
+  }
+}
