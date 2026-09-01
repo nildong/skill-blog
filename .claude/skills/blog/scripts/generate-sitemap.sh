@@ -20,7 +20,10 @@ set -euo pipefail
 # Diretórios de infraestrutura nunca são páginas do site — excluídos em
 # qualquer profundidade. "tools" foi adicionado depois do bug real
 # descrito acima; ver test/generate-sitemap.test.sh para o teste de
-# regressão que impede essa classe de bug de voltar.
+# regressão que impede essa classe de bug de voltar. "reports" foi
+# adicionado em 2026-09-01 pelo mesmo motivo: reports/affiliate/backup-*/
+# (backups locais gerados durante migração de links de afiliado) vazou
+# 15 URLs de páginas duplicadas/lixo para o sitemap de produção.
 generate_sitemap() {
   local blog_root="$1"
   local domain="$2"
@@ -48,7 +51,7 @@ generate_sitemap() {
       local rel_dir
       rel_dir="$(dirname "${htmlfile#"$blog_root"/}")"
       case "$rel_dir" in
-        img|img/*|briefs|briefs/*|calendars|calendars/*|node_modules|node_modules/*|tools|tools/*) continue ;;
+        img|img/*|briefs|briefs/*|calendars|calendars/*|node_modules|node_modules/*|tools|tools/*|reports|reports/*) continue ;;
       esac
       local lastmod
       lastmod="$(date -r "$htmlfile" +%Y-%m-%d 2>/dev/null || date +%Y-%m-%d)"

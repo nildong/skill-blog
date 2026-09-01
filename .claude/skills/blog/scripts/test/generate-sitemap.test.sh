@@ -73,6 +73,10 @@ echo '<html><head><title>Calendar</title></head><body>x</body></html>' > "$TMP_R
 mkdir -p "$TMP_ROOT/img"
 echo '<html><head><title>Img</title></head><body>x</body></html>' > "$TMP_ROOT/img/index.html"
 
+# Backup local dentro de reports/ (bug real de 2026-09-01) — NÃO deve aparecer.
+mkdir -p "$TMP_ROOT/reports/affiliate/backup-fase2a-20260830-151016/melhor-alimentador-automatico-gatos"
+echo '<html><head><title>Backup</title></head><body>x</body></html>' > "$TMP_ROOT/reports/affiliate/backup-fase2a-20260830-151016/melhor-alimentador-automatico-gatos/index.html"
+
 echo ""
 echo "=== Executando generate_sitemap ==="
 OUTPUT="$TMP_ROOT/sitemap.xml"
@@ -94,6 +98,7 @@ assert_not_contains "$OUTPUT" "node_modules" "node_modules excluído"
 assert_not_contains "$OUTPUT" "/briefs/" "briefs excluído"
 assert_not_contains "$OUTPUT" "/calendars/" "calendars excluído"
 assert_not_contains "$OUTPUT" "/img/" "img excluído"
+assert_not_contains "$OUTPUT" "reports/affiliate/backup" "backup em reports/ excluído (bug real 2026-09-01)"
 
 echo ""
 if [[ "$FAILURES" -eq 0 ]]; then
