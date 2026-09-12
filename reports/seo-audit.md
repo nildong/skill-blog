@@ -1,6 +1,6 @@
 # SEO Audit
 
-**Gerado em:** 2026-08-26T21:37:59.288Z
+**Gerado em:** 2026-09-12T18:49:07.832Z
 
 ## Summary
 
@@ -9,20 +9,20 @@ Total de páginas: 73
 🔴 Critical: 0
 🟠 Errors: 0
 🟡 Warnings: 1
-🔵 Info: 60
+🔵 Info: 48
 
 ### Top Priorities
 
 1. **FAQ_HEADING_WITHOUT_SCHEMA** (WARNING, faq) — `/` — Heading menciona FAQ/perguntas frequentes, mas não há schema FAQPage correspondente
 2. **IMAGE_DIMENSIONS_MISSING** (INFO, images) — `/autores/nildo-alves/` — Nenhuma imagem da página declara width/height
 3. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-automatico-cachorro-sozinho/` — Nenhum FAQ detectado nesta página
-4. **CONTENT_BRIEF** (INFO, content) — `/brinquedo-interativo-gato-idoso-vale-a-pena/` — 393 palavras detectadas (entre 300 e 400)
-5. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-interativo-gato-idoso-vale-a-pena/` — Nenhum FAQ detectado nesta página
-6. **CONTENT_BRIEF** (INFO, content) — `/brinquedo-interativo-pilha-x-recarregavel/` — 361 palavras detectadas (entre 300 e 400)
-7. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-interativo-pilha-x-recarregavel/` — Nenhum FAQ detectado nesta página
-8. **CONTENT_BRIEF** (INFO, content) — `/brinquedo-interativo-sensor-infravermelho-como-funciona/` — 379 palavras detectadas (entre 300 e 400)
-9. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-interativo-sensor-infravermelho-como-funciona/` — Nenhum FAQ detectado nesta página
-10. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-interativo-substitui-brincadeira-tutor/` — Nenhum FAQ detectado nesta página
+4. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-interativo-gato-idoso-vale-a-pena/` — Nenhum FAQ detectado nesta página
+5. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-interativo-pilha-x-recarregavel/` — Nenhum FAQ detectado nesta página
+6. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-interativo-sensor-infravermelho-como-funciona/` — Nenhum FAQ detectado nesta página
+7. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-interativo-substitui-brincadeira-tutor/` — Nenhum FAQ detectado nesta página
+8. **FAQ_OPPORTUNITY** (INFO, faq) — `/camera-pet-cachorro-ansiedade-separacao/` — Nenhum FAQ detectado nesta página
+9. **FAQ_OPPORTUNITY** (INFO, faq) — `/camera-pet-com-dispensador-de-petisco/` — Nenhum FAQ detectado nesta página
+10. **FAQ_OPPORTUNITY** (INFO, faq) — `/camera-pet-grava-sem-internet/` — Nenhum FAQ detectado nesta página
 
 ## Critical Issues
 
@@ -46,21 +46,12 @@ Nenhum item nesta severidade.
 - **FAQ_OPPORTUNITY** (faq) — `/brinquedo-automatico-cachorro-sozinho/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **CONTENT_BRIEF** (content) — `/brinquedo-interativo-gato-idoso-vale-a-pena/`
-  - Evidência: 393 palavras detectadas (entre 300 e 400)
-  - Recomendação: Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva.
 - **FAQ_OPPORTUNITY** (faq) — `/brinquedo-interativo-gato-idoso-vale-a-pena/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **CONTENT_BRIEF** (content) — `/brinquedo-interativo-pilha-x-recarregavel/`
-  - Evidência: 361 palavras detectadas (entre 300 e 400)
-  - Recomendação: Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva.
 - **FAQ_OPPORTUNITY** (faq) — `/brinquedo-interativo-pilha-x-recarregavel/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **CONTENT_BRIEF** (content) — `/brinquedo-interativo-sensor-infravermelho-como-funciona/`
-  - Evidência: 379 palavras detectadas (entre 300 e 400)
-  - Recomendação: Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva.
 - **FAQ_OPPORTUNITY** (faq) — `/brinquedo-interativo-sensor-infravermelho-como-funciona/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
@@ -70,27 +61,15 @@ Nenhum item nesta severidade.
 - **FAQ_OPPORTUNITY** (faq) — `/camera-pet-cachorro-ansiedade-separacao/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **CONTENT_BRIEF** (content) — `/camera-pet-com-dispensador-de-petisco/`
-  - Evidência: 391 palavras detectadas (entre 300 e 400)
-  - Recomendação: Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva.
 - **FAQ_OPPORTUNITY** (faq) — `/camera-pet-com-dispensador-de-petisco/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **CONTENT_BRIEF** (content) — `/camera-pet-grava-sem-internet/`
-  - Evidência: 398 palavras detectadas (entre 300 e 400)
-  - Recomendação: Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva.
 - **FAQ_OPPORTUNITY** (faq) — `/camera-pet-grava-sem-internet/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **CONTENT_BRIEF** (content) — `/camera-pet-resolucao-1080p-x-2k/`
-  - Evidência: 389 palavras detectadas (entre 300 e 400)
-  - Recomendação: Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva.
 - **FAQ_OPPORTUNITY** (faq) — `/camera-pet-resolucao-1080p-x-2k/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **CONTENT_BRIEF** (content) — `/camera-pet-visao-noturna-funciona/`
-  - Evidência: 379 palavras detectadas (entre 300 e 400)
-  - Recomendação: Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva.
 - **FAQ_OPPORTUNITY** (faq) — `/camera-pet-visao-noturna-funciona/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
@@ -154,9 +133,6 @@ Nenhum item nesta severidade.
 - **IMAGE_COUNT_HIGH** (images) — `/`
   - Evidência: 69 imagens na página (acima de 15)
   - Recomendação: Revisar se todas as imagens têm contexto/valor editorial claro, ou se algumas podem ser removidas/otimizadas.
-- **CONTENT_BRIEF** (content) — `/melhor-bolinha-inteligente-para-gato/`
-  - Evidência: 388 palavras detectadas (entre 300 e 400)
-  - Recomendação: Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva.
 - **FAQ_OPPORTUNITY** (faq) — `/melhor-bolinha-inteligente-para-gato/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
@@ -187,30 +163,18 @@ Nenhum item nesta severidade.
 - **FAQ_OPPORTUNITY** (faq) — `/porta-eletronica-gato-x-cachorro-diferenca/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **CONTENT_BRIEF** (content) — `/porta-eletronica-impede-entrada-outros-animais/`
-  - Evidência: 365 palavras detectadas (entre 300 e 400)
-  - Recomendação: Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva.
 - **FAQ_OPPORTUNITY** (faq) — `/porta-eletronica-impede-entrada-outros-animais/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **CONTENT_BRIEF** (content) — `/porta-eletronica-microchip-x-rfid-coleira/`
-  - Evidência: 395 palavras detectadas (entre 300 e 400)
-  - Recomendação: Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva.
 - **FAQ_OPPORTUNITY** (faq) — `/porta-eletronica-microchip-x-rfid-coleira/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **CONTENT_BRIEF** (content) — `/porta-eletronica-reconhecimento-facial-vale-a-pena/`
-  - Evidência: 366 palavras detectadas (entre 300 e 400)
-  - Recomendação: Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva.
 - **FAQ_OPPORTUNITY** (faq) — `/porta-eletronica-reconhecimento-facial-vale-a-pena/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
 - **FAQ_OPPORTUNITY** (faq) — `/porta-eletronica-sensor-de-luz-como-funciona/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **CONTENT_BRIEF** (content) — `/porta-eletronica-x-alcapao-tradicional/`
-  - Evidência: 397 palavras detectadas (entre 300 e 400)
-  - Recomendação: Considere avaliar se o conteúdo cobre completamente a intenção de busca — não é necessariamente um problema, especialmente para páginas com intenção específica e objetiva.
 - **FAQ_OPPORTUNITY** (faq) — `/porta-eletronica-x-alcapao-tradicional/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
@@ -228,7 +192,7 @@ Nenhum item nesta severidade.
 | technical | 0 | 0 | 0 | 0 |
 | metadata | 0 | 0 | 0 | 1 |
 | headings | 0 | 0 | 0 | 0 |
-| content | 0 | 0 | 0 | 12 |
+| content | 0 | 0 | 0 | 0 |
 | internal_links | 0 | 0 | 0 | 2 |
 | images | 0 | 0 | 0 | 5 |
 | media | 0 | 0 | 0 | 0 |
@@ -255,18 +219,7 @@ Nenhum item encontrado nesta categoria.
 
 ## Content
 
-- 🔵 **CONTENT_BRIEF** — `/brinquedo-interativo-gato-idoso-vale-a-pena/` — 393 palavras detectadas (entre 300 e 400)
-- 🔵 **CONTENT_BRIEF** — `/brinquedo-interativo-pilha-x-recarregavel/` — 361 palavras detectadas (entre 300 e 400)
-- 🔵 **CONTENT_BRIEF** — `/brinquedo-interativo-sensor-infravermelho-como-funciona/` — 379 palavras detectadas (entre 300 e 400)
-- 🔵 **CONTENT_BRIEF** — `/camera-pet-com-dispensador-de-petisco/` — 391 palavras detectadas (entre 300 e 400)
-- 🔵 **CONTENT_BRIEF** — `/camera-pet-grava-sem-internet/` — 398 palavras detectadas (entre 300 e 400)
-- 🔵 **CONTENT_BRIEF** — `/camera-pet-resolucao-1080p-x-2k/` — 389 palavras detectadas (entre 300 e 400)
-- 🔵 **CONTENT_BRIEF** — `/camera-pet-visao-noturna-funciona/` — 379 palavras detectadas (entre 300 e 400)
-- 🔵 **CONTENT_BRIEF** — `/melhor-bolinha-inteligente-para-gato/` — 388 palavras detectadas (entre 300 e 400)
-- 🔵 **CONTENT_BRIEF** — `/porta-eletronica-impede-entrada-outros-animais/` — 365 palavras detectadas (entre 300 e 400)
-- 🔵 **CONTENT_BRIEF** — `/porta-eletronica-microchip-x-rfid-coleira/` — 395 palavras detectadas (entre 300 e 400)
-- 🔵 **CONTENT_BRIEF** — `/porta-eletronica-reconhecimento-facial-vale-a-pena/` — 366 palavras detectadas (entre 300 e 400)
-- 🔵 **CONTENT_BRIEF** — `/porta-eletronica-x-alcapao-tradicional/` — 397 palavras detectadas (entre 300 e 400)
+Nenhum item encontrado nesta categoria.
 
 ## Images
 

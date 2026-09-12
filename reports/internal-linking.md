@@ -1,11 +1,11 @@
 # Internal Linking — Sugestões
 
-**Gerado em:** 2026-08-26T19:52:29.181Z
+**Gerado em:** 2026-09-12T18:40:35.963Z
 
 ## Resumo
 
-Páginas analisadas: 72
-Total de sugestões: 188
+Páginas analisadas: 73
+Total de sugestões: 189
 Sugestões priorizadas por página órfã: 0
 
 **Nota importante:** este relatório contém apenas SUGESTÕES. Nenhum link foi inserido, removido ou alterado em nenhum artigo. Toda inclusão precisa de revisão e ação manual.
@@ -60,8 +60,8 @@ Sugestões priorizadas por página órfã: 0
 16. **/brinquedo-interativo-gato-idoso-vale-a-pena/** → **/duvidas-brinquedo-interativo-gato/** — score 53/100
    - Anchor sugerido: "Brinquedo Interativo para Gato: Perguntas Frequentes"
    - Motivo: similaridade moderada de conteúdo/título/headings
-17. **/comedouro-automatico-para-pet/** → **/comedouro-vdrbg-4l-wifi-review/** — score 53/100
-   - Anchor sugerido: "Como Funciona o App do VDRBG 4L Wi-Fi"
+17. **/comedouro-automatico-para-pet/** → **/comedouro-newpet-2l-review/** — score 53/100
+   - Anchor sugerido: "Comedouro Automático Newpet 2L: Vale a Pena? Review"
    - Motivo: relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial; similaridade moderada de conteúdo/título/headings
 18. **/comedouro-automatico-vale-a-pena/** → **/comedouro-vdrbg-4l-wifi-review/** — score 51/100
    - Anchor sugerido: "Como Funciona o App do VDRBG 4L Wi-Fi"
@@ -83,7 +83,7 @@ Nenhuma página com conectividade baixa encontrada.
 
 ### sem cluster definido
 
-188 sugestão(ões) nesta categoria.
+189 sugestão(ões) nesta categoria.
 
 ## Sugestões por Página
 
@@ -171,11 +171,11 @@ Nenhuma página com conectividade baixa encontrada.
   **Evidências:** título compartilha termo(s): comedouro, automatico; headings compartilham termo(s): comedouro, bebedouro, limpeza; conteúdo compartilha termo(s): comedouro, bebedouro, mercado; slug compartilha termo(s): comedouro, automatico; relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial
 
 - **Origem:** `/comedouro-automatico-para-pet/`
-  **Destino:** `/comedouro-vdrbg-4l-wifi-review/`
+  **Destino:** `/comedouro-newpet-2l-review/`
   **Score:** 53/100
-  **Anchor sugerido:** "Como Funciona o App do VDRBG 4L Wi-Fi"
+  **Anchor sugerido:** "Comedouro Automático Newpet 2L: Vale a Pena? Review"
   **Motivo:** relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial; similaridade moderada de conteúdo/título/headings
-  **Evidências:** título compartilha termo(s): comedouro; headings compartilham termo(s): comedouro, wi, fi; conteúdo compartilha termo(s): comedouro, wi, fi; slug compartilha termo(s): comedouro; relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial
+  **Evidências:** título compartilha termo(s): comedouro, automatico; headings compartilham termo(s): comedouro, manutencao, conclusao; conteúdo compartilha termo(s): comedouro, mercado, 4l; slug compartilha termo(s): comedouro; relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial
 
 ### `/melhor-comedouro-interativo-gato/`
 
@@ -1468,6 +1468,15 @@ Nenhuma página com conectividade baixa encontrada.
   **Anchor sugerido:** "Quando a Câmera Resolve"
   **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
   **Evidências:** título compartilha termo(s): camera, pet; headings compartilham termo(s): camera, tabela, comparativa; conteúdo compartilha termo(s): camera, gadgets, mercado; slug compartilha termo(s): camera, pet
+
+### `/comedouro-automatico-para-dois-gatos/`
+
+- **Origem:** `/comedouro-automatico-para-dois-gatos/`
+  **Destino:** `/comedouro-automatico-vale-a-pena/`
+  **Score:** 37/100
+  **Anchor sugerido:** "Quando Vale a Pena"
+  **Motivo:** similaridade baixa, mas acima do limiar mínimo de sugestão
+  **Evidências:** título compartilha termo(s): comedouro, automatico; headings compartilham termo(s): comedouro, dois, gatos; conteúdo compartilha termo(s): nao, comedouro, gatos; slug compartilha termo(s): comedouro, automatico
 
 ### `/camera-pet-grava-sem-internet/`
 

@@ -1,17 +1,17 @@
 # Cannibalization Report
 
-**Gerado em:** 2026-08-26T19:52:35.129Z
+**Gerado em:** 2026-09-12T18:40:25.479Z
 
 **Nota importante:** este relatório identifica APENAS possíveis conflitos de conteúdo, com base em sobreposição textual local. Nenhum score aqui é uma certeza de canibalização real — sempre trate como sinal a ser revisado manualmente, não como veredito. Pares marcados 🔗 COMPLEMENTARY foram identificados como relação pilar↔satélite (arquitetura intencional do site) e não são conflito, mesmo com score numérico alto — ver seção própria abaixo.
 
 ## Resumo
 
-Páginas analisadas: 67
-Pares analisados: 2211
-Possíveis conflitos reportados (score >= 40): 237
+Páginas analisadas: 68
+Pares analisados: 2278
+Possíveis conflitos reportados (score >= 40): 241
   - 🔴 HIGH (70-100): 0
-  - 🟡 POSSIBLE (40-69): 102
-  - 🔗 COMPLEMENTARY (pilar↔satélite, não é conflito): 135
+  - 🟡 POSSIBLE (40-69): 103
+  - 🔗 COMPLEMENTARY (pilar↔satélite, não é conflito): 138
 
 ## Pares com Maior Score (excluindo relações complementares pilar↔satélite)
 
@@ -82,92 +82,95 @@ Possíveis conflitos reportados (score >= 40): 237
 47. 🔗 (58/100) — `/comedouro-automatico-para-pet/` (pillar) ↔ `/comedouro-newpet-4l-review/` (review)
 48. 🔗 (57/100) — `/bebedouro-inox-x-ceramica/` (comparison) ↔ `/melhor-bebedouro-automatico-pet/` (list)
 49. 🔗 (57/100) — `/brinquedo-interativo-pilha-x-recarregavel/` (comparison) ↔ `/duvidas-brinquedo-interativo-gato/` (faq)
-50. 🔗 (57/100) — `/comedouro-x-bebedouro-automatico/` (comparison) ↔ `/melhor-bebedouro-automatico-pet/` (list)
-51. 🔗 (56/100) — `/brinquedo-interativo-automatico-para-gato/` (pillar) ↔ `/brinquedo-interativo-substitui-brincadeira-tutor/` (informational)
-52. 🔗 (56/100) — `/brinquedo-interativo-pilha-x-recarregavel/` (comparison) ↔ `/como-escolher-brinquedo-interativo-gato-entediado/` (how_to)
-53. 🔗 (56/100) — `/coleira-gps-para-pet/` (pillar) ↔ `/erros-comuns-coleira-gps-pet/` (troubleshooting)
-54. 🔗 (56/100) — `/comedouro-automatico-anti-formiga/` (faq) ↔ `/comedouro-automatico-para-pet/` (pillar)
-55. 🔗 (56/100) — `/comedouro-automatico-para-pet/` (pillar) ↔ `/comedouro-automatico-para-viagem/` (how_to)
-56. 🔗 (56/100) — `/comedouro-automatico-para-pet/` (pillar) ↔ `/comedouro-gato-x-cachorro-diferenca/` (comparison)
-57. 🔗 (56/100) — `/comedouro-com-ou-sem-wifi/` (comparison) ↔ `/como-configurar-camera-pet-wifi/` (how_to)
-58. 🔗 (56/100) — `/erros-comuns-coleira-gps-pet/` (troubleshooting) ↔ `/melhor-coleira-gps-sem-mensalidade/` (list)
-59. 🔗 (55/100) — `/comedouro-automatico-gato-obeso/` (faq) ↔ `/comedouro-automatico-para-pet/` (pillar)
-60. 🔗 (55/100) — `/comedouro-automatico-para-pet/` (pillar) ↔ `/comedouro-newpet-2l-review/` (review)
-61. 🔗 (54/100) — `/camera-pet-x-coleira-gps-qual-escolher/` (comparison) ↔ `/erros-comuns-coleira-gps-pet/` (troubleshooting)
-62. 🔗 (54/100) — `/camera-pet-x-coleira-gps-qual-escolher/` (comparison) ↔ `/melhor-coleira-gps-sem-mensalidade/` (list)
-63. 🔗 (54/100) — `/comedouro-automatico-para-pet/` (pillar) ↔ `/comedouro-vdrbg-4l-wifi-review/` (review)
-64. 🔗 (54/100) — `/comedouro-gato-x-cachorro-diferenca/` (comparison) ↔ `/melhor-comedouro-interativo-gato/` (list)
-65. 🔗 (54/100) — `/duvidas-brinquedo-interativo-gato/` (faq) ↔ `/melhor-comedouro-interativo-gato/` (list)
-66. 🔗 (53/100) — `/camera-pet-x-coleira-gps-qual-escolher/` (comparison) ↔ `/duvidas-coleira-gps-pet/` (faq)
-67. 🔗 (53/100) — `/coleira-gps-bluetooth-x-chip-operadora/` (comparison) ↔ `/melhor-coleira-gps-sem-mensalidade/` (list)
-68. 🔗 (53/100) — `/comedouro-automatico-para-pet/` (pillar) ↔ `/configurar-app-comedouro-wifi/` (how_to)
-69. 🔗 (53/100) — `/comedouro-automatico-vale-a-pena/` (faq) ↔ `/melhor-comedouro-automatico-cachorro/` (list)
-70. 🔗 (53/100) — `/como-funciona-coleira-gps-cachorro/` (how_to) ↔ `/melhor-coleira-gps-sem-mensalidade/` (list)
-71. 🔗 (53/100) — `/como-instalar-porta-eletronica-pet/` (how_to) ↔ `/porta-eletronica-gato-x-cachorro-diferenca/` (comparison)
-72. 🔗 (53/100) — `/duvidas-coleira-gps-pet/` (faq) ↔ `/melhor-coleira-gps-sem-mensalidade/` (list)
-73. 🔗 (52/100) — `/camera-pet-x-coleira-gps-qual-escolher/` (comparison) ↔ `/como-funciona-coleira-gps-cachorro/` (how_to)
-74. 🔗 (52/100) — `/comedouro-automatico-gato-obeso/` (faq) ↔ `/melhor-comedouro-interativo-gato/` (list)
-75. 🔗 (52/100) — `/comedouro-cachorro/` (review) ↔ `/comedouro-gato-x-cachorro-diferenca/` (comparison)
-76. 🔗 (52/100) — `/como-configurar-camera-pet-wifi/` (how_to) ↔ `/erros-comuns-camera-monitorar-pet/` (troubleshooting)
-77. 🔗 (52/100) — `/como-instalar-porta-eletronica-pet/` (how_to) ↔ `/porta-eletronica-microchip-x-rfid-coleira/` (comparison)
-78. 🔗 (52/100) — `/como-instalar-porta-eletronica-pet/` (how_to) ↔ `/porta-eletronica-x-alcapao-tradicional/` (comparison)
-79. 🔗 (51/100) — `/brinquedo-interativo-pilha-x-recarregavel/` (comparison) ↔ `/erros-comuns-brinquedo-interativo-gato/` (troubleshooting)
-80. 🔗 (51/100) — `/camera-para-monitorar-pet/` (pillar) ↔ `/camera-pet-resolucao-1080p-x-2k/` (comparison)
-81. 🔗 (51/100) — `/camera-para-monitorar-pet/` (pillar) ↔ `/camera-pet-x-coleira-gps-qual-escolher/` (comparison)
-82. 🔗 (51/100) — `/coleira-gps-x-microchip/` (comparison) ↔ `/erros-comuns-coleira-gps-pet/` (troubleshooting)
-83. 🔗 (51/100) — `/como-escolher-brinquedo-interativo-gato-entediado/` (how_to) ↔ `/melhor-comedouro-interativo-gato/` (list)
-84. 🔗 (51/100) — `/duvidas-camera-para-monitorar-pet/` (faq) ↔ `/melhor-camera-para-monitorar-pet/` (list)
-85. 🔗 (51/100) — `/duvidas-porta-eletronica-pet/` (faq) ↔ `/porta-eletronica-microchip-x-rfid-coleira/` (comparison)
-86. 🔗 (50/100) — `/coleira-gps-x-microchip/` (comparison) ↔ `/melhor-coleira-gps-sem-mensalidade/` (list)
-87. 🔗 (50/100) — `/comedouro-automatico-para-pet/` (pillar) ↔ `/comedouro-cachorro/` (review)
-88. 🔗 (50/100) — `/comedouro-automatico-vale-a-pena/` (faq) ↔ `/comedouro-newpet-2l-review/` (review)
-89. 🔗 (50/100) — `/comedouro-automatico-vale-a-pena/` (faq) ↔ `/comedouro-newpet-4l-review/` (review)
-90. 🔗 (50/100) — `/duvidas-coleira-gps-pet/` (faq) ↔ `/erros-comuns-coleira-gps-pet/` (troubleshooting)
-91. 🔗 (50/100) — `/erros-comuns-brinquedo-interativo-gato/` (troubleshooting) ↔ `/melhor-comedouro-interativo-gato/` (list)
-92. 🔗 (50/100) — `/erros-comuns-camera-monitorar-pet/` (troubleshooting) ↔ `/melhor-camera-para-monitorar-pet/` (list)
-93. 🔗 (49/100) — `/comedouro-automatico-vale-a-pena/` (faq) ↔ `/comedouro-x-bebedouro-automatico/` (comparison)
-94. 🔗 (49/100) — `/duvidas-camera-para-monitorar-pet/` (faq) ↔ `/erros-comuns-camera-monitorar-pet/` (troubleshooting)
-95. 🔗 (48/100) — `/camera-para-monitorar-pet/` (pillar) ↔ `/como-configurar-camera-pet-wifi/` (how_to)
-96. 🔗 (48/100) — `/comedouro-automatico-vale-a-pena/` (faq) ↔ `/comedouro-gato-x-cachorro-diferenca/` (comparison)
-97. 🔗 (48/100) — `/duvidas-porta-eletronica-pet/` (faq) ↔ `/erros-comuns-porta-eletronica-pet/` (troubleshooting)
-98. 🔗 (48/100) — `/duvidas-porta-eletronica-pet/` (faq) ↔ `/porta-eletronica-x-alcapao-tradicional/` (comparison)
-99. 🔗 (47/100) — `/comedouro-automatico-para-viagem/` (how_to) ↔ `/comedouro-automatico-vale-a-pena/` (faq)
-100. 🔗 (47/100) — `/comedouro-automatico-vale-a-pena/` (faq) ↔ `/comedouro-com-ou-sem-wifi/` (comparison)
-101. 🔗 (46/100) — `/brinquedo-interativo-pilha-x-recarregavel/` (comparison) ↔ `/melhor-comedouro-interativo-gato/` (list)
-102. 🔗 (46/100) — `/camera-para-monitorar-pet/` (pillar) ↔ `/camera-pet-grava-sem-internet/` (informational)
-103. 🔗 (46/100) — `/coleira-gps-x-microchip/` (comparison) ↔ `/como-funciona-coleira-gps-cachorro/` (how_to)
-104. 🔗 (46/100) — `/coleira-gps-x-microchip/` (comparison) ↔ `/duvidas-coleira-gps-pet/` (faq)
-105. 🔗 (46/100) — `/comedouro-automatico-vale-a-pena/` (faq) ↔ `/como-limpar-comedouro-automatico/` (how_to)
-106. 🔗 (46/100) — `/comedouro-automatico-vale-a-pena/` (faq) ↔ `/melhor-comedouro-interativo-gato/` (list)
-107. 🔗 (46/100) — `/comedouro-vdrbg-4l-wifi-review/` (review) ↔ `/configurar-app-comedouro-wifi/` (how_to)
-108. 🔗 (45/100) — `/coleira-gps-bluetooth-x-chip-operadora/` (comparison) ↔ `/duvidas-coleira-gps-pet/` (faq)
-109. 🔗 (45/100) — `/comedouro-automatico-gato-obeso/` (faq) ↔ `/comedouro-gato-x-cachorro-diferenca/` (comparison)
-110. 🔗 (45/100) — `/comedouro-vdrbg-4l-wifi-review/` (review) ↔ `/melhor-comedouro-automatico-cachorro/` (list)
-111. 🔗 (45/100) — `/duvidas-porta-eletronica-pet/` (faq) ↔ `/porta-eletronica-gato-x-cachorro-diferenca/` (comparison)
-112. 🔗 (44/100) — `/camera-para-monitorar-pet/` (pillar) ↔ `/camera-pet-cachorro-ansiedade-separacao/` (informational)
-113. 🔗 (44/100) — `/camera-para-monitorar-pet/` (pillar) ↔ `/camera-pet-com-dispensador-de-petisco/` (informational)
-114. 🔗 (44/100) — `/coleira-gps-bluetooth-x-chip-operadora/` (comparison) ↔ `/como-funciona-coleira-gps-cachorro/` (how_to)
-115. 🔗 (44/100) — `/comedouro-newpet-4l-review/` (review) ↔ `/melhor-comedouro-automatico-cachorro/` (list)
-116. 🔗 (44/100) — `/como-funciona-coleira-gps-cachorro/` (how_to) ↔ `/duvidas-coleira-gps-pet/` (faq)
-117. 🔗 (44/100) — `/erros-comuns-porta-eletronica-pet/` (troubleshooting) ↔ `/porta-eletronica-x-alcapao-tradicional/` (comparison)
-118. 🔗 (43/100) — `/camera-pet-resolucao-1080p-x-2k/` (comparison) ↔ `/duvidas-camera-para-monitorar-pet/` (faq)
-119. 🔗 (43/100) — `/comedouro-automatico-vale-a-pena/` (faq) ↔ `/configurar-app-comedouro-wifi/` (how_to)
-120. 🔗 (43/100) — `/comedouro-com-ou-sem-wifi/` (comparison) ↔ `/melhor-comedouro-automatico-cachorro/` (list)
-121. 🔗 (43/100) — `/comedouro-newpet-2l-review/` (review) ↔ `/melhor-comedouro-automatico-cachorro/` (list)
-122. 🔗 (43/100) — `/erros-comuns-porta-eletronica-pet/` (troubleshooting) ↔ `/porta-eletronica-gato-x-cachorro-diferenca/` (comparison)
-123. 🔗 (42/100) — `/camera-para-monitorar-pet/` (pillar) ↔ `/camera-pet-visao-noturna-funciona/` (informational)
-124. 🔗 (42/100) — `/camera-pet-x-coleira-gps-qual-escolher/` (comparison) ↔ `/melhor-camera-para-monitorar-pet/` (list)
-125. 🔗 (42/100) — `/comedouro-vdrbg-4l-wifi-review/` (review) ↔ `/como-configurar-camera-pet-wifi/` (how_to)
-126. 🔗 (41/100) — `/brinquedo-automatico-cachorro-sozinho/` (informational) ↔ `/brinquedo-interativo-automatico-para-gato/` (pillar)
-127. 🔗 (41/100) — `/comedouro-automatico-vale-a-pena/` (faq) ↔ `/comedouro-cachorro/` (review)
-128. 🔗 (40/100) — `/brinquedo-interativo-automatico-para-gato/` (pillar) ↔ `/melhor-bolinha-inteligente-para-gato/` (list)
-129. 🔗 (40/100) — `/coleira-gps-para-pet/` (pillar) ↔ `/porta-eletronica-microchip-x-rfid-coleira/` (comparison)
-130. 🔗 (40/100) — `/comedouro-com-ou-sem-wifi/` (comparison) ↔ `/comedouro-newpet-2l-review/` (review)
-131. 🔗 (40/100) — `/comedouro-x-bebedouro-automatico/` (comparison) ↔ `/melhor-comedouro-automatico-cachorro/` (list)
-132. 🔗 (40/100) — `/como-funciona-coleira-gps-cachorro/` (how_to) ↔ `/erros-comuns-coleira-gps-pet/` (troubleshooting)
-133. 🔗 (40/100) — `/como-limpar-comedouro-automatico/` (how_to) ↔ `/melhor-comedouro-automatico-cachorro/` (list)
-134. 🔗 (40/100) — `/configurar-app-comedouro-wifi/` (how_to) ↔ `/melhor-comedouro-automatico-cachorro/` (list)
-135. 🔗 (40/100) — `/erros-comuns-porta-eletronica-pet/` (troubleshooting) ↔ `/porta-eletronica-microchip-x-rfid-coleira/` (comparison)
+50. 🔗 (57/100) — `/comedouro-automatico-para-dois-gatos/` (faq) ↔ `/comedouro-automatico-para-pet/` (pillar)
+51. 🔗 (57/100) — `/comedouro-x-bebedouro-automatico/` (comparison) ↔ `/melhor-bebedouro-automatico-pet/` (list)
+52. 🔗 (56/100) — `/brinquedo-interativo-automatico-para-gato/` (pillar) ↔ `/brinquedo-interativo-substitui-brincadeira-tutor/` (informational)
+53. 🔗 (56/100) — `/brinquedo-interativo-pilha-x-recarregavel/` (comparison) ↔ `/como-escolher-brinquedo-interativo-gato-entediado/` (how_to)
+54. 🔗 (56/100) — `/coleira-gps-para-pet/` (pillar) ↔ `/erros-comuns-coleira-gps-pet/` (troubleshooting)
+55. 🔗 (56/100) — `/comedouro-automatico-anti-formiga/` (faq) ↔ `/comedouro-automatico-para-pet/` (pillar)
+56. 🔗 (56/100) — `/comedouro-automatico-para-pet/` (pillar) ↔ `/comedouro-automatico-para-viagem/` (how_to)
+57. 🔗 (56/100) — `/comedouro-automatico-para-pet/` (pillar) ↔ `/comedouro-gato-x-cachorro-diferenca/` (comparison)
+58. 🔗 (56/100) — `/comedouro-com-ou-sem-wifi/` (comparison) ↔ `/como-configurar-camera-pet-wifi/` (how_to)
+59. 🔗 (56/100) — `/erros-comuns-coleira-gps-pet/` (troubleshooting) ↔ `/melhor-coleira-gps-sem-mensalidade/` (list)
+60. 🔗 (55/100) — `/comedouro-automatico-gato-obeso/` (faq) ↔ `/comedouro-automatico-para-pet/` (pillar)
+61. 🔗 (55/100) — `/comedouro-automatico-para-pet/` (pillar) ↔ `/comedouro-newpet-2l-review/` (review)
+62. 🔗 (54/100) — `/camera-pet-x-coleira-gps-qual-escolher/` (comparison) ↔ `/erros-comuns-coleira-gps-pet/` (troubleshooting)
+63. 🔗 (54/100) — `/camera-pet-x-coleira-gps-qual-escolher/` (comparison) ↔ `/melhor-coleira-gps-sem-mensalidade/` (list)
+64. 🔗 (54/100) — `/comedouro-automatico-para-pet/` (pillar) ↔ `/comedouro-vdrbg-4l-wifi-review/` (review)
+65. 🔗 (54/100) — `/comedouro-gato-x-cachorro-diferenca/` (comparison) ↔ `/melhor-comedouro-interativo-gato/` (list)
+66. 🔗 (54/100) — `/duvidas-brinquedo-interativo-gato/` (faq) ↔ `/melhor-comedouro-interativo-gato/` (list)
+67. 🔗 (53/100) — `/camera-pet-x-coleira-gps-qual-escolher/` (comparison) ↔ `/duvidas-coleira-gps-pet/` (faq)
+68. 🔗 (53/100) — `/coleira-gps-bluetooth-x-chip-operadora/` (comparison) ↔ `/melhor-coleira-gps-sem-mensalidade/` (list)
+69. 🔗 (53/100) — `/comedouro-automatico-para-pet/` (pillar) ↔ `/configurar-app-comedouro-wifi/` (how_to)
+70. 🔗 (53/100) — `/comedouro-automatico-vale-a-pena/` (faq) ↔ `/melhor-comedouro-automatico-cachorro/` (list)
+71. 🔗 (53/100) — `/como-funciona-coleira-gps-cachorro/` (how_to) ↔ `/melhor-coleira-gps-sem-mensalidade/` (list)
+72. 🔗 (53/100) — `/como-instalar-porta-eletronica-pet/` (how_to) ↔ `/porta-eletronica-gato-x-cachorro-diferenca/` (comparison)
+73. 🔗 (53/100) — `/duvidas-coleira-gps-pet/` (faq) ↔ `/melhor-coleira-gps-sem-mensalidade/` (list)
+74. 🔗 (52/100) — `/camera-pet-x-coleira-gps-qual-escolher/` (comparison) ↔ `/como-funciona-coleira-gps-cachorro/` (how_to)
+75. 🔗 (52/100) — `/comedouro-automatico-gato-obeso/` (faq) ↔ `/melhor-comedouro-interativo-gato/` (list)
+76. 🔗 (52/100) — `/comedouro-cachorro/` (review) ↔ `/comedouro-gato-x-cachorro-diferenca/` (comparison)
+77. 🔗 (52/100) — `/como-configurar-camera-pet-wifi/` (how_to) ↔ `/erros-comuns-camera-monitorar-pet/` (troubleshooting)
+78. 🔗 (52/100) — `/como-instalar-porta-eletronica-pet/` (how_to) ↔ `/porta-eletronica-microchip-x-rfid-coleira/` (comparison)
+79. 🔗 (52/100) — `/como-instalar-porta-eletronica-pet/` (how_to) ↔ `/porta-eletronica-x-alcapao-tradicional/` (comparison)
+80. 🔗 (51/100) — `/brinquedo-interativo-pilha-x-recarregavel/` (comparison) ↔ `/erros-comuns-brinquedo-interativo-gato/` (troubleshooting)
+81. 🔗 (51/100) — `/camera-para-monitorar-pet/` (pillar) ↔ `/camera-pet-resolucao-1080p-x-2k/` (comparison)
+82. 🔗 (51/100) — `/camera-para-monitorar-pet/` (pillar) ↔ `/camera-pet-x-coleira-gps-qual-escolher/` (comparison)
+83. 🔗 (51/100) — `/coleira-gps-x-microchip/` (comparison) ↔ `/erros-comuns-coleira-gps-pet/` (troubleshooting)
+84. 🔗 (51/100) — `/como-escolher-brinquedo-interativo-gato-entediado/` (how_to) ↔ `/melhor-comedouro-interativo-gato/` (list)
+85. 🔗 (51/100) — `/duvidas-camera-para-monitorar-pet/` (faq) ↔ `/melhor-camera-para-monitorar-pet/` (list)
+86. 🔗 (51/100) — `/duvidas-porta-eletronica-pet/` (faq) ↔ `/porta-eletronica-microchip-x-rfid-coleira/` (comparison)
+87. 🔗 (50/100) — `/coleira-gps-x-microchip/` (comparison) ↔ `/melhor-coleira-gps-sem-mensalidade/` (list)
+88. 🔗 (50/100) — `/comedouro-automatico-para-pet/` (pillar) ↔ `/comedouro-cachorro/` (review)
+89. 🔗 (50/100) — `/comedouro-automatico-vale-a-pena/` (faq) ↔ `/comedouro-newpet-2l-review/` (review)
+90. 🔗 (50/100) — `/comedouro-automatico-vale-a-pena/` (faq) ↔ `/comedouro-newpet-4l-review/` (review)
+91. 🔗 (50/100) — `/duvidas-coleira-gps-pet/` (faq) ↔ `/erros-comuns-coleira-gps-pet/` (troubleshooting)
+92. 🔗 (50/100) — `/erros-comuns-brinquedo-interativo-gato/` (troubleshooting) ↔ `/melhor-comedouro-interativo-gato/` (list)
+93. 🔗 (50/100) — `/erros-comuns-camera-monitorar-pet/` (troubleshooting) ↔ `/melhor-camera-para-monitorar-pet/` (list)
+94. 🔗 (49/100) — `/comedouro-automatico-vale-a-pena/` (faq) ↔ `/comedouro-x-bebedouro-automatico/` (comparison)
+95. 🔗 (49/100) — `/duvidas-camera-para-monitorar-pet/` (faq) ↔ `/erros-comuns-camera-monitorar-pet/` (troubleshooting)
+96. 🔗 (48/100) — `/camera-para-monitorar-pet/` (pillar) ↔ `/como-configurar-camera-pet-wifi/` (how_to)
+97. 🔗 (48/100) — `/comedouro-automatico-vale-a-pena/` (faq) ↔ `/comedouro-gato-x-cachorro-diferenca/` (comparison)
+98. 🔗 (48/100) — `/duvidas-porta-eletronica-pet/` (faq) ↔ `/erros-comuns-porta-eletronica-pet/` (troubleshooting)
+99. 🔗 (48/100) — `/duvidas-porta-eletronica-pet/` (faq) ↔ `/porta-eletronica-x-alcapao-tradicional/` (comparison)
+100. 🔗 (47/100) — `/comedouro-automatico-para-viagem/` (how_to) ↔ `/comedouro-automatico-vale-a-pena/` (faq)
+101. 🔗 (47/100) — `/comedouro-automatico-vale-a-pena/` (faq) ↔ `/comedouro-com-ou-sem-wifi/` (comparison)
+102. 🔗 (46/100) — `/brinquedo-interativo-pilha-x-recarregavel/` (comparison) ↔ `/melhor-comedouro-interativo-gato/` (list)
+103. 🔗 (46/100) — `/camera-para-monitorar-pet/` (pillar) ↔ `/camera-pet-grava-sem-internet/` (informational)
+104. 🔗 (46/100) — `/coleira-gps-x-microchip/` (comparison) ↔ `/como-funciona-coleira-gps-cachorro/` (how_to)
+105. 🔗 (46/100) — `/coleira-gps-x-microchip/` (comparison) ↔ `/duvidas-coleira-gps-pet/` (faq)
+106. 🔗 (46/100) — `/comedouro-automatico-vale-a-pena/` (faq) ↔ `/como-limpar-comedouro-automatico/` (how_to)
+107. 🔗 (46/100) — `/comedouro-automatico-vale-a-pena/` (faq) ↔ `/melhor-comedouro-interativo-gato/` (list)
+108. 🔗 (46/100) — `/comedouro-vdrbg-4l-wifi-review/` (review) ↔ `/configurar-app-comedouro-wifi/` (how_to)
+109. 🔗 (45/100) — `/coleira-gps-bluetooth-x-chip-operadora/` (comparison) ↔ `/duvidas-coleira-gps-pet/` (faq)
+110. 🔗 (45/100) — `/comedouro-automatico-gato-obeso/` (faq) ↔ `/comedouro-gato-x-cachorro-diferenca/` (comparison)
+111. 🔗 (45/100) — `/comedouro-vdrbg-4l-wifi-review/` (review) ↔ `/melhor-comedouro-automatico-cachorro/` (list)
+112. 🔗 (45/100) — `/duvidas-porta-eletronica-pet/` (faq) ↔ `/porta-eletronica-gato-x-cachorro-diferenca/` (comparison)
+113. 🔗 (44/100) — `/camera-para-monitorar-pet/` (pillar) ↔ `/camera-pet-cachorro-ansiedade-separacao/` (informational)
+114. 🔗 (44/100) — `/camera-para-monitorar-pet/` (pillar) ↔ `/camera-pet-com-dispensador-de-petisco/` (informational)
+115. 🔗 (44/100) — `/coleira-gps-bluetooth-x-chip-operadora/` (comparison) ↔ `/como-funciona-coleira-gps-cachorro/` (how_to)
+116. 🔗 (44/100) — `/comedouro-newpet-4l-review/` (review) ↔ `/melhor-comedouro-automatico-cachorro/` (list)
+117. 🔗 (44/100) — `/como-funciona-coleira-gps-cachorro/` (how_to) ↔ `/duvidas-coleira-gps-pet/` (faq)
+118. 🔗 (44/100) — `/erros-comuns-porta-eletronica-pet/` (troubleshooting) ↔ `/porta-eletronica-x-alcapao-tradicional/` (comparison)
+119. 🔗 (43/100) — `/camera-pet-resolucao-1080p-x-2k/` (comparison) ↔ `/duvidas-camera-para-monitorar-pet/` (faq)
+120. 🔗 (43/100) — `/comedouro-automatico-vale-a-pena/` (faq) ↔ `/configurar-app-comedouro-wifi/` (how_to)
+121. 🔗 (43/100) — `/comedouro-com-ou-sem-wifi/` (comparison) ↔ `/melhor-comedouro-automatico-cachorro/` (list)
+122. 🔗 (43/100) — `/comedouro-newpet-2l-review/` (review) ↔ `/melhor-comedouro-automatico-cachorro/` (list)
+123. 🔗 (43/100) — `/erros-comuns-porta-eletronica-pet/` (troubleshooting) ↔ `/porta-eletronica-gato-x-cachorro-diferenca/` (comparison)
+124. 🔗 (42/100) — `/camera-para-monitorar-pet/` (pillar) ↔ `/camera-pet-visao-noturna-funciona/` (informational)
+125. 🔗 (42/100) — `/camera-pet-x-coleira-gps-qual-escolher/` (comparison) ↔ `/melhor-camera-para-monitorar-pet/` (list)
+126. 🔗 (42/100) — `/comedouro-vdrbg-4l-wifi-review/` (review) ↔ `/como-configurar-camera-pet-wifi/` (how_to)
+127. 🔗 (41/100) — `/brinquedo-automatico-cachorro-sozinho/` (informational) ↔ `/brinquedo-interativo-automatico-para-gato/` (pillar)
+128. 🔗 (41/100) — `/comedouro-automatico-para-dois-gatos/` (faq) ↔ `/comedouro-x-bebedouro-automatico/` (comparison)
+129. 🔗 (41/100) — `/comedouro-automatico-vale-a-pena/` (faq) ↔ `/comedouro-cachorro/` (review)
+130. 🔗 (40/100) — `/brinquedo-interativo-automatico-para-gato/` (pillar) ↔ `/melhor-bolinha-inteligente-para-gato/` (list)
+131. 🔗 (40/100) — `/coleira-gps-para-pet/` (pillar) ↔ `/porta-eletronica-microchip-x-rfid-coleira/` (comparison)
+132. 🔗 (40/100) — `/comedouro-automatico-para-dois-gatos/` (faq) ↔ `/melhor-alimentador-automatico-gatos/` (list)
+133. 🔗 (40/100) — `/comedouro-com-ou-sem-wifi/` (comparison) ↔ `/comedouro-newpet-2l-review/` (review)
+134. 🔗 (40/100) — `/comedouro-x-bebedouro-automatico/` (comparison) ↔ `/melhor-comedouro-automatico-cachorro/` (list)
+135. 🔗 (40/100) — `/como-funciona-coleira-gps-cachorro/` (how_to) ↔ `/erros-comuns-coleira-gps-pet/` (troubleshooting)
+136. 🔗 (40/100) — `/como-limpar-comedouro-automatico/` (how_to) ↔ `/melhor-comedouro-automatico-cachorro/` (list)
+137. 🔗 (40/100) — `/configurar-app-comedouro-wifi/` (how_to) ↔ `/melhor-comedouro-automatico-cachorro/` (list)
+138. 🔗 (40/100) — `/erros-comuns-porta-eletronica-pet/` (troubleshooting) ↔ `/porta-eletronica-microchip-x-rfid-coleira/` (comparison)
 
 ## Detalhamento dos Pares
 
@@ -757,7 +760,7 @@ Possíveis conflitos reportados (score >= 40): 237
 **Título A:** Comedouro Automático para Pet: Guia Completo de 2026
 **Título B:** Comedouro Automático Com ou Sem Wi-Fi: Qual Escolher?
 
-**Sinais encontrados:** títulos semelhantes: comedouro, automatico; slugs semelhantes: comedouro; headings semelhantes: comedouro, wi, fi, tipos; conteúdo semelhante: wi, comedouro, fi, mercado
+**Sinais encontrados:** títulos semelhantes: comedouro, automatico; slugs semelhantes: comedouro; headings semelhantes: comedouro, wi, fi, tipos; conteúdo semelhante: comedouro, wi, fi, mercado
 **Sinais de diferenciação:** relação pilar↔satélite (página A é o pilar; a outra é do formato "comparison") — complementar, não concorrente; um dos títulos usa formato comparativo explícito ("X vs Y" / "X ou Y")
 
 **Explicação:** "Comedouro Automático para Pet: Guia Completo de 2026" e "Comedouro Automático Com ou Sem Wi-Fi: Qual Escolher?" têm sobreposição textual (score 59/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.
@@ -892,6 +895,18 @@ Possíveis conflitos reportados (score >= 40): 237
 
 **Recomendação:** Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking).
 
+### 🔗 /comedouro-automatico-para-dois-gatos/ ↔ /comedouro-automatico-para-pet/ — 57/100 (complementary)
+
+**Título A:** Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida
+**Título B:** Comedouro Automático para Pet: Guia Completo de 2026
+
+**Sinais encontrados:** títulos semelhantes: comedouro, automatico; slugs semelhantes: comedouro, automatico; headings semelhantes: comedouro, gatos, conclusao, perguntas; conteúdo semelhante: comedouro, gatos, dois, nao
+**Sinais de diferenciação:** relação pilar↔satélite (página B é o pilar; a outra é do formato "faq") — complementar, não concorrente
+
+**Explicação:** "Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida" e "Comedouro Automático para Pet: Guia Completo de 2026" têm sobreposição textual (score 57/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.
+
+**Recomendação:** Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking).
+
 ### 🔗 /comedouro-x-bebedouro-automatico/ ↔ /melhor-bebedouro-automatico-pet/ — 57/100 (complementary)
 
 **Título A:** Comedouro x Bebedouro Automático: Você Precisa dos Dois?
@@ -1017,7 +1032,7 @@ Possíveis conflitos reportados (score >= 40): 237
 **Título A:** Comedouro Automático Ajuda no Controle de Peso do Gato?
 **Título B:** Comedouro Automático para Pet: Guia Completo de 2026
 
-**Sinais encontrados:** títulos semelhantes: comedouro, automatico; slugs semelhantes: comedouro, automatico; headings semelhantes: comedouro, gatos, automatico, conclusao; conteúdo semelhante: comedouro, racao, nao, gatos
+**Sinais encontrados:** títulos semelhantes: comedouro, automatico; slugs semelhantes: comedouro, automatico; headings semelhantes: comedouro, gatos, automatico, conclusao; conteúdo semelhante: comedouro, racao, gatos, nao
 **Sinais de diferenciação:** relação pilar↔satélite (página B é o pilar; a outra é do formato "faq") — complementar, não concorrente
 
 **Explicação:** "Comedouro Automático Ajuda no Controle de Peso do Gato?" e "Comedouro Automático para Pet: Guia Completo de 2026" têm sobreposição textual (score 55/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.
@@ -1702,6 +1717,17 @@ Possíveis conflitos reportados (score >= 40): 237
 **Sinais encontrados:** títulos semelhantes: coleira, gps, funciona; slugs semelhantes: coleira, gps; headings semelhantes: gps, coleira, funciona, muda; conteúdo semelhante: gps, coleira, gatos, nao
 
 **Explicação:** Sobreposição moderada entre "Coleira GPS Funciona em Gatos? O Que Muda em Relação ao Cão" e "Como Funciona a Coleira GPS para Cachorro: Tipos e Uso" — pode ser conteúdo relacionado ou possível canibalização parcial.
+
+**Recomendação:** Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles).
+
+### 🟡 /comedouro-automatico-para-dois-gatos/ ↔ /comedouro-automatico-vale-a-pena/ — 48/100 (possible)
+
+**Título A:** Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida
+**Título B:** Vale a Pena Comprar um Comedouro Automático? Guia 2026
+
+**Sinais encontrados:** títulos semelhantes: comedouro, automatico; slugs semelhantes: comedouro, automatico; headings semelhantes: comedouro, dois, gatos, hora; conteúdo semelhante: nao, comedouro, gatos, dois
+
+**Explicação:** Sobreposição moderada entre "Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida" e "Vale a Pena Comprar um Comedouro Automático? Guia 2026" — pode ser conteúdo relacionado ou possível canibalização parcial.
 
 **Recomendação:** Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles).
 
@@ -2720,6 +2746,18 @@ Possíveis conflitos reportados (score >= 40): 237
 
 **Recomendação:** Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles).
 
+### 🔗 /comedouro-automatico-para-dois-gatos/ ↔ /comedouro-x-bebedouro-automatico/ — 41/100 (complementary)
+
+**Título A:** Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida
+**Título B:** Comedouro x Bebedouro Automático: Você Precisa dos Dois?
+
+**Sinais encontrados:** títulos semelhantes: comedouro, dois, automatico; slugs semelhantes: comedouro, automatico; headings semelhantes: comedouro, dois, configurar, gato; conteúdo semelhante: comedouro, dois, gatos, nao
+**Sinais de diferenciação:** formatos editoriais diferentes e específicos ("faq" vs. "comparison"), nenhum dos dois é a página pilar — provável conteúdo complementar, não concorrente
+
+**Explicação:** "Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida" e "Comedouro x Bebedouro Automático: Você Precisa dos Dois?" têm sobreposição textual (score 41/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.
+
+**Recomendação:** Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking).
+
 ### 🔗 /comedouro-automatico-vale-a-pena/ ↔ /comedouro-cachorro/ — 41/100 (complementary)
 
 **Título A:** Vale a Pena Comprar um Comedouro Automático? Guia 2026
@@ -2831,6 +2869,18 @@ Possíveis conflitos reportados (score >= 40): 237
 **Sinais de diferenciação:** relação pilar↔satélite (página A é o pilar; a outra é do formato "comparison") — complementar, não concorrente; um dos títulos usa formato comparativo explícito ("X vs Y" / "X ou Y")
 
 **Explicação:** "Coleira GPS para Cachorro e Gato: Guia Completo 2026" e "Porta Eletrônica: Microchip ou Medalhão RFID na Coleira?" têm sobreposição textual (score 40/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.
+
+**Recomendação:** Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking).
+
+### 🔗 /comedouro-automatico-para-dois-gatos/ ↔ /melhor-alimentador-automatico-gatos/ — 40/100 (complementary)
+
+**Título A:** Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida
+**Título B:** Melhor Alimentador Automático para Gatos: Guia 2026
+
+**Sinais encontrados:** títulos semelhantes: gatos, automatico; slugs semelhantes: gatos, automatico; headings semelhantes: gatos, comedouro, gato, conclusao; conteúdo semelhante: gatos, gato, dois, comedouro
+**Sinais de diferenciação:** formatos editoriais diferentes e específicos ("faq" vs. "list"), nenhum dos dois é a página pilar — provável conteúdo complementar, não concorrente
+
+**Explicação:** "Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida" e "Melhor Alimentador Automático para Gatos: Guia 2026" têm sobreposição textual (score 40/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.
 
 **Recomendação:** Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking).
 

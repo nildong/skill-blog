@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T21:37:34.663Z",
+  "generated_at": "2026-09-12T18:49:04.331Z",
   "site": {
     "root": "/home/projetos/blog",
     "total_html_files_found": 73,
@@ -20,7 +20,7 @@
       "no_h1": 0
     },
     "links": {
-      "internal_links": 1106,
+      "internal_links": 1126,
       "external_links": 193
     },
     "media": {
@@ -693,8 +693,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 846,
-        "char_count": 5412,
+        "word_count": 859,
+        "char_count": 5502,
         "paragraph_count": 33,
         "list_count": 0,
         "table_count": 0,
@@ -768,6 +768,11 @@
           "type": "absolute"
         },
         {
+          "href": "https://smartpetgadgets.com.br/brinquedo-interativo-substitui-brincadeira-tutor/",
+          "anchor_text": "brinquedo interativo substitui a brincadeira com o tutor?",
+          "type": "absolute"
+        },
+        {
           "href": "https://smartpetgadgets.com.br/autores/nildo-alves/",
           "anchor_text": "Nildo Alves",
           "type": "absolute"
@@ -810,7 +815,7 @@
           "domain": "lista.mercadolivre.com.br"
         }
       ],
-      "internal_link_count": 17,
+      "internal_link_count": 18,
       "external_link_count": 4,
       "images": [
         {
@@ -923,8 +928,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 393,
-        "char_count": 2522,
+        "word_count": 402,
+        "char_count": 2595,
         "paragraph_count": 11,
         "list_count": 1,
         "table_count": 0,
@@ -945,6 +950,11 @@
         {
           "href": "https://smartpetgadgets.com.br/autores/nildo-alves/",
           "anchor_text": "Nildo Alves",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/duvidas-brinquedo-interativo-gato/",
+          "anchor_text": "brinquedo interativo para gato: perguntas frequentes",
           "type": "absolute"
         },
         {
@@ -1000,7 +1010,7 @@
           "domain": "lista.mercadolivre.com.br"
         }
       ],
-      "internal_link_count": 10,
+      "internal_link_count": 11,
       "external_link_count": 3,
       "images": [
         {
@@ -1091,22 +1101,27 @@
         },
         {
           "tag": "h2",
+          "text": "Sinais de Que a Bateria Está Acabando",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 5,
+        "total": 6,
         "h1_count": 1,
-        "h2_count": 4,
+        "h2_count": 5,
         "h3_count": 0,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 361,
-        "char_count": 2376,
-        "paragraph_count": 11,
+        "word_count": 447,
+        "char_count": 2893,
+        "paragraph_count": 12,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 0,
@@ -1126,6 +1141,11 @@
         {
           "href": "https://smartpetgadgets.com.br/autores/nildo-alves/",
           "anchor_text": "Nildo Alves",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/duvidas-brinquedo-interativo-gato/",
+          "anchor_text": "brinquedo interativo para gato: perguntas frequentes",
           "type": "absolute"
         },
         {
@@ -1176,7 +1196,7 @@
           "domain": "lista.mercadolivre.com.br"
         }
       ],
-      "internal_link_count": 10,
+      "internal_link_count": 11,
       "external_link_count": 2,
       "images": [
         {
@@ -1267,22 +1287,27 @@
         },
         {
           "tag": "h2",
+          "text": "Como Posicionar o Brinquedo Para o Sensor Funcionar Bem",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 5,
+        "total": 6,
         "h1_count": 1,
-        "h2_count": 4,
+        "h2_count": 5,
         "h3_count": 0,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 379,
-        "char_count": 2391,
-        "paragraph_count": 11,
+        "word_count": 455,
+        "char_count": 2866,
+        "paragraph_count": 12,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -2060,22 +2085,27 @@
         },
         {
           "tag": "h2",
+          "text": "Cuidados com o Tipo de Petisco Usado",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 5,
+        "total": 6,
         "h1_count": 1,
-        "h2_count": 4,
+        "h2_count": 5,
         "h3_count": 0,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 391,
-        "char_count": 2433,
-        "paragraph_count": 12,
+        "word_count": 461,
+        "char_count": 2900,
+        "paragraph_count": 13,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -2246,22 +2276,27 @@
         },
         {
           "tag": "h2",
+          "text": "Como Recuperar as Gravações Depois",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 7,
         "h1_count": 1,
-        "h2_count": 5,
+        "h2_count": 6,
         "h3_count": 0,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 398,
-        "char_count": 2381,
-        "paragraph_count": 12,
+        "word_count": 471,
+        "char_count": 2847,
+        "paragraph_count": 13,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -2422,22 +2457,27 @@
         },
         {
           "tag": "h2",
+          "text": "Impacto no Consumo de Dados e Armazenamento",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 5,
+        "total": 6,
         "h1_count": 1,
-        "h2_count": 4,
+        "h2_count": 5,
         "h3_count": 0,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 389,
-        "char_count": 2272,
-        "paragraph_count": 12,
+        "word_count": 459,
+        "char_count": 2695,
+        "paragraph_count": 13,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -2603,22 +2643,27 @@
         },
         {
           "tag": "h2",
+          "text": "Como Testar a Visão Noturna Antes de Comprar",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 5,
+        "total": 6,
         "h1_count": 1,
-        "h2_count": 4,
+        "h2_count": 5,
         "h3_count": 0,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 379,
-        "char_count": 2312,
-        "paragraph_count": 11,
+        "word_count": 468,
+        "char_count": 2822,
+        "paragraph_count": 12,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -2797,9 +2842,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 437,
-        "char_count": 2629,
-        "paragraph_count": 13,
+        "word_count": 458,
+        "char_count": 2743,
+        "paragraph_count": 14,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 0,
@@ -2824,6 +2869,11 @@
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
           "anchor_text": "veja o guia completo de coleira GPS para pet",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/coleira-gps-x-microchip/",
+          "anchor_text": "o que é o microchip e como funciona",
           "type": "absolute"
         },
         {
@@ -2874,7 +2924,7 @@
           "domain": "lista.mercadolivre.com.br"
         }
       ],
-      "internal_link_count": 11,
+      "internal_link_count": 12,
       "external_link_count": 2,
       "images": [
         {
@@ -4620,9 +4670,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1507,
-        "char_count": 9171,
-        "paragraph_count": 39,
+        "word_count": 1563,
+        "char_count": 9476,
+        "paragraph_count": 40,
         "list_count": 1,
         "table_count": 1,
         "blockquote_count": 1,
@@ -4647,6 +4697,11 @@
         {
           "href": "https://smartpetgadgets.com.br/melhor-coleira-gps-sem-mensalidade/",
           "anchor_text": "melhores coleiras GPS sem mensalidade — como identificar antes de comprar",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/como-funciona-coleira-gps-cachorro/",
+          "anchor_text": "as três tecnologias de localização explicadas passo a passo",
           "type": "absolute"
         },
         {
@@ -4677,6 +4732,11 @@
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-cachorro-pequeno-porte/",
           "anchor_text": "coleira GPS para cachorro de pequeno porte: o que considerar",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/",
+          "anchor_text": "quando a câmera resolve e quando a coleira GPS é a escolha certa",
           "type": "absolute"
         },
         {
@@ -4727,7 +4787,7 @@
           "domain": "lista.mercadolivre.com.br"
         }
       ],
-      "internal_link_count": 17,
+      "internal_link_count": 19,
       "external_link_count": 2,
       "images": [
         {
@@ -4845,8 +4905,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 593,
-        "char_count": 3591,
+        "word_count": 608,
+        "char_count": 3669,
         "paragraph_count": 15,
         "list_count": 0,
         "table_count": 1,
@@ -4877,6 +4937,11 @@
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
           "anchor_text": "compare com a opção específica para gatos",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/",
+          "anchor_text": "quando a câmera resolve e quando a coleira GPS é a escolha certa",
           "type": "absolute"
         },
         {
@@ -4932,7 +4997,7 @@
           "domain": "lista.mercadolivre.com.br"
         }
       ],
-      "internal_link_count": 12,
+      "internal_link_count": 13,
       "external_link_count": 3,
       "images": [
         {
@@ -5153,9 +5218,9 @@
           "domain": "blog.tudodebicho.com.br"
         },
         {
-          "href": "https://lista.mercadolivre.com.br/comedouro-anti-formiga?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "href": "https://meli.la/1YoZvow",
           "anchor_text": "Ver no Mercado Livre →",
-          "domain": "lista.mercadolivre.com.br"
+          "domain": "meli.la"
         }
       ],
       "internal_link_count": 13,
@@ -5430,9 +5495,9 @@
           "domain": "paw-champ.com"
         },
         {
-          "href": "https://lista.mercadolivre.com.br/comedouro-automatico?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "href": "https://meli.la/1YoZvow",
           "anchor_text": "Ver no Mercado Livre →",
-          "domain": "lista.mercadolivre.com.br"
+          "domain": "meli.la"
         }
       ],
       "internal_link_count": 13,
@@ -5717,9 +5782,9 @@
           "domain": "hovet.fmvz.usp.br"
         },
         {
-          "href": "https://lista.mercadolivre.com.br/comedouro-automatico-gatos?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "href": "https://meli.la/2CyWKk6",
           "anchor_text": "Ver no Mercado Livre →",
-          "domain": "lista.mercadolivre.com.br"
+          "domain": "meli.la"
         }
       ],
       "internal_link_count": 14,
@@ -6009,9 +6074,9 @@
           "domain": "peritoanimal.com.br"
         },
         {
-          "href": "https://lista.mercadolivre.com.br/comedouro-automatico?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "href": "https://meli.la/2hiYAmt",
           "anchor_text": "Ver no Mercado Livre →",
-          "domain": "lista.mercadolivre.com.br"
+          "domain": "meli.la"
         }
       ],
       "internal_link_count": 11,
@@ -6192,9 +6257,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1504,
-        "char_count": 9476,
-        "paragraph_count": 40,
+        "word_count": 1585,
+        "char_count": 9968,
+        "paragraph_count": 43,
         "list_count": 1,
         "table_count": 1,
         "blockquote_count": 2,
@@ -6252,6 +6317,16 @@
           "type": "absolute"
         },
         {
+          "href": "https://smartpetgadgets.com.br/comedouro-x-bebedouro-automatico/",
+          "anchor_text": "comedouro x bebedouro automático: você precisa dos dois?",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/melhor-comedouro-interativo-gato/",
+          "anchor_text": "guia completo de comedouro interativo para gato",
+          "type": "absolute"
+        },
+        {
           "href": "https://smartpetgadgets.com.br/como-limpar-comedouro-automatico/",
           "anchor_text": "passo a passo de limpeza do comedouro automático",
           "type": "absolute"
@@ -6269,6 +6344,21 @@
         {
           "href": "https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/",
           "anchor_text": "melhor comedouro automático para cachorro — os mais vendidos",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-newpet-2l-review/",
+          "anchor_text": "Comedouro Automático Newpet 2L: Vale a Pena? Review",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-newpet-4l-review/",
+          "anchor_text": "Comedouro Newpet 4L: Review Completo (Vale a Pena?)",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-automatico-faz-mal/",
+          "anchor_text": "o comedouro automático faz mal — riscos reais",
           "type": "absolute"
         },
         {
@@ -6304,9 +6394,9 @@
       ],
       "external_links": [
         {
-          "href": "https://lista.mercadolivre.com.br/comedouro-automatico?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "href": "https://meli.la/1YoZvow",
           "anchor_text": "Mercado Livre — Comedouro Automático",
-          "domain": "lista.mercadolivre.com.br"
+          "domain": "meli.la"
         },
         {
           "href": "https://www.editorastilo.com.br/pet-food/setor-pet-projeta-crescer-apenas-35-em-2025-com-faturamento-de-r-78-bilhoes/",
@@ -6319,9 +6409,9 @@
           "domain": "petbr.com.br"
         },
         {
-          "href": "https://lista.mercadolivre.com.br/comedouro-automatico?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "href": "https://meli.la/1YoZvow",
           "anchor_text": "Mercado Livre — Comedouro Automático",
-          "domain": "lista.mercadolivre.com.br"
+          "domain": "meli.la"
         },
         {
           "href": "https://www.editorastilo.com.br/pet-food/setor-pet-projeta-crescer-apenas-35-em-2025-com-faturamento-de-r-78-bilhoes/",
@@ -6329,12 +6419,12 @@
           "domain": "editorastilo.com.br"
         },
         {
-          "href": "https://lista.mercadolivre.com.br/comedouro-automatico?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "href": "https://meli.la/1YoZvow",
           "anchor_text": "Ver no Mercado Livre →",
-          "domain": "lista.mercadolivre.com.br"
+          "domain": "meli.la"
         }
       ],
-      "internal_link_count": 20,
+      "internal_link_count": 25,
       "external_link_count": 6,
       "images": [
         {
@@ -6594,9 +6684,9 @@
           "domain": "paw-champ.com"
         },
         {
-          "href": "https://lista.mercadolivre.com.br/comedouro-automatico?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "href": "https://meli.la/2c9hSTQ",
           "anchor_text": "Ver no Mercado Livre →",
-          "domain": "lista.mercadolivre.com.br"
+          "domain": "meli.la"
         }
       ],
       "internal_link_count": 14,
@@ -6779,9 +6869,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1658,
-        "char_count": 10261,
-        "paragraph_count": 33,
+        "word_count": 1685,
+        "char_count": 10413,
+        "paragraph_count": 34,
         "list_count": 2,
         "table_count": 1,
         "blockquote_count": 1,
@@ -6806,6 +6896,11 @@
         {
           "href": "https://smartpetgadgets.com.br/comedouro-automatico-para-pet/",
           "anchor_text": "guia completo de comedouro automático para pet",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/",
+          "anchor_text": "funciona o app do VDRBG 4L Wi-Fi",
           "type": "absolute"
         },
         {
@@ -6886,12 +6981,12 @@
           "domain": "paw-champ.com"
         },
         {
-          "href": "https://lista.mercadolivre.com.br/comedouro-automatico?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "href": "https://meli.la/1YoZvow",
           "anchor_text": "Ver no Mercado Livre →",
-          "domain": "lista.mercadolivre.com.br"
+          "domain": "meli.la"
         }
       ],
-      "internal_link_count": 16,
+      "internal_link_count": 17,
       "external_link_count": 4,
       "images": [
         {
@@ -7428,9 +7523,9 @@
           "domain": "cabinecelular.com.br"
         },
         {
-          "href": "https://lista.mercadolivre.com.br/comedouro-automatico?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "href": "https://meli.la/1YoZvow",
           "anchor_text": "Ver no Mercado Livre →",
-          "domain": "lista.mercadolivre.com.br"
+          "domain": "meli.la"
         }
       ],
       "internal_link_count": 17,
@@ -7740,9 +7835,9 @@
           "domain": "peritoanimal.com.br"
         },
         {
-          "href": "https://lista.mercadolivre.com.br/comedouro-automatico?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "href": "https://meli.la/1YoZvow",
           "anchor_text": "Ver no Mercado Livre →",
-          "domain": "lista.mercadolivre.com.br"
+          "domain": "meli.la"
         }
       ],
       "internal_link_count": 18,
@@ -8229,9 +8324,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1655,
-        "char_count": 9818,
-        "paragraph_count": 37,
+        "word_count": 1670,
+        "char_count": 9914,
+        "paragraph_count": 38,
         "list_count": 2,
         "table_count": 1,
         "blockquote_count": 1,
@@ -8289,6 +8384,11 @@
           "type": "absolute"
         },
         {
+          "href": "https://smartpetgadgets.com.br/comedouro-newpet-2l-review/",
+          "anchor_text": "Comedouro Automático Newpet 2L: Vale a Pena? Review",
+          "type": "absolute"
+        },
+        {
           "href": "https://smartpetgadgets.com.br/sobre/",
           "anchor_text": "Equipe Smart Pet Gadgets",
           "type": "absolute"
@@ -8321,9 +8421,9 @@
       ],
       "external_links": [
         {
-          "href": "https://lista.mercadolivre.com.br/newpet-4l?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "href": "https://meli.la/1tguuU6",
           "anchor_text": "Mercado Livre — busca \"Newpet 4L\"",
-          "domain": "lista.mercadolivre.com.br"
+          "domain": "meli.la"
         },
         {
           "href": "https://pettechbrasil.com.br/comedouro-automatico-new-pet-4l-com-gravacao-de-voz-review-completo",
@@ -8331,9 +8431,9 @@
           "domain": "pettechbrasil.com.br"
         },
         {
-          "href": "https://lista.mercadolivre.com.br/newpet-4l?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "href": "https://meli.la/1tguuU6",
           "anchor_text": "Mercado Livre — busca \"Newpet 4L\"",
-          "domain": "lista.mercadolivre.com.br"
+          "domain": "meli.la"
         },
         {
           "href": "https://amordecachorro.com/melhor-comedouro-automatico-para-cachorro/",
@@ -8341,12 +8441,12 @@
           "domain": "amordecachorro.com"
         },
         {
-          "href": "https://lista.mercadolivre.com.br/newpet-4l?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "href": "https://meli.la/1tguuU6",
           "anchor_text": "Ver no Mercado Livre →",
-          "domain": "lista.mercadolivre.com.br"
+          "domain": "meli.la"
         }
       ],
-      "internal_link_count": 16,
+      "internal_link_count": 17,
       "external_link_count": 5,
       "images": [
         {
@@ -8523,9 +8623,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1508,
-        "char_count": 9283,
-        "paragraph_count": 36,
+        "word_count": 1546,
+        "char_count": 9515,
+        "paragraph_count": 38,
         "list_count": 2,
         "table_count": 1,
         "blockquote_count": 1,
@@ -8558,6 +8658,11 @@
           "type": "absolute"
         },
         {
+          "href": "https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/",
+          "anchor_text": "comedouro automático com ou sem Wi-Fi: qual escolher",
+          "type": "absolute"
+        },
+        {
           "href": "https://smartpetgadgets.com.br/comedouro-newpet-4l-review/",
           "anchor_text": "review completo do comedouro Newpet 4L",
           "type": "absolute"
@@ -8580,6 +8685,11 @@
         {
           "href": "https://smartpetgadgets.com.br/comedouro-automatico-para-pet/",
           "anchor_text": "guia completo de comedouro automático para pet",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-automatico-vale-a-pena/",
+          "anchor_text": "quando vale a pena um comedouro automático",
           "type": "absolute"
         },
         {
@@ -8640,7 +8750,7 @@
           "domain": "lista.mercadolivre.com.br"
         }
       ],
-      "internal_link_count": 16,
+      "internal_link_count": 18,
       "external_link_count": 5,
       "images": [
         {
@@ -8924,9 +9034,9 @@
           "domain": "catslondrina.com.br"
         },
         {
-          "href": "https://lista.mercadolivre.com.br/kit-comedouro-e-bebedouro-automatico?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "href": "https://meli.la/1yw2Tt1",
           "anchor_text": "Mercado Livre",
-          "domain": "lista.mercadolivre.com.br"
+          "domain": "meli.la"
         },
         {
           "href": "https://www.amazon.com.br/Comedouro-Bebedouro-Autom%C3%A1tico-Silencioso-Hidrata%C3%A7%C3%A3o/dp/B0F61J2HK8",
@@ -8939,9 +9049,9 @@
           "domain": "portalvet.royalcanin.com.br"
         },
         {
-          "href": "https://lista.mercadolivre.com.br/kit-comedouro-e-bebedouro-automatico?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "href": "https://meli.la/1yw2Tt1",
           "anchor_text": "Ver no Mercado Livre →",
-          "domain": "lista.mercadolivre.com.br"
+          "domain": "meli.la"
         }
       ],
       "internal_link_count": 17,
@@ -9963,9 +10073,9 @@
           "domain": "cachorronatureba.com.br"
         },
         {
-          "href": "https://lista.mercadolivre.com.br/comedouro-automatico?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "href": "https://meli.la/1YoZvow",
           "anchor_text": "Ver no Mercado Livre →",
-          "domain": "lista.mercadolivre.com.br"
+          "domain": "meli.la"
         }
       ],
       "internal_link_count": 12,
@@ -10168,9 +10278,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1318,
-        "char_count": 8026,
-        "paragraph_count": 31,
+        "word_count": 1342,
+        "char_count": 8164,
+        "paragraph_count": 32,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 1,
@@ -10205,6 +10315,11 @@
         {
           "href": "https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/",
           "anchor_text": "review do comedouro VDRBG 4L Wi-Fi",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/",
+          "anchor_text": "comedouro automático com ou sem Wi-Fi: qual escolher",
           "type": "absolute"
         },
         {
@@ -10270,12 +10385,12 @@
           "domain": "geniodacasa.com.br"
         },
         {
-          "href": "https://lista.mercadolivre.com.br/comedouro-automatico-programavel?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "href": "https://meli.la/17VqkwJ",
           "anchor_text": "Ver no Mercado Livre →",
-          "domain": "lista.mercadolivre.com.br"
+          "domain": "meli.la"
         }
       ],
-      "internal_link_count": 15,
+      "internal_link_count": 16,
       "external_link_count": 4,
       "images": [
         {
@@ -12060,9 +12175,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 441,
-        "char_count": 2619,
-        "paragraph_count": 16,
+        "word_count": 452,
+        "char_count": 2677,
+        "paragraph_count": 17,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -12087,6 +12202,11 @@
         {
           "href": "https://smartpetgadgets.com.br/porta-eletronica-gato-x-cachorro-diferenca/",
           "anchor_text": "veja como dimensionar corretamente",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/como-instalar-porta-eletronica-pet/",
+          "anchor_text": "veja o passo a passo geral de instalação antes de começar",
           "type": "absolute"
         },
         {
@@ -12142,7 +12262,7 @@
           "domain": "lista.mercadolivre.com.br"
         }
       ],
-      "internal_link_count": 12,
+      "internal_link_count": 13,
       "external_link_count": 2,
       "images": [
         {
@@ -14651,9 +14771,9 @@
       ],
       "external_links": [
         {
-          "href": "https://lista.mercadolivre.com.br/comedouro-automatico-gatos?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "href": "https://meli.la/1YoZvow",
           "anchor_text": "Mercado Livre — Comedouro Automático Gatos",
-          "domain": "lista.mercadolivre.com.br"
+          "domain": "meli.la"
         },
         {
           "href": "https://cabinecelular.com.br/reviews/smart-alimentador-pet-wi-fi-positivo-casa-inteligente/",
@@ -14666,9 +14786,9 @@
           "domain": "cats.com"
         },
         {
-          "href": "https://lista.mercadolivre.com.br/comedouro-automatico-gatos?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "href": "https://meli.la/1YoZvow",
           "anchor_text": "Ver no Mercado Livre →",
-          "domain": "lista.mercadolivre.com.br"
+          "domain": "meli.la"
         }
       ],
       "internal_link_count": 16,
@@ -15071,22 +15191,27 @@
         },
         {
           "tag": "h2",
+          "text": "Duração da Bateria e Recarga",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 7,
         "h1_count": 1,
-        "h2_count": 5,
+        "h2_count": 6,
         "h3_count": 0,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 388,
-        "char_count": 2331,
-        "paragraph_count": 14,
+        "word_count": 452,
+        "char_count": 2697,
+        "paragraph_count": 15,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -15749,9 +15874,9 @@
           "domain": "farmapets.com.br"
         },
         {
-          "href": "https://lista.mercadolivre.com.br/comedouro-automatico?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "href": "https://meli.la/1YoZvow",
           "anchor_text": "Mercado Livre — Comedouro Automático",
-          "domain": "lista.mercadolivre.com.br"
+          "domain": "meli.la"
         },
         {
           "href": "https://reidaspromocoes.com.br/alimentador-automatico-pet-vdrbg-vale-a-pena-para-seu-pet/",
@@ -15764,9 +15889,9 @@
           "domain": "farmapets.com.br"
         },
         {
-          "href": "https://lista.mercadolivre.com.br/comedouro-automatico?matt_word=nildoalvesdeoliveiramenild&matt_tool=10906170",
+          "href": "https://meli.la/1YoZvow",
           "anchor_text": "Ver no Mercado Livre →",
-          "domain": "lista.mercadolivre.com.br"
+          "domain": "meli.la"
         }
       ],
       "internal_link_count": 15,
@@ -15878,8 +16003,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 437,
-        "char_count": 2832,
+        "word_count": 457,
+        "char_count": 2960,
         "paragraph_count": 14,
         "list_count": 1,
         "table_count": 0,
@@ -15910,6 +16035,11 @@
         {
           "href": "https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/",
           "anchor_text": "qual a diferença entre comedouro automático para gato e para cachorro",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-automatico-para-pet/",
+          "anchor_text": "guia completo de comedouro automático para pet",
           "type": "absolute"
         },
         {
@@ -15960,7 +16090,7 @@
           "domain": "lista.mercadolivre.com.br"
         }
       ],
-      "internal_link_count": 12,
+      "internal_link_count": 13,
       "external_link_count": 2,
       "images": [
         {
@@ -16224,8 +16354,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 894,
-        "char_count": 5571,
+        "word_count": 916,
+        "char_count": 5702,
         "paragraph_count": 36,
         "list_count": 0,
         "table_count": 0,
@@ -16284,6 +16414,11 @@
           "type": "absolute"
         },
         {
+          "href": "https://smartpetgadgets.com.br/erros-comuns-porta-eletronica-pet/",
+          "anchor_text": "os erros mais comuns ao considerar o porte do maior animal da casa",
+          "type": "absolute"
+        },
+        {
           "href": "https://smartpetgadgets.com.br/duvidas-porta-eletronica-pet/",
           "anchor_text": "veja as perguntas frequentes sobre porta eletrônica para pet",
           "type": "absolute"
@@ -16331,7 +16466,7 @@
           "domain": "lista.mercadolivre.com.br"
         }
       ],
-      "internal_link_count": 17,
+      "internal_link_count": 18,
       "external_link_count": 2,
       "images": [
         {
@@ -16803,22 +16938,27 @@
         },
         {
           "tag": "h2",
+          "text": "O Que Fazer se um Animal Não Cadastrado Insistir na Entrada",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 5,
+        "total": 6,
         "h1_count": 1,
-        "h2_count": 4,
+        "h2_count": 5,
         "h3_count": 0,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 365,
-        "char_count": 2286,
-        "paragraph_count": 13,
+        "word_count": 444,
+        "char_count": 2785,
+        "paragraph_count": 14,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -16994,22 +17134,27 @@
         },
         {
           "tag": "h2",
+          "text": "É Possível Usar as Duas Tecnologias na Mesma Porta?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 7,
         "h1_count": 1,
-        "h2_count": 5,
+        "h2_count": 6,
         "h3_count": 0,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 395,
-        "char_count": 2480,
-        "paragraph_count": 13,
+        "word_count": 455,
+        "char_count": 2845,
+        "paragraph_count": 14,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 0,
@@ -17175,22 +17320,27 @@
         },
         {
           "tag": "h2",
+          "text": "Funciona Bem à Noite?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 5,
+        "total": 6,
         "h1_count": 1,
-        "h2_count": 4,
+        "h2_count": 5,
         "h3_count": 0,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 366,
-        "char_count": 2292,
-        "paragraph_count": 12,
+        "word_count": 430,
+        "char_count": 2731,
+        "paragraph_count": 13,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -17542,22 +17692,27 @@
         },
         {
           "tag": "h2",
+          "text": "Dá Para Trocar o Alçapão por Porta Eletrônica Depois?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 5,
+        "total": 6,
         "h1_count": 1,
-        "h2_count": 4,
+        "h2_count": 5,
         "h3_count": 0,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 397,
-        "char_count": 2521,
-        "paragraph_count": 12,
+        "word_count": 469,
+        "char_count": 2937,
+        "paragraph_count": 13,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 0,

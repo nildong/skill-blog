@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T19:52:35.129Z",
+  "generated_at": "2026-09-12T18:40:25.479Z",
   "summary": {
-    "pages_analyzed": 67,
-    "pairs_analyzed": 2211,
-    "potential_conflicts": 237,
+    "pages_analyzed": 68,
+    "pairs_analyzed": 2278,
+    "potential_conflicts": 241,
     "high": 0,
-    "possible": 102,
-    "complementary": 135,
+    "possible": 103,
+    "complementary": 138,
     "read_errors": 0
   },
   "pairs": [
@@ -1097,7 +1097,7 @@
         "títulos semelhantes: comedouro, automatico",
         "slugs semelhantes: comedouro",
         "headings semelhantes: comedouro, wi, fi, tipos",
-        "conteúdo semelhante: wi, comedouro, fi, mercado"
+        "conteúdo semelhante: comedouro, wi, fi, mercado"
       ],
       "differentiation_signals": [
         "relação pilar↔satélite (página A é o pilar; a outra é do formato \"comparison\") — complementar, não concorrente",
@@ -1342,6 +1342,28 @@
       "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
     },
     {
+      "page_a": "/comedouro-automatico-para-dois-gatos/",
+      "page_a_title": "Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida",
+      "page_b": "/comedouro-automatico-para-pet/",
+      "page_b_title": "Comedouro Automático para Pet: Guia Completo de 2026",
+      "score": 57,
+      "level": "complementary",
+      "format_a": "faq",
+      "format_b": "pillar",
+      "relationship": "pillar_satellite",
+      "signals": [
+        "títulos semelhantes: comedouro, automatico",
+        "slugs semelhantes: comedouro, automatico",
+        "headings semelhantes: comedouro, gatos, conclusao, perguntas",
+        "conteúdo semelhante: comedouro, gatos, dois, nao"
+      ],
+      "differentiation_signals": [
+        "relação pilar↔satélite (página B é o pilar; a outra é do formato \"faq\") — complementar, não concorrente"
+      ],
+      "explanation": "\"Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida\" e \"Comedouro Automático para Pet: Guia Completo de 2026\" têm sobreposição textual (score 57/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.",
+      "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
+    },
+    {
       "page_a": "/comedouro-x-bebedouro-automatico/",
       "page_a_title": "Comedouro x Bebedouro Automático: Você Precisa dos Dois?",
       "page_b": "/melhor-bebedouro-automatico-pet/",
@@ -1577,7 +1599,7 @@
         "títulos semelhantes: comedouro, automatico",
         "slugs semelhantes: comedouro, automatico",
         "headings semelhantes: comedouro, gatos, automatico, conclusao",
-        "conteúdo semelhante: comedouro, racao, nao, gatos"
+        "conteúdo semelhante: comedouro, racao, gatos, nao"
       ],
       "differentiation_signals": [
         "relação pilar↔satélite (página B é o pilar; a outra é do formato \"faq\") — complementar, não concorrente"
@@ -2842,6 +2864,26 @@
       ],
       "differentiation_signals": [],
       "explanation": "Sobreposição moderada entre \"Coleira GPS Funciona em Gatos? O Que Muda em Relação ao Cão\" e \"Como Funciona a Coleira GPS para Cachorro: Tipos e Uso\" — pode ser conteúdo relacionado ou possível canibalização parcial.",
+      "recommendation": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles)."
+    },
+    {
+      "page_a": "/comedouro-automatico-para-dois-gatos/",
+      "page_a_title": "Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida",
+      "page_b": "/comedouro-automatico-vale-a-pena/",
+      "page_b_title": "Vale a Pena Comprar um Comedouro Automático? Guia 2026",
+      "score": 48,
+      "level": "possible",
+      "format_a": "faq",
+      "format_b": "faq",
+      "relationship": "same_format",
+      "signals": [
+        "títulos semelhantes: comedouro, automatico",
+        "slugs semelhantes: comedouro, automatico",
+        "headings semelhantes: comedouro, dois, gatos, hora",
+        "conteúdo semelhante: nao, comedouro, gatos, dois"
+      ],
+      "differentiation_signals": [],
+      "explanation": "Sobreposição moderada entre \"Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida\" e \"Vale a Pena Comprar um Comedouro Automático? Guia 2026\" — pode ser conteúdo relacionado ou possível canibalização parcial.",
       "recommendation": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles)."
     },
     {
@@ -4710,6 +4752,28 @@
       "recommendation": "Avaliar se os artigos são complementares (nesse caso, considerar linká-los entre si) ou se competem pela mesma busca (nesse caso, diferenciar títulos ou aprofundar um deles)."
     },
     {
+      "page_a": "/comedouro-automatico-para-dois-gatos/",
+      "page_a_title": "Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida",
+      "page_b": "/comedouro-x-bebedouro-automatico/",
+      "page_b_title": "Comedouro x Bebedouro Automático: Você Precisa dos Dois?",
+      "score": 41,
+      "level": "complementary",
+      "format_a": "faq",
+      "format_b": "comparison",
+      "relationship": "differentiated_satellites",
+      "signals": [
+        "títulos semelhantes: comedouro, dois, automatico",
+        "slugs semelhantes: comedouro, automatico",
+        "headings semelhantes: comedouro, dois, configurar, gato",
+        "conteúdo semelhante: comedouro, dois, gatos, nao"
+      ],
+      "differentiation_signals": [
+        "formatos editoriais diferentes e específicos (\"faq\" vs. \"comparison\"), nenhum dos dois é a página pilar — provável conteúdo complementar, não concorrente"
+      ],
+      "explanation": "\"Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida\" e \"Comedouro x Bebedouro Automático: Você Precisa dos Dois?\" têm sobreposição textual (score 41/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.",
+      "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
+    },
+    {
       "page_a": "/comedouro-automatico-vale-a-pena/",
       "page_a_title": "Vale a Pena Comprar um Comedouro Automático? Guia 2026",
       "page_b": "/comedouro-cachorro/",
@@ -4916,6 +4980,28 @@
         "um dos títulos usa formato comparativo explícito (\"X vs Y\" / \"X ou Y\")"
       ],
       "explanation": "\"Coleira GPS para Cachorro e Gato: Guia Completo 2026\" e \"Porta Eletrônica: Microchip ou Medalhão RFID na Coleira?\" têm sobreposição textual (score 40/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.",
+      "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
+    },
+    {
+      "page_a": "/comedouro-automatico-para-dois-gatos/",
+      "page_a_title": "Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida",
+      "page_b": "/melhor-alimentador-automatico-gatos/",
+      "page_b_title": "Melhor Alimentador Automático para Gatos: Guia 2026",
+      "score": 40,
+      "level": "complementary",
+      "format_a": "faq",
+      "format_b": "list",
+      "relationship": "differentiated_satellites",
+      "signals": [
+        "títulos semelhantes: gatos, automatico",
+        "slugs semelhantes: gatos, automatico",
+        "headings semelhantes: gatos, comedouro, gato, conclusao",
+        "conteúdo semelhante: gatos, gato, dois, comedouro"
+      ],
+      "differentiation_signals": [
+        "formatos editoriais diferentes e específicos (\"faq\" vs. \"list\"), nenhum dos dois é a página pilar — provável conteúdo complementar, não concorrente"
+      ],
+      "explanation": "\"Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida\" e \"Melhor Alimentador Automático para Gatos: Guia 2026\" têm sobreposição textual (score 40/100) explicada pela arquitetura pilar↔satélite do site — relação complementar esperada, não concorrência pela mesma busca.",
       "recommendation": "Nenhuma ação de correção necessária — esta é a relação pilar↔satélite esperada. Boa candidata a link interno explícito entre as duas páginas, se ainda não existir (ver módulo Internal Linking)."
     },
     {

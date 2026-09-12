@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generated_at": "2026-08-26T19:52:29.181Z",
+  "generated_at": "2026-09-12T18:40:35.963Z",
   "summary": {
-    "pages_analyzed": 72,
-    "suggestions": 188,
+    "pages_analyzed": 73,
+    "suggestions": 189,
     "orphan_target_suggestions": 0,
     "read_errors": 0
   },
@@ -68,7 +68,7 @@
       "score_breakdown": {
         "title": 24.4,
         "heading": 9.9,
-        "content": 9.9,
+        "content": 10,
         "slug": 7.7,
         "cluster": 0,
         "pillar_satellite": 10
@@ -94,7 +94,7 @@
       "score_breakdown": {
         "title": 24.4,
         "heading": 9.9,
-        "content": 9.9,
+        "content": 10,
         "slug": 7.7,
         "cluster": 0,
         "pillar_satellite": 10
@@ -248,7 +248,7 @@
       "score_breakdown": {
         "title": 21.6,
         "heading": 7.2,
-        "content": 9.4,
+        "content": 9.5,
         "slug": 7.7,
         "cluster": 0,
         "pillar_satellite": 10
@@ -300,7 +300,7 @@
       "score_breakdown": {
         "title": 21.6,
         "heading": 5.9,
-        "content": 8.8,
+        "content": 8.9,
         "slug": 8.8,
         "cluster": 0,
         "pillar_satellite": 10
@@ -420,23 +420,23 @@
     {
       "source": "/comedouro-automatico-para-pet/",
       "source_slug": "comedouro-automatico-para-pet",
-      "target": "/comedouro-vdrbg-4l-wifi-review/",
-      "target_slug": "comedouro-vdrbg-4l-wifi-review",
+      "target": "/comedouro-newpet-2l-review/",
+      "target_slug": "comedouro-newpet-2l-review",
       "score": 53,
       "score_breakdown": {
-        "title": 18.8,
-        "heading": 7.4,
-        "content": 8.8,
+        "title": 21.6,
+        "heading": 4.3,
+        "content": 9,
         "slug": 7.7,
         "cluster": 0,
         "pillar_satellite": 10
       },
-      "anchor": "Como Funciona o App do VDRBG 4L Wi-Fi",
+      "anchor": "Comedouro Automático Newpet 2L: Vale a Pena? Review",
       "reason": "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial; similaridade moderada de conteúdo/título/headings",
       "evidence": [
-        "título compartilha termo(s): comedouro",
-        "headings compartilham termo(s): comedouro, wi, fi",
-        "conteúdo compartilha termo(s): comedouro, wi, fi",
+        "título compartilha termo(s): comedouro, automatico",
+        "headings compartilham termo(s): comedouro, manutencao, conclusao",
+        "conteúdo compartilha termo(s): comedouro, mercado, 4l",
         "slug compartilha termo(s): comedouro",
         "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial"
       ],
@@ -527,7 +527,7 @@
       "score_breakdown": {
         "title": 18.8,
         "heading": 5.6,
-        "content": 6.6,
+        "content": 6.7,
         "slug": 7.7,
         "cluster": 0,
         "pillar_satellite": 10
@@ -3818,6 +3818,31 @@
       ],
       "target_is_orphan": false,
       "relationship": "different_format"
+    },
+    {
+      "source": "/comedouro-automatico-para-dois-gatos/",
+      "source_slug": "comedouro-automatico-para-dois-gatos",
+      "target": "/comedouro-automatico-vale-a-pena/",
+      "target_slug": "comedouro-automatico-vale-a-pena",
+      "score": 37,
+      "score_breakdown": {
+        "title": 13.3,
+        "heading": 7,
+        "content": 9.2,
+        "slug": 7.9,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Quando Vale a Pena",
+      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
+      "evidence": [
+        "título compartilha termo(s): comedouro, automatico",
+        "headings compartilham termo(s): comedouro, dois, gatos",
+        "conteúdo compartilha termo(s): nao, comedouro, gatos",
+        "slug compartilha termo(s): comedouro, automatico"
+      ],
+      "target_is_orphan": false,
+      "relationship": "same_format"
     },
     {
       "source": "/comedouro-vdrbg-4l-wifi-review/",
