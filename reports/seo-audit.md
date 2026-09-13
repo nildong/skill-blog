@@ -1,6 +1,6 @@
 # SEO Audit
 
-**Gerado em:** 2026-09-13T18:19:53.051Z
+**Gerado em:** 2026-09-13T18:52:57.486Z
 
 ## Summary
 
