@@ -1,28 +1,28 @@
 # SEO Audit
 
-**Gerado em:** 2026-09-13T18:59:09.588Z
+**Gerado em:** 2026-09-13T19:29:30.674Z
 
 ## Summary
 
-Total de páginas: 73
+Total de páginas: 74
 
 🔴 Critical: 0
 🟠 Errors: 0
-🟡 Warnings: 1
-🔵 Info: 48
+🟡 Warnings: 2
+🔵 Info: 49
 
 ### Top Priorities
 
 1. **FAQ_HEADING_WITHOUT_SCHEMA** (WARNING, faq) — `/` — Heading menciona FAQ/perguntas frequentes, mas não há schema FAQPage correspondente
-2. **IMAGE_DIMENSIONS_MISSING** (INFO, images) — `/autores/nildo-alves/` — Nenhuma imagem da página declara width/height
-3. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-automatico-cachorro-sozinho/` — Nenhum FAQ detectado nesta página
-4. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-interativo-gato-idoso-vale-a-pena/` — Nenhum FAQ detectado nesta página
-5. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-interativo-pilha-x-recarregavel/` — Nenhum FAQ detectado nesta página
-6. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-interativo-sensor-infravermelho-como-funciona/` — Nenhum FAQ detectado nesta página
-7. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-interativo-substitui-brincadeira-tutor/` — Nenhum FAQ detectado nesta página
-8. **FAQ_OPPORTUNITY** (INFO, faq) — `/camera-pet-cachorro-ansiedade-separacao/` — Nenhum FAQ detectado nesta página
-9. **FAQ_OPPORTUNITY** (INFO, faq) — `/camera-pet-com-dispensador-de-petisco/` — Nenhum FAQ detectado nesta página
-10. **FAQ_OPPORTUNITY** (INFO, faq) — `/camera-pet-grava-sem-internet/` — Nenhum FAQ detectado nesta página
+2. **JSONLD_MISSING** (WARNING, schema) — `/politica-de-privacidade/` — Nenhum bloco JSON-LD encontrado na página
+3. **IMAGE_DIMENSIONS_MISSING** (INFO, images) — `/autores/nildo-alves/` — Nenhuma imagem da página declara width/height
+4. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-automatico-cachorro-sozinho/` — Nenhum FAQ detectado nesta página
+5. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-interativo-gato-idoso-vale-a-pena/` — Nenhum FAQ detectado nesta página
+6. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-interativo-pilha-x-recarregavel/` — Nenhum FAQ detectado nesta página
+7. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-interativo-sensor-infravermelho-como-funciona/` — Nenhum FAQ detectado nesta página
+8. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-interativo-substitui-brincadeira-tutor/` — Nenhum FAQ detectado nesta página
+9. **FAQ_OPPORTUNITY** (INFO, faq) — `/camera-pet-cachorro-ansiedade-separacao/` — Nenhum FAQ detectado nesta página
+10. **FAQ_OPPORTUNITY** (INFO, faq) — `/camera-pet-com-dispensador-de-petisco/` — Nenhum FAQ detectado nesta página
 
 ## Critical Issues
 
@@ -37,6 +37,9 @@ Nenhum item nesta severidade.
 - **FAQ_HEADING_WITHOUT_SCHEMA** (faq) — `/`
   - Evidência: Heading menciona FAQ/perguntas frequentes, mas não há schema FAQPage correspondente
   - Recomendação: Adicionar JSON-LD FAQPage para tornar o conteúdo elegível a rich results de FAQ.
+- **JSONLD_MISSING** (schema) — `/politica-de-privacidade/`
+  - Evidência: Nenhum bloco JSON-LD encontrado na página
+  - Recomendação: Adicionar structured data apropriado ao tipo de página (BlogPosting para posts, Organization/WebSite para institucionais).
 
 ## Opportunities (Info)
 
@@ -148,9 +151,12 @@ Nenhum item nesta severidade.
 - **FAQ_OPPORTUNITY** (faq) — `/melhor-comedouro-interativo-gato/`
   - Evidência: Nenhum FAQ detectado nesta página
   - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **LOW_INTERNAL_LINKS** (internal_links) — `/politica-editorial/`
-  - Evidência: Apenas 3 links internos de saída
-  - Recomendação: Considerar adicionar mais links contextuais para conteúdo relacionado.
+- **IMAGE_DIMENSIONS_MISSING** (images) — `/politica-de-privacidade/`
+  - Evidência: Nenhuma imagem da página declara width/height
+  - Recomendação: Considerar declarar width/height (ou aspect-ratio via CSS) para reduzir Cumulative Layout Shift.
+- **FAQ_OPPORTUNITY** (faq) — `/politica-de-privacidade/`
+  - Evidência: Nenhum FAQ detectado nesta página
+  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
 - **IMAGE_DIMENSIONS_MISSING** (images) — `/politica-editorial/`
   - Evidência: Nenhuma imagem da página declara width/height
   - Recomendação: Considerar declarar width/height (ou aspect-ratio via CSS) para reduzir Cumulative Layout Shift.
@@ -193,11 +199,11 @@ Nenhum item nesta severidade.
 | metadata | 0 | 0 | 0 | 1 |
 | headings | 0 | 0 | 0 | 0 |
 | content | 0 | 0 | 0 | 0 |
-| internal_links | 0 | 0 | 0 | 2 |
-| images | 0 | 0 | 0 | 5 |
+| internal_links | 0 | 0 | 0 | 1 |
+| images | 0 | 0 | 0 | 6 |
 | media | 0 | 0 | 0 | 0 |
-| schema | 0 | 0 | 0 | 3 |
-| faq | 0 | 0 | 1 | 37 |
+| schema | 0 | 0 | 1 | 3 |
+| faq | 0 | 0 | 1 | 38 |
 | site_structure | 0 | 0 | 0 | 0 |
 
 ## Site Structure
@@ -207,7 +213,6 @@ Nenhum item encontrado nesta categoria.
 ## Internal Linking
 
 - 🔵 **LOW_INTERNAL_LINKS** — `/contato/` — Apenas 3 links internos de saída
-- 🔵 **LOW_INTERNAL_LINKS** — `/politica-editorial/` — Apenas 3 links internos de saída
 
 ## Metadata
 
@@ -226,12 +231,14 @@ Nenhum item encontrado nesta categoria.
 - 🔵 **IMAGE_DIMENSIONS_MISSING** — `/autores/nildo-alves/` — Nenhuma imagem da página declara width/height
 - 🔵 **IMAGE_DIMENSIONS_MISSING** — `/contato/` — Nenhuma imagem da página declara width/height
 - 🔵 **IMAGE_COUNT_HIGH** — `/` — 69 imagens na página (acima de 15)
+- 🔵 **IMAGE_DIMENSIONS_MISSING** — `/politica-de-privacidade/` — Nenhuma imagem da página declara width/height
 - 🔵 **IMAGE_DIMENSIONS_MISSING** — `/politica-editorial/` — Nenhuma imagem da página declara width/height
 - 🔵 **IMAGE_DIMENSIONS_MISSING** — `/sobre/` — Nenhuma imagem da página declara width/height
 
 ## Schema
 
 - 🔵 **JSONLD_MISSING** — `/contato/` — Nenhum bloco JSON-LD encontrado na página
+- 🟡 **JSONLD_MISSING** — `/politica-de-privacidade/` — Nenhum bloco JSON-LD encontrado na página
 - 🔵 **JSONLD_MISSING** — `/politica-editorial/` — Nenhum bloco JSON-LD encontrado na página
 - 🔵 **JSONLD_MISSING** — `/sobre/` — Nenhum bloco JSON-LD encontrado na página
 
@@ -268,6 +275,7 @@ Nenhum item encontrado nesta categoria.
 - 🔵 **FAQ_OPPORTUNITY** — `/melhor-coleira-gps-sem-mensalidade/` — Nenhum FAQ detectado nesta página
 - 🔵 **FAQ_OPPORTUNITY** — `/melhor-comedouro-automatico-cachorro/` — Nenhum FAQ detectado nesta página
 - 🔵 **FAQ_OPPORTUNITY** — `/melhor-comedouro-interativo-gato/` — Nenhum FAQ detectado nesta página
+- 🔵 **FAQ_OPPORTUNITY** — `/politica-de-privacidade/` — Nenhum FAQ detectado nesta página
 - 🔵 **FAQ_OPPORTUNITY** — `/porta-eletronica-funciona-porta-de-vidro/` — Nenhum FAQ detectado nesta página
 - 🔵 **FAQ_OPPORTUNITY** — `/porta-eletronica-gato-x-cachorro-diferenca/` — Nenhum FAQ detectado nesta página
 - 🔵 **FAQ_OPPORTUNITY** — `/porta-eletronica-impede-entrada-outros-animais/` — Nenhum FAQ detectado nesta página

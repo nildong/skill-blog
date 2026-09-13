@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "generated_at": "2026-09-13T18:59:09.588Z",
+  "generated_at": "2026-09-13T19:29:30.674Z",
   "site": {
-    "total_pages": 73,
-    "source_index_generated_at": "2026-09-13T18:59:05.747Z"
+    "total_pages": 74,
+    "source_index_generated_at": "2026-09-13T19:29:26.819Z"
   },
   "summary": {
     "critical": 0,
     "errors": 0,
-    "warnings": 1,
-    "info": 48
+    "warnings": 2,
+    "info": 49
   },
   "categories": {
     "technical": {
@@ -40,13 +40,13 @@
       "critical": 0,
       "error": 0,
       "warning": 0,
-      "info": 2
+      "info": 1
     },
     "images": {
       "critical": 0,
       "error": 0,
       "warning": 0,
-      "info": 5
+      "info": 6
     },
     "media": {
       "critical": 0,
@@ -57,14 +57,14 @@
     "schema": {
       "critical": 0,
       "error": 0,
-      "warning": 0,
+      "warning": 1,
       "info": 3
     },
     "faq": {
       "critical": 0,
       "error": 0,
       "warning": 1,
-      "info": 37
+      "info": 38
     },
     "site_structure": {
       "critical": 0,
@@ -917,6 +917,37 @@
       ]
     },
     {
+      "path": "politica-de-privacidade/index.html",
+      "url": "/politica-de-privacidade/",
+      "slug": "politica-de-privacidade",
+      "page_type": "post",
+      "title": "Política de Privacidade — Smart Pet Gadgets",
+      "status": "warning",
+      "issues": [
+        {
+          "id": "IMAGE_DIMENSIONS_MISSING",
+          "category": "images",
+          "severity": "INFO",
+          "evidence": "Nenhuma imagem da página declara width/height",
+          "recommendation": "Considerar declarar width/height (ou aspect-ratio via CSS) para reduzir Cumulative Layout Shift."
+        },
+        {
+          "id": "JSONLD_MISSING",
+          "category": "schema",
+          "severity": "WARNING",
+          "evidence": "Nenhum bloco JSON-LD encontrado na página",
+          "recommendation": "Adicionar structured data apropriado ao tipo de página (BlogPosting para posts, Organization/WebSite para institucionais)."
+        },
+        {
+          "id": "FAQ_OPPORTUNITY",
+          "category": "faq",
+          "severity": "INFO",
+          "evidence": "Nenhum FAQ detectado nesta página",
+          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
+        }
+      ]
+    },
+    {
       "path": "politica-editorial/index.html",
       "url": "/politica-editorial/",
       "slug": "politica-editorial",
@@ -924,13 +955,6 @@
       "title": "Política Editorial e de Afiliados — Smart Pet Gadgets",
       "status": "pass",
       "issues": [
-        {
-          "id": "LOW_INTERNAL_LINKS",
-          "category": "internal_links",
-          "severity": "INFO",
-          "evidence": "Apenas 3 links internos de saída",
-          "recommendation": "Considerar adicionar mais links contextuais para conteúdo relacionado."
-        },
         {
           "id": "IMAGE_DIMENSIONS_MISSING",
           "category": "images",
