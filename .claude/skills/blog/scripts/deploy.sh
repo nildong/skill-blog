@@ -52,6 +52,18 @@ else
   LOCAL_PATH="$BLOG_ROOT/$POST_DIR"
 fi
 
+
+# Trava de segurança: nunca aceitar a raiz do repo (ou algo que resolva pra
+# ela) como pasta de post — isso já causou um rsync --delete destrutivo na
+# raiz do public_html remoto. "." "" ".." e caminhos que normalizam para
+# BLOG_ROOT são todos rejeitados aqui, antes de qualquer verificação.
+CANONICAL_LOCAL_PATH="$(cd "$LOCAL_PATH" 2>/dev/null && pwd || true)"
+if [[ -z "$POST_DIR" || "$POST_DIR" == "." || "$POST_DIR" == ".." || "$CANONICAL_LOCAL_PATH" == "$BLOG_ROOT" ]]; then
+  echo "Erro: '$1' resolve para a raiz do blog ($BLOG_ROOT), não para uma pasta de post." >&2
+  echo "Isso publicaria (com --delete) o repositório inteiro na raiz do public_html remoto." >&2
+  exit 1
+fi
+
 if [[ ! -d "$LOCAL_PATH" ]]; then
   echo "Erro: pasta '$LOCAL_PATH' não existe." >&2
   exit 1

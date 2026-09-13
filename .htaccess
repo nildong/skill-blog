@@ -1,0 +1,8 @@
+# Redirect www -> non-www
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www\.smartpetgadgets\.com\.br$ [NC]
+RewriteRule ^(.*)$ https://smartpetgadgets.com.br/$1 [L,R=301]
+
+# BEGIN SLUG REDIRECTS
+Redirect 301 /soprador-para-pet/ https://smartpetgadgets.com.br/soprador-pet/
+# END SLUG REDIRECTS
