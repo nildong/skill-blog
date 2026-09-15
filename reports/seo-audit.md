@@ -1,28 +1,28 @@
 # SEO Audit
 
-**Gerado em:** 2026-09-13T19:29:30.674Z
+**Gerado em:** 2026-09-15T17:35:40.267Z
 
 ## Summary
 
-Total de páginas: 74
+Total de páginas: 75
 
 🔴 Critical: 0
 🟠 Errors: 0
 🟡 Warnings: 2
-🔵 Info: 49
+🔵 Info: 11
 
 ### Top Priorities
 
 1. **FAQ_HEADING_WITHOUT_SCHEMA** (WARNING, faq) — `/` — Heading menciona FAQ/perguntas frequentes, mas não há schema FAQPage correspondente
 2. **JSONLD_MISSING** (WARNING, schema) — `/politica-de-privacidade/` — Nenhum bloco JSON-LD encontrado na página
 3. **IMAGE_DIMENSIONS_MISSING** (INFO, images) — `/autores/nildo-alves/` — Nenhuma imagem da página declara width/height
-4. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-automatico-cachorro-sozinho/` — Nenhum FAQ detectado nesta página
-5. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-interativo-gato-idoso-vale-a-pena/` — Nenhum FAQ detectado nesta página
-6. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-interativo-pilha-x-recarregavel/` — Nenhum FAQ detectado nesta página
-7. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-interativo-sensor-infravermelho-como-funciona/` — Nenhum FAQ detectado nesta página
-8. **FAQ_OPPORTUNITY** (INFO, faq) — `/brinquedo-interativo-substitui-brincadeira-tutor/` — Nenhum FAQ detectado nesta página
-9. **FAQ_OPPORTUNITY** (INFO, faq) — `/camera-pet-cachorro-ansiedade-separacao/` — Nenhum FAQ detectado nesta página
-10. **FAQ_OPPORTUNITY** (INFO, faq) — `/camera-pet-com-dispensador-de-petisco/` — Nenhum FAQ detectado nesta página
+4. **LOW_INTERNAL_LINKS** (INFO, internal_links) — `/contato/` — Apenas 3 links internos de saída
+5. **IMAGE_DIMENSIONS_MISSING** (INFO, images) — `/contato/` — Nenhuma imagem da página declara width/height
+6. **JSONLD_MISSING** (INFO, schema) — `/contato/` — Nenhum bloco JSON-LD encontrado na página
+7. **IMAGE_COUNT_HIGH** (INFO, images) — `/` — 70 imagens na página (acima de 15)
+8. **IMAGE_DIMENSIONS_MISSING** (INFO, images) — `/politica-de-privacidade/` — Nenhuma imagem da página declara width/height
+9. **FAQ_OPPORTUNITY** (INFO, faq) — `/politica-de-privacidade/` — Nenhum FAQ detectado nesta página
+10. **IMAGE_DIMENSIONS_MISSING** (INFO, images) — `/politica-editorial/` — Nenhuma imagem da página declara width/height
 
 ## Critical Issues
 
@@ -46,72 +46,6 @@ Nenhum item nesta severidade.
 - **IMAGE_DIMENSIONS_MISSING** (images) — `/autores/nildo-alves/`
   - Evidência: Nenhuma imagem da página declara width/height
   - Recomendação: Considerar declarar width/height (ou aspect-ratio via CSS) para reduzir Cumulative Layout Shift.
-- **FAQ_OPPORTUNITY** (faq) — `/brinquedo-automatico-cachorro-sozinho/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/brinquedo-interativo-gato-idoso-vale-a-pena/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/brinquedo-interativo-pilha-x-recarregavel/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/brinquedo-interativo-sensor-infravermelho-como-funciona/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/brinquedo-interativo-substitui-brincadeira-tutor/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/camera-pet-cachorro-ansiedade-separacao/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/camera-pet-com-dispensador-de-petisco/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/camera-pet-grava-sem-internet/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/camera-pet-resolucao-1080p-x-2k/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/camera-pet-visao-noturna-funciona/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/camera-pet-x-coleira-gps-qual-escolher/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/cerca-virtual-para-cachorro/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/coleira-gps-bluetooth-x-chip-operadora/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/coleira-gps-cachorro-pequeno-porte/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/coleira-gps-cachorro-que-foge/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/coleira-gps-para-gato/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/coleira-gps-x-microchip/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **TITLE_TOO_LONG** (metadata) — `/comedouro-automatico-para-dois-gatos/`
-  - Evidência: Title com 74 caracteres (recomendado até 60)
-  - Recomendação: Considerar encurtar o title para reduzir risco de truncamento no SERP.
-- **FAQ_OPPORTUNITY** (faq) — `/como-configurar-camera-pet-wifi/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/como-escolher-brinquedo-interativo-gato-entediado/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/como-funciona-coleira-gps-cachorro/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/como-instalar-porta-eletronica-pet/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
 - **LOW_INTERNAL_LINKS** (internal_links) — `/contato/`
   - Evidência: Apenas 3 links internos de saída
   - Recomendação: Considerar adicionar mais links contextuais para conteúdo relacionado.
@@ -121,36 +55,9 @@ Nenhum item nesta severidade.
 - **JSONLD_MISSING** (schema) — `/contato/`
   - Evidência: Nenhum bloco JSON-LD encontrado na página
   - Recomendação: Adicionar structured data apropriado ao tipo de página (BlogPosting para posts, Organization/WebSite para institucionais).
-- **FAQ_OPPORTUNITY** (faq) — `/erros-comuns-brinquedo-interativo-gato/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/erros-comuns-camera-monitorar-pet/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/erros-comuns-coleira-gps-pet/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/erros-comuns-porta-eletronica-pet/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
 - **IMAGE_COUNT_HIGH** (images) — `/`
-  - Evidência: 69 imagens na página (acima de 15)
+  - Evidência: 70 imagens na página (acima de 15)
   - Recomendação: Revisar se todas as imagens têm contexto/valor editorial claro, ou se algumas podem ser removidas/otimizadas.
-- **FAQ_OPPORTUNITY** (faq) — `/melhor-bolinha-inteligente-para-gato/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/melhor-camera-para-monitorar-pet/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/melhor-coleira-gps-sem-mensalidade/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/melhor-comedouro-automatico-cachorro/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/melhor-comedouro-interativo-gato/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
 - **IMAGE_DIMENSIONS_MISSING** (images) — `/politica-de-privacidade/`
   - Evidência: Nenhuma imagem da página declara width/height
   - Recomendação: Considerar declarar width/height (ou aspect-ratio via CSS) para reduzir Cumulative Layout Shift.
@@ -163,27 +70,6 @@ Nenhum item nesta severidade.
 - **JSONLD_MISSING** (schema) — `/politica-editorial/`
   - Evidência: Nenhum bloco JSON-LD encontrado na página
   - Recomendação: Adicionar structured data apropriado ao tipo de página (BlogPosting para posts, Organization/WebSite para institucionais).
-- **FAQ_OPPORTUNITY** (faq) — `/porta-eletronica-funciona-porta-de-vidro/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/porta-eletronica-gato-x-cachorro-diferenca/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/porta-eletronica-impede-entrada-outros-animais/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/porta-eletronica-microchip-x-rfid-coleira/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/porta-eletronica-reconhecimento-facial-vale-a-pena/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/porta-eletronica-sensor-de-luz-como-funciona/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
-- **FAQ_OPPORTUNITY** (faq) — `/porta-eletronica-x-alcapao-tradicional/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
 - **IMAGE_DIMENSIONS_MISSING** (images) — `/sobre/`
   - Evidência: Nenhuma imagem da página declara width/height
   - Recomendação: Considerar declarar width/height (ou aspect-ratio via CSS) para reduzir Cumulative Layout Shift.
@@ -196,14 +82,14 @@ Nenhum item nesta severidade.
 | Categoria | Critical | Error | Warning | Info |
 |---|---:|---:|---:|---:|
 | technical | 0 | 0 | 0 | 0 |
-| metadata | 0 | 0 | 0 | 1 |
+| metadata | 0 | 0 | 0 | 0 |
 | headings | 0 | 0 | 0 | 0 |
 | content | 0 | 0 | 0 | 0 |
 | internal_links | 0 | 0 | 0 | 1 |
 | images | 0 | 0 | 0 | 6 |
 | media | 0 | 0 | 0 | 0 |
 | schema | 0 | 0 | 1 | 3 |
-| faq | 0 | 0 | 1 | 38 |
+| faq | 0 | 0 | 1 | 1 |
 | site_structure | 0 | 0 | 0 | 0 |
 
 ## Site Structure
@@ -216,7 +102,7 @@ Nenhum item encontrado nesta categoria.
 
 ## Metadata
 
-- 🔵 **TITLE_TOO_LONG** — `/comedouro-automatico-para-dois-gatos/` — Title com 74 caracteres (recomendado até 60)
+Nenhum item encontrado nesta categoria.
 
 ## Headings
 
@@ -230,7 +116,7 @@ Nenhum item encontrado nesta categoria.
 
 - 🔵 **IMAGE_DIMENSIONS_MISSING** — `/autores/nildo-alves/` — Nenhuma imagem da página declara width/height
 - 🔵 **IMAGE_DIMENSIONS_MISSING** — `/contato/` — Nenhuma imagem da página declara width/height
-- 🔵 **IMAGE_COUNT_HIGH** — `/` — 69 imagens na página (acima de 15)
+- 🔵 **IMAGE_COUNT_HIGH** — `/` — 70 imagens na página (acima de 15)
 - 🔵 **IMAGE_DIMENSIONS_MISSING** — `/politica-de-privacidade/` — Nenhuma imagem da página declara width/height
 - 🔵 **IMAGE_DIMENSIONS_MISSING** — `/politica-editorial/` — Nenhuma imagem da página declara width/height
 - 🔵 **IMAGE_DIMENSIONS_MISSING** — `/sobre/` — Nenhuma imagem da página declara width/height
@@ -244,45 +130,8 @@ Nenhum item encontrado nesta categoria.
 
 ## FAQ
 
-- 🔵 **FAQ_OPPORTUNITY** — `/brinquedo-automatico-cachorro-sozinho/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/brinquedo-interativo-gato-idoso-vale-a-pena/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/brinquedo-interativo-pilha-x-recarregavel/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/brinquedo-interativo-sensor-infravermelho-como-funciona/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/brinquedo-interativo-substitui-brincadeira-tutor/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/camera-pet-cachorro-ansiedade-separacao/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/camera-pet-com-dispensador-de-petisco/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/camera-pet-grava-sem-internet/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/camera-pet-resolucao-1080p-x-2k/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/camera-pet-visao-noturna-funciona/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/camera-pet-x-coleira-gps-qual-escolher/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/cerca-virtual-para-cachorro/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/coleira-gps-bluetooth-x-chip-operadora/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/coleira-gps-cachorro-pequeno-porte/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/coleira-gps-cachorro-que-foge/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/coleira-gps-para-gato/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/coleira-gps-x-microchip/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/como-configurar-camera-pet-wifi/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/como-escolher-brinquedo-interativo-gato-entediado/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/como-funciona-coleira-gps-cachorro/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/como-instalar-porta-eletronica-pet/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/erros-comuns-brinquedo-interativo-gato/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/erros-comuns-camera-monitorar-pet/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/erros-comuns-coleira-gps-pet/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/erros-comuns-porta-eletronica-pet/` — Nenhum FAQ detectado nesta página
 - 🟡 **FAQ_HEADING_WITHOUT_SCHEMA** — `/` — Heading menciona FAQ/perguntas frequentes, mas não há schema FAQPage correspondente
-- 🔵 **FAQ_OPPORTUNITY** — `/melhor-bolinha-inteligente-para-gato/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/melhor-camera-para-monitorar-pet/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/melhor-coleira-gps-sem-mensalidade/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/melhor-comedouro-automatico-cachorro/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/melhor-comedouro-interativo-gato/` — Nenhum FAQ detectado nesta página
 - 🔵 **FAQ_OPPORTUNITY** — `/politica-de-privacidade/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/porta-eletronica-funciona-porta-de-vidro/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/porta-eletronica-gato-x-cachorro-diferenca/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/porta-eletronica-impede-entrada-outros-animais/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/porta-eletronica-microchip-x-rfid-coleira/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/porta-eletronica-reconhecimento-facial-vale-a-pena/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/porta-eletronica-sensor-de-luz-como-funciona/` — Nenhum FAQ detectado nesta página
-- 🔵 **FAQ_OPPORTUNITY** — `/porta-eletronica-x-alcapao-tradicional/` — Nenhum FAQ detectado nesta página
 
 ## Media
 

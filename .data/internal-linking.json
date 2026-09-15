@@ -1,442 +1,33 @@
 {
   "version": 1,
-  "generated_at": "2026-09-12T18:40:35.963Z",
+  "generated_at": "2026-09-15T17:15:37.346Z",
   "summary": {
-    "pages_analyzed": 73,
-    "suggestions": 189,
+    "pages_analyzed": 75,
+    "suggestions": 178,
     "orphan_target_suggestions": 0,
     "read_errors": 0
   },
   "suggestions": [
     {
-      "source": "/coleira-gps-para-pet/",
-      "source_slug": "coleira-gps-para-pet",
-      "target": "/como-funciona-coleira-gps-cachorro/",
-      "target_slug": "como-funciona-coleira-gps-cachorro",
-      "score": 63,
-      "score_breakdown": {
-        "title": 20.9,
-        "heading": 8.8,
-        "content": 13.8,
-        "slug": 9.3,
-        "cluster": 0,
-        "pillar_satellite": 10
-      },
-      "anchor": "As Três Tecnologias de Localização",
-      "reason": "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial; similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): coleira, gps, cachorro",
-        "headings compartilham termo(s): coleira, gps, cachorro",
-        "conteúdo compartilha termo(s): gps, coleira, nao",
-        "slug compartilha termo(s): coleira, gps",
-        "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial"
-      ],
-      "target_is_orphan": false,
-      "relationship": "pillar_satellite"
-    },
-    {
-      "source": "/erros-comuns-porta-eletronica-pet/",
-      "source_slug": "erros-comuns-porta-eletronica-pet",
-      "target": "/como-instalar-porta-eletronica-pet/",
-      "target_slug": "como-instalar-porta-eletronica-pet",
-      "score": 63,
-      "score_breakdown": {
-        "title": 28.6,
-        "heading": 15.8,
-        "content": 11.5,
-        "slug": 6.8,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Passo a Passo Geral",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): instalar, porta, eletronica",
-        "headings compartilham termo(s): instalar, porta, erros",
-        "conteúdo compartilha termo(s): porta, vidro, instalacao",
-        "slug compartilha termo(s): porta, eletronica, pet"
-      ],
-      "target_is_orphan": false,
-      "relationship": "differentiated_satellites"
-    },
-    {
       "source": "/comedouro-automatico-para-pet/",
       "source_slug": "comedouro-automatico-para-pet",
-      "target": "/melhor-comedouro-interativo-gato/",
-      "target_slug": "melhor-comedouro-interativo-gato",
-      "score": 62,
-      "score_breakdown": {
-        "title": 24.4,
-        "heading": 9.9,
-        "content": 10,
-        "slug": 7.7,
-        "cluster": 0,
-        "pillar_satellite": 10
-      },
-      "anchor": "Melhor Comedouro Interativo para Gato: Guia Completo 2026",
-      "reason": "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial; similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): comedouro, guia, completo",
-        "headings compartilham termo(s): comedouro, funciona, tipos",
-        "conteúdo compartilha termo(s): comedouro, mercado, modelos",
-        "slug compartilha termo(s): comedouro",
-        "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial"
-      ],
-      "target_is_orphan": false,
-      "relationship": "pillar_satellite"
-    },
-    {
-      "source": "/melhor-comedouro-interativo-gato/",
-      "source_slug": "melhor-comedouro-interativo-gato",
-      "target": "/comedouro-automatico-para-pet/",
-      "target_slug": "comedouro-automatico-para-pet",
-      "score": 62,
-      "score_breakdown": {
-        "title": 24.4,
-        "heading": 9.9,
-        "content": 10,
-        "slug": 7.7,
-        "cluster": 0,
-        "pillar_satellite": 10
-      },
-      "anchor": "Comedouro Automático para Pet: Guia Completo de 2026",
-      "reason": "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial; similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): comedouro, guia, completo",
-        "headings compartilham termo(s): comedouro, funciona, tipos",
-        "conteúdo compartilha termo(s): comedouro, mercado, modelos",
-        "slug compartilha termo(s): comedouro",
-        "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial"
-      ],
-      "target_is_orphan": false,
-      "relationship": "pillar_satellite"
-    },
-    {
-      "source": "/porta-eletronica-automatica-para-pet/",
-      "source_slug": "porta-eletronica-automatica-para-pet",
-      "target": "/erros-comuns-porta-eletronica-pet/",
-      "target_slug": "erros-comuns-porta-eletronica-pet",
-      "score": 60,
-      "score_breakdown": {
-        "title": 24.8,
-        "heading": 5.7,
-        "content": 10.5,
-        "slug": 9.3,
-        "cluster": 0,
-        "pillar_satellite": 10
-      },
-      "anchor": "Não Considerar o Porte do Maior Animal da Casa",
-      "reason": "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial; similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): porta, eletronica, pet",
-        "headings compartilham termo(s): porta, eletronica, instalar",
-        "conteúdo compartilha termo(s): porta, eletronica, microchip",
-        "slug compartilha termo(s): porta, eletronica, pet",
-        "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial"
-      ],
-      "target_is_orphan": false,
-      "relationship": "pillar_satellite"
-    },
-    {
-      "source": "/coleira-gps-para-pet/",
-      "source_slug": "coleira-gps-para-pet",
-      "target": "/camera-pet-x-coleira-gps-qual-escolher/",
-      "target_slug": "camera-pet-x-coleira-gps-qual-escolher",
-      "score": 59,
-      "score_breakdown": {
-        "title": 18.2,
-        "heading": 8,
-        "content": 13.1,
-        "slug": 10,
-        "cluster": 0,
-        "pillar_satellite": 10
-      },
-      "anchor": "Quando a Câmera Resolve",
-      "reason": "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial; similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): coleira, gps",
-        "headings compartilham termo(s): coleira, gps, conclusao",
-        "conteúdo compartilha termo(s): gps, coleira, nao",
-        "slug compartilha termo(s): coleira, gps, pet",
-        "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial"
-      ],
-      "target_is_orphan": false,
-      "relationship": "pillar_satellite"
-    },
-    {
-      "source": "/brinquedo-interativo-automatico-para-gato/",
-      "source_slug": "brinquedo-interativo-automatico-para-gato",
-      "target": "/brinquedo-interativo-substitui-brincadeira-tutor/",
-      "target_slug": "brinquedo-interativo-substitui-brincadeira-tutor",
-      "score": 56,
-      "score_breakdown": {
-        "title": 17.4,
-        "heading": 11.4,
-        "content": 11.1,
-        "slug": 6.3,
-        "cluster": 0,
-        "pillar_satellite": 10
-      },
-      "anchor": "Brinquedo Interativo Substitui a Brincadeira com o Tutor?",
-      "reason": "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial; similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): brinquedo, interativo",
-        "headings compartilham termo(s): brinquedo, interativo, conclusao",
-        "conteúdo compartilha termo(s): brinquedo, gato, interativo",
-        "slug compartilha termo(s): brinquedo, interativo",
-        "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial"
-      ],
-      "target_is_orphan": false,
-      "relationship": "pillar_satellite"
-    },
-    {
-      "source": "/camera-pet-x-coleira-gps-qual-escolher/",
-      "source_slug": "camera-pet-x-coleira-gps-qual-escolher",
-      "target": "/coleira-gps-x-microchip/",
-      "target_slug": "coleira-gps-x-microchip",
-      "score": 56,
-      "score_breakdown": {
-        "title": 18.2,
-        "heading": 19.4,
-        "content": 11.5,
-        "slug": 6.7,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "O Que é o Microchip e Como Funciona",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): coleira, gps",
-        "headings compartilham termo(s): coleira, gps, tabela",
-        "conteúdo compartilha termo(s): gps, coleira, gadgets",
-        "slug compartilha termo(s): coleira, gps"
-      ],
-      "target_is_orphan": false,
-      "relationship": "same_format"
-    },
-    {
-      "source": "/coleira-gps-x-microchip/",
-      "source_slug": "coleira-gps-x-microchip",
-      "target": "/camera-pet-x-coleira-gps-qual-escolher/",
-      "target_slug": "camera-pet-x-coleira-gps-qual-escolher",
-      "score": 56,
-      "score_breakdown": {
-        "title": 18.2,
-        "heading": 19.4,
-        "content": 11.5,
-        "slug": 6.7,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Quando a Câmera Resolve",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): coleira, gps",
-        "headings compartilham termo(s): coleira, gps, tabela",
-        "conteúdo compartilha termo(s): gps, coleira, gadgets",
-        "slug compartilha termo(s): coleira, gps"
-      ],
-      "target_is_orphan": false,
-      "relationship": "same_format"
-    },
-    {
-      "source": "/comedouro-automatico-para-pet/",
-      "source_slug": "comedouro-automatico-para-pet",
-      "target": "/comedouro-newpet-4l-review/",
-      "target_slug": "comedouro-newpet-4l-review",
-      "score": 56,
-      "score_breakdown": {
-        "title": 21.6,
-        "heading": 7.2,
-        "content": 9.5,
-        "slug": 7.7,
-        "cluster": 0,
-        "pillar_satellite": 10
-      },
-      "anchor": "Comedouro Newpet 4L: Review Completo (Vale a Pena?)",
-      "reason": "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial; similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): comedouro, completo",
-        "headings compartilham termo(s): comedouro, funciona, racao",
-        "conteúdo compartilha termo(s): comedouro, 4l, wi",
-        "slug compartilha termo(s): comedouro",
-        "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial"
-      ],
-      "target_is_orphan": false,
-      "relationship": "pillar_satellite"
-    },
-    {
-      "source": "/comedouro-automatico-para-pet/",
-      "source_slug": "comedouro-automatico-para-pet",
-      "target": "/comedouro-automatico-faz-mal/",
-      "target_slug": "comedouro-automatico-faz-mal",
-      "score": 55,
-      "score_breakdown": {
-        "title": 24.4,
-        "heading": 4.6,
-        "content": 7,
-        "slug": 8.8,
-        "cluster": 0,
-        "pillar_satellite": 10
-      },
-      "anchor": "O Comedouro Automático em Si Não é o Problema",
-      "reason": "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial; similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): comedouro, automatico, pet",
-        "headings compartilham termo(s): comedouro, automatico, racao",
-        "conteúdo compartilha termo(s): comedouro, nao, mercado",
-        "slug compartilha termo(s): comedouro, automatico",
-        "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial"
-      ],
-      "target_is_orphan": false,
-      "relationship": "pillar_satellite"
-    },
-    {
-      "source": "/comedouro-automatico-para-pet/",
-      "source_slug": "comedouro-automatico-para-pet",
-      "target": "/comedouro-x-bebedouro-automatico/",
-      "target_slug": "comedouro-x-bebedouro-automatico",
-      "score": 55,
-      "score_breakdown": {
-        "title": 21.6,
-        "heading": 5.9,
-        "content": 8.9,
-        "slug": 8.8,
-        "cluster": 0,
-        "pillar_satellite": 10
-      },
-      "anchor": "Comedouro x Bebedouro Automático: Você Precisa dos Dois?",
-      "reason": "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial; similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): comedouro, automatico",
-        "headings compartilham termo(s): comedouro, bebedouro, limpeza",
-        "conteúdo compartilha termo(s): comedouro, bebedouro, mercado",
-        "slug compartilha termo(s): comedouro, automatico",
-        "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial"
-      ],
-      "target_is_orphan": false,
-      "relationship": "pillar_satellite"
-    },
-    {
-      "source": "/comedouro-newpet-4l-review/",
-      "source_slug": "comedouro-newpet-4l-review",
-      "target": "/comedouro-newpet-2l-review/",
-      "target_slug": "comedouro-newpet-2l-review",
-      "score": 55,
-      "score_breakdown": {
-        "title": 20.4,
-        "heading": 16.2,
-        "content": 11.8,
-        "slug": 6.8,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Comedouro Automático Newpet 2L: Vale a Pena? Review",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): comedouro, newpet, review",
-        "headings compartilham termo(s): newpet, 4l, comedouro",
-        "conteúdo compartilha termo(s): newpet, 4l, comedouro",
-        "slug compartilha termo(s): comedouro, newpet, review"
-      ],
-      "target_is_orphan": false,
-      "relationship": "same_format"
-    },
-    {
-      "source": "/comedouro-vdrbg-4l-wifi-review/",
-      "source_slug": "comedouro-vdrbg-4l-wifi-review",
-      "target": "/comedouro-com-ou-sem-wifi/",
-      "target_slug": "comedouro-com-ou-sem-wifi",
-      "score": 55,
-      "score_breakdown": {
-        "title": 27.3,
-        "heading": 9,
-        "content": 9.1,
-        "slug": 10,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Comedouro Automático Com ou Sem Wi-Fi: Qual Escolher?",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): comedouro, wi, fi",
-        "headings compartilham termo(s): wi, fi, comedouro",
-        "conteúdo compartilha termo(s): wi, fi, comedouro",
-        "slug compartilha termo(s): comedouro, wifi"
-      ],
-      "target_is_orphan": false,
-      "relationship": "differentiated_satellites"
-    },
-    {
-      "source": "/configurar-app-comedouro-wifi/",
-      "source_slug": "configurar-app-comedouro-wifi",
-      "target": "/comedouro-com-ou-sem-wifi/",
-      "target_slug": "comedouro-com-ou-sem-wifi",
-      "score": 55,
-      "score_breakdown": {
-        "title": 28.6,
-        "heading": 9.7,
-        "content": 6.8,
-        "slug": 10,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Comedouro Automático Com ou Sem Wi-Fi: Qual Escolher?",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): comedouro, wi, fi",
-        "headings compartilham termo(s): comedouro, wi, fi",
-        "conteúdo compartilha termo(s): wi, fi, comedouro",
-        "slug compartilha termo(s): comedouro, wifi"
-      ],
-      "target_is_orphan": false,
-      "relationship": "differentiated_satellites"
-    },
-    {
-      "source": "/brinquedo-interativo-gato-idoso-vale-a-pena/",
-      "source_slug": "brinquedo-interativo-gato-idoso-vale-a-pena",
-      "target": "/duvidas-brinquedo-interativo-gato/",
-      "target_slug": "duvidas-brinquedo-interativo-gato",
+      "target": "/comedouro-vdrbg-4l-wifi-review/",
+      "target_slug": "comedouro-vdrbg-4l-wifi-review",
       "score": 53,
       "score_breakdown": {
-        "title": 20.9,
-        "heading": 12.2,
-        "content": 12.4,
-        "slug": 7.5,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Brinquedo Interativo para Gato: Perguntas Frequentes",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): brinquedo, interativo, gato",
-        "headings compartilham termo(s): brinquedo, interativo, gato",
-        "conteúdo compartilha termo(s): brinquedo, interativo, gato",
-        "slug compartilha termo(s): brinquedo, interativo, gato"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
-    },
-    {
-      "source": "/comedouro-automatico-para-pet/",
-      "source_slug": "comedouro-automatico-para-pet",
-      "target": "/comedouro-newpet-2l-review/",
-      "target_slug": "comedouro-newpet-2l-review",
-      "score": 53,
-      "score_breakdown": {
-        "title": 21.6,
-        "heading": 4.3,
+        "title": 18.8,
+        "heading": 7.4,
         "content": 9,
         "slug": 7.7,
         "cluster": 0,
         "pillar_satellite": 10
       },
-      "anchor": "Comedouro Automático Newpet 2L: Vale a Pena? Review",
+      "anchor": "Como Funciona o App do VDRBG 4L Wi-Fi",
       "reason": "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial; similaridade moderada de conteúdo/título/headings",
       "evidence": [
-        "título compartilha termo(s): comedouro, automatico",
-        "headings compartilham termo(s): comedouro, manutencao, conclusao",
-        "conteúdo compartilha termo(s): comedouro, mercado, 4l",
+        "título compartilha termo(s): comedouro",
+        "headings compartilham termo(s): comedouro, wi, fi",
+        "conteúdo compartilha termo(s): comedouro, wi, fi",
         "slug compartilha termo(s): comedouro",
         "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial"
       ],
@@ -444,79 +35,56 @@
       "relationship": "pillar_satellite"
     },
     {
-      "source": "/comedouro-automatico-vale-a-pena/",
-      "source_slug": "comedouro-automatico-vale-a-pena",
-      "target": "/comedouro-vdrbg-4l-wifi-review/",
-      "target_slug": "comedouro-vdrbg-4l-wifi-review",
-      "score": 51,
+      "source": "/comedouro-automatico-para-pet/",
+      "source_slug": "comedouro-automatico-para-pet",
+      "target": "/comedouro-automatico-gato-obeso/",
+      "target_slug": "comedouro-automatico-gato-obeso",
+      "score": 52,
       "score_breakdown": {
-        "title": 26.5,
-        "heading": 9.2,
-        "content": 8.7,
-        "slug": 6.9,
+        "title": 21.6,
+        "heading": 4.6,
+        "content": 6.9,
+        "slug": 8.8,
         "cluster": 0,
-        "pillar_satellite": 0
+        "pillar_satellite": 10
       },
-      "anchor": "Como Funciona o App do VDRBG 4L Wi-Fi",
-      "reason": "similaridade moderada de conteúdo/título/headings",
+      "anchor": "Obesidade em Gatos: Um Problema Mais Comum do que Parece",
+      "reason": "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial; similaridade moderada de conteúdo/título/headings",
       "evidence": [
-        "título compartilha termo(s): comprar, comedouro, vale",
-        "headings compartilham termo(s): comedouro, wi, fi",
-        "conteúdo compartilha termo(s): comedouro, fi, wi",
-        "slug compartilha termo(s): comedouro"
+        "título compartilha termo(s): comedouro, automatico",
+        "headings compartilham termo(s): comedouro, gatos, automatico",
+        "conteúdo compartilha termo(s): comedouro, racao, gatos",
+        "slug compartilha termo(s): comedouro, automatico",
+        "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial"
       ],
       "target_is_orphan": false,
-      "relationship": "differentiated_satellites"
+      "relationship": "pillar_satellite"
     },
     {
-      "source": "/comedouro-vdrbg-4l-wifi-review/",
-      "source_slug": "comedouro-vdrbg-4l-wifi-review",
-      "target": "/comedouro-automatico-vale-a-pena/",
-      "target_slug": "comedouro-automatico-vale-a-pena",
-      "score": 51,
-      "score_breakdown": {
-        "title": 26.5,
-        "heading": 9.2,
-        "content": 8.7,
-        "slug": 6.9,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Quando Vale a Pena",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): comedouro, comprar, vale",
-        "headings compartilham termo(s): comedouro, wi, fi",
-        "conteúdo compartilha termo(s): comedouro, fi, wi",
-        "slug compartilha termo(s): comedouro"
-      ],
-      "target_is_orphan": false,
-      "relationship": "differentiated_satellites"
-    },
-    {
-      "source": "/brinquedo-interativo-pilha-x-recarregavel/",
-      "source_slug": "brinquedo-interativo-pilha-x-recarregavel",
-      "target": "/duvidas-brinquedo-interativo-gato/",
-      "target_slug": "duvidas-brinquedo-interativo-gato",
+      "source": "/comedouro-automatico-para-pet/",
+      "source_slug": "comedouro-automatico-para-pet",
+      "target": "/comedouro-cachorro/",
+      "target_slug": "comedouro-cachorro",
       "score": 49,
       "score_breakdown": {
-        "title": 18,
-        "heading": 14.4,
-        "content": 11.8,
-        "slug": 5,
+        "title": 18.8,
+        "heading": 5.6,
+        "content": 6.8,
+        "slug": 7.7,
         "cluster": 0,
-        "pillar_satellite": 0
+        "pillar_satellite": 10
       },
-      "anchor": "Brinquedo Interativo para Gato: Perguntas Frequentes",
-      "reason": "similaridade moderada de conteúdo/título/headings",
+      "anchor": "Comedouro para Cachorro com Suporte Baia: Review 2026",
+      "reason": "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial; similaridade moderada de conteúdo/título/headings",
       "evidence": [
-        "título compartilha termo(s): brinquedo, interativo, gato",
-        "headings compartilham termo(s): brinquedo, interativo, gato",
-        "conteúdo compartilha termo(s): uso, brinquedo, interativo",
-        "slug compartilha termo(s): brinquedo, interativo"
+        "título compartilha termo(s): comedouro",
+        "headings compartilham termo(s): comedouro, importam, comprar",
+        "conteúdo compartilha termo(s): comedouro, mercado, caes",
+        "slug compartilha termo(s): comedouro",
+        "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial"
       ],
       "target_is_orphan": false,
-      "relationship": "differentiated_satellites"
+      "relationship": "pillar_satellite"
     },
     {
       "source": "/comedouro-cachorro/",
@@ -527,7 +95,7 @@
       "score_breakdown": {
         "title": 18.8,
         "heading": 5.6,
-        "content": 6.7,
+        "content": 6.8,
         "slug": 7.7,
         "cluster": 0,
         "pillar_satellite": 10
@@ -618,6 +186,31 @@
       ],
       "target_is_orphan": false,
       "relationship": "same_format"
+    },
+    {
+      "source": "/coleira-gps-para-gato/",
+      "source_slug": "coleira-gps-para-gato",
+      "target": "/melhor-coleira-gps-sem-mensalidade/",
+      "target_slug": "melhor-coleira-gps-sem-mensalidade",
+      "score": 48,
+      "score_breakdown": {
+        "title": 19.5,
+        "heading": 11,
+        "content": 10.4,
+        "slug": 6.7,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Por Que Algumas Coleiras Têm Mensalidade e Outras Não",
+      "reason": "similaridade moderada de conteúdo/título/headings",
+      "evidence": [
+        "título compartilha termo(s): coleira, gps, melhor",
+        "headings compartilham termo(s): gps, coleira, mensalidade",
+        "conteúdo compartilha termo(s): gps, coleira, gatos",
+        "slug compartilha termo(s): coleira, gps"
+      ],
+      "target_is_orphan": false,
+      "relationship": "differentiated_satellites"
     },
     {
       "source": "/comedouro-cachorro/",
@@ -795,6 +388,31 @@
       "relationship": "differentiated_satellites"
     },
     {
+      "source": "/melhor-coleira-gps-sem-mensalidade/",
+      "source_slug": "melhor-coleira-gps-sem-mensalidade",
+      "target": "/coleira-gps-para-gato/",
+      "target_slug": "coleira-gps-para-gato",
+      "score": 48,
+      "score_breakdown": {
+        "title": 19.5,
+        "heading": 11,
+        "content": 10.4,
+        "slug": 6.7,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Qual a Melhor Coleira GPS para Gato: Comparação por Tecnologia",
+      "reason": "similaridade moderada de conteúdo/título/headings",
+      "evidence": [
+        "título compartilha termo(s): coleira, gps, melhor",
+        "headings compartilham termo(s): gps, coleira, mensalidade",
+        "conteúdo compartilha termo(s): gps, coleira, nao",
+        "slug compartilha termo(s): coleira, gps"
+      ],
+      "target_is_orphan": false,
+      "relationship": "differentiated_satellites"
+    },
+    {
       "source": "/melhor-comedouro-automatico-cachorro/",
       "source_slug": "melhor-comedouro-automatico-cachorro",
       "target": "/comedouro-cachorro/",
@@ -878,7 +496,7 @@
       "score_breakdown": {
         "title": 21.7,
         "heading": 8.1,
-        "content": 10.3,
+        "content": 10.1,
         "slug": 7.2,
         "cluster": 0,
         "pillar_satellite": 0
@@ -895,31 +513,6 @@
       "relationship": "different_format"
     },
     {
-      "source": "/brinquedo-interativo-pilha-x-recarregavel/",
-      "source_slug": "brinquedo-interativo-pilha-x-recarregavel",
-      "target": "/como-escolher-brinquedo-interativo-gato-entediado/",
-      "target_slug": "como-escolher-brinquedo-interativo-gato-entediado",
-      "score": 47,
-      "score_breakdown": {
-        "title": 21.7,
-        "heading": 10.6,
-        "content": 10.1,
-        "slug": 5,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Como Escolher Brinquedo Interativo para Gato Entediado",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): brinquedo, interativo, gato",
-        "headings compartilham termo(s): brinquedo, interativo, gato",
-        "conteúdo compartilha termo(s): brinquedo, gato, uso",
-        "slug compartilha termo(s): brinquedo, interativo"
-      ],
-      "target_is_orphan": false,
-      "relationship": "differentiated_satellites"
-    },
-    {
       "source": "/camera-pet-x-coleira-gps-qual-escolher/",
       "source_slug": "camera-pet-x-coleira-gps-qual-escolher",
       "target": "/coleira-gps-bluetooth-x-chip-operadora/",
@@ -928,7 +521,7 @@
       "score_breakdown": {
         "title": 18.2,
         "heading": 12.9,
-        "content": 10.2,
+        "content": 10.1,
         "slug": 6.1,
         "cluster": 0,
         "pillar_satellite": 0
@@ -953,7 +546,7 @@
       "score_breakdown": {
         "title": 18.2,
         "heading": 12.9,
-        "content": 10.2,
+        "content": 10.1,
         "slug": 6.1,
         "cluster": 0,
         "pillar_satellite": 0
@@ -978,7 +571,7 @@
       "score_breakdown": {
         "title": 21.7,
         "heading": 8.1,
-        "content": 10.3,
+        "content": 10.1,
         "slug": 7.2,
         "cluster": 0,
         "pillar_satellite": 0
@@ -993,31 +586,6 @@
       ],
       "target_is_orphan": false,
       "relationship": "different_format"
-    },
-    {
-      "source": "/como-escolher-brinquedo-interativo-gato-entediado/",
-      "source_slug": "como-escolher-brinquedo-interativo-gato-entediado",
-      "target": "/brinquedo-interativo-pilha-x-recarregavel/",
-      "target_slug": "brinquedo-interativo-pilha-x-recarregavel",
-      "score": 47,
-      "score_breakdown": {
-        "title": 21.7,
-        "heading": 10.6,
-        "content": 10.1,
-        "slug": 5,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Brinquedo Interativo para Gato: Pilha ou Recarregável?",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): brinquedo, interativo, gato",
-        "headings compartilham termo(s): brinquedo, interativo, gato",
-        "conteúdo compartilha termo(s): brinquedo, gato, uso",
-        "slug compartilha termo(s): brinquedo, interativo"
-      ],
-      "target_is_orphan": false,
-      "relationship": "differentiated_satellites"
     },
     {
       "source": "/como-instalar-porta-eletronica-pet/",
@@ -1178,7 +746,7 @@
       "score_breakdown": {
         "title": 20.9,
         "heading": 8.1,
-        "content": 9.9,
+        "content": 9.8,
         "slug": 7,
         "cluster": 0,
         "pillar_satellite": 0
@@ -1195,6 +763,81 @@
       "relationship": "different_format"
     },
     {
+      "source": "/brinquedo-interativo-pilha-x-recarregavel/",
+      "source_slug": "brinquedo-interativo-pilha-x-recarregavel",
+      "target": "/como-escolher-brinquedo-interativo-gato-entediado/",
+      "target_slug": "como-escolher-brinquedo-interativo-gato-entediado",
+      "score": 46,
+      "score_breakdown": {
+        "title": 21.7,
+        "heading": 10.9,
+        "content": 8.7,
+        "slug": 5,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Como Escolher Brinquedo Interativo para Gato Entediado",
+      "reason": "similaridade moderada de conteúdo/título/headings",
+      "evidence": [
+        "título compartilha termo(s): brinquedo, interativo, gato",
+        "headings compartilham termo(s): brinquedo, interativo, gato",
+        "conteúdo compartilha termo(s): brinquedo, gato, uso",
+        "slug compartilha termo(s): brinquedo, interativo"
+      ],
+      "target_is_orphan": false,
+      "relationship": "differentiated_satellites"
+    },
+    {
+      "source": "/como-escolher-brinquedo-interativo-gato-entediado/",
+      "source_slug": "como-escolher-brinquedo-interativo-gato-entediado",
+      "target": "/brinquedo-interativo-pilha-x-recarregavel/",
+      "target_slug": "brinquedo-interativo-pilha-x-recarregavel",
+      "score": 46,
+      "score_breakdown": {
+        "title": 21.7,
+        "heading": 10.9,
+        "content": 8.7,
+        "slug": 5,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Brinquedo Interativo para Gato: Pilha ou Recarregável?",
+      "reason": "similaridade moderada de conteúdo/título/headings",
+      "evidence": [
+        "título compartilha termo(s): brinquedo, interativo, gato",
+        "headings compartilham termo(s): brinquedo, interativo, gato",
+        "conteúdo compartilha termo(s): brinquedo, gato, uso",
+        "slug compartilha termo(s): brinquedo, interativo"
+      ],
+      "target_is_orphan": false,
+      "relationship": "differentiated_satellites"
+    },
+    {
+      "source": "/comedouro-automatico-para-pet/",
+      "source_slug": "comedouro-automatico-para-pet",
+      "target": "/cat-mate-c500-review/",
+      "target_slug": "cat-mate-c500-review",
+      "score": 45,
+      "score_breakdown": {
+        "title": 18.8,
+        "heading": 8.1,
+        "content": 8.3,
+        "slug": 0,
+        "cluster": 0,
+        "pillar_satellite": 10
+      },
+      "anchor": "Como Funciona o Sistema de Refrigeração",
+      "reason": "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial; similaridade moderada de conteúdo/título/headings",
+      "evidence": [
+        "título compartilha termo(s): comedouro",
+        "headings compartilham termo(s): comedouro, funciona, wi",
+        "conteúdo compartilha termo(s): comedouro, racao, umida",
+        "relação pilar↔satélite identificada — conteúdo complementar dentro do mesmo cluster editorial"
+      ],
+      "target_is_orphan": false,
+      "relationship": "pillar_satellite"
+    },
+    {
       "source": "/comedouro-gato-x-cachorro-diferenca/",
       "source_slug": "comedouro-gato-x-cachorro-diferenca",
       "target": "/melhor-comedouro-interativo-gato/",
@@ -1203,7 +846,7 @@
       "score_breakdown": {
         "title": 17.4,
         "heading": 11.2,
-        "content": 10,
+        "content": 9.9,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
@@ -1228,7 +871,7 @@
       "score_breakdown": {
         "title": 17.4,
         "heading": 10.2,
-        "content": 10.2,
+        "content": 10,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
@@ -1253,7 +896,7 @@
       "score_breakdown": {
         "title": 19.5,
         "heading": 7.6,
-        "content": 10.5,
+        "content": 10.4,
         "slug": 6.1,
         "cluster": 0,
         "pillar_satellite": 0
@@ -1263,11 +906,36 @@
       "evidence": [
         "título compartilha termo(s): coleira, gps, escolher",
         "headings compartilham termo(s): coleira, gps, conclusao",
-        "conteúdo compartilha termo(s): gps, coleira, nao",
+        "conteúdo compartilha termo(s): coleira, gps, nao",
         "slug compartilha termo(s): coleira, gps"
       ],
       "target_is_orphan": false,
       "relationship": "different_format"
+    },
+    {
+      "source": "/camera-pet-x-coleira-gps-qual-escolher/",
+      "source_slug": "camera-pet-x-coleira-gps-qual-escolher",
+      "target": "/coleira-gps-para-gato/",
+      "target_slug": "coleira-gps-para-gato",
+      "score": 44,
+      "score_breakdown": {
+        "title": 18.2,
+        "heading": 7.6,
+        "content": 11.1,
+        "slug": 6.7,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Qual a Melhor Coleira GPS para Gato: Comparação por Tecnologia",
+      "reason": "similaridade moderada de conteúdo/título/headings",
+      "evidence": [
+        "título compartilha termo(s): coleira, gps",
+        "headings compartilham termo(s): gps, coleira, conclusao",
+        "conteúdo compartilha termo(s): gps, coleira, casa",
+        "slug compartilha termo(s): coleira, gps"
+      ],
+      "target_is_orphan": false,
+      "relationship": "differentiated_satellites"
     },
     {
       "source": "/coleira-gps-cachorro-que-foge/",
@@ -1278,7 +946,7 @@
       "score_breakdown": {
         "title": 19.5,
         "heading": 7.6,
-        "content": 10.5,
+        "content": 10.4,
         "slug": 6.1,
         "cluster": 0,
         "pillar_satellite": 0
@@ -1288,11 +956,36 @@
       "evidence": [
         "título compartilha termo(s): coleira, gps, escolher",
         "headings compartilham termo(s): coleira, gps, conclusao",
-        "conteúdo compartilha termo(s): gps, coleira, nao",
+        "conteúdo compartilha termo(s): coleira, gps, nao",
         "slug compartilha termo(s): coleira, gps"
       ],
       "target_is_orphan": false,
       "relationship": "different_format"
+    },
+    {
+      "source": "/coleira-gps-para-gato/",
+      "source_slug": "coleira-gps-para-gato",
+      "target": "/camera-pet-x-coleira-gps-qual-escolher/",
+      "target_slug": "camera-pet-x-coleira-gps-qual-escolher",
+      "score": 44,
+      "score_breakdown": {
+        "title": 18.2,
+        "heading": 7.6,
+        "content": 11.1,
+        "slug": 6.7,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Quando a Câmera Resolve",
+      "reason": "similaridade moderada de conteúdo/título/headings",
+      "evidence": [
+        "título compartilha termo(s): coleira, gps",
+        "headings compartilham termo(s): gps, coleira, conclusao",
+        "conteúdo compartilha termo(s): gps, coleira, casa",
+        "slug compartilha termo(s): coleira, gps"
+      ],
+      "target_is_orphan": false,
+      "relationship": "differentiated_satellites"
     },
     {
       "source": "/duvidas-brinquedo-interativo-gato/",
@@ -1328,7 +1021,7 @@
       "score_breakdown": {
         "title": 17.4,
         "heading": 10.2,
-        "content": 10.2,
+        "content": 10,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
@@ -1395,31 +1088,6 @@
       "relationship": "different_format"
     },
     {
-      "source": "/porta-eletronica-impede-entrada-outros-animais/",
-      "source_slug": "porta-eletronica-impede-entrada-outros-animais",
-      "target": "/duvidas-porta-eletronica-pet/",
-      "target_slug": "duvidas-porta-eletronica-pet",
-      "score": 44,
-      "score_breakdown": {
-        "title": 12,
-        "heading": 13.5,
-        "content": 12,
-        "slug": 6.3,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Porta Eletrônica para Pet: Perguntas Frequentes (FAQ)",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, eletronica, funciona",
-        "conteúdo compartilha termo(s): porta, eletronica, nao",
-        "slug compartilha termo(s): porta, eletronica"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
-    },
-    {
       "source": "/brinquedo-interativo-gato-idoso-vale-a-pena/",
       "source_slug": "brinquedo-interativo-gato-idoso-vale-a-pena",
       "target": "/brinquedo-interativo-pilha-x-recarregavel/",
@@ -1427,7 +1095,7 @@
       "score": 43,
       "score_breakdown": {
         "title": 20.9,
-        "heading": 8.2,
+        "heading": 8.1,
         "content": 9.3,
         "slug": 5,
         "cluster": 0,
@@ -1452,7 +1120,7 @@
       "score": 43,
       "score_breakdown": {
         "title": 20.9,
-        "heading": 8.2,
+        "heading": 8.1,
         "content": 9.3,
         "slug": 5,
         "cluster": 0,
@@ -1465,31 +1133,6 @@
         "headings compartilham termo(s): brinquedo, interativo, gato",
         "conteúdo compartilha termo(s): brinquedo, gato, mercado",
         "slug compartilha termo(s): brinquedo, interativo"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
-    },
-    {
-      "source": "/camera-pet-x-coleira-gps-qual-escolher/",
-      "source_slug": "camera-pet-x-coleira-gps-qual-escolher",
-      "target": "/coleira-gps-para-gato/",
-      "target_slug": "coleira-gps-para-gato",
-      "score": 43,
-      "score_breakdown": {
-        "title": 18.2,
-        "heading": 7.6,
-        "content": 10.4,
-        "slug": 6.7,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Por Que Gatos Fogem — e Como Isso Afeta o GPS",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): coleira, gps",
-        "headings compartilham termo(s): gps, coleira, conclusao",
-        "conteúdo compartilha termo(s): gps, coleira, casa",
-        "slug compartilha termo(s): coleira, gps"
       ],
       "target_is_orphan": false,
       "relationship": "different_format"
@@ -1520,54 +1163,54 @@
       "relationship": "differentiated_satellites"
     },
     {
-      "source": "/coleira-gps-cachorro-que-foge/",
-      "source_slug": "coleira-gps-cachorro-que-foge",
-      "target": "/melhor-coleira-gps-sem-mensalidade/",
-      "target_slug": "melhor-coleira-gps-sem-mensalidade",
+      "source": "/camera-pet-x-coleira-gps-qual-escolher/",
+      "source_slug": "camera-pet-x-coleira-gps-qual-escolher",
+      "target": "/erros-comuns-coleira-gps-pet/",
+      "target_slug": "erros-comuns-coleira-gps-pet",
       "score": 43,
       "score_breakdown": {
         "title": 19.5,
-        "heading": 7.3,
-        "content": 9.5,
-        "slug": 6.3,
+        "heading": 7.6,
+        "content": 9.1,
+        "slug": 6.5,
         "cluster": 0,
         "pillar_satellite": 0
       },
-      "anchor": "Por Que Algumas Coleiras Têm Mensalidade e Outras Não",
+      "anchor": "Achar Que a Bateria Dura Dias em Modo de Rastreamento Rápido",
       "reason": "similaridade moderada de conteúdo/título/headings",
       "evidence": [
-        "título compartilha termo(s): coleira, gps, escolher",
-        "headings compartilham termo(s): nao, coleira, gps",
-        "conteúdo compartilha termo(s): nao, mensalidade, custo",
-        "slug compartilha termo(s): coleira, gps"
+        "título compartilha termo(s): coleira, gps, pet",
+        "headings compartilham termo(s): coleira, gps, conclusao",
+        "conteúdo compartilha termo(s): gps, nao, coleira",
+        "slug compartilha termo(s): coleira, gps, pet"
       ],
       "target_is_orphan": false,
-      "relationship": "different_format"
+      "relationship": "differentiated_satellites"
     },
     {
       "source": "/coleira-gps-para-gato/",
       "source_slug": "coleira-gps-para-gato",
-      "target": "/camera-pet-x-coleira-gps-qual-escolher/",
-      "target_slug": "camera-pet-x-coleira-gps-qual-escolher",
+      "target": "/duvidas-coleira-gps-pet/",
+      "target_slug": "duvidas-coleira-gps-pet",
       "score": 43,
       "score_breakdown": {
-        "title": 18.2,
-        "heading": 7.6,
-        "content": 10.4,
+        "title": 14,
+        "heading": 9.9,
+        "content": 12.5,
         "slug": 6.7,
         "cluster": 0,
         "pillar_satellite": 0
       },
-      "anchor": "Quando a Câmera Resolve",
+      "anchor": "Coleira GPS para Pet: Perguntas Frequentes Respondidas",
       "reason": "similaridade moderada de conteúdo/título/headings",
       "evidence": [
         "título compartilha termo(s): coleira, gps",
-        "headings compartilham termo(s): gps, coleira, conclusao",
-        "conteúdo compartilha termo(s): gps, coleira, gatos",
+        "headings compartilham termo(s): gps, coleira, bateria",
+        "conteúdo compartilha termo(s): gps, coleira, gato",
         "slug compartilha termo(s): coleira, gps"
       ],
       "target_is_orphan": false,
-      "relationship": "different_format"
+      "relationship": "same_format"
     },
     {
       "source": "/como-instalar-porta-eletronica-pet/",
@@ -1620,6 +1263,31 @@
       "relationship": "differentiated_satellites"
     },
     {
+      "source": "/duvidas-coleira-gps-pet/",
+      "source_slug": "duvidas-coleira-gps-pet",
+      "target": "/coleira-gps-para-gato/",
+      "target_slug": "coleira-gps-para-gato",
+      "score": 43,
+      "score_breakdown": {
+        "title": 14,
+        "heading": 9.9,
+        "content": 12.5,
+        "slug": 6.7,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Qual a Melhor Coleira GPS para Gato: Comparação por Tecnologia",
+      "reason": "similaridade moderada de conteúdo/título/headings",
+      "evidence": [
+        "título compartilha termo(s): coleira, gps",
+        "headings compartilham termo(s): gps, coleira, perguntas",
+        "conteúdo compartilha termo(s): gps, coleira, gato",
+        "slug compartilha termo(s): coleira, gps"
+      ],
+      "target_is_orphan": false,
+      "relationship": "same_format"
+    },
+    {
       "source": "/erros-comuns-coleira-gps-pet/",
       "source_slug": "erros-comuns-coleira-gps-pet",
       "target": "/camera-pet-x-coleira-gps-qual-escolher/",
@@ -1628,7 +1296,7 @@
       "score_breakdown": {
         "title": 19.5,
         "heading": 7.6,
-        "content": 9.3,
+        "content": 9.1,
         "slug": 6.5,
         "cluster": 0,
         "pillar_satellite": 0
@@ -1653,7 +1321,7 @@
       "score_breakdown": {
         "title": 19.5,
         "heading": 7.6,
-        "content": 9.8,
+        "content": 9.6,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
@@ -1695,79 +1363,29 @@
       "relationship": "different_format"
     },
     {
-      "source": "/brinquedo-interativo-pilha-x-recarregavel/",
-      "source_slug": "brinquedo-interativo-pilha-x-recarregavel",
-      "target": "/erros-comuns-brinquedo-interativo-gato/",
-      "target_slug": "erros-comuns-brinquedo-interativo-gato",
+      "source": "/coleira-gps-cachorro-que-foge/",
+      "source_slug": "coleira-gps-cachorro-que-foge",
+      "target": "/melhor-coleira-gps-sem-mensalidade/",
+      "target_slug": "melhor-coleira-gps-sem-mensalidade",
       "score": 42,
       "score_breakdown": {
-        "title": 18,
-        "heading": 8.2,
-        "content": 10.7,
-        "slug": 5,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Erros Comuns ao Usar Brinquedo Interativo para Gato",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): brinquedo, interativo, gato",
-        "headings compartilham termo(s): brinquedo, gato, interativo",
-        "conteúdo compartilha termo(s): brinquedo, gato, uso",
-        "slug compartilha termo(s): brinquedo, interativo"
-      ],
-      "target_is_orphan": false,
-      "relationship": "differentiated_satellites"
-    },
-    {
-      "source": "/coleira-gps-cachorro-pequeno-porte/",
-      "source_slug": "coleira-gps-cachorro-pequeno-porte",
-      "target": "/camera-pet-x-coleira-gps-qual-escolher/",
-      "target_slug": "camera-pet-x-coleira-gps-qual-escolher",
-      "score": 42,
-      "score_breakdown": {
-        "title": 18.2,
-        "heading": 7.6,
-        "content": 9.8,
-        "slug": 6.1,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Quando a Câmera Resolve",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): coleira, gps",
-        "headings compartilham termo(s): gps, coleira, conclusao",
-        "conteúdo compartilha termo(s): coleira, gps, caes",
-        "slug compartilha termo(s): coleira, gps"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
-    },
-    {
-      "source": "/comedouro-automatico-gato-obeso/",
-      "source_slug": "comedouro-automatico-gato-obeso",
-      "target": "/melhor-comedouro-interativo-gato/",
-      "target_slug": "melhor-comedouro-interativo-gato",
-      "score": 42,
-      "score_breakdown": {
-        "title": 17.4,
-        "heading": 7.4,
-        "content": 10.4,
+        "title": 19.5,
+        "heading": 7.3,
+        "content": 9.2,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
       },
-      "anchor": "Melhor Comedouro Interativo para Gato: Guia Completo 2026",
+      "anchor": "Por Que Algumas Coleiras Têm Mensalidade e Outras Não",
       "reason": "similaridade moderada de conteúdo/título/headings",
       "evidence": [
-        "título compartilha termo(s): comedouro, gato",
-        "headings compartilham termo(s): comedouro, gato, comum",
-        "conteúdo compartilha termo(s): comedouro, gato, nao",
-        "slug compartilha termo(s): comedouro, gato"
+        "título compartilha termo(s): coleira, gps, escolher",
+        "headings compartilham termo(s): nao, coleira, gps",
+        "conteúdo compartilha termo(s): nao, mensalidade, coleira",
+        "slug compartilha termo(s): coleira, gps"
       ],
       "target_is_orphan": false,
-      "relationship": "differentiated_satellites"
+      "relationship": "different_format"
     },
     {
       "source": "/como-funciona-coleira-gps-cachorro/",
@@ -1843,31 +1461,6 @@
       ],
       "target_is_orphan": false,
       "relationship": "differentiated_satellites"
-    },
-    {
-      "source": "/como-instalar-porta-eletronica-pet/",
-      "source_slug": "como-instalar-porta-eletronica-pet",
-      "target": "/porta-eletronica-reconhecimento-facial-vale-a-pena/",
-      "target_slug": "porta-eletronica-reconhecimento-facial-vale-a-pena",
-      "score": 42,
-      "score_breakdown": {
-        "title": 18.2,
-        "heading": 6.6,
-        "content": 10.4,
-        "slug": 6.3,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Porta Eletrônica com Reconhecimento Facial: Vale a Pena?",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, eletronica, conclusao",
-        "conteúdo compartilha termo(s): porta, eletronica, produtos",
-        "slug compartilha termo(s): porta, eletronica"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
     },
     {
       "source": "/duvidas-camera-para-monitorar-pet/",
@@ -1970,31 +1563,6 @@
       "relationship": "differentiated_satellites"
     },
     {
-      "source": "/melhor-comedouro-interativo-gato/",
-      "source_slug": "melhor-comedouro-interativo-gato",
-      "target": "/comedouro-automatico-gato-obeso/",
-      "target_slug": "comedouro-automatico-gato-obeso",
-      "score": 42,
-      "score_breakdown": {
-        "title": 17.4,
-        "heading": 7.4,
-        "content": 10.4,
-        "slug": 6.3,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Obesidade em Gatos: Um Problema Mais Comum do que Parece",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): comedouro, gato",
-        "headings compartilham termo(s): comedouro, gato, comum",
-        "conteúdo compartilha termo(s): comedouro, gato, racao",
-        "slug compartilha termo(s): comedouro, gato"
-      ],
-      "target_is_orphan": false,
-      "relationship": "differentiated_satellites"
-    },
-    {
       "source": "/porta-eletronica-gato-x-cachorro-diferenca/",
       "source_slug": "porta-eletronica-gato-x-cachorro-diferenca",
       "target": "/como-instalar-porta-eletronica-pet/",
@@ -2020,79 +1588,204 @@
       "relationship": "differentiated_satellites"
     },
     {
-      "source": "/porta-eletronica-microchip-x-rfid-coleira/",
-      "source_slug": "porta-eletronica-microchip-x-rfid-coleira",
-      "target": "/duvidas-porta-eletronica-pet/",
-      "target_slug": "duvidas-porta-eletronica-pet",
-      "score": 42,
+      "source": "/coleira-gps-bluetooth-x-chip-operadora/",
+      "source_slug": "coleira-gps-bluetooth-x-chip-operadora",
+      "target": "/coleira-gps-para-gato/",
+      "target_slug": "coleira-gps-para-gato",
+      "score": 41,
       "score_breakdown": {
-        "title": 11.7,
-        "heading": 12.3,
-        "content": 11.5,
+        "title": 14,
+        "heading": 8.4,
+        "content": 11.6,
+        "slug": 6.7,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Qual a Melhor Coleira GPS para Gato: Comparação por Tecnologia",
+      "reason": "similaridade moderada de conteúdo/título/headings",
+      "evidence": [
+        "título compartilha termo(s): coleira, gps",
+        "headings compartilham termo(s): coleira, gps, funciona",
+        "conteúdo compartilha termo(s): coleira, gps, gatos",
+        "slug compartilha termo(s): coleira, gps"
+      ],
+      "target_is_orphan": false,
+      "relationship": "differentiated_satellites"
+    },
+    {
+      "source": "/coleira-gps-bluetooth-x-chip-operadora/",
+      "source_slug": "coleira-gps-bluetooth-x-chip-operadora",
+      "target": "/coleira-gps-x-microchip/",
+      "target_slug": "coleira-gps-x-microchip",
+      "score": 41,
+      "score_breakdown": {
+        "title": 12,
+        "heading": 12.2,
+        "content": 9.7,
+        "slug": 6.7,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "O Que é o Microchip e Como Funciona",
+      "reason": "similaridade moderada de conteúdo/título/headings",
+      "evidence": [
+        "título compartilha termo(s): coleira, gps",
+        "headings compartilham termo(s): coleira, gps, funciona",
+        "conteúdo compartilha termo(s): coleira, gps, nao",
+        "slug compartilha termo(s): coleira, gps"
+      ],
+      "target_is_orphan": false,
+      "relationship": "same_format"
+    },
+    {
+      "source": "/coleira-gps-cachorro-pequeno-porte/",
+      "source_slug": "coleira-gps-cachorro-pequeno-porte",
+      "target": "/camera-pet-x-coleira-gps-qual-escolher/",
+      "target_slug": "camera-pet-x-coleira-gps-qual-escolher",
+      "score": 41,
+      "score_breakdown": {
+        "title": 18.2,
+        "heading": 7.6,
+        "content": 9.6,
+        "slug": 6.1,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Quando a Câmera Resolve",
+      "reason": "similaridade moderada de conteúdo/título/headings",
+      "evidence": [
+        "título compartilha termo(s): coleira, gps",
+        "headings compartilham termo(s): gps, coleira, conclusao",
+        "conteúdo compartilha termo(s): coleira, gps, caes",
+        "slug compartilha termo(s): coleira, gps"
+      ],
+      "target_is_orphan": false,
+      "relationship": "different_format"
+    },
+    {
+      "source": "/coleira-gps-para-gato/",
+      "source_slug": "coleira-gps-para-gato",
+      "target": "/coleira-gps-bluetooth-x-chip-operadora/",
+      "target_slug": "coleira-gps-bluetooth-x-chip-operadora",
+      "score": 41,
+      "score_breakdown": {
+        "title": 14,
+        "heading": 8.4,
+        "content": 11.6,
+        "slug": 6.7,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Como Funciona a Coleira Bluetooth",
+      "reason": "similaridade moderada de conteúdo/título/headings",
+      "evidence": [
+        "título compartilha termo(s): coleira, gps",
+        "headings compartilham termo(s): coleira, gps, funciona",
+        "conteúdo compartilha termo(s): coleira, gps, gatos",
+        "slug compartilha termo(s): coleira, gps"
+      ],
+      "target_is_orphan": false,
+      "relationship": "differentiated_satellites"
+    },
+    {
+      "source": "/coleira-gps-x-microchip/",
+      "source_slug": "coleira-gps-x-microchip",
+      "target": "/coleira-gps-bluetooth-x-chip-operadora/",
+      "target_slug": "coleira-gps-bluetooth-x-chip-operadora",
+      "score": 41,
+      "score_breakdown": {
+        "title": 12,
+        "heading": 12.2,
+        "content": 9.7,
+        "slug": 6.7,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Como Funciona a Coleira Bluetooth",
+      "reason": "similaridade moderada de conteúdo/título/headings",
+      "evidence": [
+        "título compartilha termo(s): coleira, gps",
+        "headings compartilham termo(s): coleira, gps, funciona",
+        "conteúdo compartilha termo(s): coleira, gps, nao",
+        "slug compartilha termo(s): coleira, gps"
+      ],
+      "target_is_orphan": false,
+      "relationship": "same_format"
+    },
+    {
+      "source": "/comedouro-automatico-gato-obeso/",
+      "source_slug": "comedouro-automatico-gato-obeso",
+      "target": "/melhor-comedouro-interativo-gato/",
+      "target_slug": "melhor-comedouro-interativo-gato",
+      "score": 41,
+      "score_breakdown": {
+        "title": 17.4,
+        "heading": 7.4,
+        "content": 10.3,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
       },
-      "anchor": "Porta Eletrônica para Pet: Perguntas Frequentes (FAQ)",
+      "anchor": "Melhor Comedouro Interativo para Gato: Guia Completo 2026",
+      "reason": "similaridade moderada de conteúdo/título/headings",
+      "evidence": [
+        "título compartilha termo(s): comedouro, gato",
+        "headings compartilham termo(s): comedouro, gato, comum",
+        "conteúdo compartilha termo(s): comedouro, gato, nao",
+        "slug compartilha termo(s): comedouro, gato"
+      ],
+      "target_is_orphan": false,
+      "relationship": "differentiated_satellites"
+    },
+    {
+      "source": "/como-instalar-porta-eletronica-pet/",
+      "source_slug": "como-instalar-porta-eletronica-pet",
+      "target": "/porta-eletronica-microchip-x-rfid-coleira/",
+      "target_slug": "porta-eletronica-microchip-x-rfid-coleira",
+      "score": 41,
+      "score_breakdown": {
+        "title": 18.2,
+        "heading": 6.6,
+        "content": 9.3,
+        "slug": 6.3,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Porta Eletrônica: Microchip ou Medalhão RFID na Coleira?",
       "reason": "similaridade moderada de conteúdo/título/headings",
       "evidence": [
         "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, eletronica, funciona",
-        "conteúdo compartilha termo(s): porta, microchip, eletronica",
+        "headings compartilham termo(s): porta, eletronica, conclusao",
+        "conteúdo compartilha termo(s): porta, microchip, nao",
         "slug compartilha termo(s): porta, eletronica"
       ],
       "target_is_orphan": false,
       "relationship": "differentiated_satellites"
     },
     {
-      "source": "/porta-eletronica-reconhecimento-facial-vale-a-pena/",
-      "source_slug": "porta-eletronica-reconhecimento-facial-vale-a-pena",
-      "target": "/como-instalar-porta-eletronica-pet/",
-      "target_slug": "como-instalar-porta-eletronica-pet",
-      "score": 42,
-      "score_breakdown": {
-        "title": 18.2,
-        "heading": 6.6,
-        "content": 10.4,
-        "slug": 6.3,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Passo a Passo Geral",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, eletronica, conclusao",
-        "conteúdo compartilha termo(s): porta, eletronica, produtos",
-        "slug compartilha termo(s): porta, eletronica"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
-    },
-    {
       "source": "/como-instalar-porta-eletronica-pet/",
       "source_slug": "como-instalar-porta-eletronica-pet",
-      "target": "/porta-eletronica-impede-entrada-outros-animais/",
-      "target_slug": "porta-eletronica-impede-entrada-outros-animais",
+      "target": "/porta-eletronica-x-alcapao-tradicional/",
+      "target_slug": "porta-eletronica-x-alcapao-tradicional",
       "score": 41,
       "score_breakdown": {
         "title": 18.2,
         "heading": 6.6,
-        "content": 10.3,
+        "content": 10.1,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
       },
-      "anchor": "Porta Eletrônica Impede a Entrada de Outros Animais?",
+      "anchor": "Porta Eletrônica ou Alçapão Tradicional: Qual Escolher?",
       "reason": "similaridade moderada de conteúdo/título/headings",
       "evidence": [
         "título compartilha termo(s): porta, eletronica",
         "headings compartilham termo(s): porta, eletronica, conclusao",
-        "conteúdo compartilha termo(s): porta, produtos, smart",
+        "conteúdo compartilha termo(s): porta, eletronica, mercado",
         "slug compartilha termo(s): porta, eletronica"
       ],
       "target_is_orphan": false,
-      "relationship": "different_format"
+      "relationship": "differentiated_satellites"
     },
     {
       "source": "/duvidas-porta-eletronica-pet/",
@@ -2102,8 +1795,8 @@
       "score": 41,
       "score_breakdown": {
         "title": 14,
-        "heading": 8.8,
-        "content": 11.6,
+        "heading": 8.7,
+        "content": 11.9,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
@@ -2112,12 +1805,37 @@
       "reason": "similaridade moderada de conteúdo/título/headings",
       "evidence": [
         "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, eletronica, microchip",
+        "headings compartilham termo(s): porta, eletronica, funciona",
         "conteúdo compartilha termo(s): porta, eletronica, microchip",
         "slug compartilha termo(s): porta, eletronica"
       ],
       "target_is_orphan": false,
       "relationship": "different_format"
+    },
+    {
+      "source": "/melhor-comedouro-interativo-gato/",
+      "source_slug": "melhor-comedouro-interativo-gato",
+      "target": "/comedouro-automatico-gato-obeso/",
+      "target_slug": "comedouro-automatico-gato-obeso",
+      "score": 41,
+      "score_breakdown": {
+        "title": 17.4,
+        "heading": 7.4,
+        "content": 10.3,
+        "slug": 6.3,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Obesidade em Gatos: Um Problema Mais Comum do que Parece",
+      "reason": "similaridade moderada de conteúdo/título/headings",
+      "evidence": [
+        "título compartilha termo(s): comedouro, gato",
+        "headings compartilham termo(s): comedouro, gato, comum",
+        "conteúdo compartilha termo(s): comedouro, gato, racao",
+        "slug compartilha termo(s): comedouro, gato"
+      ],
+      "target_is_orphan": false,
+      "relationship": "differentiated_satellites"
     },
     {
       "source": "/melhor-comedouro-interativo-gato/",
@@ -2128,7 +1846,7 @@
       "score_breakdown": {
         "title": 17.4,
         "heading": 7.4,
-        "content": 9.7,
+        "content": 9.6,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
@@ -2147,23 +1865,23 @@
     {
       "source": "/porta-eletronica-impede-entrada-outros-animais/",
       "source_slug": "porta-eletronica-impede-entrada-outros-animais",
-      "target": "/como-instalar-porta-eletronica-pet/",
-      "target_slug": "como-instalar-porta-eletronica-pet",
+      "target": "/duvidas-porta-eletronica-pet/",
+      "target_slug": "duvidas-porta-eletronica-pet",
       "score": 41,
       "score_breakdown": {
-        "title": 18.2,
-        "heading": 6.6,
-        "content": 10.3,
+        "title": 12,
+        "heading": 10.3,
+        "content": 12.1,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
       },
-      "anchor": "Passo a Passo Geral",
+      "anchor": "Porta Eletrônica para Pet: Perguntas Frequentes (FAQ)",
       "reason": "similaridade moderada de conteúdo/título/headings",
       "evidence": [
         "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, eletronica, conclusao",
-        "conteúdo compartilha termo(s): porta, produtos, smart",
+        "headings compartilham termo(s): porta, eletronica, funciona",
+        "conteúdo compartilha termo(s): porta, eletronica, nao",
         "slug compartilha termo(s): porta, eletronica"
       ],
       "target_is_orphan": false,
@@ -2178,7 +1896,7 @@
       "score_breakdown": {
         "title": 18.2,
         "heading": 6.6,
-        "content": 10,
+        "content": 9.3,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
@@ -2195,31 +1913,6 @@
       "relationship": "differentiated_satellites"
     },
     {
-      "source": "/porta-eletronica-microchip-x-rfid-coleira/",
-      "source_slug": "porta-eletronica-microchip-x-rfid-coleira",
-      "target": "/porta-eletronica-reconhecimento-facial-vale-a-pena/",
-      "target_slug": "porta-eletronica-reconhecimento-facial-vale-a-pena",
-      "score": 41,
-      "score_breakdown": {
-        "title": 14,
-        "heading": 11.1,
-        "content": 11.1,
-        "slug": 4.7,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Porta Eletrônica com Reconhecimento Facial: Vale a Pena?",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, microchip, rfid",
-        "conteúdo compartilha termo(s): microchip, porta, nao",
-        "slug compartilha termo(s): porta, eletronica"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
-    },
-    {
       "source": "/porta-eletronica-reconhecimento-facial-vale-a-pena/",
       "source_slug": "porta-eletronica-reconhecimento-facial-vale-a-pena",
       "target": "/duvidas-porta-eletronica-pet/",
@@ -2227,8 +1920,8 @@
       "score": 41,
       "score_breakdown": {
         "title": 14,
-        "heading": 8.8,
-        "content": 11.6,
+        "heading": 8.7,
+        "content": 11.9,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
@@ -2237,33 +1930,8 @@
       "reason": "similaridade moderada de conteúdo/título/headings",
       "evidence": [
         "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, eletronica, microchip",
+        "headings compartilham termo(s): porta, eletronica, funciona",
         "conteúdo compartilha termo(s): porta, eletronica, microchip",
-        "slug compartilha termo(s): porta, eletronica"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
-    },
-    {
-      "source": "/porta-eletronica-sensor-de-luz-como-funciona/",
-      "source_slug": "porta-eletronica-sensor-de-luz-como-funciona",
-      "target": "/porta-eletronica-x-alcapao-tradicional/",
-      "target_slug": "porta-eletronica-x-alcapao-tradicional",
-      "score": 41,
-      "score_breakdown": {
-        "title": 14.5,
-        "heading": 10.3,
-        "content": 11.5,
-        "slug": 5,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Porta Eletrônica ou Alçapão Tradicional: Qual Escolher?",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, eletronica, faz",
-        "conteúdo compartilha termo(s): porta, eletronica, mercado",
         "slug compartilha termo(s): porta, eletronica"
       ],
       "target_is_orphan": false,
@@ -2278,7 +1946,7 @@
       "score_breakdown": {
         "title": 18.2,
         "heading": 6.6,
-        "content": 10.2,
+        "content": 10.1,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
@@ -2295,51 +1963,26 @@
       "relationship": "differentiated_satellites"
     },
     {
-      "source": "/porta-eletronica-x-alcapao-tradicional/",
-      "source_slug": "porta-eletronica-x-alcapao-tradicional",
-      "target": "/porta-eletronica-sensor-de-luz-como-funciona/",
-      "target_slug": "porta-eletronica-sensor-de-luz-como-funciona",
-      "score": 41,
+      "source": "/brinquedo-interativo-pilha-x-recarregavel/",
+      "source_slug": "brinquedo-interativo-pilha-x-recarregavel",
+      "target": "/erros-comuns-brinquedo-interativo-gato/",
+      "target_slug": "erros-comuns-brinquedo-interativo-gato",
+      "score": 40,
       "score_breakdown": {
-        "title": 14.5,
-        "heading": 10.3,
-        "content": 11.5,
+        "title": 18,
+        "heading": 7.1,
+        "content": 9.4,
         "slug": 5,
         "cluster": 0,
         "pillar_satellite": 0
       },
-      "anchor": "Como Funciona o Sensor",
+      "anchor": "Erros Comuns ao Usar Brinquedo Interativo para Gato",
       "reason": "similaridade moderada de conteúdo/título/headings",
       "evidence": [
-        "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, eletronica, faz",
-        "conteúdo compartilha termo(s): porta, eletronica, mercado",
-        "slug compartilha termo(s): porta, eletronica"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
-    },
-    {
-      "source": "/brinquedo-interativo-pilha-x-recarregavel/",
-      "source_slug": "brinquedo-interativo-pilha-x-recarregavel",
-      "target": "/melhor-comedouro-interativo-gato/",
-      "target_slug": "melhor-comedouro-interativo-gato",
-      "score": 40,
-      "score_breakdown": {
-        "title": 17.4,
-        "heading": 10.3,
-        "content": 9.3,
-        "slug": 3.2,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Melhor Comedouro Interativo para Gato: Guia Completo 2026",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): interativo, gato",
-        "headings compartilham termo(s): interativo, brinquedo, gato",
-        "conteúdo compartilha termo(s): gato, interativo, mercado",
-        "slug compartilha termo(s): interativo"
+        "título compartilha termo(s): brinquedo, interativo, gato",
+        "headings compartilham termo(s): brinquedo, gato, interativo",
+        "conteúdo compartilha termo(s): brinquedo, gato, uso",
+        "slug compartilha termo(s): brinquedo, interativo"
       ],
       "target_is_orphan": false,
       "relationship": "differentiated_satellites"
@@ -2395,79 +2038,54 @@
       "relationship": "different_format"
     },
     {
-      "source": "/coleira-gps-bluetooth-x-chip-operadora/",
-      "source_slug": "coleira-gps-bluetooth-x-chip-operadora",
-      "target": "/coleira-gps-x-microchip/",
-      "target_slug": "coleira-gps-x-microchip",
+      "source": "/coleira-gps-cachorro-que-foge/",
+      "source_slug": "coleira-gps-cachorro-que-foge",
+      "target": "/coleira-gps-para-gato/",
+      "target_slug": "coleira-gps-para-gato",
       "score": 40,
       "score_breakdown": {
-        "title": 12,
-        "heading": 12.2,
-        "content": 9.6,
+        "title": 14.5,
+        "heading": 7.6,
+        "content": 11,
         "slug": 6.7,
         "cluster": 0,
         "pillar_satellite": 0
       },
-      "anchor": "O Que é o Microchip e Como Funciona",
+      "anchor": "Qual a Melhor Coleira GPS para Gato: Comparação por Tecnologia",
       "reason": "similaridade moderada de conteúdo/título/headings",
       "evidence": [
         "título compartilha termo(s): coleira, gps",
-        "headings compartilham termo(s): coleira, gps, funciona",
-        "conteúdo compartilha termo(s): coleira, gps, nao",
-        "slug compartilha termo(s): coleira, gps"
-      ],
-      "target_is_orphan": false,
-      "relationship": "same_format"
-    },
-    {
-      "source": "/coleira-gps-para-gato/",
-      "source_slug": "coleira-gps-para-gato",
-      "target": "/melhor-coleira-gps-sem-mensalidade/",
-      "target_slug": "melhor-coleira-gps-sem-mensalidade",
-      "score": 40,
-      "score_breakdown": {
-        "title": 18.2,
-        "heading": 7.3,
-        "content": 7.8,
-        "slug": 6.7,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Por Que Algumas Coleiras Têm Mensalidade e Outras Não",
-      "reason": "similaridade moderada de conteúdo/título/headings",
-      "evidence": [
-        "título compartilha termo(s): coleira, gps",
-        "headings compartilham termo(s): gps, coleira, coleiras",
-        "conteúdo compartilha termo(s): gatos, coleira, gps",
+        "headings compartilham termo(s): gps, coleira, cerca",
+        "conteúdo compartilha termo(s): gps, coleira, gatos",
         "slug compartilha termo(s): coleira, gps"
       ],
       "target_is_orphan": false,
       "relationship": "different_format"
     },
     {
-      "source": "/coleira-gps-x-microchip/",
-      "source_slug": "coleira-gps-x-microchip",
-      "target": "/coleira-gps-bluetooth-x-chip-operadora/",
-      "target_slug": "coleira-gps-bluetooth-x-chip-operadora",
+      "source": "/coleira-gps-para-gato/",
+      "source_slug": "coleira-gps-para-gato",
+      "target": "/coleira-gps-cachorro-que-foge/",
+      "target_slug": "coleira-gps-cachorro-que-foge",
       "score": 40,
       "score_breakdown": {
-        "title": 12,
-        "heading": 12.2,
-        "content": 9.6,
+        "title": 14.5,
+        "heading": 7.6,
+        "content": 11,
         "slug": 6.7,
         "cluster": 0,
         "pillar_satellite": 0
       },
-      "anchor": "Como Funciona a Coleira Bluetooth",
+      "anchor": "Priorize Alcance Real, Não Apenas Preço",
       "reason": "similaridade moderada de conteúdo/título/headings",
       "evidence": [
         "título compartilha termo(s): coleira, gps",
-        "headings compartilham termo(s): coleira, gps, funciona",
-        "conteúdo compartilha termo(s): coleira, gps, nao",
+        "headings compartilham termo(s): gps, coleira, cerca",
+        "conteúdo compartilha termo(s): gps, coleira, gatos",
         "slug compartilha termo(s): coleira, gps"
       ],
       "target_is_orphan": false,
-      "relationship": "same_format"
+      "relationship": "different_format"
     },
     {
       "source": "/coleira-gps-x-microchip/",
@@ -2478,7 +2096,7 @@
       "score_breakdown": {
         "title": 18,
         "heading": 7.1,
-        "content": 8.6,
+        "content": 8.5,
         "slug": 6.7,
         "cluster": 0,
         "pillar_satellite": 0
@@ -2503,7 +2121,7 @@
       "score_breakdown": {
         "title": 15,
         "heading": 8.4,
-        "content": 9.6,
+        "content": 9.7,
         "slug": 6.9,
         "cluster": 0,
         "pillar_satellite": 0
@@ -2513,7 +2131,7 @@
       "evidence": [
         "título compartilha termo(s): comedouro, vale, pena",
         "headings compartilham termo(s): comedouro, funciona, pros",
-        "conteúdo compartilha termo(s): comedouro, nao, racao",
+        "conteúdo compartilha termo(s): comedouro, nao, 4l",
         "slug compartilha termo(s): comedouro"
       ],
       "target_is_orphan": false,
@@ -2628,7 +2246,7 @@
       "score_breakdown": {
         "title": 18,
         "heading": 7.1,
-        "content": 8.6,
+        "content": 8.5,
         "slug": 6.7,
         "cluster": 0,
         "pillar_satellite": 0
@@ -2670,26 +2288,51 @@
       "relationship": "differentiated_satellites"
     },
     {
-      "source": "/melhor-coleira-gps-sem-mensalidade/",
-      "source_slug": "melhor-coleira-gps-sem-mensalidade",
-      "target": "/coleira-gps-para-gato/",
-      "target_slug": "coleira-gps-para-gato",
+      "source": "/melhor-comedouro-interativo-gato/",
+      "source_slug": "melhor-comedouro-interativo-gato",
+      "target": "/erros-comuns-brinquedo-interativo-gato/",
+      "target_slug": "erros-comuns-brinquedo-interativo-gato",
       "score": 40,
       "score_breakdown": {
-        "title": 18.2,
-        "heading": 7.3,
-        "content": 7.8,
-        "slug": 6.7,
+        "title": 17.4,
+        "heading": 7.4,
+        "content": 8.7,
+        "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
       },
-      "anchor": "Por Que Gatos Fogem — e Como Isso Afeta o GPS",
+      "anchor": "Erros Comuns ao Usar Brinquedo Interativo para Gato",
       "reason": "similaridade moderada de conteúdo/título/headings",
       "evidence": [
-        "título compartilha termo(s): coleira, gps",
-        "headings compartilham termo(s): gps, coleira, coleiras",
-        "conteúdo compartilha termo(s): gatos, coleira, gps",
-        "slug compartilha termo(s): coleira, gps"
+        "título compartilha termo(s): interativo, gato",
+        "headings compartilham termo(s): interativo, gato, brinquedo",
+        "conteúdo compartilha termo(s): gato, brinquedo, interativo",
+        "slug compartilha termo(s): interativo, gato"
+      ],
+      "target_is_orphan": false,
+      "relationship": "differentiated_satellites"
+    },
+    {
+      "source": "/porta-eletronica-impede-entrada-outros-animais/",
+      "source_slug": "porta-eletronica-impede-entrada-outros-animais",
+      "target": "/como-instalar-porta-eletronica-pet/",
+      "target_slug": "como-instalar-porta-eletronica-pet",
+      "score": 40,
+      "score_breakdown": {
+        "title": 18.2,
+        "heading": 6.6,
+        "content": 8.5,
+        "slug": 6.3,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Passo a Passo Geral",
+      "reason": "similaridade moderada de conteúdo/título/headings",
+      "evidence": [
+        "título compartilha termo(s): porta, eletronica",
+        "headings compartilham termo(s): porta, eletronica, conclusao",
+        "conteúdo compartilha termo(s): porta, nao, eletronica",
+        "slug compartilha termo(s): porta, eletronica"
       ],
       "target_is_orphan": false,
       "relationship": "different_format"
@@ -2697,23 +2340,73 @@
     {
       "source": "/porta-eletronica-microchip-x-rfid-coleira/",
       "source_slug": "porta-eletronica-microchip-x-rfid-coleira",
-      "target": "/porta-eletronica-impede-entrada-outros-animais/",
-      "target_slug": "porta-eletronica-impede-entrada-outros-animais",
+      "target": "/duvidas-porta-eletronica-pet/",
+      "target_slug": "duvidas-porta-eletronica-pet",
       "score": 40,
       "score_breakdown": {
-        "title": 12,
-        "heading": 10.3,
-        "content": 13.3,
-        "slug": 4,
+        "title": 11.7,
+        "heading": 10.8,
+        "content": 11.3,
+        "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
       },
-      "anchor": "Porta Eletrônica Impede a Entrada de Outros Animais?",
+      "anchor": "Porta Eletrônica para Pet: Perguntas Frequentes (FAQ)",
       "reason": "similaridade moderada de conteúdo/título/headings",
       "evidence": [
         "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, funciona, eletronica",
-        "conteúdo compartilha termo(s): microchip, nao, porta",
+        "headings compartilham termo(s): porta, eletronica, funciona",
+        "conteúdo compartilha termo(s): porta, microchip, eletronica",
+        "slug compartilha termo(s): porta, eletronica"
+      ],
+      "target_is_orphan": false,
+      "relationship": "differentiated_satellites"
+    },
+    {
+      "source": "/porta-eletronica-microchip-x-rfid-coleira/",
+      "source_slug": "porta-eletronica-microchip-x-rfid-coleira",
+      "target": "/porta-eletronica-reconhecimento-facial-vale-a-pena/",
+      "target_slug": "porta-eletronica-reconhecimento-facial-vale-a-pena",
+      "score": 40,
+      "score_breakdown": {
+        "title": 14,
+        "heading": 10.5,
+        "content": 11.1,
+        "slug": 4.7,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Porta Eletrônica com Reconhecimento Facial: Vale a Pena?",
+      "reason": "similaridade moderada de conteúdo/título/headings",
+      "evidence": [
+        "título compartilha termo(s): porta, eletronica",
+        "headings compartilham termo(s): porta, microchip, rfid",
+        "conteúdo compartilha termo(s): microchip, porta, nao",
+        "slug compartilha termo(s): porta, eletronica"
+      ],
+      "target_is_orphan": false,
+      "relationship": "different_format"
+    },
+    {
+      "source": "/porta-eletronica-reconhecimento-facial-vale-a-pena/",
+      "source_slug": "porta-eletronica-reconhecimento-facial-vale-a-pena",
+      "target": "/como-instalar-porta-eletronica-pet/",
+      "target_slug": "como-instalar-porta-eletronica-pet",
+      "score": 40,
+      "score_breakdown": {
+        "title": 18.2,
+        "heading": 6.6,
+        "content": 9.1,
+        "slug": 6.3,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Passo a Passo Geral",
+      "reason": "similaridade moderada de conteúdo/título/headings",
+      "evidence": [
+        "título compartilha termo(s): porta, eletronica",
+        "headings compartilham termo(s): porta, eletronica, conclusao",
+        "conteúdo compartilha termo(s): porta, eletronica, produtos",
         "slug compartilha termo(s): porta, eletronica"
       ],
       "target_is_orphan": false,
@@ -2727,8 +2420,8 @@
       "score": 40,
       "score_breakdown": {
         "title": 14,
-        "heading": 8.8,
-        "content": 12.6,
+        "heading": 9.5,
+        "content": 11.7,
         "slug": 4.7,
         "cluster": 0,
         "pillar_satellite": 0
@@ -2737,7 +2430,7 @@
       "reason": "similaridade moderada de conteúdo/título/headings",
       "evidence": [
         "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, eletronica, vantagem",
+        "headings compartilham termo(s): funciona, porta, eletronica",
         "conteúdo compartilha termo(s): porta, microchip, mercado",
         "slug compartilha termo(s): porta, eletronica"
       ],
@@ -2752,8 +2445,8 @@
       "score": 40,
       "score_breakdown": {
         "title": 14,
-        "heading": 8.8,
-        "content": 12.6,
+        "heading": 9.5,
+        "content": 11.7,
         "slug": 4.7,
         "cluster": 0,
         "pillar_satellite": 0
@@ -2762,12 +2455,87 @@
       "reason": "similaridade moderada de conteúdo/título/headings",
       "evidence": [
         "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, eletronica, vantagem",
+        "headings compartilham termo(s): funciona, porta, eletronica",
         "conteúdo compartilha termo(s): porta, microchip, mercado",
         "slug compartilha termo(s): porta, eletronica"
       ],
       "target_is_orphan": false,
       "relationship": "same_format"
+    },
+    {
+      "source": "/porta-eletronica-sensor-de-luz-como-funciona/",
+      "source_slug": "porta-eletronica-sensor-de-luz-como-funciona",
+      "target": "/porta-eletronica-x-alcapao-tradicional/",
+      "target_slug": "porta-eletronica-x-alcapao-tradicional",
+      "score": 40,
+      "score_breakdown": {
+        "title": 14.5,
+        "heading": 9.5,
+        "content": 11.5,
+        "slug": 5,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Porta Eletrônica ou Alçapão Tradicional: Qual Escolher?",
+      "reason": "similaridade moderada de conteúdo/título/headings",
+      "evidence": [
+        "título compartilha termo(s): porta, eletronica",
+        "headings compartilham termo(s): porta, eletronica, faz",
+        "conteúdo compartilha termo(s): porta, eletronica, mercado",
+        "slug compartilha termo(s): porta, eletronica"
+      ],
+      "target_is_orphan": false,
+      "relationship": "different_format"
+    },
+    {
+      "source": "/porta-eletronica-x-alcapao-tradicional/",
+      "source_slug": "porta-eletronica-x-alcapao-tradicional",
+      "target": "/porta-eletronica-sensor-de-luz-como-funciona/",
+      "target_slug": "porta-eletronica-sensor-de-luz-como-funciona",
+      "score": 40,
+      "score_breakdown": {
+        "title": 14.5,
+        "heading": 9.5,
+        "content": 11.5,
+        "slug": 5,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Como Funciona o Sensor",
+      "reason": "similaridade moderada de conteúdo/título/headings",
+      "evidence": [
+        "título compartilha termo(s): porta, eletronica",
+        "headings compartilham termo(s): porta, eletronica, faz",
+        "conteúdo compartilha termo(s): porta, eletronica, mercado",
+        "slug compartilha termo(s): porta, eletronica"
+      ],
+      "target_is_orphan": false,
+      "relationship": "different_format"
+    },
+    {
+      "source": "/coleira-gps-cachorro-pequeno-porte/",
+      "source_slug": "coleira-gps-cachorro-pequeno-porte",
+      "target": "/coleira-gps-para-gato/",
+      "target_slug": "coleira-gps-para-gato",
+      "score": 39,
+      "score_breakdown": {
+        "title": 14,
+        "heading": 7.1,
+        "content": 11.4,
+        "slug": 6.7,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Qual a Melhor Coleira GPS para Gato: Comparação por Tecnologia",
+      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
+      "evidence": [
+        "título compartilha termo(s): coleira, gps",
+        "headings compartilham termo(s): gps, coleira, considerar",
+        "conteúdo compartilha termo(s): coleira, gps, peso",
+        "slug compartilha termo(s): coleira, gps"
+      ],
+      "target_is_orphan": false,
+      "relationship": "different_format"
     },
     {
       "source": "/coleira-gps-x-microchip/",
@@ -2778,7 +2546,7 @@
       "score_breakdown": {
         "title": 18.2,
         "heading": 5.4,
-        "content": 8.5,
+        "content": 8.4,
         "slug": 6.7,
         "cluster": 0,
         "pillar_satellite": 0
@@ -2802,8 +2570,8 @@
       "score": 39,
       "score_breakdown": {
         "title": 12,
-        "heading": 8.2,
-        "content": 11.8,
+        "heading": 8.9,
+        "content": 11.1,
         "slug": 6.7,
         "cluster": 0,
         "pillar_satellite": 0
@@ -2995,6 +2763,30 @@
       "relationship": "same_format"
     },
     {
+      "source": "/politica-de-privacidade/",
+      "source_slug": "politica-de-privacidade",
+      "target": "/sobre/",
+      "target_slug": "sobre",
+      "score": 39,
+      "score_breakdown": {
+        "title": 30,
+        "heading": 3.5,
+        "content": 5.1,
+        "slug": 0,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Sobre o Smart Pet Gadgets",
+      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
+      "evidence": [
+        "título compartilha termo(s): smart, gadgets, pet",
+        "headings compartilham termo(s): quem",
+        "conteúdo compartilha termo(s): dados, site, voce"
+      ],
+      "target_is_orphan": false,
+      "relationship": "different_format"
+    },
+    {
       "source": "/porta-eletronica-funciona-porta-de-vidro/",
       "source_slug": "porta-eletronica-funciona-porta-de-vidro",
       "target": "/erros-comuns-porta-eletronica-pet/",
@@ -3003,7 +2795,7 @@
       "score_breakdown": {
         "title": 15.5,
         "heading": 8.5,
-        "content": 9.5,
+        "content": 9.7,
         "slug": 5,
         "cluster": 0,
         "pillar_satellite": 0
@@ -3028,7 +2820,7 @@
       "score_breakdown": {
         "title": 14.5,
         "heading": 10.3,
-        "content": 9.6,
+        "content": 9.2,
         "slug": 5,
         "cluster": 0,
         "pillar_satellite": 0
@@ -3038,7 +2830,7 @@
       "evidence": [
         "título compartilha termo(s): porta, eletronica",
         "headings compartilham termo(s): porta, eletronica, funciona",
-        "conteúdo compartilha termo(s): porta, produtos, smart",
+        "conteúdo compartilha termo(s): porta, nao, produtos",
         "slug compartilha termo(s): porta, eletronica"
       ],
       "target_is_orphan": false,
@@ -3053,7 +2845,7 @@
       "score_breakdown": {
         "title": 14.5,
         "heading": 10.3,
-        "content": 9.6,
+        "content": 9.2,
         "slug": 5,
         "cluster": 0,
         "pillar_satellite": 0
@@ -3063,183 +2855,33 @@
       "evidence": [
         "título compartilha termo(s): porta, eletronica",
         "headings compartilham termo(s): porta, eletronica, funciona",
-        "conteúdo compartilha termo(s): porta, produtos, smart",
+        "conteúdo compartilha termo(s): porta, nao, produtos",
         "slug compartilha termo(s): porta, eletronica"
       ],
       "target_is_orphan": false,
       "relationship": "same_format"
     },
     {
-      "source": "/porta-eletronica-reconhecimento-facial-vale-a-pena/",
-      "source_slug": "porta-eletronica-reconhecimento-facial-vale-a-pena",
-      "target": "/porta-eletronica-x-alcapao-tradicional/",
-      "target_slug": "porta-eletronica-x-alcapao-tradicional",
-      "score": 39,
-      "score_breakdown": {
-        "title": 14.5,
-        "heading": 8.8,
-        "content": 11.1,
-        "slug": 5,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Porta Eletrônica ou Alçapão Tradicional: Qual Escolher?",
-      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
-      "evidence": [
-        "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, eletronica, investimento",
-        "conteúdo compartilha termo(s): eletronica, porta, mercado",
-        "slug compartilha termo(s): porta, eletronica"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
-    },
-    {
-      "source": "/porta-eletronica-x-alcapao-tradicional/",
-      "source_slug": "porta-eletronica-x-alcapao-tradicional",
-      "target": "/porta-eletronica-reconhecimento-facial-vale-a-pena/",
-      "target_slug": "porta-eletronica-reconhecimento-facial-vale-a-pena",
-      "score": 39,
-      "score_breakdown": {
-        "title": 14.5,
-        "heading": 8.8,
-        "content": 11.1,
-        "slug": 5,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Porta Eletrônica com Reconhecimento Facial: Vale a Pena?",
-      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
-      "evidence": [
-        "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, eletronica, investimento",
-        "conteúdo compartilha termo(s): eletronica, porta, mercado",
-        "slug compartilha termo(s): porta, eletronica"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
-    },
-    {
-      "source": "/brinquedo-automatico-cachorro-sozinho/",
-      "source_slug": "brinquedo-automatico-cachorro-sozinho",
-      "target": "/brinquedo-interativo-sensor-infravermelho-como-funciona/",
-      "target_slug": "brinquedo-interativo-sensor-infravermelho-como-funciona",
+      "source": "/brinquedo-interativo-pilha-x-recarregavel/",
+      "source_slug": "brinquedo-interativo-pilha-x-recarregavel",
+      "target": "/melhor-comedouro-interativo-gato/",
+      "target_slug": "melhor-comedouro-interativo-gato",
       "score": 38,
       "score_breakdown": {
-        "title": 14.5,
-        "heading": 10.4,
-        "content": 10.1,
+        "title": 17.4,
+        "heading": 9.3,
+        "content": 8.1,
         "slug": 3.2,
         "cluster": 0,
         "pillar_satellite": 0
       },
-      "anchor": "Brinquedo Interativo com Sensor Infravermelho: Como Funciona",
+      "anchor": "Melhor Comedouro Interativo para Gato: Guia Completo 2026",
       "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
       "evidence": [
-        "título compartilha termo(s): brinquedo, funciona",
-        "headings compartilham termo(s): brinquedo, funciona, gato",
-        "conteúdo compartilha termo(s): brinquedo, mercado, caes",
-        "slug compartilha termo(s): brinquedo"
-      ],
-      "target_is_orphan": false,
-      "relationship": "same_format"
-    },
-    {
-      "source": "/brinquedo-interativo-sensor-infravermelho-como-funciona/",
-      "source_slug": "brinquedo-interativo-sensor-infravermelho-como-funciona",
-      "target": "/brinquedo-automatico-cachorro-sozinho/",
-      "target_slug": "brinquedo-automatico-cachorro-sozinho",
-      "score": 38,
-      "score_breakdown": {
-        "title": 14.5,
-        "heading": 10.4,
-        "content": 10.1,
-        "slug": 3.2,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Brinquedo Automático para Cachorro Sozinho: Funciona?",
-      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
-      "evidence": [
-        "título compartilha termo(s): brinquedo, funciona",
-        "headings compartilham termo(s): brinquedo, funciona, gato",
-        "conteúdo compartilha termo(s): brinquedo, mercado, caes",
-        "slug compartilha termo(s): brinquedo"
-      ],
-      "target_is_orphan": false,
-      "relationship": "same_format"
-    },
-    {
-      "source": "/brinquedo-interativo-sensor-infravermelho-como-funciona/",
-      "source_slug": "brinquedo-interativo-sensor-infravermelho-como-funciona",
-      "target": "/como-escolher-brinquedo-interativo-gato-entediado/",
-      "target_slug": "como-escolher-brinquedo-interativo-gato-entediado",
-      "score": 38,
-      "score_breakdown": {
-        "title": 14.5,
-        "heading": 8.3,
-        "content": 10.1,
-        "slug": 4.8,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Como Escolher Brinquedo Interativo para Gato Entediado",
-      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
-      "evidence": [
-        "título compartilha termo(s): brinquedo, interativo",
-        "headings compartilham termo(s): brinquedo, interativo, gato",
-        "conteúdo compartilha termo(s): brinquedo, gato, sensor",
-        "slug compartilha termo(s): brinquedo, interativo"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
-    },
-    {
-      "source": "/brinquedo-interativo-sensor-infravermelho-como-funciona/",
-      "source_slug": "brinquedo-interativo-sensor-infravermelho-como-funciona",
-      "target": "/duvidas-brinquedo-interativo-gato/",
-      "target_slug": "duvidas-brinquedo-interativo-gato",
-      "score": 38,
-      "score_breakdown": {
-        "title": 12,
-        "heading": 10.4,
-        "content": 10.9,
-        "slug": 5,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Brinquedo Interativo para Gato: Perguntas Frequentes",
-      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
-      "evidence": [
-        "título compartilha termo(s): brinquedo, interativo",
-        "headings compartilham termo(s): brinquedo, interativo, gato",
-        "conteúdo compartilha termo(s): brinquedo, gato, interativo",
-        "slug compartilha termo(s): brinquedo, interativo"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
-    },
-    {
-      "source": "/camera-pet-resolucao-1080p-x-2k/",
-      "source_slug": "camera-pet-resolucao-1080p-x-2k",
-      "target": "/duvidas-camera-para-monitorar-pet/",
-      "target_slug": "duvidas-camera-para-monitorar-pet",
-      "score": 38,
-      "score_breakdown": {
-        "title": 8,
-        "heading": 13.6,
-        "content": 12.3,
-        "slug": 3.7,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Câmera para Monitorar Pet: Perguntas Frequentes (FAQ)",
-      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
-      "evidence": [
-        "título compartilha termo(s): camera, pet",
-        "headings compartilham termo(s): camera, resolucao, suficiente",
-        "conteúdo compartilha termo(s): camera, produtos, smart",
-        "slug compartilha termo(s): camera, pet"
+        "título compartilha termo(s): interativo, gato",
+        "headings compartilham termo(s): interativo, brinquedo, gato",
+        "conteúdo compartilha termo(s): gato, interativo, mercado",
+        "slug compartilha termo(s): interativo"
       ],
       "target_is_orphan": false,
       "relationship": "differentiated_satellites"
@@ -3270,81 +2912,6 @@
       "relationship": "different_format"
     },
     {
-      "source": "/coleira-gps-cachorro-que-foge/",
-      "source_slug": "coleira-gps-cachorro-que-foge",
-      "target": "/coleira-gps-para-gato/",
-      "target_slug": "coleira-gps-para-gato",
-      "score": 38,
-      "score_breakdown": {
-        "title": 14.5,
-        "heading": 8,
-        "content": 9.3,
-        "slug": 6.7,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Por Que Gatos Fogem — e Como Isso Afeta o GPS",
-      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
-      "evidence": [
-        "título compartilha termo(s): coleira, gps",
-        "headings compartilham termo(s): gps, coleira, cerca",
-        "conteúdo compartilha termo(s): gps, coleira, gatos",
-        "slug compartilha termo(s): coleira, gps"
-      ],
-      "target_is_orphan": false,
-      "relationship": "same_format"
-    },
-    {
-      "source": "/coleira-gps-para-gato/",
-      "source_slug": "coleira-gps-para-gato",
-      "target": "/coleira-gps-cachorro-que-foge/",
-      "target_slug": "coleira-gps-cachorro-que-foge",
-      "score": 38,
-      "score_breakdown": {
-        "title": 14.5,
-        "heading": 8,
-        "content": 9.3,
-        "slug": 6.7,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Priorize Alcance Real, Não Apenas Preço",
-      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
-      "evidence": [
-        "título compartilha termo(s): coleira, gps",
-        "headings compartilham termo(s): gps, coleira, cerca",
-        "conteúdo compartilha termo(s): gps, coleira, gatos",
-        "slug compartilha termo(s): coleira, gps"
-      ],
-      "target_is_orphan": false,
-      "relationship": "same_format"
-    },
-    {
-      "source": "/coleira-gps-para-gato/",
-      "source_slug": "coleira-gps-para-gato",
-      "target": "/como-funciona-coleira-gps-cachorro/",
-      "target_slug": "como-funciona-coleira-gps-cachorro",
-      "score": 38,
-      "score_breakdown": {
-        "title": 15,
-        "heading": 6.5,
-        "content": 9.6,
-        "slug": 6.7,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "As Três Tecnologias de Localização",
-      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
-      "evidence": [
-        "título compartilha termo(s): coleira, gps, funciona",
-        "headings compartilham termo(s): gps, coleira, funciona",
-        "conteúdo compartilha termo(s): gps, coleira, gatos",
-        "slug compartilha termo(s): coleira, gps"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
-    },
-    {
       "source": "/comedouro-automatico-vale-a-pena/",
       "source_slug": "comedouro-automatico-vale-a-pena",
       "target": "/comedouro-com-ou-sem-wifi/",
@@ -3353,7 +2920,7 @@
       "score_breakdown": {
         "title": 13.3,
         "heading": 9.1,
-        "content": 8.7,
+        "content": 8.9,
         "slug": 6.9,
         "cluster": 0,
         "pillar_satellite": 0
@@ -3363,7 +2930,7 @@
       "evidence": [
         "título compartilha termo(s): comedouro, automatico",
         "headings compartilham termo(s): comedouro, wi, fi",
-        "conteúdo compartilha termo(s): comedouro, wi, fi",
+        "conteúdo compartilha termo(s): wi, comedouro, fi",
         "slug compartilha termo(s): comedouro"
       ],
       "target_is_orphan": false,
@@ -3403,7 +2970,7 @@
       "score_breakdown": {
         "title": 13.3,
         "heading": 9.1,
-        "content": 8.7,
+        "content": 8.9,
         "slug": 6.9,
         "cluster": 0,
         "pillar_satellite": 0
@@ -3413,108 +2980,8 @@
       "evidence": [
         "título compartilha termo(s): comedouro, automatico",
         "headings compartilham termo(s): comedouro, wi, fi",
-        "conteúdo compartilha termo(s): comedouro, wi, fi",
+        "conteúdo compartilha termo(s): wi, comedouro, fi",
         "slug compartilha termo(s): comedouro"
-      ],
-      "target_is_orphan": false,
-      "relationship": "differentiated_satellites"
-    },
-    {
-      "source": "/como-escolher-brinquedo-interativo-gato-entediado/",
-      "source_slug": "como-escolher-brinquedo-interativo-gato-entediado",
-      "target": "/brinquedo-interativo-sensor-infravermelho-como-funciona/",
-      "target_slug": "brinquedo-interativo-sensor-infravermelho-como-funciona",
-      "score": 38,
-      "score_breakdown": {
-        "title": 14.5,
-        "heading": 8.3,
-        "content": 10.1,
-        "slug": 4.8,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Brinquedo Interativo com Sensor Infravermelho: Como Funciona",
-      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
-      "evidence": [
-        "título compartilha termo(s): brinquedo, interativo",
-        "headings compartilham termo(s): brinquedo, interativo, gato",
-        "conteúdo compartilha termo(s): brinquedo, gato, sensor",
-        "slug compartilha termo(s): brinquedo, interativo"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
-    },
-    {
-      "source": "/como-funciona-coleira-gps-cachorro/",
-      "source_slug": "como-funciona-coleira-gps-cachorro",
-      "target": "/coleira-gps-para-gato/",
-      "target_slug": "coleira-gps-para-gato",
-      "score": 38,
-      "score_breakdown": {
-        "title": 15,
-        "heading": 6.5,
-        "content": 9.6,
-        "slug": 6.7,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Por Que Gatos Fogem — e Como Isso Afeta o GPS",
-      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
-      "evidence": [
-        "título compartilha termo(s): funciona, coleira, gps",
-        "headings compartilham termo(s): gps, coleira, funciona",
-        "conteúdo compartilha termo(s): gps, coleira, gatos",
-        "slug compartilha termo(s): coleira, gps"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
-    },
-    {
-      "source": "/duvidas-brinquedo-interativo-gato/",
-      "source_slug": "duvidas-brinquedo-interativo-gato",
-      "target": "/brinquedo-interativo-sensor-infravermelho-como-funciona/",
-      "target_slug": "brinquedo-interativo-sensor-infravermelho-como-funciona",
-      "score": 38,
-      "score_breakdown": {
-        "title": 12,
-        "heading": 10.4,
-        "content": 10.9,
-        "slug": 5,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Brinquedo Interativo com Sensor Infravermelho: Como Funciona",
-      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
-      "evidence": [
-        "título compartilha termo(s): brinquedo, interativo",
-        "headings compartilham termo(s): brinquedo, interativo, gato",
-        "conteúdo compartilha termo(s): brinquedo, gato, interativo",
-        "slug compartilha termo(s): brinquedo, interativo"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
-    },
-    {
-      "source": "/duvidas-camera-para-monitorar-pet/",
-      "source_slug": "duvidas-camera-para-monitorar-pet",
-      "target": "/camera-pet-resolucao-1080p-x-2k/",
-      "target_slug": "camera-pet-resolucao-1080p-x-2k",
-      "score": 38,
-      "score_breakdown": {
-        "title": 8,
-        "heading": 13.6,
-        "content": 12.3,
-        "slug": 3.7,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Quando 1080p é Suficiente",
-      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
-      "evidence": [
-        "título compartilha termo(s): camera, pet",
-        "headings compartilham termo(s): camera, resolucao, suficiente",
-        "conteúdo compartilha termo(s): camera, produtos, smart",
-        "slug compartilha termo(s): camera, pet"
       ],
       "target_is_orphan": false,
       "relationship": "differentiated_satellites"
@@ -3603,7 +3070,7 @@
       "score_breakdown": {
         "title": 15.4,
         "heading": 6.6,
-        "content": 10.7,
+        "content": 10.6,
         "slug": 5.2,
         "cluster": 0,
         "pillar_satellite": 0
@@ -3618,31 +3085,6 @@
       ],
       "target_is_orphan": false,
       "relationship": "same_format"
-    },
-    {
-      "source": "/erros-comuns-porta-eletronica-pet/",
-      "source_slug": "erros-comuns-porta-eletronica-pet",
-      "target": "/porta-eletronica-reconhecimento-facial-vale-a-pena/",
-      "target_slug": "porta-eletronica-reconhecimento-facial-vale-a-pena",
-      "score": 38,
-      "score_breakdown": {
-        "title": 14,
-        "heading": 8.8,
-        "content": 10.3,
-        "slug": 4.8,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Porta Eletrônica com Reconhecimento Facial: Vale a Pena?",
-      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
-      "evidence": [
-        "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, eletronica, considerar",
-        "conteúdo compartilha termo(s): porta, mercado, produtos",
-        "slug compartilha termo(s): porta, eletronica"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
     },
     {
       "source": "/melhor-camera-para-monitorar-pet/",
@@ -3670,75 +3112,25 @@
       "relationship": "differentiated_satellites"
     },
     {
-      "source": "/porta-eletronica-funciona-porta-de-vidro/",
-      "source_slug": "porta-eletronica-funciona-porta-de-vidro",
-      "target": "/porta-eletronica-microchip-x-rfid-coleira/",
-      "target_slug": "porta-eletronica-microchip-x-rfid-coleira",
-      "score": 38,
-      "score_breakdown": {
-        "title": 14.5,
-        "heading": 8.2,
-        "content": 10,
-        "slug": 5,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Porta Eletrônica: Microchip ou Medalhão RFID na Coleira?",
-      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
-      "evidence": [
-        "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, funciona, eletronica",
-        "conteúdo compartilha termo(s): porta, nao, produtos",
-        "slug compartilha termo(s): porta, eletronica"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
-    },
-    {
       "source": "/porta-eletronica-microchip-x-rfid-coleira/",
       "source_slug": "porta-eletronica-microchip-x-rfid-coleira",
-      "target": "/porta-eletronica-funciona-porta-de-vidro/",
-      "target_slug": "porta-eletronica-funciona-porta-de-vidro",
+      "target": "/porta-eletronica-impede-entrada-outros-animais/",
+      "target_slug": "porta-eletronica-impede-entrada-outros-animais",
       "score": 38,
       "score_breakdown": {
-        "title": 14.5,
-        "heading": 8.2,
-        "content": 10,
-        "slug": 5,
+        "title": 12,
+        "heading": 9.3,
+        "content": 12.2,
+        "slug": 4,
         "cluster": 0,
         "pillar_satellite": 0
       },
-      "anchor": "Modelos Sem Corte no Vidro",
+      "anchor": "Porta Eletrônica Impede a Entrada de Outros Animais?",
       "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
       "evidence": [
         "título compartilha termo(s): porta, eletronica",
         "headings compartilham termo(s): porta, funciona, eletronica",
-        "conteúdo compartilha termo(s): porta, nao, produtos",
-        "slug compartilha termo(s): porta, eletronica"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
-    },
-    {
-      "source": "/porta-eletronica-reconhecimento-facial-vale-a-pena/",
-      "source_slug": "porta-eletronica-reconhecimento-facial-vale-a-pena",
-      "target": "/erros-comuns-porta-eletronica-pet/",
-      "target_slug": "erros-comuns-porta-eletronica-pet",
-      "score": 38,
-      "score_breakdown": {
-        "title": 14,
-        "heading": 8.8,
-        "content": 10.3,
-        "slug": 4.8,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Não Considerar o Porte do Maior Animal da Casa",
-      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
-      "evidence": [
-        "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, eletronica, considerar",
-        "conteúdo compartilha termo(s): porta, mercado, produtos",
+        "conteúdo compartilha termo(s): microchip, porta, nao",
         "slug compartilha termo(s): porta, eletronica"
       ],
       "target_is_orphan": false,
@@ -3777,8 +3169,8 @@
       "score": 38,
       "score_breakdown": {
         "title": 14.5,
-        "heading": 6.2,
-        "content": 11.2,
+        "heading": 5.3,
+        "content": 11.8,
         "slug": 6.3,
         "cluster": 0,
         "pillar_satellite": 0
@@ -3793,6 +3185,31 @@
       ],
       "target_is_orphan": false,
       "relationship": "differentiated_satellites"
+    },
+    {
+      "source": "/brinquedo-interativo-sensor-infravermelho-como-funciona/",
+      "source_slug": "brinquedo-interativo-sensor-infravermelho-como-funciona",
+      "target": "/duvidas-brinquedo-interativo-gato/",
+      "target_slug": "duvidas-brinquedo-interativo-gato",
+      "score": 37,
+      "score_breakdown": {
+        "title": 12,
+        "heading": 8.3,
+        "content": 11.2,
+        "slug": 5,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Brinquedo Interativo para Gato: Perguntas Frequentes",
+      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
+      "evidence": [
+        "título compartilha termo(s): brinquedo, interativo",
+        "headings compartilham termo(s): brinquedo, interativo, gato",
+        "conteúdo compartilha termo(s): brinquedo, gato, interativo",
+        "slug compartilha termo(s): brinquedo, interativo"
+      ],
+      "target_is_orphan": false,
+      "relationship": "different_format"
     },
     {
       "source": "/brinquedo-interativo-substitui-brincadeira-tutor/",
@@ -3820,6 +3237,31 @@
       "relationship": "different_format"
     },
     {
+      "source": "/coleira-gps-x-microchip/",
+      "source_slug": "coleira-gps-x-microchip",
+      "target": "/duvidas-coleira-gps-pet/",
+      "target_slug": "duvidas-coleira-gps-pet",
+      "score": 37,
+      "score_breakdown": {
+        "title": 12,
+        "heading": 8.9,
+        "content": 9.1,
+        "slug": 6.7,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Coleira GPS para Pet: Perguntas Frequentes Respondidas",
+      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
+      "evidence": [
+        "título compartilha termo(s): coleira, gps",
+        "headings compartilham termo(s): coleira, gps, usar",
+        "conteúdo compartilha termo(s): gps, coleira, microchip",
+        "slug compartilha termo(s): coleira, gps"
+      ],
+      "target_is_orphan": false,
+      "relationship": "differentiated_satellites"
+    },
+    {
       "source": "/comedouro-automatico-para-dois-gatos/",
       "source_slug": "comedouro-automatico-para-dois-gatos",
       "target": "/comedouro-automatico-vale-a-pena/",
@@ -3838,6 +3280,31 @@
       "evidence": [
         "título compartilha termo(s): comedouro, automatico",
         "headings compartilham termo(s): comedouro, dois, gatos",
+        "conteúdo compartilha termo(s): nao, comedouro, gatos",
+        "slug compartilha termo(s): comedouro, automatico"
+      ],
+      "target_is_orphan": false,
+      "relationship": "same_format"
+    },
+    {
+      "source": "/comedouro-automatico-vale-a-pena/",
+      "source_slug": "comedouro-automatico-vale-a-pena",
+      "target": "/comedouro-automatico-para-dois-gatos/",
+      "target_slug": "comedouro-automatico-para-dois-gatos",
+      "score": 37,
+      "score_breakdown": {
+        "title": 13.3,
+        "heading": 7,
+        "content": 9.2,
+        "slug": 7.9,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "É possível usar um comedouro automático para dois gatos?",
+      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
+      "evidence": [
+        "título compartilha termo(s): comedouro, automatico",
+        "headings compartilham termo(s): comedouro, gatos, dois",
         "conteúdo compartilha termo(s): nao, comedouro, gatos",
         "slug compartilha termo(s): comedouro, automatico"
       ],
@@ -3895,6 +3362,81 @@
       "relationship": "differentiated_satellites"
     },
     {
+      "source": "/como-escolher-brinquedo-interativo-gato-entediado/",
+      "source_slug": "como-escolher-brinquedo-interativo-gato-entediado",
+      "target": "/brinquedo-interativo-substitui-brincadeira-tutor/",
+      "target_slug": "brinquedo-interativo-substitui-brincadeira-tutor",
+      "score": 37,
+      "score_breakdown": {
+        "title": 14.5,
+        "heading": 6.6,
+        "content": 10.6,
+        "slug": 4.8,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Brinquedo Interativo Substitui a Brincadeira com o Tutor?",
+      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
+      "evidence": [
+        "título compartilha termo(s): brinquedo, interativo",
+        "headings compartilham termo(s): brinquedo, interativo, conclusao",
+        "conteúdo compartilha termo(s): brinquedo, gato, interativo",
+        "slug compartilha termo(s): brinquedo, interativo"
+      ],
+      "target_is_orphan": false,
+      "relationship": "different_format"
+    },
+    {
+      "source": "/como-funciona-coleira-gps-cachorro/",
+      "source_slug": "como-funciona-coleira-gps-cachorro",
+      "target": "/coleira-gps-para-gato/",
+      "target_slug": "coleira-gps-para-gato",
+      "score": 37,
+      "score_breakdown": {
+        "title": 14,
+        "heading": 5,
+        "content": 11.1,
+        "slug": 6.7,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Qual a Melhor Coleira GPS para Gato: Comparação por Tecnologia",
+      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
+      "evidence": [
+        "título compartilha termo(s): coleira, gps",
+        "headings compartilham termo(s): gps, coleira, funciona",
+        "conteúdo compartilha termo(s): gps, coleira, gatos",
+        "slug compartilha termo(s): coleira, gps"
+      ],
+      "target_is_orphan": false,
+      "relationship": "differentiated_satellites"
+    },
+    {
+      "source": "/duvidas-brinquedo-interativo-gato/",
+      "source_slug": "duvidas-brinquedo-interativo-gato",
+      "target": "/brinquedo-interativo-sensor-infravermelho-como-funciona/",
+      "target_slug": "brinquedo-interativo-sensor-infravermelho-como-funciona",
+      "score": 37,
+      "score_breakdown": {
+        "title": 12,
+        "heading": 8.3,
+        "content": 11.2,
+        "slug": 5,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Brinquedo Interativo com Sensor Infravermelho: Como Funciona",
+      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
+      "evidence": [
+        "título compartilha termo(s): brinquedo, interativo",
+        "headings compartilham termo(s): brinquedo, interativo, gato",
+        "conteúdo compartilha termo(s): brinquedo, gato, interativo",
+        "slug compartilha termo(s): brinquedo, interativo"
+      ],
+      "target_is_orphan": false,
+      "relationship": "different_format"
+    },
+    {
       "source": "/erros-comuns-brinquedo-interativo-gato/",
       "source_slug": "erros-comuns-brinquedo-interativo-gato",
       "target": "/erros-comuns-porta-eletronica-pet/",
@@ -3903,7 +3445,7 @@
       "score_breakdown": {
         "title": 15,
         "heading": 7,
-        "content": 9.9,
+        "content": 9.8,
         "slug": 4.8,
         "cluster": 0,
         "pillar_satellite": 0
@@ -3953,7 +3495,7 @@
       "score_breakdown": {
         "title": 15,
         "heading": 7,
-        "content": 9.9,
+        "content": 9.8,
         "slug": 4.8,
         "cluster": 0,
         "pillar_satellite": 0
@@ -3970,65 +3512,15 @@
       "relationship": "same_format"
     },
     {
-      "source": "/porta-eletronica-impede-entrada-outros-animais/",
-      "source_slug": "porta-eletronica-impede-entrada-outros-animais",
-      "target": "/porta-eletronica-reconhecimento-facial-vale-a-pena/",
-      "target_slug": "porta-eletronica-reconhecimento-facial-vale-a-pena",
-      "score": 37,
-      "score_breakdown": {
-        "title": 14,
-        "heading": 6.6,
-        "content": 11.5,
-        "slug": 4.7,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Porta Eletrônica com Reconhecimento Facial: Vale a Pena?",
-      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
-      "evidence": [
-        "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, eletronica, conclusao",
-        "conteúdo compartilha termo(s): microchip, porta, nao",
-        "slug compartilha termo(s): porta, eletronica"
-      ],
-      "target_is_orphan": false,
-      "relationship": "same_format"
-    },
-    {
-      "source": "/porta-eletronica-impede-entrada-outros-animais/",
-      "source_slug": "porta-eletronica-impede-entrada-outros-animais",
-      "target": "/porta-eletronica-x-alcapao-tradicional/",
-      "target_slug": "porta-eletronica-x-alcapao-tradicional",
-      "score": 37,
-      "score_breakdown": {
-        "title": 14.5,
-        "heading": 6.2,
-        "content": 11.4,
-        "slug": 5,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Porta Eletrônica ou Alçapão Tradicional: Qual Escolher?",
-      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
-      "evidence": [
-        "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, eletronica, conclusao",
-        "conteúdo compartilha termo(s): porta, eletronica, mercado",
-        "slug compartilha termo(s): porta, eletronica"
-      ],
-      "target_is_orphan": false,
-      "relationship": "different_format"
-    },
-    {
-      "source": "/porta-eletronica-x-alcapao-tradicional/",
-      "source_slug": "porta-eletronica-x-alcapao-tradicional",
+      "source": "/porta-eletronica-funciona-porta-de-vidro/",
+      "source_slug": "porta-eletronica-funciona-porta-de-vidro",
       "target": "/porta-eletronica-microchip-x-rfid-coleira/",
       "target_slug": "porta-eletronica-microchip-x-rfid-coleira",
       "score": 37,
       "score_breakdown": {
         "title": 14.5,
-        "heading": 6.5,
-        "content": 10.8,
+        "heading": 8.2,
+        "content": 9.1,
         "slug": 5,
         "cluster": 0,
         "pillar_satellite": 0
@@ -4037,33 +3529,83 @@
       "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
       "evidence": [
         "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, eletronica, conclusao",
-        "conteúdo compartilha termo(s): porta, eletronica, microchip",
+        "headings compartilham termo(s): porta, funciona, eletronica",
+        "conteúdo compartilha termo(s): porta, nao, produtos",
+        "slug compartilha termo(s): porta, eletronica"
+      ],
+      "target_is_orphan": false,
+      "relationship": "different_format"
+    },
+    {
+      "source": "/porta-eletronica-microchip-x-rfid-coleira/",
+      "source_slug": "porta-eletronica-microchip-x-rfid-coleira",
+      "target": "/porta-eletronica-funciona-porta-de-vidro/",
+      "target_slug": "porta-eletronica-funciona-porta-de-vidro",
+      "score": 37,
+      "score_breakdown": {
+        "title": 14.5,
+        "heading": 8.2,
+        "content": 9.1,
+        "slug": 5,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Modelos Sem Corte no Vidro",
+      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
+      "evidence": [
+        "título compartilha termo(s): porta, eletronica",
+        "headings compartilham termo(s): porta, funciona, eletronica",
+        "conteúdo compartilha termo(s): porta, nao, produtos",
+        "slug compartilha termo(s): porta, eletronica"
+      ],
+      "target_is_orphan": false,
+      "relationship": "different_format"
+    },
+    {
+      "source": "/porta-eletronica-reconhecimento-facial-vale-a-pena/",
+      "source_slug": "porta-eletronica-reconhecimento-facial-vale-a-pena",
+      "target": "/porta-eletronica-funciona-porta-de-vidro/",
+      "target_slug": "porta-eletronica-funciona-porta-de-vidro",
+      "score": 37,
+      "score_breakdown": {
+        "title": 14.5,
+        "heading": 8.2,
+        "content": 9,
+        "slug": 5,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Modelos Sem Corte no Vidro",
+      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
+      "evidence": [
+        "título compartilha termo(s): porta, eletronica",
+        "headings compartilham termo(s): porta, eletronica, funciona",
+        "conteúdo compartilha termo(s): porta, produtos, smart",
         "slug compartilha termo(s): porta, eletronica"
       ],
       "target_is_orphan": false,
       "relationship": "same_format"
     },
     {
-      "source": "/brinquedo-interativo-sensor-infravermelho-como-funciona/",
-      "source_slug": "brinquedo-interativo-sensor-infravermelho-como-funciona",
-      "target": "/brinquedo-interativo-gato-idoso-vale-a-pena/",
-      "target_slug": "brinquedo-interativo-gato-idoso-vale-a-pena",
+      "source": "/brinquedo-interativo-gato-idoso-vale-a-pena/",
+      "source_slug": "brinquedo-interativo-gato-idoso-vale-a-pena",
+      "target": "/brinquedo-interativo-substitui-brincadeira-tutor/",
+      "target_slug": "brinquedo-interativo-substitui-brincadeira-tutor",
       "score": 36,
       "score_breakdown": {
         "title": 14,
-        "heading": 8.3,
-        "content": 9.2,
+        "heading": 8.8,
+        "content": 9,
         "slug": 4.7,
         "cluster": 0,
         "pillar_satellite": 0
       },
-      "anchor": "Brinquedo Interativo para Gato Idoso: Vale a Pena?",
+      "anchor": "Brinquedo Interativo Substitui a Brincadeira com o Tutor?",
       "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
       "evidence": [
         "título compartilha termo(s): brinquedo, interativo",
-        "headings compartilham termo(s): brinquedo, interativo, gato",
-        "conteúdo compartilha termo(s): brinquedo, gato, produtos",
+        "headings compartilham termo(s): brinquedo, interativo, tutor",
+        "conteúdo compartilha termo(s): brinquedo, gato, tutor",
         "slug compartilha termo(s): brinquedo, interativo"
       ],
       "target_is_orphan": false,
@@ -4088,7 +3630,7 @@
       "evidence": [
         "título compartilha termo(s): brinquedo, interativo",
         "headings compartilham termo(s): brinquedo, interativo, tutor",
-        "conteúdo compartilha termo(s): brinquedo, tutor, gato",
+        "conteúdo compartilha termo(s): brinquedo, gato, tutor",
         "slug compartilha termo(s): brinquedo, interativo"
       ],
       "target_is_orphan": false,
@@ -4253,7 +3795,7 @@
       "score_breakdown": {
         "title": 15.4,
         "heading": 5.9,
-        "content": 9.8,
+        "content": 9.9,
         "slug": 5.2,
         "cluster": 0,
         "pillar_satellite": 0
@@ -4295,6 +3837,31 @@
       "relationship": "differentiated_satellites"
     },
     {
+      "source": "/erros-comuns-porta-eletronica-pet/",
+      "source_slug": "erros-comuns-porta-eletronica-pet",
+      "target": "/erros-comuns-camera-monitorar-pet/",
+      "target_slug": "erros-comuns-camera-monitorar-pet",
+      "score": 36,
+      "score_breakdown": {
+        "title": 15.4,
+        "heading": 5.9,
+        "content": 9.9,
+        "slug": 5.2,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Conectar na Rede de 5 GHz",
+      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
+      "evidence": [
+        "título compartilha termo(s): erros, comuns, usar",
+        "headings compartilham termo(s): casa, erros, comuns",
+        "conteúdo compartilha termo(s): mercado, produtos, smart",
+        "slug compartilha termo(s): erros, comuns, pet"
+      ],
+      "target_is_orphan": false,
+      "relationship": "same_format"
+    },
+    {
       "source": "/melhor-camera-para-monitorar-pet/",
       "source_slug": "melhor-camera-para-monitorar-pet",
       "target": "/erros-comuns-camera-monitorar-pet/",
@@ -4320,15 +3887,15 @@
       "relationship": "differentiated_satellites"
     },
     {
-      "source": "/porta-eletronica-gato-x-cachorro-diferenca/",
-      "source_slug": "porta-eletronica-gato-x-cachorro-diferenca",
+      "source": "/porta-eletronica-impede-entrada-outros-animais/",
+      "source_slug": "porta-eletronica-impede-entrada-outros-animais",
       "target": "/porta-eletronica-reconhecimento-facial-vale-a-pena/",
       "target_slug": "porta-eletronica-reconhecimento-facial-vale-a-pena",
       "score": 36,
       "score_breakdown": {
         "title": 14,
-        "heading": 6.6,
-        "content": 10.4,
+        "heading": 7,
+        "content": 10.8,
         "slug": 4.7,
         "cluster": 0,
         "pillar_satellite": 0
@@ -4337,34 +3904,84 @@
       "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
       "evidence": [
         "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, eletronica, conclusao",
-        "conteúdo compartilha termo(s): produtos, mercado, porta",
+        "headings compartilham termo(s): porta, eletronica, funciona",
+        "conteúdo compartilha termo(s): porta, microchip, nao",
+        "slug compartilha termo(s): porta, eletronica"
+      ],
+      "target_is_orphan": false,
+      "relationship": "same_format"
+    },
+    {
+      "source": "/porta-eletronica-reconhecimento-facial-vale-a-pena/",
+      "source_slug": "porta-eletronica-reconhecimento-facial-vale-a-pena",
+      "target": "/porta-eletronica-impede-entrada-outros-animais/",
+      "target_slug": "porta-eletronica-impede-entrada-outros-animais",
+      "score": 36,
+      "score_breakdown": {
+        "title": 14,
+        "heading": 7,
+        "content": 10.8,
+        "slug": 4.7,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Porta Eletrônica Impede a Entrada de Outros Animais?",
+      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
+      "evidence": [
+        "título compartilha termo(s): porta, eletronica",
+        "headings compartilham termo(s): porta, eletronica, funciona",
+        "conteúdo compartilha termo(s): porta, microchip, nao",
+        "slug compartilha termo(s): porta, eletronica"
+      ],
+      "target_is_orphan": false,
+      "relationship": "same_format"
+    },
+    {
+      "source": "/porta-eletronica-x-alcapao-tradicional/",
+      "source_slug": "porta-eletronica-x-alcapao-tradicional",
+      "target": "/porta-eletronica-reconhecimento-facial-vale-a-pena/",
+      "target_slug": "porta-eletronica-reconhecimento-facial-vale-a-pena",
+      "score": 36,
+      "score_breakdown": {
+        "title": 14.5,
+        "heading": 7.1,
+        "content": 9.5,
+        "slug": 5,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Porta Eletrônica com Reconhecimento Facial: Vale a Pena?",
+      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
+      "evidence": [
+        "título compartilha termo(s): porta, eletronica",
+        "headings compartilham termo(s): porta, eletronica, investimento",
+        "conteúdo compartilha termo(s): eletronica, porta, mercado",
         "slug compartilha termo(s): porta, eletronica"
       ],
       "target_is_orphan": false,
       "relationship": "different_format"
     },
     {
-      "source": "/porta-eletronica-gato-x-cachorro-diferenca/",
-      "source_slug": "porta-eletronica-gato-x-cachorro-diferenca",
-      "target": "/porta-eletronica-x-alcapao-tradicional/",
-      "target_slug": "porta-eletronica-x-alcapao-tradicional",
-      "score": 36,
+      "source": "/brinquedo-automatico-cachorro-sozinho/",
+      "source_slug": "brinquedo-automatico-cachorro-sozinho",
+      "target": "/brinquedo-interativo-sensor-infravermelho-como-funciona/",
+      "target_slug": "brinquedo-interativo-sensor-infravermelho-como-funciona",
+      "score": 35,
       "score_breakdown": {
         "title": 14.5,
-        "heading": 6.2,
-        "content": 10.1,
-        "slug": 5,
+        "heading": 8.7,
+        "content": 9.1,
+        "slug": 3.2,
         "cluster": 0,
         "pillar_satellite": 0
       },
-      "anchor": "Porta Eletrônica ou Alçapão Tradicional: Qual Escolher?",
+      "anchor": "Brinquedo Interativo com Sensor Infravermelho: Como Funciona",
       "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
       "evidence": [
-        "título compartilha termo(s): porta, eletronica",
-        "headings compartilham termo(s): porta, eletronica, conclusao",
-        "conteúdo compartilha termo(s): eletronica, porta, mercado",
-        "slug compartilha termo(s): porta, eletronica"
+        "título compartilha termo(s): brinquedo, funciona",
+        "headings compartilham termo(s): brinquedo, funciona, gato",
+        "conteúdo compartilha termo(s): brinquedo, mercado, caes",
+        "slug compartilha termo(s): brinquedo"
       ],
       "target_is_orphan": false,
       "relationship": "same_format"
@@ -4372,49 +3989,74 @@
     {
       "source": "/brinquedo-interativo-sensor-infravermelho-como-funciona/",
       "source_slug": "brinquedo-interativo-sensor-infravermelho-como-funciona",
-      "target": "/brinquedo-interativo-pilha-x-recarregavel/",
-      "target_slug": "brinquedo-interativo-pilha-x-recarregavel",
+      "target": "/brinquedo-automatico-cachorro-sozinho/",
+      "target_slug": "brinquedo-automatico-cachorro-sozinho",
       "score": 35,
       "score_breakdown": {
-        "title": 12,
-        "heading": 8.3,
-        "content": 9.6,
-        "slug": 5,
+        "title": 14.5,
+        "heading": 8.7,
+        "content": 9.1,
+        "slug": 3.2,
         "cluster": 0,
         "pillar_satellite": 0
       },
-      "anchor": "Brinquedo Interativo para Gato: Pilha ou Recarregável?",
+      "anchor": "Brinquedo Automático para Cachorro Sozinho: Funciona?",
+      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
+      "evidence": [
+        "título compartilha termo(s): brinquedo, funciona",
+        "headings compartilham termo(s): brinquedo, funciona, gato",
+        "conteúdo compartilha termo(s): brinquedo, mercado, caes",
+        "slug compartilha termo(s): brinquedo"
+      ],
+      "target_is_orphan": false,
+      "relationship": "same_format"
+    },
+    {
+      "source": "/brinquedo-interativo-sensor-infravermelho-como-funciona/",
+      "source_slug": "brinquedo-interativo-sensor-infravermelho-como-funciona",
+      "target": "/brinquedo-interativo-gato-idoso-vale-a-pena/",
+      "target_slug": "brinquedo-interativo-gato-idoso-vale-a-pena",
+      "score": 35,
+      "score_breakdown": {
+        "title": 14,
+        "heading": 8.1,
+        "content": 8.3,
+        "slug": 4.7,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Brinquedo Interativo para Gato Idoso: Vale a Pena?",
       "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
       "evidence": [
         "título compartilha termo(s): brinquedo, interativo",
         "headings compartilham termo(s): brinquedo, interativo, gato",
-        "conteúdo compartilha termo(s): gato, brinquedo, mercado",
+        "conteúdo compartilha termo(s): brinquedo, gato, produtos",
         "slug compartilha termo(s): brinquedo, interativo"
       ],
       "target_is_orphan": false,
-      "relationship": "different_format"
+      "relationship": "same_format"
     },
     {
-      "source": "/camera-pet-grava-sem-internet/",
-      "source_slug": "camera-pet-grava-sem-internet",
-      "target": "/duvidas-camera-para-monitorar-pet/",
-      "target_slug": "duvidas-camera-para-monitorar-pet",
+      "source": "/brinquedo-interativo-sensor-infravermelho-como-funciona/",
+      "source_slug": "brinquedo-interativo-sensor-infravermelho-como-funciona",
+      "target": "/como-escolher-brinquedo-interativo-gato-entediado/",
+      "target_slug": "como-escolher-brinquedo-interativo-gato-entediado",
       "score": 35,
       "score_breakdown": {
-        "title": 6.7,
-        "heading": 12.6,
-        "content": 11.9,
-        "slug": 3.7,
+        "title": 14.5,
+        "heading": 7.1,
+        "content": 8.7,
+        "slug": 4.8,
         "cluster": 0,
         "pillar_satellite": 0
       },
-      "anchor": "Câmera para Monitorar Pet: Perguntas Frequentes (FAQ)",
+      "anchor": "Como Escolher Brinquedo Interativo para Gato Entediado",
       "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
       "evidence": [
-        "título compartilha termo(s): camera, pet",
-        "headings compartilham termo(s): camera, internet, funciona",
-        "conteúdo compartilha termo(s): camera, internet, cartao",
-        "slug compartilha termo(s): camera, pet"
+        "título compartilha termo(s): brinquedo, interativo",
+        "headings compartilham termo(s): brinquedo, interativo, gato",
+        "conteúdo compartilha termo(s): brinquedo, gato, sensor",
+        "slug compartilha termo(s): brinquedo, interativo"
       ],
       "target_is_orphan": false,
       "relationship": "different_format"
@@ -4428,7 +4070,7 @@
       "score_breakdown": {
         "title": 14.5,
         "heading": 5.4,
-        "content": 8.8,
+        "content": 8.7,
         "slug": 6.7,
         "cluster": 0,
         "pillar_satellite": 0
@@ -4438,7 +4080,7 @@
       "evidence": [
         "título compartilha termo(s): coleira, gps",
         "headings compartilham termo(s): coleira, gps, conclusao",
-        "conteúdo compartilha termo(s): gps, coleira, produtos",
+        "conteúdo compartilha termo(s): coleira, gps, produtos",
         "slug compartilha termo(s): coleira, gps"
       ],
       "target_is_orphan": false,
@@ -4453,7 +4095,7 @@
       "score_breakdown": {
         "title": 13.3,
         "heading": 5.4,
-        "content": 8.6,
+        "content": 8.7,
         "slug": 7.9,
         "cluster": 0,
         "pillar_satellite": 0
@@ -4528,7 +4170,7 @@
       "score_breakdown": {
         "title": 12.1,
         "heading": 10.6,
-        "content": 8.8,
+        "content": 9,
         "slug": 3.7,
         "cluster": 0,
         "pillar_satellite": 0
@@ -4538,7 +4180,7 @@
       "evidence": [
         "título compartilha termo(s): comedouro, vale, pena",
         "headings compartilham termo(s): 4l, newpet, comedouro",
-        "conteúdo compartilha termo(s): comedouro, fi, newpet",
+        "conteúdo compartilha termo(s): comedouro, fi, wi",
         "slug compartilha termo(s): comedouro, review"
       ],
       "target_is_orphan": false,
@@ -4578,7 +4220,7 @@
       "score_breakdown": {
         "title": 12.1,
         "heading": 10.6,
-        "content": 8.8,
+        "content": 9,
         "slug": 3.7,
         "cluster": 0,
         "pillar_satellite": 0
@@ -4595,29 +4237,29 @@
       "relationship": "same_format"
     },
     {
-      "source": "/melhor-camera-para-monitorar-pet/",
-      "source_slug": "melhor-camera-para-monitorar-pet",
-      "target": "/camera-pet-x-coleira-gps-qual-escolher/",
-      "target_slug": "camera-pet-x-coleira-gps-qual-escolher",
+      "source": "/erros-comuns-porta-eletronica-pet/",
+      "source_slug": "erros-comuns-porta-eletronica-pet",
+      "target": "/porta-eletronica-reconhecimento-facial-vale-a-pena/",
+      "target_slug": "porta-eletronica-reconhecimento-facial-vale-a-pena",
       "score": 35,
       "score_breakdown": {
-        "title": 10.5,
-        "heading": 10.1,
-        "content": 9.1,
-        "slug": 5,
+        "title": 14,
+        "heading": 7,
+        "content": 9,
+        "slug": 4.8,
         "cluster": 0,
         "pillar_satellite": 0
       },
-      "anchor": "Quando a Câmera Resolve",
+      "anchor": "Porta Eletrônica com Reconhecimento Facial: Vale a Pena?",
       "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
       "evidence": [
-        "título compartilha termo(s): camera, pet",
-        "headings compartilham termo(s): camera, tabela, comparativa",
-        "conteúdo compartilha termo(s): camera, gadgets, mercado",
-        "slug compartilha termo(s): camera, pet"
+        "título compartilha termo(s): porta, eletronica",
+        "headings compartilham termo(s): porta, eletronica, considerar",
+        "conteúdo compartilha termo(s): porta, mercado, produtos",
+        "slug compartilha termo(s): porta, eletronica"
       ],
       "target_is_orphan": false,
-      "relationship": "differentiated_satellites"
+      "relationship": "different_format"
     },
     {
       "source": "/melhor-comedouro-automatico-cachorro/",
@@ -4670,31 +4312,6 @@
       "relationship": "differentiated_satellites"
     },
     {
-      "source": "/melhor-comedouro-automatico-cachorro/",
-      "source_slug": "melhor-comedouro-automatico-cachorro",
-      "target": "/melhor-comedouro-interativo-gato/",
-      "target_slug": "melhor-comedouro-interativo-gato",
-      "score": 35,
-      "score_breakdown": {
-        "title": 15.9,
-        "heading": 6.1,
-        "content": 7.5,
-        "slug": 5,
-        "cluster": 0,
-        "pillar_satellite": 0
-      },
-      "anchor": "Melhor Comedouro Interativo para Gato: Guia Completo 2026",
-      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
-      "evidence": [
-        "título compartilha termo(s): comedouro, melhor, guia",
-        "headings compartilham termo(s): comedouro, tipos, conclusao",
-        "conteúdo compartilha termo(s): comedouro, mercado, modelos",
-        "slug compartilha termo(s): comedouro, melhor"
-      ],
-      "target_is_orphan": false,
-      "relationship": "same_format"
-    },
-    {
       "source": "/porta-eletronica-gato-x-cachorro-diferenca/",
       "source_slug": "porta-eletronica-gato-x-cachorro-diferenca",
       "target": "/duvidas-porta-eletronica-pet/",
@@ -4743,6 +4360,106 @@
       ],
       "target_is_orphan": false,
       "relationship": "differentiated_satellites"
+    },
+    {
+      "source": "/porta-eletronica-gato-x-cachorro-diferenca/",
+      "source_slug": "porta-eletronica-gato-x-cachorro-diferenca",
+      "target": "/porta-eletronica-funciona-porta-de-vidro/",
+      "target_slug": "porta-eletronica-funciona-porta-de-vidro",
+      "score": 35,
+      "score_breakdown": {
+        "title": 14.5,
+        "heading": 6.2,
+        "content": 9.1,
+        "slug": 5,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Modelos Sem Corte no Vidro",
+      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
+      "evidence": [
+        "título compartilha termo(s): porta, eletronica",
+        "headings compartilham termo(s): porta, eletronica, conclusao",
+        "conteúdo compartilha termo(s): porta, produtos, mercado",
+        "slug compartilha termo(s): porta, eletronica"
+      ],
+      "target_is_orphan": false,
+      "relationship": "different_format"
+    },
+    {
+      "source": "/porta-eletronica-gato-x-cachorro-diferenca/",
+      "source_slug": "porta-eletronica-gato-x-cachorro-diferenca",
+      "target": "/porta-eletronica-x-alcapao-tradicional/",
+      "target_slug": "porta-eletronica-x-alcapao-tradicional",
+      "score": 35,
+      "score_breakdown": {
+        "title": 14.5,
+        "heading": 5.4,
+        "content": 10.2,
+        "slug": 5,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Porta Eletrônica ou Alçapão Tradicional: Qual Escolher?",
+      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
+      "evidence": [
+        "título compartilha termo(s): porta, eletronica",
+        "headings compartilham termo(s): porta, eletronica, conclusao",
+        "conteúdo compartilha termo(s): eletronica, porta, mercado",
+        "slug compartilha termo(s): porta, eletronica"
+      ],
+      "target_is_orphan": false,
+      "relationship": "same_format"
+    },
+    {
+      "source": "/porta-eletronica-impede-entrada-outros-animais/",
+      "source_slug": "porta-eletronica-impede-entrada-outros-animais",
+      "target": "/porta-eletronica-x-alcapao-tradicional/",
+      "target_slug": "porta-eletronica-x-alcapao-tradicional",
+      "score": 35,
+      "score_breakdown": {
+        "title": 14.5,
+        "heading": 5.3,
+        "content": 10,
+        "slug": 5,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Porta Eletrônica ou Alçapão Tradicional: Qual Escolher?",
+      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
+      "evidence": [
+        "título compartilha termo(s): porta, eletronica",
+        "headings compartilham termo(s): porta, eletronica, conclusao",
+        "conteúdo compartilha termo(s): porta, eletronica, alcapao",
+        "slug compartilha termo(s): porta, eletronica"
+      ],
+      "target_is_orphan": false,
+      "relationship": "different_format"
+    },
+    {
+      "source": "/porta-eletronica-x-alcapao-tradicional/",
+      "source_slug": "porta-eletronica-x-alcapao-tradicional",
+      "target": "/porta-eletronica-funciona-porta-de-vidro/",
+      "target_slug": "porta-eletronica-funciona-porta-de-vidro",
+      "score": 35,
+      "score_breakdown": {
+        "title": 14.5,
+        "heading": 6.2,
+        "content": 9.8,
+        "slug": 5,
+        "cluster": 0,
+        "pillar_satellite": 0
+      },
+      "anchor": "Modelos Sem Corte no Vidro",
+      "reason": "similaridade baixa, mas acima do limiar mínimo de sugestão",
+      "evidence": [
+        "título compartilha termo(s): porta, eletronica",
+        "headings compartilham termo(s): porta, eletronica, conclusao",
+        "conteúdo compartilha termo(s): porta, vidro, eletronica",
+        "slug compartilha termo(s): porta, eletronica"
+      ],
+      "target_is_orphan": false,
+      "relationship": "different_format"
     }
   ],
   "low_connectivity_pages": [],

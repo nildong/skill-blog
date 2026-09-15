@@ -1,36 +1,36 @@
 {
   "version": 1,
-  "generated_at": "2026-09-13T19:29:26.819Z",
+  "generated_at": "2026-09-15T17:35:37.229Z",
   "site": {
     "root": "/home/projetos/blog",
-    "total_html_files_found": 74,
-    "total_posts_indexed": 74,
+    "total_html_files_found": 75,
+    "total_posts_indexed": 75,
     "domain": "smartpetgadgets.com.br"
   },
   "stats": {
-    "total_posts": 74,
+    "total_posts": 75,
     "metadata": {
-      "titles": 74,
-      "descriptions": 74,
-      "canonical": 74
+      "titles": 75,
+      "descriptions": 75,
+      "canonical": 75
     },
     "structure": {
-      "h1_detected": 74,
+      "h1_detected": 75,
       "multiple_h1": 0,
       "no_h1": 0
     },
     "links": {
-      "internal_links": 1134,
-      "external_links": 195
+      "internal_links": 1149,
+      "external_links": 207
     },
     "media": {
-      "images": 168,
+      "images": 177,
       "images_missing_alt": 0,
       "videos": 2
     },
     "schema": {
-      "jsonld_posts": 70,
-      "faqpage_posts": 31,
+      "jsonld_posts": 71,
+      "faqpage_posts": 69,
       "posts_with_invalid_jsonld": 0
     },
     "warnings": 0,
@@ -454,22 +454,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Existe brinquedo automático que funciona bem para cães que ficam sozinhos?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual a diferença entre brinquedo automático para cachorro e para gato?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Brinquedo automático substitui o passeio do cão?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Que porte de cão se beneficia mais do brinquedo automático?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 11,
         "h1_count": 1,
-        "h2_count": 5,
-        "h3_count": 0,
+        "h2_count": 6,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 438,
-        "char_count": 2797,
-        "paragraph_count": 13,
+        "word_count": 609,
+        "char_count": 3885,
+        "paragraph_count": 17,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -581,19 +606,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 573
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1607
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -915,22 +949,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Vale a pena dar brinquedo interativo para gato idoso?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Por que gatos idosos brincam menos?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Quais brinquedos são mais indicados para gato idoso?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "O gato idoso precisa de incentivo do tutor para brincar?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 5,
+        "total": 10,
         "h1_count": 1,
-        "h2_count": 4,
-        "h3_count": 0,
+        "h2_count": 5,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 402,
-        "char_count": 2595,
-        "paragraph_count": 11,
+        "word_count": 582,
+        "char_count": 3807,
+        "paragraph_count": 15,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -1047,19 +1106,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 576
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1731
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -1106,22 +1174,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Brinquedo interativo de pilha ou recarregável: qual é melhor?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Vale a pena escolher brinquedo recarregável em vez de pilha?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Como saber que a bateria do brinquedo está acabando?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Pilha comum tem algum problema ambiental no brinquedo do gato?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 11,
         "h1_count": 1,
-        "h2_count": 5,
-        "h3_count": 0,
+        "h2_count": 6,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 447,
-        "char_count": 2893,
-        "paragraph_count": 12,
+        "word_count": 635,
+        "char_count": 4088,
+        "paragraph_count": 16,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 0,
@@ -1233,19 +1326,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 578
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1714
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -1292,22 +1394,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Como funciona o sensor infravermelho do brinquedo para gato?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Brinquedo com sensor infravermelho é melhor que movimento contínuo?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Por que o sensor do brinquedo aciona sozinho sem o gato por perto?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Onde posicionar o brinquedo para o sensor funcionar bem?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 11,
         "h1_count": 1,
-        "h2_count": 5,
-        "h3_count": 0,
+        "h2_count": 6,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 455,
-        "char_count": 2866,
-        "paragraph_count": 12,
+        "word_count": 643,
+        "char_count": 4066,
+        "paragraph_count": 16,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -1414,19 +1541,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 598
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1719
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -1468,22 +1604,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Brinquedo interativo automático substitui a brincadeira com o tutor?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "O que a brincadeira direta oferece que o brinquedo automático não oferece?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Para que serve então o brinquedo automático?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual a rotina ideal combinando brinquedo automático e brincadeira direta?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 5,
+        "total": 10,
         "h1_count": 1,
-        "h2_count": 4,
-        "h3_count": 0,
+        "h2_count": 5,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 418,
-        "char_count": 2660,
-        "paragraph_count": 11,
+        "word_count": 579,
+        "char_count": 3727,
+        "paragraph_count": 15,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -1590,19 +1751,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 588
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1586
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -1909,22 +2079,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Câmera pet ajuda na ansiedade de separação do cachorro?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "O que a câmera pet realmente faz pela ansiedade do cão?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "A câmera pet trata a ansiedade de separação?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Quais sinais nas gravações indicam que vale buscar ajuda profissional?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 5,
+        "total": 10,
         "h1_count": 1,
-        "h2_count": 4,
-        "h3_count": 0,
+        "h2_count": 5,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 438,
-        "char_count": 2683,
-        "paragraph_count": 11,
+        "word_count": 628,
+        "char_count": 3856,
+        "paragraph_count": 15,
         "list_count": 2,
         "table_count": 0,
         "blockquote_count": 0,
@@ -2031,19 +2226,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 545
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1692
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -2090,22 +2294,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Câmera pet com dispensador de petisco vale a pena?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "O dispensador de petisco da câmera substitui um comedouro automático?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qualquer petisco pode ser usado no dispensador da câmera?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Quando o dispensador de petisco da câmera pode ser custo desnecessário?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 11,
         "h1_count": 1,
-        "h2_count": 5,
-        "h3_count": 0,
+        "h2_count": 6,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 461,
-        "char_count": 2900,
-        "paragraph_count": 13,
+        "word_count": 642,
+        "char_count": 4037,
+        "paragraph_count": 17,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -2217,19 +2446,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 539
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1656
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -2281,22 +2519,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Câmera pet continua gravando sem internet?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "O que para de funcionar na câmera pet sem internet?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Que tipo de cartão SD usar na câmera pet?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Como recuperar as gravações depois que a internet voltar?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 7,
+        "total": 12,
         "h1_count": 1,
-        "h2_count": 6,
-        "h3_count": 0,
+        "h2_count": 7,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 471,
-        "char_count": 2847,
-        "paragraph_count": 13,
+        "word_count": 629,
+        "char_count": 3757,
+        "paragraph_count": 17,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -2403,19 +2666,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 533
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1429
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -2462,22 +2734,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "1080p ou 2K: qual resolução escolher para câmera pet?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Quando 1080p é suficiente para câmera pet?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Vale a pena pagar mais por resolução 2K?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Resolução maior consome mais dados e armazenamento?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 11,
         "h1_count": 1,
-        "h2_count": 5,
-        "h3_count": 0,
+        "h2_count": 6,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 459,
-        "char_count": 2695,
-        "paragraph_count": 13,
+        "word_count": 629,
+        "char_count": 3704,
+        "paragraph_count": 17,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -2589,19 +2886,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 532
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1528
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -2648,22 +2954,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Como funciona a visão noturna em câmera pet?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual o alcance real da visão noturna em câmera pet?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Por que a imagem da câmera fica em preto e branco à noite?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Como testar a visão noturna antes de comprar a câmera?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 11,
         "h1_count": 1,
-        "h2_count": 5,
-        "h3_count": 0,
+        "h2_count": 6,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 468,
-        "char_count": 2822,
-        "paragraph_count": 12,
+        "word_count": 651,
+        "char_count": 3886,
+        "paragraph_count": 16,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -2770,19 +3101,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 537
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1583
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -2829,22 +3169,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Câmera pet ou coleira GPS: qual escolher?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Câmera pet resolve o problema de fuga do animal?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Vale a pena ter câmera pet e coleira GPS ao mesmo tempo?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Se eu só puder comprar um agora, qual escolher?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 11,
         "h1_count": 1,
-        "h2_count": 5,
-        "h3_count": 0,
+        "h2_count": 6,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 458,
-        "char_count": 2743,
-        "paragraph_count": 14,
+        "word_count": 641,
+        "char_count": 3797,
+        "paragraph_count": 18,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 0,
@@ -2961,19 +3326,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 543
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1573
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -3299,22 +3673,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "O que é cerca virtual para cachorro?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Como configurar a cerca virtual na coleira GPS?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "A cerca virtual pode falhar?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Cerca virtual funciona também em coleiras GPS para gato?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 11,
         "h1_count": 1,
-        "h2_count": 5,
-        "h3_count": 0,
+        "h2_count": 6,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 625,
-        "char_count": 3708,
-        "paragraph_count": 17,
+        "word_count": 815,
+        "char_count": 4837,
+        "paragraph_count": 21,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -3441,19 +3840,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 522
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1648
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -3813,22 +4221,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Coleira GPS Bluetooth ou com chip de operadora: qual escolher?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual o alcance da coleira GPS Bluetooth?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Coleira GPS com chip de operadora tem mensalidade?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Coleira Bluetooth funciona sem sinal de celular?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 11,
         "h1_count": 1,
-        "h2_count": 5,
-        "h3_count": 0,
+        "h2_count": 6,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 579,
-        "char_count": 3505,
-        "paragraph_count": 19,
+        "word_count": 752,
+        "char_count": 4557,
+        "paragraph_count": 23,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 0,
@@ -3945,19 +4378,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 547
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1571
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -4004,22 +4446,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual o fator mais importante ao escolher coleira GPS para cão pequeno?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Quanto pesa um dispositivo GPS adequado para cão pequeno?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Cão de pequeno porte precisa de coleira GPS com chip de operadora?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Cão pequeno tem menos chance de fugir de casa?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 11,
         "h1_count": 1,
-        "h2_count": 5,
-        "h3_count": 0,
+        "h2_count": 6,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 586,
-        "char_count": 3521,
-        "paragraph_count": 14,
+        "word_count": 763,
+        "char_count": 4598,
+        "paragraph_count": 18,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -4136,19 +4603,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 544
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1596
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -4195,22 +4671,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual coleira GPS priorizar para cão que foge muito?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Cerca virtual é essencial para cão com histórico de fuga?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Cão pequeno também precisa de coleira GPS reforçada contra fuga?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "A coleira GPS resolve a causa da fuga do cão?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 11,
         "h1_count": 1,
-        "h2_count": 5,
-        "h3_count": 0,
+        "h2_count": 6,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 546,
-        "char_count": 3251,
-        "paragraph_count": 17,
+        "word_count": 768,
+        "char_count": 4610,
+        "paragraph_count": 21,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -4258,6 +4759,11 @@
           "type": "absolute"
         },
         {
+          "href": "https://smartpetgadgets.com.br/coleira-seresto-antipulgas/",
+          "anchor_text": "coleira antiparasitária Seresto vale a pena",
+          "type": "absolute"
+        },
+        {
           "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
           "anchor_text": "volte ao guia completo de coleira GPS para pet",
           "type": "absolute"
@@ -4300,7 +4806,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 15,
+      "internal_link_count": 16,
       "external_link_count": 1,
       "images": [
         {
@@ -4337,19 +4843,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 537
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1701
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -4362,8 +4877,8 @@
       "slug": "coleira-gps-para-gato",
       "url_path": "/coleira-gps-para-gato/",
       "page_type": "post",
-      "title": "Coleira GPS Funciona em Gatos? O Que Muda em Relação ao Cão",
-      "meta_description": "Como a coleira GPS se comporta em gatos: comportamento territorial, esconderijos, autonomia de bateria e o que muda em relação ao uso em cães.",
+      "title": "Qual a Melhor Coleira GPS para Gato em 2026? Guia de Escolha",
+      "meta_description": "Qual a melhor coleira GPS para gato: comparação por tecnologia, peso, bateria e engate de segurança, e o que muda em relação à coleira para cão.",
       "canonical": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
       "robots": null,
       "language": "pt-BR",
@@ -4371,7 +4886,12 @@
       "headings": [
         {
           "tag": "h1",
-          "text": "Coleira GPS Funciona em Gatos? O Que Muda em Relação ao Cão",
+          "text": "Qual a Melhor Coleira GPS para Gato em 2026?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Qual a Melhor Coleira GPS para Gato: Comparação por Tecnologia",
           "empty": false
         },
         {
@@ -4401,25 +4921,45 @@
         },
         {
           "tag": "h2",
-          "text": "Conclusão",
+          "text": "Conclusão: Como Decidir",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual a melhor coleira com GPS para gatos?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Existe coleira com GPS específica para gatos?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Coleira GPS para gato precisa de mensalidade?",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 7,
+        "total": 12,
         "h1_count": 1,
-        "h2_count": 6,
-        "h3_count": 0,
+        "h2_count": 8,
+        "h3_count": 3,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 687,
-        "char_count": 4008,
-        "paragraph_count": 15,
+        "word_count": 1233,
+        "char_count": 7282,
+        "paragraph_count": 25,
         "list_count": 1,
-        "table_count": 0,
-        "blockquote_count": 0,
+        "table_count": 1,
+        "blockquote_count": 1,
         "method": "texto de <body> após remover script/style/noscript/nav/header/svg; palavras = split por espaço em branco"
       },
       "internal_links": [
@@ -4486,6 +5026,31 @@
       ],
       "external_links": [
         {
+          "href": "https://meli.la/34kiQti",
+          "anchor_text": "",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://meli.la/34kiQti",
+          "anchor_text": "Bluetooth",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://meli.la/34kiQti",
+          "anchor_text": "NB-IoT (baixo consumo)",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://meli.la/34kiQti",
+          "anchor_text": "Chip de operadora",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://meli.la/34kiQti",
+          "anchor_text": "Mercado Livre — Coleira GPS para Gato",
+          "domain": "meli.la"
+        },
+        {
           "href": "https://blog.polipet.com.br/por-que-gatos-fogem-de-casa-veja-como-resolver-o-problema/",
           "anchor_text": "Polipet",
           "domain": "blog.polipet.com.br"
@@ -4502,7 +5067,7 @@
         }
       ],
       "internal_link_count": 12,
-      "external_link_count": 3,
+      "external_link_count": 8,
       "images": [
         {
           "src": "img/coleira-gps-para-gato-hero.jpg",
@@ -4529,7 +5094,7 @@
           "types": [
             "BlogPosting"
           ],
-          "raw_length": 868
+          "raw_length": 871
         },
         {
           "valid": true,
@@ -4537,20 +5102,29 @@
           "types": [
             "BreadcrumbList"
           ],
-          "raw_length": 519
+          "raw_length": 524
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1668
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 3
       },
       "cluster": null,
       "category": null,
@@ -4670,8 +5244,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1563,
-        "char_count": 9476,
+        "word_count": 1606,
+        "char_count": 9725,
         "paragraph_count": 40,
         "list_count": 1,
         "table_count": 1,
@@ -4706,7 +5280,7 @@
         },
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
-          "anchor_text": "coleira GPS funciona em gatos? o que muda em relação ao cão",
+          "anchor_text": "qual a melhor coleira GPS para gato — comparação por tecnologia e o que muda em relação ao cão",
           "type": "absolute"
         },
         {
@@ -4737,6 +5311,11 @@
         {
           "href": "https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/",
           "anchor_text": "quando a câmera resolve e quando a coleira GPS é a escolha certa",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/coleira-seresto-antipulgas/",
+          "anchor_text": "coleira Seresto contra pulgas e carrapatos vale a pena",
           "type": "absolute"
         },
         {
@@ -4787,7 +5366,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 19,
+      "internal_link_count": 20,
       "external_link_count": 2,
       "images": [
         {
@@ -4892,22 +5471,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual a diferença entre coleira GPS e microchip?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "O microchip localiza o pet como um GPS?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Microchip é obrigatório para cães e gatos no Brasil?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Vale a pena usar coleira GPS e microchip ao mesmo tempo?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 11,
         "h1_count": 1,
-        "h2_count": 5,
-        "h3_count": 0,
+        "h2_count": 6,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 608,
-        "char_count": 3669,
-        "paragraph_count": 15,
+        "word_count": 793,
+        "char_count": 4730,
+        "paragraph_count": 19,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 0,
@@ -5034,19 +5638,355 @@
             "BreadcrumbList"
           ],
           "raw_length": 515
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1580
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
+      },
+      "cluster": null,
+      "category": null,
+      "author": null,
+      "date_published": null,
+      "date_modified": null
+    },
+    {
+      "path": "coleira-seresto-antipulgas/index.html",
+      "slug": "coleira-seresto-antipulgas",
+      "url_path": "/coleira-seresto-antipulgas/",
+      "page_type": "post",
+      "title": "Coleira Seresto Antipulgas e Carrapatos: Vale a Pena?",
+      "meta_description": "Análise da coleira Seresto (Elanco) para cães acima de 8kg: como funciona, o que dizem 5.501 avaliações no Mercado Livre, prós, contras e se vale a pena.",
+      "canonical": "https://smartpetgadgets.com.br/coleira-seresto-antipulgas/",
+      "robots": null,
+      "language": "pt-BR",
+      "charset": "UTF-8",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Coleira Seresto Antipulgas e Carrapatos: Vale a Pena?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "O Que É e Como Funciona a Coleira Seresto",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Especificações Técnicas",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Proteção e Resistência à Água",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Ajuste e Mecanismo de Segurança",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "O Que os Compradores Dizem (Avaliações Reais)",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Fotos Enviadas por Compradores",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Prós e Contras",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Vale a Pena Comprar?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Acessórios Complementares para Cães Que Saem de Casa",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "A coleira Seresto realmente funciona contra pulgas e carrapatos?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "A coleira Seresto tem cheiro forte ou solta pó?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Quanto tempo dura a coleira Seresto?",
+          "empty": false
+        }
+      ],
+      "heading_summary": {
+        "total": 14,
+        "h1_count": 1,
+        "h2_count": 9,
+        "h3_count": 4,
+        "h4_count": 0
+      },
+      "structural_warnings": [],
+      "content": {
+        "word_count": 1422,
+        "char_count": 8756,
+        "paragraph_count": 30,
+        "list_count": 0,
+        "table_count": 2,
+        "blockquote_count": 1,
+        "method": "texto de <body> após remover script/style/noscript/nav/header/svg; palavras = split por espaço em branco"
+      },
+      "internal_links": [
+        {
+          "href": "https://smartpetgadgets.com.br/",
+          "anchor_text": "Início",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/autores/nildo-alves/",
+          "anchor_text": "Nildo Alves",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
+          "anchor_text": "guia completo de coleira GPS para pet",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/coleira-gps-cachorro-que-foge/",
+          "anchor_text": "coleira GPS para cachorro que foge muito",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/sobre/",
+          "anchor_text": "Equipe Smart Pet Gadgets",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/politica-editorial/",
+          "anchor_text": "política editorial",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/autores/nildo-alves/",
+          "anchor_text": "Nildo Alves",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/sobre/",
+          "anchor_text": "Sobre o Smart Pet Gadgets",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/contato/",
+          "anchor_text": "Contato",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/politica-editorial/",
+          "anchor_text": "Política editorial e de afiliados",
+          "type": "absolute"
+        }
+      ],
+      "external_links": [
+        {
+          "href": "https://meli.la/2UxsGcv",
+          "anchor_text": "",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://www.mercadolivre.com.br/coleira-antipulgas-e-carrapatos-seresto-acima-de-8kg-elanco/p/MLB15982842",
+          "anchor_text": "Mercado Livre — Coleira Seresto Acima de 8kg Elanco",
+          "domain": "mercadolivre.com.br"
+        },
+        {
+          "href": "https://www.mercadolivre.com.br/coleira-antipulgas-e-carrapatos-seresto-acima-de-8kg-elanco/p/MLB15982842",
+          "anchor_text": "Mercado Livre — ficha técnica do produto",
+          "domain": "mercadolivre.com.br"
+        },
+        {
+          "href": "https://www.mercadolivre.com.br/coleira-antipulgas-e-carrapatos-seresto-acima-de-8kg-elanco/p/MLB15982842#reviews",
+          "anchor_text": "avaliações do produto no Mercado Livre",
+          "domain": "mercadolivre.com.br"
+        },
+        {
+          "href": "https://www.mercadolivre.com.br/coleira-antipulgas-e-carrapatos-seresto-acima-de-8kg-elanco/p/MLB15982842#reviews",
+          "anchor_text": "fonte",
+          "domain": "mercadolivre.com.br"
+        },
+        {
+          "href": "https://meli.la/2UxsGcv",
+          "anchor_text": "Ver no Mercado Livre →",
+          "domain": "meli.la"
+        }
+      ],
+      "internal_link_count": 10,
+      "external_link_count": 6,
+      "images": [
+        {
+          "src": "img/coleira-seresto-hero.webp",
+          "alt": "Embalagem da coleira antipulgas e carrapatos Seresto da Elanco para cães acima de 8kg",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "1000",
+          "height": "1000",
+          "loading": "eager",
+          "format": "webp"
+        },
+        {
+          "src": "img/coleira-seresto-mecanismo.webp",
+          "alt": "Infográfico do fabricante Elanco mostrando o mecanismo de liberação lenta dos ativos da coleira Seresto",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "1200",
+          "height": "1200",
+          "loading": "lazy",
+          "format": "webp"
+        },
+        {
+          "src": "img/coleira-seresto-resistente-agua.webp",
+          "alt": "Cão molhado usando coleira Seresto, ilustrando resistência à água segundo o fabricante",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "1200",
+          "height": "1200",
+          "loading": "lazy",
+          "format": "webp"
+        },
+        {
+          "src": "img/coleira-seresto-ajuste-seguranca.webp",
+          "alt": "Infográfico do fabricante mostrando os três passos para ajustar a coleira Seresto no pescoço do cão",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "1099",
+          "height": "1200",
+          "loading": "lazy",
+          "format": "webp"
+        },
+        {
+          "src": "img/avaliacao-comprador-1.webp",
+          "alt": "Foto enviada por comprador: cão usando a coleira Seresto",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "675",
+          "height": "1200",
+          "loading": "lazy",
+          "format": "webp"
+        },
+        {
+          "src": "img/avaliacao-comprador-2.webp",
+          "alt": "Foto enviada por comprador: cão ao lado da embalagem da coleira Seresto",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "753",
+          "height": "1200",
+          "loading": "lazy",
+          "format": "webp"
+        },
+        {
+          "src": "img/avaliacao-comprador-3.webp",
+          "alt": "Foto enviada por comprador: cão usando a coleira Seresto de perfil",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "900",
+          "height": "1200",
+          "loading": "lazy",
+          "format": "webp"
+        },
+        {
+          "src": "img/avaliacao-comprador-4.webp",
+          "alt": "Foto enviada por comprador: cão usando a coleira Seresto no colo do tutor",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "675",
+          "height": "1200",
+          "loading": "lazy",
+          "format": "webp"
+        }
+      ],
+      "image_count": 8,
+      "images_missing_alt": 0,
+      "images_empty_alt": 0,
+      "videos": [],
+      "video_count": 0,
+      "has_video": false,
+      "schemas": [
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "BlogPosting"
+          ],
+          "raw_length": 878
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "BreadcrumbList"
+          ],
+          "raw_length": 380
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1408
+        }
+      ],
+      "schema_types": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "schema_count": 3,
+      "schema_invalid_count": 0,
+      "faq": {
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 3
       },
       "cluster": null,
       "category": null,
@@ -5880,7 +6820,7 @@
       "slug": "comedouro-automatico-para-dois-gatos",
       "url_path": "/comedouro-automatico-para-dois-gatos/",
       "page_type": "post",
-      "title": "Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida",
+      "title": "Comedouro Automático para Dois Gatos: Evite Brigas",
       "meta_description": "Descubra como usar um comedouro automático para dois gatos, organizar porções e horários e reduzir disputas pela comida com uma rotina mais tranquila.",
       "canonical": "https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/",
       "robots": null,
@@ -5889,7 +6829,7 @@
       "headings": [
         {
           "tag": "h1",
-          "text": "Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida",
+          "text": "Comedouro Automático para Dois Gatos: Evite Brigas",
           "empty": false
         },
         {
@@ -5977,8 +6917,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1439,
-        "char_count": 8845,
+        "word_count": 1434,
+        "char_count": 8821,
         "paragraph_count": 32,
         "list_count": 0,
         "table_count": 0,
@@ -6044,6 +6984,11 @@
       ],
       "external_links": [
         {
+          "href": "https://meli.la/2hiYAmt",
+          "anchor_text": "",
+          "domain": "meli.la"
+        },
+        {
           "href": "https://hospitalveterinariosaude.com.br/gato-roubando-comida/",
           "anchor_text": "Hospital Veterinário Saúde",
           "domain": "hospitalveterinariosaude.com.br"
@@ -6080,7 +7025,7 @@
         }
       ],
       "internal_link_count": 11,
-      "external_link_count": 7,
+      "external_link_count": 8,
       "images": [
         {
           "src": "img/comedouro-automatico-para-dois-gatos-hero.jpg",
@@ -6107,7 +7052,7 @@
           "types": [
             "BlogPosting"
           ],
-          "raw_length": 964
+          "raw_length": 940
         },
         {
           "valid": true,
@@ -6115,7 +7060,7 @@
           "types": [
             "BreadcrumbList"
           ],
-          "raw_length": 569
+          "raw_length": 545
         },
         {
           "valid": true,
@@ -9149,22 +10094,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Por que a câmera pet não conecta ao Wi-Fi?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "O que acontece se eu trocar a senha do Wi-Fi depois de configurar a câmera?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Que cartão SD usar ao configurar a câmera pet?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Outros aparelhos podem atrapalhar a conexão da câmera pet?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 4,
+        "total": 9,
         "h1_count": 1,
-        "h2_count": 3,
-        "h3_count": 0,
+        "h2_count": 4,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 413,
-        "char_count": 2452,
-        "paragraph_count": 10,
+        "word_count": 557,
+        "char_count": 3304,
+        "paragraph_count": 14,
         "list_count": 2,
         "table_count": 0,
         "blockquote_count": 0,
@@ -9276,19 +10246,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 542
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1371
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -9330,22 +10309,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Quais são os sinais de que o gato está entediado?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual brinquedo interativo escolher para gato sedentário?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "O preço do brinquedo importa mais que a frequência de uso?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Como escolher o brinquedo certo para gato com comportamento destrutivo?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 5,
+        "total": 10,
         "h1_count": 1,
-        "h2_count": 4,
-        "h3_count": 0,
+        "h2_count": 5,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 411,
-        "char_count": 2760,
-        "paragraph_count": 11,
+        "word_count": 577,
+        "char_count": 3850,
+        "paragraph_count": 15,
         "list_count": 1,
         "table_count": 1,
         "blockquote_count": 0,
@@ -9457,19 +10461,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 586
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1609
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -9531,22 +10544,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Como funciona a coleira GPS para cachorro?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual a margem de erro do GPS por satélite na coleira do cachorro?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Por que a localização da coleira GPS demora para atualizar?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "A coleira GPS funciona em qualquer lugar?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 9,
+        "total": 14,
         "h1_count": 1,
-        "h2_count": 5,
-        "h3_count": 3,
+        "h2_count": 6,
+        "h3_count": 7,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 677,
-        "char_count": 4026,
-        "paragraph_count": 19,
+        "word_count": 872,
+        "char_count": 5193,
+        "paragraph_count": 23,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -9668,19 +10706,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 543
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1686
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -9727,22 +10774,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Como instalar uma porta eletrônica para pet?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "É difícil instalar porta eletrônica em porta de vidro?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Instalar em madeira ou alumínio é mais simples que em vidro?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Quais os erros mais comuns na instalação de porta eletrônica para pet?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 11,
         "h1_count": 1,
-        "h2_count": 5,
-        "h3_count": 0,
+        "h2_count": 6,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 490,
-        "char_count": 2938,
-        "paragraph_count": 14,
+        "word_count": 675,
+        "char_count": 4072,
+        "paragraph_count": 18,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -9859,19 +10931,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 561
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1653
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -11559,22 +12640,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual o erro mais comum ao comprar brinquedo interativo para gato?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Por que meu gato perdeu o interesse no brinquedo interativo?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "O tipo de piso da casa afeta o funcionamento do brinquedo?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Brinquedo interativo automático substitui a brincadeira com o tutor?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 7,
+        "total": 12,
         "h1_count": 1,
-        "h2_count": 6,
-        "h3_count": 0,
+        "h2_count": 7,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 437,
-        "char_count": 2714,
-        "paragraph_count": 17,
+        "word_count": 594,
+        "char_count": 3696,
+        "paragraph_count": 21,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -11696,19 +12802,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 572
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1501
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -11760,22 +12875,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual o erro mais comum ao configurar câmera pet?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Por que a câmera pet ficou offline depois que troquei o Wi-Fi?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Que cartão SD evitar na câmera pet?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "A distância entre a câmera e o roteador afeta a conexão?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 7,
+        "total": 12,
         "h1_count": 1,
-        "h2_count": 6,
-        "h3_count": 0,
+        "h2_count": 7,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 404,
-        "char_count": 2436,
-        "paragraph_count": 16,
+        "word_count": 557,
+        "char_count": 3302,
+        "paragraph_count": 20,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -11892,19 +13032,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 538
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1385
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -11961,22 +13110,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Por que a bateria da coleira GPS acaba tão rápido?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Por que a coleira GPS demora para atualizar a localização?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Coleira GPS funciona em qualquer região?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "O que verificar antes de comprar uma coleira GPS?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 8,
+        "total": 13,
         "h1_count": 1,
-        "h2_count": 7,
-        "h3_count": 0,
+        "h2_count": 8,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 615,
-        "char_count": 3738,
-        "paragraph_count": 18,
+        "word_count": 810,
+        "char_count": 4862,
+        "paragraph_count": 22,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -12103,19 +13277,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 535
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1643
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -12167,22 +13350,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual o erro mais comum ao instalar porta eletrônica para pet?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Preciso testar o sistema de identificação antes de usar a porta?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Posso instalar um modelo de madeira em porta de vidro?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Preciso cadastrar todos os pets da casa na porta eletrônica?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 7,
+        "total": 12,
         "h1_count": 1,
-        "h2_count": 6,
-        "h3_count": 0,
+        "h2_count": 7,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 452,
-        "char_count": 2677,
-        "paragraph_count": 17,
+        "word_count": 616,
+        "char_count": 3647,
+        "paragraph_count": 21,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -12304,19 +13512,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 563
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1489
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -12503,7 +13720,12 @@
         },
         {
           "tag": "h3",
-          "text": "Coleira GPS Funciona em Gatos? O Que Muda em Relação ao Cão",
+          "text": "Qual a Melhor Coleira GPS para Gato em 2026?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Coleira Seresto Antipulgas e Carrapatos: Vale a Pena?",
           "empty": false
         },
         {
@@ -12703,17 +13925,17 @@
         }
       ],
       "heading_summary": {
-        "total": 73,
+        "total": 74,
         "h1_count": 1,
         "h2_count": 1,
-        "h3_count": 71,
+        "h3_count": 72,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 2454,
-        "char_count": 15647,
-        "paragraph_count": 73,
+        "word_count": 2485,
+        "char_count": 15856,
+        "paragraph_count": 74,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -13172,11 +14394,26 @@
         },
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
-          "anchor_text": "Coleira GPS Funciona em Gatos? O Que Muda em Relação ao Cão",
+          "anchor_text": "Qual a Melhor Coleira GPS para Gato em 2026?",
           "type": "absolute"
         },
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
+          "anchor_text": "Ler artigo completo →",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/coleira-seresto-antipulgas/",
+          "anchor_text": "",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/coleira-seresto-antipulgas/",
+          "anchor_text": "Coleira Seresto Antipulgas e Carrapatos: Vale a Pena?",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/coleira-seresto-antipulgas/",
           "anchor_text": "Ler artigo completo →",
           "type": "absolute"
         },
@@ -13792,7 +15029,7 @@
         }
       ],
       "external_links": [],
-      "internal_link_count": 214,
+      "internal_link_count": 217,
       "external_link_count": 0,
       "images": [
         {
@@ -14124,6 +15361,17 @@
           "height": null,
           "loading": "lazy",
           "format": "jpg"
+        },
+        {
+          "src": "https://smartpetgadgets.com.br/coleira-seresto-antipulgas/img/coleira-seresto-hero.webp",
+          "alt": "Embalagem da coleira antipulgas e carrapatos Seresto da Elanco para cães acima de 8kg",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": null,
+          "height": null,
+          "loading": "lazy",
+          "format": "webp"
         },
         {
           "src": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/img/cerca-virtual-para-cachorro-hero.jpg",
@@ -14555,7 +15803,7 @@
           "format": "jpg"
         }
       ],
-      "image_count": 69,
+      "image_count": 70,
       "images_missing_alt": 0,
       "images_empty_alt": 0,
       "videos": [],
@@ -15206,22 +16454,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual a melhor bolinha inteligente para gato?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual modo de movimento escolher conforme o piso?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Quanto custa uma bolinha inteligente para gato?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Bolinha inteligente serve para gato idoso?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 7,
+        "total": 12,
         "h1_count": 1,
-        "h2_count": 6,
-        "h3_count": 0,
+        "h2_count": 7,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 452,
-        "char_count": 2697,
-        "paragraph_count": 15,
+        "word_count": 606,
+        "char_count": 3630,
+        "paragraph_count": 19,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -15333,19 +16606,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 570
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1452
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -15392,22 +16674,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual a melhor câmera para monitorar pet?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual câmera pet tem melhor custo-benefício?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual câmera pet tem mais recursos interativos?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual câmera pet tem melhor visão noturna?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 11,
         "h1_count": 1,
-        "h2_count": 5,
-        "h3_count": 0,
+        "h2_count": 6,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 406,
-        "char_count": 2614,
-        "paragraph_count": 13,
+        "word_count": 553,
+        "char_count": 3531,
+        "paragraph_count": 17,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 0,
@@ -15519,19 +16826,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 537
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1436
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -15578,22 +16894,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Como funciona uma coleira GPS sem mensalidade?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Coleira \"sem mensalidade\" pode ter outras cobranças escondidas?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "O que checar antes de comprar coleira GPS sem mensalidade?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Coleira sem mensalidade resolve para cão que foge para longe?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 11,
         "h1_count": 1,
-        "h2_count": 5,
-        "h3_count": 0,
+        "h2_count": 6,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 659,
-        "char_count": 4099,
-        "paragraph_count": 15,
+        "word_count": 832,
+        "char_count": 5179,
+        "paragraph_count": 19,
         "list_count": 1,
         "table_count": 1,
         "blockquote_count": 0,
@@ -15715,19 +17056,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 536
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1599
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -15779,22 +17129,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual o melhor comedouro automático para cachorro?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Quanto custa um comedouro automático de entrada para cachorro?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Comedouro automático com Wi-Fi vale a pena?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Cães de porte grande precisam de cuidado extra com comedouro automático?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 7,
+        "total": 12,
         "h1_count": 1,
-        "h2_count": 6,
-        "h3_count": 0,
+        "h2_count": 7,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 854,
-        "char_count": 5169,
-        "paragraph_count": 25,
+        "word_count": 1036,
+        "char_count": 6266,
+        "paragraph_count": 29,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 1,
@@ -15941,19 +17316,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 547
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1616
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -16000,22 +17384,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Como funciona o comedouro interativo para gato?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Quais os benefícios do comedouro interativo para gato?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual a diferença entre comedouro interativo e brinquedo interativo comum?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Comedouro interativo funciona com ração úmida?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 11,
         "h1_count": 1,
-        "h2_count": 5,
-        "h3_count": 0,
+        "h2_count": 6,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 457,
-        "char_count": 2960,
-        "paragraph_count": 14,
+        "word_count": 604,
+        "char_count": 3983,
+        "paragraph_count": 18,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -16137,19 +17546,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 572
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1542
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -16737,22 +18155,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Porta eletrônica para pet funciona em porta de vidro?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Existe porta eletrônica para vidro sem precisar cortar?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Vidro temperado pode ser cortado para instalar porta pet?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Quando o corte no vidro é realmente necessário?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 11,
         "h1_count": 1,
-        "h2_count": 5,
-        "h3_count": 0,
+        "h2_count": 6,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 423,
-        "char_count": 2575,
-        "paragraph_count": 14,
+        "word_count": 591,
+        "char_count": 3623,
+        "paragraph_count": 18,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -16864,19 +18307,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 566
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1567
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -16918,22 +18370,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual a diferença entre porta eletrônica para gato e para cachorro?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual o tamanho de vão ideal para porta pet?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Cães precisam de porta eletrônica mais resistente que gatos?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Como escolher a porta certa se a casa tem gato e cachorro?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 5,
+        "total": 10,
         "h1_count": 1,
-        "h2_count": 4,
-        "h3_count": 0,
+        "h2_count": 5,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 432,
-        "char_count": 2579,
-        "paragraph_count": 14,
+        "word_count": 601,
+        "char_count": 3570,
+        "paragraph_count": 18,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -17050,19 +18527,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 571
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1510
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -17109,22 +18595,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Porta eletrônica para pet impede a entrada de outros animais?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Quais tecnologias impedem a entrada de animais não cadastrados?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Porta com sensor de luz também impede a entrada de outros animais?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "O que fazer se um animal insistir em entrar mesmo sem estar cadastrado?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 11,
         "h1_count": 1,
-        "h2_count": 5,
-        "h3_count": 0,
+        "h2_count": 6,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 444,
-        "char_count": 2785,
-        "paragraph_count": 14,
+        "word_count": 616,
+        "char_count": 3871,
+        "paragraph_count": 18,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -17241,19 +18752,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 571
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1605
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -17305,22 +18825,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Porta eletrônica: microchip ou medalhão RFID na coleira?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Como funciona a leitura de microchip na porta eletrônica?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Quantos pets a porta eletrônica consegue reconhecer?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Dá para usar microchip e medalhão RFID na mesma porta?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 7,
+        "total": 12,
         "h1_count": 1,
-        "h2_count": 6,
-        "h3_count": 0,
+        "h2_count": 7,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 455,
-        "char_count": 2845,
-        "paragraph_count": 14,
+        "word_count": 605,
+        "char_count": 3791,
+        "paragraph_count": 18,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 0,
@@ -17432,19 +18977,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 570
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1465
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -17491,22 +19045,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Porta eletrônica com reconhecimento facial vale a pena?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Como funciona o reconhecimento facial em porta eletrônica para pet?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Reconhecimento facial funciona bem à noite?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Mudanças visuais no pet afetam o reconhecimento facial?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 11,
         "h1_count": 1,
-        "h2_count": 5,
-        "h3_count": 0,
+        "h2_count": 6,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 430,
-        "char_count": 2731,
-        "paragraph_count": 13,
+        "word_count": 577,
+        "char_count": 3738,
+        "paragraph_count": 17,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -17618,19 +19197,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 579
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1526
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -17677,22 +19265,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Como funciona a porta eletrônica com sensor de luz?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Porta com sensor de luz impede a entrada de outros animais?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Quando vale a pena escolher porta com sensor de luz?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Porta com sensor de luz é mais barata que com microchip ou RFID?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 11,
         "h1_count": 1,
-        "h2_count": 5,
-        "h3_count": 0,
+        "h2_count": 6,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 440,
-        "char_count": 2648,
-        "paragraph_count": 14,
+        "word_count": 608,
+        "char_count": 3630,
+        "paragraph_count": 18,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -17804,19 +19417,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 575
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1501
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -17863,22 +19485,47 @@
         },
         {
           "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Porta eletrônica ou alçapão tradicional: qual escolher?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Alçapão tradicional impede a entrada de outros animais?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Quando ainda vale a pena usar alçapão tradicional?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Dá para trocar o alçapão por porta eletrônica depois?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 6,
+        "total": 11,
         "h1_count": 1,
-        "h2_count": 5,
-        "h3_count": 0,
+        "h2_count": 6,
+        "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 469,
-        "char_count": 2937,
-        "paragraph_count": 13,
+        "word_count": 631,
+        "char_count": 3923,
+        "paragraph_count": 17,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 0,
@@ -17990,19 +19637,28 @@
             "BreadcrumbList"
           ],
           "raw_length": 566
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1505
         }
       ],
       "schema_types": [
         "BlogPosting",
-        "BreadcrumbList"
+        "BreadcrumbList",
+        "FAQPage"
       ],
-      "schema_count": 2,
+      "schema_count": 3,
       "schema_invalid_count": 0,
       "faq": {
-        "detected": false,
-        "schema_detected": false,
-        "heading_detected": false,
-        "question_count": 0
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
