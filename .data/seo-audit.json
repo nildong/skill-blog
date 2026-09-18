@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "generated_at": "2026-09-15T17:35:40.267Z",
+  "generated_at": "2026-09-18T17:03:06.634Z",
   "site": {
     "total_pages": 75,
-    "source_index_generated_at": "2026-09-15T17:35:37.229Z"
+    "source_index_generated_at": "2026-09-18T17:02:58.307Z"
   },
   "summary": {
     "critical": 0,
     "errors": 0,
-    "warnings": 2,
-    "info": 11
+    "warnings": 1,
+    "info": 10
   },
   "categories": {
     "technical": {
@@ -57,14 +57,14 @@
     "schema": {
       "critical": 0,
       "error": 0,
-      "warning": 1,
+      "warning": 0,
       "info": 3
     },
     "faq": {
       "critical": 0,
       "error": 0,
       "warning": 1,
-      "info": 1
+      "info": 0
     },
     "site_structure": {
       "critical": 0,
@@ -681,9 +681,9 @@
       "path": "politica-de-privacidade/index.html",
       "url": "/politica-de-privacidade/",
       "slug": "politica-de-privacidade",
-      "page_type": "post",
+      "page_type": "institutional",
       "title": "Política de Privacidade — Smart Pet Gadgets",
-      "status": "warning",
+      "status": "pass",
       "issues": [
         {
           "id": "IMAGE_DIMENSIONS_MISSING",
@@ -691,20 +691,6 @@
           "severity": "INFO",
           "evidence": "Nenhuma imagem da página declara width/height",
           "recommendation": "Considerar declarar width/height (ou aspect-ratio via CSS) para reduzir Cumulative Layout Shift."
-        },
-        {
-          "id": "JSONLD_MISSING",
-          "category": "schema",
-          "severity": "WARNING",
-          "evidence": "Nenhum bloco JSON-LD encontrado na página",
-          "recommendation": "Adicionar structured data apropriado ao tipo de página (BlogPosting para posts, Organization/WebSite para institucionais)."
-        },
-        {
-          "id": "FAQ_OPPORTUNITY",
-          "category": "faq",
-          "severity": "INFO",
-          "evidence": "Nenhum FAQ detectado nesta página",
-          "recommendation": "Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo."
         }
       ]
     },

@@ -1,6 +1,6 @@
 # SEO Audit
 
-**Gerado em:** 2026-09-15T17:35:40.267Z
+**Gerado em:** 2026-09-18T17:03:06.634Z
 
 ## Summary
 
@@ -8,21 +8,21 @@ Total de páginas: 75
 
 🔴 Critical: 0
 🟠 Errors: 0
-🟡 Warnings: 2
-🔵 Info: 11
+🟡 Warnings: 1
+🔵 Info: 10
 
 ### Top Priorities
 
 1. **FAQ_HEADING_WITHOUT_SCHEMA** (WARNING, faq) — `/` — Heading menciona FAQ/perguntas frequentes, mas não há schema FAQPage correspondente
-2. **JSONLD_MISSING** (WARNING, schema) — `/politica-de-privacidade/` — Nenhum bloco JSON-LD encontrado na página
-3. **IMAGE_DIMENSIONS_MISSING** (INFO, images) — `/autores/nildo-alves/` — Nenhuma imagem da página declara width/height
-4. **LOW_INTERNAL_LINKS** (INFO, internal_links) — `/contato/` — Apenas 3 links internos de saída
-5. **IMAGE_DIMENSIONS_MISSING** (INFO, images) — `/contato/` — Nenhuma imagem da página declara width/height
-6. **JSONLD_MISSING** (INFO, schema) — `/contato/` — Nenhum bloco JSON-LD encontrado na página
-7. **IMAGE_COUNT_HIGH** (INFO, images) — `/` — 70 imagens na página (acima de 15)
-8. **IMAGE_DIMENSIONS_MISSING** (INFO, images) — `/politica-de-privacidade/` — Nenhuma imagem da página declara width/height
-9. **FAQ_OPPORTUNITY** (INFO, faq) — `/politica-de-privacidade/` — Nenhum FAQ detectado nesta página
-10. **IMAGE_DIMENSIONS_MISSING** (INFO, images) — `/politica-editorial/` — Nenhuma imagem da página declara width/height
+2. **IMAGE_DIMENSIONS_MISSING** (INFO, images) — `/autores/nildo-alves/` — Nenhuma imagem da página declara width/height
+3. **LOW_INTERNAL_LINKS** (INFO, internal_links) — `/contato/` — Apenas 3 links internos de saída
+4. **IMAGE_DIMENSIONS_MISSING** (INFO, images) — `/contato/` — Nenhuma imagem da página declara width/height
+5. **JSONLD_MISSING** (INFO, schema) — `/contato/` — Nenhum bloco JSON-LD encontrado na página
+6. **IMAGE_COUNT_HIGH** (INFO, images) — `/` — 70 imagens na página (acima de 15)
+7. **IMAGE_DIMENSIONS_MISSING** (INFO, images) — `/politica-de-privacidade/` — Nenhuma imagem da página declara width/height
+8. **IMAGE_DIMENSIONS_MISSING** (INFO, images) — `/politica-editorial/` — Nenhuma imagem da página declara width/height
+9. **JSONLD_MISSING** (INFO, schema) — `/politica-editorial/` — Nenhum bloco JSON-LD encontrado na página
+10. **IMAGE_DIMENSIONS_MISSING** (INFO, images) — `/sobre/` — Nenhuma imagem da página declara width/height
 
 ## Critical Issues
 
@@ -37,9 +37,6 @@ Nenhum item nesta severidade.
 - **FAQ_HEADING_WITHOUT_SCHEMA** (faq) — `/`
   - Evidência: Heading menciona FAQ/perguntas frequentes, mas não há schema FAQPage correspondente
   - Recomendação: Adicionar JSON-LD FAQPage para tornar o conteúdo elegível a rich results de FAQ.
-- **JSONLD_MISSING** (schema) — `/politica-de-privacidade/`
-  - Evidência: Nenhum bloco JSON-LD encontrado na página
-  - Recomendação: Adicionar structured data apropriado ao tipo de página (BlogPosting para posts, Organization/WebSite para institucionais).
 
 ## Opportunities (Info)
 
@@ -61,9 +58,6 @@ Nenhum item nesta severidade.
 - **IMAGE_DIMENSIONS_MISSING** (images) — `/politica-de-privacidade/`
   - Evidência: Nenhuma imagem da página declara width/height
   - Recomendação: Considerar declarar width/height (ou aspect-ratio via CSS) para reduzir Cumulative Layout Shift.
-- **FAQ_OPPORTUNITY** (faq) — `/politica-de-privacidade/`
-  - Evidência: Nenhum FAQ detectado nesta página
-  - Recomendação: Avaliar se um bloco de perguntas frequentes com schema FAQPage agregaria valor a este conteúdo.
 - **IMAGE_DIMENSIONS_MISSING** (images) — `/politica-editorial/`
   - Evidência: Nenhuma imagem da página declara width/height
   - Recomendação: Considerar declarar width/height (ou aspect-ratio via CSS) para reduzir Cumulative Layout Shift.
@@ -88,8 +82,8 @@ Nenhum item nesta severidade.
 | internal_links | 0 | 0 | 0 | 1 |
 | images | 0 | 0 | 0 | 6 |
 | media | 0 | 0 | 0 | 0 |
-| schema | 0 | 0 | 1 | 3 |
-| faq | 0 | 0 | 1 | 1 |
+| schema | 0 | 0 | 0 | 3 |
+| faq | 0 | 0 | 1 | 0 |
 | site_structure | 0 | 0 | 0 | 0 |
 
 ## Site Structure
@@ -124,14 +118,12 @@ Nenhum item encontrado nesta categoria.
 ## Schema
 
 - 🔵 **JSONLD_MISSING** — `/contato/` — Nenhum bloco JSON-LD encontrado na página
-- 🟡 **JSONLD_MISSING** — `/politica-de-privacidade/` — Nenhum bloco JSON-LD encontrado na página
 - 🔵 **JSONLD_MISSING** — `/politica-editorial/` — Nenhum bloco JSON-LD encontrado na página
 - 🔵 **JSONLD_MISSING** — `/sobre/` — Nenhum bloco JSON-LD encontrado na página
 
 ## FAQ
 
 - 🟡 **FAQ_HEADING_WITHOUT_SCHEMA** — `/` — Heading menciona FAQ/perguntas frequentes, mas não há schema FAQPage correspondente
-- 🔵 **FAQ_OPPORTUNITY** — `/politica-de-privacidade/` — Nenhum FAQ detectado nesta página
 
 ## Media
 

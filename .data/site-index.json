@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-15T17:35:37.229Z",
+  "generated_at": "2026-09-18T17:02:58.307Z",
   "site": {
     "root": "/home/projetos/blog",
     "total_html_files_found": 75,
@@ -29,7 +29,7 @@
       "videos": 2
     },
     "schema": {
-      "jsonld_posts": 71,
+      "jsonld_posts": 72,
       "faqpage_posts": 69,
       "posts_with_invalid_jsonld": 0
     },
@@ -17579,7 +17579,7 @@
       "path": "politica-de-privacidade/index.html",
       "slug": "politica-de-privacidade",
       "url_path": "/politica-de-privacidade/",
-      "page_type": "post",
+      "page_type": "institutional",
       "title": "Política de Privacidade — Smart Pet Gadgets",
       "meta_description": "Como o Smart Pet Gadgets coleta, usa e protege dados de visitantes, incluindo cookies, links de afiliados e serviços de terceiros.",
       "canonical": "https://smartpetgadgets.com.br/politica-de-privacidade/",
@@ -17710,9 +17710,20 @@
       "videos": [],
       "video_count": 0,
       "has_video": false,
-      "schemas": [],
-      "schema_types": [],
-      "schema_count": 0,
+      "schemas": [
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "WebPage"
+          ],
+          "raw_length": 674
+        }
+      ],
+      "schema_types": [
+        "WebPage"
+      ],
+      "schema_count": 1,
       "schema_invalid_count": 0,
       "faq": {
         "detected": false,

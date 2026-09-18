@@ -20,7 +20,7 @@ function deriveIdentity(relPath) {
 
   let page_type = 'post';
   if (segments[0] === 'autores') page_type = 'author';
-  else if (['sobre', 'contato', 'politica-editorial'].includes(segments[0])) page_type = 'institutional';
+  else if (['sobre', 'contato', 'politica-editorial', 'politica-de-privacidade'].includes(segments[0])) page_type = 'institutional';
 
   return { slug, url_path, page_type, path_segments: segments };
 }

@@ -1,0 +1,30 @@
+{
+  "audit_date": "2026-09-18",
+  "total_pages": 75,
+  "summary": {
+    "critical": 0,
+    "errors": 0,
+    "warnings": 2,
+    "info": 11
+  },
+  "orphan_pages": 0,
+  "dead_end_pages": 0,
+  "cannibalization_summary": {
+    "pages_analyzed": 70,
+    "pairs_analyzed": 2415,
+    "potential_conflicts": 239,
+    "high": 0,
+    "possible": 53,
+    "complementary": 186,
+    "read_errors": 0
+  },
+  "internal_linking_summary": {
+    "total_suggestions": 183
+  },
+  "sources": {
+    "site_index": ".data/site-index.json",
+    "seo_audit": ".data/seo-audit.json",
+    "cannibalization": ".data/cannibalization.json",
+    "internal_linking": ".data/internal-linking.json"
+  }
+}
