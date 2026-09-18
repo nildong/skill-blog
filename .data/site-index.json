@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-09-18T17:02:58.307Z",
+  "generated_at": "2026-09-18T17:23:35.086Z",
   "site": {
     "root": "/home/projetos/blog",
     "total_html_files_found": 75,
@@ -20,7 +20,7 @@
       "no_h1": 0
     },
     "links": {
-      "internal_links": 1149,
+      "internal_links": 1156,
       "external_links": 207
     },
     "media": {
@@ -4259,9 +4259,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 752,
-        "char_count": 4557,
-        "paragraph_count": 23,
+        "word_count": 772,
+        "char_count": 4692,
+        "paragraph_count": 24,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 0,
@@ -4304,6 +4304,11 @@
           "type": "absolute"
         },
         {
+          "href": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
+          "anchor_text": "Qual a Melhor Coleira GPS para Gato: Comparação por Tecnologia",
+          "type": "absolute"
+        },
+        {
           "href": "https://smartpetgadgets.com.br/sobre/",
           "anchor_text": "Equipe Smart Pet Gadgets",
           "type": "absolute"
@@ -4341,7 +4346,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 13,
+      "internal_link_count": 14,
       "external_link_count": 1,
       "images": [
         {
@@ -4484,9 +4489,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 763,
-        "char_count": 4598,
-        "paragraph_count": 18,
+        "word_count": 786,
+        "char_count": 4726,
+        "paragraph_count": 19,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -4521,6 +4526,11 @@
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
           "anchor_text": "volte ao guia completo de coleira GPS para pet",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
+          "anchor_text": "Qual a Melhor Coleira GPS para Gato: Comparação por Tecnologia",
           "type": "absolute"
         },
         {
@@ -4566,7 +4576,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 12,
+      "internal_link_count": 13,
       "external_link_count": 2,
       "images": [
         {
@@ -4709,9 +4719,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 768,
-        "char_count": 4610,
-        "paragraph_count": 21,
+        "word_count": 790,
+        "char_count": 4726,
+        "paragraph_count": 22,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -4769,6 +4779,11 @@
           "type": "absolute"
         },
         {
+          "href": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
+          "anchor_text": "Qual a Melhor Coleira GPS para Gato: Comparação por Tecnologia",
+          "type": "absolute"
+        },
+        {
           "href": "https://smartpetgadgets.com.br/sobre/",
           "anchor_text": "Equipe Smart Pet Gadgets",
           "type": "absolute"
@@ -4806,7 +4821,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 16,
+      "internal_link_count": 17,
       "external_link_count": 1,
       "images": [
         {
@@ -10582,9 +10597,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 872,
-        "char_count": 5193,
-        "paragraph_count": 23,
+        "word_count": 895,
+        "char_count": 5317,
+        "paragraph_count": 24,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -10624,6 +10639,11 @@
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
           "anchor_text": "volte ao guia completo de coleira GPS para pet",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
+          "anchor_text": "Qual a Melhor Coleira GPS para Gato: Comparação por Tecnologia",
           "type": "absolute"
         },
         {
@@ -10669,7 +10689,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 13,
+      "internal_link_count": 14,
       "external_link_count": 2,
       "images": [
         {
@@ -12203,9 +12223,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 700,
-        "char_count": 4255,
-        "paragraph_count": 23,
+        "word_count": 719,
+        "char_count": 4365,
+        "paragraph_count": 24,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -12250,6 +12270,11 @@
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
           "anchor_text": "volte ao guia completo de coleira GPS para pet",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
+          "anchor_text": "Qual a Melhor Coleira GPS para Gato: Comparação por Tecnologia",
           "type": "absolute"
         },
         {
@@ -12300,7 +12325,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 14,
+      "internal_link_count": 15,
       "external_link_count": 3,
       "images": [
         {
@@ -13148,9 +13173,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 810,
-        "char_count": 4862,
-        "paragraph_count": 22,
+        "word_count": 833,
+        "char_count": 4984,
+        "paragraph_count": 23,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -13190,6 +13215,11 @@
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
           "anchor_text": "volte ao guia completo de coleira GPS para pet",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
+          "anchor_text": "Qual a Melhor Coleira GPS para Gato: Comparação por Tecnologia",
           "type": "absolute"
         },
         {
@@ -13240,7 +13270,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 13,
+      "internal_link_count": 14,
       "external_link_count": 3,
       "images": [
         {
@@ -13765,7 +13795,7 @@
         },
         {
           "tag": "h3",
-          "text": "Melhor Câmera para Monitorar Pet: Modelos Recomendados",
+          "text": "Melhores Câmeras Pet 2026: TP-Link, Newpet, Intelbras",
           "empty": false
         },
         {
@@ -13934,7 +13964,7 @@
       "structural_warnings": [],
       "content": {
         "word_count": 2485,
-        "char_count": 15856,
+        "char_count": 15852,
         "paragraph_count": 74,
         "list_count": 0,
         "table_count": 0,
@@ -14529,7 +14559,7 @@
         },
         {
           "href": "https://smartpetgadgets.com.br/melhor-camera-para-monitorar-pet/",
-          "anchor_text": "Melhor Câmera para Monitorar Pet: Modelos Recomendados",
+          "anchor_text": "Melhores Câmeras Pet 2026: TP-Link, Newpet, Intelbras",
           "type": "absolute"
         },
         {
@@ -16640,8 +16670,8 @@
       "slug": "melhor-camera-para-monitorar-pet",
       "url_path": "/melhor-camera-para-monitorar-pet/",
       "page_type": "post",
-      "title": "Melhor Câmera para Monitorar Pet: Modelos Recomendados",
-      "meta_description": "Comparativo dos modelos de câmera pet mais citados no mercado brasileiro: TP-Link Tapo C200, Newpet 2K, Intelbras iM3 C e Haiz Mini Botz.",
+      "title": "Melhores Câmeras Pet 2026: TP-Link, Newpet, Intelbras",
+      "meta_description": "Comparativo entre TP-Link Tapo C200, Newpet 2K, Intelbras iM3 C e Haiz Mini Botz: preço, recursos e qual serve melhor para cada tutor.",
       "canonical": "https://smartpetgadgets.com.br/melhor-camera-para-monitorar-pet/",
       "robots": null,
       "language": "pt-BR",
@@ -16649,7 +16679,7 @@
       "headings": [
         {
           "tag": "h1",
-          "text": "Melhor Câmera para Monitorar Pet: Modelos Recomendados",
+          "text": "Melhores Câmeras Pet 2026: TP-Link, Newpet, Intelbras",
           "empty": false
         },
         {
@@ -16713,7 +16743,7 @@
       "structural_warnings": [],
       "content": {
         "word_count": 553,
-        "char_count": 3531,
+        "char_count": 3530,
         "paragraph_count": 17,
         "list_count": 0,
         "table_count": 1,
@@ -16817,7 +16847,7 @@
           "types": [
             "BlogPosting"
           ],
-          "raw_length": 891
+          "raw_length": 887
         },
         {
           "valid": true,
@@ -16825,7 +16855,7 @@
           "types": [
             "BreadcrumbList"
           ],
-          "raw_length": 537
+          "raw_length": 536
         },
         {
           "valid": true,
@@ -16932,9 +16962,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 832,
-        "char_count": 5179,
-        "paragraph_count": 19,
+        "word_count": 850,
+        "char_count": 5270,
+        "paragraph_count": 20,
         "list_count": 1,
         "table_count": 1,
         "blockquote_count": 0,
@@ -16974,6 +17004,11 @@
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
           "anchor_text": "volte ao guia completo de coleira GPS para pet",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
+          "anchor_text": "Por Que Algumas Coleiras Têm Mensalidade e Outras Não",
           "type": "absolute"
         },
         {
@@ -17019,7 +17054,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 13,
+      "internal_link_count": 14,
       "external_link_count": 2,
       "images": [
         {
