@@ -111,10 +111,14 @@ while IFS= read -r img_src; do
   case "$img_src" in
     http://*|https://*|data:*) continue ;;
   esac
-  if [[ ! -f "$LOCAL_PATH/$img_src" ]]; then
-    echo "    AVISO: imagem referenciada não encontrada: $img_src"
-    MISSING_IMG=1
+  if [[ "$img_src" = /* ]]; then
+    # caminho raiz-relativo (ex: /img/logo.png) — resolve contra a raiz do blog, não da pasta do post
+    [[ -f "$BLOG_ROOT/$img_src" ]] && continue
+  elif [[ -f "$LOCAL_PATH/$img_src" ]]; then
+    continue
   fi
+  echo "    AVISO: imagem referenciada não encontrada: $img_src"
+  MISSING_IMG=1
 done < <(grep -oE 'src="[^"]+\.(webp|jpg|jpeg|png|gif|svg)"' "$HTML_FILE" | sed -E 's/src="([^"]+)"/\1/')
 
 if [[ "$MISSING_IMG" -eq 1 ]]; then
