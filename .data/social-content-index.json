@@ -1,0 +1,209 @@
+{
+  "version": 1,
+  "generated_at": "2026-09-05T22:06:06.547Z",
+  "mode": "dry_run_pilot",
+  "pilot": {
+    "requested_size": 10,
+    "selected_count": 10,
+    "total_candidates_considered": 68,
+    "selection_criteria": [
+      "REVISADO (2ª execução): prioridade agora é interesse/engajamento/compartilhamento/tráfego; monetização é fator secundário de peso baixo — ver DIVERSITY_GROUPS e scoreSocialPotential em select-pilot.js.",
+      "engajamento: FAQ existente na fonte (+20) ou role=FAQ (+15)",
+      "interesse: role REVIEW/COMPARISON/HOW_TO/GUIDE (+20), slug erros-comuns/duvidas (+10), satélite com >=400 palavras (+8)",
+      "compartilhamento: role COMPARISON (+15), imagens próprias (+5 a +10)",
+      "tráfego: inbound_links já calculado pelo content-strategy.json (+5 a +15)",
+      "monetização (secundário): produto afiliado ativo no cluster (+8, teto baixo de propósito)",
+      "diversidade: cotas por cluster (comedouros 3, coleira-gps 2, câmera 2, cluster-unknown 2, outros 1) — ver diversity_report"
+    ],
+    "diversity_report": [
+      {
+        "label": "comedouros",
+        "quota": 3,
+        "filled": 3,
+        "met": true,
+        "picked": [
+          "comedouro-gato-x-cachorro-diferenca",
+          "bebedouro-inox-x-ceramica",
+          "comedouro-com-ou-sem-wifi"
+        ],
+        "shortfall_reason": null
+      },
+      {
+        "label": "coleira-gps",
+        "quota": 2,
+        "filled": 2,
+        "met": true,
+        "picked": [
+          "coleira-gps-x-microchip",
+          "coleira-gps-bluetooth-x-chip-operadora"
+        ],
+        "shortfall_reason": null
+      },
+      {
+        "label": "camera-monitoramento",
+        "quota": 2,
+        "filled": 2,
+        "met": true,
+        "picked": [
+          "camera-para-monitorar-pet",
+          "duvidas-camera-para-monitorar-pet"
+        ],
+        "shortfall_reason": null
+      },
+      {
+        "label": "cachorro-higiene-acessorios (substituto: cluster unknown)",
+        "quota": 2,
+        "filled": 2,
+        "met": true,
+        "picked": [
+          "cercado-para-cachorros",
+          "tapete-higienico-para-cachorro"
+        ],
+        "shortfall_reason": null
+      },
+      {
+        "label": "outros-clusters",
+        "quota": 1,
+        "filled": 1,
+        "met": true,
+        "picked": [
+          "porta-eletronica-gato-x-cachorro-diferenca"
+        ],
+        "shortfall_reason": null
+      }
+    ],
+    "fillers_used": 0
+  },
+  "entries": [
+    {
+      "slug": "comedouro-gato-x-cachorro-diferenca",
+      "title": "Comedouro Automático para Gato x Cachorro: Qual a Diferença?",
+      "url": "https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/",
+      "cluster": "comedouro-automatico-para-pet",
+      "cluster_source": "content-strategy",
+      "cluster_confidence": "known",
+      "generated_at": "2026-09-05T22:06:06.284Z",
+      "piece_count": 0,
+      "status": "dry_run_only",
+      "similarity_warning": true,
+      "package_path": ".data/social-content/comedouro-gato-x-cachorro-diferenca.json"
+    },
+    {
+      "slug": "bebedouro-inox-x-ceramica",
+      "title": "Bebedouro Fonte para Gato: Inox x Cerâmica, Qual Escolher?",
+      "url": "https://smartpetgadgets.com.br/bebedouro-inox-x-ceramica/",
+      "cluster": "comedouro-automatico-para-pet",
+      "cluster_source": "heuristic",
+      "cluster_confidence": "low",
+      "generated_at": "2026-09-05T22:06:06.331Z",
+      "piece_count": 0,
+      "status": "dry_run_only",
+      "similarity_warning": false,
+      "package_path": ".data/social-content/bebedouro-inox-x-ceramica.json"
+    },
+    {
+      "slug": "comedouro-com-ou-sem-wifi",
+      "title": "Comedouro Automático Com ou Sem Wi-Fi: Qual Escolher?",
+      "url": "https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/",
+      "cluster": "comedouro-automatico-para-pet",
+      "cluster_source": "content-strategy",
+      "cluster_confidence": "known",
+      "generated_at": "2026-09-05T22:06:06.366Z",
+      "piece_count": 0,
+      "status": "dry_run_only",
+      "similarity_warning": false,
+      "package_path": ".data/social-content/comedouro-com-ou-sem-wifi.json"
+    },
+    {
+      "slug": "coleira-gps-x-microchip",
+      "title": "Coleira GPS ou Microchip: Qual a Diferença e Quando Usar",
+      "url": "https://smartpetgadgets.com.br/coleira-gps-x-microchip/",
+      "cluster": "coleira-gps-para-pet",
+      "cluster_source": "content-strategy",
+      "cluster_confidence": "known",
+      "generated_at": "2026-09-05T22:06:06.381Z",
+      "piece_count": 0,
+      "status": "dry_run_only",
+      "similarity_warning": false,
+      "package_path": ".data/social-content/coleira-gps-x-microchip.json"
+    },
+    {
+      "slug": "coleira-gps-bluetooth-x-chip-operadora",
+      "title": "Coleira GPS Sem Chip: Bluetooth ou Rede da Operadora?",
+      "url": "https://smartpetgadgets.com.br/coleira-gps-bluetooth-x-chip-operadora/",
+      "cluster": "coleira-gps-para-pet",
+      "cluster_source": "content-strategy",
+      "cluster_confidence": "known",
+      "generated_at": "2026-09-05T22:06:06.395Z",
+      "piece_count": 0,
+      "status": "dry_run_only",
+      "similarity_warning": false,
+      "package_path": ".data/social-content/coleira-gps-bluetooth-x-chip-operadora.json"
+    },
+    {
+      "slug": "camera-para-monitorar-pet",
+      "title": "Câmera para Monitorar Pet: Como Escolher o Modelo Ideal",
+      "url": "https://smartpetgadgets.com.br/camera-para-monitorar-pet/",
+      "cluster": "camera-para-monitorar-pet",
+      "cluster_source": "content-strategy",
+      "cluster_confidence": "known",
+      "generated_at": "2026-09-05T22:06:06.417Z",
+      "piece_count": 0,
+      "status": "dry_run_only",
+      "similarity_warning": true,
+      "package_path": ".data/social-content/camera-para-monitorar-pet.json"
+    },
+    {
+      "slug": "duvidas-camera-para-monitorar-pet",
+      "title": "Câmera para Monitorar Pet: Perguntas Frequentes (FAQ)",
+      "url": "https://smartpetgadgets.com.br/duvidas-camera-para-monitorar-pet/",
+      "cluster": "camera-para-monitorar-pet",
+      "cluster_source": "content-strategy",
+      "cluster_confidence": "known",
+      "generated_at": "2026-09-05T22:06:06.429Z",
+      "piece_count": 0,
+      "status": "dry_run_only",
+      "similarity_warning": true,
+      "package_path": ".data/social-content/duvidas-camera-para-monitorar-pet.json"
+    },
+    {
+      "slug": "cercado-para-cachorros",
+      "title": "Cercado para Cachorros Divipets: Vale a Pena? Review",
+      "url": "https://smartpetgadgets.com.br/cercado-para-cachorros/",
+      "cluster": null,
+      "cluster_source": "none",
+      "cluster_confidence": "unknown",
+      "generated_at": "2026-09-05T22:06:06.459Z",
+      "piece_count": 0,
+      "status": "dry_run_only",
+      "similarity_warning": false,
+      "package_path": ".data/social-content/cercado-para-cachorros.json"
+    },
+    {
+      "slug": "tapete-higienico-para-cachorro",
+      "title": "Tapete Higiênico para Cachorro: Vale a Pena? Review 2026",
+      "url": "https://smartpetgadgets.com.br/tapete-higienico-para-cachorro/",
+      "cluster": null,
+      "cluster_source": "none",
+      "cluster_confidence": "unknown",
+      "generated_at": "2026-09-05T22:06:06.497Z",
+      "piece_count": 0,
+      "status": "dry_run_only",
+      "similarity_warning": false,
+      "package_path": ".data/social-content/tapete-higienico-para-cachorro.json"
+    },
+    {
+      "slug": "porta-eletronica-gato-x-cachorro-diferenca",
+      "title": "Porta Eletrônica para Gato x Cachorro: Qual a Diferença?",
+      "url": "https://smartpetgadgets.com.br/porta-eletronica-gato-x-cachorro-diferenca/",
+      "cluster": "porta-eletronica-automatica-para-pet",
+      "cluster_source": "content-strategy",
+      "cluster_confidence": "known",
+      "generated_at": "2026-09-05T22:06:06.506Z",
+      "piece_count": 0,
+      "status": "dry_run_only",
+      "similarity_warning": true,
+      "package_path": ".data/social-content/porta-eletronica-gato-x-cachorro-diferenca.json"
+    }
+  ]
+}

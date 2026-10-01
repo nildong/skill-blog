@@ -1,0 +1,239 @@
+{
+  "summary": {
+    "health_score": 86,
+    "business_type": "Affiliate content / publisher (pet gadgets niche, Brazilian Portuguese)",
+    "top_findings": [
+      "Critical: AggregateRating on coleira-seresto-antipulgas (4.8*, 5501 reviews) looks copied from a marketplace rather than on-site collected -- manual action risk",
+      "High: head commercial queries (melhor antipulgas, comedouro automatico, coleira gps) lose to marketplaces and 5-10 item listicles with tables/photos -- page format/breadth mismatch",
+      "High: no first-hand product experience signals (site admits reviews start from vendor photos/specs) -- E-E-A-T Experience ceiling",
+      "Medium: Organization schema sameAs is empty despite the Facebook page being live",
+      "Medium: llms.txt lists only 5 static pages, omitting all 70+ articles"
+    ],
+    "quick_wins": [
+      "Populate Organization.sameAs with the live Facebook page URL",
+      "Remove the copied AggregateRating on coleira-seresto-antipulgas",
+      "Trim the melhor-antipulgas-para-cachorro meta description from 221 to ~155 chars",
+      "Fix the /autores/ index 403 (individual author page works, hub page doesn't)",
+      "Expand or retire llms.txt to represent the actual article catalog"
+    ]
+  },
+  "categories": [
+    {
+      "name": "Technical SEO",
+      "score": 92,
+      "what_works": [
+        "HTTP->HTTPS and www->non-www both clean single-hop 301s to canonical https://smartpetgadgets.com.br/",
+        "HSTS, CSP, X-Frame-Options, nosniff, Referrer-Policy headers present",
+        "robots.txt well-formed with granular per-bot Content-Signal directives, correctly disallows /reports/",
+        "Sitemap live, 77 URLs, no orphaned/blocked pages",
+        "Fully static server-rendered HTML, no SPA/JS-rendering risk",
+        "Canonicals self-referential and consistent, no noindex found"
+      ],
+      "findings": [
+        {
+          "title": "IndexNow protocol not implemented",
+          "severity": "Medium",
+          "description": "No IndexNow submission on publish/update, relying on standard crawl discovery.",
+          "recommendation": "Implement IndexNow ping on publish/update for faster Bing/Yandex pickup (Bing Copilot surface benefits directly)."
+        },
+        {
+          "title": "CSP is minimal",
+          "severity": "Low",
+          "description": "Content-Security-Policy header present but permissive/minimal.",
+          "recommendation": "Tighten CSP directives incrementally; low priority given static-site low attack surface."
+        }
+      ]
+    },
+    {
+      "name": "Content Quality",
+      "score": 82,
+      "what_works": [
+        "Every article opens with a direct-answer sentence + Key Takeaways block",
+        "Valid BlogPosting/Product/FAQ/Breadcrumb JSON-LD",
+        "Dated, attributable stats (e.g. 5.501 avaliacoes, retrieved 2026-09-14)",
+        "Affiliate disclosure, veterinary caveats, named Person author with bio",
+        "No AI-phrasing watermark tells; natural BR-PT prose",
+        "Zero content templating (site_risk low, templated_ratio 0.0)"
+      ],
+      "findings": [
+        {
+          "title": "No first-hand product experience signals",
+          "severity": "High",
+          "description": "The /sobre/ page admits reviews start from vendor photos/specs, not hands-on testing. This caps the Experience pillar of E-E-A-T (scored 55/100).",
+          "recommendation": "Add real hands-on signals (owned-unit photos, usage notes, video) where feasible, or explicitly reframe posts as comparative spec analysis rather than implied hands-on reviews."
+        },
+        {
+          "title": "Several articles are thin",
+          "severity": "Medium",
+          "description": "4 sampled articles run 500-903 words against a higher coverage floor seen elsewhere on the site (1,390-1,430 words).",
+          "recommendation": "Expand or consolidate thin satellite articles into their pillar pages."
+        },
+        {
+          "title": "Organization schema sameAs is empty",
+          "severity": "Medium",
+          "description": "Homepage Organization JSON-LD has sameAs: [] despite the Facebook page (@smartpetgadgetsbr) being live.",
+          "recommendation": "Add the Facebook URL now; add other profiles as they go live."
+        },
+        {
+          "title": "/autores/ index returns 403",
+          "severity": "Medium",
+          "description": "Individual author page (/autores/nildo-alves/) returns 200, but the author index/hub returns 403, breaking author-entity navigation.",
+          "recommendation": "Fix server config or remove the broken hub link if not needed."
+        }
+      ]
+    },
+    {
+      "name": "On-Page SEO",
+      "score": 85,
+      "what_works": [
+        "Unique, descriptive, keyword-led title tags (53-75 chars) on all samples",
+        "H1 present exactly once per page, distinct from title",
+        "Unique meta descriptions on all samples",
+        "Clean, keyword-descriptive URL slugs"
+      ],
+      "findings": [
+        {
+          "title": "Meta description over length on at least one article",
+          "severity": "Medium",
+          "description": "melhor-antipulgas-para-cachorro meta description is 221 characters, well past Google's ~155-160 char practical truncation point.",
+          "recommendation": "Trim to ~150-160 chars; run a length sweep across all 76 URLs since similar comparison-style posts likely share the pattern."
+        }
+      ]
+    },
+    {
+      "name": "Schema / Structured Data",
+      "score": 82,
+      "what_works": [
+        "BlogPosting, Person, Organization, BreadcrumbList well-formed across all 76 pages",
+        "No missing required properties, no deprecated types",
+        "JSON-LD, https, absolute-URL, ISO-date best practices followed throughout"
+      ],
+      "findings": [
+        {
+          "title": "AggregateRating on coleira-seresto-antipulgas looks copied from a marketplace",
+          "severity": "Critical",
+          "description": "4.8-star / 5,501-review AggregateRating appears sourced from a third-party marketplace rather than collected on-site -- a Google manual-action risk (misrepresented structured data policy).",
+          "recommendation": "Remove the AggregateRating block; keep the editorial Review-only schema, matching the pattern already used on the other 7 product pages."
+        },
+        {
+          "title": "FAQPage schema has zero current SERP value",
+          "severity": "Info",
+          "description": "71/76 pages carry FAQPage schema, but per Google's 2026-05-07 policy update, FAQ rich results are no longer shown site-wide (not just gov/health as originally rolled out).",
+          "recommendation": "No removal needed (harmless), but stop reporting FAQPage as an SEO asset internally -- it no longer earns SERP real estate."
+        },
+        {
+          "title": "sameAs empty / Review.author type inconsistent",
+          "severity": "Medium",
+          "description": "Homepage Organization.sameAs is []; Review.author alternates between Person and Organization across product pages.",
+          "recommendation": "Populate sameAs with live social profiles; standardize Review.author type across all product review posts."
+        }
+      ]
+    },
+    {
+      "name": "Performance (CWV)",
+      "score": 98,
+      "what_works": [
+        "LCP: 0.9-2.0s across homepage + 2 sampled articles, well under 2.5s Good threshold",
+        "Total Blocking Time: 0ms on every sampled page (strong INP proxy)",
+        "CLS: 0.0 on all three sampled pages"
+      ],
+      "findings": [
+        {
+          "title": "CrUX field data unavailable (403)",
+          "severity": "Low",
+          "description": "Both CrUX single-period and 25-week-history API calls returned 403 -- likely the API isn't enabled for the configured GCP project, not a site issue. May also reflect insufficient real-user traffic volume for CrUX's reporting threshold.",
+          "recommendation": "Check Google Cloud Console CrUX API enablement; re-check once organic traffic volume grows."
+        }
+      ]
+    },
+    {
+      "name": "Images",
+      "score": 90,
+      "what_works": [
+        "100% alt-text coverage on all sampled pages (homepage's 71 images + both sampled articles)",
+        "loading=lazy applied consistently on homepage cards",
+        "width/height set on homepage cards, preventing CLS",
+        "WebP used on many hero images"
+      ],
+      "findings": [
+        {
+          "title": "Uneven image count per article",
+          "severity": "Low",
+          "description": "melhor-antipulgas-para-cachorro has only 4 images across ~1,656 words; coleira-gps-para-pet has just 1 -- thin relative to competing marketplace/listicle SERPs showing 5-10 product photos (see SXO finding).",
+          "recommendation": "Add 1 product image per compared item when rebuilding head-term pages into fuller listicles."
+        }
+      ]
+    },
+    {
+      "name": "AI Search Readiness",
+      "score": 80,
+      "what_works": [
+        "Lighthouse Agentic Browsing: 3/3 mobile and desktop (accessibility-tree, CLS, llms.txt checks pass)",
+        "Agent-UX accessibility-tree heuristic: 100/100, 220 clean interactive nodes, 0 unnamed elements",
+        "Deliberate, consistent Content-Signal policy across all 16 crawler groups (search=yes, ai-input=yes, ai-train=no)",
+        "Static SSR HTML fully visible to non-JS-executing AI crawlers"
+      ],
+      "findings": [
+        {
+          "title": "llms.txt omits the article catalog",
+          "severity": "Medium",
+          "description": "llms.txt lists only 5 static pages (Home, Sobre, Contato, Politica editorial, Autores), omitting all 70+ published articles that AI search bots are explicitly allowed to cite.",
+          "recommendation": "Expand llms.txt to list key pillar/cluster pages (10-20 highest-value URLs), or retire it as a maintained artifact -- it carries no Google Search ranking weight either way."
+        },
+        {
+          "title": "No verified brand-mention footprint beyond own domain",
+          "severity": "Medium",
+          "description": "No confirmed Wikipedia, Reddit, YouTube, or LinkedIn presence. Brand mentions correlate 3x more strongly with AI citations than backlinks (Ahrefs Dec 2025 study).",
+          "recommendation": "Start with YouTube (highest citation correlation) leveraging existing content assets; populate Organization.sameAs as profiles go live."
+        }
+      ]
+    }
+  ],
+  "action_plan": {
+    "phases": [
+      {
+        "name": "Phase 1: Critical Fixes",
+        "timeframe": "Week 1",
+        "items": [
+          "Remove the copied AggregateRating on /coleira-seresto-antipulgas/ (manual-action risk)",
+          "Populate Organization.sameAs with the live Facebook page URL",
+          "Fix the /autores/ index 403"
+        ]
+      },
+      {
+        "name": "Phase 2: High-Impact Improvements",
+        "timeframe": "Weeks 2-3",
+        "items": [
+          "Rebuild head-commercial-term pages (melhor-antipulgas-para-cachorro, comedouro-automatico-para-pet, melhor-coleira-gps-sem-mensalidade) as fuller ranked listicles (5-8 items) with an above-fold comparison table and clear 'Ver preco' CTAs -- close the format gap against marketplace/listicle SERPs",
+          "Add product images per compared item on rebuilt listicle pages",
+          "Trim the melhor-antipulgas-para-cachorro meta description to ~155 chars; sweep all 76 URLs for the same over-length pattern",
+          "Expand thin satellite articles (500-903 words) into their pillar pages"
+        ]
+      },
+      {
+        "name": "Phase 3: Content & Authority",
+        "timeframe": "Month 2",
+        "items": [
+          "Add real hands-on product-experience signals (owned-unit photos, usage notes) where feasible, or explicitly reframe as comparative spec analysis",
+          "Build brand-mention footprint starting with YouTube, leveraging existing content/images",
+          "Expand llms.txt to represent the real article catalog (or retire it)",
+          "Implement IndexNow for faster Bing/Yandex pickup"
+        ]
+      },
+      {
+        "name": "Phase 4: Monitoring & Iteration",
+        "timeframe": "Ongoing",
+        "items": [
+          "Re-check CrUX API enablement in Google Cloud Console; re-pull field CWV data once traffic grows",
+          "Track 'cerca virtual para cachorro' (currently position 11.1) as the closest page-1 breakout candidate",
+          "Re-run GSC Search Analytics monthly to track position/CTR movement on head-term pages post-rebuild",
+          "Standardize Review.author schema type across all product review posts"
+        ]
+      }
+    ]
+  },
+  "artifacts": {
+    "findings_dir": "findings/",
+    "screenshots_dir": "screenshots/"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "audit_date": "2026-09-26",
+  "mode": "live",
+  "site": "https://smartpetgadgets.com.br/",
+  "sitemap_url_count": 101,
+  "content_page_count": 76,
+  "http_status_summary": {
+    "200": 75,
+    "404": 1,
+    "redirects": 0,
+    "5xx": 0
+  },
+  "critical_findings": [
+    {
+      "url": "https://smartpetgadgets.com.br/cachorro-de-casa-pega-pulga/",
+      "issue": "Listed in live sitemap.xml (lastmod 2026-09-22) but returns HTTP 404 live",
+      "root_cause": "Post folder exists locally with index.html + img/ but was never committed to git or deployed to Hostinger; sitemap.xml was regenerated/deployed ahead of the actual post files",
+      "severity": "critical",
+      "action": "Deploy the folder and commit it; this must ship together with the coleira-seresto-antipulgas edit that links to it"
+    },
+    {
+      "url": "https://smartpetgadgets.com.br/coleira-seresto-antipulgas/",
+      "issue": "Local uncommitted edit adds an internal link to /cachorro-de-casa-pega-pulga/, which is not yet live",
+      "root_cause": "Deploy ordering risk: if this file deploys before the new post, it creates a live broken internal link",
+      "severity": "high",
+      "action": "Deploy both changes together"
+    }
+  ],
+  "secondary_findings": [
+    {
+      "url": "https://smartpetgadgets.com.br/cluster-comedouro-automatico-pet/",
+      "issue": "HTTP 403 live, not in sitemap, exists as local folder only",
+      "severity": "low",
+      "action": "Confirm whether this is pending draft content or orphaned scratch work"
+    },
+    {
+      "url": "https://smartpetgadgets.com.br/llms.txt",
+      "issue": "Not present (404)",
+      "severity": "low",
+      "action": "Optional: add llms.txt to reinforce AI-citation strategy already signaled via permissive robots.txt"
+    }
+  ],
+  "robots_txt": {
+    "default_policy": "Allow: /",
+    "disallowed": ["/reports/"],
+    "ai_bots_allowed": ["ClaudeBot", "Claude-User", "Claude-SearchBot", "anthropic-ai", "GPTBot", "PerplexityBot", "Googlebot", "Google-Extended", "Bingbot"],
+    "sitemap_declared": "https://smartpetgadgets.com.br/sitemap.xml"
+  },
+  "canonical_title_spotcheck": {
+    "pages_checked": ["/", "/coleira-seresto-antipulgas/"],
+    "issues_found": 0
+  },
+  "reused_from_2026-09-18_local_audit": {
+    "faq_schema_coverage": "69/71 posts",
+    "jsonld_coverage": "71/75 pages (4 institutional pages missing: contato, sobre, politica-de-privacidade, politica-editorial)",
+    "cannibalization_possible_pairs": 53,
+    "internal_linking_suggestions_pending": 183,
+    "orphan_pages": 0,
+    "gsc_ga4_decay_check": "SKIPPED - no credentials invoked this pass"
+  },
+  "prioritized_action_queue": [
+    {"priority": 1, "item": "cachorro-de-casa-pega-pulga folder", "action": "deploy + commit"},
+    {"priority": 2, "item": "coleira-seresto-antipulgas edit", "action": "deploy together with priority 1"},
+    {"priority": 3, "item": "cluster-comedouro-automatico-pet", "action": "confirm draft vs orphan, decide keep/remove"},
+    {"priority": 4, "item": "llms.txt", "action": "create (low effort)"},
+    {"priority": 5, "item": "home page FAQ heading", "action": "add FAQPage schema or drop FAQ framing (carried over from 2026-09-18)"},
+    {"priority": 6, "item": "contato, sobre, politica-de-privacidade, politica-editorial", "action": "add Organization JSON-LD (carried over from 2026-09-18)"}
+  ]
+}

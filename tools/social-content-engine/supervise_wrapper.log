@@ -1,0 +1,2 @@
+./supervise_batch.sh: line 33:  2514 Killed                  "$PY" run_full_batch.py >> batch_stdout.log 2>&1
+./supervise_batch.sh: line 33:  3216 Killed                  "$PY" run_full_batch.py >> batch_stdout.log 2>&1

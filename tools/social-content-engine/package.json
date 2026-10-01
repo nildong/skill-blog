@@ -1,0 +1,26 @@
+{
+  "name": "social-content-engine",
+  "version": "1.0.0",
+  "private": true,
+  "description": "V1 do Social Content Engine (somente leitura/dry-run): analisa artigos publicados do blog e estrutura oportunidades de conteúdo social (Facebook/Instagram) sem gerar peças finais nem publicar. Parte da V2 (skill-blog).",
+  "main": "src/index.js",
+  "scripts": {
+    "audit": "node src/index.js audit",
+    "pilot": "node src/index.js dry-run --pilot",
+    "generate-pilot": "node src/index.js generate --pilot",
+    "dry-run": "node src/index.js dry-run",
+    "validate": "node src/index.js validate",
+    "test": "node --test test/*.test.js test/v2/*.test.js",
+    "test:v1": "node --test test/*.test.js",
+    "test:v2": "node --test test/v2/*.test.js",
+    "v2:collect": "node src/v2/collect-source.js",
+    "v2:export:dry-run": "node src/v2/export-v2.js --dry-run",
+    "v2:export": "node src/v2/export-v2.js"
+  },
+  "dependencies": {
+    "cheerio": "1.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

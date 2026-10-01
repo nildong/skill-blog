@@ -1,0 +1,102 @@
+{
+  "article": {
+    "slug": "comedouro-x-bebedouro-automatico",
+    "title": "Comedouro x Bebedouro Automático: Você Precisa dos Dois?",
+    "url": "https://smartpetgadgets.com.br/comedouro-x-bebedouro-automatico/",
+    "role": "COMPARISON",
+    "cluster": "comedouro-automatico-para-pet",
+    "cluster_source": "content-strategy",
+    "cluster_confidence": "known",
+    "audience": "não determinado (título não especifica espécie)",
+    "meta_description": "Comedouro e bebedouro automático resolvem problemas diferentes. Entenda quando vale a pena ter os dois e como escolher um kit combinado.",
+    "word_count": 1343,
+    "body_text_excerpt": "Comedouro x Bebedouro Automático: Você Precisa dos Dois? Publicado em 20 de agosto de 2026 · Atualizado em 20 de agosto de 2026 · Por Nildo Alves, curadoria de produtos pet no Smart Pet Gadgets · Leitura: 6 min Este post contém links de afiliado. Podemos receber uma comissão em compras feitas através deles, sem custo adicional para você. Comedouro e bebedouro automático resolvem problemas diferent"
+  },
+  "source": {
+    "source_type": "blog_article",
+    "source_slug": "comedouro-x-bebedouro-automatico",
+    "source_path": "comedouro-x-bebedouro-automatico/index.html",
+    "generated_at": "2026-08-31T16:05:55.760Z"
+  },
+  "signals": {
+    "own_images": [
+      {
+        "src": "img/comedouro-x-bebedouro-automatico-hero.jpg",
+        "alt": "Comedouro e bebedouro automático lado a lado em ambiente doméstico",
+        "alt_missing": false
+      }
+    ],
+    "faq_question_count": 4,
+    "related_internal_links": [
+      "/comedouro-automatico-para-pet/",
+      "/autores/nildo-alves/",
+      "/melhor-comedouro-automatico-cachorro/",
+      "/melhor-alimentador-automatico-gatos/",
+      "/melhor-bebedouro-automatico-pet/",
+      "/comedouro-gato-x-cachorro-diferenca/",
+      "/comedouro-automatico-vale-a-pena/",
+      "/sobre/",
+      "/politica-editorial/",
+      "/contato/"
+    ],
+    "affiliate_products": [
+      {
+        "id": "MLB54558374",
+        "name": "Comedouro Automático New Pet 4L com Gravação de Voz para Cães e Gatos",
+        "cluster": "comedouro-automatico-para-pet",
+        "role": "principal-newpet-4l-voz"
+      },
+      {
+        "id": "MLB48883369",
+        "name": "Comedouro Automático 4L Newpet para Cães e Gatos com Voz e App",
+        "cluster": "comedouro-automatico-para-pet",
+        "role": "secundario-newpet-4l-voz-app"
+      }
+    ]
+  },
+  "format_potential": {
+    "reel": {
+      "level": "alto",
+      "reason": "role=COMPARISON, 1 imagem(ns) própria(s) para storyboard"
+    },
+    "post": {
+      "level": "alto",
+      "reason": "1343 palavras de conteúdo-fonte"
+    },
+    "carousel": {
+      "level": "alto",
+      "reason": "1343 palavras — proxy de material para 6-8 slides"
+    },
+    "stories": {
+      "level": "alto",
+      "reason": "4 pergunta(s) de FAQ já formulada(s) na fonte"
+    },
+    "engagement_question": {
+      "level": "alto",
+      "reason": "FAQ existente dá base para pergunta de comentário"
+    },
+    "short_video": {
+      "level": "alto",
+      "reason": "role=COMPARISON, 1 imagem(ns) própria(s) para storyboard"
+    },
+    "cta": {
+      "level": "alto",
+      "reason": "produto afiliado mapeado no cluster — CTA pode direcionar ao guia que já linka o produto"
+    },
+    "remarketing": {
+      "level": "alto",
+      "reason": "review/comparação com produto mapeado — bom para remarketing de intenção de compra"
+    }
+  },
+  "content": {
+    "reels": [],
+    "posts": [],
+    "carousel": [],
+    "stories": [],
+    "engagement": []
+  },
+  "problems": [],
+  "status": "dry_run_only",
+  "similarity_warning": false,
+  "similarity_details": []
+}

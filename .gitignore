@@ -6,3 +6,7 @@
 # para reprodutibilidade; só node_modules/ fica de fora)
 tools/**/node_modules/
 tools/social-content-engine/.venv_xlsx/
+
+# Mídia gerada (scratch/output, não versionar — vídeos pesados)
+output_midia_avancada/
+output_social_v2/

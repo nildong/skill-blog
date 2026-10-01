@@ -1,0 +1,162 @@
+{
+  "article": {
+    "slug": "cat-mate-c500-review",
+    "title": "Cat Mate C500: Review do Comedouro para Ração Úmida e Seca",
+    "url": "https://smartpetgadgets.com.br/cat-mate-c500-review/",
+    "role": "REVIEW",
+    "cluster": null,
+    "cluster_source": "none",
+    "cluster_confidence": "unknown",
+    "audience": "não determinado (título não especifica espécie)",
+    "meta_description": "Review do Cat Mate C500: sistema de gelo para ração úmida, capacidade de 5 refeições, prós, contras e para quem vale a pena.",
+    "word_count": 1604,
+    "body_text_excerpt": "Cat Mate C500: Review do Comedouro para Ração Úmida e Seca Publicado em 20 de agosto de 2026 · Atualizado em 20 de agosto de 2026 · Por Nildo Alves, curadoria de produtos pet no Smart Pet Gadgets · Leitura: 3 min Este post contém links de afiliado. Podemos receber uma comissão em compras feitas através deles, sem custo adicional para você. O Cat Mate C500 vale a pena para tutores de gato que preci"
+  },
+  "source": {
+    "source_type": "blog_article",
+    "source_slug": "cat-mate-c500-review",
+    "source_path": "cat-mate-c500-review/index.html",
+    "generated_at": "2026-08-31T16:05:07.717Z"
+  },
+  "signals": {
+    "own_images": [
+      {
+        "src": "img/cat-mate-c500-review-hero.jpg",
+        "alt": "Comedouro automático com compartimentos para ração úmida e sistema de refrigeração",
+        "alt_missing": false
+      }
+    ],
+    "faq_question_count": 3,
+    "related_internal_links": [
+      "/comedouro-automatico-para-pet/",
+      "/autores/nildo-alves/",
+      "/melhor-alimentador-automatico-gatos/",
+      "/comedouro-newpet-4l-review/",
+      "/politica-editorial/",
+      "/comedouro-automatico-vale-a-pena/",
+      "/sobre/",
+      "/contato/"
+    ],
+    "affiliate_products": [
+      {
+        "id": "MLB50393304",
+        "name": "Comedouro Automático Ração Gatos e Cães Velds com App e Programação, Alimentador Smart 4L Branco",
+        "cluster": null,
+        "role": null
+      },
+      {
+        "id": "MLBU757044226",
+        "name": "Kit Comedouro Automático Bebedouro Cachorro Gato Pet 3L",
+        "cluster": null,
+        "role": null
+      },
+      {
+        "id": "MLB61673849",
+        "name": "Bebedouro com Comedouro Alimentador Automático Gravidade Pet Cor Rosa",
+        "cluster": null,
+        "role": null
+      },
+      {
+        "id": "MLB59318484",
+        "name": "Alimentador Automático 8L com Wi-Fi App Tuya para Gatos New Pet",
+        "cluster": null,
+        "role": null
+      },
+      {
+        "id": "MLB57624711",
+        "name": "Kit Comedouro e Bebedouro Automático para Cães e Gatos 1L",
+        "cluster": null,
+        "role": null
+      },
+      {
+        "id": "MLBU1123709264",
+        "name": "5L Dispensador Automático de Alimentos para Cães Gato Newpet",
+        "cluster": null,
+        "role": null
+      },
+      {
+        "id": "MLB25732402",
+        "name": "Comedouro Automático Inteligente Madog Câmera Visão Noturna",
+        "cluster": null,
+        "role": null
+      },
+      {
+        "id": "MLB29804487",
+        "name": "Alimentador Automático RoHS Elf para Cães e Gatos com 3,5L Branco",
+        "cluster": null,
+        "role": null
+      },
+      {
+        "id": "MLB63273800",
+        "name": "6L Comedouro Automático para Gatos com 3 Tigelas Newpet Preto",
+        "cluster": null,
+        "role": null
+      },
+      {
+        "id": "MLBU1756932985",
+        "name": "Alimentador Automático Timer 12V Sistema de Agitação",
+        "cluster": null,
+        "role": null
+      },
+      {
+        "id": "MLB-5501729782",
+        "name": "Comedouro e Bebedouro Automático Inteligente Alimentador",
+        "cluster": null,
+        "role": null
+      },
+      {
+        "id": "MLB54519773",
+        "name": "Comedouro WIFI Automático Newpet 5L Cães e Gatos TUYA APP",
+        "cluster": null,
+        "role": null
+      }
+    ]
+  },
+  "format_potential": {
+    "reel": {
+      "level": "alto",
+      "reason": "role=REVIEW, 1 imagem(ns) própria(s) para storyboard"
+    },
+    "post": {
+      "level": "alto",
+      "reason": "1604 palavras de conteúdo-fonte"
+    },
+    "carousel": {
+      "level": "alto",
+      "reason": "1604 palavras — proxy de material para 6-8 slides"
+    },
+    "stories": {
+      "level": "alto",
+      "reason": "3 pergunta(s) de FAQ já formulada(s) na fonte"
+    },
+    "engagement_question": {
+      "level": "alto",
+      "reason": "FAQ existente dá base para pergunta de comentário"
+    },
+    "short_video": {
+      "level": "alto",
+      "reason": "role=REVIEW, 1 imagem(ns) própria(s) para storyboard"
+    },
+    "cta": {
+      "level": "alto",
+      "reason": "produto afiliado mapeado no cluster — CTA pode direcionar ao guia que já linka o produto"
+    },
+    "remarketing": {
+      "level": "alto",
+      "reason": "review/comparação com produto mapeado — bom para remarketing de intenção de compra"
+    }
+  },
+  "content": {
+    "reels": [],
+    "posts": [],
+    "carousel": [],
+    "stories": [],
+    "engagement": []
+  },
+  "problems": [
+    "Cluster não determinado (nem por content-strategy.json, nem por heurística de slug) — produtos afiliados relacionados podem não ser encontrados mesmo que existam."
+  ],
+  "status": "dry_run_only",
+  "similarity_warning": false,
+  "similarity_details": []
+}

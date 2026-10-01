@@ -1,36 +1,36 @@
 {
   "version": 1,
-  "generated_at": "2026-09-18T17:23:35.086Z",
+  "generated_at": "2026-10-01T10:31:02.497Z",
   "site": {
     "root": "/home/projetos/blog",
-    "total_html_files_found": 75,
-    "total_posts_indexed": 75,
+    "total_html_files_found": 77,
+    "total_posts_indexed": 77,
     "domain": "smartpetgadgets.com.br"
   },
   "stats": {
-    "total_posts": 75,
+    "total_posts": 77,
     "metadata": {
-      "titles": 75,
-      "descriptions": 75,
-      "canonical": 75
+      "titles": 77,
+      "descriptions": 77,
+      "canonical": 77
     },
     "structure": {
-      "h1_detected": 75,
+      "h1_detected": 77,
       "multiple_h1": 0,
       "no_h1": 0
     },
     "links": {
-      "internal_links": 1156,
-      "external_links": 207
+      "internal_links": 1179,
+      "external_links": 232
     },
     "media": {
-      "images": 177,
+      "images": 192,
       "images_missing_alt": 0,
       "videos": 2
     },
     "schema": {
-      "jsonld_posts": 72,
-      "faqpage_posts": 69,
+      "jsonld_posts": 77,
+      "faqpage_posts": 71,
       "posts_with_invalid_jsonld": 0
     },
     "warnings": 0,
@@ -111,8 +111,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "153",
+          "height": "36",
           "loading": null,
           "format": "png"
         }
@@ -727,8 +727,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 859,
-        "char_count": 5502,
+        "word_count": 850,
+        "char_count": 5450,
         "paragraph_count": 33,
         "list_count": 0,
         "table_count": 0,
@@ -829,19 +829,9 @@
       ],
       "external_links": [
         {
-          "href": "https://qualeamelhor.com.br/qual-e-o-melhor-brinquedo-interativo-para-gatos-que-ficam-sozinhos",
-          "anchor_text": "Qual é a Melhor",
-          "domain": "qualeamelhor.com.br"
-        },
-        {
           "href": "https://blog.gatoca.com.br/2025/11/enriquecimento-alimentar-e-comedouros.html",
           "anchor_text": "Gatoca",
           "domain": "blog.gatoca.com.br"
-        },
-        {
-          "href": "https://www.proseupet.com.br/brinquedos-interativos-para-gatos/",
-          "anchor_text": "Pro Seu Pet",
-          "domain": "proseupet.com.br"
         },
         {
           "href": "https://meli.la/21Haniu",
@@ -850,7 +840,7 @@
         }
       ],
       "internal_link_count": 18,
-      "external_link_count": 4,
+      "external_link_count": 2,
       "images": [
         {
           "src": "img/brinquedo-interativo-automatico-para-gato-hero.jpg",
@@ -1781,12 +1771,222 @@
       "date_modified": null
     },
     {
+      "path": "cachorro-de-casa-pega-pulga/index.html",
+      "slug": "cachorro-de-casa-pega-pulga",
+      "url_path": "/cachorro-de-casa-pega-pulga/",
+      "page_type": "post",
+      "title": "Cachorro de Casa Pega Pulga? O Mito do \"Só Pega na Rua\"",
+      "meta_description": "Seu cão vive de moletom no sofá e você acha que ele está livre de pulgas? Entenda como esses parasitas entram em casa mesmo sem o cão sair e o que fazer.",
+      "canonical": "https://smartpetgadgets.com.br/cachorro-de-casa-pega-pulga/",
+      "robots": null,
+      "language": "pt-BR",
+      "charset": "UTF-8",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Cachorro de Casa Pega Pulga? O Mito do \"Só Pega na Rua\"",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Por Que Esse Mito Existe",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Como Pulgas e Carrapatos Entram em Casa Sem o Cão Sair",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "\"Meu Cão É de Apartamento, Ele Tá Seguro?\"",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "O Que Fazer: Prevenção Não É Sobre o Cão Sair ou Não",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Cachorro que não sai de casa pode pegar pulga?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Como pulgas entram em apartamento sem quintal?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Cão de sofá precisa usar antipulgas mesmo assim?",
+          "empty": false
+        }
+      ],
+      "heading_summary": {
+        "total": 9,
+        "h1_count": 1,
+        "h2_count": 5,
+        "h3_count": 3,
+        "h4_count": 0
+      },
+      "structural_warnings": [],
+      "content": {
+        "word_count": 1048,
+        "char_count": 6024,
+        "paragraph_count": 22,
+        "list_count": 1,
+        "table_count": 0,
+        "blockquote_count": 1,
+        "method": "texto de <body> após remover script/style/noscript/nav/header/svg; palavras = split por espaço em branco"
+      },
+      "internal_links": [
+        {
+          "href": "https://smartpetgadgets.com.br/",
+          "anchor_text": "Início",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/autores/nildo-alves/",
+          "anchor_text": "Nildo Alves",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/coleira-seresto-antipulgas/",
+          "anchor_text": "guia completo da coleira Seresto antipulgas e carrapatos",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
+          "anchor_text": "guia de coleira GPS para pet",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/sobre/",
+          "anchor_text": "Equipe Smart Pet Gadgets",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/politica-editorial/",
+          "anchor_text": "política editorial",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/autores/nildo-alves/",
+          "anchor_text": "Nildo Alves",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/sobre/",
+          "anchor_text": "Sobre o Smart Pet Gadgets",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/contato/",
+          "anchor_text": "Contato",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/politica-editorial/",
+          "anchor_text": "Política editorial e de afiliados",
+          "type": "absolute"
+        }
+      ],
+      "external_links": [
+        {
+          "href": "https://meli.la/2dk6x44",
+          "anchor_text": "Coleira Antipulgas e Carrapatos Zenpet",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://meli.la/2dk6x44",
+          "anchor_text": "kit com 3 coleiras Zenpet para cães de médio porte",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://meli.la/2dk6x44",
+          "anchor_text": "Ver Coleira Zenpet no Mercado Livre →",
+          "domain": "meli.la"
+        }
+      ],
+      "internal_link_count": 10,
+      "external_link_count": 3,
+      "images": [
+        {
+          "src": "img/cachorro-sofa-vida-boa-hero.webp",
+          "alt": "Homem e Golden Retriever gêmeos de moletom relaxando no sofá em casa, ilustrando a rotina caseira de um cão de sofá",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "1254",
+          "height": "1254",
+          "loading": "eager",
+          "format": "webp"
+        }
+      ],
+      "image_count": 1,
+      "images_missing_alt": 0,
+      "images_empty_alt": 0,
+      "videos": [],
+      "video_count": 0,
+      "has_video": false,
+      "schemas": [
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "BlogPosting"
+          ],
+          "raw_length": 904
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "BreadcrumbList"
+          ],
+          "raw_length": 385
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 1550
+        }
+      ],
+      "schema_types": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "schema_count": 3,
+      "schema_invalid_count": 0,
+      "faq": {
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 3
+      },
+      "cluster": null,
+      "category": null,
+      "author": null,
+      "date_published": null,
+      "date_modified": null
+    },
+    {
       "path": "camera-para-monitorar-pet/index.html",
       "slug": "camera-para-monitorar-pet",
       "url_path": "/camera-para-monitorar-pet/",
       "page_type": "post",
-      "title": "Câmera para Monitorar Pet: Como Escolher o Modelo Ideal",
-      "meta_description": "Como escolher uma câmera para monitorar cão ou gato sozinho em casa: resolução, visão noturna, áudio bidirecional, dispensador de petisco e preço médio.",
+      "title": "Melhor Câmera para Monitorar Pet: Como Escolher",
+      "meta_description": "Veja a melhor câmera para monitorar cão ou gato sozinho em casa: resolução, visão noturna, áudio bidirecional, dispensador de petisco e preço médio.",
       "canonical": "https://smartpetgadgets.com.br/camera-para-monitorar-pet/",
       "robots": null,
       "language": "pt-BR",
@@ -1794,7 +1994,7 @@
       "headings": [
         {
           "tag": "h1",
-          "text": "Câmera para Monitorar Pet: Guia Completo",
+          "text": "Melhor Câmera para Monitorar Pet: Como Escolher o Modelo Ideal",
           "empty": false
         },
         {
@@ -1862,8 +2062,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 969,
-        "char_count": 5991,
+        "word_count": 973,
+        "char_count": 6013,
         "paragraph_count": 32,
         "list_count": 0,
         "table_count": 1,
@@ -2007,7 +2207,7 @@
           "types": [
             "BlogPosting"
           ],
-          "raw_length": 886
+          "raw_length": 889
         },
         {
           "valid": true,
@@ -3711,9 +3911,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 815,
-        "char_count": 4837,
-        "paragraph_count": 21,
+        "word_count": 785,
+        "char_count": 4680,
+        "paragraph_count": 18,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -3733,21 +3933,6 @@
         {
           "href": "https://smartpetgadgets.com.br/autores/nildo-alves/",
           "anchor_text": "Nildo Alves",
-          "type": "absolute"
-        },
-        {
-          "href": "https://smartpetgadgets.com.br/erros-comuns-coleira-gps-pet/",
-          "anchor_text": "um erro comum é configurar mal a cerca virtual — veja outros erros",
-          "type": "absolute"
-        },
-        {
-          "href": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
-          "anchor_text": "como a coleira GPS localiza o pet em gatos",
-          "type": "absolute"
-        },
-        {
-          "href": "https://smartpetgadgets.com.br/coleira-gps-cachorro-que-foge/",
-          "anchor_text": "útil para cães que tentam fugir com frequência",
           "type": "absolute"
         },
         {
@@ -3798,12 +3983,12 @@
           "domain": "thepetgps.com.br"
         },
         {
-          "href": "https://meli.la/1vrsbT6",
+          "href": "https://meli.la/28Jdyfh",
           "anchor_text": "Ver no Mercado Livre →",
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 14,
+      "internal_link_count": 11,
       "external_link_count": 2,
       "images": [
         {
@@ -4187,8 +4372,8 @@
       "slug": "coleira-gps-bluetooth-x-chip-operadora",
       "url_path": "/coleira-gps-bluetooth-x-chip-operadora/",
       "page_type": "post",
-      "title": "Coleira GPS Sem Chip: Bluetooth ou Rede da Operadora?",
-      "meta_description": "Diferenças técnicas entre coleira GPS Bluetooth e coleira com chip de operadora: alcance, dependência do celular, custo e quando cada uma faz sentido.",
+      "title": "Coleira GPS Bluetooth ou com Chip: Qual Comprar?",
+      "meta_description": "Coleira GPS Bluetooth ou com chip de operadora: compare alcance, dependência do celular e custo para saber qual vale mais a pena comprar.",
       "canonical": "https://smartpetgadgets.com.br/coleira-gps-bluetooth-x-chip-operadora/",
       "robots": null,
       "language": "pt-BR",
@@ -4196,7 +4381,7 @@
       "headings": [
         {
           "tag": "h1",
-          "text": "Coleira GPS Sem Chip: Bluetooth ou Rede da Operadora?",
+          "text": "Coleira GPS Bluetooth ou com Chip: Qual Comprar?",
           "empty": false
         },
         {
@@ -4259,8 +4444,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 772,
-        "char_count": 4692,
+        "word_count": 824,
+        "char_count": 5004,
         "paragraph_count": 24,
         "list_count": 0,
         "table_count": 1,
@@ -4341,13 +4526,23 @@
       ],
       "external_links": [
         {
+          "href": "https://www.akc.org/expert-advice/lifestyle/dog-gps-trackers-vs-bluetooth-trackers/",
+          "anchor_text": "American Kennel Club",
+          "domain": "akc.org"
+        },
+        {
+          "href": "https://www.gov.br/anatel/pt-br/dados/qualidade/qualidade-dos-servicos/cobertura-da-telefonia-movel",
+          "anchor_text": "Anatel",
+          "domain": "gov.br"
+        },
+        {
           "href": "https://meli.la/2UZ6Fr5",
           "anchor_text": "Ver no Mercado Livre →",
           "domain": "meli.la"
         }
       ],
       "internal_link_count": 14,
-      "external_link_count": 1,
+      "external_link_count": 3,
       "images": [
         {
           "src": "img/coleira-gps-bluetooth-x-chip-operadora-hero.jpg",
@@ -4374,7 +4569,7 @@
           "types": [
             "BlogPosting"
           ],
-          "raw_length": 921
+          "raw_length": 903
         },
         {
           "valid": true,
@@ -4417,8 +4612,8 @@
       "slug": "coleira-gps-cachorro-pequeno-porte",
       "url_path": "/coleira-gps-cachorro-pequeno-porte/",
       "page_type": "post",
-      "title": "Coleira GPS para Cachorro de Pequeno Porte: O Que Considerar",
-      "meta_description": "Peso do dispositivo, conforto e alcance: o que muda na escolha de uma coleira GPS para cães pequenos, com exemplos de peso real de mercado.",
+      "title": "Melhor Coleira GPS para Cachorro de Pequeno Porte (2026)",
+      "meta_description": "Veja as melhores coleiras GPS para cães pequenos em 2026: peso, conforto e alcance, com exemplos de peso real de mercado para ajudar na escolha.",
       "canonical": "https://smartpetgadgets.com.br/coleira-gps-cachorro-pequeno-porte/",
       "robots": null,
       "language": "pt-BR",
@@ -4426,7 +4621,7 @@
       "headings": [
         {
           "tag": "h1",
-          "text": "Coleira GPS para Cachorro de Pequeno Porte: O Que Considerar",
+          "text": "Melhor Coleira GPS para Cachorro de Pequeno Porte (2026)",
           "empty": false
         },
         {
@@ -4489,8 +4684,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 786,
-        "char_count": 4726,
+        "word_count": 785,
+        "char_count": 4722,
         "paragraph_count": 19,
         "list_count": 1,
         "table_count": 0,
@@ -4604,7 +4799,7 @@
           "types": [
             "BlogPosting"
           ],
-          "raw_length": 905
+          "raw_length": 906
         },
         {
           "valid": true,
@@ -4647,8 +4842,8 @@
       "slug": "coleira-gps-cachorro-que-foge",
       "url_path": "/coleira-gps-cachorro-que-foge/",
       "page_type": "post",
-      "title": "Coleira GPS para Cachorro Que Foge Muito: Como Escolher",
-      "meta_description": "O que priorizar na coleira GPS quando o cão foge com frequência: cobertura, cerca virtual, e quando o problema pode ser comportamental.",
+      "title": "Melhor Coleira GPS para Cachorro Que Foge",
+      "meta_description": "As melhores coleiras GPS para cães que fogem com frequência: cobertura, cerca virtual e o que priorizar na hora de comprar.",
       "canonical": "https://smartpetgadgets.com.br/coleira-gps-cachorro-que-foge/",
       "robots": null,
       "language": "pt-BR",
@@ -4656,7 +4851,7 @@
       "headings": [
         {
           "tag": "h1",
-          "text": "Coleira GPS para Cachorro Que Foge Muito: Como Escolher",
+          "text": "Melhor Coleira GPS para Cachorro Que Foge: Como Escolher e Comprar",
           "empty": false
         },
         {
@@ -4719,8 +4914,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 790,
-        "char_count": 4726,
+        "word_count": 841,
+        "char_count": 5086,
         "paragraph_count": 22,
         "list_count": 0,
         "table_count": 0,
@@ -4816,13 +5011,23 @@
       ],
       "external_links": [
         {
+          "href": "https://www.akc.org/expert-advice/lifestyle/dog-gps-trackers-vs-bluetooth-trackers/",
+          "anchor_text": "American Kennel Club",
+          "domain": "akc.org"
+        },
+        {
+          "href": "https://www.avma.org/javma-news/2020-05-15/new-research-identifies-root-causes-separation-anxiety-dogs",
+          "anchor_text": "American Veterinary Medical Association",
+          "domain": "avma.org"
+        },
+        {
           "href": "https://meli.la/2AHV6Jn",
           "anchor_text": "Ver no Mercado Livre →",
           "domain": "meli.la"
         }
       ],
       "internal_link_count": 17,
-      "external_link_count": 1,
+      "external_link_count": 3,
       "images": [
         {
           "src": "img/coleira-gps-cachorro-que-foge-hero.jpg",
@@ -4849,7 +5054,7 @@
           "types": [
             "BlogPosting"
           ],
-          "raw_length": 881
+          "raw_length": 880
         },
         {
           "valid": true,
@@ -5688,7 +5893,7 @@
       "url_path": "/coleira-seresto-antipulgas/",
       "page_type": "post",
       "title": "Coleira Seresto Antipulgas e Carrapatos: Vale a Pena?",
-      "meta_description": "Análise da coleira Seresto (Elanco) para cães acima de 8kg: como funciona, o que dizem 5.501 avaliações no Mercado Livre, prós, contras e se vale a pena.",
+      "meta_description": "Análise da coleira Seresto (Elanco) para cães acima de 8kg: preço, como funciona, o que dizem 5.501 avaliações no Mercado Livre, prós, contras e se vale a pena.",
       "canonical": "https://smartpetgadgets.com.br/coleira-seresto-antipulgas/",
       "robots": null,
       "language": "pt-BR",
@@ -5731,6 +5936,11 @@
         },
         {
           "tag": "h2",
+          "text": "Coleira Seresto 8kg: Preço e Onde Comprar",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Prós e Contras",
           "empty": false
         },
@@ -5766,17 +5976,17 @@
         }
       ],
       "heading_summary": {
-        "total": 14,
+        "total": 15,
         "h1_count": 1,
-        "h2_count": 9,
+        "h2_count": 10,
         "h3_count": 4,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1422,
-        "char_count": 8756,
-        "paragraph_count": 30,
+        "word_count": 1649,
+        "char_count": 10017,
+        "paragraph_count": 32,
         "list_count": 0,
         "table_count": 2,
         "blockquote_count": 1,
@@ -5794,6 +6004,11 @@
           "type": "absolute"
         },
         {
+          "href": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/",
+          "anchor_text": "cerca virtual para cachorro",
+          "type": "absolute"
+        },
+        {
           "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
           "anchor_text": "guia completo de coleira GPS para pet",
           "type": "absolute"
@@ -5801,6 +6016,16 @@
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-cachorro-que-foge/",
           "anchor_text": "coleira GPS para cachorro que foge muito",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/cachorro-de-casa-pega-pulga/",
+          "anchor_text": "cão de casa também pega pulga e carrapato",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/",
+          "anchor_text": "comparativo de 6 antipulgas para cachorro",
           "type": "absolute"
         },
         {
@@ -5861,13 +6086,18 @@
           "domain": "mercadolivre.com.br"
         },
         {
+          "href": "https://www.mercadolivre.com.br/coleira-antipulgas-e-carrapatos-seresto-acima-de-8kg-elanco/p/MLB15982842",
+          "anchor_text": "Mercado Livre — ficha do produto",
+          "domain": "mercadolivre.com.br"
+        },
+        {
           "href": "https://meli.la/2UxsGcv",
           "anchor_text": "Ver no Mercado Livre →",
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 10,
-      "external_link_count": 6,
+      "internal_link_count": 13,
+      "external_link_count": 7,
       "images": [
         {
           "src": "img/coleira-seresto-hero.webp",
@@ -5971,7 +6201,15 @@
           "types": [
             "BlogPosting"
           ],
-          "raw_length": 878
+          "raw_length": 885
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "Product"
+          ],
+          "raw_length": 917
         },
         {
           "valid": true,
@@ -5992,10 +6230,11 @@
       ],
       "schema_types": [
         "BlogPosting",
+        "Product",
         "BreadcrumbList",
         "FAQPage"
       ],
-      "schema_count": 3,
+      "schema_count": 4,
       "schema_invalid_count": 0,
       "faq": {
         "detected": true,
@@ -6835,8 +7074,8 @@
       "slug": "comedouro-automatico-para-dois-gatos",
       "url_path": "/comedouro-automatico-para-dois-gatos/",
       "page_type": "post",
-      "title": "Comedouro Automático para Dois Gatos: Evite Brigas",
-      "meta_description": "Descubra como usar um comedouro automático para dois gatos, organizar porções e horários e reduzir disputas pela comida com uma rotina mais tranquila.",
+      "title": "Melhor Comedouro Automático para Dois Gatos (Evite Brigas)",
+      "meta_description": "Veja o melhor comedouro automático para dois gatos: organize porções e horários e reduza disputas pela comida com uma rotina mais tranquila.",
       "canonical": "https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/",
       "robots": null,
       "language": "pt-BR",
@@ -6844,7 +7083,7 @@
       "headings": [
         {
           "tag": "h1",
-          "text": "Comedouro Automático para Dois Gatos: Evite Brigas",
+          "text": "Melhor Comedouro Automático para Dois Gatos (Evite Brigas)",
           "empty": false
         },
         {
@@ -6932,8 +7171,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1434,
-        "char_count": 8821,
+        "word_count": 1477,
+        "char_count": 9075,
         "paragraph_count": 32,
         "list_count": 0,
         "table_count": 0,
@@ -7044,7 +7283,7 @@
       "images": [
         {
           "src": "img/comedouro-automatico-para-dois-gatos-hero.jpg",
-          "alt": "Dois gatos comendo próximos um do outro, um branco e um laranja, dividindo o mesmo espaço de alimentação",
+          "alt": "Comedouro automático para gatos com dois gatos comendo próximos um do outro, um branco e um laranja, dividindo o mesmo espaço de alimentação",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
@@ -7067,7 +7306,7 @@
           "types": [
             "BlogPosting"
           ],
-          "raw_length": 940
+          "raw_length": 938
         },
         {
           "valid": true,
@@ -7075,7 +7314,7 @@
           "types": [
             "BreadcrumbList"
           ],
-          "raw_length": 545
+          "raw_length": 553
         },
         {
           "valid": true,
@@ -7552,8 +7791,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1416,
-        "char_count": 8513,
+        "word_count": 1424,
+        "char_count": 8558,
         "paragraph_count": 25,
         "list_count": 1,
         "table_count": 1,
@@ -7634,11 +7873,6 @@
       ],
       "external_links": [
         {
-          "href": "https://veterinariosnodiva.com.br/o-que-e-dessensibilizacao-e-contracondicionamento/",
-          "anchor_text": "Veterinários Diva",
-          "domain": "veterinariosnodiva.com.br"
-        },
-        {
           "href": "https://paw-champ.com/journal/how-long-can-a-dog-go-without-eating/?lang=pt",
           "anchor_text": "PawChamp Journal",
           "domain": "paw-champ.com"
@@ -7650,7 +7884,7 @@
         }
       ],
       "internal_link_count": 14,
-      "external_link_count": 3,
+      "external_link_count": 2,
       "images": [
         {
           "src": "img/comedouro-automatico-para-viagem-hero.webp",
@@ -9486,8 +9720,8 @@
       "slug": "comedouro-vdrbg-4l-wifi-review",
       "url_path": "/comedouro-vdrbg-4l-wifi-review/",
       "page_type": "post",
-      "title": "Comedouro VDRBG 4L Wi-Fi: Vale a Pena Comprar? Review",
-      "meta_description": "Review do comedouro automático VDRBG 4L Wi-Fi: app Tuya, porções ajustáveis, prós, contras e avaliação de quem já usa.",
+      "title": "Comedouro Automático: 3 Modelos Testados e Comparados (Review)",
+      "meta_description": "Comparamos 3 comedouros automáticos para cães e gatos — Velds 4L Wi-Fi, Newpet 4L e um modelo com LCD sem app — para ajudar a escolher o alimentador automático certo.",
       "canonical": "https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/",
       "robots": null,
       "language": "pt-BR",
@@ -9495,12 +9729,42 @@
       "headings": [
         {
           "tag": "h1",
-          "text": "Comedouro VDRBG 4L Wi-Fi: Vale a Pena Comprar? Review",
+          "text": "Comedouro Automático: 3 Modelos Testados e Comparados",
           "empty": false
         },
         {
           "tag": "h2",
-          "text": "Como Funciona o App do VDRBG 4L Wi-Fi",
+          "text": "Os 3 Comedouros Automáticos Comparados",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Velds 4L Wi-Fi",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Newpet 4L",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Alimentador LCD (sem Wi-Fi)",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Comedouro Automático Velds 4L Wi-Fi: Controle Total pelo App",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Comedouro Automático Newpet 4L: App com Gravação de Voz",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Alimentador Automático Programável com LCD: Sem App, Sem Wi-Fi",
           "empty": false
         },
         {
@@ -9510,32 +9774,37 @@
         },
         {
           "tag": "h2",
-          "text": "VDRBG 4L Wi-Fi x Newpet 4L: Qual Escolher?",
+          "text": "Resolvendo Problemas Comuns de Conexão (Velds e Newpet)",
           "empty": false
         },
         {
           "tag": "h2",
-          "text": "Resolvendo Problemas Comuns de Conexão",
+          "text": "Ficha Técnica Comparativa",
           "empty": false
         },
         {
           "tag": "h2",
-          "text": "Ficha Técnica",
+          "text": "Prós e Contras de Cada Modelo",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Velds 4L Wi-Fi",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Newpet 4L",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Alimentador Programável com LCD",
           "empty": false
         },
         {
           "tag": "h2",
-          "text": "Prós",
-          "empty": false
-        },
-        {
-          "tag": "h2",
-          "text": "Contras",
-          "empty": false
-        },
-        {
-          "tag": "h2",
-          "text": "Para Quem o VDRBG 4L Wi-Fi é Indicado?",
+          "text": "Qual Comedouro Automático Escolher?",
           "empty": false
         },
         {
@@ -9545,7 +9814,7 @@
         },
         {
           "tag": "h2",
-          "text": "Como Avaliamos Este Comedouro",
+          "text": "Como Avaliamos Estes Comedouros",
           "empty": false
         },
         {
@@ -9560,33 +9829,38 @@
         },
         {
           "tag": "h3",
-          "text": "O comedouro VDRBG 4L Wi-Fi funciona sem internet?",
+          "text": "Qual a diferença entre comedouro automático e alimentador automático?",
           "empty": false
         },
         {
           "tag": "h3",
-          "text": "O app do VDRBG trava ou perde conexão com frequência?",
+          "text": "Comedouro automático com Wi-Fi funciona sem internet?",
           "empty": false
         },
         {
           "tag": "h3",
-          "text": "O VDRBG 4L Wi-Fi é melhor que o Newpet 4L?",
+          "text": "Qual comedouro automático é melhor para quem tem cachorro e gato na mesma casa?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Vale a pena um comedouro automático sem app e sem Wi-Fi?",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 16,
+        "total": 24,
         "h1_count": 1,
-        "h2_count": 12,
-        "h3_count": 3,
+        "h2_count": 13,
+        "h3_count": 10,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1546,
-        "char_count": 9515,
-        "paragraph_count": 38,
-        "list_count": 2,
+        "word_count": 1886,
+        "char_count": 11439,
+        "paragraph_count": 47,
+        "list_count": 3,
         "table_count": 1,
         "blockquote_count": 1,
         "method": "texto de <body> após remover script/style/noscript/nav/header/svg; palavras = split por espaço em branco"
@@ -9623,18 +9897,8 @@
           "type": "absolute"
         },
         {
-          "href": "https://smartpetgadgets.com.br/comedouro-newpet-4l-review/",
-          "anchor_text": "review completo do comedouro Newpet 4L",
-          "type": "absolute"
-        },
-        {
           "href": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/",
           "anchor_text": "como configurar o app de um comedouro Wi-Fi",
-          "type": "absolute"
-        },
-        {
-          "href": "https://smartpetgadgets.com.br/comedouro-newpet-4l-review/",
-          "anchor_text": "review do comedouro Newpet 4L",
           "type": "absolute"
         },
         {
@@ -9690,13 +9954,38 @@
           "domain": "farmapets.com.br"
         },
         {
+          "href": "https://meli.la/2CyWKk6",
+          "anchor_text": "Ver preço no Mercado Livre →",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://meli.la/2PtKj8u",
+          "anchor_text": "Ver preço no Mercado Livre →",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://meli.la/1nanKbE",
+          "anchor_text": "Ver preço no Mercado Livre →",
+          "domain": "meli.la"
+        },
+        {
           "href": "https://reidaspromocoes.com.br/alimentador-automatico-pet-vdrbg-vale-a-pena-para-seu-pet/",
           "anchor_text": "Rei das Promoções",
           "domain": "reidaspromocoes.com.br"
         },
         {
-          "href": "https://meli.la/27HFqbr",
-          "anchor_text": "Mercado Livre — busca \"comedouro automático Wi-Fi\"",
+          "href": "https://meli.la/2CyWKk6",
+          "anchor_text": "Mercado Livre",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://meli.la/2PtKj8u",
+          "anchor_text": "Mercado Livre",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://meli.la/1nanKbE",
+          "anchor_text": "Mercado Livre",
           "domain": "meli.la"
         },
         {
@@ -9705,17 +9994,27 @@
           "domain": "farmapets.com.br"
         },
         {
-          "href": "https://meli.la/27HFqbr",
-          "anchor_text": "Ver no Mercado Livre →",
+          "href": "https://meli.la/2CyWKk6",
+          "anchor_text": "Velds 4L Wi-Fi →",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://meli.la/2PtKj8u",
+          "anchor_text": "Newpet 4L →",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://meli.la/1nanKbE",
+          "anchor_text": "Alimentador LCD →",
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 18,
-      "external_link_count": 5,
+      "internal_link_count": 16,
+      "external_link_count": 12,
       "images": [
         {
           "src": "img/comedouro-vdrbg-4l-wifi-review-hero.jpg",
-          "alt": "Pessoa controlando um app no celular perto do pet, representando controle remoto via Wi-Fi",
+          "alt": "Comedouro automático Velds 4L com app, cercado por um gato e um pug, representando um alimentador automático para cães e gatos",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
@@ -9723,9 +10022,75 @@
           "height": "630",
           "loading": "eager",
           "format": "jpg"
+        },
+        {
+          "src": "img/velds-4l-wifi-app.webp",
+          "alt": "Comedouro automático Velds 4L Wi-Fi com app, branco",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "400",
+          "height": "400",
+          "loading": "lazy",
+          "format": "webp"
+        },
+        {
+          "src": "img/newpet-4l-app.webp",
+          "alt": "Comedouro automático Newpet 4L com app e gravação de voz",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "400",
+          "height": "400",
+          "loading": "lazy",
+          "format": "webp"
+        },
+        {
+          "src": "img/alimentador-programavel-lcd.webp",
+          "alt": "Alimentador automático programável com painel LCD, sem Wi-Fi, para cães e gatos",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "400",
+          "height": "400",
+          "loading": "lazy",
+          "format": "webp"
+        },
+        {
+          "src": "img/velds-4l-detalhe.webp",
+          "alt": "Detalhe do painel de controle do comedouro Velds 4L com botões de porção, voz e programação",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "format": "webp"
+        },
+        {
+          "src": "img/newpet-4l-detalhe.webp",
+          "alt": "Detalhe do comedouro automático Newpet 4L mostrando o reservatório de ração",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "format": "webp"
+        },
+        {
+          "src": "img/alimentador-programavel-lcd-detalhe.webp",
+          "alt": "Detalhe do painel LCD do alimentador automático programável, com botões físicos de configuração",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "800",
+          "height": "600",
+          "loading": "lazy",
+          "format": "webp"
         }
       ],
-      "image_count": 1,
+      "image_count": 7,
       "images_missing_alt": 0,
       "images_empty_alt": 0,
       "videos": [],
@@ -9738,15 +10103,15 @@
           "types": [
             "BlogPosting"
           ],
-          "raw_length": 893
+          "raw_length": 950
         },
         {
           "valid": true,
           "error": null,
           "types": [
-            "Product"
+            "ItemList"
           ],
-          "raw_length": 743
+          "raw_length": 2447
         },
         {
           "valid": true,
@@ -9754,7 +10119,7 @@
           "types": [
             "FAQPage"
           ],
-          "raw_length": 1268
+          "raw_length": 1832
         },
         {
           "valid": true,
@@ -9767,7 +10132,7 @@
       ],
       "schema_types": [
         "BlogPosting",
-        "Product",
+        "ItemList",
         "FAQPage",
         "BreadcrumbList"
       ],
@@ -9777,7 +10142,7 @@
         "detected": true,
         "schema_detected": true,
         "heading_detected": true,
-        "question_count": 3
+        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -10295,8 +10660,8 @@
       "slug": "como-escolher-brinquedo-interativo-gato-entediado",
       "url_path": "/como-escolher-brinquedo-interativo-gato-entediado/",
       "page_type": "post",
-      "title": "Como Escolher Brinquedo Interativo para Gato Entediado",
-      "meta_description": "Sinais de tédio e sedentarismo em gatos e como escolher o tipo certo de brinquedo interativo automático para cada caso.",
+      "title": "Melhor Brinquedo Interativo para Gato Entediado",
+      "meta_description": "Veja o melhor brinquedo interativo para cada tipo de gato entediado ou sedentário, com sinais para identificar e como escolher na hora de comprar.",
       "canonical": "https://smartpetgadgets.com.br/como-escolher-brinquedo-interativo-gato-entediado/",
       "robots": null,
       "language": "pt-BR",
@@ -10304,7 +10669,7 @@
       "headings": [
         {
           "tag": "h1",
-          "text": "Como Escolher Brinquedo Interativo para Gato Entediado",
+          "text": "Melhor Brinquedo Interativo para Gato Entediado: Como Escolher",
           "empty": false
         },
         {
@@ -10362,8 +10727,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 577,
-        "char_count": 3850,
+        "word_count": 578,
+        "char_count": 3858,
         "paragraph_count": 15,
         "list_count": 1,
         "table_count": 1,
@@ -10467,7 +10832,7 @@
           "types": [
             "BlogPosting"
           ],
-          "raw_length": 924
+          "raw_length": 959
         },
         {
           "valid": true,
@@ -10475,7 +10840,7 @@
           "types": [
             "BreadcrumbList"
           ],
-          "raw_length": 586
+          "raw_length": 594
         },
         {
           "valid": true,
@@ -11587,21 +11952,31 @@
           "tag": "h1",
           "text": "Fale com a gente",
           "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "O que você pode nos mandar",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Prazo de resposta",
+          "empty": false
         }
       ],
       "heading_summary": {
-        "total": 1,
+        "total": 3,
         "h1_count": 1,
-        "h2_count": 0,
+        "h2_count": 2,
         "h3_count": 0,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 53,
-        "char_count": 356,
-        "paragraph_count": 4,
-        "list_count": 0,
+        "word_count": 190,
+        "char_count": 1171,
+        "paragraph_count": 5,
+        "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
         "method": "texto de <body> após remover script/style/noscript/nav/header/svg; palavras = split por espaço em branco"
@@ -11621,10 +11996,15 @@
           "href": "https://smartpetgadgets.com.br/politica-editorial/",
           "anchor_text": "política editorial",
           "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/sobre/",
+          "anchor_text": "Sobre",
+          "type": "absolute"
         }
       ],
       "external_links": [],
-      "internal_link_count": 3,
+      "internal_link_count": 4,
       "external_link_count": 0,
       "images": [
         {
@@ -11633,8 +12013,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "153",
+          "height": "36",
           "loading": null,
           "format": "png"
         }
@@ -11645,9 +12025,20 @@
       "videos": [],
       "video_count": 0,
       "has_video": false,
-      "schemas": [],
-      "schema_types": [],
-      "schema_count": 0,
+      "schemas": [
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "WebPage"
+          ],
+          "raw_length": 583
+        }
+      ],
+      "schema_types": [
+        "WebPage"
+      ],
+      "schema_count": 1,
       "schema_invalid_count": 0,
       "faq": {
         "detected": false,
@@ -11739,7 +12130,7 @@
       "structural_warnings": [],
       "content": {
         "word_count": 470,
-        "char_count": 2824,
+        "char_count": 2833,
         "paragraph_count": 20,
         "list_count": 0,
         "table_count": 0,
@@ -11820,18 +12211,13 @@
       ],
       "external_links": [
         {
-          "href": "https://qualeamelhor.com.br/qual-e-o-melhor-brinquedo-interativo-para-gatos-que-ficam-sozinhos",
-          "anchor_text": "Qual é a Melhor",
-          "domain": "qualeamelhor.com.br"
-        },
-        {
           "href": "https://meli.la/24oKWro",
           "anchor_text": "Ver no Mercado Livre →",
           "domain": "meli.la"
         }
       ],
       "internal_link_count": 14,
-      "external_link_count": 2,
+      "external_link_count": 1,
       "images": [
         {
           "src": "img/duvidas-brinquedo-interativo-gato-hero.jpg",
@@ -13589,23 +13975,28 @@
           "empty": false
         },
         {
-          "tag": "h3",
+          "tag": "h2",
           "text": "🐾 Conteúdo baseado em dados",
           "empty": false
         },
         {
-          "tag": "h3",
+          "tag": "h2",
           "text": "🩺 Recomendações alinhadas à prática veterinária",
           "empty": false
         },
         {
-          "tag": "h3",
+          "tag": "h2",
           "text": "🔍 Reviews honestos",
           "empty": false
         },
         {
           "tag": "h2",
           "text": "Últimos artigos",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Melhor Antipulgas para Cachorro em 2026: 6 Opções Comparadas",
           "empty": false
         },
         {
@@ -13665,7 +14056,7 @@
         },
         {
           "tag": "h3",
-          "text": "Comedouro VDRBG 4L Wi-Fi: Vale a Pena Comprar? Review",
+          "text": "Comedouro Automático: 3 Modelos Testados e Comparados",
           "empty": false
         },
         {
@@ -13745,7 +14136,7 @@
         },
         {
           "tag": "h3",
-          "text": "Coleira GPS para Cachorro de Pequeno Porte: O Que Considerar",
+          "text": "Melhor Coleira GPS para Cachorro de Pequeno Porte (2026)",
           "empty": false
         },
         {
@@ -13775,12 +14166,12 @@
         },
         {
           "tag": "h3",
-          "text": "Coleira GPS Sem Chip: Bluetooth ou Rede da Operadora?",
+          "text": "Coleira GPS Bluetooth ou com Chip: Qual Comprar?",
           "empty": false
         },
         {
           "tag": "h3",
-          "text": "Coleira GPS para Cachorro Que Foge Muito: Como Escolher",
+          "text": "Melhor Coleira GPS para Cachorro Que Foge: Como Escolher e Comprar",
           "empty": false
         },
         {
@@ -13790,7 +14181,7 @@
         },
         {
           "tag": "h3",
-          "text": "Câmera para Monitorar Pet: Como Escolher o Modelo Ideal",
+          "text": "Melhor Câmera para Monitorar Pet: Como Escolher o Modelo Ideal",
           "empty": false
         },
         {
@@ -13860,7 +14251,7 @@
         },
         {
           "tag": "h3",
-          "text": "Como Escolher Brinquedo Interativo para Gato Entediado",
+          "text": "Melhor Brinquedo Interativo para Gato Entediado: Como Escolher",
           "empty": false
         },
         {
@@ -13905,7 +14296,7 @@
         },
         {
           "tag": "h3",
-          "text": "Porta Eletrônica: Microchip ou Medalhão RFID na Coleira?",
+          "text": "Porta Eletrônica com Microchip ou RFID: Qual Vale Mais a Pena?",
           "empty": false
         },
         {
@@ -13955,17 +14346,17 @@
         }
       ],
       "heading_summary": {
-        "total": 74,
+        "total": 75,
         "h1_count": 1,
-        "h2_count": 1,
-        "h3_count": 72,
+        "h2_count": 4,
+        "h3_count": 70,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 2485,
-        "char_count": 15852,
-        "paragraph_count": 74,
+        "word_count": 2528,
+        "char_count": 16137,
+        "paragraph_count": 75,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -13995,6 +14386,21 @@
         {
           "href": "https://smartpetgadgets.com.br/contato/",
           "anchor_text": "Contato",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/",
+          "anchor_text": "",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/",
+          "anchor_text": "Melhor Antipulgas para Cachorro em 2026: 6 Opções Comparadas",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/",
+          "anchor_text": "Ler artigo completo →",
           "type": "absolute"
         },
         {
@@ -14169,7 +14575,7 @@
         },
         {
           "href": "https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/",
-          "anchor_text": "Comedouro VDRBG 4L Wi-Fi: Vale a Pena Comprar? Review",
+          "anchor_text": "Comedouro Automático: 3 Modelos Testados e Comparados",
           "type": "absolute"
         },
         {
@@ -14409,7 +14815,7 @@
         },
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-cachorro-pequeno-porte/",
-          "anchor_text": "Coleira GPS para Cachorro de Pequeno Porte: O Que Considerar",
+          "anchor_text": "Melhor Coleira GPS para Cachorro de Pequeno Porte (2026)",
           "type": "absolute"
         },
         {
@@ -14499,7 +14905,7 @@
         },
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-bluetooth-x-chip-operadora/",
-          "anchor_text": "Coleira GPS Sem Chip: Bluetooth ou Rede da Operadora?",
+          "anchor_text": "Coleira GPS Bluetooth ou com Chip: Qual Comprar?",
           "type": "absolute"
         },
         {
@@ -14514,7 +14920,7 @@
         },
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-cachorro-que-foge/",
-          "anchor_text": "Coleira GPS para Cachorro Que Foge Muito: Como Escolher",
+          "anchor_text": "Melhor Coleira GPS para Cachorro Que Foge: Como Escolher e Comprar",
           "type": "absolute"
         },
         {
@@ -14544,7 +14950,7 @@
         },
         {
           "href": "https://smartpetgadgets.com.br/camera-para-monitorar-pet/",
-          "anchor_text": "Câmera para Monitorar Pet: Como Escolher o Modelo Ideal",
+          "anchor_text": "Melhor Câmera para Monitorar Pet: Como Escolher o Modelo Ideal",
           "type": "absolute"
         },
         {
@@ -14754,7 +15160,7 @@
         },
         {
           "href": "https://smartpetgadgets.com.br/como-escolher-brinquedo-interativo-gato-entediado/",
-          "anchor_text": "Como Escolher Brinquedo Interativo para Gato Entediado",
+          "anchor_text": "Melhor Brinquedo Interativo para Gato Entediado: Como Escolher",
           "type": "absolute"
         },
         {
@@ -14889,7 +15295,7 @@
         },
         {
           "href": "https://smartpetgadgets.com.br/porta-eletronica-microchip-x-rfid-coleira/",
-          "anchor_text": "Porta Eletrônica: Microchip ou Medalhão RFID na Coleira?",
+          "anchor_text": "Porta Eletrônica com Microchip ou RFID: Qual Vale Mais a Pena?",
           "type": "absolute"
         },
         {
@@ -15059,7 +15465,7 @@
         }
       ],
       "external_links": [],
-      "internal_link_count": 217,
+      "internal_link_count": 220,
       "external_link_count": 0,
       "images": [
         {
@@ -15074,13 +15480,24 @@
           "format": "png"
         },
         {
+          "src": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/img/simparic-caixa.webp",
+          "alt": "Melhor Antipulgas para Cachorro em 2026: 6 Opções Comparadas",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "400",
+          "height": "180",
+          "loading": "lazy",
+          "format": "webp"
+        },
+        {
           "src": "https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/img/comedouro-automatico-para-dois-gatos-hero.jpg",
           "alt": "Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15090,8 +15507,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "webp"
         },
@@ -15101,8 +15518,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "webp"
         },
@@ -15112,8 +15529,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "webp"
         },
@@ -15123,8 +15540,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "webp"
         },
@@ -15134,8 +15551,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "webp"
         },
@@ -15145,8 +15562,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "webp"
         },
@@ -15156,8 +15573,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "webp"
         },
@@ -15167,8 +15584,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15178,8 +15595,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15189,19 +15606,19 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
         {
           "src": "https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/img/comedouro-vdrbg-4l-wifi-review-hero.jpg",
-          "alt": "Comedouro VDRBG 4L Wi-Fi: Vale a Pena Comprar? Review",
+          "alt": "Comedouro Automático: 3 Modelos Testados e Comparados",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15211,8 +15628,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15222,8 +15639,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15233,8 +15650,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15244,8 +15661,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15255,8 +15672,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15266,8 +15683,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15277,8 +15694,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15288,8 +15705,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15299,8 +15716,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "webp"
         },
@@ -15310,8 +15727,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "webp"
         },
@@ -15321,8 +15738,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "webp"
         },
@@ -15332,8 +15749,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "webp"
         },
@@ -15343,8 +15760,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15354,8 +15771,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15365,8 +15782,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15376,8 +15793,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15387,8 +15804,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15398,8 +15815,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "webp"
         },
@@ -15409,8 +15826,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15420,8 +15837,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15431,8 +15848,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15442,8 +15859,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15453,8 +15870,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15464,8 +15881,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15475,8 +15892,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15486,8 +15903,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15497,8 +15914,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15508,8 +15925,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15519,8 +15936,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15530,8 +15947,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15541,8 +15958,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15552,8 +15969,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15563,8 +15980,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15574,8 +15991,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15585,8 +16002,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15596,8 +16013,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15607,8 +16024,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15618,8 +16035,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15629,8 +16046,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15640,8 +16057,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15651,8 +16068,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15662,8 +16079,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15673,8 +16090,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15684,8 +16101,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15695,8 +16112,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15706,8 +16123,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15717,8 +16134,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15728,8 +16145,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15739,8 +16156,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15750,8 +16167,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15761,8 +16178,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15772,8 +16189,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15783,8 +16200,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15794,8 +16211,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15805,8 +16222,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15816,8 +16233,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         },
@@ -15827,13 +16244,13 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "400",
+          "height": "180",
           "loading": "lazy",
           "format": "jpg"
         }
       ],
-      "image_count": 70,
+      "image_count": 71,
       "images_missing_alt": 0,
       "images_empty_alt": 0,
       "videos": [],
@@ -15967,8 +16384,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1237,
-        "char_count": 7488,
+        "word_count": 1245,
+        "char_count": 7533,
         "paragraph_count": 32,
         "list_count": 0,
         "table_count": 1,
@@ -16064,11 +16481,6 @@
           "domain": "meli.la"
         },
         {
-          "href": "https://cabinecelular.com.br/reviews/smart-alimentador-pet-wi-fi-positivo-casa-inteligente/",
-          "anchor_text": "Cabine Celular",
-          "domain": "cabinecelular.com.br"
-        },
-        {
           "href": "https://cats.com/cat-mate-c500-automatic-pet-feeder-review",
           "anchor_text": "Cats.com",
           "domain": "cats.com"
@@ -16080,7 +16492,7 @@
         }
       ],
       "internal_link_count": 16,
-      "external_link_count": 4,
+      "external_link_count": 3,
       "images": [
         {
           "src": "img/melhor-alimentador-automatico-gatos-hero.jpg",
@@ -16138,6 +16550,432 @@
         "schema_detected": true,
         "heading_detected": true,
         "question_count": 4
+      },
+      "cluster": null,
+      "category": null,
+      "author": null,
+      "date_published": null,
+      "date_modified": null
+    },
+    {
+      "path": "melhor-antipulgas-para-cachorro/index.html",
+      "slug": "melhor-antipulgas-para-cachorro",
+      "url_path": "/melhor-antipulgas-para-cachorro/",
+      "page_type": "post",
+      "title": "Melhor Antipulgas para Cachorro em 2026: 6 Opções Comparadas",
+      "meta_description": "Simparic, Bravecto, NexGard, Credeli, Frontline ou Vermitril: comparamos duração, preço, princípio ativo e para qual cão cada um vale mais a pena.",
+      "canonical": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/",
+      "robots": null,
+      "language": "pt-BR",
+      "charset": "UTF-8",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Melhor Antipulgas para Cachorro em 2026: 6 Opções Comparadas",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Tabela Comparativa: Os 6 Antipulgas Lado a Lado",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "1. Bravecto Azul Celeste (20 a 40kg) — MSD Saúde Animal",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "2. Simparic 80mg (20,1 a 40kg) — Zoetis",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "3. Credeli 225mg (5,5 a 11kg) — Elanco",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "4. NexGard (10,1 a 25kg) — Boehringer Ingelheim",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "5. Frontline Plus (20 a 40kg) — Boehringer Ingelheim",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "6. Vermitril (7 a 15kg) — Vet",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Prós e Contras dos 6 Produtos",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Como Agem os Antipulgas",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Comprimido, Pipeta ou Coleira: Qual Escolher",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Como Escolher Pelo Peso do Cão",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas Frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual antipulgas dura mais tempo?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual a diferença entre comprimido e pipeta antipulgas?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Vermitril é seguro para todas as raças de cachorro?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Simparic, Bravecto, NexGard e Credeli são todos o mesmo tipo de remédio?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Posso escolher o antipulgas só pelo peso do cão?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "É seguro comprar antipulgas no Mercado Livre?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Pulga de cachorro pega em humano?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Como eliminar pulgas do ambiente da casa?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Antipulgas oral pode ser usado em filhote?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Conclusão: Qual Antipulgas Escolher?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Leia Também",
+          "empty": false
+        }
+      ],
+      "heading_summary": {
+        "total": 24,
+        "h1_count": 1,
+        "h2_count": 7,
+        "h3_count": 16,
+        "h4_count": 0
+      },
+      "structural_warnings": [],
+      "content": {
+        "word_count": 2360,
+        "char_count": 14387,
+        "paragraph_count": 63,
+        "list_count": 15,
+        "table_count": 1,
+        "blockquote_count": 1,
+        "method": "texto de <body> após remover script/style/noscript/nav/header/svg; palavras = split por espaço em branco"
+      },
+      "internal_links": [
+        {
+          "href": "https://smartpetgadgets.com.br/",
+          "anchor_text": "Início",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/autores/nildo-alves/",
+          "anchor_text": "Nildo Alves",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/coleira-seresto-antipulgas/",
+          "anchor_text": "Coleira Seresto Antipulgas e Carrapatos: Vale a Pena?",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
+          "anchor_text": "Coleira GPS para Cachorro e Gato: Guia Completo",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/",
+          "anchor_text": "Cerca Virtual para Cachorro: O Que É e Como Configurar",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/sobre/",
+          "anchor_text": "Equipe Smart Pet Gadgets",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/politica-editorial/",
+          "anchor_text": "política editorial",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/autores/nildo-alves/",
+          "anchor_text": "Nildo Alves",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/sobre/",
+          "anchor_text": "Sobre o Smart Pet Gadgets",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/contato/",
+          "anchor_text": "Contato",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/politica-editorial/",
+          "anchor_text": "Política editorial e de afiliados",
+          "type": "absolute"
+        }
+      ],
+      "external_links": [
+        {
+          "href": "https://br.bravecto.com/bravecto-comprimidos-caes/",
+          "anchor_text": "página oficial da MSD Saúde Animal",
+          "domain": "br.bravecto.com"
+        },
+        {
+          "href": "https://meli.la/1sjeasL",
+          "anchor_text": "Ver no Mercado Livre →",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://www2.zoetis.com.br/especies/caes-e-gatos/caes/antipulgas-e-outros-parasitas/simparic/",
+          "anchor_text": "bula oficial da Zoetis",
+          "domain": "www2.zoetis.com.br"
+        },
+        {
+          "href": "https://meli.la/31bY8E7",
+          "anchor_text": "Ver no Mercado Livre →",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://vet.elanco.com/br/produtos/credeli",
+          "anchor_text": "página oficial da Elanco",
+          "domain": "vet.elanco.com"
+        },
+        {
+          "href": "https://meli.la/2gp42Vi",
+          "anchor_text": "Ver no Mercado Livre →",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://products-info-public.s3-sa-east-1.amazonaws.com/bulas/merial/bulaNexgard.pdf",
+          "anchor_text": "bula oficial do fabricante",
+          "domain": "products-info-public.s3-sa-east-1.amazonaws.com"
+        },
+        {
+          "href": "https://meli.la/2yTpZYq",
+          "anchor_text": "Ver no Mercado Livre →",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://frontline.com.br/",
+          "anchor_text": "página oficial da marca (Boehringer Ingelheim)",
+          "domain": "frontline.com.br"
+        },
+        {
+          "href": "https://meli.la/2FBQwoi",
+          "anchor_text": "Ver no Mercado Livre →",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://meli.la/2GT27sz",
+          "anchor_text": "Ver no Mercado Livre →",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://meli.la/1sjeasL",
+          "anchor_text": "Ver Bravecto →",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://meli.la/31bY8E7",
+          "anchor_text": "Ver Simparic →",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://meli.la/2gp42Vi",
+          "anchor_text": "Ver Credeli →",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://meli.la/2yTpZYq",
+          "anchor_text": "Ver NexGard →",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://meli.la/2FBQwoi",
+          "anchor_text": "Ver Frontline →",
+          "domain": "meli.la"
+        },
+        {
+          "href": "https://meli.la/2GT27sz",
+          "anchor_text": "Ver Vermitril →",
+          "domain": "meli.la"
+        }
+      ],
+      "internal_link_count": 11,
+      "external_link_count": 17,
+      "images": [
+        {
+          "src": "img/simparic-caixa.webp",
+          "alt": "Caixa de Simparic 80mg, antipulgas e carrapatos para cães de 20,1 a 40kg",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "1200",
+          "height": "1200",
+          "loading": "eager",
+          "format": "webp"
+        },
+        {
+          "src": "img/bravecto-caixa.webp",
+          "alt": "Caixa de Bravecto Azul-celeste comprimido para cães de 20 a 40kg, 12 semanas de proteção",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "140",
+          "height": "140",
+          "loading": "lazy",
+          "format": "webp"
+        },
+        {
+          "src": "img/simparic-caixa.webp",
+          "alt": "Caixa de Antipulgas Simparic 80mg para cães de 20,1 a 40kg, 3 comprimidos",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "140",
+          "height": "140",
+          "loading": "lazy",
+          "format": "webp"
+        },
+        {
+          "src": "img/credeli-caixa.webp",
+          "alt": "Caixa de Antipulgas Credeli 225mg da Elanco para cães de 5,5 a 11kg, 1 comprimido",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "140",
+          "height": "140",
+          "loading": "lazy",
+          "format": "webp"
+        },
+        {
+          "src": "img/nexgard-caixa.webp",
+          "alt": "Caixa de NexGard tabletes mastigáveis para cães de 10,1 a 25kg, 3 comprimidos",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "140",
+          "height": "140",
+          "loading": "lazy",
+          "format": "webp"
+        },
+        {
+          "src": "img/frontline-plus-pipeta.webp",
+          "alt": "Pipeta Frontline Plus para cães de 20 a 40kg, fipronil e (S)-metopreno",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "140",
+          "height": "140",
+          "loading": "lazy",
+          "format": "webp"
+        },
+        {
+          "src": "img/vermitril-caixa.webp",
+          "alt": "Caixa de Vermitril Tripla Ação comprimido para cães de 7 a 15kg, 4 unidades",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "140",
+          "height": "140",
+          "loading": "lazy",
+          "format": "webp"
+        }
+      ],
+      "image_count": 7,
+      "images_missing_alt": 0,
+      "images_empty_alt": 0,
+      "videos": [],
+      "video_count": 0,
+      "has_video": false,
+      "schemas": [
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "BlogPosting"
+          ],
+          "raw_length": 882
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "BreadcrumbList"
+          ],
+          "raw_length": 363
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 4284
+        }
+      ],
+      "schema_types": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "schema_count": 3,
+      "schema_invalid_count": 0,
+      "faq": {
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 9
       },
       "cluster": null,
       "category": null,
@@ -16522,8 +17360,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 606,
-        "char_count": 3630,
+        "word_count": 603,
+        "char_count": 3613,
         "paragraph_count": 19,
         "list_count": 0,
         "table_count": 0,
@@ -16589,18 +17427,13 @@
       ],
       "external_links": [
         {
-          "href": "https://qualeamelhor.com.br/qual-e-o-melhor-brinquedo-interativo-para-gatos-que-ficam-sozinhos",
-          "anchor_text": "Qual é a Melhor",
-          "domain": "qualeamelhor.com.br"
-        },
-        {
           "href": "https://meli.la/1xeuzyE",
           "anchor_text": "Ver no Mercado Livre →",
           "domain": "meli.la"
         }
       ],
       "internal_link_count": 11,
-      "external_link_count": 2,
+      "external_link_count": 1,
       "images": [
         {
           "src": "img/melhor-bolinha-inteligente-para-gato-hero.jpg",
@@ -17733,8 +18566,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "153",
+          "height": "36",
           "loading": null,
           "format": "png"
         }
@@ -17859,8 +18692,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "153",
+          "height": "36",
           "loading": null,
           "format": "png"
         }
@@ -17871,9 +18704,20 @@
       "videos": [],
       "video_count": 0,
       "has_video": false,
-      "schemas": [],
-      "schema_types": [],
-      "schema_count": 0,
+      "schemas": [
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "WebPage"
+          ],
+          "raw_length": 666
+        }
+      ],
+      "schema_types": [
+        "WebPage"
+      ],
+      "schema_count": 1,
       "schema_invalid_count": 0,
       "faq": {
         "detected": false,
@@ -18832,8 +19676,8 @@
       "slug": "porta-eletronica-microchip-x-rfid-coleira",
       "url_path": "/porta-eletronica-microchip-x-rfid-coleira/",
       "page_type": "post",
-      "title": "Porta Eletrônica: Microchip ou Medalhão RFID na Coleira?",
-      "meta_description": "Diferença entre porta eletrônica com leitura de microchip implantado e porta com medalhão RFID na coleira: quando usar cada uma.",
+      "title": "Porta Eletrônica com Microchip ou RFID: Vale a Pena?",
+      "meta_description": "Porta eletrônica com microchip ou medalhão RFID: compare as diferenças e descubra qual vale mais a pena comprar para o seu pet.",
       "canonical": "https://smartpetgadgets.com.br/porta-eletronica-microchip-x-rfid-coleira/",
       "robots": null,
       "language": "pt-BR",
@@ -18841,7 +19685,7 @@
       "headings": [
         {
           "tag": "h1",
-          "text": "Porta Eletrônica: Microchip ou Medalhão RFID na Coleira?",
+          "text": "Porta Eletrônica com Microchip ou RFID: Qual Vale Mais a Pena?",
           "empty": false
         },
         {
@@ -18909,8 +19753,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 605,
-        "char_count": 3791,
+        "word_count": 608,
+        "char_count": 3797,
         "paragraph_count": 18,
         "list_count": 0,
         "table_count": 1,
@@ -19014,7 +19858,7 @@
           "types": [
             "BlogPosting"
           ],
-          "raw_length": 911
+          "raw_length": 916
         },
         {
           "valid": true,
@@ -19022,7 +19866,7 @@
           "types": [
             "BreadcrumbList"
           ],
-          "raw_length": 570
+          "raw_length": 576
         },
         {
           "valid": true,
@@ -19569,8 +20413,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 631,
-        "char_count": 3923,
+        "word_count": 630,
+        "char_count": 3909,
         "paragraph_count": 17,
         "list_count": 0,
         "table_count": 1,
@@ -19636,18 +20480,13 @@
       ],
       "external_links": [
         {
-          "href": "https://www.luchinishop.com.br/MLB-2080403696-porta-portinha-passagem-gato-co-cachorro-tamanho-gg-25x295-_JM",
-          "anchor_text": "Luchini Shop",
-          "domain": "luchinishop.com.br"
-        },
-        {
           "href": "https://meli.la/16KHsZa",
           "anchor_text": "Ver no Mercado Livre →",
           "domain": "meli.la"
         }
       ],
       "internal_link_count": 11,
-      "external_link_count": 2,
+      "external_link_count": 1,
       "images": [
         {
           "src": "img/porta-eletronica-x-alcapao-tradicional-hero.jpg",
@@ -19799,8 +20638,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "153",
+          "height": "36",
           "loading": null,
           "format": "png"
         }
@@ -19811,9 +20650,20 @@
       "videos": [],
       "video_count": 0,
       "has_video": false,
-      "schemas": [],
-      "schema_types": [],
-      "schema_count": 0,
+      "schemas": [
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "WebPage"
+          ],
+          "raw_length": 642
+        }
+      ],
+      "schema_types": [
+        "WebPage"
+      ],
+      "schema_count": 1,
       "schema_invalid_count": 0,
       "faq": {
         "detected": false,
@@ -20268,8 +21118,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "1106",
+          "height": "1200",
           "loading": "lazy",
           "format": "webp"
         },
@@ -20279,8 +21129,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "1200",
+          "height": "1200",
           "loading": "lazy",
           "format": "webp"
         },
@@ -20290,8 +21140,8 @@
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
-          "width": null,
-          "height": null,
+          "width": "1200",
+          "height": "946",
           "loading": "lazy",
           "format": "webp"
         }

@@ -1,0 +1,855 @@
+{
+  "audit_date": "2026-09-30",
+  "total_pages": 77,
+  "methodology_caveat": "Generic analyzer (analyze_blog.py) scores are systematically undercounted for this site due to Markdown/English-only regex patterns not matching this site's HTML/Portuguese content (internal/external linking, entity definitions, example detection). Use as relative ranking only. site-indexer/seo-auditor/cannibalization/internal-linking are calibrated for this site and are the reliable source for orphans, cannibalization, schema, metadata.",
+  "generic_analyzer": {
+    "average_score": 67.7,
+    "distribution": {
+      "90+": 0,
+      "70-89": 31,
+      "50-69": 44,
+      "<50": 0
+    },
+    "per_post": [
+      {
+        "file": "bebedouro-inox-x-ceramica/index.html",
+        "score": 70,
+        "categories": {
+          "content_quality": 19,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 11,
+          "ai_citation_readiness": 10
+        }
+      },
+      {
+        "file": "brinquedo-automatico-cachorro-sozinho/index.html",
+        "score": 64,
+        "categories": {
+          "content_quality": 18,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 9,
+          "ai_citation_readiness": 7
+        }
+      },
+      {
+        "file": "brinquedo-interativo-automatico-para-gato/index.html",
+        "score": 72,
+        "categories": {
+          "content_quality": 21,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 10,
+          "ai_citation_readiness": 11
+        }
+      },
+      {
+        "file": "brinquedo-interativo-gato-idoso-vale-a-pena/index.html",
+        "score": 68,
+        "categories": {
+          "content_quality": 20,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 10,
+          "ai_citation_readiness": 8
+        }
+      },
+      {
+        "file": "brinquedo-interativo-pilha-x-recarregavel/index.html",
+        "score": 68,
+        "categories": {
+          "content_quality": 20,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 10,
+          "ai_citation_readiness": 8
+        }
+      },
+      {
+        "file": "brinquedo-interativo-sensor-infravermelho-como-funciona/index.html",
+        "score": 64,
+        "categories": {
+          "content_quality": 18,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 9,
+          "ai_citation_readiness": 7
+        }
+      },
+      {
+        "file": "brinquedo-interativo-substitui-brincadeira-tutor/index.html",
+        "score": 70,
+        "categories": {
+          "content_quality": 20,
+          "seo_optimization": 21,
+          "eeat_signals": 12,
+          "technical_elements": 10,
+          "ai_citation_readiness": 7
+        }
+      },
+      {
+        "file": "cachorro-de-casa-pega-pulga/index.html",
+        "score": 68,
+        "categories": {
+          "content_quality": 17,
+          "seo_optimization": 20,
+          "eeat_signals": 9,
+          "technical_elements": 12,
+          "ai_citation_readiness": 10
+        }
+      },
+      {
+        "file": "camera-para-monitorar-pet/index.html",
+        "score": 73,
+        "categories": {
+          "content_quality": 21,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 11,
+          "ai_citation_readiness": 11
+        }
+      },
+      {
+        "file": "camera-pet-cachorro-ansiedade-separacao/index.html",
+        "score": 66,
+        "categories": {
+          "content_quality": 20,
+          "seo_optimization": 19,
+          "eeat_signals": 10,
+          "technical_elements": 10,
+          "ai_citation_readiness": 7
+        }
+      },
+      {
+        "file": "camera-pet-com-dispensador-de-petisco/index.html",
+        "score": 63,
+        "categories": {
+          "content_quality": 18,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 9,
+          "ai_citation_readiness": 6
+        }
+      },
+      {
+        "file": "camera-pet-grava-sem-internet/index.html",
+        "score": 65,
+        "categories": {
+          "content_quality": 18,
+          "seo_optimization": 20,
+          "eeat_signals": 9,
+          "technical_elements": 10,
+          "ai_citation_readiness": 8
+        }
+      },
+      {
+        "file": "camera-pet-resolucao-1080p-x-2k/index.html",
+        "score": 64,
+        "categories": {
+          "content_quality": 16,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 10,
+          "ai_citation_readiness": 8
+        }
+      },
+      {
+        "file": "camera-pet-visao-noturna-funciona/index.html",
+        "score": 68,
+        "categories": {
+          "content_quality": 20,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 10,
+          "ai_citation_readiness": 8
+        }
+      },
+      {
+        "file": "camera-pet-x-coleira-gps-qual-escolher/index.html",
+        "score": 63,
+        "categories": {
+          "content_quality": 16,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 10,
+          "ai_citation_readiness": 7
+        }
+      },
+      {
+        "file": "cat-mate-c500-review/index.html",
+        "score": 71,
+        "categories": {
+          "content_quality": 19,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 11,
+          "ai_citation_readiness": 11
+        }
+      },
+      {
+        "file": "cercado-para-cachorros/index.html",
+        "score": 78,
+        "categories": {
+          "content_quality": 20,
+          "seo_optimization": 23,
+          "eeat_signals": 12,
+          "technical_elements": 14,
+          "ai_citation_readiness": 9
+        }
+      },
+      {
+        "file": "cerca-virtual-para-cachorro/index.html",
+        "score": 64,
+        "categories": {
+          "content_quality": 18,
+          "seo_optimization": 20,
+          "eeat_signals": 9,
+          "technical_elements": 10,
+          "ai_citation_readiness": 7
+        }
+      },
+      {
+        "file": "coleira-gps-bluetooth-x-chip-operadora/index.html",
+        "score": 68,
+        "categories": {
+          "content_quality": 18,
+          "seo_optimization": 21,
+          "eeat_signals": 11,
+          "technical_elements": 10,
+          "ai_citation_readiness": 8
+        }
+      },
+      {
+        "file": "coleira-gps-cachorro-pequeno-porte/index.html",
+        "score": 68,
+        "categories": {
+          "content_quality": 20,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 10,
+          "ai_citation_readiness": 8
+        }
+      },
+      {
+        "file": "coleira-gps-cachorro-que-foge/index.html",
+        "score": 62,
+        "categories": {
+          "content_quality": 16,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 9,
+          "ai_citation_readiness": 7
+        }
+      },
+      {
+        "file": "coleira-gps-para-gato/index.html",
+        "score": 72,
+        "categories": {
+          "content_quality": 20,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 11,
+          "ai_citation_readiness": 11
+        }
+      },
+      {
+        "file": "coleira-gps-para-pet/index.html",
+        "score": 73,
+        "categories": {
+          "content_quality": 21,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 11,
+          "ai_citation_readiness": 11
+        }
+      },
+      {
+        "file": "coleira-gps-x-microchip/index.html",
+        "score": 66,
+        "categories": {
+          "content_quality": 18,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 10,
+          "ai_citation_readiness": 8
+        }
+      },
+      {
+        "file": "coleira-seresto-antipulgas/index.html",
+        "score": 76,
+        "categories": {
+          "content_quality": 21,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 14,
+          "ai_citation_readiness": 11
+        }
+      },
+      {
+        "file": "comedouro-automatico-anti-formiga/index.html",
+        "score": 71,
+        "categories": {
+          "content_quality": 19,
+          "seo_optimization": 20,
+          "eeat_signals": 9,
+          "technical_elements": 13,
+          "ai_citation_readiness": 10
+        }
+      },
+      {
+        "file": "comedouro-automatico-faz-mal/index.html",
+        "score": 73,
+        "categories": {
+          "content_quality": 21,
+          "seo_optimization": 20,
+          "eeat_signals": 9,
+          "technical_elements": 13,
+          "ai_citation_readiness": 10
+        }
+      },
+      {
+        "file": "comedouro-automatico-gato-obeso/index.html",
+        "score": 76,
+        "categories": {
+          "content_quality": 21,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 14,
+          "ai_citation_readiness": 11
+        }
+      },
+      {
+        "file": "comedouro-automatico-para-dois-gatos/index.html",
+        "score": 69,
+        "categories": {
+          "content_quality": 20,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 10,
+          "ai_citation_readiness": 9
+        }
+      },
+      {
+        "file": "comedouro-automatico-para-pet/index.html",
+        "score": 73,
+        "categories": {
+          "content_quality": 21,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 11,
+          "ai_citation_readiness": 11
+        }
+      },
+      {
+        "file": "comedouro-automatico-para-viagem/index.html",
+        "score": 74,
+        "categories": {
+          "content_quality": 21,
+          "seo_optimization": 20,
+          "eeat_signals": 9,
+          "technical_elements": 14,
+          "ai_citation_readiness": 10
+        }
+      },
+      {
+        "file": "comedouro-automatico-vale-a-pena/index.html",
+        "score": 71,
+        "categories": {
+          "content_quality": 19,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 11,
+          "ai_citation_readiness": 11
+        }
+      },
+      {
+        "file": "comedouro-cachorro/index.html",
+        "score": 69,
+        "categories": {
+          "content_quality": 18,
+          "seo_optimization": 20,
+          "eeat_signals": 9,
+          "technical_elements": 14,
+          "ai_citation_readiness": 8
+        }
+      },
+      {
+        "file": "comedouro-com-ou-sem-wifi/index.html",
+        "score": 74,
+        "categories": {
+          "content_quality": 19,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 14,
+          "ai_citation_readiness": 11
+        }
+      },
+      {
+        "file": "comedouro-gato-x-cachorro-diferenca/index.html",
+        "score": 72,
+        "categories": {
+          "content_quality": 21,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 11,
+          "ai_citation_readiness": 10
+        }
+      },
+      {
+        "file": "comedouro-newpet-2l-review/index.html",
+        "score": 74,
+        "categories": {
+          "content_quality": 19,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 14,
+          "ai_citation_readiness": 11
+        }
+      },
+      {
+        "file": "comedouro-newpet-4l-review/index.html",
+        "score": 71,
+        "categories": {
+          "content_quality": 19,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 11,
+          "ai_citation_readiness": 11
+        }
+      },
+      {
+        "file": "comedouro-vdrbg-4l-wifi-review/index.html",
+        "score": 73,
+        "categories": {
+          "content_quality": 21,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 11,
+          "ai_citation_readiness": 11
+        }
+      },
+      {
+        "file": "comedouro-x-bebedouro-automatico/index.html",
+        "score": 71,
+        "categories": {
+          "content_quality": 21,
+          "seo_optimization": 20,
+          "eeat_signals": 9,
+          "technical_elements": 11,
+          "ai_citation_readiness": 10
+        }
+      },
+      {
+        "file": "como-configurar-camera-pet-wifi/index.html",
+        "score": 67,
+        "categories": {
+          "content_quality": 18,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 10,
+          "ai_citation_readiness": 9
+        }
+      },
+      {
+        "file": "como-escolher-brinquedo-interativo-gato-entediado/index.html",
+        "score": 71,
+        "categories": {
+          "content_quality": 20,
+          "seo_optimization": 21,
+          "eeat_signals": 12,
+          "technical_elements": 11,
+          "ai_citation_readiness": 7
+        }
+      },
+      {
+        "file": "como-funciona-coleira-gps-cachorro/index.html",
+        "score": 63,
+        "categories": {
+          "content_quality": 16,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 9,
+          "ai_citation_readiness": 8
+        }
+      },
+      {
+        "file": "como-instalar-porta-eletronica-pet/index.html",
+        "score": 68,
+        "categories": {
+          "content_quality": 20,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 10,
+          "ai_citation_readiness": 8
+        }
+      },
+      {
+        "file": "como-limpar-comedouro-automatico/index.html",
+        "score": 73,
+        "categories": {
+          "content_quality": 19,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 14,
+          "ai_citation_readiness": 10
+        }
+      },
+      {
+        "file": "configurar-app-comedouro-wifi/index.html",
+        "score": 71,
+        "categories": {
+          "content_quality": 19,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 11,
+          "ai_citation_readiness": 11
+        }
+      },
+      {
+        "file": "contato/index.html",
+        "score": 52,
+        "categories": {
+          "content_quality": 15,
+          "seo_optimization": 19,
+          "eeat_signals": 5,
+          "technical_elements": 6,
+          "ai_citation_readiness": 7
+        }
+      },
+      {
+        "file": "duvidas-brinquedo-interativo-gato/index.html",
+        "score": 61,
+        "categories": {
+          "content_quality": 16,
+          "seo_optimization": 19,
+          "eeat_signals": 10,
+          "technical_elements": 9,
+          "ai_citation_readiness": 7
+        }
+      },
+      {
+        "file": "duvidas-camera-para-monitorar-pet/index.html",
+        "score": 60,
+        "categories": {
+          "content_quality": 14,
+          "seo_optimization": 19,
+          "eeat_signals": 10,
+          "technical_elements": 9,
+          "ai_citation_readiness": 8
+        }
+      },
+      {
+        "file": "duvidas-coleira-gps-pet/index.html",
+        "score": 62,
+        "categories": {
+          "content_quality": 16,
+          "seo_optimization": 19,
+          "eeat_signals": 10,
+          "technical_elements": 9,
+          "ai_citation_readiness": 8
+        }
+      },
+      {
+        "file": "duvidas-porta-eletronica-pet/index.html",
+        "score": 63,
+        "categories": {
+          "content_quality": 18,
+          "seo_optimization": 19,
+          "eeat_signals": 10,
+          "technical_elements": 9,
+          "ai_citation_readiness": 7
+        }
+      },
+      {
+        "file": "erros-comuns-brinquedo-interativo-gato/index.html",
+        "score": 66,
+        "categories": {
+          "content_quality": 18,
+          "seo_optimization": 21,
+          "eeat_signals": 12,
+          "technical_elements": 9,
+          "ai_citation_readiness": 6
+        }
+      },
+      {
+        "file": "erros-comuns-camera-monitorar-pet/index.html",
+        "score": 63,
+        "categories": {
+          "content_quality": 16,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 9,
+          "ai_citation_readiness": 8
+        }
+      },
+      {
+        "file": "erros-comuns-coleira-gps-pet/index.html",
+        "score": 65,
+        "categories": {
+          "content_quality": 18,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 9,
+          "ai_citation_readiness": 8
+        }
+      },
+      {
+        "file": "erros-comuns-porta-eletronica-pet/index.html",
+        "score": 62,
+        "categories": {
+          "content_quality": 16,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 9,
+          "ai_citation_readiness": 7
+        }
+      },
+      {
+        "file": "melhor-alimentador-automatico-gatos/index.html",
+        "score": 73,
+        "categories": {
+          "content_quality": 21,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 11,
+          "ai_citation_readiness": 11
+        }
+      },
+      {
+        "file": "melhor-antipulgas-para-cachorro/index.html",
+        "score": 74,
+        "categories": {
+          "content_quality": 20,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 14,
+          "ai_citation_readiness": 10
+        }
+      },
+      {
+        "file": "melhor-bebedouro-automatico-pet/index.html",
+        "score": 73,
+        "categories": {
+          "content_quality": 21,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 11,
+          "ai_citation_readiness": 11
+        }
+      },
+      {
+        "file": "melhor-bolinha-inteligente-para-gato/index.html",
+        "score": 63,
+        "categories": {
+          "content_quality": 18,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 9,
+          "ai_citation_readiness": 6
+        }
+      },
+      {
+        "file": "melhor-camera-para-monitorar-pet/index.html",
+        "score": 69,
+        "categories": {
+          "content_quality": 20,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 10,
+          "ai_citation_readiness": 9
+        }
+      },
+      {
+        "file": "melhor-coleira-gps-sem-mensalidade/index.html",
+        "score": 69,
+        "categories": {
+          "content_quality": 20,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 11,
+          "ai_citation_readiness": 8
+        }
+      },
+      {
+        "file": "melhor-comedouro-automatico-cachorro/index.html",
+        "score": 71,
+        "categories": {
+          "content_quality": 19,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 11,
+          "ai_citation_readiness": 11
+        }
+      },
+      {
+        "file": "melhor-comedouro-interativo-gato/index.html",
+        "score": 65,
+        "categories": {
+          "content_quality": 18,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 10,
+          "ai_citation_readiness": 7
+        }
+      },
+      {
+        "file": "politica-de-privacidade/index.html",
+        "score": 58,
+        "categories": {
+          "content_quality": 18,
+          "seo_optimization": 20,
+          "eeat_signals": 6,
+          "technical_elements": 7,
+          "ai_citation_readiness": 7
+        }
+      },
+      {
+        "file": "politica-editorial/index.html",
+        "score": 54,
+        "categories": {
+          "content_quality": 18,
+          "seo_optimization": 20,
+          "eeat_signals": 5,
+          "technical_elements": 5,
+          "ai_citation_readiness": 6
+        }
+      },
+      {
+        "file": "porta-eletronica-automatica-para-pet/index.html",
+        "score": 72,
+        "categories": {
+          "content_quality": 21,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 10,
+          "ai_citation_readiness": 11
+        }
+      },
+      {
+        "file": "porta-eletronica-funciona-porta-de-vidro/index.html",
+        "score": 63,
+        "categories": {
+          "content_quality": 18,
+          "seo_optimization": 19,
+          "eeat_signals": 10,
+          "technical_elements": 9,
+          "ai_citation_readiness": 7
+        }
+      },
+      {
+        "file": "porta-eletronica-gato-x-cachorro-diferenca/index.html",
+        "score": 62,
+        "categories": {
+          "content_quality": 16,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 9,
+          "ai_citation_readiness": 7
+        }
+      },
+      {
+        "file": "porta-eletronica-impede-entrada-outros-animais/index.html",
+        "score": 67,
+        "categories": {
+          "content_quality": 20,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 10,
+          "ai_citation_readiness": 7
+        }
+      },
+      {
+        "file": "porta-eletronica-microchip-x-rfid-coleira/index.html",
+        "score": 68,
+        "categories": {
+          "content_quality": 20,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 10,
+          "ai_citation_readiness": 8
+        }
+      },
+      {
+        "file": "porta-eletronica-reconhecimento-facial-vale-a-pena/index.html",
+        "score": 67,
+        "categories": {
+          "content_quality": 20,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 10,
+          "ai_citation_readiness": 7
+        }
+      },
+      {
+        "file": "porta-eletronica-sensor-de-luz-como-funciona/index.html",
+        "score": 62,
+        "categories": {
+          "content_quality": 16,
+          "seo_optimization": 20,
+          "eeat_signals": 10,
+          "technical_elements": 9,
+          "ai_citation_readiness": 7
+        }
+      },
+      {
+        "file": "porta-eletronica-x-alcapao-tradicional/index.html",
+        "score": 64,
+        "categories": {
+          "content_quality": 18,
+          "seo_optimization": 19,
+          "eeat_signals": 10,
+          "technical_elements": 10,
+          "ai_citation_readiness": 7
+        }
+      },
+      {
+        "file": "sobre/index.html",
+        "score": 54,
+        "categories": {
+          "content_quality": 19,
+          "seo_optimization": 19,
+          "eeat_signals": 5,
+          "technical_elements": 5,
+          "ai_citation_readiness": 6
+        }
+      },
+      {
+        "file": "soprador-pet/index.html",
+        "score": 72,
+        "categories": {
+          "content_quality": 16,
+          "seo_optimization": 21,
+          "eeat_signals": 12,
+          "technical_elements": 14,
+          "ai_citation_readiness": 9
+        }
+      },
+      {
+        "file": "tapete-higienico-para-cachorro/index.html",
+        "score": 76,
+        "categories": {
+          "content_quality": 18,
+          "seo_optimization": 23,
+          "eeat_signals": 12,
+          "technical_elements": 14,
+          "ai_citation_readiness": 9
+        }
+      }
+    ]
+  },
+  "seo_auditor": {
+    "critical": 0
+  },
+  "cannibalization": {
+    "pairs_analyzed": 2485,
+    "high": 0,
+    "possible": 56,
+    "complementary": 184
+  },
+  "internal_linking": {
+    "total_suggestions": 174
+  },
+  "orphan_pages": 0,
+  "stale_over_60d": 0
+}
