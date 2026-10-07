@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "generated_at": "2026-09-30T18:51:02.226Z",
+  "generated_at": "2026-10-07T09:53:01.480Z",
   "site": {
     "total_pages": 77,
-    "source_index_generated_at": "2026-09-30T18:50:58.503Z"
+    "source_index_generated_at": "2026-10-07T09:52:55.541Z"
   },
   "summary": {
     "critical": 0,
     "errors": 0,
     "warnings": 1,
-    "info": 1
+    "info": 7
   },
   "categories": {
     "technical": {
@@ -22,7 +22,7 @@
       "critical": 0,
       "error": 0,
       "warning": 0,
-      "info": 0
+      "info": 6
     },
     "headings": {
       "critical": 0,
@@ -228,15 +228,6 @@
       "issues": []
     },
     {
-      "path": "cerca-virtual-para-cachorro/index.html",
-      "url": "/cerca-virtual-para-cachorro/",
-      "slug": "cerca-virtual-para-cachorro",
-      "page_type": "post",
-      "title": "Cerca Virtual para Cachorro: O Que É e Como Configurar",
-      "status": "pass",
-      "issues": []
-    },
-    {
       "path": "cercado-para-cachorros/index.html",
       "url": "/cercado-para-cachorros/",
       "slug": "cercado-para-cachorros",
@@ -340,7 +331,7 @@
       "url": "/comedouro-automatico-para-dois-gatos/",
       "slug": "comedouro-automatico-para-dois-gatos",
       "page_type": "post",
-      "title": "Melhor Comedouro Automático para Dois Gatos (Evite Brigas)",
+      "title": "Comedouro para 2 Gatos: Como Evitar Brigas na Hora de Comer",
       "status": "pass",
       "issues": []
     },
@@ -358,9 +349,24 @@
       "url": "/comedouro-automatico-para-viagem/",
       "slug": "comedouro-automatico-para-viagem",
       "page_type": "post",
-      "title": "Como Preparar o Pet para Usar o Comedouro em Viagens",
+      "title": "Comedouro Automático em Viagem: O Erro Que Deixa o Pet Sem Comer",
       "status": "pass",
-      "issues": []
+      "issues": [
+        {
+          "id": "TITLE_TOO_LONG",
+          "category": "metadata",
+          "severity": "INFO",
+          "evidence": "Title com 64 caracteres (recomendado até 60)",
+          "recommendation": "Considerar encurtar o title para reduzir risco de truncamento no SERP."
+        },
+        {
+          "id": "DESCRIPTION_TOO_LONG",
+          "category": "metadata",
+          "severity": "INFO",
+          "evidence": "meta description com 161 caracteres (recomendado até 160)",
+          "recommendation": "Considerar encurtar para reduzir risco de truncamento no SERP."
+        }
+      ]
     },
     {
       "path": "comedouro-automatico-vale-a-pena/index.html",
@@ -385,7 +391,7 @@
       "url": "/comedouro-com-ou-sem-wifi/",
       "slug": "comedouro-com-ou-sem-wifi",
       "page_type": "post",
-      "title": "Comedouro Automático Com ou Sem Wi-Fi: Qual Escolher?",
+      "title": "Comedouro Com ou Sem Wi-Fi: Qual Vale Mais a Pena em 2026?",
       "status": "pass",
       "issues": []
     },
@@ -394,9 +400,17 @@
       "url": "/comedouro-gato-x-cachorro-diferenca/",
       "slug": "comedouro-gato-x-cachorro-diferenca",
       "page_type": "post",
-      "title": "Comedouro Automático para Gato x Cachorro: Qual a Diferença?",
+      "title": "Comedouro de Gato e Cachorro É Igual? A Diferença Que Importa",
       "status": "pass",
-      "issues": []
+      "issues": [
+        {
+          "id": "TITLE_TOO_LONG",
+          "category": "metadata",
+          "severity": "INFO",
+          "evidence": "Title com 61 caracteres (recomendado até 60)",
+          "recommendation": "Considerar encurtar o title para reduzir risco de truncamento no SERP."
+        }
+      ]
     },
     {
       "path": "comedouro-newpet-2l-review/index.html",
@@ -412,7 +426,7 @@
       "url": "/comedouro-newpet-4l-review/",
       "slug": "comedouro-newpet-4l-review",
       "page_type": "post",
-      "title": "Comedouro Newpet 4L: Review Completo (Vale a Pena?)",
+      "title": "Comedouro Newpet 4L Programável (Sem Wi-Fi): Review Completo",
       "status": "pass",
       "issues": []
     },
@@ -421,9 +435,24 @@
       "url": "/comedouro-vdrbg-4l-wifi-review/",
       "slug": "comedouro-vdrbg-4l-wifi-review",
       "page_type": "post",
-      "title": "Comedouro VDRBG 4L Wi-Fi: Vale a Pena Comprar? Review",
+      "title": "Comedouro Automático: 3 Modelos Testados e Comparados (Review)",
       "status": "pass",
-      "issues": []
+      "issues": [
+        {
+          "id": "TITLE_TOO_LONG",
+          "category": "metadata",
+          "severity": "INFO",
+          "evidence": "Title com 62 caracteres (recomendado até 60)",
+          "recommendation": "Considerar encurtar o title para reduzir risco de truncamento no SERP."
+        },
+        {
+          "id": "DESCRIPTION_TOO_LONG",
+          "category": "metadata",
+          "severity": "INFO",
+          "evidence": "meta description com 170 caracteres (recomendado até 160)",
+          "recommendation": "Considerar encurtar para reduzir risco de truncamento no SERP."
+        }
+      ]
     },
     {
       "path": "comedouro-x-bebedouro-automatico/index.html",
@@ -475,7 +504,7 @@
       "url": "/como-limpar-comedouro-automatico/",
       "slug": "como-limpar-comedouro-automatico",
       "page_type": "post",
-      "title": "Como Limpar o Comedouro Automático do Pet: Guia Rápido",
+      "title": "Como Limpar o Comedouro Automático Sem Deixar Mofo ou Cheiro",
       "status": "pass",
       "issues": []
     },
@@ -547,9 +576,17 @@
       "url": "/erros-comuns-camera-monitorar-pet/",
       "slug": "erros-comuns-camera-monitorar-pet",
       "page_type": "post",
-      "title": "Erros Comuns ao Usar Câmera para Monitorar Pet em Casa",
+      "title": "5 Erros Comuns com Câmera Pet (Nº3 é o Mais Ignorado)",
       "status": "pass",
-      "issues": []
+      "issues": [
+        {
+          "id": "DESCRIPTION_TOO_LONG",
+          "category": "metadata",
+          "severity": "INFO",
+          "evidence": "meta description com 161 caracteres (recomendado até 160)",
+          "recommendation": "Considerar encurtar para reduzir risco de truncamento no SERP."
+        }
+      ]
     },
     {
       "path": "erros-comuns-coleira-gps-pet/index.html",
@@ -662,6 +699,15 @@
       "slug": "melhor-comedouro-interativo-gato",
       "page_type": "post",
       "title": "Melhor Comedouro Interativo para Gato: Guia Completo 2026",
+      "status": "pass",
+      "issues": []
+    },
+    {
+      "path": "melhor-tapete-higienico-para-cachorro/index.html",
+      "url": "/melhor-tapete-higienico-para-cachorro/",
+      "slug": "melhor-tapete-higienico-para-cachorro",
+      "page_type": "post",
+      "title": "Melhor Tapete Higiênico para Cachorro: Como Escolher",
       "status": "pass",
       "issues": []
     },

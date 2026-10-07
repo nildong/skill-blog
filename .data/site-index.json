@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-01T10:31:02.497Z",
+  "generated_at": "2026-10-07T09:57:56.157Z",
   "site": {
     "root": "/home/projetos/blog",
     "total_html_files_found": 77,
@@ -20,11 +20,11 @@
       "no_h1": 0
     },
     "links": {
-      "internal_links": 1179,
-      "external_links": 232
+      "internal_links": 1206,
+      "external_links": 237
     },
     "media": {
-      "images": 192,
+      "images": 193,
       "images_missing_alt": 0,
       "videos": 2
     },
@@ -209,6 +209,16 @@
         },
         {
           "tag": "h2",
+          "text": "Facilidade de Desmontagem e Limpeza das Peças",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Quanto Custa um Bebedouro Fonte de Inox ou Cerâmica",
+          "empty": false
+        },
+        {
+          "tag": "h2",
           "text": "Como Avaliamos os Materiais",
           "empty": false
         },
@@ -238,23 +248,33 @@
           "empty": false
         },
         {
+          "tag": "h3",
+          "text": "Qual fonte de gato é mais fácil de desmontar e limpar?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual o preço médio de um bebedouro fonte de inox ou cerâmica?",
+          "empty": false
+        },
+        {
           "tag": "h2",
           "text": "Conclusão",
           "empty": false
         }
       ],
       "heading_summary": {
-        "total": 16,
+        "total": 20,
         "h1_count": 1,
-        "h2_count": 8,
-        "h3_count": 7,
+        "h2_count": 10,
+        "h3_count": 9,
         "h4_count": 0
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1644,
-        "char_count": 9918,
-        "paragraph_count": 35,
+        "word_count": 2084,
+        "char_count": 12472,
+        "paragraph_count": 41,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 1,
@@ -393,7 +413,7 @@
           "types": [
             "FAQPage"
           ],
-          "raw_length": 1920
+          "raw_length": 3023
         }
       ],
       "schema_types": [
@@ -407,7 +427,7 @@
         "detected": true,
         "schema_detected": true,
         "heading_detected": true,
-        "question_count": 4
+        "question_count": 6
       },
       "cluster": null,
       "category": null,
@@ -977,9 +997,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 582,
-        "char_count": 3807,
-        "paragraph_count": 15,
+        "word_count": 603,
+        "char_count": 3945,
+        "paragraph_count": 17,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -1009,6 +1029,16 @@
         {
           "href": "https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/",
           "anchor_text": "volte ao guia completo de brinquedo interativo para gato",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/como-escolher-brinquedo-interativo-gato-entediado/",
+          "anchor_text": "escolher o melhor brinquedo interativo para gato entediado",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/erros-comuns-brinquedo-interativo-gato/",
+          "anchor_text": "erros comuns ao usar brinquedo interativo para gato",
           "type": "absolute"
         },
         {
@@ -1059,7 +1089,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 11,
+      "internal_link_count": 13,
       "external_link_count": 3,
       "images": [
         {
@@ -1202,9 +1232,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 635,
-        "char_count": 4088,
-        "paragraph_count": 16,
+        "word_count": 645,
+        "char_count": 4158,
+        "paragraph_count": 17,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 0,
@@ -1234,6 +1264,11 @@
         {
           "href": "https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/",
           "anchor_text": "volte ao guia completo de brinquedo interativo para gato",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/como-escolher-brinquedo-interativo-gato-entediado/",
+          "anchor_text": "escolher o melhor brinquedo interativo para gato entediado",
           "type": "absolute"
         },
         {
@@ -1279,7 +1314,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 11,
+      "internal_link_count": 12,
       "external_link_count": 2,
       "images": [
         {
@@ -2183,8 +2218,8 @@
       "external_link_count": 4,
       "images": [
         {
-          "src": "img/camera-para-monitorar-pet-hero.jpg",
-          "alt": "Câmera de segurança instalada em ambiente interno para monitorar pet",
+          "src": "img/camera-para-monitorar-pet-hero-800w.jpg",
+          "alt": "Câmera inteligente compacta para monitorar pets, com lente grande angular visível",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
@@ -2614,7 +2649,7 @@
       "images": [
         {
           "src": "img/camera-pet-com-dispensador-de-petisco-hero.jpg",
-          "alt": "Cachorro recebendo petisco de dispensador automático controlado por aplicativo",
+          "alt": "Cachorro pegando petisco lançado por câmera pet com dispensador integrado",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
@@ -2834,7 +2869,7 @@
       "images": [
         {
           "src": "img/camera-pet-grava-sem-internet-hero.jpg",
-          "alt": "Roteador Wi-Fi desligado, representando queda de conexão de internet em casa",
+          "alt": "Câmera de monitoramento pet compacta, modelo com gravação local via cartão SD",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
@@ -3054,7 +3089,7 @@
       "images": [
         {
           "src": "img/camera-pet-resolucao-1080p-x-2k-hero.jpg",
-          "alt": "Tela de aplicativo exibindo imagem nítida de câmera de monitoramento de pet",
+          "alt": "Close da lente de uma câmera smart doméstica, mostrando nitidez óptica",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
@@ -3269,7 +3304,7 @@
       "images": [
         {
           "src": "img/camera-pet-visao-noturna-funciona-hero.jpg",
-          "alt": "Gato dormindo em ambiente com pouca luz, cenário típico de visão noturna",
+          "alt": "Captura em visão noturna infravermelha mostrando gato dormindo no sofá",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
@@ -3407,9 +3442,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 641,
-        "char_count": 3797,
-        "paragraph_count": 18,
+        "word_count": 661,
+        "char_count": 3913,
+        "paragraph_count": 19,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 0,
@@ -3444,6 +3479,11 @@
         {
           "href": "https://smartpetgadgets.com.br/camera-para-monitorar-pet/",
           "anchor_text": "volte ao guia completo de câmera para monitorar pet",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/melhor-coleira-gps-sem-mensalidade/",
+          "anchor_text": "melhor coleira GPS sem mensalidade: como escolher a sua",
           "type": "absolute"
         },
         {
@@ -3489,12 +3529,12 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 12,
+      "internal_link_count": 13,
       "external_link_count": 2,
       "images": [
         {
           "src": "img/camera-pet-x-coleira-gps-qual-escolher-hero.jpg",
-          "alt": "Câmera de segurança doméstica ao lado de conceito de rastreamento de pet",
+          "alt": "Cachorro usando coleira com rastreador GPS, close-up ao ar livre",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
@@ -3803,7 +3843,7 @@
           "types": [
             "Product"
           ],
-          "raw_length": 746
+          "raw_length": 857
         },
         {
           "valid": true,
@@ -3827,226 +3867,6 @@
         "schema_detected": true,
         "heading_detected": true,
         "question_count": 3
-      },
-      "cluster": null,
-      "category": null,
-      "author": null,
-      "date_published": null,
-      "date_modified": null
-    },
-    {
-      "path": "cerca-virtual-para-cachorro/index.html",
-      "slug": "cerca-virtual-para-cachorro",
-      "url_path": "/cerca-virtual-para-cachorro/",
-      "page_type": "post",
-      "title": "Cerca Virtual para Cachorro: O Que É e Como Configurar",
-      "meta_description": "Como funciona a cerca virtual (geofence) da coleira GPS, o que configurar no app antes de usar, e os erros mais comuns nessa configuração.",
-      "canonical": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/",
-      "robots": null,
-      "language": "pt-BR",
-      "charset": "UTF-8",
-      "headings": [
-        {
-          "tag": "h1",
-          "text": "Cerca Virtual para Cachorro: O Que É e Como Configurar",
-          "empty": false
-        },
-        {
-          "tag": "h2",
-          "text": "Como Configurar (Passo a Passo Geral)",
-          "empty": false
-        },
-        {
-          "tag": "h2",
-          "text": "Erros Comuns na Configuração",
-          "empty": false
-        },
-        {
-          "tag": "h2",
-          "text": "Cerca Virtual Também Funciona em Gatos",
-          "empty": false
-        },
-        {
-          "tag": "h2",
-          "text": "Quando a Cerca Virtual É Mais Útil",
-          "empty": false
-        },
-        {
-          "tag": "h2",
-          "text": "Perguntas Frequentes",
-          "empty": false
-        },
-        {
-          "tag": "h3",
-          "text": "O que é cerca virtual para cachorro?",
-          "empty": false
-        },
-        {
-          "tag": "h3",
-          "text": "Como configurar a cerca virtual na coleira GPS?",
-          "empty": false
-        },
-        {
-          "tag": "h3",
-          "text": "A cerca virtual pode falhar?",
-          "empty": false
-        },
-        {
-          "tag": "h3",
-          "text": "Cerca virtual funciona também em coleiras GPS para gato?",
-          "empty": false
-        },
-        {
-          "tag": "h2",
-          "text": "Conclusão",
-          "empty": false
-        }
-      ],
-      "heading_summary": {
-        "total": 11,
-        "h1_count": 1,
-        "h2_count": 6,
-        "h3_count": 4,
-        "h4_count": 0
-      },
-      "structural_warnings": [],
-      "content": {
-        "word_count": 785,
-        "char_count": 4680,
-        "paragraph_count": 18,
-        "list_count": 1,
-        "table_count": 0,
-        "blockquote_count": 0,
-        "method": "texto de <body> após remover script/style/noscript/nav/header/svg; palavras = split por espaço em branco"
-      },
-      "internal_links": [
-        {
-          "href": "https://smartpetgadgets.com.br/",
-          "anchor_text": "Início",
-          "type": "absolute"
-        },
-        {
-          "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
-          "anchor_text": "Coleira GPS para Pet",
-          "type": "absolute"
-        },
-        {
-          "href": "https://smartpetgadgets.com.br/autores/nildo-alves/",
-          "anchor_text": "Nildo Alves",
-          "type": "absolute"
-        },
-        {
-          "href": "https://smartpetgadgets.com.br/cercado-para-cachorros/",
-          "anchor_text": "cercado físico para cachorros",
-          "type": "absolute"
-        },
-        {
-          "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
-          "anchor_text": "volte ao guia completo de coleira GPS para pet",
-          "type": "absolute"
-        },
-        {
-          "href": "https://smartpetgadgets.com.br/sobre/",
-          "anchor_text": "Equipe Smart Pet Gadgets",
-          "type": "absolute"
-        },
-        {
-          "href": "https://smartpetgadgets.com.br/politica-editorial/",
-          "anchor_text": "política editorial",
-          "type": "absolute"
-        },
-        {
-          "href": "https://smartpetgadgets.com.br/autores/nildo-alves/",
-          "anchor_text": "Nildo Alves",
-          "type": "absolute"
-        },
-        {
-          "href": "https://smartpetgadgets.com.br/sobre/",
-          "anchor_text": "Sobre o Smart Pet Gadgets",
-          "type": "absolute"
-        },
-        {
-          "href": "https://smartpetgadgets.com.br/contato/",
-          "anchor_text": "Contato",
-          "type": "absolute"
-        },
-        {
-          "href": "https://smartpetgadgets.com.br/politica-editorial/",
-          "anchor_text": "Política editorial e de afiliados",
-          "type": "absolute"
-        }
-      ],
-      "external_links": [
-        {
-          "href": "https://thepetgps.com.br/como-funciona-coleira-gps-10-dicas/",
-          "anchor_text": "The Pet GPS",
-          "domain": "thepetgps.com.br"
-        },
-        {
-          "href": "https://meli.la/28Jdyfh",
-          "anchor_text": "Ver no Mercado Livre →",
-          "domain": "meli.la"
-        }
-      ],
-      "internal_link_count": 11,
-      "external_link_count": 2,
-      "images": [
-        {
-          "src": "img/cerca-virtual-para-cachorro-hero.jpg",
-          "alt": "Cachorro correndo em quintal aberto, área que pode ser demarcada por cerca virtual",
-          "alt_missing": false,
-          "alt_empty": false,
-          "title": null,
-          "width": "1200",
-          "height": "630",
-          "loading": "eager",
-          "format": "jpg"
-        }
-      ],
-      "image_count": 1,
-      "images_missing_alt": 0,
-      "images_empty_alt": 0,
-      "videos": [],
-      "video_count": 0,
-      "has_video": false,
-      "schemas": [
-        {
-          "valid": true,
-          "error": null,
-          "types": [
-            "BlogPosting"
-          ],
-          "raw_length": 877
-        },
-        {
-          "valid": true,
-          "error": null,
-          "types": [
-            "BreadcrumbList"
-          ],
-          "raw_length": 522
-        },
-        {
-          "valid": true,
-          "error": null,
-          "types": [
-            "FAQPage"
-          ],
-          "raw_length": 1648
-        }
-      ],
-      "schema_types": [
-        "BlogPosting",
-        "BreadcrumbList",
-        "FAQPage"
-      ],
-      "schema_count": 3,
-      "schema_invalid_count": 0,
-      "faq": {
-        "detected": true,
-        "schema_detected": true,
-        "heading_detected": true,
-        "question_count": 4
       },
       "cluster": null,
       "category": null,
@@ -4327,7 +4147,7 @@
           "types": [
             "Product"
           ],
-          "raw_length": 752
+          "raw_length": 843
         },
         {
           "valid": true,
@@ -4444,9 +4264,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 824,
-        "char_count": 5004,
-        "paragraph_count": 24,
+        "word_count": 867,
+        "char_count": 5247,
+        "paragraph_count": 26,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 0,
@@ -4491,6 +4311,16 @@
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
           "anchor_text": "Qual a Melhor Coleira GPS para Gato: Comparação por Tecnologia",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/",
+          "anchor_text": "câmera pet ou coleira GPS: qual escolher",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
+          "anchor_text": "cerca virtual da coleira GPS",
           "type": "absolute"
         },
         {
@@ -4541,7 +4371,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 14,
+      "internal_link_count": 16,
       "external_link_count": 3,
       "images": [
         {
@@ -4684,9 +4514,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 785,
-        "char_count": 4722,
-        "paragraph_count": 19,
+        "word_count": 803,
+        "char_count": 4831,
+        "paragraph_count": 20,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -4726,6 +4556,11 @@
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
           "anchor_text": "Qual a Melhor Coleira GPS para Gato: Comparação por Tecnologia",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
+          "anchor_text": "cerca virtual (geofence) da coleira GPS",
           "type": "absolute"
         },
         {
@@ -4771,7 +4606,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 13,
+      "internal_link_count": 14,
       "external_link_count": 2,
       "images": [
         {
@@ -4914,9 +4749,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 841,
-        "char_count": 5086,
-        "paragraph_count": 22,
+        "word_count": 886,
+        "char_count": 5352,
+        "paragraph_count": 24,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -4949,8 +4784,8 @@
           "type": "absolute"
         },
         {
-          "href": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/",
-          "anchor_text": "como configurar corretamente a cerca virtual",
+          "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
+          "anchor_text": "como configurar corretamente a cerca virtual da coleira GPS",
           "type": "absolute"
         },
         {
@@ -4976,6 +4811,16 @@
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
           "anchor_text": "Qual a Melhor Coleira GPS para Gato: Comparação por Tecnologia",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/melhor-coleira-gps-sem-mensalidade/",
+          "anchor_text": "melhor coleira GPS sem mensalidade: como escolher a sua",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/",
+          "anchor_text": "câmera pet ou coleira GPS: qual escolher",
           "type": "absolute"
         },
         {
@@ -5026,7 +4871,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 17,
+      "internal_link_count": 19,
       "external_link_count": 3,
       "images": [
         {
@@ -5174,9 +5019,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1233,
-        "char_count": 7282,
-        "paragraph_count": 25,
+        "word_count": 1266,
+        "char_count": 7493,
+        "paragraph_count": 27,
         "list_count": 1,
         "table_count": 1,
         "blockquote_count": 1,
@@ -5199,8 +5044,8 @@
           "type": "absolute"
         },
         {
-          "href": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/",
-          "anchor_text": "veja como funciona e configurar a cerca virtual",
+          "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
+          "anchor_text": "veja o guia completo de coleira GPS, incluindo como funciona a cerca virtual",
           "type": "absolute"
         },
         {
@@ -5211,6 +5056,16 @@
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
           "anchor_text": "volte ao guia completo de coleira GPS para pet",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/melhor-coleira-gps-sem-mensalidade/",
+          "anchor_text": "melhor coleira GPS sem mensalidade: como escolher a sua",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/duvidas-coleira-gps-pet/",
+          "anchor_text": "respostas rápidas às perguntas mais comuns sobre coleira GPS para pet",
           "type": "absolute"
         },
         {
@@ -5286,11 +5141,11 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 12,
+      "internal_link_count": 14,
       "external_link_count": 8,
       "images": [
         {
-          "src": "img/coleira-gps-para-gato-hero.jpg",
+          "src": "img/coleira-gps-para-gato-hero-800w.jpg",
           "alt": "Gato usando coleira com dispositivo de rastreamento GPS",
           "alt_missing": false,
           "alt_empty": false,
@@ -5401,7 +5256,7 @@
         },
         {
           "tag": "h2",
-          "text": "Coleira GPS para Cachorro x para Gato: as Diferenças",
+          "text": "Cães e Gatos Usam o GPS de Forma Diferente",
           "empty": false
         },
         {
@@ -5464,9 +5319,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1606,
-        "char_count": 9725,
-        "paragraph_count": 40,
+        "word_count": 1607,
+        "char_count": 9707,
+        "paragraph_count": 39,
         "list_count": 1,
         "table_count": 1,
         "blockquote_count": 1,
@@ -5501,11 +5356,6 @@
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
           "anchor_text": "qual a melhor coleira GPS para gato — comparação por tecnologia e o que muda em relação ao cão",
-          "type": "absolute"
-        },
-        {
-          "href": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/",
-          "anchor_text": "cerca virtual para cachorro: o que é e como configurar",
           "type": "absolute"
         },
         {
@@ -5586,11 +5436,11 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 20,
+      "internal_link_count": 19,
       "external_link_count": 2,
       "images": [
         {
-          "src": "img/coleira-gps-para-pet-hero.jpg",
+          "src": "img/coleira-gps-para-pet-hero-800w.jpg",
           "alt": "Cachorro usando coleira com dispositivo de rastreamento GPS ao ar livre",
           "alt_missing": false,
           "alt_empty": false,
@@ -5729,9 +5579,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 793,
-        "char_count": 4730,
-        "paragraph_count": 19,
+        "word_count": 813,
+        "char_count": 4839,
+        "paragraph_count": 20,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 0,
@@ -5771,6 +5621,11 @@
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
           "anchor_text": "volte ao guia completo de coleira GPS para pet",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
+          "anchor_text": "cerca virtual da coleira GPS",
           "type": "absolute"
         },
         {
@@ -5821,7 +5676,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 13,
+      "internal_link_count": 14,
       "external_link_count": 3,
       "images": [
         {
@@ -5984,8 +5839,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1649,
-        "char_count": 10017,
+        "word_count": 1650,
+        "char_count": 10019,
         "paragraph_count": 32,
         "list_count": 0,
         "table_count": 2,
@@ -6004,8 +5859,8 @@
           "type": "absolute"
         },
         {
-          "href": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/",
-          "anchor_text": "cerca virtual para cachorro",
+          "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
+          "anchor_text": "coleira GPS com cerca virtual",
           "type": "absolute"
         },
         {
@@ -6209,7 +6064,7 @@
           "types": [
             "Product"
           ],
-          "raw_length": 917
+          "raw_length": 645
         },
         {
           "valid": true,
@@ -7074,8 +6929,8 @@
       "slug": "comedouro-automatico-para-dois-gatos",
       "url_path": "/comedouro-automatico-para-dois-gatos/",
       "page_type": "post",
-      "title": "Melhor Comedouro Automático para Dois Gatos (Evite Brigas)",
-      "meta_description": "Veja o melhor comedouro automático para dois gatos: organize porções e horários e reduza disputas pela comida com uma rotina mais tranquila.",
+      "title": "Comedouro para 2 Gatos: Como Evitar Brigas na Hora de Comer",
+      "meta_description": "Dois gatos no mesmo comedouro automático geram brigas e porções desiguais. Veja como organizar horários e locais de alimentação para acabar com a disputa.",
       "canonical": "https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/",
       "robots": null,
       "language": "pt-BR",
@@ -7083,7 +6938,7 @@
       "headings": [
         {
           "tag": "h1",
-          "text": "Melhor Comedouro Automático para Dois Gatos (Evite Brigas)",
+          "text": "Comedouro para 2 Gatos: Como Evitar Brigas na Hora de Comer",
           "empty": false
         },
         {
@@ -7171,8 +7026,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1477,
-        "char_count": 9075,
+        "word_count": 1480,
+        "char_count": 9076,
         "paragraph_count": 32,
         "list_count": 0,
         "table_count": 0,
@@ -7306,7 +7161,7 @@
           "types": [
             "BlogPosting"
           ],
-          "raw_length": 938
+          "raw_length": 953
         },
         {
           "valid": true,
@@ -7314,7 +7169,7 @@
           "types": [
             "BreadcrumbList"
           ],
-          "raw_length": 553
+          "raw_length": 554
         },
         {
           "valid": true,
@@ -7694,8 +7549,8 @@
       "slug": "comedouro-automatico-para-viagem",
       "url_path": "/comedouro-automatico-para-viagem/",
       "page_type": "post",
-      "title": "Como Preparar o Pet para Usar o Comedouro em Viagens",
-      "meta_description": "Vai viajar e deixar o pet com comedouro automático? Veja como preparar o equipamento e adaptar o pet antes da viagem, com checklist prático.",
+      "title": "Comedouro Automático em Viagem: O Erro Que Deixa o Pet Sem Comer",
+      "meta_description": "Configurar errado o comedouro automático antes de viajar pode deixar o pet sem comer por horas. Veja o checklist para testar o equipamento antes de sair de casa.",
       "canonical": "https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/",
       "robots": null,
       "language": "pt-BR",
@@ -7703,7 +7558,7 @@
       "headings": [
         {
           "tag": "h1",
-          "text": "Como Preparar o Pet para Usar o Comedouro em Viagens",
+          "text": "Comedouro Automático em Viagem: O Erro Que Deixa o Pet Sem Comer",
           "empty": false
         },
         {
@@ -7791,8 +7646,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1424,
-        "char_count": 8558,
+        "word_count": 1426,
+        "char_count": 8570,
         "paragraph_count": 25,
         "list_count": 1,
         "table_count": 1,
@@ -7933,7 +7788,7 @@
           "types": [
             "BlogPosting"
           ],
-          "raw_length": 921
+          "raw_length": 954
         },
         {
           "valid": true,
@@ -7941,7 +7796,7 @@
           "types": [
             "BreadcrumbList"
           ],
-          "raw_length": 543
+          "raw_length": 555
         },
         {
           "valid": true,
@@ -8485,7 +8340,7 @@
           "types": [
             "Product"
           ],
-          "raw_length": 711
+          "raw_length": 800
         }
       ],
       "schema_types": [
@@ -8513,8 +8368,8 @@
       "slug": "comedouro-com-ou-sem-wifi",
       "url_path": "/comedouro-com-ou-sem-wifi/",
       "page_type": "post",
-      "title": "Comedouro Automático Com ou Sem Wi-Fi: Qual Escolher?",
-      "meta_description": "Comedouro automático com Wi-Fi ou sem Wi-Fi: entenda as diferenças reais e quando vale a pena pagar por Wi-Fi ou não.",
+      "title": "Comedouro Com ou Sem Wi-Fi: Qual Vale Mais a Pena em 2026?",
+      "meta_description": "Pagar mais por Wi-Fi no comedouro automático vale a pena ou é dinheiro jogado fora? Compare os dois modelos e descubra qual combina com sua rotina em 2026.",
       "canonical": "https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/",
       "robots": null,
       "language": "pt-BR",
@@ -8522,7 +8377,7 @@
       "headings": [
         {
           "tag": "h1",
-          "text": "Comedouro Automático Com ou Sem Wi-Fi: Qual Escolher?",
+          "text": "Comedouro Com ou Sem Wi-Fi: Qual Vale Mais a Pena em 2026?",
           "empty": false
         },
         {
@@ -8605,8 +8460,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1494,
-        "char_count": 9221,
+        "word_count": 1498,
+        "char_count": 9226,
         "paragraph_count": 28,
         "list_count": 1,
         "table_count": 1,
@@ -8772,7 +8627,7 @@
           "types": [
             "BlogPosting"
           ],
-          "raw_length": 878
+          "raw_length": 921
         },
         {
           "valid": true,
@@ -8780,7 +8635,7 @@
           "types": [
             "BreadcrumbList"
           ],
-          "raw_length": 537
+          "raw_length": 542
         },
         {
           "valid": true,
@@ -8815,8 +8670,8 @@
       "slug": "comedouro-gato-x-cachorro-diferenca",
       "url_path": "/comedouro-gato-x-cachorro-diferenca/",
       "page_type": "post",
-      "title": "Comedouro Automático para Gato x Cachorro: Qual a Diferença?",
-      "meta_description": "As diferenças reais entre comedouros automáticos para gatos e cachorros: porção, capacidade, formato do pote e o que muda na escolha.",
+      "title": "Comedouro de Gato e Cachorro É Igual? A Diferença Que Importa",
+      "meta_description": "Usar o mesmo comedouro para gato e cachorro parece prático, mas pode causar porções erradas e disputas por comida. Veja a diferença real antes de comprar.",
       "canonical": "https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/",
       "robots": null,
       "language": "pt-BR",
@@ -8824,7 +8679,7 @@
       "headings": [
         {
           "tag": "h1",
-          "text": "Comedouro Automático para Gato x Cachorro: Qual a Diferença?",
+          "text": "Comedouro de Gato e Cachorro É Igual? A Diferença Que Importa",
           "empty": false
         },
         {
@@ -8912,9 +8767,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1456,
-        "char_count": 8831,
-        "paragraph_count": 36,
+        "word_count": 1481,
+        "char_count": 8966,
+        "paragraph_count": 37,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 2,
@@ -8982,6 +8837,11 @@
           "type": "absolute"
         },
         {
+          "href": "https://smartpetgadgets.com.br/porta-eletronica-gato-x-cachorro-diferenca/",
+          "anchor_text": "qual a diferença entre porta eletrônica para gato e para cachorro",
+          "type": "absolute"
+        },
+        {
           "href": "https://smartpetgadgets.com.br/sobre/",
           "anchor_text": "Equipe Smart Pet Gadgets",
           "type": "absolute"
@@ -9034,7 +8894,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 18,
+      "internal_link_count": 19,
       "external_link_count": 4,
       "images": [
         {
@@ -9062,7 +8922,7 @@
           "types": [
             "BlogPosting"
           ],
-          "raw_length": 930
+          "raw_length": 952
         },
         {
           "valid": true,
@@ -9070,7 +8930,7 @@
           "types": [
             "BreadcrumbList"
           ],
-          "raw_length": 554
+          "raw_length": 555
         },
         {
           "valid": true,
@@ -9375,7 +9235,7 @@
           "types": [
             "Product"
           ],
-          "raw_length": 736
+          "raw_length": 792
         },
         {
           "valid": true,
@@ -9411,8 +9271,8 @@
       "slug": "comedouro-newpet-4l-review",
       "url_path": "/comedouro-newpet-4l-review/",
       "page_type": "post",
-      "title": "Comedouro Newpet 4L: Review Completo (Vale a Pena?)",
-      "meta_description": "Review do comedouro automático Newpet 4L: capacidade, gravação de voz, prós, contras e se vale a pena comprar em 2026.",
+      "title": "Comedouro Newpet 4L Programável (Sem Wi-Fi): Review Completo",
+      "meta_description": "Review do comedouro automático Newpet 4L Programável, sem Wi-Fi/app: capacidade, gravação de voz, prós, contras e se vale a pena comprar em 2026.",
       "canonical": "https://smartpetgadgets.com.br/comedouro-newpet-4l-review/",
       "robots": null,
       "language": "pt-BR",
@@ -9420,7 +9280,7 @@
       "headings": [
         {
           "tag": "h1",
-          "text": "Comedouro Newpet 4L: Review Completo (Vale a Pena?)",
+          "text": "Comedouro Newpet 4L Programável (Sem Wi-Fi): Review Completo",
           "empty": false
         },
         {
@@ -9518,9 +9378,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1670,
-        "char_count": 9914,
-        "paragraph_count": 38,
+        "word_count": 1702,
+        "char_count": 10092,
+        "paragraph_count": 39,
         "list_count": 2,
         "table_count": 1,
         "blockquote_count": 1,
@@ -9540,6 +9400,11 @@
         {
           "href": "https://smartpetgadgets.com.br/autores/nildo-alves/",
           "anchor_text": "Nildo Alves",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/",
+          "anchor_text": "comparativo com o Newpet 4L App",
           "type": "absolute"
         },
         {
@@ -9640,12 +9505,12 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 17,
+      "internal_link_count": 18,
       "external_link_count": 5,
       "images": [
         {
           "src": "img/comedouro-newpet-4l-review-hero.jpg",
-          "alt": "Comedouro automático inteligente com câmera integrada e gato próximo ao aparelho",
+          "alt": "Comedouro automático Newpet 4L Programável, sem Wi-Fi, com gato próximo ao aparelho",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
@@ -9668,7 +9533,7 @@
           "types": [
             "BlogPosting"
           ],
-          "raw_length": 879
+          "raw_length": 915
         },
         {
           "valid": true,
@@ -9676,7 +9541,7 @@
           "types": [
             "BreadcrumbList"
           ],
-          "raw_length": 536
+          "raw_length": 545
         },
         {
           "valid": true,
@@ -9684,7 +9549,7 @@
           "types": [
             "Product"
           ],
-          "raw_length": 745
+          "raw_length": 948
         },
         {
           "valid": true,
@@ -9721,7 +9586,7 @@
       "url_path": "/comedouro-vdrbg-4l-wifi-review/",
       "page_type": "post",
       "title": "Comedouro Automático: 3 Modelos Testados e Comparados (Review)",
-      "meta_description": "Comparamos 3 comedouros automáticos para cães e gatos — Velds 4L Wi-Fi, Newpet 4L e um modelo com LCD sem app — para ajudar a escolher o alimentador automático certo.",
+      "meta_description": "Comparamos 3 comedouros automáticos para cães e gatos — Velds 4L Wi-Fi, Newpet 4L App e um modelo com LCD sem app — para ajudar a escolher o alimentador automático certo.",
       "canonical": "https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/",
       "robots": null,
       "language": "pt-BR",
@@ -9744,7 +9609,7 @@
         },
         {
           "tag": "h3",
-          "text": "Newpet 4L",
+          "text": "Newpet 4L App",
           "empty": false
         },
         {
@@ -9759,7 +9624,7 @@
         },
         {
           "tag": "h2",
-          "text": "Comedouro Automático Newpet 4L: App com Gravação de Voz",
+          "text": "Comedouro Automático Newpet 4L App: Wi-Fi, Câmera e Gravação de Voz",
           "empty": false
         },
         {
@@ -9794,7 +9659,7 @@
         },
         {
           "tag": "h3",
-          "text": "Newpet 4L",
+          "text": "Newpet 4L App",
           "empty": false
         },
         {
@@ -9857,9 +9722,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1886,
-        "char_count": 11439,
-        "paragraph_count": 47,
+        "word_count": 1976,
+        "char_count": 11877,
+        "paragraph_count": 48,
         "list_count": 3,
         "table_count": 1,
         "blockquote_count": 1,
@@ -9889,6 +9754,11 @@
         {
           "href": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/",
           "anchor_text": "como configurar o app do comedouro automático Wi-Fi",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-newpet-4l-review/",
+          "anchor_text": "review completo do Newpet 4L Programável (sem Wi-Fi)",
           "type": "absolute"
         },
         {
@@ -10000,7 +9870,7 @@
         },
         {
           "href": "https://meli.la/2PtKj8u",
-          "anchor_text": "Newpet 4L →",
+          "anchor_text": "Newpet 4L App →",
           "domain": "meli.la"
         },
         {
@@ -10009,17 +9879,17 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 16,
+      "internal_link_count": 17,
       "external_link_count": 12,
       "images": [
         {
-          "src": "img/comedouro-vdrbg-4l-wifi-review-hero.jpg",
+          "src": "img/comedouro-vdrbg-4l-wifi-review-hero-800w.jpg",
           "alt": "Comedouro automático Velds 4L com app, cercado por um gato e um pug, representando um alimentador automático para cães e gatos",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
           "width": "1200",
-          "height": "630",
+          "height": "1164",
           "loading": "eager",
           "format": "jpg"
         },
@@ -10036,7 +9906,7 @@
         },
         {
           "src": "img/newpet-4l-app.webp",
-          "alt": "Comedouro automático Newpet 4L com app e gravação de voz",
+          "alt": "Comedouro automático Newpet 4L App com Wi-Fi, câmera e gravação de voz",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
@@ -10069,7 +9939,7 @@
         },
         {
           "src": "img/newpet-4l-detalhe.webp",
-          "alt": "Detalhe do comedouro automático Newpet 4L mostrando o reservatório de ração",
+          "alt": "Detalhe do comedouro automático Newpet 4L App mostrando o reservatório de ração",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
@@ -10103,7 +9973,7 @@
           "types": [
             "BlogPosting"
           ],
-          "raw_length": 950
+          "raw_length": 954
         },
         {
           "valid": true,
@@ -10111,7 +9981,7 @@
           "types": [
             "ItemList"
           ],
-          "raw_length": 2447
+          "raw_length": 2703
         },
         {
           "valid": true,
@@ -10383,7 +10253,7 @@
       "external_link_count": 5,
       "images": [
         {
-          "src": "img/comedouro-x-bebedouro-automatico-hero.jpg",
+          "src": "img/comedouro-x-bebedouro-automatico-hero-800w.jpg",
           "alt": "Comedouro e bebedouro automático lado a lado em ambiente doméstico",
           "alt_missing": false,
           "alt_empty": false,
@@ -10594,7 +10464,7 @@
       "images": [
         {
           "src": "img/como-configurar-camera-pet-wifi-hero.jpg",
-          "alt": "Roteador Wi-Fi doméstico usado para conectar câmera de monitoramento de pet",
+          "alt": "Câmera de monitoramento pet ao lado de smartphone, representando configuração via app",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
@@ -10727,9 +10597,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 578,
-        "char_count": 3858,
-        "paragraph_count": 15,
+        "word_count": 601,
+        "char_count": 4017,
+        "paragraph_count": 17,
         "list_count": 1,
         "table_count": 1,
         "blockquote_count": 0,
@@ -10759,6 +10629,16 @@
         {
           "href": "https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/",
           "anchor_text": "volte ao guia completo de brinquedo interativo para gato",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/duvidas-brinquedo-interativo-gato/",
+          "anchor_text": "brinquedo interativo para gato: perguntas frequentes",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/erros-comuns-brinquedo-interativo-gato/",
+          "anchor_text": "erros comuns ao usar brinquedo interativo para gato",
           "type": "absolute"
         },
         {
@@ -10804,7 +10684,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 11,
+      "internal_link_count": 13,
       "external_link_count": 2,
       "images": [
         {
@@ -10962,9 +10842,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 895,
-        "char_count": 5317,
-        "paragraph_count": 24,
+        "word_count": 913,
+        "char_count": 5437,
+        "paragraph_count": 25,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -11012,6 +10892,11 @@
           "type": "absolute"
         },
         {
+          "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
+          "anchor_text": "cerca virtual (geofence) nas coleiras GPS",
+          "type": "absolute"
+        },
+        {
           "href": "https://smartpetgadgets.com.br/sobre/",
           "anchor_text": "Equipe Smart Pet Gadgets",
           "type": "absolute"
@@ -11054,7 +10939,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 14,
+      "internal_link_count": 15,
       "external_link_count": 2,
       "images": [
         {
@@ -11350,8 +11235,8 @@
       "slug": "como-limpar-comedouro-automatico",
       "url_path": "/como-limpar-comedouro-automatico/",
       "page_type": "post",
-      "title": "Como Limpar o Comedouro Automático do Pet: Guia Rápido",
-      "meta_description": "Guia prático de como limpar o comedouro automático do pet sem danificar o eletrônico: frequência ideal, produtos seguros e erros comuns a evitar.",
+      "title": "Como Limpar o Comedouro Automático Sem Deixar Mofo ou Cheiro",
+      "meta_description": "Comedouro automático sujo vira foco de mofo e cheiro forte rápido. Veja a frequência ideal de limpeza, produtos seguros e os erros que danificam o eletrônico.",
       "canonical": "https://smartpetgadgets.com.br/como-limpar-comedouro-automatico/",
       "robots": null,
       "language": "pt-BR",
@@ -11359,7 +11244,7 @@
       "headings": [
         {
           "tag": "h1",
-          "text": "Como Limpar o Comedouro Automático do Pet: Guia Rápido",
+          "text": "Como Limpar o Comedouro Automático Sem Deixar Mofo ou Cheiro",
           "empty": false
         },
         {
@@ -11462,8 +11347,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1457,
-        "char_count": 8925,
+        "word_count": 1458,
+        "char_count": 8931,
         "paragraph_count": 29,
         "list_count": 2,
         "table_count": 1,
@@ -11594,7 +11479,7 @@
           "types": [
             "BlogPosting"
           ],
-          "raw_length": 928
+          "raw_length": 947
         },
         {
           "valid": true,
@@ -11602,7 +11487,7 @@
           "types": [
             "BreadcrumbList"
           ],
-          "raw_length": 545
+          "raw_length": 551
         },
         {
           "valid": true,
@@ -12129,9 +12014,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 470,
-        "char_count": 2833,
-        "paragraph_count": 20,
+        "word_count": 494,
+        "char_count": 2989,
+        "paragraph_count": 22,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -12171,6 +12056,16 @@
         {
           "href": "https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/",
           "anchor_text": "volte ao guia completo de brinquedo interativo para gato",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/como-escolher-brinquedo-interativo-gato-entediado/",
+          "anchor_text": "escolher o melhor brinquedo interativo para gato entediado",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/erros-comuns-brinquedo-interativo-gato/",
+          "anchor_text": "erros comuns ao usar brinquedo interativo para gato",
           "type": "absolute"
         },
         {
@@ -12216,7 +12111,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 14,
+      "internal_link_count": 16,
       "external_link_count": 1,
       "images": [
         {
@@ -12460,8 +12355,8 @@
       "external_link_count": 2,
       "images": [
         {
-          "src": "img/duvidas-camera-para-monitorar-pet-hero.jpg",
-          "alt": "Gato descansando em ambiente doméstico monitorado por câmera pet",
+          "src": "img/duvidas-camera-para-monitorar-pet-hero-800w.jpg",
+          "alt": "Três modelos de câmera de monitoramento pet lado a lado sobre uma mesa",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
@@ -12609,9 +12504,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 719,
-        "char_count": 4365,
-        "paragraph_count": 24,
+        "word_count": 732,
+        "char_count": 4445,
+        "paragraph_count": 25,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -12664,6 +12559,11 @@
           "type": "absolute"
         },
         {
+          "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
+          "anchor_text": "cerca virtual da coleira GPS",
+          "type": "absolute"
+        },
+        {
           "href": "https://smartpetgadgets.com.br/sobre/",
           "anchor_text": "Equipe Smart Pet Gadgets",
           "type": "absolute"
@@ -12711,7 +12611,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 15,
+      "internal_link_count": 16,
       "external_link_count": 3,
       "images": [
         {
@@ -13089,9 +12989,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 594,
-        "char_count": 3696,
-        "paragraph_count": 21,
+        "word_count": 614,
+        "char_count": 3846,
+        "paragraph_count": 23,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -13131,6 +13031,16 @@
         {
           "href": "https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/",
           "anchor_text": "volte ao guia completo de brinquedo interativo para gato",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/duvidas-brinquedo-interativo-gato/",
+          "anchor_text": "brinquedo interativo para gato: perguntas frequentes",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/como-escolher-brinquedo-interativo-gato-entediado/",
+          "anchor_text": "escolher o melhor brinquedo interativo para gato entediado",
           "type": "absolute"
         },
         {
@@ -13176,7 +13086,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 13,
+      "internal_link_count": 15,
       "external_link_count": 2,
       "images": [
         {
@@ -13247,8 +13157,8 @@
       "slug": "erros-comuns-camera-monitorar-pet",
       "url_path": "/erros-comuns-camera-monitorar-pet/",
       "page_type": "post",
-      "title": "Erros Comuns ao Usar Câmera para Monitorar Pet em Casa",
-      "meta_description": "Os erros mais frequentes na configuração e uso de câmeras pet: rede errada, senha trocada, posicionamento e interferência de sinal.",
+      "title": "5 Erros Comuns com Câmera Pet (Nº3 é o Mais Ignorado)",
+      "meta_description": "Rede errada, senha trocada e um erro de posicionamento que quase ninguém percebe: veja os 5 erros mais comuns ao configurar a câmera pet e como corrigir cada um.",
       "canonical": "https://smartpetgadgets.com.br/erros-comuns-camera-monitorar-pet/",
       "robots": null,
       "language": "pt-BR",
@@ -13256,7 +13166,7 @@
       "headings": [
         {
           "tag": "h1",
-          "text": "Erros Comuns ao Usar Câmera para Monitorar Pet em Casa",
+          "text": "5 Erros Comuns com Câmera Pet (Nº3 é o Mais Ignorado)",
           "empty": false
         },
         {
@@ -13324,8 +13234,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 557,
-        "char_count": 3302,
+        "word_count": 558,
+        "char_count": 3301,
         "paragraph_count": 20,
         "list_count": 0,
         "table_count": 0,
@@ -13411,7 +13321,7 @@
       "images": [
         {
           "src": "img/erros-comuns-camera-monitorar-pet-hero.jpg",
-          "alt": "Câmera de segurança posicionada em ambiente doméstico para monitoramento",
+          "alt": "Câmera pet instalada em ângulo errado, apontando para canto vazio em vez do ambiente do pet",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
@@ -13434,7 +13344,7 @@
           "types": [
             "BlogPosting"
           ],
-          "raw_length": 888
+          "raw_length": 917
         },
         {
           "valid": true,
@@ -13442,7 +13352,7 @@
           "types": [
             "BreadcrumbList"
           ],
-          "raw_length": 538
+          "raw_length": 537
         },
         {
           "valid": true,
@@ -13559,9 +13469,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 833,
-        "char_count": 4984,
-        "paragraph_count": 23,
+        "word_count": 855,
+        "char_count": 5110,
+        "paragraph_count": 24,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -13589,8 +13499,8 @@
           "type": "absolute"
         },
         {
-          "href": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/",
-          "anchor_text": "veja como configurar corretamente a cerca virtual",
+          "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
+          "anchor_text": "veja como configurar corretamente a cerca virtual da coleira GPS",
           "type": "absolute"
         },
         {
@@ -13606,6 +13516,11 @@
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
           "anchor_text": "Qual a Melhor Coleira GPS para Gato: Comparação por Tecnologia",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/melhor-coleira-gps-sem-mensalidade/",
+          "anchor_text": "melhor coleira GPS sem mensalidade: como escolher a sua",
           "type": "absolute"
         },
         {
@@ -13656,7 +13571,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 14,
+      "internal_link_count": 15,
       "external_link_count": 3,
       "images": [
         {
@@ -14001,7 +13916,7 @@
         },
         {
           "tag": "h3",
-          "text": "Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida",
+          "text": "Comedouro para 2 Gatos: Como Evitar Brigas na Hora de Comer",
           "empty": false
         },
         {
@@ -14021,17 +13936,17 @@
         },
         {
           "tag": "h3",
-          "text": "Como Preparar o Pet para Usar o Comedouro em Viagens",
+          "text": "Comedouro Automático em Viagem: O Erro Que Deixa o Pet Sem Comer",
           "empty": false
         },
         {
           "tag": "h3",
-          "text": "Comedouro Automático Com ou Sem Wi-Fi: Qual Escolher?",
+          "text": "Comedouro Com ou Sem Wi-Fi: Qual Vale Mais a Pena em 2026?",
           "empty": false
         },
         {
           "tag": "h3",
-          "text": "Como Limpar o Comedouro Automático do Pet: Guia Rápido",
+          "text": "Como Limpar o Comedouro Automático Sem Deixar Mofo ou Cheiro",
           "empty": false
         },
         {
@@ -14071,7 +13986,7 @@
         },
         {
           "tag": "h3",
-          "text": "Comedouro Automático para Gato x Cachorro: Qual a Diferença?",
+          "text": "Comedouro de Gato e Cachorro É Igual? A Diferença Que Importa",
           "empty": false
         },
         {
@@ -14151,7 +14066,7 @@
         },
         {
           "tag": "h3",
-          "text": "Cerca Virtual para Cachorro: O Que É e Como Configurar",
+          "text": "Melhor Tapete Higiênico para Cachorro: Como Escolher",
           "empty": false
         },
         {
@@ -14216,7 +14131,7 @@
         },
         {
           "tag": "h3",
-          "text": "Erros Comuns ao Usar Câmera para Monitorar Pet em Casa",
+          "text": "5 Erros Comuns com Câmera Pet (Nº3 é o Mais Ignorado)",
           "empty": false
         },
         {
@@ -14354,8 +14269,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 2528,
-        "char_count": 16137,
+        "word_count": 2564,
+        "char_count": 16274,
         "paragraph_count": 75,
         "list_count": 0,
         "table_count": 0,
@@ -14410,7 +14325,7 @@
         },
         {
           "href": "https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/",
-          "anchor_text": "Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida",
+          "anchor_text": "Comedouro para 2 Gatos: Como Evitar Brigas na Hora de Comer",
           "type": "absolute"
         },
         {
@@ -14470,7 +14385,7 @@
         },
         {
           "href": "https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/",
-          "anchor_text": "Como Preparar o Pet para Usar o Comedouro em Viagens",
+          "anchor_text": "Comedouro Automático em Viagem: O Erro Que Deixa o Pet Sem Comer",
           "type": "absolute"
         },
         {
@@ -14485,7 +14400,7 @@
         },
         {
           "href": "https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/",
-          "anchor_text": "Comedouro Automático Com ou Sem Wi-Fi: Qual Escolher?",
+          "anchor_text": "Comedouro Com ou Sem Wi-Fi: Qual Vale Mais a Pena em 2026?",
           "type": "absolute"
         },
         {
@@ -14500,7 +14415,7 @@
         },
         {
           "href": "https://smartpetgadgets.com.br/como-limpar-comedouro-automatico/",
-          "anchor_text": "Como Limpar o Comedouro Automático do Pet: Guia Rápido",
+          "anchor_text": "Como Limpar o Comedouro Automático Sem Deixar Mofo ou Cheiro",
           "type": "absolute"
         },
         {
@@ -14620,7 +14535,7 @@
         },
         {
           "href": "https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/",
-          "anchor_text": "Comedouro Automático para Gato x Cachorro: Qual a Diferença?",
+          "anchor_text": "Comedouro de Gato e Cachorro É Igual? A Diferença Que Importa",
           "type": "absolute"
         },
         {
@@ -14854,17 +14769,17 @@
           "type": "absolute"
         },
         {
-          "href": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/",
+          "href": "https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/",
           "anchor_text": "",
           "type": "absolute"
         },
         {
-          "href": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/",
-          "anchor_text": "Cerca Virtual para Cachorro: O Que É e Como Configurar",
+          "href": "https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/",
+          "anchor_text": "Melhor Tapete Higiênico para Cachorro: Como Escolher",
           "type": "absolute"
         },
         {
-          "href": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/",
+          "href": "https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/",
           "anchor_text": "Ler artigo completo →",
           "type": "absolute"
         },
@@ -15055,7 +14970,7 @@
         },
         {
           "href": "https://smartpetgadgets.com.br/erros-comuns-camera-monitorar-pet/",
-          "anchor_text": "Erros Comuns ao Usar Câmera para Monitorar Pet em Casa",
+          "anchor_text": "5 Erros Comuns com Câmera Pet (Nº3 é o Mais Ignorado)",
           "type": "absolute"
         },
         {
@@ -15492,7 +15407,7 @@
         },
         {
           "src": "https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/img/comedouro-automatico-para-dois-gatos-hero.jpg",
-          "alt": "Comedouro Automático para Dois Gatos: Como Evitar Brigas na Hora da Comida",
+          "alt": "Comedouro para 2 Gatos: Como Evitar Brigas na Hora de Comer",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
@@ -15536,7 +15451,7 @@
         },
         {
           "src": "https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/img/comedouro-automatico-para-viagem-hero.webp",
-          "alt": "Como Preparar o Pet para Usar o Comedouro em Viagens",
+          "alt": "Comedouro Automático em Viagem: O Erro Que Deixa o Pet Sem Comer",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
@@ -15547,7 +15462,7 @@
         },
         {
           "src": "https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/img/comedouro-com-ou-sem-wifi-hero.webp",
-          "alt": "Comedouro Automático Com ou Sem Wi-Fi: Qual Escolher?",
+          "alt": "Comedouro Com ou Sem Wi-Fi: Qual Vale Mais a Pena em 2026?",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
@@ -15558,7 +15473,7 @@
         },
         {
           "src": "https://smartpetgadgets.com.br/como-limpar-comedouro-automatico/img/como-limpar-comedouro-automatico-hero.webp",
-          "alt": "Como Limpar o Comedouro Automático do Pet: Guia Rápido",
+          "alt": "Como Limpar o Comedouro Automático Sem Deixar Mofo ou Cheiro",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
@@ -15646,7 +15561,7 @@
         },
         {
           "src": "https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/img/comedouro-gato-x-cachorro-diferenca-hero.jpg",
-          "alt": "Comedouro Automático para Gato x Cachorro: Qual a Diferença?",
+          "alt": "Comedouro de Gato e Cachorro É Igual? A Diferença Que Importa",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
@@ -15821,8 +15736,8 @@
           "format": "webp"
         },
         {
-          "src": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/img/cerca-virtual-para-cachorro-hero.jpg",
-          "alt": "Cachorro correndo em quintal aberto, área que pode ser demarcada por cerca virtual",
+          "src": "https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/img/melhor-tapete-higienico-para-cachorro-hero.jpg",
+          "alt": "Spitz alemão ao lado de uma embalagem de tapete higiênico Biosec, ilustrando o tamanho do produto",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
@@ -16271,7 +16186,7 @@
           "types": [
             "WebSite"
           ],
-          "raw_length": 320
+          "raw_length": 137
         }
       ],
       "schema_types": [
@@ -16699,8 +16614,8 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 2360,
-        "char_count": 14387,
+        "word_count": 2357,
+        "char_count": 14385,
         "paragraph_count": 63,
         "list_count": 15,
         "table_count": 1,
@@ -16729,8 +16644,8 @@
           "type": "absolute"
         },
         {
-          "href": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/",
-          "anchor_text": "Cerca Virtual para Cachorro: O Que É e Como Configurar",
+          "href": "https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/",
+          "anchor_text": "Melhor Tapete Higiênico para Cachorro: Como Escolher",
           "type": "absolute"
         },
         {
@@ -17216,7 +17131,7 @@
       "external_link_count": 4,
       "images": [
         {
-          "src": "img/melhor-bebedouro-automatico-pet-hero.jpg",
+          "src": "img/melhor-bebedouro-automatico-pet-hero-800w.jpg",
           "alt": "Gato bebendo água de um bebedouro automático tipo fonte",
           "alt_missing": false,
           "alt_empty": false,
@@ -17656,8 +17571,8 @@
       "external_link_count": 2,
       "images": [
         {
-          "src": "img/melhor-camera-para-monitorar-pet-hero.jpg",
-          "alt": "Câmera de monitoramento doméstica voltada para acompanhar cães e gatos",
+          "src": "img/melhor-camera-para-monitorar-pet-hero-800w.jpg",
+          "alt": "Câmera de monitoramento pet ao lado de smartphone, destacando os melhores modelos de 2026",
           "alt_missing": false,
           "alt_empty": false,
           "title": null,
@@ -17795,9 +17710,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 850,
-        "char_count": 5270,
-        "paragraph_count": 20,
+        "word_count": 885,
+        "char_count": 5469,
+        "paragraph_count": 22,
         "list_count": 1,
         "table_count": 1,
         "blockquote_count": 0,
@@ -17845,6 +17760,16 @@
           "type": "absolute"
         },
         {
+          "href": "https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/",
+          "anchor_text": "câmera pet ou coleira GPS: qual escolher",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
+          "anchor_text": "cerca virtual da coleira GPS",
+          "type": "absolute"
+        },
+        {
           "href": "https://smartpetgadgets.com.br/sobre/",
           "anchor_text": "Equipe Smart Pet Gadgets",
           "type": "absolute"
@@ -17887,7 +17812,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 14,
+      "internal_link_count": 16,
       "external_link_count": 2,
       "images": [
         {
@@ -18290,9 +18215,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 604,
-        "char_count": 3983,
-        "paragraph_count": 18,
+        "word_count": 630,
+        "char_count": 4183,
+        "paragraph_count": 20,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -18332,6 +18257,16 @@
         {
           "href": "https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/",
           "anchor_text": "volte ao guia completo de brinquedo interativo para gato",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/duvidas-brinquedo-interativo-gato/",
+          "anchor_text": "brinquedo interativo para gato: perguntas frequentes",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/como-escolher-brinquedo-interativo-gato-entediado/",
+          "anchor_text": "como escolher o melhor brinquedo interativo para gato entediado",
           "type": "absolute"
         },
         {
@@ -18377,7 +18312,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 13,
+      "internal_link_count": 15,
       "external_link_count": 2,
       "images": [
         {
@@ -18422,6 +18357,267 @@
             "FAQPage"
           ],
           "raw_length": 1542
+        }
+      ],
+      "schema_types": [
+        "BlogPosting",
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "schema_count": 3,
+      "schema_invalid_count": 0,
+      "faq": {
+        "detected": true,
+        "schema_detected": true,
+        "heading_detected": true,
+        "question_count": 4
+      },
+      "cluster": null,
+      "category": null,
+      "author": null,
+      "date_published": null,
+      "date_modified": null
+    },
+    {
+      "path": "melhor-tapete-higienico-para-cachorro/index.html",
+      "slug": "melhor-tapete-higienico-para-cachorro",
+      "url_path": "/melhor-tapete-higienico-para-cachorro/",
+      "page_type": "post",
+      "title": "Melhor Tapete Higiênico para Cachorro: Como Escolher",
+      "meta_description": "Como escolher o melhor tapete higiênico para cachorro: tamanho por porte, gel absorvente, camadas e fitas adesivas. Comparamos o Biosec Standard 50un.",
+      "canonical": "https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/",
+      "robots": null,
+      "language": "pt-BR",
+      "charset": "UTF-8",
+      "headings": [
+        {
+          "tag": "h1",
+          "text": "Melhor Tapete Higiênico para Cachorro: Como Escolher",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Gel Absorvente x Tapete Comum: Qual a Diferença Real?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Qual o Tamanho Certo para o Porte do Seu Cachorro?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Quantas Camadas o Tapete Precisa Ter?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Com Que Frequência Trocar o Tapete Higiênico?",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Como Usar o Tapete Higiênico no Adestramento",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Problemas Comuns e Como Evitar",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Como Avaliamos Este Produto",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Conclusão",
+          "empty": false
+        },
+        {
+          "tag": "h2",
+          "text": "Perguntas frequentes",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Qual o tamanho ideal de tapete higiênico para o meu cachorro?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "Com que frequência devo trocar o tapete higiênico?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "O que o gel absorvente faz de diferente no tapete?",
+          "empty": false
+        },
+        {
+          "tag": "h3",
+          "text": "As fitas adesivas do tapete higiênico são realmente necessárias?",
+          "empty": false
+        }
+      ],
+      "heading_summary": {
+        "total": 14,
+        "h1_count": 1,
+        "h2_count": 9,
+        "h3_count": 4,
+        "h4_count": 0
+      },
+      "structural_warnings": [],
+      "content": {
+        "word_count": 1752,
+        "char_count": 10279,
+        "paragraph_count": 32,
+        "list_count": 0,
+        "table_count": 1,
+        "blockquote_count": 1,
+        "method": "texto de <body> após remover script/style/noscript/nav/header/svg; palavras = split por espaço em branco"
+      },
+      "internal_links": [
+        {
+          "href": "https://smartpetgadgets.com.br/",
+          "anchor_text": "Início",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/autores/nildo-alves/",
+          "anchor_text": "Nildo Alves",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/politica-editorial/",
+          "anchor_text": "política editorial e de afiliados",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/sobre/",
+          "anchor_text": "Equipe Smart Pet Gadgets",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/politica-editorial/",
+          "anchor_text": "política editorial",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/autores/nildo-alves/",
+          "anchor_text": "Nildo Alves",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/sobre/",
+          "anchor_text": "Sobre o Smart Pet Gadgets",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/contato/",
+          "anchor_text": "Contato",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/politica-editorial/",
+          "anchor_text": "Política editorial e de afiliados",
+          "type": "absolute"
+        }
+      ],
+      "external_links": [
+        {
+          "href": "https://br.my-best.com/18159",
+          "anchor_text": "My Best Brasil",
+          "domain": "br.my-best.com"
+        },
+        {
+          "href": "https://br.my-best.com/18159",
+          "anchor_text": "My Best Brasil",
+          "domain": "br.my-best.com"
+        },
+        {
+          "href": "https://br.my-best.com/18159",
+          "anchor_text": "My Best Brasil",
+          "domain": "br.my-best.com"
+        },
+        {
+          "href": "https://www.azpetshop.com.br/blog/caes/6-dicas-para-usar-o-tapete-higienico-para-cachorro/",
+          "anchor_text": "AZ Pet Shop",
+          "domain": "azpetshop.com.br"
+        },
+        {
+          "href": "https://www.petlove.com.br/dicas/como-ensinar-cachorro-usar-tapete-higienico",
+          "anchor_text": "Petlove",
+          "domain": "petlove.com.br"
+        },
+        {
+          "href": "https://caocidadao.com.br/como-ensinar-o-seu-cachorro-a-fazer-xixi-e-coco-no-tapete-higienico/",
+          "anchor_text": "Cão Cidadão",
+          "domain": "caocidadao.com.br"
+        },
+        {
+          "href": "https://meli.la/2Gh79so",
+          "anchor_text": "Ver no Mercado Livre →",
+          "domain": "meli.la"
+        }
+      ],
+      "internal_link_count": 9,
+      "external_link_count": 7,
+      "images": [
+        {
+          "src": "img/melhor-tapete-higienico-para-cachorro-hero-800w.jpg",
+          "alt": "Spitz alemão ao lado de uma embalagem de tapete higiênico Biosec, ilustrando o tamanho do produto",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "1200",
+          "height": "630",
+          "loading": "eager",
+          "format": "jpg"
+        },
+        {
+          "src": "img/melhor-tapete-higienico-para-cachorro-embalagem.jpg",
+          "alt": "Embalagem do Tapete Higiênico Biosec Standard com 50 unidades, tamanho 60x55cm, destacando gel absorvente e fitas adesivas",
+          "alt_missing": false,
+          "alt_empty": false,
+          "title": null,
+          "width": "600",
+          "height": "654",
+          "loading": "lazy",
+          "format": "jpg"
+        }
+      ],
+      "image_count": 2,
+      "images_missing_alt": 0,
+      "images_empty_alt": 0,
+      "videos": [],
+      "video_count": 0,
+      "has_video": false,
+      "schemas": [
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "BlogPosting"
+          ],
+          "raw_length": 945
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "BreadcrumbList"
+          ],
+          "raw_length": 390
+        },
+        {
+          "valid": true,
+          "error": null,
+          "types": [
+            "FAQPage"
+          ],
+          "raw_length": 2089
         }
       ],
       "schema_types": [
@@ -19083,9 +19279,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 591,
-        "char_count": 3623,
-        "paragraph_count": 18,
+        "word_count": 609,
+        "char_count": 3730,
+        "paragraph_count": 19,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -19115,6 +19311,11 @@
         {
           "href": "https://smartpetgadgets.com.br/porta-eletronica-automatica-para-pet/",
           "anchor_text": "volte ao guia completo de porta eletrônica para pet",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/porta-eletronica-sensor-de-luz-como-funciona/",
+          "anchor_text": "como funciona a porta eletrônica com sensor de luz",
           "type": "absolute"
         },
         {
@@ -19160,7 +19361,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 11,
+      "internal_link_count": 12,
       "external_link_count": 2,
       "images": [
         {
@@ -20193,9 +20394,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 608,
-        "char_count": 3630,
-        "paragraph_count": 18,
+        "word_count": 625,
+        "char_count": 3726,
+        "paragraph_count": 19,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -20225,6 +20426,11 @@
         {
           "href": "https://smartpetgadgets.com.br/porta-eletronica-automatica-para-pet/",
           "anchor_text": "volte ao guia completo de porta eletrônica para pet",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/porta-eletronica-funciona-porta-de-vidro/",
+          "anchor_text": "como instalar porta eletrônica para pet em porta de vidro",
           "type": "absolute"
         },
         {
@@ -20270,7 +20476,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 11,
+      "internal_link_count": 12,
       "external_link_count": 2,
       "images": [
         {
@@ -21181,7 +21387,7 @@
           "types": [
             "Product"
           ],
-          "raw_length": 773
+          "raw_length": 879
         },
         {
           "valid": true,
