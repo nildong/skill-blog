@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-07T09:57:56.157Z",
+  "generated_at": "2026-10-07T10:03:39.458Z",
   "site": {
     "root": "/home/projetos/blog",
     "total_html_files_found": 77,
@@ -20,7 +20,7 @@
       "no_h1": 0
     },
     "links": {
-      "internal_links": 1206,
+      "internal_links": 1234,
       "external_links": 237
     },
     "media": {
@@ -512,9 +512,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 609,
-        "char_count": 3885,
-        "paragraph_count": 17,
+        "word_count": 619,
+        "char_count": 3960,
+        "paragraph_count": 18,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -544,6 +544,11 @@
         {
           "href": "https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/",
           "anchor_text": "volte ao guia completo de brinquedo interativo automático",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/brinquedo-interativo-sensor-infravermelho-como-funciona/",
+          "anchor_text": "como funciona o brinquedo interativo com sensor infravermelho",
           "type": "absolute"
         },
         {
@@ -589,7 +594,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 11,
+      "internal_link_count": 12,
       "external_link_count": 2,
       "images": [
         {
@@ -1457,9 +1462,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 643,
-        "char_count": 4066,
-        "paragraph_count": 16,
+        "word_count": 667,
+        "char_count": 4260,
+        "paragraph_count": 18,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -1484,6 +1489,16 @@
         {
           "href": "https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/",
           "anchor_text": "volte ao guia completo de brinquedo interativo para gato",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/brinquedo-automatico-cachorro-sozinho/",
+          "anchor_text": "brinquedo automático para cachorro sozinho: funciona?",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/duvidas-brinquedo-interativo-gato/",
+          "anchor_text": "brinquedo interativo para gato: perguntas frequentes",
           "type": "absolute"
         },
         {
@@ -1529,7 +1544,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 10,
+      "internal_link_count": 12,
       "external_link_count": 2,
       "images": [
         {
@@ -1667,9 +1682,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 579,
-        "char_count": 3727,
-        "paragraph_count": 15,
+        "word_count": 591,
+        "char_count": 3827,
+        "paragraph_count": 16,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -1694,6 +1709,11 @@
         {
           "href": "https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/",
           "anchor_text": "volte ao guia completo de brinquedo interativo para gato",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/duvidas-brinquedo-interativo-gato/",
+          "anchor_text": "brinquedo interativo para gato: perguntas frequentes",
           "type": "absolute"
         },
         {
@@ -1739,7 +1759,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 10,
+      "internal_link_count": 11,
       "external_link_count": 2,
       "images": [
         {
@@ -4264,9 +4284,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 867,
-        "char_count": 5247,
-        "paragraph_count": 26,
+        "word_count": 885,
+        "char_count": 5358,
+        "paragraph_count": 27,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 0,
@@ -4324,6 +4344,11 @@
           "type": "absolute"
         },
         {
+          "href": "https://smartpetgadgets.com.br/coleira-gps-x-microchip/",
+          "anchor_text": "coleira GPS ou microchip: qual a diferença e quando usar",
+          "type": "absolute"
+        },
+        {
           "href": "https://smartpetgadgets.com.br/sobre/",
           "anchor_text": "Equipe Smart Pet Gadgets",
           "type": "absolute"
@@ -4371,7 +4396,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 16,
+      "internal_link_count": 17,
       "external_link_count": 3,
       "images": [
         {
@@ -5579,9 +5604,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 813,
-        "char_count": 4839,
-        "paragraph_count": 20,
+        "word_count": 844,
+        "char_count": 5032,
+        "paragraph_count": 22,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 0,
@@ -5626,6 +5651,16 @@
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-para-pet/",
           "anchor_text": "cerca virtual da coleira GPS",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/coleira-gps-bluetooth-x-chip-operadora/",
+          "anchor_text": "coleira GPS Bluetooth ou com chip: qual comprar",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/porta-eletronica-microchip-x-rfid-coleira/",
+          "anchor_text": "porta eletrônica com microchip ou RFID: vale a pena?",
           "type": "absolute"
         },
         {
@@ -5676,7 +5711,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 14,
+      "internal_link_count": 16,
       "external_link_count": 3,
       "images": [
         {
@@ -6185,9 +6220,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1272,
-        "char_count": 7704,
-        "paragraph_count": 22,
+        "word_count": 1283,
+        "char_count": 7764,
+        "paragraph_count": 23,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 1,
@@ -6240,6 +6275,11 @@
           "type": "absolute"
         },
         {
+          "href": "https://smartpetgadgets.com.br/comedouro-automatico-vale-a-pena/",
+          "anchor_text": "vale a pena um comedouro automático — prós, contras e preço",
+          "type": "absolute"
+        },
+        {
           "href": "https://smartpetgadgets.com.br/autores/nildo-alves/",
           "anchor_text": "Nildo Alves",
           "type": "absolute"
@@ -6272,7 +6312,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 13,
+      "internal_link_count": 14,
       "external_link_count": 2,
       "images": [
         {
@@ -6452,9 +6492,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1505,
-        "char_count": 9455,
-        "paragraph_count": 27,
+        "word_count": 1516,
+        "char_count": 9515,
+        "paragraph_count": 28,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 1,
@@ -6507,6 +6547,11 @@
           "type": "absolute"
         },
         {
+          "href": "https://smartpetgadgets.com.br/comedouro-automatico-vale-a-pena/",
+          "anchor_text": "vale a pena um comedouro automático — prós, contras e preço",
+          "type": "absolute"
+        },
+        {
           "href": "https://smartpetgadgets.com.br/autores/nildo-alves/",
           "anchor_text": "Nildo Alves",
           "type": "absolute"
@@ -6549,7 +6594,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 13,
+      "internal_link_count": 14,
       "external_link_count": 4,
       "images": [
         {
@@ -6739,9 +6784,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1579,
-        "char_count": 9679,
-        "paragraph_count": 27,
+        "word_count": 1590,
+        "char_count": 9739,
+        "paragraph_count": 28,
         "list_count": 1,
         "table_count": 1,
         "blockquote_count": 1,
@@ -6799,6 +6844,11 @@
           "type": "absolute"
         },
         {
+          "href": "https://smartpetgadgets.com.br/comedouro-automatico-vale-a-pena/",
+          "anchor_text": "vale a pena um comedouro automático — prós, contras e preço",
+          "type": "absolute"
+        },
+        {
           "href": "https://smartpetgadgets.com.br/autores/nildo-alves/",
           "anchor_text": "Nildo Alves",
           "type": "absolute"
@@ -6836,7 +6886,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 14,
+      "internal_link_count": 15,
       "external_link_count": 3,
       "images": [
         {
@@ -7026,9 +7076,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1480,
-        "char_count": 9076,
-        "paragraph_count": 32,
+        "word_count": 1491,
+        "char_count": 9136,
+        "paragraph_count": 33,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 1,
@@ -7058,6 +7108,11 @@
         {
           "href": "https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/",
           "anchor_text": "a diferença entre comedouro automático para gato e para cachorro",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-automatico-vale-a-pena/",
+          "anchor_text": "vale a pena um comedouro automático — prós, contras e preço",
           "type": "absolute"
         },
         {
@@ -7133,7 +7188,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 11,
+      "internal_link_count": 12,
       "external_link_count": 8,
       "images": [
         {
@@ -7918,9 +7973,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1685,
-        "char_count": 10413,
-        "paragraph_count": 34,
+        "word_count": 1768,
+        "char_count": 10907,
+        "paragraph_count": 39,
         "list_count": 2,
         "table_count": 1,
         "blockquote_count": 1,
@@ -7983,6 +8038,31 @@
           "type": "absolute"
         },
         {
+          "href": "https://smartpetgadgets.com.br/comedouro-automatico-faz-mal/",
+          "anchor_text": "comedouro automático faz mal para o pet? Riscos reais",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-automatico-anti-formiga/",
+          "anchor_text": "comedouro automático anti-formiga: funciona de verdade?",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-automatico-gato-obeso/",
+          "anchor_text": "comedouro automático ajuda no controle de peso do gato?",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/",
+          "anchor_text": "comedouro para 2 gatos: como evitar brigas na hora de comer",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/",
+          "anchor_text": "comedouro automático em viagem: o erro que deixa o pet sem comer",
+          "type": "absolute"
+        },
+        {
           "href": "https://smartpetgadgets.com.br/sobre/",
           "anchor_text": "Equipe Smart Pet Gadgets",
           "type": "absolute"
@@ -8035,7 +8115,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 17,
+      "internal_link_count": 22,
       "external_link_count": 4,
       "images": [
         {
@@ -8188,9 +8268,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1683,
-        "char_count": 9932,
-        "paragraph_count": 32,
+        "word_count": 1694,
+        "char_count": 10002,
+        "paragraph_count": 33,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 1,
@@ -8210,6 +8290,11 @@
         {
           "href": "https://smartpetgadgets.com.br/politica-editorial/",
           "anchor_text": "política editorial e de afiliados",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/tapete-higienico-para-cachorro/",
+          "anchor_text": "tapete higiênico para cachorro: vale a pena? Review 2026",
           "type": "absolute"
         },
         {
@@ -8255,7 +8340,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 7,
+      "internal_link_count": 8,
       "external_link_count": 4,
       "images": [
         {
@@ -12014,9 +12099,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 494,
-        "char_count": 2989,
-        "paragraph_count": 22,
+        "word_count": 507,
+        "char_count": 3085,
+        "paragraph_count": 23,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -12069,6 +12154,11 @@
           "type": "absolute"
         },
         {
+          "href": "https://smartpetgadgets.com.br/brinquedo-interativo-sensor-infravermelho-como-funciona/",
+          "anchor_text": "como funciona o brinquedo interativo com sensor infravermelho",
+          "type": "absolute"
+        },
+        {
           "href": "https://smartpetgadgets.com.br/sobre/",
           "anchor_text": "Equipe Smart Pet Gadgets",
           "type": "absolute"
@@ -12111,7 +12201,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 16,
+      "internal_link_count": 17,
       "external_link_count": 1,
       "images": [
         {
@@ -12754,9 +12844,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 518,
-        "char_count": 3294,
-        "paragraph_count": 20,
+        "word_count": 534,
+        "char_count": 3385,
+        "paragraph_count": 21,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -12796,6 +12886,11 @@
         {
           "href": "https://smartpetgadgets.com.br/porta-eletronica-automatica-para-pet/",
           "anchor_text": "volte ao guia completo de porta eletrônica para pet",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/porta-eletronica-funciona-porta-de-vidro/",
+          "anchor_text": "porta eletrônica para pet funciona em porta de vidro?",
           "type": "absolute"
         },
         {
@@ -12841,7 +12936,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 13,
+      "internal_link_count": 14,
       "external_link_count": 2,
       "images": [
         {
@@ -17960,9 +18055,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1036,
-        "char_count": 6266,
-        "paragraph_count": 29,
+        "word_count": 1050,
+        "char_count": 6355,
+        "paragraph_count": 30,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 1,
@@ -18012,6 +18107,11 @@
         {
           "href": "https://smartpetgadgets.com.br/melhor-alimentador-automatico-gatos/",
           "anchor_text": "melhor alimentador automático para gatos",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/melhor-comedouro-interativo-gato/",
+          "anchor_text": "melhor comedouro interativo para gato: guia completo 2026",
           "type": "absolute"
         },
         {
@@ -18072,7 +18172,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 15,
+      "internal_link_count": 16,
       "external_link_count": 5,
       "images": [
         {
@@ -18215,9 +18315,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 630,
-        "char_count": 4183,
-        "paragraph_count": 20,
+        "word_count": 643,
+        "char_count": 4271,
+        "paragraph_count": 21,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -18270,6 +18370,11 @@
           "type": "absolute"
         },
         {
+          "href": "https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/",
+          "anchor_text": "melhor comedouro automático para cachorro: guia 2026",
+          "type": "absolute"
+        },
+        {
           "href": "https://smartpetgadgets.com.br/sobre/",
           "anchor_text": "Equipe Smart Pet Gadgets",
           "type": "absolute"
@@ -18312,7 +18417,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 15,
+      "internal_link_count": 16,
       "external_link_count": 2,
       "images": [
         {
@@ -19279,9 +19384,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 609,
-        "char_count": 3730,
-        "paragraph_count": 19,
+        "word_count": 621,
+        "char_count": 3821,
+        "paragraph_count": 20,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -19316,6 +19421,11 @@
         {
           "href": "https://smartpetgadgets.com.br/porta-eletronica-sensor-de-luz-como-funciona/",
           "anchor_text": "como funciona a porta eletrônica com sensor de luz",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/duvidas-porta-eletronica-pet/",
+          "anchor_text": "porta eletrônica para pet: perguntas frequentes",
           "type": "absolute"
         },
         {
@@ -19361,7 +19471,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 12,
+      "internal_link_count": 13,
       "external_link_count": 2,
       "images": [
         {
@@ -19499,9 +19609,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 601,
-        "char_count": 3570,
-        "paragraph_count": 18,
+        "word_count": 616,
+        "char_count": 3677,
+        "paragraph_count": 19,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -19536,6 +19646,11 @@
         {
           "href": "https://smartpetgadgets.com.br/porta-eletronica-automatica-para-pet/",
           "anchor_text": "volte ao guia completo de porta eletrônica para pet",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/porta-eletronica-x-alcapao-tradicional/",
+          "anchor_text": "porta eletrônica ou alçapão tradicional: qual escolher?",
           "type": "absolute"
         },
         {
@@ -19581,7 +19696,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 12,
+      "internal_link_count": 13,
       "external_link_count": 2,
       "images": [
         {
@@ -19954,9 +20069,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 608,
-        "char_count": 3797,
-        "paragraph_count": 18,
+        "word_count": 623,
+        "char_count": 3904,
+        "paragraph_count": 19,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 0,
@@ -19986,6 +20101,11 @@
         {
           "href": "https://smartpetgadgets.com.br/coleira-gps-x-microchip/",
           "anchor_text": "entenda também a diferença entre microchip e coleira GPS",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/porta-eletronica-x-alcapao-tradicional/",
+          "anchor_text": "porta eletrônica ou alçapão tradicional: qual escolher?",
           "type": "absolute"
         },
         {
@@ -20031,7 +20151,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 11,
+      "internal_link_count": 12,
       "external_link_count": 2,
       "images": [
         {
@@ -20174,9 +20294,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 577,
-        "char_count": 3738,
-        "paragraph_count": 17,
+        "word_count": 592,
+        "char_count": 3824,
+        "paragraph_count": 18,
         "list_count": 1,
         "table_count": 0,
         "blockquote_count": 0,
@@ -20206,6 +20326,11 @@
         {
           "href": "https://smartpetgadgets.com.br/porta-eletronica-automatica-para-pet/",
           "anchor_text": "volte ao guia completo de porta eletrônica para pet",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/porta-eletronica-sensor-de-luz-como-funciona/",
+          "anchor_text": "como funciona a porta eletrônica com sensor de luz",
           "type": "absolute"
         },
         {
@@ -20251,7 +20376,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 11,
+      "internal_link_count": 12,
       "external_link_count": 2,
       "images": [
         {
@@ -20394,9 +20519,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 625,
-        "char_count": 3726,
-        "paragraph_count": 19,
+        "word_count": 640,
+        "char_count": 3830,
+        "paragraph_count": 20,
         "list_count": 0,
         "table_count": 0,
         "blockquote_count": 0,
@@ -20431,6 +20556,11 @@
         {
           "href": "https://smartpetgadgets.com.br/porta-eletronica-funciona-porta-de-vidro/",
           "anchor_text": "como instalar porta eletrônica para pet em porta de vidro",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/porta-eletronica-reconhecimento-facial-vale-a-pena/",
+          "anchor_text": "porta eletrônica com reconhecimento facial: vale a pena?",
           "type": "absolute"
         },
         {
@@ -20476,7 +20606,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 12,
+      "internal_link_count": 13,
       "external_link_count": 2,
       "images": [
         {
@@ -20619,9 +20749,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 630,
-        "char_count": 3909,
-        "paragraph_count": 17,
+        "word_count": 660,
+        "char_count": 4087,
+        "paragraph_count": 19,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 0,
@@ -20651,6 +20781,16 @@
         {
           "href": "https://smartpetgadgets.com.br/porta-eletronica-automatica-para-pet/",
           "anchor_text": "volte ao guia completo de porta eletrônica para pet",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/porta-eletronica-microchip-x-rfid-coleira/",
+          "anchor_text": "porta eletrônica com microchip ou RFID: vale a pena?",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/porta-eletronica-gato-x-cachorro-diferenca/",
+          "anchor_text": "porta eletrônica para gato x cachorro: qual a diferença?",
           "type": "absolute"
         },
         {
@@ -20691,7 +20831,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 11,
+      "internal_link_count": 13,
       "external_link_count": 1,
       "images": [
         {
