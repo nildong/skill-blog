@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated_at": "2026-10-14T03:55:11.923Z",
+  "generated_at": "2026-10-14T03:57:59.811Z",
   "site": {
     "root": "/home/projetos/blog",
     "total_html_files_found": 77,
@@ -20,7 +20,7 @@
       "no_h1": 0
     },
     "links": {
-      "internal_links": 1331,
+      "internal_links": 1333,
       "external_links": 244
     },
     "media": {
@@ -10939,9 +10939,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 578,
-        "char_count": 3436,
-        "paragraph_count": 15,
+        "word_count": 604,
+        "char_count": 3588,
+        "paragraph_count": 16,
         "list_count": 2,
         "table_count": 0,
         "blockquote_count": 0,
@@ -10976,6 +10976,11 @@
         {
           "href": "https://smartpetgadgets.com.br/melhor-camera-para-monitorar-pet/",
           "anchor_text": "o comparativo das câmeras pet mais bem avaliadas",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/",
+          "anchor_text": "como configurar o app do comedouro automático Wi-Fi",
           "type": "absolute"
         },
         {
@@ -11021,7 +11026,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 12,
+      "internal_link_count": 13,
       "external_link_count": 2,
       "images": [
         {
@@ -12191,9 +12196,9 @@
       },
       "structural_warnings": [],
       "content": {
-        "word_count": 1360,
-        "char_count": 8321,
-        "paragraph_count": 32,
+        "word_count": 1385,
+        "char_count": 8459,
+        "paragraph_count": 33,
         "list_count": 0,
         "table_count": 1,
         "blockquote_count": 1,
@@ -12248,6 +12253,11 @@
         {
           "href": "https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/",
           "anchor_text": "review do VDRBG 4L Wi-Fi",
+          "type": "absolute"
+        },
+        {
+          "href": "https://smartpetgadgets.com.br/como-configurar-camera-pet-wifi/",
+          "anchor_text": "como configurar a câmera pet no Wi-Fi",
           "type": "absolute"
         },
         {
@@ -12308,7 +12318,7 @@
           "domain": "meli.la"
         }
       ],
-      "internal_link_count": 16,
+      "internal_link_count": 17,
       "external_link_count": 5,
       "images": [
         {
