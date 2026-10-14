@@ -307,10 +307,17 @@ function extractFaq($) {
   // Evidência 2 (fraca, sem schema): heading textual mencionando
   // FAQ/perguntas frequentes — registrado, mas não confundido com FAQ
   // estruturado. Não assume que todo H2 "FAQ" é um FAQPage real.
+  // Um h2/h3 que é só o título de um card de link para outro post (ex.: lista
+  // de posts na home) não é uma seção de FAQ própria da página — ignorar.
   let headingDetected = false;
   $('h2, h3').each((_, el) => {
-    const t = $(el).text().toLowerCase();
-    if (/faq|perguntas frequentes|dúvidas frequentes/.test(t)) headingDetected = true;
+    const $el = $(el);
+    const t = $el.text().toLowerCase();
+    if (!/faq|perguntas frequentes|dúvidas frequentes/.test(t)) return;
+    const links = $el.find('a');
+    const isLinkCardTitle = links.length === 1 && links.text().trim().toLowerCase() === $el.text().trim().toLowerCase();
+    if (isLinkCardTitle) return;
+    headingDetected = true;
   });
 
   return {

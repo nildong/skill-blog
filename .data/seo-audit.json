@@ -1,15 +1,15 @@
 {
   "version": 1,
-  "generated_at": "2026-10-07T10:03:54.527Z",
+  "generated_at": "2026-10-14T03:55:22.562Z",
   "site": {
     "total_pages": 77,
-    "source_index_generated_at": "2026-10-07T10:03:39.458Z"
+    "source_index_generated_at": "2026-10-14T03:55:11.923Z"
   },
   "summary": {
     "critical": 0,
     "errors": 0,
-    "warnings": 1,
-    "info": 7
+    "warnings": 0,
+    "info": 5
   },
   "categories": {
     "technical": {
@@ -22,7 +22,7 @@
       "critical": 0,
       "error": 0,
       "warning": 0,
-      "info": 6
+      "info": 4
     },
     "headings": {
       "critical": 0,
@@ -63,7 +63,7 @@
     "faq": {
       "critical": 0,
       "error": 0,
-      "warning": 1,
+      "warning": 0,
       "info": 0
     },
     "site_structure": {
@@ -81,7 +81,15 @@
       "page_type": "author",
       "title": "Nildo Alves — Autor no Smart Pet Gadgets",
       "status": "pass",
-      "issues": []
+      "issues": [
+        {
+          "id": "DESCRIPTION_TOO_LONG",
+          "category": "metadata",
+          "severity": "INFO",
+          "evidence": "meta description com 191 caracteres (recomendado até 160)",
+          "recommendation": "Considerar encurtar para reduzir risco de truncamento no SERP."
+        }
+      ]
     },
     {
       "path": "bebedouro-inox-x-ceramica/index.html",
@@ -259,16 +267,24 @@
       "url": "/coleira-gps-cachorro-que-foge/",
       "slug": "coleira-gps-cachorro-que-foge",
       "page_type": "post",
-      "title": "Melhor Coleira GPS para Cachorro Que Foge",
+      "title": "Cerca Virtual para Cachorro: Como Funciona e Qual Coleira GPS Usar",
       "status": "pass",
-      "issues": []
+      "issues": [
+        {
+          "id": "TITLE_TOO_LONG",
+          "category": "metadata",
+          "severity": "INFO",
+          "evidence": "Title com 66 caracteres (recomendado até 60)",
+          "recommendation": "Considerar encurtar o title para reduzir risco de truncamento no SERP."
+        }
+      ]
     },
     {
       "path": "coleira-gps-para-gato/index.html",
       "url": "/coleira-gps-para-gato/",
       "slug": "coleira-gps-para-gato",
       "page_type": "post",
-      "title": "Qual a Melhor Coleira GPS para Gato em 2026? Guia de Escolha",
+      "title": "Coleira GPS para Gato: Qual Escolher em 2026?",
       "status": "pass",
       "issues": []
     },
@@ -331,7 +347,7 @@
       "url": "/comedouro-automatico-para-dois-gatos/",
       "slug": "comedouro-automatico-para-dois-gatos",
       "page_type": "post",
-      "title": "Comedouro para 2 Gatos: Como Evitar Brigas na Hora de Comer",
+      "title": "Comedouro Automático para 2 Gatos: Como Evitar Brigas",
       "status": "pass",
       "issues": []
     },
@@ -358,13 +374,6 @@
           "severity": "INFO",
           "evidence": "Title com 64 caracteres (recomendado até 60)",
           "recommendation": "Considerar encurtar o title para reduzir risco de truncamento no SERP."
-        },
-        {
-          "id": "DESCRIPTION_TOO_LONG",
-          "category": "metadata",
-          "severity": "INFO",
-          "evidence": "meta description com 161 caracteres (recomendado até 160)",
-          "recommendation": "Considerar encurtar para reduzir risco de truncamento no SERP."
         }
       ]
     },
@@ -435,24 +444,9 @@
       "url": "/comedouro-vdrbg-4l-wifi-review/",
       "slug": "comedouro-vdrbg-4l-wifi-review",
       "page_type": "post",
-      "title": "Comedouro Automático: 3 Modelos Testados e Comparados (Review)",
+      "title": "Comedouro VDRBG 4L Wi-Fi: Review Completo (Vale a Pena?)",
       "status": "pass",
-      "issues": [
-        {
-          "id": "TITLE_TOO_LONG",
-          "category": "metadata",
-          "severity": "INFO",
-          "evidence": "Title com 62 caracteres (recomendado até 60)",
-          "recommendation": "Considerar encurtar o title para reduzir risco de truncamento no SERP."
-        },
-        {
-          "id": "DESCRIPTION_TOO_LONG",
-          "category": "metadata",
-          "severity": "INFO",
-          "evidence": "meta description com 170 caracteres (recomendado até 160)",
-          "recommendation": "Considerar encurtar para reduzir risco de truncamento no SERP."
-        }
-      ]
+      "issues": []
     },
     {
       "path": "comedouro-x-bebedouro-automatico/index.html",
@@ -578,15 +572,7 @@
       "page_type": "post",
       "title": "5 Erros Comuns com Câmera Pet (Nº3 é o Mais Ignorado)",
       "status": "pass",
-      "issues": [
-        {
-          "id": "DESCRIPTION_TOO_LONG",
-          "category": "metadata",
-          "severity": "INFO",
-          "evidence": "meta description com 161 caracteres (recomendado até 160)",
-          "recommendation": "Considerar encurtar para reduzir risco de truncamento no SERP."
-        }
-      ]
+      "issues": []
     },
     {
       "path": "erros-comuns-coleira-gps-pet/index.html",
@@ -612,7 +598,7 @@
       "slug": null,
       "page_type": "home",
       "title": "Smart Pet Gadgets — Cuidados e Produtos para Cães e Gatos",
-      "status": "warning",
+      "status": "pass",
       "issues": [
         {
           "id": "IMAGE_COUNT_HIGH",
@@ -620,13 +606,6 @@
           "severity": "INFO",
           "evidence": "71 imagens na página (acima de 15)",
           "recommendation": "Revisar se todas as imagens têm contexto/valor editorial claro, ou se algumas podem ser removidas/otimizadas."
-        },
-        {
-          "id": "FAQ_HEADING_WITHOUT_SCHEMA",
-          "category": "faq",
-          "severity": "WARNING",
-          "evidence": "Heading menciona FAQ/perguntas frequentes, mas não há schema FAQPage correspondente",
-          "recommendation": "Adicionar JSON-LD FAQPage para tornar o conteúdo elegível a rich results de FAQ."
         }
       ]
     },
@@ -707,7 +686,7 @@
       "url": "/melhor-tapete-higienico-para-cachorro/",
       "slug": "melhor-tapete-higienico-para-cachorro",
       "page_type": "post",
-      "title": "Melhor Tapete Higiênico para Cachorro: Como Escolher",
+      "title": "Melhor Tapete Higiênico para Cachorro em 2026: Guia Completo",
       "status": "pass",
       "issues": []
     },
