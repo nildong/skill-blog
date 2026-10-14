@@ -75,6 +75,11 @@
       "@type": "Question",
       "name": "Pilha ou bateria recarregável, qual é melhor?",
       "acceptedAnswer": { "@type": "Answer", "text": "Depende da frequência de uso: pilha é mais prática para uso ocasional, recarregável compensa mais em uso diário intenso." }
+    },
+    {
+      "@type": "Question",
+      "name": "É seguro deixar o brinquedo interativo ligado o dia todo?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Não é recomendado. A maioria dos fabricantes orienta ciclos de uso (geralmente 15-30 minutos, com pausa) para evitar superaquecimento do motor e desgaste prematuro da bateria. Deixar ligado o dia inteiro também reduz o interesse do gato pelo brinquedo, que passa a ser só mais um objeto parado no ambiente em vez de um estímulo novo." }
     }
   ]
 }
@@ -97,7 +102,11 @@
   .meta { font-size: .9rem; opacity: .7; margin-bottom: 1.5rem; }
   .cta-box { text-align: center; background: linear-gradient(135deg,#ff8a3d,#ff5f6d); color: #fff; padding: 28px 20px; border-radius: 14px; margin: 2.5rem 0; }
   .cta-box p { margin: 0 0 14px; font-size: 1.05rem; }
-  .cta-btn { display: inline-block; background: #fff; color: #b23a0d; font-weight: 700; padding: 14px 32px; border-radius: 999px; text-decoration: none; font-size: 1.05rem; box-shadow: 0 4px 14px rgba(0,0,0,.25); }
+  .cta-btn { display: inline-flex; align-items: center; gap: 12px; background: #b23a0d; color: #fff; font-weight: 700; padding: 14px 24px; border-radius: 14px; text-decoration: none; font-size: 1rem; box-shadow: 0 8px 20px rgba(0,0,0,.25); transition: transform .15s ease, filter .15s ease; }
+  .cta-btn:hover { transform: translateY(-2px); filter: brightness(1.1); }
+  .cta-btn-icon { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 999px; background: rgba(255,255,255,.2); flex-shrink: 0; }
+  .cta-btn-arrow { flex-shrink: 0; transition: transform .15s ease; }
+  .cta-btn:hover .cta-btn-arrow { transform: translate(2px, -2px); }
   .disclosure { font-size: .8rem; opacity: .65; font-style: italic; }
 </style>
 </head>
@@ -111,7 +120,7 @@
 <p class="meta">Publicado em 22 de agosto de 2026 · Atualizado em 22 de agosto de 2026 · Por <a href="https://smartpetgadgets.com.br/autores/nildo-alves/">Nildo Alves</a>, curadoria de produtos pet no Smart Pet Gadgets · Leitura: 4 min</p>
 
 <figure>
-  <img src="img/duvidas-brinquedo-interativo-gato-hero.jpg" alt="Gato brincando com brinquedo automático em casa" width="1200" height="630" loading="eager" />
+  <picture><source type="image/webp" srcset="img/duvidas-brinquedo-interativo-gato-hero.webp"><img src="img/duvidas-brinquedo-interativo-gato-hero.jpg" alt="Gato brincando com brinquedo automático em casa" width="1200" height="630" loading="eager" /></picture>
 </figure>
 
 <p>Reunimos aqui as dúvidas mais pontuais sobre brinquedo interativo automático para gato.</p>
@@ -126,6 +135,8 @@
 <h2>Pilha ou bateria recarregável, qual é melhor?</h2>
 <p>Depende da frequência de uso: pilha é mais prática para uso ocasional, recarregável compensa mais em uso diário intenso.</p>
 <p><a href="https://smartpetgadgets.com.br/brinquedo-interativo-pilha-x-recarregavel/">veja a comparação completa</a></p>
+<h2>É seguro deixar o brinquedo interativo ligado o dia todo?</h2>
+<p>Não é recomendado. A maioria dos fabricantes orienta ciclos de uso (geralmente 15-30 minutos, com pausa) para evitar superaquecimento do motor e desgaste prematuro da bateria. Deixar ligado o dia inteiro também reduz o interesse do gato pelo brinquedo, que passa a ser só mais um objeto parado no ambiente em vez de um estímulo novo.</p>
 <h2>Conclusão</h2>
 <p>A maior parte das dúvidas sobre brinquedo interativo gira em torno de adequação ao perfil do gato — idade, energia e frequência de uso — mais do que sobre a tecnologia em si.</p>
 <p><a href="https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/">volte ao guia completo de brinquedo interativo para gato</a></p>
@@ -138,7 +149,7 @@
 
 <div class="cta-box">
   <p>🐾 Confira o preço e a disponibilidade atual no Mercado Livre.</p>
-  <a class="cta-btn" href="https://meli.la/24oKWro" target="_blank" rel="nofollow sponsored noopener">Ver no Mercado Livre →</a>
+  <a class="cta-btn" href="https://meli.la/24oKWro" target="_blank" rel="nofollow sponsored noopener"><span class="cta-btn-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg></span><span class="cta-btn-text">Ver no Mercado Livre</span><svg class="cta-btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg></a>
   <p class="disclosure" style="margin-top:14px;">Link de afiliado: podemos receber uma comissão por compras feitas através deste link, sem custo adicional para você.</p>
 </div>
 
@@ -156,12 +167,15 @@
 <h3>Pilha ou bateria recarregável, qual é melhor?</h3>
 <p>Depende da frequência de uso: pilha é mais prática para uso ocasional, recarregável compensa mais em uso diário intenso.</p>
 
+<h3>É seguro deixar o brinquedo interativo ligado o dia todo?</h3>
+<p>Não é recomendado. A maioria dos fabricantes orienta ciclos de uso (geralmente 15-30 minutos, com pausa) para evitar superaquecimento do motor e desgaste prematuro da bateria.</p>
+
 <hr style="margin:2.5rem 0; opacity:.2;" />
 
 <div style="display:flex; gap:14px; align-items:flex-start; margin-bottom:2rem;">
   <div style="width:64px; height:64px; border-radius:50%; flex-shrink:0; background:#ff8a3d; color:#fff; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:1.3rem;">NA</div>
   <div>
-    <p style="margin:0 0 4px;"><strong><a href="https://smartpetgadgets.com.br/autores/nildo-alves/">Nildo Alves</a></strong> — curadoria de produtos pet no Smart Pet Gadgets. Testa e pesquisa produtos para cães e gatos, cruzando especificações de fabricante com boas práticas veterinárias e dados de mercado.</p>
+    <p style="margin:0 0 4px;"><strong><a href="https://smartpetgadgets.com.br/autores/nildo-alves/">Nildo Alves</a></strong> — tutor de pets e curador de produtos no Smart Pet Gadgets. Pesquisa especificações de fabricante, dados de mercado e fontes veterinárias publicadas por terceiros para ajudar outros tutores a escolher melhor.</p>
     <p style="margin:0; font-size:.85rem; opacity:.75;">
       <a href="https://smartpetgadgets.com.br/sobre/">Sobre o Smart Pet Gadgets</a> ·
       <a href="https://smartpetgadgets.com.br/contato/">Contato</a> ·
@@ -170,5 +184,6 @@
   </div>
 </div>
 
+<script src="/theme-toggle.js" defer></script>
 </body>
 </html>

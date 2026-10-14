@@ -99,7 +99,11 @@
   .meta { font-size: .9rem; opacity: .7; margin-bottom: 1.5rem; }
   .cta-box { text-align: center; background: linear-gradient(135deg,#ff8a3d,#ff5f6d); color: #fff; padding: 28px 20px; border-radius: 14px; margin: 2.5rem 0; }
   .cta-box p { margin: 0 0 14px; font-size: 1.05rem; }
-  .cta-btn { display: inline-block; background: #fff; color: #b23a0d; font-weight: 700; padding: 14px 32px; border-radius: 999px; text-decoration: none; font-size: 1.05rem; box-shadow: 0 4px 14px rgba(0,0,0,.25); }
+  .cta-btn { display: inline-flex; align-items: center; gap: 12px; background: #b23a0d; color: #fff; font-weight: 700; padding: 14px 24px; border-radius: 14px; text-decoration: none; font-size: 1rem; box-shadow: 0 8px 20px rgba(0,0,0,.25); transition: transform .15s ease, filter .15s ease; }
+  .cta-btn:hover { transform: translateY(-2px); filter: brightness(1.1); }
+  .cta-btn-icon { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 999px; background: rgba(255,255,255,.2); flex-shrink: 0; }
+  .cta-btn-arrow { flex-shrink: 0; transition: transform .15s ease; }
+  .cta-btn:hover .cta-btn-arrow { transform: translate(2px, -2px); }
   .disclosure { font-size: .8rem; opacity: .65; font-style: italic; }
 </style>
 </head>
@@ -113,7 +117,7 @@
 <p class="meta">Publicado em 20 de agosto de 2026 · Atualizado em 20 de agosto de 2026 · Por <a href="https://smartpetgadgets.com.br/autores/nildo-alves/">Nildo Alves</a>, curadoria de produtos pet no Smart Pet Gadgets · Leitura: 6 min</p>
 
 <figure>
-  <img src="img/comedouro-automatico-para-pet-hero.jpg" alt="Dois gatos comendo de comedouros automáticos inteligentes com câmera integrada" width="1200" height="630" loading="eager" />
+  <picture><source type="image/webp" srcset="img/comedouro-automatico-para-pet-hero.webp"><img src="img/comedouro-automatico-para-pet-hero.jpg" alt="Dois gatos comendo de comedouros automáticos inteligentes com câmera integrada" width="1200" height="630" loading="eager" /></picture>
 </figure>
 
 <p>Um comedouro automático libera porções programadas de ração em horários definidos, permitindo alimentar cães e gatos mesmo quando o tutor está fora de casa. Esse é o resumo direto — mas escolher o modelo certo depende de fatores que vão muito além disso: capacidade, conectividade Wi-Fi, tipo de alimento suportado e o comportamento do próprio pet.</p>
@@ -179,14 +183,14 @@
 <h2>Conclusão</h2>
 <p>O comedouro automático é hoje um dos gadgets pet mais buscados no Mercado Livre, refletindo um mercado brasileiro em expansão e cada vez mais orientado à tecnologia de conveniência (<a href="https://www.editorastilo.com.br/pet-food/setor-pet-projeta-crescer-apenas-35-em-2025-com-faturamento-de-r-78-bilhoes/" target="_blank" rel="noopener">ABINPET via Editora Stilo</a>, 2025). Antes de comprar, defina se você precisa apenas de um timer simples ou dos recursos extras de um modelo com app — e confira os reviews específicos de cada categoria abaixo.</p>
 <p><a href="https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/">melhor comedouro automático para cachorro — os mais vendidos</a></p>
-<p>Veja também os reviews específicos: <a href="https://smartpetgadgets.com.br/comedouro-newpet-2l-review/">Comedouro Automático Newpet 2L: Vale a Pena? Review</a> e <a href="https://smartpetgadgets.com.br/comedouro-newpet-4l-review/">Comedouro Newpet 4L: Review Completo (Vale a Pena?)</a>. Se o pet já tem histórico de saúde relacionado à alimentação, confira também se <a href="https://smartpetgadgets.com.br/comedouro-automatico-faz-mal/">o comedouro automático faz mal — riscos reais</a> antes de decidir.</p>
+<p>Veja também os reviews específicos: <a href="https://smartpetgadgets.com.br/comedouro-newpet-2l-review/">Comedouro Automático Newpet 2L: Vale a Pena? Review</a>, <a href="https://smartpetgadgets.com.br/comedouro-newpet-4l-review/">Comedouro Newpet 4L: Review Completo (Vale a Pena?)</a>, <a href="https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/">Comedouro VDRBG 4L Wi-Fi: Review Completo</a> e, para quem usa ração úmida, o <a href="https://smartpetgadgets.com.br/cat-mate-c500-review/">review do Cat Mate C500</a>. Se o pet já tem histórico de saúde relacionado à alimentação, confira também se <a href="https://smartpetgadgets.com.br/comedouro-automatico-faz-mal/">o comedouro automático faz mal — riscos reais</a> antes de decidir, e se o seu cão tem porte grande, veja o <a href="https://smartpetgadgets.com.br/comedouro-cachorro/">comedouro com suporte baia para cães grandes</a>. Para gatos com sobrepeso, há cuidados específicos em <a href="https://smartpetgadgets.com.br/comedouro-automatico-gato-obeso/">comedouro automático para gato obeso: como ajuda</a>.</p>
 <hr style="margin:2.5rem 0; opacity:.2;" />
 <p class="disclosure">Escrito pela <a href="https://smartpetgadgets.com.br/sobre/">Equipe Smart Pet Gadgets</a>, redação especializada em comparativos de produtos pet no mercado brasileiro. Veja nossa <a href="https://smartpetgadgets.com.br/politica-editorial/">política editorial</a> e como verificamos as fontes citadas neste artigo.</p>
 
 
 <div class="cta-box">
   <p>🐾 Confira o preço e a disponibilidade atual no Mercado Livre.</p>
-  <a class="cta-btn" href="https://meli.la/1YoZvow" target="_blank" rel="nofollow sponsored noopener">Ver no Mercado Livre →</a>
+  <a class="cta-btn" href="https://meli.la/1YoZvow" target="_blank" rel="nofollow sponsored noopener"><span class="cta-btn-icon"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg></span><span class="cta-btn-text">Ver no Mercado Livre</span><svg class="cta-btn-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7"/><path d="M7 7h10v10"/></svg></a>
   <p class="disclosure" style="margin-top:14px;">Link de afiliado: podemos receber uma comissão por compras feitas através deste link, sem custo adicional para você.</p>
 </div>
 
@@ -207,7 +211,7 @@
 <div style="display:flex; gap:14px; align-items:flex-start; margin-bottom:2rem;">
   <div style="width:64px; height:64px; border-radius:50%; flex-shrink:0; background:#ff8a3d; color:#fff; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:1.3rem;">NA</div>
   <div>
-    <p style="margin:0 0 4px;"><strong><a href="https://smartpetgadgets.com.br/autores/nildo-alves/">Nildo Alves</a></strong> — curadoria de produtos pet no Smart Pet Gadgets. Testa e pesquisa produtos para cães e gatos, cruzando especificações de fabricante com boas práticas veterinárias e dados de mercado.</p>
+    <p style="margin:0 0 4px;"><strong><a href="https://smartpetgadgets.com.br/autores/nildo-alves/">Nildo Alves</a></strong> — tutor de pets e curador de produtos no Smart Pet Gadgets. Pesquisa especificações de fabricante, dados de mercado e fontes veterinárias publicadas por terceiros para ajudar outros tutores a escolher melhor.</p>
     <p style="margin:0; font-size:.85rem; opacity:.75;">
       <a href="https://smartpetgadgets.com.br/sobre/">Sobre o Smart Pet Gadgets</a> ·
       <a href="https://smartpetgadgets.com.br/contato/">Contato</a> ·
@@ -216,5 +220,6 @@
   </div>
 </div>
 
+<script src="/theme-toggle.js" defer></script>
 </body>
 </html>
