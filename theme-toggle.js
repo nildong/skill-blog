@@ -24,10 +24,10 @@
   var style = document.createElement('style');
   style.textContent =
     ':root[data-theme="dark"] body{color:#e8e8e8;background:#121212;}' +
-    ':root[data-theme="dark"] a{color:#7cc4ff;}' +
+    ':root[data-theme="dark"] a:not([class]){color:#7cc4ff;}' +
     ':root[data-theme="dark"] .card{background:#1c1c1c !important;}' +
     ':root[data-theme="light"] body{color:#1a1a1a;background:#fff;}' +
-    ':root[data-theme="light"] a{color:#d9480f;}' +
+    ':root[data-theme="light"] a:not([class]){color:#d9480f;}' +
     '#spg-theme-toggle{position:fixed;top:14px;right:14px;z-index:9999;width:44px;height:44px;' +
     'border-radius:50%;border:1px solid rgba(128,128,128,.3);cursor:pointer;display:flex;' +
     'align-items:center;justify-content:center;background:rgba(255,255,255,.85);' +
