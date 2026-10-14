@@ -24,7 +24,7 @@
   var style = document.createElement('style');
   style.textContent =
     ':root[data-theme="dark"] body{color:#e8e8e8;background:#121212;}' +
-    ':root[data-theme="dark"] a:not([class]){color:#7cc4ff;}' +
+    ':root[data-theme="dark"] a:not([class]){color:#ffab73;}' +
     ':root[data-theme="dark"] .card{background:#1c1c1c !important;}' +
     ':root[data-theme="light"] body{color:#1a1a1a;background:#fff;}' +
     ':root[data-theme="light"] a:not([class]){color:#d9480f;}' +
