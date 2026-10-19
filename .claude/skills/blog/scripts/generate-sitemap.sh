@@ -51,7 +51,7 @@ generate_sitemap() {
       local rel_dir
       rel_dir="$(dirname "${htmlfile#"$blog_root"/}")"
       case "$rel_dir" in
-        img|img/*|briefs|briefs/*|calendars|calendars/*|node_modules|node_modules/*|tools|tools/*|reports|reports/*) continue ;;
+        img|img/*|briefs|briefs/*|calendars|calendars/*|node_modules|node_modules/*|tools|tools/*|reports|reports/*|_backup*|_backup*/*) continue ;;
       esac
       local lastmod
       lastmod="$(date -r "$htmlfile" +%Y-%m-%d 2>/dev/null || date +%Y-%m-%d)"
