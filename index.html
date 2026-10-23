@@ -57,6 +57,12 @@
   nav.main-nav ul { list-style: none; display: flex; gap: 22px; margin: 0; padding: 0; }
   nav.main-nav a { color: inherit; font-weight: 600; font-size: .95rem; }
   nav.main-nav a:hover { color: #ff5f0f; }
+  @media (max-width: 1200px) { header.site-header .wrap { padding-right: 64px; } }
+  @media (max-width: 600px) {
+    header.site-header .wrap { flex-wrap: wrap; row-gap: 12px; }
+    nav.main-nav { width: 100%; }
+    nav.main-nav ul { flex-wrap: wrap; gap: 8px 18px; }
+  }
 
   .hero { background: linear-gradient(135deg, rgba(255,138,61,.88), rgba(255,95,109,.88)), url("/img/img_fundo_site/hero-comedouro-automatico.webp") center/cover no-repeat; color: #fff; padding: 56px 0; text-align: center; }
   .hero h1 { font-size: 2.1rem; margin: 0 0 12px; }
