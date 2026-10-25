@@ -1,138 +1,56 @@
-# Schema.org Audit — smartpetgadgets.com.br
+# Schema.org / JSON-LD Audit — smartpetgadgets.com.br
 
-Date: 2026-09-30
-Sample: homepage + 6 article pages (review, comparison, cluster pillar, product), cross-checked against full local repo (76 index.html pages) via grep.
+Date: 2026-10-23 | Delta vs 2026-10-22 | Method: local source parse of all 78 crawl URLs (/home/projetos/blog/<slug>/index.html), JSON-LD parsed with json.loads, type/property/date/URL checks.
+**Score: 88/100**
 
-## 1. Detection Summary
+## Summary
+- 78/78 pages parsed: 0 invalid JSON, 0 microdata/RDFa, 0 `http://` contexts, 0 relative URLs, 0 placeholders, 0 missing image/logo files, all dates ISO 8601, no dateModified < datePublished, no future dates.
+- Types site-wide: BlogPosting 72, BreadcrumbList 72, FAQPage 72, Person 73, Product 29 (all inside Review/ItemList patterns), Review 29, ItemList 4, VideoObject 2, ProfilePage 1. HowTo = 0, AggregateRating = 0, SpecialAnnouncement = 0.
+- Page split: 72 posts (BlogPosting+BreadcrumbList+FAQPage); 6 non-posts (home, sobre, contato, politica-editorial, politica-de-privacidade, autores/nildo-alves) correctly without BlogPosting/FAQ.
 
-| Page type | Schema present |
+## Delta vs 2026-10-22
+| Item | Status |
 |---|---|
-| Homepage | `Organization`, `WebSite` + `SearchAction` |
-| Articles (71/76 pages) | `BlogPosting`, `Person` (author), `Organization` (publisher), `ImageObject`, `WebPage` (mainEntityOfPage), `BreadcrumbList`, `FAQPage` |
-| Product-review posts (8 pages) | above + `Product` with nested `Review`/`Rating`, `Brand` on some |
-| `coleira-seresto-antipulgas` only | `AggregateRating` (ratingValue 4.8, reviewCount 5501) |
+| Author Person missing `image` | STILL OPEN (Medium). sameAs (Facebook) + description present; no `image`. |
+| WebSite SearchAction | Unchanged, no action (no internal search). |
+| `worstRating` "1" on comedouro-newpet-2l-review | STILL OPEN (Low). Only deviation site-wide (all others "0"). |
+| ItemList count | 3 -> 4 ItemLists: melhor-tapete-higienico-para-cachorro is NEW (7 products); melhor-comedouro-automatico-cachorro (7), melhor-alimentador-automatico-gatos (5), comedouro-vdrbg-4l-wifi-review (3). |
+| FAQPage count | 72 (prior report said 73 of 77; no FAQ-bearing page lost, count basis differs). Info only. |
+| Fake ratings / HowTo | None. Stays clean. |
 
-All blocks are JSON-LD, `@context: https://schema.org` (https, correct), absolute URLs, ISO 8601 dates (`YYYY-MM-DD`). Format practice is good and consistent site-wide.
+## Findings
 
-## 2. Validation Results
+### MEDIUM — Author Person has no `image`
+`/autores/nildo-alves/` Person: name, url, worksFor, jobTitle, sameAs, description; no `image`. Per-post author stays name+url (fine). Fix: add real author photo URL to the Person on the author page.
 
-- ✅ @context/format/URL/date rules: pass on all sampled blocks.
-- ✅ BlogPosting required properties (headline, image, datePublished, author, publisher with logo, mainEntityOfPage) present and well-formed on every sampled article.
-- ✅ BreadcrumbList: correct `ListItem` position/name/item structure.
-- ⚠️ **Organization homepage `sameAs: []`** — empty array (known/flagged issue). Recommend removing the property entirely or populating with real social profile URLs; an empty array provides no benefit and is superfluous.
-- ⚠️ **Product schema missing `offers`** on all 8 product-review pages (`comedouro-vdrbg-4l-wifi-review`, `cat-mate-c500-review`, `coleira-seresto-antipulgas`, `comedouro-cachorro`, `cercado-para-cachorros`, `tapete-higienico-para-cachorro`, `comedouro-newpet-2l-review`, `comedouro-newpet-4l-review`). Not required for Review-snippet eligibility (site isn't the seller), but if these are Amazon/ML affiliate links, consider adding `offers.url` (affiliate link) + `priceCurrency`/`price` only if accurate — do not fabricate price data.
-- 🔴 **`coleira-seresto-antipulgas` — AggregateRating integrity risk.** `ratingValue: 4.8`, `reviewCount: 5501` almost certainly mirrors a third-party marketplace's review count (Amazon/Mercado Livre) rather than reviews collected on smartpetgadgets.com.br itself. Google's structured-data guidelines require aggregate ratings to reflect reviews actually gathered by/about the entity on the page that hosts the markup; presenting a copied third-party count as your own `AggregateRating` is a misrepresentation risk that can trigger a manual action on Review/Product rich results (separate from, and stricter than, the earlier "self-serving reviews" rule). **Recommendation: remove `aggregateRating` from this page** and keep only the site's own editorial `Review` (single Rating), matching the pattern already used correctly on the other 7 product pages, which have no AggregateRating.
-- Author `Review.author` is inconsistent in type across product pages: `Person` (Nildo Alves) on `cat-mate-c500-review`, but `Organization` (Smart Pet Gadgets) on `coleira-seresto-antipulgas`. Both are valid schema.org types, but standardizing on `Person` (real author) across all review posts is preferable for E-E-A-T signaling and matches the BlogPosting author already declared on the same page.
+### LOW — ItemList Products on comparison pages lack `image` (and `offers`)
+- melhor-tapete-higienico-para-cachorro (new): 7 Product items each have name, description, Review (editorial rating, author Organization, reviewBody, datePublished) but **no `image`** (7/7) and no `offers`. Valid Product-review-snippet structure (review present satisfies Google's one-of requirement), but `image` is recommended; without it Product snippet eligibility is weaker.
+- melhor-comedouro-automatico-cachorro: 3 of 7 Products lack `image` (4 have it).
+- melhor-alimentador-automatico-gatos / vdrbg: all Products have image.
+- `offers` absent everywhere (consistent with owner-paused affiliate/Product work; Info). Fix: add `image` (the product photo already on the page) to the 10 items.
 
-## 3. Deprecated / No-Rich-Result Types
+### LOW — melhor-tapete-higienico ItemList details
+- Rating scale consistent (bestRating 10, worstRating 0, values 8.8 down to 7.0 descending in list order, matches visible ranking and 7 H3s). Good.
+- Review `datePublished` is mixed: item 1 = 2026-10-04, items 2-7 = 2026-10-23, while BlogPosting datePublished = 2026-10-04 / dateModified = 2026-10-23. Not an error, but reviews for items 2-7 were written at rewrite time; acceptable. Optionally normalize.
+- ItemList is a separate top-level block, not linked to BlogPosting (`mainEntity`/`hasPart`) — optional; no Google impact (ItemList carousel only applies to Recipe/Course/Movie/Restaurant).
+- reviewBody for item 6 states "Maior nota individual do grupo (4.9)" yet its editorial score is 7.7 (lowest-but-one); text refers to Mercado Livre buyer rating, ambiguous in a Review whose ratingValue is the site's own score. Suggest rewording ("nota 4.9 dos compradores no Mercado Livre") to avoid a rating/text mismatch.
 
-- No deprecated types found (no HowTo, SpecialAnnouncement, CourseInfo/EstimatedSalary/LearningVideo).
-- **FAQPage is present on 71/76 pages (nearly every article).** As of the May 7 2026 Google policy, FAQPage produces **no SERP rich result for any site** (this supersedes the 2023 gov/health-only restriction). Current status: **Info priority, not Critical** — the markup is not harmful and may have unconfirmed AI/GEO value, but it should not be counted as an SEO/rich-result asset in reporting, and no further FAQPage expansion should be prioritized for Google SERP purposes. Where content is genuine reader Q&A (not just an FAQ block), consider `QAPage` instead going forward.
+### INFO — Listicle pages without ItemList
+melhor-antipulgas-para-cachorro, melhor-bebedouro-automatico-pet, melhor-bolinha-inteligente-para-gato, melhor-camera-para-monitorar-pet, melhor-coleira-gps-sem-mensalidade, melhor-comedouro-interativo-gato carry only BlogPosting/Breadcrumb/FAQ. Adding Product/Review ItemList is the same Product/Review work the owner paused (affiliate cluster) — do not apply mechanically; revisit with the content rework.
 
-## 4. Missing Opportunities
+### INFO — FAQPage on 72 posts
+Valid structure, but Google retired FAQ rich results for all sites (2026-05-07). No SERP benefit, AI/GEO benefit unconfirmed. Leave as is; do not add to new posts expecting SERP gain. Genuine reader Q&A pages should use QAPage.
 
-- **VideoObject**: none detected in the sample; if any posts embed product/unboxing video (repo has at least one `.mp4` asset referenced in root), add `VideoObject` per `schema/templates.json` in the plugin root.
-- **Organization.sameAs**: populate with the live Facebook page (`@smartpetgadgetsbr`, confirmed live per memory) and any other verified profiles — this is a quick, low-risk fix site-wide (homepage Organization block only, single edit).
-- **Product.aggregateRating**: only add if/when the site collects its own on-page reviews/ratings; do not reintroduce copied marketplace counts.
+### INFO — Product/Review on affiliate posts remains paused by owner; no `aggregateRating` anywhere (correct, avoids fake-rating risk).
 
-## 5. Generated JSON-LD — Fixes
+## Validation of core entities
+- Organization (home): name, url, logo, sameAs (Facebook) — pass. WebSite: name+url — pass (no SearchAction, Low/no action).
+- BlogPosting x72: headline, description, image (array), datePublished, dateModified, author Person, publisher Organization+logo ImageObject, mainEntityOfPage — all present, 0 missing.
+- BreadcrumbList x72: absolute https URLs, valid.
+- VideoObject x2 (cercado-para-cachorros, tapete-higienico-para-cachorro): valid.
 
-### 5a. Homepage Organization (replace `sameAs: []`)
-```json
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Smart Pet Gadgets",
-  "url": "https://smartpetgadgets.com.br/",
-  "logo": "https://smartpetgadgets.com.br/img/logo.png",
-  "sameAs": [
-    "https://www.facebook.com/smartpetgadgetsbr"
-  ]
-}
-```
-
-### 5b. `coleira-seresto-antipulgas` Product block (remove AggregateRating, keep editorial Review, standardize author to Person)
-```json
-{
-  "@context": "https://schema.org",
-  "@type": "Product",
-  "name": "Coleira Antipulgas e Carrapatos Seresto Elanco para Cães Acima de 8kg",
-  "image": [
-    "https://smartpetgadgets.com.br/coleira-seresto-antipulgas/img/coleira-seresto-hero.webp"
-  ],
-  "description": "Coleira antiparasitária de uso veterinário Seresto (Elanco), com liberação lenta e controlada de ativos contra pulgas, carrapatos e larvas por até 8 meses, indicada para cães acima de 8kg.",
-  "brand": {
-    "@type": "Brand",
-    "name": "Seresto"
-  },
-  "review": {
-    "@type": "Review",
-    "reviewRating": {
-      "@type": "Rating",
-      "ratingValue": "4.8",
-      "bestRating": "5"
-    },
-    "author": {
-      "@type": "Person",
-      "name": "Nildo Alves",
-      "url": "https://smartpetgadgets.com.br/autores/nildo-alves/"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "Smart Pet Gadgets"
-    }
-  }
-}
-```
-
-## 6. Category Score
-
-**Schema / Structured Data: 82 / 100**
-
-Rationale: strong, consistent JSON-LD implementation across the entire article catalog (BlogPosting, Person, Organization, BreadcrumbList all correct and required-property-complete) is the main strength. Points deducted for: (1) one page with a misleading third-party-sourced `AggregateRating` (integrity/manual-action risk, -10), (2) empty `sameAs` on Organization (-4), (3) inconsistent `Review.author` typing and no-longer-valuable FAQPage blanket coverage carrying false SERP expectations if left unflagged in reporting (-4).
-
-## 7. Structured Findings (JSON for audit-data.json)
-
-```json
-{
-  "category": "schema",
-  "score": 82,
-  "findings": [
-    {
-      "severity": "critical",
-      "id": "schema-aggregaterating-third-party",
-      "page": "/coleira-seresto-antipulgas/",
-      "issue": "AggregateRating (ratingValue 4.8, reviewCount 5501) appears to mirror a third-party marketplace's review count rather than reviews collected on-site. Risk of Google manual action for misleading review/rating structured data.",
-      "recommendation": "Remove aggregateRating; keep only the site's own editorial Review, matching the other 7 product-review pages."
-    },
-    {
-      "severity": "info",
-      "id": "schema-faqpage-no-serp-value",
-      "page": "71 of 76 article pages",
-      "issue": "FAQPage markup retired for Google rich results site-wide as of 2026-05-07 (no longer gov/health-only restriction). Markup is harmless but provides no confirmed SEO benefit.",
-      "recommendation": "Do not report FAQPage as a rich-result asset; do not prioritize further FAQPage expansion for Google SEO. Consider QAPage for genuine reader Q&A content."
-    },
-    {
-      "severity": "minor",
-      "id": "schema-organization-sameas-empty",
-      "page": "/ (homepage)",
-      "issue": "Organization.sameAs is an empty array.",
-      "recommendation": "Populate with live social profile URLs (e.g. https://www.facebook.com/smartpetgadgetsbr) or remove the property."
-    },
-    {
-      "severity": "minor",
-      "id": "schema-review-author-type-inconsistent",
-      "page": "product-review pages (8)",
-      "issue": "Review.author type varies between Person and Organization across otherwise-identical review blocks.",
-      "recommendation": "Standardize on Person (matching the BlogPosting author on the same page) for consistency and E-E-A-T signaling."
-    },
-    {
-      "severity": "minor",
-      "id": "schema-product-missing-offers",
-      "page": "product-review pages (8)",
-      "issue": "Product schema has no offers property.",
-      "recommendation": "Optional: add offers.url pointing to the real affiliate listing if price/availability can be kept accurate; do not fabricate price data."
-    }
-  ]
-}
-```
+## Priority list
+1. Medium: author `image` on Person.
+2. Low: add `image` to 10 ItemList Products (7 on tapete, 3 on comedouro cachorro).
+3. Low: fix reviewBody wording on tapete item 6; normalize worstRating on newpet-2l.
+4. Info: ItemList on other listicles gated on owner's paused Product/Review rework.

@@ -89,7 +89,7 @@ echo "==> Publicando '$POST_DIR' em $SFTP_USER@$SFTP_HOST:$REMOTE_PATH"
 # ---------------------------------------------------------------------------
 # 1. Verificar HTML (arquivo principal existe e não está vazio)
 # ---------------------------------------------------------------------------
-echo "--> [1/6] Verificando HTML..."
+echo "--> [1/7] Verificando HTML..."
 HTML_FILE="$LOCAL_PATH/index.html"
 if [[ ! -s "$HTML_FILE" ]]; then
   echo "Erro: $HTML_FILE não existe ou está vazio." >&2
@@ -104,7 +104,7 @@ echo "    OK: index.html válido ($(wc -c < "$HTML_FILE") bytes)"
 # ---------------------------------------------------------------------------
 # 2. Verificar imagens referenciadas existem localmente
 # ---------------------------------------------------------------------------
-echo "--> [2/6] Verificando imagens..."
+echo "--> [2/7] Verificando imagens..."
 MISSING_IMG=0
 while IFS= read -r img_src; do
   # ignora URLs absolutas (http/https) e data URIs
@@ -130,7 +130,7 @@ echo "    OK: todas as imagens locais referenciadas existem"
 # ---------------------------------------------------------------------------
 # 3. Verificar vídeos (opcional — só avisa, não bloqueia)
 # ---------------------------------------------------------------------------
-echo "--> [3/6] Verificando vídeos..."
+echo "--> [3/7] Verificando vídeos..."
 if grep -qE '<video|youtube\.com/embed' "$HTML_FILE"; then
   echo "    Post contém vídeo(s) embutido(s) — confirme que os embeds usam URLs públicas."
 else
@@ -140,7 +140,7 @@ fi
 # ---------------------------------------------------------------------------
 # 4. Gerar/atualizar sitemap.xml na raiz do blog
 # ---------------------------------------------------------------------------
-echo "--> [4/6] Gerando sitemap.xml..."
+echo "--> [4/7] Gerando sitemap.xml..."
 SITEMAP="$BLOG_ROOT/sitemap.xml"
 DOMAIN="${SITE_DOMAIN:-https://smartpetgadgets.com.br}"
 
@@ -150,7 +150,7 @@ echo "    OK: sitemap.xml atualizado ($SITEMAP)"
 # ---------------------------------------------------------------------------
 # 5. Conectar na Hostinger e enviar os arquivos (SSH key preferencial)
 # ---------------------------------------------------------------------------
-echo "--> [5/6] Enviando arquivos via SFTP..."
+echo "--> [5/7] Enviando arquivos via SFTP..."
 
 SSH_OPTS=(-p "$SFTP_PORT" -o StrictHostKeyChecking=accept-new)
 if [[ -n "${SFTP_KEY_PATH:-}" ]]; then
@@ -160,6 +160,20 @@ fi
 RSYNC_RSH="ssh ${SSH_OPTS[*]}"
 
 HOME_INDEX="$BLOG_ROOT/index.html"
+
+# Arquivo de chave do IndexNow na raiz do blog (ex: 5e2d6ef17c894c3b8546e79169cae62a.txt)
+# precisa ficar publicado na raiz do domínio para o Bing/Yandex validarem a propriedade.
+# Usa glob + regex do próprio bash em vez de `find -regex` (evita depender do
+# dialeto de regex do binário `find`/`bfs` disponível no ambiente de execução).
+INDEXNOW_KEY_FILE=""
+for _candidate in "$BLOG_ROOT"/*.txt; do
+  [[ -f "$_candidate" ]] || continue
+  _base="$(basename "$_candidate")"
+  if [[ "$_base" =~ ^[0-9a-f]{32}\.txt$ ]]; then
+    INDEXNOW_KEY_FILE="$_candidate"
+    break
+  fi
+done
 
 if [[ -n "${SFTP_KEY_PATH:-}" ]]; then
   # Caminho recomendado: autenticação por chave SSH
@@ -173,6 +187,11 @@ if [[ -n "${SFTP_KEY_PATH:-}" ]]; then
     rsync -avz \
       -e "$RSYNC_RSH" \
       "$HOME_INDEX" "$SFTP_USER@$SFTP_HOST:$REMOTE_BASE/index.html"
+  fi
+  if [[ -n "$INDEXNOW_KEY_FILE" ]]; then
+    rsync -avz \
+      -e "$RSYNC_RSH" \
+      "$INDEXNOW_KEY_FILE" "$SFTP_USER@$SFTP_HOST:$REMOTE_BASE/$(basename "$INDEXNOW_KEY_FILE")"
   fi
 elif [[ -n "${SFTP_PASSWORD:-}" ]]; then
   if ! command -v sshpass >/dev/null 2>&1; then
@@ -191,6 +210,11 @@ elif [[ -n "${SFTP_PASSWORD:-}" ]]; then
       -e "ssh ${SSH_OPTS[*]}" \
       "$HOME_INDEX" "$SFTP_USER@$SFTP_HOST:$REMOTE_BASE/index.html"
   fi
+  if [[ -n "$INDEXNOW_KEY_FILE" ]]; then
+    sshpass -e -- rsync -avz \
+      -e "ssh ${SSH_OPTS[*]}" \
+      "$INDEXNOW_KEY_FILE" "$SFTP_USER@$SFTP_HOST:$REMOTE_BASE/$(basename "$INDEXNOW_KEY_FILE")"
+  fi
 else
   echo "Erro: defina SFTP_KEY_PATH (recomendado) ou SFTP_PASSWORD para autenticar." >&2
   exit 1
@@ -202,9 +226,27 @@ if [[ -f "$HOME_INDEX" ]]; then
 fi
 
 # ---------------------------------------------------------------------------
-# 6. Mostrar a URL publicada
+# 6. Notificar IndexNow (Bing/Yandex) sobre a URL publicada
 # ---------------------------------------------------------------------------
-echo "--> [6/6] Publicação concluída!"
+echo "--> [6/7] Notificando IndexNow..."
+PUBLISHED_URL="${DOMAIN}/${REMOTE_SUBDIR:-$POST_DIR}/"
+if [[ -n "$INDEXNOW_KEY_FILE" ]]; then
+  INDEXNOW_KEY="$(basename "$INDEXNOW_KEY_FILE" .txt)"
+  INDEXNOW_RESPONSE="$(curl -s -o /dev/null -w "%{http_code}" --max-time 10 \
+    "https://api.indexnow.org/indexnow?url=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1], safe=''))" "$PUBLISHED_URL")&key=${INDEXNOW_KEY}&keyLocation=${DOMAIN}/${INDEXNOW_KEY}.txt" || echo "falhou")"
+  if [[ "$INDEXNOW_RESPONSE" == "200" || "$INDEXNOW_RESPONSE" == "202" ]]; then
+    echo "    OK: IndexNow notificado (HTTP $INDEXNOW_RESPONSE)"
+  else
+    echo "    AVISO: IndexNow retornou HTTP $INDEXNOW_RESPONSE — não bloqueia o deploy, só push-indexing não aconteceu desta vez."
+  fi
+else
+  echo "    AVISO: nenhum arquivo de chave IndexNow (*.txt de 32 hex) encontrado na raiz do blog — pulando notificação."
+fi
+
+# ---------------------------------------------------------------------------
+# 7. Mostrar a URL publicada
+# ---------------------------------------------------------------------------
+echo "--> [7/7] Publicação concluída!"
 echo ""
-echo "    URL: ${DOMAIN}/${REMOTE_SUBDIR:-$POST_DIR}/"
+echo "    URL: ${PUBLISHED_URL}"
 echo ""

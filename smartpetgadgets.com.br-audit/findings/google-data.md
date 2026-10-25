@@ -1,76 +1,80 @@
 # Google API Field Data — smartpetgadgets.com.br
-Data pulled: 2026-09-30 | Tier 1 (API key + service account); GA4 not configured, skipped.
-Property used: `https://smartpetgadgets.com.br/` (URL-prefix property, confirmed per 2026-09-29 fix).
+Pulled: 2026-10-23 | Tier 1 (API key + service account) | GA4 not configured (skipped)
+Property: `https://smartpetgadgets.com.br/` (URL-prefix). Baseline for delta: google-api.md (window 2026-09-24..10-19, pulled ~2026-10-22).
+Note: the claude-seo runtime had to be rebuilt (`claude-seo setup`, isolated venv) before the tools would run.
 
-## Credential/Service Status
-- PSI: available (API key)
-- CrUX (single-period, origin): **403 Forbidden** — `chromeuxreport.googleapis.com/v1/records:queryRecord`
-- CrUX History (origin, 25-week): **403 Forbidden** — `chromeuxreport.googleapis.com/v1/records:queryHistoryRecord`
-- GSC (Search Analytics, Sitemaps, URL Inspection): available (service account `srv-blogs@smartpetgadgets-seo.iam.gserviceaccount.com`)
-- GA4: not configured (no property ID) — skipped per instructions
+## GSC Search Analytics (source: Google API, totals_complete: true)
+Current = 2026-09-23..2026-10-20 (28d). Previous = 2026-08-26..2026-09-22 (28d). GSC lag 2-3 days.
 
-### CrUX note
-Both CrUX origin-level endpoints returned 403 rather than the expected 404. A 404 would mean "insufficient Chrome traffic" (normal for a low-traffic site); a 403 suggests the Chrome UX Report API may not be enabled/authorized for this API key/project, or the key is restricted. This is worth checking in Google Cloud Console (enable "Chrome UX Report API" for the project tied to the configured API key) — it is not a site-side indexation or CWV problem. Field CWV data was therefore unavailable; falling back to PSI lab data only.
+| Metric | Current 28d | Previous 28d | Change | Baseline (10-22) | Delta vs baseline |
+|---|---|---|---|---|---|
+| Clicks | 34 | 4 | +750% | 31 | +3 |
+| Impressions | 2,690 | 162 | +1,561% | 2,549 | +141 |
+| CTR | 1.26% | 2.47% | -1.21 pt | 1.22% | +0.04 pt |
+| Avg position | 10.0 | 11.6 | 1.6 better | 10.1 | 0.1 better |
 
-## PSI Lab Data (homepage, mobile)
-- Performance score: 99/100
-- Accessibility: 93/100 | Best Practices: 100/100 | SEO: 100/100
-- LCP (lab): 1,990 ms — Good
-- CLS (lab): 0 — Good
-- TBT (lab): 0 ms — Good
-- Field metrics block in PSI response was empty (consistent with the CrUX 403s above — no field data surfaced for this origin via PSI either).
+Impressions grew ~16x period over period (pages with impressions: 52 -> 77, i.e. every indexed post now surfaces). CTR fell only because impressions grew mostly at positions 10-20 with 0 clicks. Versus the 10-22 baseline the change is marginal (+3 clicks, window shifted 1 day).
 
-Source: Google API (lab data only; field data unavailable this run).
+### Query distribution (109 query rows; rows sum to 403 impressions of 2,690 total, rest anonymized — do not use sum as total)
+- Page 1 (pos <=10): 29 queries (27%); 67 of 403 row-impressions (17%)
+- Page 2 (11-20): 22 queries; Beyond 20: 58 queries
+- Baseline (100 queries): 26 / 21 / 53 -> slight improvement in count, same structure: page-1 queries are long-tail, ~1-3 impressions.
+- Only 3 queries produced clicks: "vdrbg" (1, 28 imp, pos 6.4), "como conectar wi-fi" (1), "divipets" (1). Nearly all clicks are branded/ultra-long-tail.
 
-## GSC Search Analytics — Last 28 Days (2026-09-02 to 2026-09-27)
-Source: Google API (GSC, `totals_complete: true` — site-wide total, safe to report as-is)
-
-| Metric | Value |
-|---|---|
-| Clicks | 9 |
-| Impressions | 442 |
-| CTR | 2.04% |
-| Avg. position | 11.2 |
-
-Note: the site-wide total (clicks=9, impressions=442) is higher than the sum of the 33 returned query/page rows (impressions summed ≈ 73), because GSC's query-level rows omit anonymized low-volume queries. The totals block, not the row sum, is the correct site-wide figure — no quick-win queries (position 5-15 with meaningful impressions) were flagged by the tool's own `quick_wins` field (returned empty), though some individual rows sit in that range at very low volume (see table below).
-
-### Top Query/Page Rows by Impressions (sample of 33 returned rows, all 0 clicks)
-| Query | Page | Impr. | Avg. Position |
+### Top queries by impressions
+| Query | Impr | Pos | Clicks |
 |---|---|---|---|
-| cerca virtual para cachorro | /cerca-virtual-para-cachorro/ | 20 | 11.1 |
-| câmera para monitorar pet | /duvidas-camera-para-monitorar-pet/ | 5 | 36.8 |
-| qual a melhor coleira com gps para gatos | /coleira-gps-para-gato/ | 4 | 18.8 |
-| qual a melhor coleira com gps para gatos | /coleira-gps-para-pet/ | 4 | 68.0 |
-| vdrbg | /comedouro-vdrbg-4l-wifi-review/ | 4 | 7.8 |
-| bebedouro de agua pet automatico | /melhor-bebedouro-automatico-pet/ | 2 | 22.0 |
-| camera para vigiar pet | /camera-para-monitorar-pet/ | 2 | 50.5 |
-| camera pet | /melhor-camera-para-monitorar-pet/ | 2 | 34.5 |
-| cat feeder | / (homepage) | 2 | 52.5 |
-| comedoro e bebedouro | /comedouro-x-bebedouro-automatico/ | 2 | 26.5 |
-| comedouro interativo para gato | /melhor-comedouro-interativo-gato/ | 2 | 37.0 |
-| vdrbg | /melhor-comedouro-automatico-cachorro/ | 2 | 10.5 |
-| alimentador pet | / (homepage) | 2 | 44.5 |
+| qual a melhor coleira com gps para gatos | 58 | 17.4 | 0 |
+| camera pet | 36 | 28.7 | 0 |
+| bebedouro inox ou plástico | 30 | 13.7 | 0 |
+| vdrbg | 28 | 6.4 | 1 |
+| cerca virtual para cachorro | 25 | 10.3 | 0 |
+| câmera para monitorar pet | 22 | 24.2 | 0 |
+| melhor comedouro automático para gatos | 22 | 45.5 | 0 |
+| credeli ou simparic qual o melhor | 8 | 39.4 | 0 |
 
-Observation: the near-total absence of clicks (0/33 rows have clicks; site total is only 9 clicks across 442 impressions, CTR 2.04%) combined with most average positions sitting in the 20-65 range confirms this is a ranking/visibility problem, not an indexation problem — consistent with the user's 2026-09-28/09-30 confirmation of 100% indexation. The one clear exception, "cerca virtual para cachorro" at position 11.1 with 20 impressions and 0 clicks, is the closest thing to a near-page-1 keyword and is a candidate for on-page/title optimization to push into top 10 and start earning clicks.
+### Top pages (current vs previous 28d)
+| Page | Clicks | Impr | CTR | Pos | Prev impr / pos |
+|---|---|---|---|---|---|
+| /configurar-app-comedouro-wifi/ | 8 | 329 | 2.43% | 4.8 | 22 / 6.8 |
+| /bebedouro-inox-x-ceramica/ | 4 | 264 | 1.52% | 8.3 | 22 / 8.1 |
+| /camera-para-monitorar-pet/ | 0 | 118 | 0% | 17.5 | 2 / 39 |
+| /coleira-gps-para-gato/ | 0 | 96 | 0% | 10.6 | 2 / 9.5 |
+| /comedouro-automatico-para-dois-gatos/ | 0 | 96 | 0% | 7.0 | 6 / 8.2 |
+| /comedouro-vdrbg-4l-wifi-review/ | 1 | 80 | 1.25% | 6.5 | 4 / 9 |
+| /melhor-antipulgas-para-cachorro/ | 0 | 80 | 0% | 17.3 | new |
+| /comedouro-automatico-faz-mal/ | 4 | 70 | 5.71% | 6.3 | 3 / 11.7 |
+| /brinquedo-interativo-pilha-x-recarregavel/ | 0 | 68 | 0% | 6.5 | 5 / 8.2 |
+| /cerca-virtual-para-cachorro/ | 0 | 52 | 0% | 9.5 | 13 / 10.7 |
+| /melhor-comedouro-automatico-cachorro/ | 0 | 39 | 0% | 21.6 | 6 / 7.7 (regressed) |
+| /melhor-tapete-higienico-para-cachorro/ | 0 | 26 | 0% | 19.7 | not present |
 
-## GSC Sitemap Status
-- Sitemap: `https://smartpetgadgets.com.br/sitemap.xml`
-- Last submitted: 2026-08-26T21:53:30.968Z
-- Errors: 0 | Warnings: 0
-- Submitted URLs: 77 (web type)
+Page-1 pages with zero clicks despite pos 6-10 (title/snippet CTR opportunity): comedouro-automatico-para-dois-gatos (96 impr, pos 7.0), brinquedo-interativo-pilha-x-recarregavel (68, 6.5), coleira-gps-para-gato (96, 10.6), soprador-para-pet (58, 8.6), cerca-virtual-para-cachorro (52, 9.5).
 
-## URL Inspection Sample (5 URLs)
-All 5 returned verdict **PASS** (indexed, no issues), corroborating the user's manual GSC confirmation:
-- https://smartpetgadgets.com.br/ — PASS
-- https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/ — PASS
-- https://smartpetgadgets.com.br/coleira-gps-para-gato/ — PASS
-- https://smartpetgadgets.com.br/melhor-bebedouro-automatico-pet/ — PASS
-- https://smartpetgadgets.com.br/camera-para-monitorar-pet/ — PASS
+## URL Inspection (10 URLs) — all PASS, "Submitted and indexed", INDEXING_ALLOWED, robots ALLOWED, canonical match true
+| URL | Last crawl (UTC) | Rich results |
+|---|---|---|
+| / | 2026-10-23 | n/a |
+| /melhor-tapete-higienico-para-cachorro/ | 2026-10-23 11:14 (recrawled after rewrite) | PASS, Product snippets (7+ items, 0 issues) |
+| /melhor-comedouro-automatico-cachorro/ | 2026-10-11 | PASS |
+| /cerca-virtual-para-cachorro/ | 2026-09-28 (stale, 25 days) | PASS |
+| /melhor-antipulgas-para-cachorro/ | 2026-09-30 (23 days) | PASS |
+| /configurar-app-comedouro-wifi/ | 2026-10-19 | PASS |
+| /bebedouro-inox-x-ceramica/ | 2026-10-23 | PASS |
+| /comedouro-automatico-faz-mal/ | 2026-10-18 | PASS |
+| /camera-para-monitorar-pet/ | 2026-10-23 | PASS |
+| /coleira-gps-para-pet/ | 2026-10-17 | PASS |
+Delta: indexation unchanged (100% of sampled). Notable: melhor-tapete and melhor-comedouro-automatico-cachorro were edited recently; tapete recrawled today, comedouro-cachorro last crawled 10-11 (predates/near the 10-2x product update — consider requesting reindex). cerca-virtual and antipulgas crawls are >3 weeks old.
 
-## GA4
-Not configured (`ga4_property_id` missing from `~/.config/claude-seo/google-api.json`). Skipped per task scope; would unlock organic landing-page traffic and conversion data once a GA4 property ID is added.
+## Sitemaps
+/sitemap.xml: 78 web URLs submitted, 0 errors, 0 warnings, not pending. Last submitted 2026-08-26 (unchanged vs baseline; sitemap content has since changed locally — resubmit to prompt a re-read).
 
-## Data Freshness Notes
-- GSC: 2-3 day lag (date range above ends 2026-09-27)
-- CrUX: would be 28-day rolling if available; unavailable this run (403s, see above)
-- PSI: real-time lab run at time of this pull (2026-09-30)
+## CrUX / PSI
+- CrUX History (origin and /melhor-tapete-higienico-para-cachorro/): still **403 Forbidden** (unchanged). Not a low-traffic 404: enable "Chrome UX Report API" on GCP project smartpetgadgets-seo / check key restrictions. No field CWV available; PSI field block empty.
+- PSI lab, homepage mobile (Lighthouse 13.5): Performance 100, Accessibility 93, Best Practices 100, SEO 100; LCP 1.7 s, CLS 0, TBT 0 ms (all Good). Baseline was 100 / LCP 1.4 s: no meaningful change.
+
+## Priorities
+1. High: CTR/snippet work on page-1 zero-click pages (list above); recent confirmed gain is impressions, not clicks.
+2. High: melhor-comedouro-automatico-cachorro fell from pos 7.7 (6 impr) to 21.6 (39 impr) — monitor post-update; request reindex.
+3. Medium: resubmit sitemap; request indexing for cerca-virtual and antipulgas (stale crawls).
+4. Low: fix CrUX 403 (config).

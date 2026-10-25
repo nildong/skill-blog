@@ -1,151 +1,105 @@
-# Auditoria SEO Completa — smartpetgadgets.com.br
+# Full SEO Audit — smartpetgadgets.com.br
+Date: 2026-10-23 | Business type: Affiliate/review publisher (pet gadgets, pt-BR), static HTML, 72 posts / 78 URLs
 
-Data: 2026-09-30 · claude-seo v2.4.1
+## Executive Summary
 
-## Resumo Executivo
+**SEO Health Score: 83/100** (weighted; 87 on 2026-10-22).
 
-**SEO Health Score: 86/100**
+The drop is mostly measurement, not regression: this pass counted body-only words and audited bylines/claims more strictly (Content 79→71). The tapete and comedouro-cachorro rewrites are genuine improvements (SXO gap 60→63).
 
-Tipo de negócio detectado: publisher/afiliado de conteúdo (nicho pet gadgets, português brasileiro).
+| Category | Weight | Score |
+|---|---|---|
+| Technical SEO | 22% | 94 |
+| Content Quality | 23% | 71 |
+| On-Page SEO | 20% | 82 |
+| Schema / Structured Data | 10% | 88 |
+| Performance (CWV) | 10% | 95 |
+| AI Search Readiness | 10% | 70 |
+| Images | 5% | 88 |
 
-O site está tecnicamente muito bem construído — HTML estático, headers de segurança corretos, Core Web Vitals praticamente perfeitos, 100% indexado no Google (confirmado pelo usuário em 2026-09-28/09-30). O gargalo real não é técnico: é **ranking e formato de página** em termos comerciais de cabeça, e uma lacuna de **schema arriscada** que merece correção imediata.
-
-### Top 5 Problemas Críticos/Altos
-1. **[Crítico]** `AggregateRating` em `/coleira-seresto-antipulgas/` (4,8★, 5.501 avaliações) parece copiado de um marketplace em vez de coletado no site — risco de ação manual do Google.
-2. **[Alto]** Termos comerciais de cabeça (`melhor antipulgas para cachorro`, `comedouro automático para gato`, `coleira gps sem mensalidade`) perdem para marketplaces e listicles amplos de 5-10 itens com tabela e fotos — mismatch de formato e amplitude de conteúdo.
-3. **[Alto]** Nenhum sinal de experiência prática com os produtos — a própria página `/sobre/` admite que as reviews partem de fotos/specs do vendedor, não de teste real. Isso limita o pilar "Experience" do E-E-A-T.
-4. **[Médio]** `Organization.sameAs` vazio no schema da home, apesar da página do Facebook (`@smartpetgadgetsbr`) já estar no ar.
-5. **[Médio]** `llms.txt` lista só 5 páginas estáticas, omitindo os 70+ artigos publicados.
+### Top 5 Findings
+1. Ranking bottleneck still page-type mismatch: coleira GPS and câmera 'melhor' pages lack multi-product Top-N (SXO gap 63/100, up from 60)
+2. False testing claim 'Testamos 3 comedouros' on comedouro-vdrbg-4l-wifi-review + contradictory bylines on 61 pages (E-E-A-T)
+3. Thin clusters: camera/brinquedo/porta median ~500 body words, FAQs duplicate body
+4. /melhor-comedouro-automatico-cachorro/ fell pos 7.7 -> 21.6 (before the 10-22 update; overlaps Sept 2026 Spam Update — hypothesis only)
+5. Homepage mobile horizontal scroll (fixed locally, pending deploy)
 
 ### Top 5 Quick Wins
-1. Remover o `AggregateRating` copiado em `coleira-seresto-antipulgas` (mantendo o Review editorial).
-2. Popular `Organization.sameAs` com a URL do Facebook.
-3. Cortar a meta description de `melhor-antipulgas-para-cachorro` de 221 para ~155 caracteres.
-4. Corrigir o erro 403 no índice `/autores/` (a página individual do autor funciona, o hub não).
-5. Expandir ou aposentar o `llms.txt`.
+1. Deploy index.html nav fix
+2. Change 'Testamos' to 'Comparamos' on VDRBG review
+3. Regenerate llms.txt + site-index (cerca-virtual)
+4. Trim tapete title/description; fix R$ per-unit numbers
+5. Resubmit sitemap in GSC; enable CrUX API
 
----
+## Google Data (GSC, 2026-09-23..2026-10-20)
 
-## SEO Técnico — 92/100
+- Clicks 34 (prev 4), impressions 2690 (prev 162), CTR 1.26%, avg position 10.0
+- Page-1 query share 29/109; URL Inspection 10/10 indexed; sitemap 78 URLs, 0 errors (last submitted 2026-08-26)
+- /melhor-comedouro-automatico-cachorro/ 7.7 → 21.6. Confirmed Google update in window: September 2026 Spam Update (from 2026-09-24). Date overlap is a hypothesis, not proof; the drop precedes the 2026-10-22 product update.
+- CrUX: 403 — no field data.
 
-**O que funciona bem:**
-- Redirecionamentos HTTP→HTTPS e www→non-www limpos, em um único salto 301, para `https://smartpetgadgets.com.br/` canônico (correção de 2026-08-23 sem regressão).
-- Headers de segurança presentes: HSTS, CSP, X-Frame-Options, nosniff, Referrer-Policy.
-- `robots.txt` bem formado, com diretivas `Content-Signal` granulares por bot de IA, bloqueando corretamente `/reports/`.
-- Sitemap ativo, 77 URLs, sem páginas órfãs ou bloqueadas vazando para dentro.
-- HTML 100% estático renderizado no servidor — zero risco de SPA/JS não renderizado.
-- Canonicais autorreferenciados e consistentes, nenhum `noindex` encontrado.
+## Technical SEO — 94/100
 
-**Problemas:**
-- **Médio** — Protocolo IndexNow não implementado (ajudaria pickup mais rápido no Bing/Copilot).
-- **Baixo** — CSP presente mas minimalista.
+**What works:** 78/78 URLs 200, self-canonical, none noindexed; Security headers (HSTS, nosniff, XFO, referrer-policy); No _backup*/reports URLs reachable (404); .git/.env 403; IndexNow key live; robots.txt AI policy with Content-Signal
 
----
+- **[High] Homepage horizontal scroll on mobile** — nav.main-nav rendered 445px wide on a 375px viewport (non-wrapping flex row: logo + 4 links, gap 22px); 'Contato' cut off. Fixed theme toggle also overlapped 'Contato' at <1180px. → *FIXED LOCALLY 2026-10-23 in index.html (nav wraps below logo <=600px; header reserves 64px for toggle <=1200px). Verified 320-1440px. Pending deploy.*
+- **[Low] http://www takes 2 redirect hops** — http://www.smartpetgadgets.com.br -> https://www -> https://apex. → *Single 301 to https apex in .htaccess.*
+- **[Info] Dirty working tree vs live** — Many uncommitted changes (comedouro posts, images, sitemap.xml, llms.txt, deploy.sh); live appears deployed from working tree. → *Commit current state so git reflects production.*
 
-## Qualidade de Conteúdo — 82/100
+## Content Quality — 71/100
 
-**O que funciona bem:**
-- Todo artigo abre com resposta direta + bloco "Principais Pontos".
-- JSON-LD válido (BlogPosting/Product/FAQ/Breadcrumb).
-- Estatísticas datadas e atribuídas (ex.: "5.501 avaliações, capturado em 2026-09-14").
-- Disclosure de afiliado, ressalvas veterinárias, autor nomeado com bio.
-- Nenhum tique de "voz de IA"; prosa natural em PT-BR.
-- Zero templating detectável entre artigos.
+**What works:** melhor-tapete-higienico-para-cachorro rewrite is now the strongest page (7 products, table, ItemList); Metadata templating clean (templated_ratio 0.0)
 
-**Problemas:**
-- **Alto** — Ausência de sinais de experiência prática (pilar Experience do E-E-A-T pontuou 55/100).
-- **Médio** — 4 artigos amostrados ficam entre 500-903 palavras, abaixo do piso de cobertura visto em outros artigos (1.390-1.430 palavras).
-- **Médio** — `Organization.sameAs` vazio.
-- **Médio** — Índice `/autores/` retorna 403.
+- **[High] False first-hand testing claim** — comedouro-vdrbg-4l-wifi-review Key Takeaways: 'Testamos 3 comedouros automáticos de 4L' — contradicts the site's 'não testamos' disclosures (verified in source). → *Rewrite as 'Comparamos 3 comedouros...' based on specs and reviews.*
+- **[High] Contradictory bylines** — 61 pages show 'Por Nildo Alves' and also 'Escrito pela Equipe Smart Pet Gadgets'; 52 author boxes say 'Testa e pesquisa produtos'. → *Pick one attribution model; one template change across posts.*
+- **[High] Thin cluster content** — Camera, brinquedo interativo and porta eletrônica clusters: median body 473-530 words, ~320-350 excluding FAQs that repeat the body (overlap 0.88). 31/72 posts <600 words. → *Consolidate or expand; rewrite FAQs to add new info instead of repeating.*
+- **[Medium] Tapete page price-per-unit inconsistency** — Luxena listed as 'menor preço por unidade R$ 0,92' while its own price R$ 42,23/50un = R$ 0,84; Biosec R$ 44/50 = R$ 0,88. Rating formula not stated; item 6 reviewBody cites 4.9 (ML buyer rating) next to 7.7 site score. → *Recalculate per-unit prices, state scoring method, label ML rating.*
+- **[Medium] No first-hand experience evidence** — Flagship reviews have no own photos or measurements; /sobre/ and /politica-editorial/ don't explain AI use or rating method. → *Add methodology section; disclose process.*
+- **[Info] Comedouro cluster CTA/product depth** — Owner-paused rework; not re-flagged as actionable. → *—*
 
----
+## On-Page SEO — 82/100
 
-## On-Page SEO — 85/100
+**What works:** Unique titles, 1 H1 per page, self-canonicals
 
-**O que funciona bem:**
-- Títulos únicos, descritivos, com keyword na frente (53-75 caracteres) nas 3 amostras.
-- H1 presente exatamente uma vez por página, distinto do `<title>`.
-- Meta descriptions únicas em todas as amostras.
-- Slugs de URL limpos e descritivos.
+- **[Medium] Long titles/descriptions** — 6 titles >60 chars (tapete 67, coleira-gps-cachorro-que-foge 66); 3 descriptions >160 (tapete 170). → *Trim to ~60 / ~155 chars.*
+- **[Medium] Weak internal linking** — 23 posts have <=3 internal links; generic anchors. → *Run internal-linking skill and add descriptive anchors.*
+- **[Low] Possible cannibalization** — /tapete-higienico-para-cachorro/ vs /melhor-tapete-higienico-para-cachorro/; camera-para-monitorar-pet vs melhor-camera-para-monitorar-pet. → *Differentiate intent (guide vs Top-N) or consolidate with 301.*
 
-**Problemas:**
-- **Médio** — Meta description de `melhor-antipulgas-para-cachorro` tem 221 caracteres, muito além do limite prático de ~155-160 do Google (será cortada no SERP).
+## Schema / Structured Data — 88/100
 
----
+**What works:** All 78 pages valid JSON-LD; no HowTo/AggregateRating; BlogPosting+BreadcrumbList+FAQPage on 72 posts; New ItemList on tapete (7) and comedouro cachorro (7) valid
 
-## Schema / Dados Estruturados — 82/100
+- **[Medium] Author Person lacks image** — /autores/nildo-alves/ Person has no image, one sameAs. → *Add author photo and profile URLs.*
+- **[Low] ItemList Products lack image/offers** — 7/7 on tapete, 3/7 on comedouro cachorro. → *Add product images.*
+- **[Low] worstRating inconsistency** — comedouro-newpet-2l-review uses worstRating 1 vs 0 elsewhere. → *Normalize.*
 
-**O que funciona bem:**
-- BlogPosting, Person, Organization, BreadcrumbList bem formados nas 76 páginas, sem propriedades obrigatórias faltando, sem tipos depreciados.
+## Performance (CWV) — 95/100
 
-**Problemas:**
-- **Crítico** — `AggregateRating` em `coleira-seresto-antipulgas` parece copiado de marketplace — risco de ação manual por dados estruturados enganosos.
-- **Info** — `FAQPage` presente em 71/76 páginas, mas desde a atualização de política do Google de 2026-05-07 não gera mais rich result para nenhum site (não é mais exclusivo de gov/saúde) — inofensivo, mas pare de contar como ativo de SEO.
-- **Médio** — `sameAs` vazio; tipo de `Review.author` inconsistente (Person vs Organization) entre páginas de produto.
+**What works:** Lighthouse 100 on 10/10 runs; LCP 0.3-1.7s, TBT 0, CLS 0
 
----
+- **[Medium] No field data (CrUX 403)** — CrUX API returns 403 for origin and URLs. → *Enable Chrome UX Report API in the GCP project.*
+- **[Low] Hero images lack fetchpriority** — Comedouro, coleira, antipulgas pages. → *Add fetchpriority=high to hero img.*
+- **[Low] Oversized home thumbnails** — Home cards 761 KiB mobile / 2,097 KiB desktop. → *Serve smaller srcset thumbnails.*
 
-## Performance (Core Web Vitals) — 98/100
+## AI Search Readiness — 70/100
 
-- **LCP**: 0,9-2,0s nas 3 páginas amostradas — bem abaixo do limite "Bom" de 2,5s.
-- **INP** (via Total Blocking Time como proxy): 0ms em todas as páginas amostradas.
-- **CLS**: 0,0 em todas as páginas amostradas.
-- CrUX (dados de campo) retornou 403 — provável API não habilitada no projeto GCP configurado, ou volume insuficiente de tráfego real para o limiar de relato do CrUX. Não é um problema do site.
+**What works:** Tapete & comedouro comparisons highly citable; robots.txt allows search/AI-input crawlers
 
----
+- **[High] Coleira GPS cluster names no products** — 0 products across 8 pages; melhor-coleira-gps-sem-mensalidade has no figures. → *Add named product comparisons with specs/prices.*
+- **[High] Weak entity signals** — Organization.sameAs only Facebook; no Wikidata/YouTube/Reddit presence. → *Add profiles and sameAs.*
+- **[Medium] llms.txt stale** — cerca-virtual-para-cachorro missing; tapete/comedouro descriptions outdated. → *Regenerate llms.txt and .data/site-index.json.*
+- **[Medium] English-style citations in pt-BR text** — 122 'retrieved 2026-08-22' citations across 60 pages, many to competitor blogs, many unlinked. → *Localize and link to primary sources.*
+- **[Low] Hostinger 429 to GPTBot/Meta UA** — Spoofed-UA test only; training crawlers, not search. → *Monitor in server logs.*
 
-## Imagens — 90/100
+## Images — 88/100
 
-- Cobertura de alt text: 100% nas páginas amostradas.
-- `loading="lazy"` e `width`/`height` aplicados consistentemente nos cards da home (CLS 0,0 confirma).
-- **Baixo** — Quantidade de imagens desigual entre artigos (ex.: `melhor-antipulgas-para-cachorro` tem só 4 imagens em ~1.656 palavras) — fraco frente aos concorrentes de marketplace/listicle que mostram 5-10 fotos de produto.
+**What works:** All images have alt and dimensions; none broken
 
----
+- **[Medium] Mobile comparison tables clipped** — Tapete table 527px in 343px wrapper, comedouro 645px; no scroll hint. → *Add scroll hint/shadow or card layout on mobile.*
+- **[Low] Literal '- ' bullets in takeaway boxes** — Tapete/VDRBG 'Key Takeaways' render hyphens as text. → *Convert to <ul>.*
 
-## Prontidão para Busca por IA (GEO/Agentic) — 80/100
-
-- Lighthouse Agentic Browsing: 3/3 mobile e desktop.
-- Árvore de acessibilidade para agentes: 100/100, 220 nós interativos limpos, 0 elementos sem nome.
-- Política `Content-Signal` deliberada e consistente nos 16 grupos de crawler.
-- **Médio** — `llms.txt` omite o catálogo de artigos.
-- **Médio** — Nenhuma presença de marca verificada além do próprio domínio (Wikipedia, Reddit, YouTube, LinkedIn) — menções de marca correlacionam 3x mais com citações de IA do que backlinks.
-
----
-
-## Sitemap — 92/100
-
-- XML válido, 77 URLs, 12KB, bem abaixo dos limites.
-- Cobertura bate exatamente com o site (home + 76 páginas), sem órfãos, sem 404/redirecionados.
-- **Baixo** — 68% das URLs compartilham o mesmo `lastmod` (2026-09-20), sugerindo um "touch" em lote em vez de datas reais de edição.
-
----
-
-## Experiência de Busca (SXO) — 56/100 ⚠️ Maior alavanca de melhoria
-
-Esta foi a análise mais reveladora da auditoria. O diagnóstico se divide por classe de busca:
-
-- **Termos comerciais de cabeça** (`melhor antipulgas para cachorro`, `comedouro automático para gato`, `coleira gps para cachorro`): os SERPs são dominados por marketplaces (Mercado Livre, Amazon, Leroy Merlin) e listicles amplos de 5-10 itens de varejistas de alta autoridade (Petz, Petlove). As páginas do site são comparações estreitas — ex.: a página de antipulgas compara só 3 comprimidos de marca (1.656 palavras, 4 imagens) contra concorrentes com "10 opções", fotos e tabelas de preço. O formato está quase certo, mas a amplitude, a mídia e a autoridade de domínio estão atrás.
-- **Termos de cauda longa informacionais** (`comedouro automático faz mal para gato`, `...para dois gatos`): os SERPs são só de blogs, sem intrusão de marketplace — o formato do site **se alinha perfeitamente**. Este é o espaço onde já se ganha.
-
-**Dimensões mais fracas:** Autoridade (4/15) e Mídia (5/15). **Pontos fortes:** schema (3 blocos/página) e atualidade (2026).
-
-**Persona mais fraca:** Tutor Pronto para Comprar (46/100) — as páginas leem como artigo, não como superfície de compra; preços/CTAs não aparecem acima da dobra como nos resultados de marketplace.
-
----
-
-## Dados Reais do Google Search Console (últimos 28 dias, 2026-09-02 a 2026-09-27)
-
-- **Cliques: 9 | Impressões: 442 | CTR: 2,04% | Posição média: 11,2**
-- Todas as 33 linhas de query/página retornadas têm 0 cliques — visibilidade existe, mas quase nenhum clique. Confirma que o problema é ranking/CTR, não indexação (consistente com a confirmação do usuário em 2026-09-28/09-30).
-- Melhor query: "cerca virtual para cachorro" → `/cerca-virtual-para-cachorro/`, posição 11,1, 20 impressões, 0 cliques — logo abaixo da página 1, forte candidata a otimização.
-- Maioria das outras queries fica nas posições 20-65.
-- Amostra de 5 URLs via URL Inspection: todas **PASS** (indexadas, sem problemas).
-- Sitemap: 77 URLs enviadas, 0 erros/avisos.
-- PSI (dados de laboratório, home mobile): Performance 99, SEO 100, Best Practices 100, LCP 1.990ms, CLS 0.
-- CrUX (dados de campo): 403 nos dois endpoints — verificar habilitação da API no Google Cloud Console.
-
----
-
-## Nota de Escopo
-
-Esta auditoria cobriu: técnico, conteúdo (amostra de homepage + 9 artigos), on-page (amostra de 3 páginas), schema (76 páginas), sitemap (77 URLs), performance (3 páginas via PSI), prontidão para agentes de IA (Lighthouse Agentic Browsing), SXO (5 queries-alvo via análise reversa de SERP), e dados reais do GSC/PSI (Tier 1, credenciais configuradas). GA4 não configurado (sem property ID) — não incluído. CrUX retornou 403 em ambos os endpoints. Backlinks avançados (Moz/Bing Webmaster) não configurados — apenas Common Crawl básico disponível, não auditado a fundo nesta passada.
+## Notes & Limitations
+- Specialist findings in findings/*.md (each with delta vs 2026-10-22).
+- Backlinks: Tier 0 only (no Moz/Bing keys); domain absent from Common Crawl graph.
+- Agentic Lighthouse fraction not re-measured (runtime setup); prior 3/3 carried over.
+- Verified by hand: 'Testamos 3' claim, tapete per-unit math, homepage nav overflow (445px @375).
