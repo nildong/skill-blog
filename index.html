@@ -44,53 +44,183 @@
 }
 </script>
 
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@700;800;900&display=swap" />
 <style>
-  :root { color-scheme: light dark; }
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 0; padding: 0; line-height: 1.7; color: #1a1a1a; background: #fff; }
-  @media (prefers-color-scheme: dark) { body { color: #e8e8e8; background: #121212; } a { color: #ffab73; } .card { background: #1c1c1c !important; } }
-  a { color: #d9480f; text-decoration: none; }
-  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+  :root {
+    color-scheme: light dark;
+    --text: #1d1d1f; --muted: #5b5b66; --bg: #fff; --panel: #fbf8f4; --card: #fff;
+    --line: rgba(20,20,40,.09); --accent: #d9480f; --accent-strong: #ff5f0f; --link: #d9480f;
+    --shadow: 0 1px 2px rgba(20,20,40,.05), 0 6px 20px rgba(20,20,40,.06);
+    --blue: #2f6fec; --amber: #f2b01e; --orange: #f26b1d; --green: #1f9a63; --purple: #7253e0; --pink: #e0466a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) { --text: #ececf0; --muted: #a7a7b3; --bg: #121212; --panel: #181818; --card: #1c1c1c; --line: rgba(255,255,255,.09); --link: #ffab73; --shadow: none; }
+  }
+  :root[data-theme="dark"] { --text: #ececf0; --muted: #a7a7b3; --bg: #121212; --panel: #181818; --card: #1c1c1c; --line: rgba(255,255,255,.09); --link: #ffab73; --shadow: none; }
 
-  header.site-header { padding: 18px 0; border-bottom: 1px solid rgba(128,128,128,.2); }
-  header.site-header .wrap { display: flex; align-items: center; justify-content: space-between; }
-  .logo img { height: 40px; display: block; }
-  nav.main-nav ul { list-style: none; display: flex; gap: 22px; margin: 0; padding: 0; }
-  nav.main-nav a { color: inherit; font-weight: 600; font-size: .95rem; }
-  nav.main-nav a:hover { color: #ff5f0f; }
-  @media (max-width: 1200px) { header.site-header .wrap { padding-right: 64px; } }
-  @media (max-width: 600px) {
-    header.site-header .wrap { flex-wrap: wrap; row-gap: 12px; }
-    nav.main-nav { width: 100%; }
-    nav.main-nav ul { flex-wrap: wrap; gap: 8px 18px; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 16px; margin: 0; line-height: 1.6; color: var(--text); background: var(--bg); }
+  a { color: var(--link); text-decoration: none; }
+  img { max-width: 100%; }
+  h1, h2, h3, .btn-cta, .tile strong, .feat strong, .promo strong { font-family: "Nunito", -apple-system, "Segoe UI", sans-serif; }
+  .wrap { max-width: 1240px; margin: 0 auto; padding: 0 16px; }
+  :focus-visible { outline: 3px solid var(--accent-strong); outline-offset: 2px; border-radius: 6px; }
+
+  /* Cabeçalho */
+  header.site-header { padding: 14px 0; border-bottom: 1px solid var(--line); }
+  header.site-header .wrap { display: flex; align-items: center; gap: 24px; }
+  .logo img { height: 40px; width: auto; display: block; }
+  nav.main-nav { flex: 1; display: flex; justify-content: center; }
+  nav.main-nav ul { list-style: none; display: flex; gap: 6px; margin: 0; padding: 0; }
+  nav.main-nav a { display: block; color: var(--text); font-weight: 600; font-size: .98rem; padding: 10px 16px; border-radius: 999px; }
+  nav.main-nav a:hover { background: var(--panel); color: var(--accent); }
+  nav.main-nav a[aria-current="page"] { background: var(--panel); box-shadow: var(--shadow); }
+  .btn-cta { display: inline-flex; align-items: center; gap: 8px; background: var(--amber); color: #2b1d00; font-weight: 800; padding: 12px 22px; border-radius: 999px; white-space: nowrap; }
+  .btn-cta:hover { filter: brightness(1.05); }
+  @media (max-width: 1200px) { header.site-header .wrap { padding-right: 72px; } }
+  @media (max-width: 900px) {
+    header.site-header .wrap { flex-wrap: wrap; row-gap: 10px; }
+    nav.main-nav { order: 3; width: 100%; flex-basis: 100%; justify-content: flex-start; overflow-x: auto; }
+    nav.main-nav a { padding: 10px 14px; }
+    .btn-cta { padding: 10px 16px; font-size: .92rem; }
+  }
+  @media (max-width: 520px) { .btn-cta { display: none; } }
+
+  /* Estrutura em painéis */
+  main.wrap { padding-top: 24px; padding-bottom: 8px; }
+  .row { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 24px; margin-bottom: 28px; }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 22px; padding: 26px; }
+  @media (max-width: 1000px) { .row { grid-template-columns: 1fr; } }
+  @media (max-width: 600px) { .panel { padding: 18px 16px; border-radius: 18px; } .row { gap: 18px; margin-bottom: 18px; } }
+
+  .page-title { font-size: clamp(1.6rem, 3.2vw, 2.25rem); line-height: 1.2; margin: 0 0 8px; font-weight: 900; }
+  .page-sub { margin: 0 0 22px; color: var(--muted); max-width: 640px; }
+  .sec-title { display: flex; align-items: center; gap: 10px; font-size: 1.45rem; font-weight: 800; margin: 0; line-height: 1.25; }
+  .sec-title .ico { font-size: 1.35rem; }
+  .sec-sub { margin: 2px 0 18px; color: var(--muted); font-size: .95rem; }
+  #h-cat { margin-bottom: 16px; }
+
+  /* Blocos de categoria */
+  .tiles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; }
+  .tile { position: relative; overflow: hidden; border-radius: 18px; min-height: 178px; color: #fff; display: flex; isolation: isolate; transition: transform .15s ease; }
+  .tile:hover { transform: translateY(-2px); }
+  .tile img { position: absolute; right: 0; top: 0; width: 46%; height: 100%; object-fit: cover; z-index: -1;
+    -webkit-mask-image: linear-gradient(to right, transparent 0, #000 65%); mask-image: linear-gradient(to right, transparent 0, #000 65%); }
+  .tile-text { display: flex; flex-direction: column; gap: 4px; padding: 18px; max-width: 72%; text-shadow: 0 1px 2px rgba(0,0,0,.18); }
+  .tile strong { font-size: 1.15rem; line-height: 1.2; font-weight: 900; }
+  .tile-text > span:not(.pill) { font-size: .86rem; line-height: 1.35; opacity: .95; }
+  .tile .pill { margin-top: auto; }
+  .tile-blue { background: var(--blue); }
+  .tile-amber { background: var(--amber); color: #2b1d00; }
+  .tile-amber .tile-text { text-shadow: none; }
+  .tile-orange { background: var(--orange); }
+  .tile-green { background: var(--green); }
+  .tile-purple { background: var(--purple); }
+  .tile-pink { background: var(--pink); }
+  .pill { text-shadow: none; display: inline-flex; align-self: flex-start; align-items: center; gap: 6px; background: #fff; color: #1d1d1f; font-weight: 700; font-size: .84rem; padding: 7px 14px; border-radius: 999px; box-shadow: 0 2px 8px rgba(0,0,0,.12); }
+  @media (max-width: 760px) { .tiles { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 440px) {
+    .tiles { grid-template-columns: 1fr; gap: 10px; }
+    .tile { min-height: 120px; }
+    .tile img { width: 42%; }
+    .tile-text { max-width: 66%; }
   }
 
-  .hero { background: linear-gradient(135deg, rgba(255,138,61,.88), rgba(255,95,109,.88)), url("/img/img_fundo_site/hero-comedouro-automatico.webp") center/cover no-repeat; color: #fff; padding: 56px 0; text-align: center; }
-  .hero h1 { font-size: 2.1rem; margin: 0 0 12px; }
-  .hero p { font-size: 1.1rem; max-width: 620px; margin: 0 auto; opacity: .95; }
+  /* Guias em destaque */
+  .feats { display: flex; flex-direction: column; gap: 12px; }
+  .row-top .panel-side { display: flex; flex-direction: column; }
+  .row-top .feats { flex: 1; }
+  #categorias { display: flex; flex-direction: column; }
+  #categorias .tiles { flex: 1; grid-auto-rows: 1fr; }
+  .row-top .feat { flex: 1; }
+  .feat { display: grid; grid-template-columns: 112px 1fr; gap: 14px; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 10px; color: var(--text); box-shadow: var(--shadow); transition: transform .15s ease; }
+  .feat:hover { transform: translateY(-2px); }
+  .feat img { width: 112px; height: 96px; object-fit: cover; border-radius: 12px; display: block; }
+  .feat-text { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+  .feat strong { font-size: 1.02rem; line-height: 1.3; font-weight: 800; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .feat-more { color: var(--link); font-weight: 700; font-size: .88rem; }
+  .feat-main { border: 2px solid var(--amber); }
 
-  section.intro { padding: 40px 0 10px; }
-  section.intro h2 { font-size: 1.5rem; }
+  /* Badges de tipo de conteúdo */
+  .badge { display: inline-block; align-self: flex-start; font-size: .74rem; font-weight: 800; letter-spacing: .02em; padding: 3px 10px; border-radius: 999px; color: #fff; background: var(--blue); }
+  .badge-comparativo { background: var(--purple); }
+  .badge-review { background: var(--orange); }
+  .badge-duvidas { background: var(--green); }
 
-  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 22px; padding: 24px 0 48px; }
-  .card { border: 1px solid rgba(128,128,128,.2); border-radius: 12px; overflow: hidden; background: #fff; display: flex; flex-direction: column; }
-  .card img { width: 100%; height: 180px; object-fit: cover; }
-  .card-body { padding: 16px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
-  .card-tag { font-size: .75rem; font-weight: 700; color: #ff5f0f; text-transform: uppercase; letter-spacing: .04em; }
-  .card h3 { margin: 0; font-size: 1.1rem; }
-  .card p { margin: 0; font-size: .92rem; opacity: .85; flex: 1; }
-  .card .read-more { font-weight: 700; font-size: .9rem; }
+  /* Cards de artigo */
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 18px; }
+  .grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  @media (max-width: 760px) { .grid-3 { grid-template-columns: 1fr; } }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; box-shadow: var(--shadow); transition: transform .15s ease; }
+  .card:hover { transform: translateY(-2px); }
+  .card[hidden], .group[hidden] { display: none; }
+  .card-media { position: relative; display: block; aspect-ratio: 16 / 9; overflow: hidden; background: var(--line); }
+  .card-media img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+  .card-media .badge { position: absolute; left: 12px; bottom: 12px; box-shadow: 0 2px 8px rgba(0,0,0,.2); }
+  .card-body { padding: 14px 16px 16px; display: flex; flex-direction: column; gap: 6px; flex: 1; }
+  .card-tag { font-size: .74rem; font-weight: 700; color: var(--muted); text-transform: uppercase; letter-spacing: .05em; }
+  .card h3 { margin: 0; font-size: 1.08rem; line-height: 1.32; font-weight: 800; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card h3 a { color: var(--text); }
+  .card h3 a:hover { color: var(--accent); }
+  .card p { margin: 0 0 4px; font-size: .92rem; line-height: 1.5; color: var(--muted); display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; flex: 1; }
+  .card .read-more { font-weight: 700; font-size: .9rem; padding: 6px 0; align-self: flex-start; }
 
-  .value-props { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: 20px; padding: 10px 0 48px; }
-  .value-props div { border-radius: 12px; padding: 20px; background: rgba(255,138,61,.08); }
-  .value-props h3 { margin: 0 0 6px; font-size: 1rem; }
-  .value-props p { margin: 0; font-size: .9rem; opacity: .85; }
+  /* Como avaliamos */
+  .tips { list-style: none; margin: 0 0 16px; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+  .tips li { display: flex; gap: 12px; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 12px; font-size: .86rem; color: var(--muted); line-height: 1.4; }
+  .tips strong { display: block; color: var(--text); font-size: .95rem; margin-bottom: 2px; }
+  .tip-ico { flex: none; width: 42px; height: 42px; border-radius: 50%; display: grid; place-items: center; font-size: 1.2rem; }
+  .tip-blue { background: rgba(47,111,236,.14); }
+  .tip-green { background: rgba(31,154,99,.15); }
+  .tip-orange { background: rgba(242,107,29,.15); }
+  .promo { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px; padding: 22px; border-radius: 18px; color: #fff; background: linear-gradient(135deg, #ff8a3d, #e8590c); }
+  .promo-ico { font-size: 2rem; }
+  .promo strong { font-size: 1.35rem; font-weight: 900; }
+  .promo .pill { align-self: center; margin-top: 8px; }
 
-  footer.site-footer { border-top: 1px solid rgba(128,128,128,.2); padding: 32px 0; margin-top: 20px; font-size: .9rem; opacity: .85; }
-  footer.site-footer .wrap { display: flex; flex-wrap: wrap; gap: 20px; justify-content: space-between; align-items: center; }
-  footer.site-footer nav ul { list-style: none; display: flex; gap: 16px; margin: 0; padding: 0; flex-wrap: wrap; }
-  .disclosure-bar { text-align: center; font-size: .78rem; opacity: .65; padding: 12px 16px; }
+  /* Todos os artigos */
+  .all { margin-bottom: 28px; }
+  .all-head { display: flex; flex-wrap: wrap; gap: 12px 24px; justify-content: space-between; align-items: flex-end; margin-bottom: 8px; }
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 18px; }
+  .filters[hidden] { display: none; }
+  .filters button { font: inherit; font-size: .9rem; font-weight: 700; min-height: 44px; padding: 8px 16px; border-radius: 999px; border: 1px solid var(--line); background: var(--card); color: var(--text); cursor: pointer; }
+  .filters button[aria-pressed="true"] { background: var(--text); color: var(--bg); border-color: var(--text); }
+  .group { padding-top: 26px; margin-top: 8px; border-top: 1px solid var(--line); scroll-margin-top: 16px; }
+  .group:first-of-type { border-top: 0; padding-top: 8px; }
+  .group-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 14px; }
+  .group-title { display: flex; align-items: center; gap: 10px; margin: 0; font-size: 1.3rem; font-weight: 800; }
+  .group-count { color: var(--muted); font-size: .88rem; white-space: nowrap; }
+  .dot { width: 12px; height: 12px; border-radius: 50%; flex: none; }
+  .dot-blue { background: var(--blue); } .dot-amber { background: var(--amber); } .dot-orange { background: var(--orange); }
+  .dot-green { background: var(--green); } .dot-purple { background: var(--purple); } .dot-pink { background: var(--pink); }
+  @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+
+  /* Faixa de confiança */
+  .trust { list-style: none; margin: 0 0 28px; padding: 18px 22px; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 16px; background: var(--panel); border: 1px solid var(--line); border-radius: 22px; }
+  .trust li { display: flex; gap: 10px; align-items: center; font-size: .84rem; color: var(--muted); line-height: 1.35; }
+  .trust li > span:first-child { font-size: 1.5rem; }
+  .trust strong { display: block; color: var(--text); font-size: .93rem; }
+  @media (max-width: 1000px) { .trust { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  @media (max-width: 600px) { .trust { grid-template-columns: 1fr 1fr; padding: 16px; } }
+
+  /* Rodapé */
+  footer.site-footer { border-top: 1px solid var(--line); background: var(--panel); padding: 40px 0 0; font-size: .92rem; }
+  .footer-grid { display: grid; grid-template-columns: 1.4fr 1fr 1fr 1fr; gap: 28px; }
+  .footer-brand p { color: var(--muted); margin: 12px 0; max-width: 320px; }
+  .social { font-weight: 700; display: inline-block; padding: 6px 0; }
+  .site-footer h2 { font-size: 1rem; font-weight: 800; margin: 0 0 10px; }
+  .site-footer nav ul { list-style: none; margin: 0; padding: 0; }
+  .site-footer nav a { color: var(--muted); display: inline-block; padding: 5px 0; }
+  .site-footer nav a:hover { color: var(--accent); }
+  .footer-bottom { border-top: 1px solid var(--line); margin-top: 30px; padding-top: 16px; padding-bottom: 20px; color: var(--muted); font-size: .8rem; }
+  .footer-bottom p { margin: 0 0 4px; }
+  @media (max-width: 900px) { .footer-grid { grid-template-columns: 1fr 1fr; } .footer-brand { grid-column: 1 / -1; } }
+  @media (max-width: 440px) { .footer-grid { grid-template-columns: 1fr; } }
+
+  #spg-back-to-top { margin: 0 0 24px !important; }
 </style>
-<link rel="preload" as="image" href="/img/img_fundo_site/hero-comedouro-automatico.webp" fetchpriority="high" />
 </head>
 <body>
 
@@ -99,843 +229,1166 @@
     <a class="logo" href="https://smartpetgadgets.com.br/"><picture><source srcset="/img/logo-dark.png" media="(prefers-color-scheme: dark)" /><img src="/img/logo.png" alt="Smart Pet Gadgets" width="170" height="40" /></picture></a>
     <nav class="main-nav" aria-label="Menu principal">
       <ul>
-        <li><a href="https://smartpetgadgets.com.br/">Início</a></li>
-        <li><a href="https://smartpetgadgets.com.br/#artigos">Artigos</a></li>
+        <li><a href="https://smartpetgadgets.com.br/" aria-current="page">Início</a></li>
+        <li><a href="#categorias">Categorias</a></li>
+        <li><a href="#artigos">Artigos</a></li>
         <li><a href="https://smartpetgadgets.com.br/sobre/">Sobre</a></li>
         <li><a href="https://smartpetgadgets.com.br/contato/">Contato</a></li>
       </ul>
     </nav>
+    <a class="btn-cta" href="https://smartpetgadgets.com.br/comedouro-automatico-para-pet/">Comece pelo guia <span aria-hidden="true">→</span></a>
   </div>
 </header>
 
-<section class="hero">
-  <div class="wrap">
-    <h1>Cuidados e produtos para cães e gatos, sem enrolação</h1>
-    <p>Guias práticos sobre alimentação, saúde e bem-estar animal, com reviews de produtos baseados em dados de mercado e boas práticas veterinárias — para você decidir com mais segurança.</p>
-  </div>
-</section>
+<main class="wrap">
+  <div class="row row-top">
+    <section class="panel" id="categorias" aria-labelledby="h-cat">
+      <h1 class="page-title">Cuidados e produtos para cães e gatos, sem enrolação</h1>
+      <p class="page-sub">Guias práticos, comparativos e reviews de gadgets pet, com base em dados de mercado e boas práticas veterinárias.</p>
+      <h2 class="sec-title" id="h-cat"><span class="ico" aria-hidden="true">🐾</span>Categorias</h2>
+      <div class="tiles">
+      <a class="tile tile-blue" href="#cat-alimentacao">
+        <img src="https://smartpetgadgets.com.br/comedouro-automatico-para-pet/img/comedouro-automatico-para-pet-hero.jpg" alt="" width="320" height="240" loading="eager" />
+        <span class="tile-text">
+          <strong>Alimentação e hidratação</strong>
+          <span>Comedouros, bebedouros e rotina de refeições.</span>
+          <span class="pill">21 artigos <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      <a class="tile tile-amber" href="#cat-seguranca">
+        <img src="https://smartpetgadgets.com.br/coleira-gps-para-pet/img/coleira-gps-para-pet-hero.jpg" alt="" width="320" height="240" loading="eager" />
+        <span class="tile-text">
+          <strong>Coleira GPS e segurança</strong>
+          <span>Rastreio, cerca virtual e prevenção de fuga.</span>
+          <span class="pill">12 artigos <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      <a class="tile tile-orange" href="#cat-cameras">
+        <img src="https://smartpetgadgets.com.br/camera-para-monitorar-pet/img/camera-para-monitorar-pet-hero.jpg" alt="" width="320" height="240" loading="eager" />
+        <span class="tile-text">
+          <strong>Câmeras pet</strong>
+          <span>Monitore o pet quando estiver fora de casa.</span>
+          <span class="pill">11 artigos <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      <a class="tile tile-green" href="#cat-brinquedos">
+        <img src="https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/img/brinquedo-interativo-automatico-para-gato-hero.jpg" alt="" width="320" height="240" loading="eager" />
+        <span class="tile-text">
+          <strong>Brinquedos interativos</strong>
+          <span>Enriquecimento e gasto de energia.</span>
+          <span class="pill">11 artigos <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      <a class="tile tile-purple" href="#cat-portas">
+        <img src="https://smartpetgadgets.com.br/porta-eletronica-automatica-para-pet/img/porta-eletronica-automatica-para-pet-hero.jpg" alt="" width="320" height="240" loading="eager" />
+        <span class="tile-text">
+          <strong>Portas eletrônicas</strong>
+          <span>Acesso livre e seguro pela casa.</span>
+          <span class="pill">11 artigos <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      <a class="tile tile-pink" href="#cat-saude">
+        <img src="https://smartpetgadgets.com.br/tapete-higienico-para-cachorro/img/tapete-higienico-02-lifestyle-apartamento.webp" alt="" width="320" height="240" loading="eager" />
+        <span class="tile-text">
+          <strong>Saúde e higiene</strong>
+          <span>Antipulgas, tapetes higiênicos e banho.</span>
+          <span class="pill">5 artigos <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      </div>
+    </section>
 
-<div class="wrap">
-  <section class="value-props">
-    <div>
-      <h2>🐾 Conteúdo baseado em dados</h2>
-      <p>Cruzamos especificações de produtos com estudos e estatísticas de fontes confiáveis (universidades, institutos de pesquisa e mercado pet).</p>
+    <aside class="panel panel-side" aria-labelledby="h-feat">
+      <h2 class="sec-title" id="h-feat"><span class="ico" aria-hidden="true">⭐</span>Guias em destaque</h2>
+      <p class="sec-sub">Por onde começar, se é sua primeira vez aqui.</p>
+      <div class="feats">
+      <a class="feat feat-main" href="https://smartpetgadgets.com.br/comedouro-automatico-para-pet/">
+        <img src="https://smartpetgadgets.com.br/comedouro-automatico-para-pet/img/comedouro-automatico-para-pet-hero.jpg" alt="" width="160" height="120" loading="eager" />
+        <span class="feat-text">
+          <span class="badge badge-guia">Guia principal</span>
+          <strong>Comedouro Automático para Pet: Guia Completo de 2026</strong>
+          <span class="feat-more">Ler guia <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      <a class="feat" href="https://smartpetgadgets.com.br/coleira-gps-para-pet/">
+        <img src="https://smartpetgadgets.com.br/coleira-gps-para-pet/img/coleira-gps-para-pet-hero.jpg" alt="" width="160" height="120" loading="lazy" />
+        <span class="feat-text">
+          <span class="badge badge-guia">Guia completo</span>
+          <strong>Coleira GPS para Cachorro e Gato: Guia Completo 2026</strong>
+          <span class="feat-more">Ler guia <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      <a class="feat" href="https://smartpetgadgets.com.br/camera-para-monitorar-pet/">
+        <img src="https://smartpetgadgets.com.br/camera-para-monitorar-pet/img/camera-para-monitorar-pet-hero.jpg" alt="" width="160" height="120" loading="lazy" />
+        <span class="feat-text">
+          <span class="badge badge-guia">Guia completo</span>
+          <strong>Melhor Câmera para Monitorar Pet: Como Escolher o Modelo Ideal</strong>
+          <span class="feat-more">Ler guia <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      <a class="feat" href="https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/">
+        <img src="https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/img/brinquedo-interativo-automatico-para-gato-hero.jpg" alt="" width="160" height="120" loading="lazy" />
+        <span class="feat-text">
+          <span class="badge badge-guia">Guia completo</span>
+          <strong>Brinquedo Interativo Automático para Gato: Guia Completo</strong>
+          <span class="feat-more">Ler guia <span aria-hidden="true">→</span></span>
+        </span>
+      </a>
+      </div>
+    </aside>
+  </div>
+
+  <div class="row row-mid">
+    <section class="panel" aria-labelledby="h-rec">
+      <h2 class="sec-title" id="h-rec"><span class="ico" aria-hidden="true">📘</span>Publicados recentemente</h2>
+      <p class="sec-sub">Os artigos mais novos do site.</p>
+      <div class="grid grid-3">
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/img/simparic-caixa.webp" alt="Melhor Antipulgas para Cachorro em 2026: 6 Opções Comparadas" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Saúde e higiene</span>
+          <h3><a href="https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/">Melhor Antipulgas para Cachorro em 2026: 6 Opções Comparadas</a></h3>
+          <p>Comparamos Bravecto, Simparic, Credeli, NexGard, Frontline e Vermitril — duração, princípio ativo e preço, com um alerta de segurança importante sobre ivermectina.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/img/comedouro-automatico-para-dois-gatos-hero.jpg" alt="Dois gatos, um branco e um laranja, comendo ração próximos um do outro no mesmo espaço" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/">Comedouro Automático para 2 Gatos: Como Evitar Briga</a></h3>
+          <p>Um gato come a ração do outro? Veja como escolher e configurar o comedouro automático certo para dois gatos sem confusão.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/comedouro-automatico-gato-obeso/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/comedouro-automatico-gato-obeso/img/comedouro-automatico-gato-obeso-hero.webp" alt="Comedouro Automático Ajuda no Controle de Peso do Gato?" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/comedouro-automatico-gato-obeso/">Comedouro Automático Ajuda no Controle de Peso do Gato?</a></h3>
+          <p>O comedouro automático controla porções e horários, mas não substitui orientação veterinária. Entenda o que ele realmente pode fazer pelo gato acima do peso.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-automatico-gato-obeso/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      </div>
+    </section>
+
+    <aside class="panel panel-side" aria-labelledby="h-how">
+      <h2 class="sec-title" id="h-how"><span class="ico" aria-hidden="true">🔍</span>Como avaliamos</h2>
+      <p class="sec-sub">O que está por trás de cada recomendação.</p>
+      <ul class="tips">
+        <li><span class="tip-ico tip-blue" aria-hidden="true">📊</span><span><strong>Conteúdo baseado em dados</strong>Especificações cruzadas com estudos e fontes confiáveis.</span></li>
+        <li><span class="tip-ico tip-green" aria-hidden="true">🩺</span><span><strong>Alinhado à prática veterinária</strong>Critérios usados por profissionais de bem-estar animal.</span></li>
+        <li><span class="tip-ico tip-orange" aria-hidden="true">⚖️</span><span><strong>Prós e contras de verdade</strong>Sem inflar nota para vender mais.</span></li>
+      </ul>
+      <a class="promo" href="https://smartpetgadgets.com.br/politica-editorial/">
+        <span class="promo-ico" aria-hidden="true">🛡️</span>
+        <strong>Reviews honestos</strong>
+        <span>Veja como escolhemos e testamos</span>
+        <span class="pill">Política editorial <span aria-hidden="true">→</span></span>
+      </a>
+    </aside>
+  </div>
+
+  <section class="panel all" id="artigos" aria-labelledby="h-all">
+    <div class="all-head">
+      <div>
+        <h2 class="sec-title" id="h-all"><span class="ico" aria-hidden="true">📚</span>Todos os artigos</h2>
+        <p class="sec-sub">71 artigos organizados por categoria.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filtrar por tipo de conteúdo" hidden>
+        <button type="button" data-filter="all" aria-pressed="true">Todos</button>
+        <button type="button" data-filter="guia" aria-pressed="false">Guias</button>
+        <button type="button" data-filter="comparativo" aria-pressed="false">Comparativos</button>
+        <button type="button" data-filter="review" aria-pressed="false">Reviews</button>
+        <button type="button" data-filter="duvidas" aria-pressed="false">Dúvidas</button>
+      </div>
     </div>
-    <div>
-      <h2>🩺 Recomendações alinhadas à prática veterinária</h2>
-      <p>Nossos guias seguem critérios usados por profissionais para avaliar postura, alimentação e bem-estar animal.</p>
-    </div>
-    <div>
-      <h2>🔍 Reviews honestos</h2>
-      <p>Mostramos prós, contras e para quem cada produto realmente vale a pena — sem inflar nota para vender mais.</p>
-    </div>
+    <section class="group" id="cat-alimentacao" aria-labelledby="h-alimentacao">
+      <div class="group-head">
+        <h3 class="group-title" id="h-alimentacao"><span class="dot dot-blue" aria-hidden="true"></span>Alimentação e hidratação</h3>
+        <span class="group-count">21 artigos</span>
+      </div>
+      <div class="grid">
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/img/comedouro-automatico-para-dois-gatos-hero.jpg" alt="Dois gatos, um branco e um laranja, comendo ração próximos um do outro no mesmo espaço" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/">Comedouro Automático para 2 Gatos: Como Evitar Briga</a></h3>
+          <p>Um gato come a ração do outro? Veja como escolher e configurar o comedouro automático certo para dois gatos sem confusão.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/comedouro-automatico-gato-obeso/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/comedouro-automatico-gato-obeso/img/comedouro-automatico-gato-obeso-hero.webp" alt="Comedouro Automático Ajuda no Controle de Peso do Gato?" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/comedouro-automatico-gato-obeso/">Comedouro Automático Ajuda no Controle de Peso do Gato?</a></h3>
+          <p>O comedouro automático controla porções e horários, mas não substitui orientação veterinária. Entenda o que ele realmente pode fazer pelo gato acima do peso.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-automatico-gato-obeso/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="review">
+        <a class="card-media" href="https://smartpetgadgets.com.br/comedouro-newpet-2l-review/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/comedouro-newpet-2l-review/img/comedouro-newpet-2l-review-hero.webp" alt="Comedouro Automático Newpet 2L: Vale a Pena? Review" width="400" height="225" loading="lazy" />
+          <span class="badge badge-review">Review</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/comedouro-newpet-2l-review/">Comedouro Automático Newpet 2L: Vale a Pena? Review</a></h3>
+          <p>Review do comedouro automático Newpet 2L, o modelo de entrada da linha: capacidade, para quem serve, prós, contras e se vale a pena em 2026.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-newpet-2l-review/">Ler review <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/comedouro-automatico-faz-mal/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/comedouro-automatico-faz-mal/img/comedouro-automatico-faz-mal-hero.webp" alt="Comedouro Automático Faz Mal para o Pet? Riscos Reais" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/comedouro-automatico-faz-mal/">Comedouro Automático Faz Mal para o Pet? Riscos Reais</a></h3>
+          <p>Comedouro automático faz mal? Veja os riscos reais — sobrealimentação, ansiedade alimentar, dependência — e como evitar cada um deles na prática.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-automatico-faz-mal/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/img/comedouro-automatico-para-viagem-hero.webp" alt="Comedouro Automático em Viagem: O Erro Que Deixa o Pet Sem Comer" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/">Comedouro Automático em Viagem: O Erro Que Deixa o Pet Sem Comer</a></h3>
+          <p>Configurar errado o comedouro automático antes de viajar pode deixar o pet sem comer por horas. Veja o checklist para testar o equipamento antes de sair de casa.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/img/comedouro-com-ou-sem-wifi-hero.webp" alt="Comedouro Com ou Sem Wi-Fi: Qual Vale Mais a Pena em 2026?" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/">Comedouro Com ou Sem Wi-Fi: Qual Vale Mais a Pena em 2026?</a></h3>
+          <p>Pagar mais por Wi-Fi no comedouro automático vale a pena ou é dinheiro jogado fora? Compare os dois modelos e descubra qual combina com sua rotina em 2026.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/como-limpar-comedouro-automatico/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/como-limpar-comedouro-automatico/img/como-limpar-comedouro-automatico-hero.webp" alt="Como Limpar o Comedouro Automático Sem Deixar Mofo ou Cheiro" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/como-limpar-comedouro-automatico/">Como Limpar o Comedouro Automático Sem Deixar Mofo ou Cheiro</a></h3>
+          <p>Comedouro automático sujo vira foco de mofo e cheiro forte rápido. Veja a frequência ideal de limpeza, produtos seguros e os erros que danificam o eletrônico.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/como-limpar-comedouro-automatico/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/comedouro-automatico-anti-formiga/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/comedouro-automatico-anti-formiga/img/comedouro-automatico-anti-formiga-hero.webp" alt="Comedouro Automático Anti-Formiga: Funciona de Verdade?" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/comedouro-automatico-anti-formiga/">Comedouro Automático Anti-Formiga: Funciona de Verdade?</a></h3>
+          <p>Comedouros com barreira anti-formiga usam um princípio físico simples. Entenda como funciona, quando vale a pena e o que a manutenção exige na prática.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-automatico-anti-formiga/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/comedouro-automatico-para-pet/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/comedouro-automatico-para-pet/img/comedouro-automatico-para-pet-hero.jpg" alt="Comedouro Automático para Pet: Guia Completo de 2026" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/comedouro-automatico-para-pet/">Comedouro Automático para Pet: Guia Completo de 2026</a></h3>
+          <p>Como escolher um comedouro automático para cães e gatos em 2026: tipos, preços no Mercado Livre, prós e contras.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-automatico-para-pet/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/img/melhor-comedouro-automatico-cachorro-hero.jpg" alt="Melhor Comedouro Automático para Cachorro: Guia 2026" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/">Melhor Comedouro Automático para Cachorro: Guia 2026</a></h3>
+          <p>Comparamos 7 comedouros automáticos para cachorro à venda no Brasil em 2026: preço, capacidade, Wi-Fi e câmera.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="review">
+        <a class="card-media" href="https://smartpetgadgets.com.br/comedouro-newpet-4l-review/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/comedouro-newpet-4l-review/img/comedouro-newpet-4l-review-hero.jpg" alt="Comedouro Newpet 4L: Review Completo (Vale a Pena?)" width="400" height="225" loading="lazy" />
+          <span class="badge badge-review">Review</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/comedouro-newpet-4l-review/">Comedouro Newpet 4L: Review Completo (Vale a Pena?)</a></h3>
+          <p>Review do comedouro automático Newpet 4L: capacidade, gravação de voz, prós e contras.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-newpet-4l-review/">Ler review <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="review">
+        <a class="card-media" href="https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/img/comedouro-vdrbg-4l-wifi-review-hero.jpg" alt="Comedouro automático Velds 4L com app, cercado por um gato e um pug, representando um alimentador automático para cães e gatos" width="400" height="225" loading="lazy" style="object-position: top;" />
+          <span class="badge badge-review">Review</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/">Comedouro VDRBG 4L Wi-Fi: Vale a Pena? Análise Completa</a></h3>
+          <p>Análise do comedouro automático VDRBG 4L com Wi-Fi: app, porções, gravação de voz, pontos fracos e para quem vale a pena.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/">Ler review <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/melhor-alimentador-automatico-gatos/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/melhor-alimentador-automatico-gatos/img/melhor-alimentador-automatico-gatos-hero.jpg" alt="Melhor Alimentador Automático para Gatos: Guia 2026" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/melhor-alimentador-automatico-gatos/">Melhor Alimentador Automático para Gatos: Guia 2026</a></h3>
+          <p>Comparamos 5 alimentadores automáticos para gato à venda no Brasil em 2026: Wi-Fi, ração úmida, microchip e sem Wi-Fi.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/melhor-alimentador-automatico-gatos/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="review">
+        <a class="card-media" href="https://smartpetgadgets.com.br/cat-mate-c500-review/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/cat-mate-c500-review/img/cat-mate-c500-review-hero.jpg" alt="Cat Mate C500: Review do Comedouro para Ração Úmida e Seca" width="400" height="225" loading="lazy" />
+          <span class="badge badge-review">Review</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/cat-mate-c500-review/">Cat Mate C500: Review do Comedouro para Ração Úmida e Seca</a></h3>
+          <p>Review do Cat Mate C500: sistema de gelo para ração úmida, capacidade de 5 refeições, prós e contras.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/cat-mate-c500-review/">Ler review <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/img/comedouro-gato-x-cachorro-diferenca-hero.jpg" alt="Comedouro de Gato e Cachorro É Igual? A Diferença Que Importa" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/">Comedouro de Gato e Cachorro É Igual? A Diferença Que Importa</a></h3>
+          <p>Usar o mesmo comedouro para gato e cachorro parece prático, mas pode causar porções erradas e disputas por comida. Veja a diferença real antes de comprar.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/comedouro-automatico-vale-a-pena/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/comedouro-automatico-vale-a-pena/img/comedouro-automatico-vale-a-pena-hero.jpg" alt="Vale a Pena Comprar um Comedouro Automático? Guia 2026" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/comedouro-automatico-vale-a-pena/">Vale a Pena Comprar um Comedouro Automático? Guia 2026</a></h3>
+          <p>Análise honesta de quando um comedouro automático vale a pena: prós, contras reais e faixa de preço.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-automatico-vale-a-pena/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/img/configurar-app-comedouro-wifi-hero.jpg" alt="Como Configurar o App do Comedouro Automático Wi-Fi" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/">Como Configurar o App do Comedouro Automático Wi-Fi</a></h3>
+          <p>Passo a passo para configurar o app Tuya Smart em um comedouro automático Wi-Fi.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/comedouro-x-bebedouro-automatico/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/comedouro-x-bebedouro-automatico/img/comedouro-x-bebedouro-automatico-hero.jpg" alt="Comedouro x Bebedouro Automático: Você Precisa dos Dois?" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/comedouro-x-bebedouro-automatico/">Comedouro x Bebedouro Automático: Você Precisa dos Dois?</a></h3>
+          <p>Comedouro e bebedouro automático resolvem problemas diferentes. Entenda quando vale a pena ter os dois.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-x-bebedouro-automatico/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/melhor-bebedouro-automatico-pet/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/melhor-bebedouro-automatico-pet/img/melhor-bebedouro-automatico-pet-hero.jpg" alt="Melhor Bebedouro Automático para Pet: Como Escolher" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/melhor-bebedouro-automatico-pet/">Melhor Bebedouro Automático para Pet: Como Escolher</a></h3>
+          <p>Comparativo dos bebedouros automáticos mais vendidos no Mercado Livre em 2026.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/melhor-bebedouro-automatico-pet/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/bebedouro-inox-x-ceramica/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/bebedouro-inox-x-ceramica/img/bebedouro-inox-x-ceramica-hero.jpg" alt="Bebedouros de inox, cerâmica e plástico lado a lado no chão da cozinha, com um gato bebendo no de cerâmica" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/bebedouro-inox-x-ceramica/">Bebedouro Inox, Cerâmica ou Plástico: Qual o Melhor?</a></h3>
+          <p>Compare bebedouro de inox, cerâmica e plástico para gato: higiene, durabilidade, temperatura da água e qual material escolher.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/bebedouro-inox-x-ceramica/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="review">
+        <a class="card-media" href="https://smartpetgadgets.com.br/comedouro-cachorro/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/comedouro-cachorro/img/comedouro-cachorro-suporte-baia-01.webp" alt="Comedouro para cachorro com suporte tipo baia, kit 20 unidades" width="400" height="225" loading="lazy" />
+          <span class="badge badge-review">Review</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Alimentação e hidratação</span>
+          <h3><a href="https://smartpetgadgets.com.br/comedouro-cachorro/">Comedouro para Cachorro com Suporte Baia: Review 2026</a></h3>
+          <p>Análise completa do comedouro com suporte tipo baia (kit 20 un, 8 litros): para quem vale a pena, prós, contras e alternativas.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-cachorro/">Ler review <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      </div>
+    </section>
+    <section class="group" id="cat-seguranca" aria-labelledby="h-seguranca">
+      <div class="group-head">
+        <h3 class="group-title" id="h-seguranca"><span class="dot dot-amber" aria-hidden="true"></span>Coleira GPS e segurança</h3>
+        <span class="group-count">12 artigos</span>
+      </div>
+      <div class="grid">
+      <article class="card" data-kind="review">
+        <a class="card-media" href="https://smartpetgadgets.com.br/cercado-para-cachorros/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/cercado-para-cachorros/img/cercado-cachorros-divipets-01.webp" alt="Cercado para cachorros Divipets com 8 painéis dobráveis de 60cm de altura montado em ambiente interno" width="400" height="225" loading="lazy" />
+          <span class="badge badge-review">Review</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Coleira GPS e segurança</span>
+          <h3><a href="https://smartpetgadgets.com.br/cercado-para-cachorros/">Cercado para Cachorros Divipets: Vale a Pena? Review</a></h3>
+          <p>Review completo do cercado para cachorros Divipets (8 painéis, 60cm de altura): prós, contras, para quem vale a pena e onde comprar com desconto.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/cercado-para-cachorros/">Ler review <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/coleira-gps-para-pet/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/coleira-gps-para-pet/img/coleira-gps-para-pet-hero.jpg" alt="Cachorro usando coleira com dispositivo de rastreamento GPS ao ar livre" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Coleira GPS e segurança</span>
+          <h3><a href="https://smartpetgadgets.com.br/coleira-gps-para-pet/">Coleira GPS para Cachorro e Gato: Guia Completo 2026</a></h3>
+          <p>Como funciona a coleira GPS para pet, quais tecnologias existem (chip, Bluetooth, NB-IoT), preços no Mercado Livre e como escolher a certa para cães e gatos.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/coleira-gps-para-pet/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/img/cerca-virtual-para-cachorro-hero.jpg" alt="Cachorro em quintal com perímetro de cerca virtual configurado via coleira GPS" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Coleira GPS e segurança</span>
+          <h3><a href="https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/">Cerca Virtual para Cachorro: GPS 4G, Preço e Como Configurar</a></h3>
+          <p>Como funciona o alerta da cerca virtual na coleira GPS 4G, como configurar no app, a diferença para a cerca sem fio e quanto custa um rastreador.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/como-funciona-coleira-gps-cachorro/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/como-funciona-coleira-gps-cachorro/img/como-funciona-coleira-gps-cachorro-hero.jpg" alt="Tutor usando aplicativo no celular para localizar cachorro com coleira GPS" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Coleira GPS e segurança</span>
+          <h3><a href="https://smartpetgadgets.com.br/como-funciona-coleira-gps-cachorro/">Como Funciona a Coleira GPS para Cachorro: Tipos e Uso</a></h3>
+          <p>Entenda como a coleira GPS localiza o cachorro na prática: GPS por satélite, Wi-Fi, rede móvel/LBS, e o que muda entre chip de operadora e Bluetooth.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/como-funciona-coleira-gps-cachorro/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/melhor-coleira-gps-sem-mensalidade/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/melhor-coleira-gps-sem-mensalidade/img/melhor-coleira-gps-sem-mensalidade-hero.jpg" alt="Cachorro com coleira caminhando em parque, tutor ao fundo com celular" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Coleira GPS e segurança</span>
+          <h3><a href="https://smartpetgadgets.com.br/melhor-coleira-gps-sem-mensalidade/">Melhor Coleira GPS Sem Mensalidade: Como Escolher a Sua</a></h3>
+          <p>Como saber se uma coleira GPS realmente não tem mensalidade: tecnologias Bluetooth e NB-IoT, o que checar no anúncio antes de comprar, e armadilhas comuns.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/melhor-coleira-gps-sem-mensalidade/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/coleira-gps-cachorro-pequeno-porte/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/coleira-gps-cachorro-pequeno-porte/img/coleira-gps-cachorro-pequeno-porte-hero.jpg" alt="Cachorro de pequeno porte usando coleira, ideal para dispositivo GPS leve" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Coleira GPS e segurança</span>
+          <h3><a href="https://smartpetgadgets.com.br/coleira-gps-cachorro-pequeno-porte/">Melhor Coleira GPS para Cachorro de Pequeno Porte (2026)</a></h3>
+          <p>Peso do dispositivo, conforto e alcance: o que muda na escolha de uma coleira GPS para cães pequenos, com exemplos de peso real de mercado.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/coleira-gps-cachorro-pequeno-porte/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/coleira-gps-para-gato/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/coleira-gps-para-gato/img/coleira-gps-para-gato-hero.jpg" alt="Gato tigrado sentado em muro de jardim usando coleira fina com rastreador GPS" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Coleira GPS e segurança</span>
+          <h3><a href="https://smartpetgadgets.com.br/coleira-gps-para-gato/">Melhor Coleira com GPS para Gatos em 2026: Qual Escolher</a></h3>
+          <p>Comparamos coleiras com GPS e rastreadores para gatos: peso, bateria, mensalidade, chip e engate de segurança. Veja qual vale a pena.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/coleira-gps-para-gato/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/coleira-gps-x-microchip/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/coleira-gps-x-microchip/img/coleira-gps-x-microchip-hero.jpg" alt="Cão sendo examinado por médico-veterinário, contexto de identificação animal" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Coleira GPS e segurança</span>
+          <h3><a href="https://smartpetgadgets.com.br/coleira-gps-x-microchip/">Coleira GPS ou Microchip: Qual a Diferença e Quando Usar</a></h3>
+          <p>Coleira GPS localiza o pet em tempo real; microchip identifica o animal caso seja encontrado. Entenda a diferença e por que muitos tutores usam os dois.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/coleira-gps-x-microchip/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/erros-comuns-coleira-gps-pet/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/erros-comuns-coleira-gps-pet/img/erros-comuns-coleira-gps-pet-hero.jpg" alt="Cachorro com coleira caminhando em calçada de parque" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Coleira GPS e segurança</span>
+          <h3><a href="https://smartpetgadgets.com.br/erros-comuns-coleira-gps-pet/">Erros Comuns ao Usar Coleira GPS no Pet (E Como Evitar)</a></h3>
+          <p>Bateria, sinal, peso do dispositivo e configuração da cerca virtual: os erros mais comuns relatados por quem usa coleira GPS, e como evitá-los.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/erros-comuns-coleira-gps-pet/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/coleira-gps-bluetooth-x-chip-operadora/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/coleira-gps-bluetooth-x-chip-operadora/img/coleira-gps-bluetooth-x-chip-operadora-hero.jpg" alt="Tutor consultando aplicativo de localização de pet no celular" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Coleira GPS e segurança</span>
+          <h3><a href="https://smartpetgadgets.com.br/coleira-gps-bluetooth-x-chip-operadora/">Coleira GPS Bluetooth ou com Chip: Qual Comprar?</a></h3>
+          <p>Diferenças técnicas entre coleira GPS Bluetooth e coleira com chip de operadora: alcance, dependência do celular, custo e quando cada uma faz sentido.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/coleira-gps-bluetooth-x-chip-operadora/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/coleira-gps-cachorro-que-foge/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/coleira-gps-cachorro-que-foge/img/coleira-gps-cachorro-que-foge-hero.jpg" alt="Cachorro correndo livre em campo aberto, cenário típico de fuga" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Coleira GPS e segurança</span>
+          <h3><a href="https://smartpetgadgets.com.br/coleira-gps-cachorro-que-foge/">Coleira GPS para Cachorro que Foge: Como Escolher a Certa</a></h3>
+          <p>O que priorizar na coleira GPS quando o cão foge com frequência: cobertura, cerca virtual, e quando o problema pode ser comportamental.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/coleira-gps-cachorro-que-foge/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="duvidas">
+        <a class="card-media" href="https://smartpetgadgets.com.br/duvidas-coleira-gps-pet/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/duvidas-coleira-gps-pet/img/duvidas-coleira-gps-pet-hero.jpg" alt="Gato explorando jardim, contexto de dúvidas sobre coleira GPS" width="400" height="225" loading="lazy" />
+          <span class="badge badge-duvidas">Dúvidas</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Coleira GPS e segurança</span>
+          <h3><a href="https://smartpetgadgets.com.br/duvidas-coleira-gps-pet/">Coleira GPS para Pet: Perguntas Frequentes Respondidas</a></h3>
+          <p>Respostas rápidas às dúvidas mais comuns sobre coleira GPS para cães e gatos: bateria, sinal, peso, mensalidade, resistência à água e mais.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/duvidas-coleira-gps-pet/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      </div>
+    </section>
+    <section class="group" id="cat-cameras" aria-labelledby="h-cameras">
+      <div class="group-head">
+        <h3 class="group-title" id="h-cameras"><span class="dot dot-orange" aria-hidden="true"></span>Câmeras pet</h3>
+        <span class="group-count">11 artigos</span>
+      </div>
+      <div class="grid">
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/camera-para-monitorar-pet/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/camera-para-monitorar-pet/img/camera-para-monitorar-pet-hero.jpg" alt="Câmera de segurança instalada em ambiente interno para monitorar pet" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Câmeras pet</span>
+          <h3><a href="https://smartpetgadgets.com.br/camera-para-monitorar-pet/">Melhor Câmera para Monitorar Pet: Como Escolher o Modelo Ideal</a></h3>
+          <p>Como escolher uma câmera para monitorar cão ou gato sozinho em casa: resolução, visão noturna, áudio bidirecional, dispensador de petisco e preços no Mercado Livre.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/camera-para-monitorar-pet/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/melhor-camera-para-monitorar-pet/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/melhor-camera-para-monitorar-pet/img/melhor-camera-para-monitorar-pet-hero.jpg" alt="Câmera de monitoramento doméstica voltada para acompanhar cães e gatos" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Câmeras pet</span>
+          <h3><a href="https://smartpetgadgets.com.br/melhor-camera-para-monitorar-pet/">Melhores Câmeras Pet 2026: TP-Link, Newpet, Intelbras</a></h3>
+          <p>Comparativo entre TP-Link Tapo C200, Newpet 2K, Intelbras iM3 C e Haiz Mini Botz: preço, recursos e qual serve melhor para cada tutor.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/melhor-camera-para-monitorar-pet/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/camera-pet-com-dispensador-de-petisco/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/camera-pet-com-dispensador-de-petisco/img/camera-pet-com-dispensador-de-petisco-hero.jpg" alt="Cachorro recebendo petisco de dispensador automático controlado por aplicativo" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Câmeras pet</span>
+          <h3><a href="https://smartpetgadgets.com.br/camera-pet-com-dispensador-de-petisco/">Câmera Pet com Dispensador de Petisco: Vale a Pena?</a></h3>
+          <p>Como funciona o recurso de dispensador de petisco em câmeras pet, quando ele realmente ajuda e quando é só custo extra.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/camera-pet-com-dispensador-de-petisco/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/como-configurar-camera-pet-wifi/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/como-configurar-camera-pet-wifi/img/como-configurar-camera-pet-wifi-hero.jpg" alt="Roteador Wi-Fi doméstico usado para conectar câmera de monitoramento de pet" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Câmeras pet</span>
+          <h3><a href="https://smartpetgadgets.com.br/como-configurar-camera-pet-wifi/">Como Configurar a Câmera Pet no Wi-Fi (Sem Erros de Conexão)</a></h3>
+          <p>Passo a passo para configurar a câmera pet na rede Wi-Fi certa e evitar os erros de conexão mais comuns relatados por usuários.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/como-configurar-camera-pet-wifi/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/camera-pet-cachorro-ansiedade-separacao/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/camera-pet-cachorro-ansiedade-separacao/img/camera-pet-cachorro-ansiedade-separacao-hero.jpg" alt="Cachorro sozinho em casa, cenário típico de monitoramento por câmera pet" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Câmeras pet</span>
+          <h3><a href="https://smartpetgadgets.com.br/camera-pet-cachorro-ansiedade-separacao/">Câmera Pet Ajuda na Ansiedade de Separação do Cachorro?</a></h3>
+          <p>Como a câmera pet pode ajudar a identificar e acompanhar sinais de ansiedade de separação em cães, e onde ela não substitui tratamento profissional.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/camera-pet-cachorro-ansiedade-separacao/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/img/camera-pet-x-coleira-gps-qual-escolher-hero.jpg" alt="Câmera de segurança doméstica ao lado de conceito de rastreamento de pet" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Câmeras pet</span>
+          <h3><a href="https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/">Câmera Pet ou Coleira GPS: Qual Escolher para seu Pet?</a></h3>
+          <p>Câmera pet monitora o animal dentro de casa; coleira GPS localiza o pet fora de casa. Entenda a diferença e quando usar as duas.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/camera-pet-grava-sem-internet/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/camera-pet-grava-sem-internet/img/camera-pet-grava-sem-internet-hero.jpg" alt="Roteador Wi-Fi desligado, representando queda de conexão de internet em casa" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Câmeras pet</span>
+          <h3><a href="https://smartpetgadgets.com.br/camera-pet-grava-sem-internet/">Câmera Pet Grava Sem Internet? O Que Funciona Offline</a></h3>
+          <p>A câmera pet continua gravando no cartão SD durante quedas de internet, mas o que exatamente para de funcionar? Veja em detalhe.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/camera-pet-grava-sem-internet/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/erros-comuns-camera-monitorar-pet/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/erros-comuns-camera-monitorar-pet/img/erros-comuns-camera-monitorar-pet-hero.jpg" alt="Câmera de segurança posicionada em ambiente doméstico para monitoramento" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Câmeras pet</span>
+          <h3><a href="https://smartpetgadgets.com.br/erros-comuns-camera-monitorar-pet/">5 Erros Comuns com Câmera Pet (Nº3 é o Mais Ignorado)</a></h3>
+          <p>Rede errada, senha trocada e um erro de posicionamento que quase ninguém percebe: veja os 5 erros mais comuns ao configurar a câmera pet e como corrigir cada um.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/erros-comuns-camera-monitorar-pet/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/camera-pet-resolucao-1080p-x-2k/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/camera-pet-resolucao-1080p-x-2k/img/camera-pet-resolucao-1080p-x-2k-hero.jpg" alt="Tela de aplicativo exibindo imagem nítida de câmera de monitoramento de pet" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Câmeras pet</span>
+          <h3><a href="https://smartpetgadgets.com.br/camera-pet-resolucao-1080p-x-2k/">Câmera Pet: 1080p ou 2K — Qual Resolução Escolher?</a></h3>
+          <p>Diferença prática entre câmera pet Full HD (1080p) e 2K: quando o upgrade de resolução realmente compensa o custo extra.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/camera-pet-resolucao-1080p-x-2k/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/camera-pet-visao-noturna-funciona/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/camera-pet-visao-noturna-funciona/img/camera-pet-visao-noturna-funciona-hero.jpg" alt="Gato dormindo em ambiente com pouca luz, cenário típico de visão noturna" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Câmeras pet</span>
+          <h3><a href="https://smartpetgadgets.com.br/camera-pet-visao-noturna-funciona/">Visão Noturna em Câmera Pet: Como Funciona de Verdade</a></h3>
+          <p>Como a visão noturna infravermelha da câmera pet funciona, seu alcance real e limitações em ambientes com pouca luz.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/camera-pet-visao-noturna-funciona/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="duvidas">
+        <a class="card-media" href="https://smartpetgadgets.com.br/duvidas-camera-para-monitorar-pet/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/duvidas-camera-para-monitorar-pet/img/duvidas-camera-para-monitorar-pet-hero.jpg" alt="Gato descansando em ambiente doméstico monitorado por câmera pet" width="400" height="225" loading="lazy" />
+          <span class="badge badge-duvidas">Dúvidas</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Câmeras pet</span>
+          <h3><a href="https://smartpetgadgets.com.br/duvidas-camera-para-monitorar-pet/">Câmera para Monitorar Pet: Perguntas Frequentes (FAQ)</a></h3>
+          <p>Respostas rápidas sobre câmera pet: internet, ansiedade de separação, resolução, gravação em cartão SD e mais.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/duvidas-camera-para-monitorar-pet/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      </div>
+    </section>
+    <section class="group" id="cat-brinquedos" aria-labelledby="h-brinquedos">
+      <div class="group-head">
+        <h3 class="group-title" id="h-brinquedos"><span class="dot dot-green" aria-hidden="true"></span>Brinquedos interativos</h3>
+        <span class="group-count">11 artigos</span>
+      </div>
+      <div class="grid">
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/img/brinquedo-interativo-automatico-para-gato-hero.jpg" alt="Gato brincando com brinquedo interativo automático em ambiente doméstico" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Brinquedos interativos</span>
+          <h3><a href="https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/">Brinquedo Interativo Automático para Gato: Guia Completo</a></h3>
+          <p>Como escolher um brinquedo interativo automático para gato: tipos, preços no Mercado Livre, quando ajuda e como usar para enriquecimento ambiental.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/melhor-bolinha-inteligente-para-gato/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/melhor-bolinha-inteligente-para-gato/img/melhor-bolinha-inteligente-para-gato-hero.jpg" alt="Bola de brinquedo inteligente para gato em movimento sobre piso doméstico" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Brinquedos interativos</span>
+          <h3><a href="https://smartpetgadgets.com.br/melhor-bolinha-inteligente-para-gato/">Melhor Bolinha Inteligente para Gato: Como Escolher</a></h3>
+          <p>O que considerar antes de comprar uma bolinha inteligente para gato: modos de movimento, superfície ideal e faixa de preço no Mercado Livre.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/melhor-bolinha-inteligente-para-gato/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/brinquedo-automatico-cachorro-sozinho/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/brinquedo-automatico-cachorro-sozinho/img/brinquedo-automatico-cachorro-sozinho-hero.jpg" alt="Cachorro sozinho em casa interagindo com brinquedo automático" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Brinquedos interativos</span>
+          <h3><a href="https://smartpetgadgets.com.br/brinquedo-automatico-cachorro-sozinho/">Brinquedo Automático para Cachorro Sozinho: Funciona?</a></h3>
+          <p>Brinquedos automáticos para cães que ficam sozinhos: o que existe no mercado, limitações em relação aos brinquedos para gato e quando vale investir.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/brinquedo-automatico-cachorro-sozinho/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/como-escolher-brinquedo-interativo-gato-entediado/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/como-escolher-brinquedo-interativo-gato-entediado/img/como-escolher-brinquedo-interativo-gato-entediado-hero.jpg" alt="Gato entediado observando ambiente doméstico, candidato a brinquedo interativo" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Brinquedos interativos</span>
+          <h3><a href="https://smartpetgadgets.com.br/como-escolher-brinquedo-interativo-gato-entediado/">Melhor Brinquedo Interativo para Gato Entediado: Como Escolher</a></h3>
+          <p>Sinais de tédio e sedentarismo em gatos e como escolher o tipo certo de brinquedo interativo automático para cada caso.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/como-escolher-brinquedo-interativo-gato-entediado/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/brinquedo-interativo-sensor-infravermelho-como-funciona/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/brinquedo-interativo-sensor-infravermelho-como-funciona/img/brinquedo-interativo-sensor-infravermelho-como-funciona-hero.jpg" alt="Brinquedo eletrônico com sensor para gato em ambiente doméstico" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Brinquedos interativos</span>
+          <h3><a href="https://smartpetgadgets.com.br/brinquedo-interativo-sensor-infravermelho-como-funciona/">Brinquedo Interativo com Sensor Infravermelho: Como Funciona</a></h3>
+          <p>Como o sensor infravermelho de brinquedos interativos para gato detecta o animal e ativa o movimento automaticamente.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/brinquedo-interativo-sensor-infravermelho-como-funciona/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/brinquedo-interativo-pilha-x-recarregavel/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/brinquedo-interativo-pilha-x-recarregavel/img/brinquedo-interativo-pilha-x-recarregavel-hero.jpg" alt="Gato brincando com dois brinquedos interativos: um aberto com pilhas AA ao lado e outro carregando por cabo USB" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Brinquedos interativos</span>
+          <h3><a href="https://smartpetgadgets.com.br/brinquedo-interativo-pilha-x-recarregavel/">Brinquedo Interativo para Gato: Pilha ou Recarregável?</a></h3>
+          <p>Pilha ou USB? Veja custo, praticidade e descarte de cada tipo de brinquedo interativo para gatos e descubra qual compensa mais.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/brinquedo-interativo-pilha-x-recarregavel/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/brinquedo-interativo-gato-idoso-vale-a-pena/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/brinquedo-interativo-gato-idoso-vale-a-pena/img/brinquedo-interativo-gato-idoso-vale-a-pena-hero.jpg" alt="Gato idoso descansando, candidato a brinquedo interativo de movimento suave" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Brinquedos interativos</span>
+          <h3><a href="https://smartpetgadgets.com.br/brinquedo-interativo-gato-idoso-vale-a-pena/">Brinquedo Interativo para Gato Idoso: Vale a Pena?</a></h3>
+          <p>Como adaptar a escolha de brinquedo interativo automático para gatos idosos: movimento suave, estimulação cognitiva e cuidados articulares.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/brinquedo-interativo-gato-idoso-vale-a-pena/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/erros-comuns-brinquedo-interativo-gato/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/erros-comuns-brinquedo-interativo-gato/img/erros-comuns-brinquedo-interativo-gato-hero.jpg" alt="Gato observando brinquedo interativo parado no chão" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Brinquedos interativos</span>
+          <h3><a href="https://smartpetgadgets.com.br/erros-comuns-brinquedo-interativo-gato/">Erros Comuns ao Usar Brinquedo Interativo para Gato</a></h3>
+          <p>Os erros mais frequentes na escolha e uso de brinquedos interativos automáticos para gato, e como evitá-los.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/erros-comuns-brinquedo-interativo-gato/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/brinquedo-interativo-substitui-brincadeira-tutor/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/brinquedo-interativo-substitui-brincadeira-tutor/img/brinquedo-interativo-substitui-brincadeira-tutor-hero.jpg" alt="Gato interagindo com tutor durante momento de brincadeira" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Brinquedos interativos</span>
+          <h3><a href="https://smartpetgadgets.com.br/brinquedo-interativo-substitui-brincadeira-tutor/">Brinquedo Interativo Substitui a Brincadeira com o Tutor?</a></h3>
+          <p>Por que o brinquedo interativo automático complementa, mas não substitui, o tempo de brincadeira direta entre tutor e gato.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/brinquedo-interativo-substitui-brincadeira-tutor/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/melhor-comedouro-interativo-gato/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/melhor-comedouro-interativo-gato/img/melhor-comedouro-interativo-gato-hero.jpg" alt="Gato manipulando comedouro interativo tipo quebra-cabeça alimentar" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Brinquedos interativos</span>
+          <h3><a href="https://smartpetgadgets.com.br/melhor-comedouro-interativo-gato/">Melhor Comedouro Interativo para Gato: Guia Completo 2026</a></h3>
+          <p>Como funciona o comedouro interativo (quebra-cabeça alimentar) para gato e por que ele ajuda na prevenção de obesidade e tédio.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/melhor-comedouro-interativo-gato/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="duvidas">
+        <a class="card-media" href="https://smartpetgadgets.com.br/duvidas-brinquedo-interativo-gato/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/duvidas-brinquedo-interativo-gato/img/duvidas-brinquedo-interativo-gato-hero.jpg" alt="Gato brincando com brinquedo automático em casa" width="400" height="225" loading="lazy" />
+          <span class="badge badge-duvidas">Dúvidas</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Brinquedos interativos</span>
+          <h3><a href="https://smartpetgadgets.com.br/duvidas-brinquedo-interativo-gato/">Brinquedo Interativo para Gato: Perguntas Frequentes</a></h3>
+          <p>Respostas rápidas sobre brinquedo interativo automático para gato: preço, gato idoso, pilha x recarregável e mais.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/duvidas-brinquedo-interativo-gato/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      </div>
+    </section>
+    <section class="group" id="cat-portas" aria-labelledby="h-portas">
+      <div class="group-head">
+        <h3 class="group-title" id="h-portas"><span class="dot dot-purple" aria-hidden="true"></span>Portas eletrônicas</h3>
+        <span class="group-count">11 artigos</span>
+      </div>
+      <div class="grid">
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/porta-eletronica-automatica-para-pet/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/porta-eletronica-automatica-para-pet/img/porta-eletronica-automatica-para-pet-hero.jpg" alt="Porta eletrônica automática instalada para acesso de pet em casa" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Portas eletrônicas</span>
+          <h3><a href="https://smartpetgadgets.com.br/porta-eletronica-automatica-para-pet/">Porta Eletrônica Automática para Pet: Guia Completo</a></h3>
+          <p>Como funciona a porta eletrônica automática para cães e gatos: microchip, RFID, reconhecimento facial, sensor de luz, instalação e preço.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/porta-eletronica-automatica-para-pet/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/porta-eletronica-microchip-x-rfid-coleira/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/porta-eletronica-microchip-x-rfid-coleira/img/porta-eletronica-microchip-x-rfid-coleira-hero.jpg" alt="Cão com coleira próximo a porta eletrônica automática" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Portas eletrônicas</span>
+          <h3><a href="https://smartpetgadgets.com.br/porta-eletronica-microchip-x-rfid-coleira/">Porta Eletrônica com Microchip ou RFID: Qual Vale Mais a Pena?</a></h3>
+          <p>Diferença entre porta eletrônica com leitura de microchip implantado e porta com medalhão RFID na coleira: quando usar cada uma.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/porta-eletronica-microchip-x-rfid-coleira/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/porta-eletronica-reconhecimento-facial-vale-a-pena/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/porta-eletronica-reconhecimento-facial-vale-a-pena/img/porta-eletronica-reconhecimento-facial-vale-a-pena-hero.jpg" alt="Gato se aproximando de porta eletrônica com sensor de reconhecimento" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Portas eletrônicas</span>
+          <h3><a href="https://smartpetgadgets.com.br/porta-eletronica-reconhecimento-facial-vale-a-pena/">Porta Eletrônica com Reconhecimento Facial: Vale a Pena?</a></h3>
+          <p>Como funciona a porta eletrônica com reconhecimento facial para cães e gatos, vantagens sobre microchip/RFID e quando vale o investimento.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/porta-eletronica-reconhecimento-facial-vale-a-pena/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/como-instalar-porta-eletronica-pet/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/como-instalar-porta-eletronica-pet/img/como-instalar-porta-eletronica-pet-hero.jpg" alt="Ferramentas de instalação próximas a porta residencial para pet" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Portas eletrônicas</span>
+          <h3><a href="https://smartpetgadgets.com.br/como-instalar-porta-eletronica-pet/">Como Instalar Porta Eletrônica para Pet: Passo a Passo</a></h3>
+          <p>Passo a passo geral para instalar uma porta eletrônica automática para pet em diferentes tipos de porta e parede.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/como-instalar-porta-eletronica-pet/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/porta-eletronica-gato-x-cachorro-diferenca/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/porta-eletronica-gato-x-cachorro-diferenca/img/porta-eletronica-gato-x-cachorro-diferenca-hero.jpg" alt="Gato e cachorro próximos a porta eletrônica automática em ambiente doméstico" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Portas eletrônicas</span>
+          <h3><a href="https://smartpetgadgets.com.br/porta-eletronica-gato-x-cachorro-diferenca/">Porta Eletrônica para Gato x Cachorro: Qual a Diferença?</a></h3>
+          <p>O que muda entre uma porta eletrônica pensada para gatos e uma para cães: tamanho do vão, resistência estrutural e porte do animal.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/porta-eletronica-gato-x-cachorro-diferenca/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/porta-eletronica-sensor-de-luz-como-funciona/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/porta-eletronica-sensor-de-luz-como-funciona/img/porta-eletronica-sensor-de-luz-como-funciona-hero.jpg" alt="Porta de pet ao amanhecer, ilustrando ativação por sensor de luz" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Portas eletrônicas</span>
+          <h3><a href="https://smartpetgadgets.com.br/porta-eletronica-sensor-de-luz-como-funciona/">Porta Eletrônica com Sensor de Luz para Pet: Como Funciona</a></h3>
+          <p>Como funciona a porta eletrônica ativada por sensor de luz: abre ao amanhecer e fecha ao anoitecer, sem identificação individual.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/porta-eletronica-sensor-de-luz-como-funciona/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/porta-eletronica-impede-entrada-outros-animais/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/porta-eletronica-impede-entrada-outros-animais/img/porta-eletronica-impede-entrada-outros-animais-hero.jpg" alt="Gato de rua observando de fora de casa com porta eletrônica trancada" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Portas eletrônicas</span>
+          <h3><a href="https://smartpetgadgets.com.br/porta-eletronica-impede-entrada-outros-animais/">Porta Eletrônica Impede a Entrada de Outros Animais?</a></h3>
+          <p>Como a porta eletrônica com microchip ou RFID impede a entrada de gatos de rua e outros animais intrusos em casa.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/porta-eletronica-impede-entrada-outros-animais/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/erros-comuns-porta-eletronica-pet/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/erros-comuns-porta-eletronica-pet/img/erros-comuns-porta-eletronica-pet-hero.jpg" alt="Instalação de porta automática para pet em ambiente residencial" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Portas eletrônicas</span>
+          <h3><a href="https://smartpetgadgets.com.br/erros-comuns-porta-eletronica-pet/">Erros Comuns ao Instalar e Usar Porta Eletrônica para Pet</a></h3>
+          <p>Os erros mais frequentes na instalação e uso de portas eletrônicas para pet, e como evitá-los.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/erros-comuns-porta-eletronica-pet/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/porta-eletronica-funciona-porta-de-vidro/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/porta-eletronica-funciona-porta-de-vidro/img/porta-eletronica-funciona-porta-de-vidro-hero.jpg" alt="Porta de vidro de correr residencial, cenário de instalação de porta pet" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Portas eletrônicas</span>
+          <h3><a href="https://smartpetgadgets.com.br/porta-eletronica-funciona-porta-de-vidro/">Porta Eletrônica para Pet Funciona em Porta de Vidro?</a></h3>
+          <p>Como instalar porta eletrônica para pet em porta de vidro de correr: modelos sem corte, cuidados e quando buscar um profissional.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/porta-eletronica-funciona-porta-de-vidro/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/porta-eletronica-x-alcapao-tradicional/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/porta-eletronica-x-alcapao-tradicional/img/porta-eletronica-x-alcapao-tradicional-hero.jpg" alt="Alçapão tradicional simples para pet em porta residencial" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Portas eletrônicas</span>
+          <h3><a href="https://smartpetgadgets.com.br/porta-eletronica-x-alcapao-tradicional/">Porta Eletrônica ou Alçapão Tradicional: Qual Escolher?</a></h3>
+          <p>Comparação entre porta eletrônica automática e alçapão tradicional para pet: custo, segurança contra intrusos e facilidade de instalação.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/porta-eletronica-x-alcapao-tradicional/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="duvidas">
+        <a class="card-media" href="https://smartpetgadgets.com.br/duvidas-porta-eletronica-pet/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/duvidas-porta-eletronica-pet/img/duvidas-porta-eletronica-pet-hero.jpg" alt="Cachorro pequeno próximo a porta eletrônica automática residencial" width="400" height="225" loading="lazy" />
+          <span class="badge badge-duvidas">Dúvidas</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Portas eletrônicas</span>
+          <h3><a href="https://smartpetgadgets.com.br/duvidas-porta-eletronica-pet/">Porta Eletrônica para Pet: Perguntas Frequentes (FAQ)</a></h3>
+          <p>Respostas rápidas sobre porta eletrônica automática para pet: microchip, instalação em vidro, entrada de intrusos e mais.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/duvidas-porta-eletronica-pet/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      </div>
+    </section>
+    <section class="group" id="cat-saude" aria-labelledby="h-saude">
+      <div class="group-head">
+        <h3 class="group-title" id="h-saude"><span class="dot dot-pink" aria-hidden="true"></span>Saúde e higiene</h3>
+        <span class="group-count">5 artigos</span>
+      </div>
+      <div class="grid">
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/img/simparic-caixa.webp" alt="Melhor Antipulgas para Cachorro em 2026: 6 Opções Comparadas" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Saúde e higiene</span>
+          <h3><a href="https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/">Melhor Antipulgas para Cachorro em 2026: 6 Opções Comparadas</a></h3>
+          <p>Comparamos Bravecto, Simparic, Credeli, NexGard, Frontline e Vermitril — duração, princípio ativo e preço, com um alerta de segurança importante sobre ivermectina.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="review">
+        <a class="card-media" href="https://smartpetgadgets.com.br/tapete-higienico-para-cachorro/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/tapete-higienico-para-cachorro/img/tapete-higienico-02-lifestyle-apartamento.webp" alt="Cachorro pequeno sentado sobre tapete higiênico cinza em apartamento" width="400" height="225" loading="lazy" />
+          <span class="badge badge-review">Review</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Saúde e higiene</span>
+          <h3><a href="https://smartpetgadgets.com.br/tapete-higienico-para-cachorro/">Tapete Higiênico para Cachorro: Vale a Pena o Bamboo.dry Nekko? Review 2026</a></h3>
+          <p>Review do tapete higiênico com carvão de bambu e fixação antiderrapante: como funciona, prós, contras e como treinar o cão a usar.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/tapete-higienico-para-cachorro/">Ler review <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/soprador-pet/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/soprador-pet/img/D_NQ_NP_2X_980310-MLB114713959501_072026-F-soprador-pet-2-motores-forte-super-turbo-code-pet-banho-tosa.webp" alt="Soprador pet de dois motores, foto real do produto" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Saúde e higiene</span>
+          <h3><a href="https://smartpetgadgets.com.br/soprador-pet/">Soprador Pet de Dois Motores: Vale a Pena? Guia 2026</a></h3>
+          <p>Como funciona o soprador pet de dois motores, diferença para o secador comum, cuidados de uso e para quem vale a pena — em casa ou no pet shop.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/soprador-pet/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="guia">
+        <a class="card-media" href="https://smartpetgadgets.com.br/coleira-seresto-antipulgas/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/coleira-seresto-antipulgas/img/coleira-seresto-hero.webp" alt="Embalagem da coleira antipulgas e carrapatos Seresto da Elanco para cães acima de 8kg" width="400" height="225" loading="lazy" />
+          <span class="badge badge-guia">Guia</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Saúde e higiene</span>
+          <h3><a href="https://smartpetgadgets.com.br/coleira-seresto-antipulgas/">Coleira Seresto Antipulgas e Carrapatos: Vale a Pena?</a></h3>
+          <p>Análise da coleira Seresto (Elanco) para cães acima de 8kg: como funciona, especificações e o que dizem 5.501 avaliações reais no Mercado Livre.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/coleira-seresto-antipulgas/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      <article class="card" data-kind="comparativo">
+        <a class="card-media" href="https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/" tabindex="-1" aria-hidden="true">
+          <img src="https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/img/melhor-tapete-higienico-para-cachorro-hero.jpg" alt="Spitz alemão ao lado de uma embalagem de tapete higiênico Biosec, ilustrando o tamanho do produto" width="400" height="225" loading="lazy" />
+          <span class="badge badge-comparativo">Comparativo</span>
+        </a>
+        <div class="card-body">
+          <span class="card-tag">Saúde e higiene</span>
+          <h3><a href="https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/">Melhor Tapete Higiênico para Cachorro 2026: 7 Comparados</a></h3>
+          <p>Comparamos 7 tapetes higiênicos à venda no Mercado Livre: Biosec, Pet For You, Higienepet, Luxena, Petlike, Sanol Dog e mais. Preço, camadas e nota.</p>
+          <a class="read-more" href="https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/">Ler artigo <span aria-hidden="true">→</span></a>
+        </div>
+      </article>
+      </div>
+    </section>
   </section>
 
-  <section class="intro" id="artigos">
-    <h2>Últimos artigos</h2>
-  </section>
-
-  <div class="grid">
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/">
-        <img src="https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/img/simparic-caixa.webp" alt="Melhor Antipulgas para Cachorro em 2026: 6 Opções Comparadas" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Saúde</span>
-        <h3><a href="https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/">Melhor Antipulgas para Cachorro em 2026: 6 Opções Comparadas</a></h3>
-        <p>Comparamos Bravecto, Simparic, Credeli, NexGard, Frontline e Vermitril — duração, princípio ativo e preço, com um alerta de segurança importante sobre ivermectina.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/">
-        <img src="https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/img/comedouro-automatico-para-dois-gatos-hero.jpg" alt="Dois gatos, um branco e um laranja, comendo ração próximos um do outro no mesmo espaço" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Alimentação</span>
-        <h3><a href="https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/">Comedouro Automático para 2 Gatos: Como Evitar Briga</a></h3>
-        <p>Um gato come a ração do outro? Veja como escolher e configurar o comedouro automático certo para dois gatos sem confusão.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/comedouro-automatico-gato-obeso/">
-        <img src="https://smartpetgadgets.com.br/comedouro-automatico-gato-obeso/img/comedouro-automatico-gato-obeso-hero.webp" alt="Comedouro Automático Ajuda no Controle de Peso do Gato?" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Saúde</span>
-        <h3><a href="https://smartpetgadgets.com.br/comedouro-automatico-gato-obeso/">Comedouro Automático Ajuda no Controle de Peso do Gato?</a></h3>
-        <p>O comedouro automático controla porções e horários, mas não substitui orientação veterinária. Entenda o que ele realmente pode fazer pelo gato acima do peso.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-automatico-gato-obeso/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/comedouro-newpet-2l-review/">
-        <img src="https://smartpetgadgets.com.br/comedouro-newpet-2l-review/img/comedouro-newpet-2l-review-hero.webp" alt="Comedouro Automático Newpet 2L: Vale a Pena? Review" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Alimentação</span>
-        <h3><a href="https://smartpetgadgets.com.br/comedouro-newpet-2l-review/">Comedouro Automático Newpet 2L: Vale a Pena? Review</a></h3>
-        <p>Review do comedouro automático Newpet 2L, o modelo de entrada da linha: capacidade, para quem serve, prós, contras e se vale a pena em 2026.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-newpet-2l-review/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/comedouro-automatico-faz-mal/">
-        <img src="https://smartpetgadgets.com.br/comedouro-automatico-faz-mal/img/comedouro-automatico-faz-mal-hero.webp" alt="Comedouro Automático Faz Mal para o Pet? Riscos Reais" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Guia</span>
-        <h3><a href="https://smartpetgadgets.com.br/comedouro-automatico-faz-mal/">Comedouro Automático Faz Mal para o Pet? Riscos Reais</a></h3>
-        <p>Comedouro automático faz mal? Veja os riscos reais — sobrealimentação, ansiedade alimentar, dependência — e como evitar cada um deles na prática.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-automatico-faz-mal/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/">
-        <img src="https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/img/comedouro-automatico-para-viagem-hero.webp" alt="Comedouro Automático em Viagem: O Erro Que Deixa o Pet Sem Comer" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Guia</span>
-        <h3><a href="https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/">Comedouro Automático em Viagem: O Erro Que Deixa o Pet Sem Comer</a></h3>
-        <p>Configurar errado o comedouro automático antes de viajar pode deixar o pet sem comer por horas. Veja o checklist para testar o equipamento antes de sair de casa.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/">
-        <img src="https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/img/comedouro-com-ou-sem-wifi-hero.webp" alt="Comedouro Com ou Sem Wi-Fi: Qual Vale Mais a Pena em 2026?" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Tecnologia</span>
-        <h3><a href="https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/">Comedouro Com ou Sem Wi-Fi: Qual Vale Mais a Pena em 2026?</a></h3>
-        <p>Pagar mais por Wi-Fi no comedouro automático vale a pena ou é dinheiro jogado fora? Compare os dois modelos e descubra qual combina com sua rotina em 2026.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/como-limpar-comedouro-automatico/">
-        <img src="https://smartpetgadgets.com.br/como-limpar-comedouro-automatico/img/como-limpar-comedouro-automatico-hero.webp" alt="Como Limpar o Comedouro Automático Sem Deixar Mofo ou Cheiro" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Higiene</span>
-        <h3><a href="https://smartpetgadgets.com.br/como-limpar-comedouro-automatico/">Como Limpar o Comedouro Automático Sem Deixar Mofo ou Cheiro</a></h3>
-        <p>Comedouro automático sujo vira foco de mofo e cheiro forte rápido. Veja a frequência ideal de limpeza, produtos seguros e os erros que danificam o eletrônico.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/como-limpar-comedouro-automatico/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/comedouro-automatico-anti-formiga/">
-        <img src="https://smartpetgadgets.com.br/comedouro-automatico-anti-formiga/img/comedouro-automatico-anti-formiga-hero.webp" alt="Comedouro Automático Anti-Formiga: Funciona de Verdade?" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Guia</span>
-        <h3><a href="https://smartpetgadgets.com.br/comedouro-automatico-anti-formiga/">Comedouro Automático Anti-Formiga: Funciona de Verdade?</a></h3>
-        <p>Comedouros com barreira anti-formiga usam um princípio físico simples. Entenda como funciona, quando vale a pena e o que a manutenção exige na prática.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-automatico-anti-formiga/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/comedouro-automatico-para-pet/">
-        <img src="https://smartpetgadgets.com.br/comedouro-automatico-para-pet/img/comedouro-automatico-para-pet-hero.jpg" alt="Comedouro Automático para Pet: Guia Completo de 2026" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Guia</span>
-        <h3><a href="https://smartpetgadgets.com.br/comedouro-automatico-para-pet/">Comedouro Automático para Pet: Guia Completo de 2026</a></h3>
-        <p>Como escolher um comedouro automático para cães e gatos em 2026: tipos, preços no Mercado Livre, prós e contras.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-automatico-para-pet/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/">
-        <img src="https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/img/melhor-comedouro-automatico-cachorro-hero.jpg" alt="Melhor Comedouro Automático para Cachorro: Guia 2026" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Alimentação</span>
-        <h3><a href="https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/">Melhor Comedouro Automático para Cachorro: Guia 2026</a></h3>
-        <p>Comparamos 7 comedouros automáticos para cachorro à venda no Brasil em 2026: preço, capacidade, Wi-Fi e câmera.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/comedouro-newpet-4l-review/">
-        <img src="https://smartpetgadgets.com.br/comedouro-newpet-4l-review/img/comedouro-newpet-4l-review-hero.jpg" alt="Comedouro Newpet 4L: Review Completo (Vale a Pena?)" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Alimentação</span>
-        <h3><a href="https://smartpetgadgets.com.br/comedouro-newpet-4l-review/">Comedouro Newpet 4L: Review Completo (Vale a Pena?)</a></h3>
-        <p>Review do comedouro automático Newpet 4L: capacidade, gravação de voz, prós e contras.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-newpet-4l-review/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/">
-        <img src="https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/img/comedouro-vdrbg-4l-wifi-review-hero.jpg" alt="Comedouro automático Velds 4L com app, cercado por um gato e um pug, representando um alimentador automático para cães e gatos" width="400" height="180" loading="lazy" style="object-position: top;" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Tecnologia</span>
-        <h3><a href="https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/">Comedouro VDRBG 4L Wi-Fi: Vale a Pena? Análise Completa</a></h3>
-        <p>Análise do comedouro automático VDRBG 4L com Wi-Fi: app, porções, gravação de voz, pontos fracos e para quem vale a pena.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/melhor-alimentador-automatico-gatos/">
-        <img src="https://smartpetgadgets.com.br/melhor-alimentador-automatico-gatos/img/melhor-alimentador-automatico-gatos-hero.jpg" alt="Melhor Alimentador Automático para Gatos: Guia 2026" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Alimentação</span>
-        <h3><a href="https://smartpetgadgets.com.br/melhor-alimentador-automatico-gatos/">Melhor Alimentador Automático para Gatos: Guia 2026</a></h3>
-        <p>Comparamos 5 alimentadores automáticos para gato à venda no Brasil em 2026: Wi-Fi, ração úmida, microchip e sem Wi-Fi.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/melhor-alimentador-automatico-gatos/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/cat-mate-c500-review/">
-        <img src="https://smartpetgadgets.com.br/cat-mate-c500-review/img/cat-mate-c500-review-hero.jpg" alt="Cat Mate C500: Review do Comedouro para Ração Úmida e Seca" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Alimentação</span>
-        <h3><a href="https://smartpetgadgets.com.br/cat-mate-c500-review/">Cat Mate C500: Review do Comedouro para Ração Úmida e Seca</a></h3>
-        <p>Review do Cat Mate C500: sistema de gelo para ração úmida, capacidade de 5 refeições, prós e contras.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/cat-mate-c500-review/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/">
-        <img src="https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/img/comedouro-gato-x-cachorro-diferenca-hero.jpg" alt="Comedouro de Gato e Cachorro É Igual? A Diferença Que Importa" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Alimentação</span>
-        <h3><a href="https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/">Comedouro de Gato e Cachorro É Igual? A Diferença Que Importa</a></h3>
-        <p>Usar o mesmo comedouro para gato e cachorro parece prático, mas pode causar porções erradas e disputas por comida. Veja a diferença real antes de comprar.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/comedouro-automatico-vale-a-pena/">
-        <img src="https://smartpetgadgets.com.br/comedouro-automatico-vale-a-pena/img/comedouro-automatico-vale-a-pena-hero.jpg" alt="Vale a Pena Comprar um Comedouro Automático? Guia 2026" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Alimentação</span>
-        <h3><a href="https://smartpetgadgets.com.br/comedouro-automatico-vale-a-pena/">Vale a Pena Comprar um Comedouro Automático? Guia 2026</a></h3>
-        <p>Análise honesta de quando um comedouro automático vale a pena: prós, contras reais e faixa de preço.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-automatico-vale-a-pena/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/">
-        <img src="https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/img/configurar-app-comedouro-wifi-hero.jpg" alt="Como Configurar o App do Comedouro Automático Wi-Fi" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Tecnologia</span>
-        <h3><a href="https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/">Como Configurar o App do Comedouro Automático Wi-Fi</a></h3>
-        <p>Passo a passo para configurar o app Tuya Smart em um comedouro automático Wi-Fi.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/comedouro-x-bebedouro-automatico/">
-        <img src="https://smartpetgadgets.com.br/comedouro-x-bebedouro-automatico/img/comedouro-x-bebedouro-automatico-hero.jpg" alt="Comedouro x Bebedouro Automático: Você Precisa dos Dois?" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Alimentação</span>
-        <h3><a href="https://smartpetgadgets.com.br/comedouro-x-bebedouro-automatico/">Comedouro x Bebedouro Automático: Você Precisa dos Dois?</a></h3>
-        <p>Comedouro e bebedouro automático resolvem problemas diferentes. Entenda quando vale a pena ter os dois.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-x-bebedouro-automatico/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/melhor-bebedouro-automatico-pet/">
-        <img src="https://smartpetgadgets.com.br/melhor-bebedouro-automatico-pet/img/melhor-bebedouro-automatico-pet-hero.jpg" alt="Melhor Bebedouro Automático para Pet: Como Escolher" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Hidratação</span>
-        <h3><a href="https://smartpetgadgets.com.br/melhor-bebedouro-automatico-pet/">Melhor Bebedouro Automático para Pet: Como Escolher</a></h3>
-        <p>Comparativo dos bebedouros automáticos mais vendidos no Mercado Livre em 2026.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/melhor-bebedouro-automatico-pet/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/bebedouro-inox-x-ceramica/">
-        <img src="https://smartpetgadgets.com.br/bebedouro-inox-x-ceramica/img/bebedouro-inox-x-ceramica-hero.jpg" alt="Bebedouros de inox, cerâmica e plástico lado a lado no chão da cozinha, com um gato bebendo no de cerâmica" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Hidratação</span>
-        <h3><a href="https://smartpetgadgets.com.br/bebedouro-inox-x-ceramica/">Bebedouro Inox, Cerâmica ou Plástico: Qual o Melhor?</a></h3>
-        <p>Compare bebedouro de inox, cerâmica e plástico para gato: higiene, durabilidade, temperatura da água e qual material escolher.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/bebedouro-inox-x-ceramica/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/comedouro-cachorro/">
-        <img src="https://smartpetgadgets.com.br/comedouro-cachorro/img/comedouro-cachorro-suporte-baia-01.webp" alt="Comedouro para cachorro com suporte tipo baia, kit 20 unidades" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Alimentação</span>
-        <h3><a href="https://smartpetgadgets.com.br/comedouro-cachorro/">Comedouro para Cachorro com Suporte Baia: Review 2026</a></h3>
-        <p>Análise completa do comedouro com suporte tipo baia (kit 20 un, 8 litros): para quem vale a pena, prós, contras e alternativas.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/comedouro-cachorro/">Ler review completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/tapete-higienico-para-cachorro/">
-        <img src="https://smartpetgadgets.com.br/tapete-higienico-para-cachorro/img/tapete-higienico-02-lifestyle-apartamento.webp" alt="Cachorro pequeno sentado sobre tapete higiênico cinza em apartamento" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Higiene</span>
-        <h3><a href="https://smartpetgadgets.com.br/tapete-higienico-para-cachorro/">Tapete Higiênico para Cachorro: Vale a Pena o Bamboo.dry Nekko? Review 2026</a></h3>
-        <p>Review do tapete higiênico com carvão de bambu e fixação antiderrapante: como funciona, prós, contras e como treinar o cão a usar.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/tapete-higienico-para-cachorro/">Ler review completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/cercado-para-cachorros/">
-        <img src="https://smartpetgadgets.com.br/cercado-para-cachorros/img/cercado-cachorros-divipets-01.webp" alt="Cercado para cachorros Divipets com 8 painéis dobráveis de 60cm de altura montado em ambiente interno" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Segurança</span>
-        <h3><a href="https://smartpetgadgets.com.br/cercado-para-cachorros/">Cercado para Cachorros Divipets: Vale a Pena? Review</a></h3>
-        <p>Review completo do cercado para cachorros Divipets (8 painéis, 60cm de altura): prós, contras, para quem vale a pena e onde comprar com desconto.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/cercado-para-cachorros/">Ler review completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/soprador-pet/">
-        <img src="https://smartpetgadgets.com.br/soprador-pet/img/D_NQ_NP_2X_980310-MLB114713959501_072026-F-soprador-pet-2-motores-forte-super-turbo-code-pet-banho-tosa.webp" alt="Soprador pet de dois motores, foto real do produto" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Banho e Tosa</span>
-        <h3><a href="https://smartpetgadgets.com.br/soprador-pet/">Soprador Pet de Dois Motores: Vale a Pena? Guia 2026</a></h3>
-        <p>Como funciona o soprador pet de dois motores, diferença para o secador comum, cuidados de uso e para quem vale a pena — em casa ou no pet shop.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/soprador-pet/">Ler review completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/coleira-gps-para-pet/">
-        <img src="https://smartpetgadgets.com.br/coleira-gps-para-pet/img/coleira-gps-para-pet-hero.jpg" alt="Cachorro usando coleira com dispositivo de rastreamento GPS ao ar livre" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Segurança</span>
-        <h3><a href="https://smartpetgadgets.com.br/coleira-gps-para-pet/">Coleira GPS para Cachorro e Gato: Guia Completo 2026</a></h3>
-        <p>Como funciona a coleira GPS para pet, quais tecnologias existem (chip, Bluetooth, NB-IoT), preços no Mercado Livre e como escolher a certa para cães e gatos.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/coleira-gps-para-pet/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/">
-        <img src="https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/img/cerca-virtual-para-cachorro-hero.jpg" alt="Cachorro em quintal com perímetro de cerca virtual configurado via coleira GPS" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Segurança</span>
-        <h3><a href="https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/">Cerca Virtual para Cachorro: GPS 4G, Preço e Como Configurar</a></h3>
-        <p>Como funciona o alerta da cerca virtual na coleira GPS 4G, como configurar no app, a diferença para a cerca sem fio e quanto custa um rastreador.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/como-funciona-coleira-gps-cachorro/">
-        <img src="https://smartpetgadgets.com.br/como-funciona-coleira-gps-cachorro/img/como-funciona-coleira-gps-cachorro-hero.jpg" alt="Tutor usando aplicativo no celular para localizar cachorro com coleira GPS" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Segurança</span>
-        <h3><a href="https://smartpetgadgets.com.br/como-funciona-coleira-gps-cachorro/">Como Funciona a Coleira GPS para Cachorro: Tipos e Uso</a></h3>
-        <p>Entenda como a coleira GPS localiza o cachorro na prática: GPS por satélite, Wi-Fi, rede móvel/LBS, e o que muda entre chip de operadora e Bluetooth.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/como-funciona-coleira-gps-cachorro/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/melhor-coleira-gps-sem-mensalidade/">
-        <img src="https://smartpetgadgets.com.br/melhor-coleira-gps-sem-mensalidade/img/melhor-coleira-gps-sem-mensalidade-hero.jpg" alt="Cachorro com coleira caminhando em parque, tutor ao fundo com celular" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Segurança</span>
-        <h3><a href="https://smartpetgadgets.com.br/melhor-coleira-gps-sem-mensalidade/">Melhor Coleira GPS Sem Mensalidade: Como Escolher a Sua</a></h3>
-        <p>Como saber se uma coleira GPS realmente não tem mensalidade: tecnologias Bluetooth e NB-IoT, o que checar no anúncio antes de comprar, e armadilhas comuns.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/melhor-coleira-gps-sem-mensalidade/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/coleira-gps-cachorro-pequeno-porte/">
-        <img src="https://smartpetgadgets.com.br/coleira-gps-cachorro-pequeno-porte/img/coleira-gps-cachorro-pequeno-porte-hero.jpg" alt="Cachorro de pequeno porte usando coleira, ideal para dispositivo GPS leve" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Segurança</span>
-        <h3><a href="https://smartpetgadgets.com.br/coleira-gps-cachorro-pequeno-porte/">Melhor Coleira GPS para Cachorro de Pequeno Porte (2026)</a></h3>
-        <p>Peso do dispositivo, conforto e alcance: o que muda na escolha de uma coleira GPS para cães pequenos, com exemplos de peso real de mercado.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/coleira-gps-cachorro-pequeno-porte/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/coleira-gps-para-gato/">
-        <img src="https://smartpetgadgets.com.br/coleira-gps-para-gato/img/coleira-gps-para-gato-hero.jpg" alt="Gato tigrado sentado em muro de jardim usando coleira fina com rastreador GPS" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Segurança</span>
-        <h3><a href="https://smartpetgadgets.com.br/coleira-gps-para-gato/">Melhor Coleira com GPS para Gatos em 2026: Qual Escolher</a></h3>
-        <p>Comparamos coleiras com GPS e rastreadores para gatos: peso, bateria, mensalidade, chip e engate de segurança. Veja qual vale a pena.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/coleira-gps-para-gato/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/coleira-seresto-antipulgas/">
-        <img src="https://smartpetgadgets.com.br/coleira-seresto-antipulgas/img/coleira-seresto-hero.webp" alt="Embalagem da coleira antipulgas e carrapatos Seresto da Elanco para cães acima de 8kg" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Saúde</span>
-        <h3><a href="https://smartpetgadgets.com.br/coleira-seresto-antipulgas/">Coleira Seresto Antipulgas e Carrapatos: Vale a Pena?</a></h3>
-        <p>Análise da coleira Seresto (Elanco) para cães acima de 8kg: como funciona, especificações e o que dizem 5.501 avaliações reais no Mercado Livre.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/coleira-seresto-antipulgas/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/">
-        <img src="https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/img/melhor-tapete-higienico-para-cachorro-hero.jpg" alt="Spitz alemão ao lado de uma embalagem de tapete higiênico Biosec, ilustrando o tamanho do produto" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Cuidados</span>
-        <h3><a href="https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/">Melhor Tapete Higiênico para Cachorro 2026: 7 Comparados</a></h3>
-        <p>Comparamos 7 tapetes higiênicos à venda no Mercado Livre: Biosec, Pet For You, Higienepet, Luxena, Petlike, Sanol Dog e mais. Preço, camadas e nota.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/coleira-gps-x-microchip/">
-        <img src="https://smartpetgadgets.com.br/coleira-gps-x-microchip/img/coleira-gps-x-microchip-hero.jpg" alt="Cão sendo examinado por médico-veterinário, contexto de identificação animal" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Segurança</span>
-        <h3><a href="https://smartpetgadgets.com.br/coleira-gps-x-microchip/">Coleira GPS ou Microchip: Qual a Diferença e Quando Usar</a></h3>
-        <p>Coleira GPS localiza o pet em tempo real; microchip identifica o animal caso seja encontrado. Entenda a diferença e por que muitos tutores usam os dois.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/coleira-gps-x-microchip/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/erros-comuns-coleira-gps-pet/">
-        <img src="https://smartpetgadgets.com.br/erros-comuns-coleira-gps-pet/img/erros-comuns-coleira-gps-pet-hero.jpg" alt="Cachorro com coleira caminhando em calçada de parque" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Segurança</span>
-        <h3><a href="https://smartpetgadgets.com.br/erros-comuns-coleira-gps-pet/">Erros Comuns ao Usar Coleira GPS no Pet (E Como Evitar)</a></h3>
-        <p>Bateria, sinal, peso do dispositivo e configuração da cerca virtual: os erros mais comuns relatados por quem usa coleira GPS, e como evitá-los.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/erros-comuns-coleira-gps-pet/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/coleira-gps-bluetooth-x-chip-operadora/">
-        <img src="https://smartpetgadgets.com.br/coleira-gps-bluetooth-x-chip-operadora/img/coleira-gps-bluetooth-x-chip-operadora-hero.jpg" alt="Tutor consultando aplicativo de localização de pet no celular" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Segurança</span>
-        <h3><a href="https://smartpetgadgets.com.br/coleira-gps-bluetooth-x-chip-operadora/">Coleira GPS Bluetooth ou com Chip: Qual Comprar?</a></h3>
-        <p>Diferenças técnicas entre coleira GPS Bluetooth e coleira com chip de operadora: alcance, dependência do celular, custo e quando cada uma faz sentido.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/coleira-gps-bluetooth-x-chip-operadora/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/coleira-gps-cachorro-que-foge/">
-        <img src="https://smartpetgadgets.com.br/coleira-gps-cachorro-que-foge/img/coleira-gps-cachorro-que-foge-hero.jpg" alt="Cachorro correndo livre em campo aberto, cenário típico de fuga" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Segurança</span>
-        <h3><a href="https://smartpetgadgets.com.br/coleira-gps-cachorro-que-foge/">Coleira GPS para Cachorro que Foge: Como Escolher a Certa</a></h3>
-        <p>O que priorizar na coleira GPS quando o cão foge com frequência: cobertura, cerca virtual, e quando o problema pode ser comportamental.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/coleira-gps-cachorro-que-foge/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/duvidas-coleira-gps-pet/">
-        <img src="https://smartpetgadgets.com.br/duvidas-coleira-gps-pet/img/duvidas-coleira-gps-pet-hero.jpg" alt="Gato explorando jardim, contexto de dúvidas sobre coleira GPS" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Segurança</span>
-        <h3><a href="https://smartpetgadgets.com.br/duvidas-coleira-gps-pet/">Coleira GPS para Pet: Perguntas Frequentes Respondidas</a></h3>
-        <p>Respostas rápidas às dúvidas mais comuns sobre coleira GPS para cães e gatos: bateria, sinal, peso, mensalidade, resistência à água e mais.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/duvidas-coleira-gps-pet/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/camera-para-monitorar-pet/">
-        <img src="https://smartpetgadgets.com.br/camera-para-monitorar-pet/img/camera-para-monitorar-pet-hero.jpg" alt="Câmera de segurança instalada em ambiente interno para monitorar pet" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Tecnologia</span>
-        <h3><a href="https://smartpetgadgets.com.br/camera-para-monitorar-pet/">Melhor Câmera para Monitorar Pet: Como Escolher o Modelo Ideal</a></h3>
-        <p>Como escolher uma câmera para monitorar cão ou gato sozinho em casa: resolução, visão noturna, áudio bidirecional, dispensador de petisco e preços no Mercado Livre.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/camera-para-monitorar-pet/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/melhor-camera-para-monitorar-pet/">
-        <img src="https://smartpetgadgets.com.br/melhor-camera-para-monitorar-pet/img/melhor-camera-para-monitorar-pet-hero.jpg" alt="Câmera de monitoramento doméstica voltada para acompanhar cães e gatos" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Tecnologia</span>
-        <h3><a href="https://smartpetgadgets.com.br/melhor-camera-para-monitorar-pet/">Melhores Câmeras Pet 2026: TP-Link, Newpet, Intelbras</a></h3>
-        <p>Comparativo entre TP-Link Tapo C200, Newpet 2K, Intelbras iM3 C e Haiz Mini Botz: preço, recursos e qual serve melhor para cada tutor.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/melhor-camera-para-monitorar-pet/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/camera-pet-com-dispensador-de-petisco/">
-        <img src="https://smartpetgadgets.com.br/camera-pet-com-dispensador-de-petisco/img/camera-pet-com-dispensador-de-petisco-hero.jpg" alt="Cachorro recebendo petisco de dispensador automático controlado por aplicativo" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Tecnologia</span>
-        <h3><a href="https://smartpetgadgets.com.br/camera-pet-com-dispensador-de-petisco/">Câmera Pet com Dispensador de Petisco: Vale a Pena?</a></h3>
-        <p>Como funciona o recurso de dispensador de petisco em câmeras pet, quando ele realmente ajuda e quando é só custo extra.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/camera-pet-com-dispensador-de-petisco/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/como-configurar-camera-pet-wifi/">
-        <img src="https://smartpetgadgets.com.br/como-configurar-camera-pet-wifi/img/como-configurar-camera-pet-wifi-hero.jpg" alt="Roteador Wi-Fi doméstico usado para conectar câmera de monitoramento de pet" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Tecnologia</span>
-        <h3><a href="https://smartpetgadgets.com.br/como-configurar-camera-pet-wifi/">Como Configurar a Câmera Pet no Wi-Fi (Sem Erros de Conexão)</a></h3>
-        <p>Passo a passo para configurar a câmera pet na rede Wi-Fi certa e evitar os erros de conexão mais comuns relatados por usuários.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/como-configurar-camera-pet-wifi/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/camera-pet-cachorro-ansiedade-separacao/">
-        <img src="https://smartpetgadgets.com.br/camera-pet-cachorro-ansiedade-separacao/img/camera-pet-cachorro-ansiedade-separacao-hero.jpg" alt="Cachorro sozinho em casa, cenário típico de monitoramento por câmera pet" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Tecnologia</span>
-        <h3><a href="https://smartpetgadgets.com.br/camera-pet-cachorro-ansiedade-separacao/">Câmera Pet Ajuda na Ansiedade de Separação do Cachorro?</a></h3>
-        <p>Como a câmera pet pode ajudar a identificar e acompanhar sinais de ansiedade de separação em cães, e onde ela não substitui tratamento profissional.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/camera-pet-cachorro-ansiedade-separacao/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/">
-        <img src="https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/img/camera-pet-x-coleira-gps-qual-escolher-hero.jpg" alt="Câmera de segurança doméstica ao lado de conceito de rastreamento de pet" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Tecnologia</span>
-        <h3><a href="https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/">Câmera Pet ou Coleira GPS: Qual Escolher para seu Pet?</a></h3>
-        <p>Câmera pet monitora o animal dentro de casa; coleira GPS localiza o pet fora de casa. Entenda a diferença e quando usar as duas.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/camera-pet-grava-sem-internet/">
-        <img src="https://smartpetgadgets.com.br/camera-pet-grava-sem-internet/img/camera-pet-grava-sem-internet-hero.jpg" alt="Roteador Wi-Fi desligado, representando queda de conexão de internet em casa" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Tecnologia</span>
-        <h3><a href="https://smartpetgadgets.com.br/camera-pet-grava-sem-internet/">Câmera Pet Grava Sem Internet? O Que Funciona Offline</a></h3>
-        <p>A câmera pet continua gravando no cartão SD durante quedas de internet, mas o que exatamente para de funcionar? Veja em detalhe.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/camera-pet-grava-sem-internet/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/erros-comuns-camera-monitorar-pet/">
-        <img src="https://smartpetgadgets.com.br/erros-comuns-camera-monitorar-pet/img/erros-comuns-camera-monitorar-pet-hero.jpg" alt="Câmera de segurança posicionada em ambiente doméstico para monitoramento" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Tecnologia</span>
-        <h3><a href="https://smartpetgadgets.com.br/erros-comuns-camera-monitorar-pet/">5 Erros Comuns com Câmera Pet (Nº3 é o Mais Ignorado)</a></h3>
-        <p>Rede errada, senha trocada e um erro de posicionamento que quase ninguém percebe: veja os 5 erros mais comuns ao configurar a câmera pet e como corrigir cada um.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/erros-comuns-camera-monitorar-pet/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/camera-pet-resolucao-1080p-x-2k/">
-        <img src="https://smartpetgadgets.com.br/camera-pet-resolucao-1080p-x-2k/img/camera-pet-resolucao-1080p-x-2k-hero.jpg" alt="Tela de aplicativo exibindo imagem nítida de câmera de monitoramento de pet" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Tecnologia</span>
-        <h3><a href="https://smartpetgadgets.com.br/camera-pet-resolucao-1080p-x-2k/">Câmera Pet: 1080p ou 2K — Qual Resolução Escolher?</a></h3>
-        <p>Diferença prática entre câmera pet Full HD (1080p) e 2K: quando o upgrade de resolução realmente compensa o custo extra.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/camera-pet-resolucao-1080p-x-2k/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/camera-pet-visao-noturna-funciona/">
-        <img src="https://smartpetgadgets.com.br/camera-pet-visao-noturna-funciona/img/camera-pet-visao-noturna-funciona-hero.jpg" alt="Gato dormindo em ambiente com pouca luz, cenário típico de visão noturna" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Tecnologia</span>
-        <h3><a href="https://smartpetgadgets.com.br/camera-pet-visao-noturna-funciona/">Visão Noturna em Câmera Pet: Como Funciona de Verdade</a></h3>
-        <p>Como a visão noturna infravermelha da câmera pet funciona, seu alcance real e limitações em ambientes com pouca luz.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/camera-pet-visao-noturna-funciona/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/duvidas-camera-para-monitorar-pet/">
-        <img src="https://smartpetgadgets.com.br/duvidas-camera-para-monitorar-pet/img/duvidas-camera-para-monitorar-pet-hero.jpg" alt="Gato descansando em ambiente doméstico monitorado por câmera pet" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Tecnologia</span>
-        <h3><a href="https://smartpetgadgets.com.br/duvidas-camera-para-monitorar-pet/">Câmera para Monitorar Pet: Perguntas Frequentes (FAQ)</a></h3>
-        <p>Respostas rápidas sobre câmera pet: internet, ansiedade de separação, resolução, gravação em cartão SD e mais.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/duvidas-camera-para-monitorar-pet/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/">
-        <img src="https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/img/brinquedo-interativo-automatico-para-gato-hero.jpg" alt="Gato brincando com brinquedo interativo automático em ambiente doméstico" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Comportamento</span>
-        <h3><a href="https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/">Brinquedo Interativo Automático para Gato: Guia Completo</a></h3>
-        <p>Como escolher um brinquedo interativo automático para gato: tipos, preços no Mercado Livre, quando ajuda e como usar para enriquecimento ambiental.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/melhor-bolinha-inteligente-para-gato/">
-        <img src="https://smartpetgadgets.com.br/melhor-bolinha-inteligente-para-gato/img/melhor-bolinha-inteligente-para-gato-hero.jpg" alt="Bola de brinquedo inteligente para gato em movimento sobre piso doméstico" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Comportamento</span>
-        <h3><a href="https://smartpetgadgets.com.br/melhor-bolinha-inteligente-para-gato/">Melhor Bolinha Inteligente para Gato: Como Escolher</a></h3>
-        <p>O que considerar antes de comprar uma bolinha inteligente para gato: modos de movimento, superfície ideal e faixa de preço no Mercado Livre.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/melhor-bolinha-inteligente-para-gato/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/brinquedo-automatico-cachorro-sozinho/">
-        <img src="https://smartpetgadgets.com.br/brinquedo-automatico-cachorro-sozinho/img/brinquedo-automatico-cachorro-sozinho-hero.jpg" alt="Cachorro sozinho em casa interagindo com brinquedo automático" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Comportamento</span>
-        <h3><a href="https://smartpetgadgets.com.br/brinquedo-automatico-cachorro-sozinho/">Brinquedo Automático para Cachorro Sozinho: Funciona?</a></h3>
-        <p>Brinquedos automáticos para cães que ficam sozinhos: o que existe no mercado, limitações em relação aos brinquedos para gato e quando vale investir.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/brinquedo-automatico-cachorro-sozinho/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/como-escolher-brinquedo-interativo-gato-entediado/">
-        <img src="https://smartpetgadgets.com.br/como-escolher-brinquedo-interativo-gato-entediado/img/como-escolher-brinquedo-interativo-gato-entediado-hero.jpg" alt="Gato entediado observando ambiente doméstico, candidato a brinquedo interativo" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Comportamento</span>
-        <h3><a href="https://smartpetgadgets.com.br/como-escolher-brinquedo-interativo-gato-entediado/">Melhor Brinquedo Interativo para Gato Entediado: Como Escolher</a></h3>
-        <p>Sinais de tédio e sedentarismo em gatos e como escolher o tipo certo de brinquedo interativo automático para cada caso.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/como-escolher-brinquedo-interativo-gato-entediado/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/brinquedo-interativo-sensor-infravermelho-como-funciona/">
-        <img src="https://smartpetgadgets.com.br/brinquedo-interativo-sensor-infravermelho-como-funciona/img/brinquedo-interativo-sensor-infravermelho-como-funciona-hero.jpg" alt="Brinquedo eletrônico com sensor para gato em ambiente doméstico" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Comportamento</span>
-        <h3><a href="https://smartpetgadgets.com.br/brinquedo-interativo-sensor-infravermelho-como-funciona/">Brinquedo Interativo com Sensor Infravermelho: Como Funciona</a></h3>
-        <p>Como o sensor infravermelho de brinquedos interativos para gato detecta o animal e ativa o movimento automaticamente.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/brinquedo-interativo-sensor-infravermelho-como-funciona/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/brinquedo-interativo-pilha-x-recarregavel/">
-        <img src="https://smartpetgadgets.com.br/brinquedo-interativo-pilha-x-recarregavel/img/brinquedo-interativo-pilha-x-recarregavel-hero.jpg" alt="Gato brincando com dois brinquedos interativos: um aberto com pilhas AA ao lado e outro carregando por cabo USB" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Comportamento</span>
-        <h3><a href="https://smartpetgadgets.com.br/brinquedo-interativo-pilha-x-recarregavel/">Brinquedo Interativo para Gato: Pilha ou Recarregável?</a></h3>
-        <p>Pilha ou USB? Veja custo, praticidade e descarte de cada tipo de brinquedo interativo para gatos e descubra qual compensa mais.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/brinquedo-interativo-pilha-x-recarregavel/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/brinquedo-interativo-gato-idoso-vale-a-pena/">
-        <img src="https://smartpetgadgets.com.br/brinquedo-interativo-gato-idoso-vale-a-pena/img/brinquedo-interativo-gato-idoso-vale-a-pena-hero.jpg" alt="Gato idoso descansando, candidato a brinquedo interativo de movimento suave" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Comportamento</span>
-        <h3><a href="https://smartpetgadgets.com.br/brinquedo-interativo-gato-idoso-vale-a-pena/">Brinquedo Interativo para Gato Idoso: Vale a Pena?</a></h3>
-        <p>Como adaptar a escolha de brinquedo interativo automático para gatos idosos: movimento suave, estimulação cognitiva e cuidados articulares.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/brinquedo-interativo-gato-idoso-vale-a-pena/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/erros-comuns-brinquedo-interativo-gato/">
-        <img src="https://smartpetgadgets.com.br/erros-comuns-brinquedo-interativo-gato/img/erros-comuns-brinquedo-interativo-gato-hero.jpg" alt="Gato observando brinquedo interativo parado no chão" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Comportamento</span>
-        <h3><a href="https://smartpetgadgets.com.br/erros-comuns-brinquedo-interativo-gato/">Erros Comuns ao Usar Brinquedo Interativo para Gato</a></h3>
-        <p>Os erros mais frequentes na escolha e uso de brinquedos interativos automáticos para gato, e como evitá-los.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/erros-comuns-brinquedo-interativo-gato/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/brinquedo-interativo-substitui-brincadeira-tutor/">
-        <img src="https://smartpetgadgets.com.br/brinquedo-interativo-substitui-brincadeira-tutor/img/brinquedo-interativo-substitui-brincadeira-tutor-hero.jpg" alt="Gato interagindo com tutor durante momento de brincadeira" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Comportamento</span>
-        <h3><a href="https://smartpetgadgets.com.br/brinquedo-interativo-substitui-brincadeira-tutor/">Brinquedo Interativo Substitui a Brincadeira com o Tutor?</a></h3>
-        <p>Por que o brinquedo interativo automático complementa, mas não substitui, o tempo de brincadeira direta entre tutor e gato.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/brinquedo-interativo-substitui-brincadeira-tutor/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/melhor-comedouro-interativo-gato/">
-        <img src="https://smartpetgadgets.com.br/melhor-comedouro-interativo-gato/img/melhor-comedouro-interativo-gato-hero.jpg" alt="Gato manipulando comedouro interativo tipo quebra-cabeça alimentar" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Comportamento</span>
-        <h3><a href="https://smartpetgadgets.com.br/melhor-comedouro-interativo-gato/">Melhor Comedouro Interativo para Gato: Guia Completo 2026</a></h3>
-        <p>Como funciona o comedouro interativo (quebra-cabeça alimentar) para gato e por que ele ajuda na prevenção de obesidade e tédio.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/melhor-comedouro-interativo-gato/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/duvidas-brinquedo-interativo-gato/">
-        <img src="https://smartpetgadgets.com.br/duvidas-brinquedo-interativo-gato/img/duvidas-brinquedo-interativo-gato-hero.jpg" alt="Gato brincando com brinquedo automático em casa" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Comportamento</span>
-        <h3><a href="https://smartpetgadgets.com.br/duvidas-brinquedo-interativo-gato/">Brinquedo Interativo para Gato: Perguntas Frequentes</a></h3>
-        <p>Respostas rápidas sobre brinquedo interativo automático para gato: preço, gato idoso, pilha x recarregável e mais.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/duvidas-brinquedo-interativo-gato/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/porta-eletronica-automatica-para-pet/">
-        <img src="https://smartpetgadgets.com.br/porta-eletronica-automatica-para-pet/img/porta-eletronica-automatica-para-pet-hero.jpg" alt="Porta eletrônica automática instalada para acesso de pet em casa" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Casa Inteligente</span>
-        <h3><a href="https://smartpetgadgets.com.br/porta-eletronica-automatica-para-pet/">Porta Eletrônica Automática para Pet: Guia Completo</a></h3>
-        <p>Como funciona a porta eletrônica automática para cães e gatos: microchip, RFID, reconhecimento facial, sensor de luz, instalação e preço.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/porta-eletronica-automatica-para-pet/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/porta-eletronica-microchip-x-rfid-coleira/">
-        <img src="https://smartpetgadgets.com.br/porta-eletronica-microchip-x-rfid-coleira/img/porta-eletronica-microchip-x-rfid-coleira-hero.jpg" alt="Cão com coleira próximo a porta eletrônica automática" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Casa Inteligente</span>
-        <h3><a href="https://smartpetgadgets.com.br/porta-eletronica-microchip-x-rfid-coleira/">Porta Eletrônica com Microchip ou RFID: Qual Vale Mais a Pena?</a></h3>
-        <p>Diferença entre porta eletrônica com leitura de microchip implantado e porta com medalhão RFID na coleira: quando usar cada uma.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/porta-eletronica-microchip-x-rfid-coleira/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/porta-eletronica-reconhecimento-facial-vale-a-pena/">
-        <img src="https://smartpetgadgets.com.br/porta-eletronica-reconhecimento-facial-vale-a-pena/img/porta-eletronica-reconhecimento-facial-vale-a-pena-hero.jpg" alt="Gato se aproximando de porta eletrônica com sensor de reconhecimento" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Casa Inteligente</span>
-        <h3><a href="https://smartpetgadgets.com.br/porta-eletronica-reconhecimento-facial-vale-a-pena/">Porta Eletrônica com Reconhecimento Facial: Vale a Pena?</a></h3>
-        <p>Como funciona a porta eletrônica com reconhecimento facial para cães e gatos, vantagens sobre microchip/RFID e quando vale o investimento.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/porta-eletronica-reconhecimento-facial-vale-a-pena/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/como-instalar-porta-eletronica-pet/">
-        <img src="https://smartpetgadgets.com.br/como-instalar-porta-eletronica-pet/img/como-instalar-porta-eletronica-pet-hero.jpg" alt="Ferramentas de instalação próximas a porta residencial para pet" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Casa Inteligente</span>
-        <h3><a href="https://smartpetgadgets.com.br/como-instalar-porta-eletronica-pet/">Como Instalar Porta Eletrônica para Pet: Passo a Passo</a></h3>
-        <p>Passo a passo geral para instalar uma porta eletrônica automática para pet em diferentes tipos de porta e parede.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/como-instalar-porta-eletronica-pet/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/porta-eletronica-gato-x-cachorro-diferenca/">
-        <img src="https://smartpetgadgets.com.br/porta-eletronica-gato-x-cachorro-diferenca/img/porta-eletronica-gato-x-cachorro-diferenca-hero.jpg" alt="Gato e cachorro próximos a porta eletrônica automática em ambiente doméstico" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Casa Inteligente</span>
-        <h3><a href="https://smartpetgadgets.com.br/porta-eletronica-gato-x-cachorro-diferenca/">Porta Eletrônica para Gato x Cachorro: Qual a Diferença?</a></h3>
-        <p>O que muda entre uma porta eletrônica pensada para gatos e uma para cães: tamanho do vão, resistência estrutural e porte do animal.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/porta-eletronica-gato-x-cachorro-diferenca/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/porta-eletronica-sensor-de-luz-como-funciona/">
-        <img src="https://smartpetgadgets.com.br/porta-eletronica-sensor-de-luz-como-funciona/img/porta-eletronica-sensor-de-luz-como-funciona-hero.jpg" alt="Porta de pet ao amanhecer, ilustrando ativação por sensor de luz" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Casa Inteligente</span>
-        <h3><a href="https://smartpetgadgets.com.br/porta-eletronica-sensor-de-luz-como-funciona/">Porta Eletrônica com Sensor de Luz para Pet: Como Funciona</a></h3>
-        <p>Como funciona a porta eletrônica ativada por sensor de luz: abre ao amanhecer e fecha ao anoitecer, sem identificação individual.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/porta-eletronica-sensor-de-luz-como-funciona/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/porta-eletronica-impede-entrada-outros-animais/">
-        <img src="https://smartpetgadgets.com.br/porta-eletronica-impede-entrada-outros-animais/img/porta-eletronica-impede-entrada-outros-animais-hero.jpg" alt="Gato de rua observando de fora de casa com porta eletrônica trancada" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Casa Inteligente</span>
-        <h3><a href="https://smartpetgadgets.com.br/porta-eletronica-impede-entrada-outros-animais/">Porta Eletrônica Impede a Entrada de Outros Animais?</a></h3>
-        <p>Como a porta eletrônica com microchip ou RFID impede a entrada de gatos de rua e outros animais intrusos em casa.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/porta-eletronica-impede-entrada-outros-animais/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/erros-comuns-porta-eletronica-pet/">
-        <img src="https://smartpetgadgets.com.br/erros-comuns-porta-eletronica-pet/img/erros-comuns-porta-eletronica-pet-hero.jpg" alt="Instalação de porta automática para pet em ambiente residencial" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Casa Inteligente</span>
-        <h3><a href="https://smartpetgadgets.com.br/erros-comuns-porta-eletronica-pet/">Erros Comuns ao Instalar e Usar Porta Eletrônica para Pet</a></h3>
-        <p>Os erros mais frequentes na instalação e uso de portas eletrônicas para pet, e como evitá-los.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/erros-comuns-porta-eletronica-pet/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/porta-eletronica-funciona-porta-de-vidro/">
-        <img src="https://smartpetgadgets.com.br/porta-eletronica-funciona-porta-de-vidro/img/porta-eletronica-funciona-porta-de-vidro-hero.jpg" alt="Porta de vidro de correr residencial, cenário de instalação de porta pet" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Casa Inteligente</span>
-        <h3><a href="https://smartpetgadgets.com.br/porta-eletronica-funciona-porta-de-vidro/">Porta Eletrônica para Pet Funciona em Porta de Vidro?</a></h3>
-        <p>Como instalar porta eletrônica para pet em porta de vidro de correr: modelos sem corte, cuidados e quando buscar um profissional.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/porta-eletronica-funciona-porta-de-vidro/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/porta-eletronica-x-alcapao-tradicional/">
-        <img src="https://smartpetgadgets.com.br/porta-eletronica-x-alcapao-tradicional/img/porta-eletronica-x-alcapao-tradicional-hero.jpg" alt="Alçapão tradicional simples para pet em porta residencial" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Casa Inteligente</span>
-        <h3><a href="https://smartpetgadgets.com.br/porta-eletronica-x-alcapao-tradicional/">Porta Eletrônica ou Alçapão Tradicional: Qual Escolher?</a></h3>
-        <p>Comparação entre porta eletrônica automática e alçapão tradicional para pet: custo, segurança contra intrusos e facilidade de instalação.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/porta-eletronica-x-alcapao-tradicional/">Ler artigo completo →</a>
-      </div>
-    </article>
-    <article class="card">
-      <a href="https://smartpetgadgets.com.br/duvidas-porta-eletronica-pet/">
-        <img src="https://smartpetgadgets.com.br/duvidas-porta-eletronica-pet/img/duvidas-porta-eletronica-pet-hero.jpg" alt="Cachorro pequeno próximo a porta eletrônica automática residencial" width="400" height="180" loading="lazy" />
-      </a>
-      <div class="card-body">
-        <span class="card-tag">Casa Inteligente</span>
-        <h3><a href="https://smartpetgadgets.com.br/duvidas-porta-eletronica-pet/">Porta Eletrônica para Pet: Perguntas Frequentes (FAQ)</a></h3>
-        <p>Respostas rápidas sobre porta eletrônica automática para pet: microchip, instalação em vidro, entrada de intrusos e mais.</p>
-        <a class="read-more" href="https://smartpetgadgets.com.br/duvidas-porta-eletronica-pet/">Ler artigo completo →</a>
-      </div>
-    </article>
-  </div>
-</div>
+  <ul class="trust" aria-label="Nossos compromissos">
+    <li><span aria-hidden="true">📊</span><span><strong>Baseado em dados</strong>Fontes verificáveis</span></li>
+    <li><span aria-hidden="true">🩺</span><span><strong>Bem-estar em 1º lugar</strong>Prática veterinária</span></li>
+    <li><span aria-hidden="true">⚖️</span><span><strong>Reviews honestos</strong>Prós e contras reais</span></li>
+    <li><span aria-hidden="true">🛒</span><span><strong>Preços do Brasil</strong>Produtos à venda aqui</span></li>
+    <li><span aria-hidden="true">💸</span><span><strong>Sem custo extra</strong>Links de afiliado transparentes</span></li>
+  </ul>
+</main>
 
 <footer class="site-footer">
-  <div class="wrap">
-    <div>© 2026 Smart Pet Gadgets. Todos os direitos reservados.</div>
-    <nav aria-label="Rodapé">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <a class="logo" href="https://smartpetgadgets.com.br/"><picture><source srcset="/img/logo-dark.png" media="(prefers-color-scheme: dark)" /><img src="/img/logo.png" alt="Smart Pet Gadgets" width="170" height="40" loading="lazy" /></picture></a>
+      <p>Guias e reviews de gadgets para cães e gatos, escritos para ajudar você a decidir com segurança.</p>
+      <a class="social" href="https://www.facebook.com/smartpetgadgetsbr" rel="noopener" target="_blank">Facebook: @smartpetgadgetsbr</a>
+    </div>
+    <nav aria-label="Categorias">
+      <h2>Categorias</h2>
+      <ul>
+          <li><a href="#cat-alimentacao">Alimentação e hidratação</a></li>
+          <li><a href="#cat-seguranca">Coleira GPS e segurança</a></li>
+          <li><a href="#cat-cameras">Câmeras pet</a></li>
+          <li><a href="#cat-brinquedos">Brinquedos interativos</a></li>
+          <li><a href="#cat-portas">Portas eletrônicas</a></li>
+          <li><a href="#cat-saude">Saúde e higiene</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Institucional">
+      <h2>Institucional</h2>
       <ul>
         <li><a href="https://smartpetgadgets.com.br/sobre/">Sobre</a></li>
+        <li><a href="https://smartpetgadgets.com.br/autores/nildo-alves/">Autores</a></li>
         <li><a href="https://smartpetgadgets.com.br/contato/">Contato</a></li>
+      </ul>
+    </nav>
+    <nav aria-label="Políticas">
+      <h2>Políticas</h2>
+      <ul>
         <li><a href="https://smartpetgadgets.com.br/politica-editorial/">Política editorial e de afiliados</a></li>
         <li><a href="https://smartpetgadgets.com.br/politica-de-privacidade/">Política de Privacidade</a></li>
-        <li><a href="https://smartpetgadgets.com.br/autores/nildo-alves/">Autores</a></li>
       </ul>
     </nav>
   </div>
+  <div class="wrap footer-bottom">
+    <p>© 2026 Smart Pet Gadgets. Todos os direitos reservados.</p>
+    <p>Trabalhamos com links de afiliados: se você comprar por um dos links do site, podemos receber uma comissão, sem custo adicional para você.</p>
+  </div>
 </footer>
-<p class="disclosure-bar">Trabalhamos com links de afiliados: se você comprar por um dos links do site, podemos receber uma comissão, sem custo adicional para você.</p>
 
+<script>
+(function () {
+  var box = document.querySelector('.filters');
+  if (!box) return;
+  box.hidden = false;
+  var btns = box.querySelectorAll('button');
+  var groups = document.querySelectorAll('.group');
+  box.addEventListener('click', function (e) {
+    var b = e.target.closest('button');
+    if (!b) return;
+    var f = b.getAttribute('data-filter');
+    btns.forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); });
+    groups.forEach(function (g) {
+      var shown = 0;
+      g.querySelectorAll('.card').forEach(function (c) {
+        var ok = f === 'all' || c.getAttribute('data-kind') === f;
+        c.hidden = !ok;
+        if (ok) shown++;
+      });
+      g.hidden = shown === 0;
+      g.querySelector('.group-count').textContent = shown + (shown === 1 ? ' artigo' : ' artigos');
+    });
+  });
+})();
+</script>
 <script src="/theme-toggle.js?v=2" defer></script>
 </body>
 </html>
