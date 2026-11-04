@@ -15,6 +15,12 @@ RewriteRule ^(.*)$ https://smartpetgadgets.com.br/$1 [L,R=301]
 # Backups internos removidos: 410 Gone para o Google desindexar
 RewriteRule ^reports/ - [G,L]
 RewriteRule ^_backup - [G,L]
+RewriteRule ^cluster-comedouro-automatico-pet/ - [G,L]
+
+# Arquivos de trabalho (briefs, planos, relatórios) nunca são públicos
+<FilesMatch "\.(md|json)$">
+    Require all denied
+</FilesMatch>
 
 # BEGIN SLUG REDIRECTS
 Redirect 301 /soprador-para-pet/ https://smartpetgadgets.com.br/soprador-pet/
