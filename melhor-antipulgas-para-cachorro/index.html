@@ -135,6 +135,11 @@
   .small-cta.secondary { background: transparent; color: #ff8a3d; border: 2px solid #ff8a3d; padding: 8px 18px; }
   .warning { border-left: 4px solid #d94545; margin: 1.5rem 0; padding: .75rem 1.25rem; background: rgba(217,69,69,.08); border-radius: 0 8px 8px 0; }
   .warning p { margin: 0; }
+  .cta-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; margin: 1.5rem 0 2rem; padding: 14px 16px; border: 1px solid rgba(255,138,61,.45); border-left: 4px solid #ff8a3d; border-radius: 12px; background: rgba(255,138,61,.08); }
+  .cta-top p { margin: 0; flex: 1 1 220px; font-size: .98rem; }
+  .cta-top small { display: block; opacity: .7; font-size: .78rem; margin-top: 2px; }
+  .cta-top a.cta-top-btn { display: inline-block; background: #b23a0d; color: #fff; font-weight: 700; padding: 10px 18px; border-radius: 10px; text-decoration: none; white-space: nowrap; }
+  .cta-top a.cta-top-btn:hover { filter: brightness(1.1); }
 </style>
 </head>
 <body>
@@ -151,6 +156,10 @@
 </figure>
 
 <p><strong>Qual é o melhor antipulgas para cachorro?</strong> Comparamos os 6 produtos antiparasitários mais vendidos no Mercado Livre em 2026 — 4 comprimidos orais à base de isoxazolina (Simparic, Bravecto, NexGard, Credeli), 1 pipeta tópica (Frontline Plus) e 1 comprimido de ivermectina com ação tripla (Vermitril) — para você decidir com base em princípio ativo, duração e faixa de peso, não em promoção.</p>
+<div class="cta-top" data-cta="top">
+  <p><strong>Quer ir direto aos produtos?</strong> Veja a comparação com preço e link de cada modelo.</p>
+  <a class="cta-top-btn" href="#comparativo">Ver os produtos recomendados ↓</a>
+</div>
 
 <blockquote>
 <p><strong>Resposta direta: qual escolher</strong></p>
@@ -424,5 +433,6 @@
 </div>
 
 <script src="/theme-toggle.js?v=2" defer></script>
+<script src="/affiliate-cta.js?v=1" defer></script>
 </body>
 </html>

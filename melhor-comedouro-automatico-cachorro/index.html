@@ -265,6 +265,11 @@
   .pros-cons { display: flex; gap: 20px; flex-wrap: wrap; margin: 1rem 0; }
   .pros-cons div { flex: 1; min-width: 200px; }
   .pros-cons ul { margin: .4rem 0; padding-left: 1.2rem; }
+  .cta-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; margin: 1.5rem 0 2rem; padding: 14px 16px; border: 1px solid rgba(255,138,61,.45); border-left: 4px solid #ff8a3d; border-radius: 12px; background: rgba(255,138,61,.08); }
+  .cta-top p { margin: 0; flex: 1 1 220px; font-size: .98rem; }
+  .cta-top small { display: block; opacity: .7; font-size: .78rem; margin-top: 2px; }
+  .cta-top a.cta-top-btn { display: inline-block; background: #b23a0d; color: #fff; font-weight: 700; padding: 10px 18px; border-radius: 10px; text-decoration: none; white-space: nowrap; }
+  .cta-top a.cta-top-btn:hover { filter: brightness(1.1); }
 </style>
 </head>
 <body>
@@ -281,6 +286,10 @@
 </figure>
 
 <p>Comparamos 7 comedouros automáticos para cachorro realmente à venda no Brasil em 2026, de opções sem Wi-Fi a modelos com câmera e app completo: VDRBG 4L Wi-Fi, Dogis Tech DA010BR, Newpet 4L, Madog com câmera, Jwcom JW4L-W, Luatek e Geonav. O melhor pra você depende de três coisas — se precisa de controle remoto, se quer câmera pra ver o pet à distância, e quanto está disposto a pagar por isso.</p>
+<div class="cta-top" data-cta="top">
+  <p><strong>Quer ir direto aos produtos?</strong> Veja a comparação com preço e link de cada modelo.</p>
+  <a class="cta-top-btn" href="#comparativo-rapido">Ver os produtos recomendados ↓</a>
+</div>
 <blockquote>
 <p><strong>Resumo rápido</strong></p>
 <p>- O <strong>VDRBG 4L Wi-Fi</strong> tem o melhor equilíbrio entre app completo, ajuste fino de porções (1 a 40) e preço entre os modelos com controle remoto.</p>
@@ -291,7 +300,7 @@
 </blockquote>
 <p><a href="https://smartpetgadgets.com.br/comedouro-automatico-para-pet/">guia completo de comedouro automático para pet</a></p>
 
-<h2>Comparativo Rápido</h2>
+<h2 id="comparativo-rapido">Comparativo Rápido</h2>
 <div class="table-scroll">
 <table>
 <thead><tr><th>Produto</th><th>Preço aprox.</th><th>Capacidade</th><th>Wi-Fi/App</th><th>Câmera</th><th>Nota</th><th>Onde comprar</th></tr></thead>
@@ -510,5 +519,6 @@
 </div>
 
 <script src="/theme-toggle.js?v=2" defer></script>
+<script src="/affiliate-cta.js?v=1" defer></script>
 </body>
 </html>

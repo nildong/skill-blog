@@ -231,6 +231,11 @@
   .pros-cons { display: flex; gap: 20px; flex-wrap: wrap; margin: 1rem 0; }
   .pros-cons div { flex: 1; min-width: 200px; }
   .pros-cons ul { margin: .4rem 0; padding-left: 1.2rem; }
+  .cta-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; margin: 1.5rem 0 2rem; padding: 14px 16px; border: 1px solid rgba(255,138,61,.45); border-left: 4px solid #ff8a3d; border-radius: 12px; background: rgba(255,138,61,.08); }
+  .cta-top p { margin: 0; flex: 1 1 220px; font-size: .98rem; }
+  .cta-top small { display: block; opacity: .7; font-size: .78rem; margin-top: 2px; }
+  .cta-top a.cta-top-btn { display: inline-block; background: #b23a0d; color: #fff; font-weight: 700; padding: 10px 18px; border-radius: 10px; text-decoration: none; white-space: nowrap; }
+  .cta-top a.cta-top-btn:hover { filter: brightness(1.1); }
 </style>
 </head>
 <body>
@@ -248,6 +253,10 @@
 
 <p class="disclosure">Este post contém links de afiliado. Podemos receber uma comissão em compras feitas através deles, sem custo adicional para você.</p>
 <p>Comparamos 5 alimentadores automáticos para gato realmente à venda no Brasil em 2026, de opções sem Wi-Fi a modelos com reconhecimento por RFID: Cat Mate C500, Velds 4L Wi-Fi, Newpet, um alimentador com reconhecimento RFID anti-roubo e o Dogis Lite. O melhor pra você depende de três coisas — se o gato come ração úmida ou seca, se você tem mais de um gato disputando comida, e quanto está disposto a pagar por controle remoto.</p>
+<div class="cta-top" data-cta="top">
+  <p><strong>Quer ir direto aos produtos?</strong> Veja a comparação com preço e link de cada modelo.</p>
+  <a class="cta-top-btn" href="#o-ranking-completo">Ver os produtos recomendados ↓</a>
+</div>
 <blockquote>
 <p><strong>Key Takeaways</strong></p>
 <p>- Para ração úmida, o <strong>Cat Mate C500</strong> segue sendo a opção mais especializada, com bolsas de gelo reutilizáveis para manter o alimento seguro por mais tempo.</p>
@@ -269,7 +278,7 @@
 <tr><td>Dogis Lite (DAO30BR)</td><td>R$ 330,62</td><td>6x 180ml</td><td>Não</td><td>Sim</td><td>7.6</td></tr>
 </tbody></table>
 
-<h2>O Ranking Completo</h2>
+<h2 id="o-ranking-completo">O Ranking Completo</h2>
 
 <div class="product-card">
 <span class="rank-badge">#1 — Melhor para Ração Úmida</span>
@@ -422,5 +431,6 @@
 </div>
 
 <script src="/theme-toggle.js?v=2" defer></script>
+<script src="/affiliate-cta.js?v=1" defer></script>
 </body>
 </html>

@@ -200,6 +200,11 @@
   .card img { border-radius: 8px; }
   .card h3 { margin-top: .75rem; font-size: 1.05rem; }
   .card .card-score { font-weight: 700; color: #ff5f0f; }
+  .cta-top { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; margin: 1.5rem 0 2rem; padding: 14px 16px; border: 1px solid rgba(255,138,61,.45); border-left: 4px solid #ff8a3d; border-radius: 12px; background: rgba(255,138,61,.08); }
+  .cta-top p { margin: 0; flex: 1 1 220px; font-size: .98rem; }
+  .cta-top small { display: block; opacity: .7; font-size: .78rem; margin-top: 2px; }
+  .cta-top a.cta-top-btn { display: inline-block; background: #b23a0d; color: #fff; font-weight: 700; padding: 10px 18px; border-radius: 10px; text-decoration: none; white-space: nowrap; }
+  .cta-top a.cta-top-btn:hover { filter: brightness(1.1); }
 </style>
   <link rel="preload" as="image" href="img/comedouro-vdrbg-4l-wifi-review-hero-800w.jpg" fetchpriority="high">
 </head>
@@ -220,6 +225,10 @@
 </figure>
 
 <p>Se você procura um <strong>comedouro automático</strong> ou <strong>alimentador automático para gatos e cães</strong>, comparamos 3 modelos com reservatório de 4 litros vendidos no Mercado Livre: o <strong>Velds 4L Wi-Fi</strong> (app completo), o <strong>Newpet 4L</strong> (app + gravação de voz) e um <strong>alimentador programável com painel LCD</strong>, sem app e sem depender de Wi-Fi. Cada um resolve uma prioridade diferente — veja qual combina com sua rotina.</p>
+<div class="cta-top" data-cta="top">
+  <p><strong>Quer ir direto aos produtos?</strong> Veja a comparação com preço e link de cada modelo.</p>
+  <a class="cta-top-btn" href="#os-3-comedouros-automaticos-comparados">Ver os produtos recomendados ↓</a>
+</div>
 
 <div class="verdict-box">
   <p><span class="score">8,7/10</span> — Escolha do editor: Velds 4L Wi-Fi</p>
@@ -239,7 +248,7 @@
 </blockquote>
 <p><a href="https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/">comparativo de comedouros automáticos mais vendidos para cachorro</a></p>
 
-<h2>Os 3 Comedouros Automáticos Comparados</h2>
+<h2 id="os-3-comedouros-automaticos-comparados">Os 3 Comedouros Automáticos Comparados</h2>
 <div class="card-grid">
   <div class="card">
     <img src="img/velds-4l-wifi-app.webp" alt="Comedouro automático Velds 4L Wi-Fi com app, branco" width="400" height="400" loading="lazy" />
@@ -389,5 +398,6 @@
 </div>
 
 <script src="/theme-toggle.js?v=2" defer></script>
+<script src="/affiliate-cta.js?v=1" defer></script>
 </body>
 </html>
