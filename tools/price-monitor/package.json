@@ -1,0 +1,15 @@
+{
+  "name": "price-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monitor semanal de preços dos links de afiliado (meli.la) dos artigos: compara o preço publicado com o preço atual no Mercado Livre e gera reports/price-monitor/. Só relata, não altera artigos.",
+  "main": "src/index.js",
+  "scripts": {
+    "monitor": "node src/index.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18"
+  }
+}
