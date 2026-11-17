@@ -33,7 +33,7 @@
     '.cta-bar.show{transform:none;}' +
     '.cta-bar a.cta-bar-btn{flex:1;text-align:center;background:#b23a0d;color:#fff !important;font-weight:700;' +
     'padding:12px 14px;border-radius:12px;text-decoration:none;font-size:.98rem;}' +
-    '.cta-bar button{background:none;border:0;font-size:1.4rem;line-height:1;padding:6px 8px;color:inherit;opacity:.6;cursor:pointer;}' +
+    '.cta-bar button{background:none;border:0;font-size:1.4rem;line-height:1;min-width:44px;min-height:44px;padding:0;color:inherit;opacity:.6;cursor:pointer;}' +
     '@media (max-width:768px){.cta-bar{display:flex;}}' +
     '@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .cta-bar{background:#1c1c1c;color:#e8e8e8;border-top-color:rgba(255,255,255,.12);}}' +
     ':root[data-theme="dark"] .cta-bar{background:#1c1c1c;color:#e8e8e8;border-top-color:rgba(255,255,255,.12);}';
@@ -45,7 +45,7 @@
   var link = document.createElement('a');
   link.className = 'cta-bar-btn';
   link.href = top.getAttribute('href');
-  link.textContent = jump ? 'Ver os produtos recomendados ↓' : 'Ver preço no Mercado Livre →';
+  link.textContent = jump ? 'Ver os produtos recomendados' : 'Ver preço no Mercado Livre →';
   if (!jump) { link.target = '_blank'; link.rel = 'nofollow sponsored noopener'; }
   var close = document.createElement('button');
   close.type = 'button';
@@ -67,10 +67,11 @@
     update();
   }).observe(top.closest('[data-cta]'));
   if (jump) {
-    // Em comparativos, a barra só leva até a seção de produtos; depois dela, some.
+    // Em comparativos, a barra leva à seção de produtos e só some enquanto ela está na tela
+    // (em vários posts a seção vem logo depois do CTA do topo, e escondê-la ao passar matava a barra).
     var target = document.querySelector(link.getAttribute('href'));
     if (target) new IntersectionObserver(function (e) {
-      reached = e[0].isIntersecting || e[0].boundingClientRect.top < 0;
+      reached = e[0].isIntersecting;
       update();
     }).observe(target);
   }

@@ -1,18 +1,34 @@
-# Images — smartpetgadgets.com.br
+# Auditoria de Imagens - smartpetgadgets.com.br (2026-11-17)
 
-Score: 90/100
+Fontes: varredura do HTML local das 9 páginas (local = live) + PSI (image-delivery-insight).
 
-Checked homepage (71 images, all home-card thumbnails) + 2 sample articles via direct HTML fetch.
+## Nota: 82/100 (anterior 2026-11-06: 80)
 
-## What works
-- **Alt text coverage: 100%** on all sampled pages (homepage's 71 images, both sampled articles) — every `<img>` has a non-empty `alt` attribute, mostly descriptive rather than keyword-stuffed (e.g. "Cachorro usando coleira com dispositivo de rastreamento GPS ao ar livre").
-- `loading="lazy"` applied consistently on homepage card images.
-- `width`/`height` attributes set on homepage cards, preventing CLS (confirmed by seo-performance: CLS 0.0 across all 3 sampled pages).
-- WebP used for many hero images (mixed with .jpg on older posts).
+| Página | `<img>` | sem alt | alt="" | sem width/height | lazy | fetchpriority hero | Formatos |
+|---|---|---|---|---|---|---|---|
+| / | 88 | 0 | 10 | 0 | 80 | não (8 eager) | 2 PNG + cards WebP/srcset |
+| melhor-racao-para-gato | 7 | 0 | 0 | 0 | 6 | sim | 7 WebP |
+| melhor-racao-para-cachorro | 7 | 0 | 0 | 0 | 6 | sim | 7 WebP |
+| melhor-bebedouro-automatico-pet | 8 | 0 | 0 | 0 | 7 | sim (+preload) | 6 WebP, 2 JPG |
+| comedouro-automatico-para-pet | 8 | 0 | 0 | 0 | 7 | sim | 6 WebP, 2 JPG |
+| camera-pet-com-dispensador-de-petisco | 8 | 0 | 0 | 0 | 7 | sim | 6 WebP, 2 JPG |
+| coleira-gps-para-gato | 7 | 0 | 0 | 0 | 6 | sim (+preload) | 7 JPG (src) |
+| configurar-app-comedouro-wifi | 6 | 0 | 0 | 0 | 5 | NÃO | 4 JPG, 2 WebP |
+| bebedouro-inox-x-ceramica | 6 | 0 | 0 | 0 | 5 | NÃO | 6 JPG (src; hero em picture WebP) |
 
-## Issues
-- **Low**: Image count is very uneven across articles — `melhor-antipulgas-para-cachorro` has only 4 images across ~1,656 words; `coleira-gps-para-pet` has just 1. seo-sxo flagged this independently as a competitive gap against marketplace/listicle SERPs that show 5-10 product photos. This is as much a content-strategy issue as an image-SEO one — see `sxo.md`.
-- **Not checked this pass**: file-size optimization (no Lighthouse image-weight audit run standalone; seo-performance's 98/100 score with 0ms TBT suggests no gross oversizing, but a dedicated pass would confirm WebP/AVIF conversion opportunities on the remaining .jpg heroes).
+Nenhuma imagem acima de 150 KB nas 9 páginas. 0 sem alt, 0 sem dimensões (CLS 0 em todas).
 
-## Recommendation
-No urgent fixes. If pursuing the seo-sxo recommendation to rebuild head-term pages as fuller listicles, add 1 product image per compared item — this serves both the Images and SXO findings simultaneously.
+## Achados
+| Severidade | Finding | Evidência | Correção |
+|---|---|---|---|
+| Média | Hero do inox x cerâmica sem srcset responsivo, fetchpriority e preload | WebP 66 KB (1200w) servido ao mobile; `-400w` (11 KB) e `-800w` (31 KB) existem e não são usados; LCP 2,7 s | srcset 400/800/1200 + sizes, `fetchpriority="high"`, preload |
+| Média | Fotos de produto em JPG com WebP já gerado ao lado | inox x cerâmica: `agbe-ag-200.jpg` 47 KB vs `.webp` 25 KB; PSI image-delivery -45 KiB | Envolver em `<picture>` com WebP |
+| Baixa | coleira-gps-para-gato: 7 JPG sem WebP em `<picture>` | varredura | Converter e usar `<picture>` |
+| Baixa | configurar-app-comedouro-wifi: hero eager sem fetchpriority | linha do hero `loading="eager"` | Adicionar `fetchpriority="high"` |
+| Baixa | Home: 8 imagens eager sem fetchpriority | varredura | Marcar só a LCP como high |
+| Info | 10 `alt=""` na home | cards decorativos | Aceitável |
+| Info | Auditoria global de 06/11 (6 arquivos > 200 KB em posts antigos) não reverificada nesta amostra | - | Manter pendente |
+
+## O que funciona
+- Alt descritivos e dimensões em 100% das imagens das 9 páginas.
+- Lazy em todas, exceto hero; posts de dinheiro mais novos com WebP + fetchpriority.

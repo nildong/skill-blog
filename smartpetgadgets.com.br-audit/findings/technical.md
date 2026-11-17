@@ -1,47 +1,98 @@
-# Technical SEO Findings - smartpetgadgets.com.br (DELTA vs 2026-10-22)
+# Technical SEO - smartpetgadgets.com.br (2026-11-17)
 
-Audit date: 2026-10-23. Method: live curl (headers, redirects, probes), crawl.json (78 URLs, all 200), sitemap.xml diff vs repo directories, source inspection of changed pages. Note: `sitemap_discovery.py` runtime returned "not ready" (/seo setup needed); sitemap and robots were validated manually with curl instead.
+**Nota Technical SEO: 93/100** (anterior 2026-11-06: 95).
+Escopo: 80 URLs do sitemap rastreadas ao vivo (HTML bruto, Accept-Encoding padrão), sondas de headers/redirects/404/410/arquivos internos, .htaccess local, JSON-LD de todas as páginas, comparação com a auditoria de 2026-11-06.
+A queda de 2 pontos vem de: regressão na cobertura de CTA (nova página de produto sem CTA), links de afiliado sem rel completo persistindo, `sitemap.xml` com mudanças não commitadas, e os itens Low antigos ainda abertos sem avanço.
 
-Technical score: **94/100** (prior 96). No Critical or High. Slight drop is for the newly detected two-hop www redirect on http and title/description overflow on the rewritten tapete page.
+## Status por categoria
+Crawlability PASS | Indexability PASS | Security PASS (mínimo) | URL structure PASS | Mobile PASS | CWV (fonte) PASS | JS rendering PASS (HTML estático, sem SPA) | hreflang N/A (site só pt-BR, 0 tags) | IndexNow PARTIAL | Links de afiliado PARTIAL
 
-## Category status
+## Delta vs 2026-11-06
+| Item anterior | Status agora |
+|---|---|
+| T-11 posts sem CTA/JS | MELHOROU. /coleira-seresto-antipulgas/, /comedouro-automatico-para-pet/ e /configurar-app-comedouro-wifi/ agora carregam `affiliate-cta.js?v=1`. CONTINUA em /comedouro-newpet-4l-review/ (tem links meli.la, sem CTA). |
+| T-12 links sem nofollow | CONTINUA (9 links: 3 em /cachorro-de-casa-pega-pulga/ `sponsored noopener`; 6 em /coleira-seresto-antipulgas/ só `noopener`). Era 8; 9 agora. |
+| T-02 http://www em 2 saltos | CONTINUA. http://www -> 301 https://www -> 301 apex. |
+| T-03 /index.html 200 | CONTINUA (200, 142.086 bytes). |
+| T-05 404 genérico | CONTINUA (404, 4.511 bytes, lang="en-us"). |
+| T-06 Permissions-Policy | CONTINUA ausente. |
+| T-07 deploy não reproduzível | CONTINUA. `img/logo-dark.png` untracked e live 200; `img/logoblog.png` 404 live. Dezenas de diretórios untracked. `sitemap.xml` modificado e não commitado (idêntico ao live). |
+| T-08 IndexNow | PARTIAL, ver T-08. Arquivo de chave existe e responde 200. |
+| T-10 title/meta fora da faixa | CONTINUA (mesmas páginas) + 2 metas de 161/163 chars. |
+| T-13 metas curtas erros-comuns | CONTINUA (94 e 108 chars). |
+| T-14 MIME do JS | CONTINUA (`application/x-javascript`). Ganhou `?v=1`/`?v=2` nas tags, cache-bust resolvido. |
+| Sitemap | OK. 80 URLs (eram 78), lastmod mais recente 2026-11-16. Local e live idênticos. |
+| 410 em /cluster-comedouro-automatico-pet/ | MANTIDO (410, 824 bytes; /reports/x.md também 410). |
+| Duplicados | 0 títulos e 0 metas duplicados. |
 
-| Category | Status | Notes |
-|---|---|---|
-| Crawlability | PASS | robots.txt unchanged and valid; sitemap declared, 78 loc, 200, no backup/reports URLs |
-| Indexability | PASS | 78/78 crawl URLs 200, self-canonical, no robots meta, no duplicate titles |
-| Security | PASS | HSTS, CSP frame-ancestors, XCTO, XFO, Referrer-Policy live and match .htaccess |
-| URL structure | PASS (1 note) | See L1 (http://www two hops) |
-| Mobile | PASS | viewport present; responsive srcset on rewritten page |
-| CWV (source) | PASS | width/height on all imgs, hero eager+fetchpriority=high on new page |
-| Structured data | PASS | tapete page: BlogPosting, BreadcrumbList, ItemList, FAQPage |
-| JS rendering | PASS | static SSR |
-| IndexNow | PASS | key file live (200, content matches), deploy.sh pings |
+## O que funciona (verificado hoje)
+- 80/80 URLs do sitemap: 200, sem redirecionamento, canonical autorreferente, sem meta robots/noindex, viewport presente, GA4 G-WDT1Q1NLKK em 80/80, Open Graph em 80/80, 0 links http:// (mixed content).
+- 1 H1 por página (a home tem `<h1 class="page-title">`, ok).
+- Novos posts (/melhor-racao-para-gato/, /melhor-racao-para-cachorro/, rankings de coleira GPS, brinquedo, bebedouro, comedouro hub, câmera petisco, tutorial Tuya) estão todos no sitemap, 200, com canonical correta, title/meta válidos.
+- JSON-LD: 0 blocos com JSON inválido em 80 páginas. Tipos: BlogPosting 74, BreadcrumbList 74, FAQPage 74, ItemList 12, Product 7, VideoObject 2, ProfilePage 1, Organization 1, WebSite 1. (Validação de campos/brand: ver findings/schema.md.)
+- 0 links internos para URLs fora do sitemap; nenhum arquivo local `*/index.html` ficou fora do sitemap.
+- 300 `<img>`: 100% com atributos width/height (CLS baixo), 213 com `loading="lazy"`; LCP da página testada (/coleira-gps-para-gato/) com `<link rel="preload" as="image" fetchpriority="high">`.
+- CSS inline (0 stylesheets bloqueantes), scripts só `defer` (theme-toggle.js?v=2, affiliate-cta.js?v=1); gtag carregado após o load.
+- Compressão Brotli (`content-encoding: br`, `vary: Accept-Encoding`); HTTP/2 + HTTP/3 (alt-svc); TTFB da home ~0,22 s; maior HTML 141 KB (home).
+- robots.txt: Allow para todos, `Disallow: /?s=`, 15 user-agents de IA/busca declarados com Content-Signal (ai-train=no), Sitemap declarado. `sitemap_discovery.py` validou https://smartpetgadgets.com.br/sitemap.xml (urlset válido, 200); sitemap_index/wp-sitemap não existem (esperado).
+- Redirect slug: /soprador-para-pet/ -> 301 /soprador-pet/ (1 salto). Sem barra final -> 301 para versão com barra. https://www/x/ -> 301 apex em 1 salto.
+- Exposição: .htaccess, .git/config, /pins/ = 403; /audit/, /tools/, .data/, PROMPT_TAILTRONIX.md, local_dirs.txt, auditorias .md = 404/negados. Nada sensível público.
+- Headers de segurança: HSTS 1 ano includeSubDomains, nosniff, Referrer-Policy strict-origin-when-cross-origin, X-Frame-Options SAMEORIGIN, CSP frame-ancestors.
 
-## Confirmed fixed since last audit
-- Sitemap _backup* fix holds: live sitemap has 78 URLs, zero backup/report entries; every repo directory with an index.html is in the sitemap and vice versa. Sitemap lastmods updated (2026-10-23 on recent edits).
-- cerca-virtual-para-cachorro restored: 200, self-canonical, no redirect rule in .htaccess (only the soprador-para-pet rule remains). Fixed.
-- melhor-tapete-higienico-para-cachorro: 200, trailing-slash 301 works, canonical correct, 9/9 images have width/height, 15 affiliate links carry rel sponsored.
-- Backup/orphan exposure: /reports/ (404, also Disallowed in robots), /jev-seo-reports/, /tools/, /briefs/, /audit/, /output_social_v2/, /calendars/, README.md, V2-*.md, local_dirs.txt, /smartpetgadgets.com.br-audit/, /.claude/ all 404; .git/.env/.htaccess return 403; /cluster-comedouro-automatico-pet/ 403. /reports/backup-fase2a-1/ is 404 (GSC removal follow-up looks safe to close once GSC confirms).
-- 404 handling: real 404 status, custom page, no soft-404.
-- Still good: https redirect, www to non-www, legacy slug 301 (soprador-para-pet to soprador-pet), llms.txt 200, robots AI-crawler policy unchanged.
+## Findings
 
-## Open items (carried over)
-- L2 (carried): title/description overflow. From crawl: titles over 60 chars on comedouro-automatico-para-dois-gatos (64), -gato-obeso (61, desc 161), -para-viagem (64), comedouro-gato-x-cachorro-diferenca (61), coleira-gps-cachorro-que-foge (66). Low.
-- L3 (carried): homepage has an FAQ heading but no FAQPage JSON-LD (homepage JSON-LD count 2). Low.
-- L4 (carried): Person schema on /autores/nildo-alves/ still lacks `image`. Low.
-- Homepage PSI never run (72 images). Low.
+### T-11 Medium (parcial) - /comedouro-newpet-4l-review/ com links de afiliado sem CTA
+Evidência: a página tem links meli.la/mercadolivre mas não referencia `/affiliate-cta.js` (única das páginas de produto restante; as outras 3 foram corrigidas). Sem CTA topo, barra fixa mobile e evento GA4 `affiliate_click`.
+Correção: aplicar o mesmo bloco CTA + `<script src="/affiliate-cta.js?v=1" defer>`, ou registrar a exclusão como intencional.
 
-## New findings
-- **Medium - M1: Rewritten tapete page title and description too long.** /melhor-tapete-higienico-para-cachorro/ title is 67 chars ("Melhor Tapete Higienico para Cachorro em 2026: Comparamos 7 Modelos") and description 170 chars; both will truncate in SERP. Trim to <=60 / <=155.
-- **Low - L1: http://www two hops.** http://www.smartpetgadgets.com.br/ 301s to https://www... then 301s to https://smartpetgadgets.com.br/ (2 hops). The prior report said single hop for all variants; true for http apex and https www only. Fix: add an HTTPS/host canonicalization rule in .htaccess that redirects any non-canonical host or scheme straight to https://smartpetgadgets.com.br (RewriteCond on %{HTTPS} off [OR] host starts with www).
-- **Low - L5: Possible cannibalization.** /tapete-higienico-para-cachorro/ (review, "Vale a Pena? Review 2026") and the new 7-product /melhor-tapete-higienico-para-cachorro/ target the same head term. Both self-canonical and both in sitemap. Differentiate intent (single product review vs. comparison) and cross-link, or consolidate with a 301 if the review is thin.
-- **Low - L6: Thin utility pages.** /contato/ (197 words), /politica-editorial/ (245), /sobre/ (390), and /melhor-camera-para-monitorar-pet/ (587 words, lowest of the money posts) are short. Utility pages are acceptable; the camera comparison is the only one worth expanding. Utility pages carry 1 JSON-LD block, which is fine.
-- **Low - L7: Author page description 191 chars** (truncation only).
-- **Info - I1: Cache headers.** HTML returns 200 without explicit cache-control (LiteSpeed default); static assets have max-age=604800. Consider longer immutable caching for hashed or versioned images. Not an issue today.
-- **Info - I2: Working tree is dirty.** Repo has many uncommitted edits (comedouro cluster HTML/images, sitemap.xml, llms.txt). The live sitemap already reflects the changes, so confirm deploy and git state match before the next push.
-- **Info - I3: Sitemap tooling.** claude-seo runtime needs `/seo setup` for sitemap_discovery.py.
+### T-12 Medium (continua) - 9 links de afiliado sem rel completo
+Evidência (varredura live):
+- /cachorro-de-casa-pega-pulga/: 3x https://meli.la/2dk6x44 com `rel="sponsored noopener"` (sem nofollow).
+- /coleira-seresto-antipulgas/: 6x https://www.mercadolivre.com.br/coleira-antipulgas-... com `rel="noopener"` apenas (sem sponsored, link comercial; risco de política Google sobre links pagos).
+Correção: `rel="nofollow sponsored noopener"`. Prioridade no Seresto, onde falta `sponsored`.
 
-## Evidence
-- Live: /, /robots.txt, /sitemap.xml, /llms.txt, /a1f6cd69536df7bc75a53518c642c336.txt, redirect probes (http, www, index.html, no-slash, legacy slug), 404 probe, backup/orphan probes.
-- Local: /home/projetos/blog/.htaccess, /home/projetos/blog/sitemap.xml, /home/projetos/blog/cerca-virtual-para-cachorro/index.html, crawl.json in scratchpad/audit.
+### T-15 Low (novo) - sitemap.xml e muitos arquivos live sem commit
+Evidência: `git status` mostra `sitemap.xml` modificado (diff = só lastmod, 4 linhas) e iguais ao live; dezenas de diretórios untracked (img/ML, img/modelo, fotos/, audit/, reports/social/). Branch develop-v2, main atrás.
+Correção: commitar sitemap; `.gitignore` para capturas/auditorias; merge em main. Risco: deploy não reproduzível a partir do repositório (ver T-07).
+
+### T-10 Low (continua) - title/meta fora da faixa
+Evidência: /autores/nildo-alves/ meta 191; /contato/ title 27 + meta 71; /sobre/ title 25; /coleira-seresto-antipulgas/ meta 161; /configurar-app-comedouro-wifi/ meta 163 (tendem a truncar).
+Correção: metas 130-155; ex. title de /sobre/ "Sobre o Smart Pet Gadgets - Quem Somos e Como Avaliamos".
+
+### T-13 Low (continua) - metas curtas
+Evidência: /erros-comuns-porta-eletronica-pet/ 94 chars; /erros-comuns-brinquedo-interativo-gato/ 108 chars.
+Correção: 130-155 chars com benefício + chamada.
+
+### T-02 Low (continua) - http://www em 2 saltos
+Evidência: `curl -I http://www.smartpetgadgets.com.br/` -> 301 https://www.smartpetgadgets.com.br/ -> 301 https://smartpetgadgets.com.br/. O .htaccess só trata host www; http->https vem do hPanel.
+Correção: regra única no topo: `RewriteCond %{HTTP_HOST} ^www\. [NC,OR]` + `RewriteCond %{HTTPS} off` -> `RewriteRule ^(.*)$ https://smartpetgadgets.com.br/$1 [R=301,L]`.
+
+### T-03 Low (continua) - /index.html responde 200
+Evidência: https://smartpetgadgets.com.br/index.html -> 200, 142.086 bytes (canonical da home consolida, mas é URL duplicada).
+Correção: `RewriteCond %{THE_REQUEST} \s/index\.html` + `RewriteRule ^index\.html$ / [R=301,L]`.
+
+### T-05 Low (continua) - 404 genérico em inglês
+Evidência: /nao-existe/ -> 404, 4.511 bytes, `<html lang="en-us">`, página padrão da Hostinger. Sem links de retorno.
+Correção: /404.html pt-BR com busca/clusters + `ErrorDocument 404 /404.html`.
+
+### T-06 Low (continua) - Permissions-Policy ausente, CSP mínima
+Correção: `Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"`. HSTS sem `preload` (opcional).
+
+### T-07 Low (continua) - logo-dark.png untracked; logoblog.png 404
+Evidência: https://smartpetgadgets.com.br/img/logo-dark.png 200 mas untracked; https://smartpetgadgets.com.br/img/logoblog.png 404 (untracked local, não enviado). Verificar se alguma página referencia logoblog.png (varredura local de `/img/` não achou referência ausente).
+Correção: `git add img/logo-dark.png`.
+
+### T-08 Low (parcial) - IndexNow
+Evidência: chave a1f6cd69536df7bc75a53518c642c336.txt live 200 e `deploy.sh` (linhas ~164-194) envia o arquivo-chave, mas não há evidência de ping às URLs alteradas (a API IndexNow não é chamada no trecho verificado; /indexnow.txt 404 é irrelevante).
+Correção: após cada deploy, POST em https://api.indexnow.org/indexnow com as URLs alteradas (rankings novos, Tuya, schema brand). Benefício apenas Bing/Yandex/Naver; Google ignora.
+
+### T-14 Info - affiliate-cta.js como application/x-javascript
+Funciona. Opcional: `AddType text/javascript .js`. Cache 7 dias com `?v=` já tratado.
+
+### T-04 Info - WAF com UAs falsos (não reavaliado)
+Checar GSC Crawl Stats e Bing Webmaster por 403/429.
+
+## Prioridade
+1. Medium: T-12 (`sponsored` ausente no Seresto), T-11 (newpet-4l sem CTA).
+2. Low: T-15/T-07 (repositório), T-10/T-13 (metas), T-02/T-03/T-05/T-06 (.htaccess/404), T-08 (ping IndexNow).
+Nenhum Critical ou High.

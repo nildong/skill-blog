@@ -1,0 +1,333 @@
+{
+ "summary": {
+  "health_score": 85,
+  "business_type": "Publisher afiliado/review (pet gadgets, pt-BR), HTML estático",
+  "audit_date": "2026-11-06",
+  "previous": {
+   "date": "2026-11-04",
+   "health_score": 84
+  },
+  "top_findings": [
+   "Páginas de dinheiro sem mudança de formato: melhor-coleira-gps-sem-mensalidade com 0 produtos, par de câmeras canibalizando, melhor-bebedouro-automatico-pet com 2 produtos",
+   "affiliate_click = 0 eventos no GA4 desde o deploy de 11-05 (~15 sessões; não prova falha, mas precisa de teste real)",
+   "CTA do topo genérico ('Ver preço no Mercado Livre') sem nome de produto em páginas sem lista; barra fixa nunca aparece no antipulgas",
+   "CTR caindo: 0,85% nos últimos 7 dias; 27 páginas na posição 4-20 com 0 cliques; títulos novos ainda não rastreados pelo Google",
+   "Conteúdo raso: 36/72 posts <600 palavras; melhor-camera com 345 palavras recomendando Tapo C200 sem comparação"
+  ],
+  "quick_wins": [
+   "Testar um clique real de afiliado no GA4 DebugView/Realtime",
+   "Pedir indexação (Inspeção de URL) das 14 páginas retituladas + 9 aberturas GEO; enviar ao IndexNow",
+   "Incluir affiliate-cta.js nos 4 posts com afiliado que não o carregam; rel sponsored/nofollow nos 8 links (seresto 5, pulga 3)",
+   "Corrigir gatilho da barra fixa no antipulgas e padding do body (64px → 72px)",
+   "Corrigir as 2 promessas de title/meta sem cobertura (camera-pet-com-dispensador, como-instalar-porta) e o '71 artigos' da home"
+  ]
+ },
+ "google_data": {
+  "period": "2026-10-07..2026-11-03",
+  "clicks": 42,
+  "impressions": 3740,
+  "ctr": 1.12,
+  "position": 9.8,
+  "last_7d": {
+   "period": "2026-10-28..2026-11-03",
+   "clicks": 10,
+   "impressions": 1172,
+   "ctr": 0.85,
+   "position": 9.0
+  },
+  "prev": {
+   "clicks": 17,
+   "impressions": 1161
+  },
+  "crux": "sem dados (tráfego insuficiente)",
+  "indexed_inspected": "12/12",
+  "ga4_sessions": "91 (10-27..11-05): Direct 32, Facebook 25, ChatGPT 17, Orgânico 17",
+  "affiliate_click_events": 0,
+  "sitemap_last_submitted": "2026-11-04"
+ },
+ "categories": [
+  {
+   "name": "Technical SEO",
+   "score": 95,
+   "what_works": [
+    "78/78 URLs 200, canonical próprio, 1 H1, sem noindex",
+    "/cluster-comedouro-automatico-pet/ e .md → 410; .htaccess nega .md/.json",
+    "affiliate-cta.js 200; gtag pós-load em 78/78",
+    "0 links internos quebrados",
+    "Sitemap reenviado em 11-04, 0 erros"
+   ],
+   "findings": [
+    {
+     "title": "4 posts com afiliado sem affiliate-cta.js",
+     "severity": "Medium",
+     "description": "coleira-seresto-antipulgas, comedouro-automatico-para-pet, comedouro-newpet-4l-review, configurar-app-comedouro-wifi",
+     "recommendation": "Incluir só a tag do script (sem bloco do topo — pulados de propósito em 11-05 por já terem link antes do 1º H2), para ter affiliate_click e barra fixa"
+    },
+    {
+     "title": "8 links de afiliado sem rel correto",
+     "severity": "Medium",
+     "description": "coleira-seresto-antipulgas: 5 links ML só noopener; cachorro-de-casa-pega-pulga: 3 sem nofollow",
+     "recommendation": "rel=\"sponsored nofollow noopener\""
+    },
+    {
+     "title": "http://www com 2 saltos; /index.html 200; 404 genérico em inglês; sem Permissions-Policy",
+     "severity": "Low",
+     "description": "Persistentes desde 10-29",
+     "recommendation": "301 único, 404 próprio em pt-BR, header Permissions-Policy"
+    },
+    {
+     "title": "Sem IndexNow",
+     "severity": "Low",
+     "description": "Nenhuma evidência de envio",
+     "recommendation": "Enviar as URLs alteradas em 11-05"
+    }
+   ]
+  },
+  {
+   "name": "Content Quality",
+   "score": 76,
+   "what_works": [
+    "9 aberturas com resposta direta coerentes com o corpo",
+    "Metadados sem template",
+    "E-E-A-T: sem alegações falsas de teste"
+   ],
+   "findings": [
+    {
+     "title": "Conteúdo raso",
+     "severity": "High",
+     "description": "36/72 posts <600 palavras, 29 <400; FAQ repete o corpo em 29 posts",
+     "recommendation": "Consolidar câmera (melhor-camera + dúvidas + erros, 301), depois porta e brinquedo"
+    },
+    {
+     "title": "CTAs genéricos dominando páginas curtas",
+     "severity": "Medium",
+     "description": "61 posts ganharam CTA do topo sem nome de produto; páginas de ~300 palavras com 2 CTAs + barra",
+     "recommendation": "Nomear o produto no CTA (3 páginas de produto primeiro; cluster comedouro pausado)"
+    },
+    {
+     "title": "'Atualizado em 5/11' por 1 parágrafo",
+     "severity": "Medium",
+     "description": "9 páginas com +20 a 90 palavras",
+     "recommendation": "Só subir a data visível com mudança material"
+    },
+    {
+     "title": "Title/meta prometem o que o texto não cobre",
+     "severity": "Medium",
+     "description": "camera-pet-com-dispensador (ansiedade), como-instalar-porta (parede)",
+     "recommendation": "Ajustar o texto ou o title/meta"
+    },
+    {
+     "title": "ANXK G68 recomendado com 1 avaliação e preço de agosto",
+     "severity": "Medium",
+     "description": "coleira-gps-para-gato e abertura de coleira-gps-para-pet; R$ 301,99 atual",
+     "recommendation": "Rebaixar e atualizar preço com data"
+    },
+    {
+     "title": "Key Takeaways com '- ' literais",
+     "severity": "Low",
+     "description": "24 páginas; 7 logo abaixo das aberturas novas",
+     "recommendation": "Converter em <ul> e renomear 'Pontos principais'"
+    }
+   ]
+  },
+  {
+   "name": "On-Page SEO",
+   "score": 85,
+   "what_works": [
+    "0 títulos duplicados, nenhum >65 caracteres",
+    "14 titles/metas reescritos no ar",
+    "Links internos sem quebras"
+   ],
+   "findings": [
+    {
+     "title": "27 páginas posição 4-20 com 0 cliques",
+     "severity": "High",
+     "description": "CTR 7d 0,85%; Google ainda mostra títulos antigos (último crawl ≤ 10-31)",
+     "recommendation": "Pedir indexação das 14 retituladas; medir 26/11-03/12; seguir com P2"
+    },
+    {
+     "title": "Metas curtas e institucionais",
+     "severity": "Low",
+     "description": "erros-comuns-porta (94), erros-comuns-brinquedo (108), autor (191); sobre/contato titles curtos",
+     "recommendation": "Ajustar"
+    }
+   ]
+  },
+  {
+   "name": "Schema / Structured Data",
+   "score": 85,
+   "what_works": [
+    "0 erros de parse em 78 URLs",
+    "72 BlogPosting, 29 Product+Review",
+    "dateModified do vdrbg corrigido"
+   ],
+   "findings": [
+    {
+     "title": "Grafo sem @id; Person sem image/sameAs",
+     "severity": "Medium",
+     "description": "73 Persons sem image, 72 sem sameAs",
+     "recommendation": "Grafo #org/#website/#person com foto do autor"
+    },
+    {
+     "title": "Seções novas sem Product",
+     "severity": "Medium",
+     "description": "bebedouro (5), pilha, GPS gato, cerca",
+     "recommendation": "Adicionar Product/Review quando houver dados"
+    },
+    {
+     "title": "dateModified divergente",
+     "severity": "Low",
+     "description": "comedouro-automatico-vale-a-pena (08-20 vs 21/08), cachorro-de-casa-pega-pulga",
+     "recommendation": "Alinhar"
+    }
+   ]
+  },
+  {
+   "name": "Performance (CWV)",
+   "score": 99,
+   "what_works": [
+    "PSI mobile média 99",
+    "Bebedouro LCP 3,5 s → 0,9 s",
+    "affiliate-cta.js: CLS 0, TBT ≤100 ms"
+   ],
+   "findings": [
+    {
+     "title": "Antipulgas LCP 2,8 s",
+     "severity": "Medium",
+     "description": "Único acima de 2,5 s",
+     "recommendation": "Hero WebP com srcset + preload, padrão do bebedouro"
+    },
+    {
+     "title": "CrUX sem dados",
+     "severity": "Info",
+     "description": "Tráfego insuficiente",
+     "recommendation": "Só lab"
+    }
+   ]
+  },
+  {
+   "name": "AI Search Readiness",
+   "score": 73,
+   "what_works": [
+    "Crawlers de busca de IA liberados",
+    "llms.txt 78/78 alinhado, títulos novos refletidos",
+    "Agentic 3/3, Agent-UX 100",
+    "ChatGPT = 17 sessões (empatado com orgânico)"
+   ],
+   "findings": [
+    {
+     "title": "lastmod em massa por mudança de template",
+     "severity": "Medium",
+     "description": "71/78 URLs com lastmod 11-05; 63/72 divergem do dateModified",
+     "recommendation": "Só subir lastmod com mudança material"
+    },
+    {
+     "title": "Aberturas sem preço nem linha de método",
+     "severity": "Medium",
+     "description": "8/9 sem preço; nenhuma com 'consultado em / não testamos'",
+     "recommendation": "Adicionar preço datado e linha de método"
+    },
+    {
+     "title": "sem-mensalidade e porta-eletronica sem produto na abertura",
+     "severity": "High",
+     "description": "Nenhum produto/preço/número",
+     "recommendation": "Nomear produtos"
+    },
+    {
+     "title": "Entidade fraca",
+     "severity": "Medium",
+     "description": "Sem @id, autor sem foto/sameAs, sem YouTube/Wikidata",
+     "recommendation": "Grafo + perfis"
+    }
+   ]
+  },
+  {
+   "name": "Images",
+   "score": 80,
+   "what_works": [
+    "0 sem alt, 0 sem width/height",
+    "Cards da home em WebP com srcset"
+   ],
+   "findings": [
+    {
+     "title": "Heroes JPG pesados",
+     "severity": "Medium",
+     "description": "6 arquivos >200 KB (maior 344 KB); 91 JPG de 239",
+     "recommendation": "WebP 1200w/800w com srcset"
+    },
+    {
+     "title": "fetchpriority só em 11 posts",
+     "severity": "Medium",
+     "description": "11/~73",
+     "recommendation": "Adicionar no hero de todos"
+    }
+   ]
+  }
+ ],
+ "sxo": {
+  "gap_score": 66,
+  "previous": 65
+ },
+ "diagnostics": {
+  "agentic": {
+   "score": 96,
+   "lighthouse_agentic": "3/3"
+  },
+  "geo": 72,
+  "visual": 83,
+  "google_data": 63,
+  "backlinks": "dados insuficientes"
+ },
+ "action_plan": {
+  "phases": [
+   {
+    "name": "Fase 1: Correções Críticas",
+    "timeframe": "Semana 1",
+    "items": [
+     "Testar affiliate_click no GA4 DebugView",
+     "Pedir indexação das 23 páginas alteradas em 11-05 e enviar ao IndexNow",
+     "affiliate-cta.js nos 4 posts faltantes; rel nos 8 links",
+     "Barra fixa: gatilho no antipulgas e padding 72px",
+     "CTA do topo: nomear o produto ou remover em sem-mensalidade, câmeras, bebedouro-automatico, gps-gato"
+    ]
+   },
+   {
+    "name": "Fase 2: Melhorias de Alto Impacto",
+    "timeframe": "Semanas 2-3",
+    "items": [
+     "melhor-bebedouro-automatico-pet: reaproveitar os cards do inox-x-ceramica e retitular para 'fonte para gato'",
+     "Câmeras: manter camera-para-monitorar-pet e 301 da outra, expandir para 6-8 modelos",
+     "melhor-coleira-gps-sem-mensalidade como lista por tecnologia",
+     "Antipulgas: hero/preload (LCP 2,8 s)",
+     "Investigar comedouro-cachorro (24,5) e tapete (10→17, landing do ChatGPT) com GSC por query"
+    ]
+   },
+   {
+    "name": "Fase 3: Conteúdo & Autoridade",
+    "timeframe": "Mês 2",
+    "items": [
+     "Consolidar stubs de câmera, porta e brinquedo",
+     "Grafo @id com foto do autor",
+     "Preço datado + linha de método nas páginas de dinheiro",
+     "Key Takeaways → <ul>",
+     "Heroes JPG → WebP; fetchpriority em todos"
+    ]
+   },
+   {
+    "name": "Fase 4: Monitoramento & Iteração",
+    "timeframe": "Contínuo",
+    "items": [
+     "Medir CTR das 14 retituladas em 26/11-03/12",
+     "Comparar sessões ChatGPT 06/11-05/12",
+     "affiliate_click por página após 2-3 semanas",
+     "Só subir lastmod/data com mudança material"
+    ]
+   }
+  ]
+ },
+ "artifacts": {
+  "findings_dir": "findings/",
+  "screenshots_dir": "screenshots/",
+  "previous_audit": "archive/2026-11-04/"
+ }
+}

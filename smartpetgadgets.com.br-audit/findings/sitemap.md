@@ -1,34 +1,52 @@
-# Sitemap Audit - smartpetgadgets.com.br (delta vs 2026-10-22)
+# Achados do sitemap - smartpetgadgets.com.br (2026-11-17)
 
-Audit date: 2026-10-23. Sources: live sitemap.xml and robots.txt, local sitemap.xml, crawl.json (78 URLs), llms.txt, .data/site-index.json (generated 2026-10-14).
+Auditoria anterior: 2026-11-06 (78 URLs). Score atual: **96/100** (anterior: ~95).
 
-## Pass/fail
-| Check | Result |
+## Resumo
+- Sitemap ao vivo (`/sitemap.xml`, 200, application/xml) e local `/home/projetos/blog/sitemap.xml` sao **byte a byte identicos** (`diff` vazio). O local tem alteracoes nao commitadas (4 lastmod -> 2026-11-16), mas ja estao implantadas. Falta apenas `git commit` (risco de perder/reverter no proximo deploy a partir do HEAD).
+- 80 URLs (+2 vs 11-06: `/melhor-racao-para-cachorro/` e `/melhor-racao-para-gato/`), sem duplicatas, sem `priority`/`changefreq`, bem abaixo de 50k URLs / 50 MB.
+
+## Portoes
+| Verificacao | Resultado |
 |---|---|
-| XML valid, namespace, 78 URLs, no duplicates, far below limits | PASS |
-| No priority/changefreq | PASS |
-| Live vs local sitemap | PASS (identical, md5 bd948ee1...) |
-| Sitemap vs crawl (78 vs 78) | PASS (zero diff both ways) |
-| Status/canonical/noindex | PASS (all 200, final == URL, canonical self, no noindex) |
-| robots.txt Sitemap directive | PASS (`Sitemap: https://smartpetgadgets.com.br/sitemap.xml`; only /reports/ and /?s= disallowed) |
-| _backup* leak | PASS (no backup URLs; no _backup dirs at repo root) |
-| llms.txt coverage | FAIL (cerca-virtual-para-cachorro missing) |
-| site-index.json coverage | FAIL (stale, 77 posts, cerca-virtual missing) |
-| lastmod accuracy | PARTIAL (see below) |
+| XML valido, namespace 0.9, loc + lastmod em todas | PASSA |
+| 80/80 retornam 200 sem redirect | PASSA |
+| canonical == loc em 80/80; nenhum noindex | PASSA |
+| Cobertura: 0 pastas `<slug>/index.html` fora do sitemap; 0 URLs sem pasta (exceto `/` e `/autores/nildo-alves/`, que sao paginas legitimas) | PASSA |
+| Sem URLs problematicas: `/soprador-para-pet/` (301, fora do sitemap), `/cluster-comedouro-automatico-pet/` (410, fora), `/reports/` (410), nenhum `backup-*` listado | PASSA |
+| robots.txt: `Sitemap: https://smartpetgadgets.com.br/sitemap.xml` presente; `Allow: /`, sem bloqueios do sitemap | PASSA |
+| Sitemap vs llms.txt ao vivo: conjuntos identicos (80) | PASSA |
+| lastmod vs ultimo commit do index.html: 78/80 iguais | PASSA com ressalva (S-02) |
 
-## Findings
+## Delta vs 2026-11-06
+| Item | 11-06 | 11-17 |
+|---|---|---|
+| URLs | 78 | 80 (+2 racao) |
+| Distribuicao lastmod | 71 em 11-05, 7 em 11-04 | 49 em 11-05, 10 em 11-12, 6 em 11-15, 4 em 11-16, 4 em 11-04, 3 em 11-14, 2 em 11-11, 2 em 11-08 |
+| lastmod igual ao commit | 78/78 | 78/80 |
+| Criticos/Altos/Medios | 0 | 0 |
 
-1. MEDIUM - cerca-virtual-para-cachorro/ still absent from llms.txt and .data/site-index.json (unchanged since prior audit). It is in sitemap, crawl, and is 200. Fix: regenerate site-index and add to llms.txt. Note llms.txt has uncommitted changes and still lacks it.
+Corrigido/melhorou: lastmod agora diferenciado por pagina (antes 71 em uma unica data), refletindo reescritas reais (rankings de bebedouro, brinquedo, comedouro, camera, Seresto, coleira GPS).
+Persistente: S-01 (boilerplate), S-04.
 
-2. LOW - lastmod mismatch for 9 pages. Sitemap says 2026-10-15; last git commit is 2026-10-14 and each file has uncommitted modifications (mtime 2026-10-15): brinquedo-interativo-pilha-x-recarregavel, comedouro-automatico-anti-formiga, comedouro-automatico-faz-mal, comedouro-automatico-gato-obeso, comedouro-automatico-para-dois-gatos, comedouro-automatico-para-viagem, comedouro-com-ou-sem-wifi, como-limpar-comedouro-automatico, configurar-app-comedouro-wifi. The dates reflect real edits, but those edits are uncommitted yet apparently live (live sitemap equals local). Commit them to keep repo and production aligned. Affiliate-cluster work is paused per memory, so confirm these edits are intended to ship.
+## Achados
 
-3. LOW - lastmod distribution: 65 of 78 at 2026-10-14 (bulk title-update date), 9 at 10-15, 1 at 10-19, 1 at 10-22, 2 at 10-23 (home plus one other). Home 10-23 is plausible (card edits). The 10-14 cluster is likely a mass title change, so it is a weak freshness signal but not fabricated. Without per-file git history, other lastmods match last commit date exactly (69/78 verified).
+### S-01 Baixa - 49 URLs ainda com lastmod 2026-11-05 vindo de mudanca de template
+O lote de CTA/barra fixa/GA4 de 11-05 continua sendo o lastmod de 49 posts; apenas parte teve mudanca de conteudo (retitulagens P1, aberturas GEO). Mudanca ja antiga e nao e mais um pico em massa; nao mexer retroativamente. Evitar que futuros ajustes de template elevem lastmod em massa.
 
-4. INFO - sitemap.xml and llms.txt show as modified in the working tree (uncommitted), yet live sitemap matches local: deployment is happening from the working tree without commits. Commit sitemap.xml and llms.txt.
+### S-02 Info - Local nao commitado e 2 lastmod com 1 dia de diferenca
+- `sitemap.xml` com 4 lastmod -> 11-16 (`brinquedo-interativo-automatico-para-gato`, `coleira-gps-para-gato`, `coleira-gps-para-pet`, `coleira-seresto-antipulgas`) corresponde aos commits de schema (362c384, 55dda7a), ja ao vivo. Recomendado commitar.
+- `comedouro-automatico-faz-mal` e `comedouro-automatico-para-dois-gatos`: lastmod 11-11, commit 11-12 (146cbc8); `Last-Modified` HTTP ao vivo = 11-11. Diferenca de fuso/upload, sem impacto.
+- Nota: os 4 de 11-16 foram so ajuste de schema (brand/Product), mudanca tecnica pequena; aceitavel, mas nao e conteudo.
 
-5. INFO - Resolved since prior audit: none new regressions; backup exclusion remains effective.
+### S-03 Info - Manutencao manual
+Sitemap e llms.txt sao manuais (hoje consistentes, 80 = 80). Sugerido script pre-deploy que gere ambos e compare. Sem sitemap de imagem/video (opcional).
 
-## Missing / extra pages
-- In crawl, not sitemap: none.
-- In sitemap, not 200/redirected: none.
-- Quality gates: no location-page pattern (not applicable).
+### S-04 Info - Itens nao publicados (persistente)
+`local_dirs.txt`, `audit/`, `reports/`, `fotos/` etc. estao untracked; `/reports/` e 410 ao vivo. Garantir que nao entrem no deploy; nenhum aparece no sitemap.
+
+### S-05 Info - IndexNow
+Submeter ao IndexNow as URLs com lastmod de 11-12 a 11-16 (reescritas) e as 2 novas de racao, se ainda nao feito.
+
+## Nota de score
+Sem erros de XML, status, noindex ou cobertura: 96/100. Descontos: lastmod de template (S-01, -2) e pendencia de commit/manutencao manual (S-02/S-03, -2).

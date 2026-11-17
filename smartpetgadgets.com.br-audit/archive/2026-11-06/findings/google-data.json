@@ -1,0 +1,237 @@
+{
+ "collected": "2026-11-06",
+ "gsc_last_data_day": "2026-11-03",
+ "gsc": {
+  "28d": {
+   "range": "2026-10-07..2026-11-03",
+   "clicks": 42,
+   "impressions": 3740,
+   "ctr": 1.12,
+   "position": 9.8
+  },
+  "7d": {
+   "range": "2026-10-28..2026-11-03",
+   "clicks": 10,
+   "impressions": 1172,
+   "ctr": 0.85,
+   "position": 9.0
+  },
+  "prev28d": {
+   "range": "2026-09-09..2026-10-06",
+   "clicks": 17,
+   "impressions": 1161,
+   "ctr": 1.46,
+   "position": 10.0
+  },
+  "audit_2026_11_04": {
+   "clicks": 42,
+   "impressions": 3604,
+   "ctr": 1.17,
+   "position": 9.9
+  },
+  "pages_with_impressions_28d": 77,
+  "opportunities_pos4_20_zero_clicks_min20impr": 27,
+  "comedouro_cachorro": {
+   "prev": {
+    "impr": 18,
+    "pos": 9.8
+   },
+   "28d": {
+    "impr": 47,
+    "pos": 22.8
+   },
+   "7d": {
+    "impr": 10,
+    "pos": 24.5
+   }
+  }
+ },
+ "retitled_2026_11_05": {
+  "baseline_clicks_28d": 0,
+  "judgeable": false,
+  "pages": [
+   {
+    "slug": "comedouro-gato-x-cachorro-diferenca",
+    "clicks28": 0,
+    "impr28": 24,
+    "pos28": 4.1,
+    "impr7": 5,
+    "pos7": 3.6,
+    "clicks7": 0
+   },
+   {
+    "slug": "comedouro-automatico-para-viagem",
+    "clicks28": 0,
+    "impr28": 81,
+    "pos28": 6.1,
+    "impr7": 34,
+    "pos7": 6.3,
+    "clicks7": 0
+   },
+   {
+    "slug": "erros-comuns-coleira-gps-pet",
+    "clicks28": 0,
+    "impr28": 63,
+    "pos28": 6.5,
+    "impr7": 20,
+    "pos7": 7.1,
+    "clicks7": 0
+   },
+   {
+    "slug": "comedouro-automatico-gato-obeso",
+    "clicks28": 0,
+    "impr28": 32,
+    "pos28": 6.2,
+    "impr7": 8,
+    "pos7": 5.9,
+    "clicks7": 0
+   },
+   {
+    "slug": "como-configurar-camera-pet-wifi",
+    "clicks28": 0,
+    "impr28": 34,
+    "pos28": 6.4,
+    "impr7": 13,
+    "pos7": 6.2,
+    "clicks7": 0
+   },
+   {
+    "slug": "comedouro-vdrbg-4l-wifi-review",
+    "clicks28": 0,
+    "impr28": 88,
+    "pos28": 6.8,
+    "impr7": 34,
+    "pos7": 5.4,
+    "clicks7": 0
+   },
+   {
+    "slug": "coleira-gps-cachorro-que-foge",
+    "clicks28": 0,
+    "impr28": 29,
+    "pos28": 7.3,
+    "impr7": 7,
+    "pos7": 6.6,
+    "clicks7": 0
+   },
+   {
+    "slug": "soprador-pet",
+    "clicks28": 0,
+    "impr28": 34,
+    "pos28": 7.5,
+    "impr7": 7,
+    "pos7": 8.3,
+    "clicks7": 0
+   },
+   {
+    "slug": "soprador-para-pet",
+    "clicks28": 0,
+    "impr28": 45,
+    "pos28": 9.6,
+    "impr7": 10,
+    "pos7": 9.9,
+    "clicks7": 0
+   },
+   {
+    "slug": "cachorro-de-casa-pega-pulga",
+    "clicks28": 0,
+    "impr28": 35,
+    "pos28": 7.7,
+    "impr7": 6,
+    "pos7": 8,
+    "clicks7": 0
+   },
+   {
+    "slug": "como-instalar-porta-eletronica-pet",
+    "clicks28": 0,
+    "impr28": 21,
+    "pos28": 7.8,
+    "impr7": 5,
+    "pos7": 9.2,
+    "clicks7": 0
+   },
+   {
+    "slug": "tapete-higienico-para-cachorro",
+    "clicks28": 0,
+    "impr28": 24,
+    "pos28": 7.7,
+    "impr7": 9,
+    "pos7": 4.9,
+    "clicks7": 0
+   },
+   {
+    "slug": "camera-pet-grava-sem-internet",
+    "clicks28": 0,
+    "impr28": 56,
+    "pos28": 8.1,
+    "impr7": 16,
+    "pos7": 8.2,
+    "clicks7": 0
+   },
+   {
+    "slug": "comedouro-x-bebedouro-automatico",
+    "clicks28": 0,
+    "impr28": 82,
+    "pos28": 8.9,
+    "impr7": 22,
+    "pos7": 11.6,
+    "clicks7": 0
+   },
+   {
+    "slug": "camera-pet-com-dispensador-de-petisco",
+    "clicks28": 0,
+    "impr28": 34,
+    "pos28": 8.2,
+    "impr7": 16,
+    "pos7": 7.6,
+    "clicks7": 0
+   }
+  ]
+ },
+ "sitemap": {
+  "path": "/sitemap.xml",
+  "last_submitted": "2026-11-04T12:10:47Z",
+  "submitted_urls": 78,
+  "errors": 0,
+  "warnings": 0
+ },
+ "url_inspection": {
+  "inspected": 12,
+  "all_pass_indexed": true,
+  "last_crawl_before_retitle": true,
+  "oldest_crawl": "2026-10-11"
+ },
+ "ga4": {
+  "range": "2026-10-27..2026-11-05",
+  "sessions_total": 91,
+  "by_channel": {
+   "Direct": 32,
+   "Organic Social": 25,
+   "AI Assistant": 17,
+   "Organic Search": 17
+  },
+  "chatgpt_sessions": 17,
+  "chatgpt_landing": {
+   "/melhor-tapete-higienico-para-cachorro": 11,
+   "/coleira-gps-para-gato": 6
+  },
+  "organic_by_source": {
+   "google": 13,
+   "bing": 3,
+   "ecosia.org": 1
+  },
+  "affiliate_click_since_2026-11-05": 0,
+  "affiliate_click_total": 0,
+  "outbound_click_events_meli_la": 4
+ },
+ "crux": {
+  "status": "insufficient_traffic"
+ },
+ "google_updates": {
+  "ledger_verified": "2026-09-28",
+  "stale": true,
+  "relevant": [
+   "2026-09-24 September 2026 Spam Update"
+  ]
+ },
+ "score": 63
+}

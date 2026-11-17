@@ -1,0 +1,851 @@
+{
+ "collected": "2026-11-17",
+ "gsc": {
+  "cur": "2026-10-18..2026-11-14",
+  "prev": "2026-09-20..2026-10-17",
+  "totals_cur": {
+   "clicks": 63,
+   "impr": 5090,
+   "ctr": 1.24,
+   "pos": 9.3
+  },
+  "totals_prev": {
+   "clicks": 29,
+   "impr": 2450,
+   "ctr": 1.18,
+   "pos": 10.1
+  },
+  "device_cur": {
+   "MOBILE": [
+    47,
+    3867,
+    7.0
+   ],
+   "DESKTOP": [
+    16,
+    1200,
+    16.6
+   ],
+   "TABLET": [
+    0,
+    23,
+    6.3
+   ]
+  },
+  "device_prev": {
+   "MOBILE": [
+    20,
+    1849,
+    7.9
+   ],
+   "DESKTOP": [
+    9,
+    593,
+    16.8
+   ],
+   "TABLET": [
+    0,
+    8,
+    7.2
+   ]
+  },
+  "searchAppearance_cur": {
+   "PRODUCT_SNIPPETS": [
+    0,
+    79,
+    18.0
+   ],
+   "REVIEW_SNIPPET": [
+    0,
+    9,
+    7.0
+   ]
+  },
+  "searchAppearance_prev": {
+   "PRODUCT_SNIPPETS": [
+    0,
+    11,
+    15.5
+   ],
+   "REVIEW_SNIPPET": [
+    0,
+    12,
+    7.9
+   ]
+  },
+  "pages_with_impr": {
+   "cur": 79,
+   "prev": 77
+  },
+  "sitemap": {
+   "submitted": 80,
+   "errors": 0,
+   "warnings": 0,
+   "last_submitted": "2026-11-04T12:10Z"
+  }
+ },
+ "inspection": {
+  "melhor-racao-para-gato": {
+   "coverage": "Submitted and indexed",
+   "last_crawl": "2026-11-08T20:10:32Z",
+   "canonical_match": true
+  },
+  "melhor-racao-para-cachorro": {
+   "coverage": "Submitted and indexed",
+   "last_crawl": "2026-11-08T17:53:54Z",
+   "canonical_match": true
+  },
+  "camera-pet-com-dispensador-de-petisco": {
+   "coverage": "Submitted and indexed",
+   "last_crawl": "2026-11-15T06:27:22Z",
+   "canonical_match": true
+  },
+  "comedouro-automatico-para-pet": {
+   "coverage": "Submitted and indexed",
+   "last_crawl": "2026-11-15T04:34:52Z",
+   "canonical_match": true
+  },
+  "melhor-bebedouro-automatico-pet": {
+   "coverage": "Submitted and indexed",
+   "last_crawl": "2026-11-14T03:07:43Z",
+   "canonical_match": true
+  },
+  "coleira-gps-para-gato": {
+   "coverage": "Submitted and indexed",
+   "last_crawl": "2026-11-16T16:51:17Z",
+   "canonical_match": true
+  },
+  "coleira-gps-para-cachorro": {
+   "coverage": "URL is unknown to Google",
+   "last_crawl": null,
+   "canonical_match": null
+  },
+  "brinquedo-interativo-automatico-para-gato": {
+   "coverage": "Submitted and indexed",
+   "last_crawl": "2026-10-23T18:21:53Z",
+   "canonical_match": true
+  },
+  "coleira-seresto-antipulgas": {
+   "coverage": "Submitted and indexed",
+   "last_crawl": "2026-11-16T17:25:52Z",
+   "canonical_match": true
+  }
+ },
+ "ga4": {
+  "channels_28d": [
+   [
+    "Direct",
+    "61",
+    "12",
+    "59"
+   ],
+   [
+    "Organic Search",
+    "61",
+    "30",
+    "53"
+   ],
+   [
+    "AI Assistant",
+    "30",
+    "17",
+    "29"
+   ],
+   [
+    "Organic Social",
+    "25",
+    "12",
+    "25"
+   ]
+  ],
+  "channels_prev": [],
+  "source": [
+   [
+    "(direct)",
+    "(none)",
+    "61",
+    "12",
+    "59"
+   ],
+   [
+    "google",
+    "organic",
+    "56",
+    "25",
+    "48"
+   ],
+   [
+    "chatgpt.com",
+    "ai-assistant",
+    "29",
+    "16",
+    "28"
+   ],
+   [
+    "facebook.com",
+    "referral",
+    "13",
+    "10",
+    "13"
+   ],
+   [
+    "m.facebook.com",
+    "referral",
+    "10",
+    "0",
+    "10"
+   ],
+   [
+    "bing",
+    "organic",
+    "4",
+    "4",
+    "4"
+   ],
+   [
+    "lm.facebook.com",
+    "referral",
+    "2",
+    "2",
+    "2"
+   ],
+   [
+    "ecosia.org",
+    "organic",
+    "1",
+    "1",
+    "1"
+   ],
+   [
+    "gemini.google.com",
+    "ai-assistant",
+    "1",
+    "1",
+    "1"
+   ]
+  ],
+  "events": [
+   [
+    "page_view",
+    "189",
+    "166"
+   ],
+   [
+    "session_start",
+    "177",
+    "166"
+   ],
+   [
+    "first_visit",
+    "166",
+    "166"
+   ],
+   [
+    "user_engagement",
+    "88",
+    "76"
+   ],
+   [
+    "click",
+    "23",
+    "15"
+   ],
+   [
+    "affiliate_click",
+    "18",
+    "11"
+   ],
+   [
+    "scroll",
+    "17",
+    "15"
+   ]
+  ],
+  "aff_by_date": [
+   [
+    "20261114",
+    "5"
+   ],
+   [
+    "20261108",
+    "4"
+   ],
+   [
+    "20261110",
+    "2"
+   ],
+   [
+    "20261116",
+    "2"
+   ],
+   [
+    "20261106",
+    "1"
+   ],
+   [
+    "20261111",
+    "1"
+   ],
+   [
+    "20261112",
+    "1"
+   ],
+   [
+    "20261113",
+    "1"
+   ],
+   [
+    "20261115",
+    "1"
+   ]
+  ],
+  "aff_by_page": [
+   [
+    "/coleira-gps-para-gato/",
+    "affiliate_click",
+    "6"
+   ],
+   [
+    "/melhor-tapete-higienico-para-cachorro/",
+    "affiliate_click",
+    "5"
+   ],
+   [
+    "/melhor-bebedouro-automatico-pet/",
+    "affiliate_click",
+    "2"
+   ],
+   [
+    "/melhor-racao-para-cachorro/",
+    "affiliate_click",
+    "2"
+   ],
+   [
+    "/camera-para-monitorar-pet/",
+    "affiliate_click",
+    "1"
+   ],
+   [
+    "/cerca-virtual-para-cachorro/",
+    "affiliate_click",
+    "1"
+   ],
+   [
+    "/comedouro-newpet-2l-review/",
+    "affiliate_click",
+    "1"
+   ]
+  ],
+  "aff_by_src": [
+   [
+    "chatgpt.com",
+    "/coleira-gps-para-gato/",
+    "5"
+   ],
+   [
+    "chatgpt.com",
+    "/melhor-tapete-higienico-para-cachorro/",
+    "5"
+   ],
+   [
+    "(direct)",
+    "/melhor-racao-para-cachorro/",
+    "2"
+   ],
+   [
+    "(direct)",
+    "/cerca-virtual-para-cachorro/",
+    "1"
+   ],
+   [
+    "(direct)",
+    "/coleira-gps-para-gato/",
+    "1"
+   ],
+   [
+    "(direct)",
+    "/melhor-bebedouro-automatico-pet/",
+    "1"
+   ],
+   [
+    "gemini.google.com",
+    "/camera-para-monitorar-pet/",
+    "1"
+   ],
+   [
+    "google",
+    "/comedouro-newpet-2l-review/",
+    "1"
+   ],
+   [
+    "google",
+    "/melhor-bebedouro-automatico-pet/",
+    "1"
+   ]
+  ],
+  "click": [
+   [
+    "/melhor-tapete-higienico-para-cachorro/",
+    "chatgpt.com",
+    "7"
+   ],
+   [
+    "/coleira-gps-para-gato/",
+    "chatgpt.com",
+    "4"
+   ],
+   [
+    "/cerca-virtual-para-cachorro/",
+    "(direct)",
+    "2"
+   ],
+   [
+    "/coleira-gps-para-gato/",
+    "(direct)",
+    "2"
+   ],
+   [
+    "/melhor-racao-para-cachorro/",
+    "(direct)",
+    "2"
+   ],
+   [
+    "/camera-para-monitorar-pet/",
+    "gemini.google.com",
+    "1"
+   ],
+   [
+    "/comedouro-automatico-para-pet/",
+    "(direct)",
+    "1"
+   ],
+   [
+    "/comedouro-newpet-2l-review/",
+    "google",
+    "1"
+   ],
+   [
+    "/melhor-bebedouro-automatico-pet/",
+    "(direct)",
+    "1"
+   ],
+   [
+    "/melhor-bebedouro-automatico-pet/",
+    "google",
+    "1"
+   ],
+   [
+    "/melhor-camera-para-monitorar-pet/",
+    "gemini.google.com",
+    "1"
+   ]
+  ],
+  "chatgpt_pages": [
+   [
+    "/melhor-tapete-higienico-para-cachorro",
+    "16",
+    "9",
+    "16"
+   ],
+   [
+    "/coleira-gps-para-gato",
+    "12",
+    "7",
+    "11"
+   ],
+   [
+    "/melhor-comedouro-automatico-cachorro",
+    "1",
+    "0",
+    "1"
+   ]
+  ],
+  "chatgpt_daily": [
+   [
+    "20261104",
+    "4",
+    "3",
+    "4"
+   ],
+   [
+    "20261116",
+    "4",
+    "2",
+    "4"
+   ],
+   [
+    "20261028",
+    "3",
+    "3",
+    "3"
+   ],
+   [
+    "20261029",
+    "3",
+    "2",
+    "3"
+   ],
+   [
+    "20261102",
+    "3",
+    "1",
+    "3"
+   ],
+   [
+    "20261114",
+    "3",
+    "1",
+    "2"
+   ],
+   [
+    "20261115",
+    "2",
+    "1",
+    "2"
+   ],
+   [
+    "20261030",
+    "1",
+    "1",
+    "1"
+   ],
+   [
+    "20261101",
+    "1",
+    "1",
+    "1"
+   ],
+   [
+    "20261103",
+    "1",
+    "0",
+    "1"
+   ],
+   [
+    "20261105",
+    "1",
+    "0",
+    "1"
+   ],
+   [
+    "20261107",
+    "1",
+    "0",
+    "1"
+   ],
+   [
+    "20261108",
+    "1",
+    "1",
+    "1"
+   ],
+   [
+    "20261110",
+    "1",
+    "0",
+    "1"
+   ]
+  ],
+  "organic_pages": [
+   [
+    "/configurar-app-comedouro-wifi",
+    "24",
+    "5",
+    "18"
+   ],
+   [
+    "/coleira-gps-para-gato",
+    "4",
+    "3",
+    "4"
+   ],
+   [
+    "/melhor-antipulgas-para-cachorro",
+    "3",
+    "3",
+    "3"
+   ],
+   [
+    "/melhor-camera-para-monitorar-pet",
+    "3",
+    "3",
+    "3"
+   ],
+   [
+    "(not set)",
+    "2",
+    "0",
+    "2"
+   ],
+   [
+    "/comedouro-automatico-para-viagem",
+    "2",
+    "1",
+    "2"
+   ],
+   [
+    "/comedouro-newpet-2l-review",
+    "2",
+    "2",
+    "2"
+   ],
+   [
+    "/melhor-bebedouro-automatico-pet",
+    "2",
+    "1",
+    "2"
+   ],
+   [
+    "/melhor-comedouro-interativo-gato",
+    "2",
+    "2",
+    "2"
+   ],
+   [
+    "/bebedouro-inox-x-ceramica",
+    "1",
+    "0",
+    "1"
+   ],
+   [
+    "/coleira-gps-bluetooth-x-chip-operadora",
+    "1",
+    "1",
+    "1"
+   ],
+   [
+    "/comedouro-automatico-anti-formiga",
+    "1",
+    "0",
+    "1"
+   ],
+   [
+    "/comedouro-automatico-faz-mal",
+    "1",
+    "1",
+    "1"
+   ],
+   [
+    "/comedouro-automatico-para-dois-gatos",
+    "1",
+    "0",
+    "1"
+   ],
+   [
+    "/comedouro-gato-x-cachorro-diferenca",
+    "1",
+    "1",
+    "1"
+   ],
+   [
+    "/comedouro-vdrbg-4l-wifi-review",
+    "1",
+    "1",
+    "1"
+   ],
+   [
+    "/como-configurar-camera-pet-wifi",
+    "1",
+    "1",
+    "1"
+   ],
+   [
+    "/como-escolher-brinquedo-interativo-gato-entediado",
+    "1",
+    "1",
+    "1"
+   ],
+   [
+    "/como-funciona-coleira-gps-cachorro",
+    "1",
+    "1",
+    "1"
+   ],
+   [
+    "/duvidas-coleira-gps-pet",
+    "1",
+    "0",
+    "1"
+   ],
+   [
+    "/melhor-racao-para-cachorro",
+    "1",
+    "1",
+    "1"
+   ],
+   [
+    "/porta-eletronica-funciona-porta-de-vidro",
+    "1",
+    "0",
+    "1"
+   ],
+   [
+    "/porta-eletronica-reconhecimento-facial-vale-a-pena",
+    "1",
+    "0",
+    "1"
+   ],
+   [
+    "/porta-eletronica-sensor-de-luz-como-funciona",
+    "1",
+    "1",
+    "1"
+   ],
+   [
+    "/sobre",
+    "1",
+    "1",
+    "1"
+   ],
+   [
+    "/tapete-higienico-para-cachorro",
+    "1",
+    "0",
+    "1"
+   ]
+  ],
+  "organic_src": [
+   [
+    "google",
+    "56",
+    "25",
+    "48"
+   ],
+   [
+    "bing",
+    "4",
+    "4",
+    "4"
+   ],
+   [
+    "ecosia.org",
+    "1",
+    "1",
+    "1"
+   ]
+  ],
+  "daily_all": [
+   [
+    "20261101",
+    "21",
+    "12",
+    "21"
+   ],
+   [
+    "20261115",
+    "17",
+    "6",
+    "14"
+   ],
+   [
+    "20261105",
+    "15",
+    "5",
+    "14"
+   ],
+   [
+    "20261104",
+    "14",
+    "6",
+    "14"
+   ],
+   [
+    "20261106",
+    "14",
+    "1",
+    "14"
+   ],
+   [
+    "20261030",
+    "9",
+    "6",
+    "9"
+   ],
+   [
+    "20261103",
+    "9",
+    "4",
+    "9"
+   ],
+   [
+    "20261114",
+    "9",
+    "2",
+    "8"
+   ],
+   [
+    "20261111",
+    "8",
+    "4",
+    "7"
+   ],
+   [
+    "20261112",
+    "8",
+    "3",
+    "8"
+   ],
+   [
+    "20261116",
+    "8",
+    "3",
+    "7"
+   ],
+   [
+    "20261029",
+    "7",
+    "2",
+    "7"
+   ],
+   [
+    "20261113",
+    "7",
+    "2",
+    "5"
+   ],
+   [
+    "20261028",
+    "6",
+    "5",
+    "6"
+   ],
+   [
+    "20261027",
+    "5",
+    "0",
+    "5"
+   ],
+   [
+    "20261102",
+    "5",
+    "2",
+    "5"
+   ],
+   [
+    "20261108",
+    "5",
+    "3",
+    "5"
+   ],
+   [
+    "20261110",
+    "5",
+    "3",
+    "5"
+   ],
+   [
+    "20261109",
+    "3",
+    "1",
+    "3"
+   ],
+   [
+    "20261107",
+    "2",
+    "1",
+    "2"
+   ]
+  ]
+ },
+ "crux": "insufficient traffic (no data)"
+}
