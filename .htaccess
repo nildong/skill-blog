@@ -24,4 +24,5 @@ RewriteRule ^cluster-comedouro-automatico-pet/ - [G,L]
 
 # BEGIN SLUG REDIRECTS
 Redirect 301 /soprador-para-pet/ https://smartpetgadgets.com.br/soprador-pet/
+Redirect 301 /melhor-camera-para-monitorar-pet/ https://smartpetgadgets.com.br/camera-para-monitorar-pet/
 # END SLUG REDIRECTS
