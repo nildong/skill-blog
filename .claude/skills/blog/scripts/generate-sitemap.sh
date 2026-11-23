@@ -24,6 +24,30 @@ set -euo pipefail
 # adicionado em 2026-09-01 pelo mesmo motivo: reports/affiliate/backup-*/
 # (backups locais gerados durante migração de links de afiliado) vazou
 # 15 URLs de páginas duplicadas/lixo para o sitemap de produção.
+# Emite <image:image> para o og:image e para cada <img> local do post
+# (extensão de sitemap de imagens do Google). Ignora imagens externas, o
+# logo do site e as variantes responsivas -480w/-800w/-1200w do hero (o
+# og:image já é a versão cheia dele). Sem duplicatas.
+emit_sitemap_images() {
+  local htmlfile="$1" domain="$2" rel_dir="$3"
+  {
+    grep -oE '<meta property="og:image" content="[^"]+"' "$htmlfile" | sed -E 's/.*content="([^"]+)"/\1/'
+    grep -oE '<img [^>]*>' "$htmlfile" | grep -oE ' src="[^"]+"' | sed -E 's/ src="([^"]+)"/\1/'
+  } | while IFS= read -r src; do
+    case "$src" in
+      "$domain"/*) echo "$src" ;;
+      http*|data:*) ;;
+      /*) echo "${domain}${src}" ;;
+      *) echo "${domain}/${rel_dir}/${src#./}" ;;
+    esac
+  done | grep -vE '/img/logo\.png$|-(480|800|1200)w\.[a-z]+$' | awk '!seen[$0]++' | sed 's/&/\&amp;/g' \
+    | while IFS= read -r url; do
+        echo "    <image:image>"
+        echo "      <image:loc>${url}</image:loc>"
+        echo "    </image:image>"
+      done
+}
+
 generate_sitemap() {
   local blog_root="$1"
   local domain="$2"
@@ -31,7 +55,7 @@ generate_sitemap() {
 
   {
     echo '<?xml version="1.0" encoding="UTF-8"?>'
-    echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+    echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">'
 
     # Raiz do site (home)
     if [[ -f "$blog_root/index.html" ]]; then
@@ -58,6 +82,7 @@ generate_sitemap() {
       echo "  <url>"
       echo "    <loc>${domain}/${rel_dir}/</loc>"
       echo "    <lastmod>${lastmod}</lastmod>"
+      emit_sitemap_images "$htmlfile" "$domain" "$rel_dir"
       echo "  </url>"
     done < <(find "$blog_root" -mindepth 2 -name index.html -not -path '*/.*' -print0 | sort -z)
 
