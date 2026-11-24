@@ -1,0 +1,345 @@
+{
+ "summary": {
+  "health_score": 84,
+  "business_type": "Publisher afiliado/review (pet gadgets, pt-BR), HTML estático",
+  "audit_date": "2026-11-04",
+  "previous": {
+   "date": "2026-10-29",
+   "health_score": 83
+  },
+  "top_findings": [
+   "Pasta interna /cluster-comedouro-automatico-pet/ publicada (briefs .md, cluster-plan.json, quality-report.md, cannibalization-report.md, cluster-map.html — todos 200)",
+   "Páginas de dinheiro com formato errado e sem mudança desde 10-29: coleira GPS sem mensalidade (0 produtos), par de câmeras canibalizando (19,5 vs 17,2), bebedouro com 2 produtos",
+   "melhor-comedouro-automatico-cachorro caiu de 9,8 para 22,8 após a troca de produtos de 10-22; não recuperou com o recrawl de 10-31",
+   "CTR é o gargalo: 27 páginas na posição 4-20 com 0 cliques; 3.604 impressões e só 42 cliques",
+   "Conteúdo raso: 37/72 posts <600 palavras, FAQs repetem o corpo (mediana 0,876), 113 marcadores '- ' literais"
+  ],
+  "quick_wins": [
+   "Tirar /cluster-comedouro-automatico-pet/ do servidor (ou 410/deny) e pedir remoção no GSC",
+   "Reenviar o sitemap no GSC (último envio 08-26, 70 dias)",
+   "Corrigir o preload do hero do bebedouro (JPG pré-carregado, WebP servido) e o hero do antipulgas: LCP 3,5 s → ~1 s",
+   "Título/meta das páginas na posição 4-8 com 0 cliques (viagem, vdrbg, erros-comuns-coleira, camera-grava-sem-internet, gato-x-cachorro)",
+   "rel='sponsored' nos 5 links diretos do ML em coleira-seresto-antipulgas e nofollow em cachorro-de-casa-pega-pulga"
+  ]
+ },
+ "google_data": {
+  "period": "2026-10-06..2026-11-02",
+  "clicks": 42,
+  "impressions": 3604,
+  "ctr": 1.17,
+  "position": 9.9,
+  "prev": {
+   "clicks": 16,
+   "impressions": 1080,
+   "ctr": 1.48,
+   "position": 10.1
+  },
+  "crux": "sem dados (tráfego insuficiente)",
+  "indexed_inspected": "10/10",
+  "ga4_organic_sessions": "11 (10-26..11-03)",
+  "sitemap_last_submitted": "2026-08-26"
+ },
+ "categories": [
+  {
+   "name": "Technical SEO",
+   "score": 96,
+   "what_works": [
+    "78/78 URLs 200, canonical próprio, sem noindex",
+    "0 links quebrados, 0 órfãs",
+    "/reports/ 410 visível ao Google (Disallow removido)",
+    "GA4 em 78/78",
+    "HSTS, HTTP/2, brotli; .git/.htaccess 403"
+   ],
+   "findings": [
+    {
+     "title": "Pasta de planejamento publicada",
+     "severity": "High",
+     "description": "/cluster-comedouro-automatico-pet/ serve about.md, briefs a1..d2, cluster-plan.json, quality-report.md, cannibalization-report.md e cluster-map.html com 200",
+     "recommendation": "Remover do servidor e do deploy; bloquear *.md/*.json fora de assets no .htaccess; pedir remoção no GSC se rastreado"
+    },
+    {
+     "title": "http://www com 2 saltos",
+     "severity": "Low",
+     "description": "http://www → https://www → apex",
+     "recommendation": "301 único para https://apex"
+    },
+    {
+     "title": "/index.html retorna 200",
+     "severity": "Low",
+     "description": "Duplicata da home (canonical mitiga)",
+     "recommendation": "301 para /"
+    },
+    {
+     "title": "404 padrão da Hostinger",
+     "severity": "Low",
+     "description": "'This Page Does Not Exist', sem marca",
+     "recommendation": "404.html pt-BR + ErrorDocument"
+    },
+    {
+     "title": "Deploy fora do git",
+     "severity": "Low",
+     "description": "logo-dark.png no ar sem versão; local_dirs.txt solto na raiz",
+     "recommendation": "Commitar assets, .gitignore, merge develop-v2 → main"
+    }
+   ]
+  },
+  {
+   "name": "Content Quality",
+   "score": 75,
+   "what_works": [
+    "Alegações de teste e byline contraditória removidas em todo o site (conferido ao vivo)",
+    "Ledes com resposta direta",
+    "Seções novas com tabelas datadas e 'Pontos de atenção'",
+    "Sem duplicação entre páginas"
+   ],
+   "findings": [
+    {
+     "title": "Clusters rasos",
+     "severity": "High",
+     "description": "37/72 posts <600 palavras (29 <400); melhor-camera com ~280-577 palavras",
+     "recommendation": "Fundir stubs duvidas-/erros-comuns- nos pilares com 301 ou expandir; reconstruir melhor-camera"
+    },
+    {
+     "title": "FAQs repetem o corpo",
+     "severity": "Medium",
+     "description": "Sobreposição mediana 0,876; 31 posts >0,9",
+     "recommendation": "Reescrever ou remover FAQs redundantes"
+    },
+    {
+     "title": "Markdown não convertido",
+     "severity": "Medium",
+     "description": "113 parágrafos '<p>- …</p>' em 24 páginas; rótulo 'Key Takeaways' em inglês",
+     "recommendation": "Converter para <ul><li> e renomear 'Pontos principais'"
+    },
+    {
+     "title": "Lacunas YMYL",
+     "severity": "Medium",
+     "description": "Antipulgas sem alerta FDA sobre isoxazolinas; Seresto/pulga sem fonte externa",
+     "recommendation": "Adicionar alerta e bula do fabricante"
+    },
+    {
+     "title": "Citações 'retrieved' em inglês",
+     "severity": "Medium",
+     "description": "115 em 57 páginas",
+     "recommendation": "'consultado em DD/MM/AAAA' com fonte primária"
+    },
+    {
+     "title": "Sem artefatos de experiência",
+     "severity": "Medium",
+     "description": "Nenhuma foto/medição própria",
+     "recommendation": "Adicionar em 3-4 reviews carro-chefe"
+    }
+   ]
+  },
+  {
+   "name": "On-Page SEO",
+   "score": 84,
+   "what_works": [
+    "Títulos/metas únicos, 1 H1 por página",
+    "Hub↔spoke bidirecional em todos os clusters"
+   ],
+   "findings": [
+    {
+     "title": "CTR baixo nas posições 4-20",
+     "severity": "High",
+     "description": "27 páginas com ≥20 impressões e 0 cliques",
+     "recommendation": "Reescrever title/meta começando pelas posições 4-8"
+    },
+    {
+     "title": "Canibalização no cluster de câmera",
+     "severity": "High",
+     "description": "camera-para-monitorar-pet usa 'Melhor Câmera…' no title; 19,5 vs 17,2 no GSC",
+     "recommendation": "Hub vira guia; 'Melhor…' só na página de compra (ou consolidar com 301)"
+    },
+    {
+     "title": "17 páginas com <3 links internos de entrada",
+     "severity": "Medium",
+     "description": "duvidas-camera, duvidas-coleira, soprador-pet com 1; antipulgas e tapete com 2",
+     "recommendation": "~25 links contextuais (lista em findings/cluster.md)"
+    },
+    {
+     "title": "Metas/títulos fora da faixa",
+     "severity": "Low",
+     "description": "Meta 191 car. em /autores/nildo-alves/, 161 em gato-obeso; títulos curtos em /sobre/ e /contato/",
+     "recommendation": "Ajustar"
+    }
+   ]
+  },
+  {
+   "name": "Schema / Structured Data",
+   "score": 84,
+   "what_works": [
+    "78/78 JSON-LD válidos",
+    "BlogPosting completo nos 72 posts",
+    "291/292 FAQs batem com o texto",
+    "Reviews sem alegação de teste"
+   ],
+   "findings": [
+    {
+     "title": "Grafo sem @id",
+     "severity": "Medium",
+     "description": "Organization/WebSite/Person sem @id; Person sem image",
+     "recommendation": "@graph com #org/#website/#person referenciado nos posts"
+    },
+    {
+     "title": "Seções de produto sem Product/ItemList",
+     "severity": "Medium",
+     "description": "bebedouro-inox-x-ceramica, brinquedo-pilha, antipulgas (6 produtos)",
+     "recommendation": "Adicionar quando a reformulação de afiliados for retomada"
+    },
+    {
+     "title": "Review com autor Organization",
+     "severity": "Low",
+     "description": "29 Reviews em 11 páginas vs BlogPosting com Person",
+     "recommendation": "Unificar para Person"
+    },
+    {
+     "title": "Products sem image e inconsistências",
+     "severity": "Low",
+     "description": "10 Products sem image; worstRating '1' no newpet-2l; reviewBody do Sanol cita 4.9 vs 7.7",
+     "recommendation": "Corrigir"
+    }
+   ]
+  },
+  {
+   "name": "Performance (CWV)",
+   "score": 96,
+   "what_works": [
+    "Home mobile 92→99, LCP 2,7→1,7 s, peso -67%",
+    "CLS ~0 em todas",
+    "Comedouro e coleira com LCP 0,8 s"
+   ],
+   "findings": [
+    {
+     "title": "Preload errado no bebedouro",
+     "severity": "High",
+     "description": "Preload do JPG, <picture> serve WebP; LCP 3,5 s",
+     "recommendation": "Preload do WebP com imagesrcset ou só fetchpriority"
+    },
+    {
+     "title": "Hero do antipulgas sem prioridade",
+     "severity": "High",
+     "description": "1200x1200 sem fetchpriority/preload; LCP 3,5 s",
+     "recommendation": "WebP 480/800w + srcset + fetchpriority"
+    },
+    {
+     "title": "GA4 gera long tasks",
+     "severity": "Medium",
+     "description": "181 KB, 76 KB não usados; TBT 110-120 ms",
+     "recommendation": "Carregar após load/idle"
+    }
+   ]
+  },
+  {
+   "name": "AI Search Readiness",
+   "score": 72,
+   "what_works": [
+    "llms.txt 78/78 sincronizado",
+    "Crawlers de busca IA com 200",
+    "Lighthouse Agentic 3/3; Agent-UX 100"
+   ],
+   "findings": [
+    {
+     "title": "Páginas de coleira GPS sem nada citável",
+     "severity": "High",
+     "description": "Pilar e sem-mensalidade não nomeiam produtos; parados desde 08-22",
+     "recommendation": "Comparativo com tabela, ItemList, veredito após H1"
+    },
+    {
+     "title": "Presença fora do site mínima",
+     "severity": "High",
+     "description": "Só Facebook; sem YouTube/Wikidata; CC sem o domínio",
+     "recommendation": "Canal YouTube + sameAs; buscar links editoriais"
+    },
+    {
+     "title": "robots Allow vs ai-train=no",
+     "severity": "Low",
+     "description": "GPTBot/meta-externalagent recebem 429 apesar de Allow",
+     "recommendation": "Disallow nos bots de treino ou liberar no hPanel"
+    }
+   ]
+  },
+  {
+   "name": "Images",
+   "score": 80,
+   "what_works": [
+    "0 sem alt, 0 sem width/height",
+    "Home 100% WebP 400w/800w com srcset",
+    "Nenhum hero com lazy"
+   ],
+   "findings": [
+    {
+     "title": "Heroes JPG nos posts antigos",
+     "severity": "Medium",
+     "description": "97/239 imgs não-WebP; 6 arquivos >200 KB (porta-eletronica-impede… 344 KB)",
+     "recommendation": "Converter para WebP 1200/800w com srcset"
+    },
+    {
+     "title": "fetchpriority em só 10/73 posts",
+     "severity": "Medium",
+     "description": "Posts antigos sem prioridade no hero",
+     "recommendation": "Adicionar fetchpriority='high' no hero"
+    }
+   ]
+  }
+ ],
+ "sxo": {
+  "gap_score": 65,
+  "previous": 66
+ },
+ "action_plan": {
+  "phases": [
+   {
+    "name": "Fase 1: Correções Críticas",
+    "timeframe": "Semana 1",
+    "items": [
+     "Remover /cluster-comedouro-automatico-pet/ do servidor e do deploy; bloquear .md/.json no .htaccess",
+     "Reenviar o sitemap no GSC",
+     "Corrigir preload do bebedouro e hero do antipulgas",
+     "rel sponsored nos links do ML em seresto e pulga",
+     "Investigar a queda de melhor-comedouro-automatico-cachorro (diff do commit 987323d de 10-22)"
+    ]
+   },
+   {
+    "name": "Fase 2: Melhorias de Alto Impacto",
+    "timeframe": "Semanas 2-3",
+    "items": [
+     "Refazer melhor-coleira-gps-sem-mensalidade como lista por tecnologia com ItemList",
+     "Resolver a canibalização da câmera (hub = guia; 'melhor' na página de compra, 6-8 modelos)",
+     "Bebedouro: 'Melhor Fonte/Bebedouro… N modelos' com tabela",
+     "coleira-gps-para-gato: 3-4 escolhas por tecnologia",
+     "Title/meta das 27 páginas posição 4-20 com 0 cliques, começando pelas 4-8",
+     "~25 links internos para as 17 páginas com <3 links"
+    ]
+   },
+   {
+    "name": "Fase 3: Conteúdo & Autoridade",
+    "timeframe": "Mês 2",
+    "items": [
+     "Converter 113 '- ' em listas reais e 'Key Takeaways' → 'Pontos principais'",
+     "Grafo @id + foto do autor + Review author Person",
+     "Fundir/expandir stubs finos; reescrever FAQs redundantes",
+     "Antipulgas: alerta FDA, bula, ItemList",
+     "Trocar 115 'retrieved' por 'consultado em'",
+     "Heroes WebP + fetchpriority nos posts antigos",
+     "Canal YouTube e sameAs"
+    ]
+   },
+   {
+    "name": "Fase 4: Monitoramento & Iteração",
+    "timeframe": "Contínuo",
+    "items": [
+     "GSC semanal: melhor-comedouro-cachorro, alimentador-gatos, câmera, home (44,3)",
+     "lastmod real no sitemap + IndexNow após deploy; gerar llms.txt no script do sitemap",
+     "Redirect http://www em 1 salto, 301 /index.html, 404 com marca",
+     "Moz API key gratuita e export de links do GSC",
+     "Baseline de drift após o próximo deploy"
+    ]
+   }
+  ]
+ },
+ "artifacts": {
+  "findings_dir": "findings/",
+  "screenshots_dir": "screenshots/"
+ }
+}

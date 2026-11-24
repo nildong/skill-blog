@@ -1,0 +1,1946 @@
+{
+ "home|light|320": {
+  "sw": 320,
+  "iw": 320,
+  "off": [],
+  "h1": 290,
+  "cta": null,
+  "nctas": 0,
+  "tbl": [],
+  "dash": 0,
+  "logo": "none|1",
+  "theme": ""
+ },
+ "tapete|light|320": {
+  "sw": 320,
+  "iw": 320,
+  "off": [],
+  "h1": 297,
+  "cta": 2360,
+  "nctas": 15,
+  "tbl": [
+   [
+    527,
+    288,
+    "auto"
+   ],
+   [
+    288,
+    320,
+    "visible"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "bebedouro|light|320": {
+  "sw": 320,
+  "iw": 320,
+  "off": [],
+  "h1": 321,
+  "cta": 11450,
+  "nctas": 7,
+  "tbl": [
+   [
+    288,
+    320,
+    "visible"
+   ],
+   [
+    288,
+    288,
+    "auto"
+   ],
+   [
+    288,
+    288,
+    "auto"
+   ],
+   [
+    288,
+    288,
+    "auto"
+   ],
+   [
+    288,
+    288,
+    "auto"
+   ],
+   [
+    288,
+    288,
+    "auto"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "brinquedo|light|320": {
+  "sw": 320,
+  "iw": 320,
+  "off": [],
+  "h1": 361,
+  "cta": 5032,
+  "nctas": 4,
+  "tbl": [
+   [
+    288,
+    320,
+    "visible"
+   ],
+   [
+    288,
+    288,
+    "auto"
+   ],
+   [
+    288,
+    288,
+    "auto"
+   ],
+   [
+    288,
+    288,
+    "auto"
+   ],
+   [
+    288,
+    288,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "coleira|light|320": {
+  "sw": 320,
+  "iw": 320,
+  "off": [],
+  "h1": 321,
+  "cta": 6788,
+  "nctas": 2,
+  "tbl": [
+   [
+    424,
+    288,
+    "auto"
+   ],
+   [
+    288,
+    288,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "cerca|light|320": {
+  "sw": 320,
+  "iw": 320,
+  "off": [],
+  "h1": 337,
+  "cta": 8250,
+  "nctas": 2,
+  "tbl": [
+   [
+    305,
+    288,
+    "auto"
+   ],
+   [
+    288,
+    288,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "home|light|375": {
+  "sw": 375,
+  "iw": 375,
+  "off": [],
+  "h1": 259,
+  "cta": null,
+  "nctas": 0,
+  "tbl": [],
+  "dash": 0,
+  "logo": "none|1",
+  "theme": ""
+ },
+ "tapete|light|375": {
+  "sw": 375,
+  "iw": 375,
+  "off": [],
+  "h1": 297,
+  "cta": 2172,
+  "nctas": 15,
+  "tbl": [
+   [
+    527,
+    343,
+    "auto"
+   ],
+   [
+    343,
+    375,
+    "visible"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "bebedouro|light|375": {
+  "sw": 375,
+  "iw": 375,
+  "off": [],
+  "h1": 257,
+  "cta": 9981,
+  "nctas": 7,
+  "tbl": [
+   [
+    343,
+    375,
+    "visible"
+   ],
+   [
+    343,
+    343,
+    "auto"
+   ],
+   [
+    343,
+    343,
+    "auto"
+   ],
+   [
+    343,
+    343,
+    "auto"
+   ],
+   [
+    343,
+    343,
+    "auto"
+   ],
+   [
+    343,
+    343,
+    "auto"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "brinquedo|light|375": {
+  "sw": 375,
+  "iw": 375,
+  "off": [],
+  "h1": 281,
+  "cta": 4591,
+  "nctas": 4,
+  "tbl": [
+   [
+    343,
+    375,
+    "visible"
+   ],
+   [
+    343,
+    343,
+    "auto"
+   ],
+   [
+    343,
+    343,
+    "auto"
+   ],
+   [
+    343,
+    343,
+    "auto"
+   ],
+   [
+    343,
+    343,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "coleira|light|375": {
+  "sw": 375,
+  "iw": 375,
+  "off": [],
+  "h1": 297,
+  "cta": 5944,
+  "nctas": 2,
+  "tbl": [
+   [
+    424,
+    343,
+    "auto"
+   ],
+   [
+    343,
+    343,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "cerca|light|375": {
+  "sw": 375,
+  "iw": 375,
+  "off": [],
+  "h1": 337,
+  "cta": 6882,
+  "nctas": 2,
+  "tbl": [
+   [
+    343,
+    343,
+    "auto"
+   ],
+   [
+    343,
+    343,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "home|light|414": {
+  "sw": 414,
+  "iw": 414,
+  "off": [],
+  "h1": 229,
+  "cta": null,
+  "nctas": 0,
+  "tbl": [],
+  "dash": 0,
+  "logo": "none|1",
+  "theme": ""
+ },
+ "tapete|light|414": {
+  "sw": 414,
+  "iw": 414,
+  "off": [],
+  "h1": 257,
+  "cta": 1992,
+  "nctas": 15,
+  "tbl": [
+   [
+    527,
+    382,
+    "auto"
+   ],
+   [
+    382,
+    414,
+    "visible"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "bebedouro|light|414": {
+  "sw": 414,
+  "iw": 414,
+  "off": [],
+  "h1": 217,
+  "cta": 9265,
+  "nctas": 7,
+  "tbl": [
+   [
+    382,
+    414,
+    "visible"
+   ],
+   [
+    382,
+    382,
+    "auto"
+   ],
+   [
+    382,
+    382,
+    "auto"
+   ],
+   [
+    382,
+    382,
+    "auto"
+   ],
+   [
+    382,
+    382,
+    "auto"
+   ],
+   [
+    382,
+    382,
+    "auto"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "brinquedo|light|414": {
+  "sw": 414,
+  "iw": 414,
+  "off": [],
+  "h1": 257,
+  "cta": 4241,
+  "nctas": 4,
+  "tbl": [
+   [
+    382,
+    414,
+    "visible"
+   ],
+   [
+    382,
+    382,
+    "auto"
+   ],
+   [
+    382,
+    382,
+    "auto"
+   ],
+   [
+    382,
+    382,
+    "auto"
+   ],
+   [
+    382,
+    382,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "coleira|light|414": {
+  "sw": 414,
+  "iw": 414,
+  "off": [],
+  "h1": 257,
+  "cta": 5386,
+  "nctas": 2,
+  "tbl": [
+   [
+    424,
+    382,
+    "auto"
+   ],
+   [
+    382,
+    382,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "cerca|light|414": {
+  "sw": 414,
+  "iw": 414,
+  "off": [],
+  "h1": 312,
+  "cta": 6285,
+  "nctas": 2,
+  "tbl": [
+   [
+    382,
+    382,
+    "auto"
+   ],
+   [
+    382,
+    382,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "home|light|768": {
+  "sw": 768,
+  "iw": 768,
+  "off": [],
+  "h1": 209,
+  "cta": null,
+  "nctas": 0,
+  "tbl": [],
+  "dash": 0,
+  "logo": "none|1",
+  "theme": ""
+ },
+ "tapete|light|768": {
+  "sw": 768,
+  "iw": 768,
+  "off": [],
+  "h1": 152,
+  "cta": 1593,
+  "nctas": 15,
+  "tbl": [
+   [
+    736,
+    736,
+    "auto"
+   ],
+   [
+    736,
+    768,
+    "visible"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "bebedouro|light|768": {
+  "sw": 768,
+  "iw": 768,
+  "off": [],
+  "h1": 152,
+  "cta": 6468,
+  "nctas": 7,
+  "tbl": [
+   [
+    736,
+    768,
+    "visible"
+   ],
+   [
+    736,
+    736,
+    "auto"
+   ],
+   [
+    736,
+    736,
+    "auto"
+   ],
+   [
+    736,
+    736,
+    "auto"
+   ],
+   [
+    736,
+    736,
+    "auto"
+   ],
+   [
+    736,
+    736,
+    "auto"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "brinquedo|light|768": {
+  "sw": 768,
+  "iw": 768,
+  "off": [],
+  "h1": 152,
+  "cta": 3329,
+  "nctas": 4,
+  "tbl": [
+   [
+    736,
+    768,
+    "visible"
+   ],
+   [
+    736,
+    736,
+    "auto"
+   ],
+   [
+    736,
+    736,
+    "auto"
+   ],
+   [
+    736,
+    736,
+    "auto"
+   ],
+   [
+    736,
+    736,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "coleira|light|768": {
+  "sw": 768,
+  "iw": 768,
+  "off": [],
+  "h1": 152,
+  "cta": 3858,
+  "nctas": 2,
+  "tbl": [
+   [
+    736,
+    736,
+    "auto"
+   ],
+   [
+    736,
+    736,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "cerca|light|768": {
+  "sw": 768,
+  "iw": 768,
+  "off": [],
+  "h1": 192,
+  "cta": 4154,
+  "nctas": 2,
+  "tbl": [
+   [
+    736,
+    736,
+    "auto"
+   ],
+   [
+    736,
+    736,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "home|light|1280": {
+  "sw": 1280,
+  "iw": 1280,
+  "off": [],
+  "h1": 216,
+  "cta": null,
+  "nctas": 0,
+  "tbl": [],
+  "dash": 0,
+  "logo": "none|1",
+  "theme": ""
+ },
+ "tapete|light|1280": {
+  "sw": 1280,
+  "iw": 1280,
+  "off": [],
+  "h1": 152,
+  "cta": 1584,
+  "nctas": 15,
+  "tbl": [
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    792,
+    "visible"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "bebedouro|light|1280": {
+  "sw": 1280,
+  "iw": 1280,
+  "off": [],
+  "h1": 152,
+  "cta": 6400,
+  "nctas": 7,
+  "tbl": [
+   [
+    760,
+    792,
+    "visible"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "brinquedo|light|1280": {
+  "sw": 1280,
+  "iw": 1280,
+  "off": [],
+  "h1": 152,
+  "cta": 3315,
+  "nctas": 4,
+  "tbl": [
+   [
+    760,
+    792,
+    "visible"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "coleira|light|1280": {
+  "sw": 1280,
+  "iw": 1280,
+  "off": [],
+  "h1": 152,
+  "cta": 3818,
+  "nctas": 2,
+  "tbl": [
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "cerca|light|1280": {
+  "sw": 1280,
+  "iw": 1280,
+  "off": [],
+  "h1": 192,
+  "cta": 4139,
+  "nctas": 2,
+  "tbl": [
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "home|light|1440": {
+  "sw": 1440,
+  "iw": 1440,
+  "off": [],
+  "h1": 216,
+  "cta": null,
+  "nctas": 0,
+  "tbl": [],
+  "dash": 0,
+  "logo": "none|1",
+  "theme": ""
+ },
+ "tapete|light|1440": {
+  "sw": 1440,
+  "iw": 1440,
+  "off": [],
+  "h1": 152,
+  "cta": 1584,
+  "nctas": 15,
+  "tbl": [
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    792,
+    "visible"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "bebedouro|light|1440": {
+  "sw": 1440,
+  "iw": 1440,
+  "off": [],
+  "h1": 152,
+  "cta": 6400,
+  "nctas": 7,
+  "tbl": [
+   [
+    760,
+    792,
+    "visible"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "brinquedo|light|1440": {
+  "sw": 1440,
+  "iw": 1440,
+  "off": [],
+  "h1": 152,
+  "cta": 3315,
+  "nctas": 4,
+  "tbl": [
+   [
+    760,
+    792,
+    "visible"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "coleira|light|1440": {
+  "sw": 1440,
+  "iw": 1440,
+  "off": [],
+  "h1": 152,
+  "cta": 3818,
+  "nctas": 2,
+  "tbl": [
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "cerca|light|1440": {
+  "sw": 1440,
+  "iw": 1440,
+  "off": [],
+  "h1": 192,
+  "cta": 4139,
+  "nctas": 2,
+  "tbl": [
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "home|dark|320": {
+  "sw": 320,
+  "iw": 320,
+  "off": [],
+  "h1": 290,
+  "cta": null,
+  "nctas": 0,
+  "tbl": [],
+  "dash": 0,
+  "logo": "none|1",
+  "theme": ""
+ },
+ "tapete|dark|320": {
+  "sw": 320,
+  "iw": 320,
+  "off": [],
+  "h1": 297,
+  "cta": 2360,
+  "nctas": 15,
+  "tbl": [
+   [
+    527,
+    288,
+    "auto"
+   ],
+   [
+    288,
+    320,
+    "visible"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "bebedouro|dark|320": {
+  "sw": 320,
+  "iw": 320,
+  "off": [],
+  "h1": 321,
+  "cta": 11450,
+  "nctas": 7,
+  "tbl": [
+   [
+    288,
+    320,
+    "visible"
+   ],
+   [
+    288,
+    288,
+    "auto"
+   ],
+   [
+    288,
+    288,
+    "auto"
+   ],
+   [
+    288,
+    288,
+    "auto"
+   ],
+   [
+    288,
+    288,
+    "auto"
+   ],
+   [
+    288,
+    288,
+    "auto"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "brinquedo|dark|320": {
+  "sw": 320,
+  "iw": 320,
+  "off": [],
+  "h1": 361,
+  "cta": 5032,
+  "nctas": 4,
+  "tbl": [
+   [
+    288,
+    320,
+    "visible"
+   ],
+   [
+    288,
+    288,
+    "auto"
+   ],
+   [
+    288,
+    288,
+    "auto"
+   ],
+   [
+    288,
+    288,
+    "auto"
+   ],
+   [
+    288,
+    288,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "coleira|dark|320": {
+  "sw": 320,
+  "iw": 320,
+  "off": [],
+  "h1": 321,
+  "cta": 6788,
+  "nctas": 2,
+  "tbl": [
+   [
+    424,
+    288,
+    "auto"
+   ],
+   [
+    288,
+    288,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "cerca|dark|320": {
+  "sw": 320,
+  "iw": 320,
+  "off": [],
+  "h1": 337,
+  "cta": 8250,
+  "nctas": 2,
+  "tbl": [
+   [
+    305,
+    288,
+    "auto"
+   ],
+   [
+    288,
+    288,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "home|dark|375": {
+  "sw": 375,
+  "iw": 375,
+  "off": [],
+  "h1": 259,
+  "cta": null,
+  "nctas": 0,
+  "tbl": [],
+  "dash": 0,
+  "logo": "none|1",
+  "theme": ""
+ },
+ "tapete|dark|375": {
+  "sw": 375,
+  "iw": 375,
+  "off": [],
+  "h1": 297,
+  "cta": 2172,
+  "nctas": 15,
+  "tbl": [
+   [
+    527,
+    343,
+    "auto"
+   ],
+   [
+    343,
+    375,
+    "visible"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "bebedouro|dark|375": {
+  "sw": 375,
+  "iw": 375,
+  "off": [],
+  "h1": 257,
+  "cta": 9981,
+  "nctas": 7,
+  "tbl": [
+   [
+    343,
+    375,
+    "visible"
+   ],
+   [
+    343,
+    343,
+    "auto"
+   ],
+   [
+    343,
+    343,
+    "auto"
+   ],
+   [
+    343,
+    343,
+    "auto"
+   ],
+   [
+    343,
+    343,
+    "auto"
+   ],
+   [
+    343,
+    343,
+    "auto"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "brinquedo|dark|375": {
+  "sw": 375,
+  "iw": 375,
+  "off": [],
+  "h1": 281,
+  "cta": 4591,
+  "nctas": 4,
+  "tbl": [
+   [
+    343,
+    375,
+    "visible"
+   ],
+   [
+    343,
+    343,
+    "auto"
+   ],
+   [
+    343,
+    343,
+    "auto"
+   ],
+   [
+    343,
+    343,
+    "auto"
+   ],
+   [
+    343,
+    343,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "coleira|dark|375": {
+  "sw": 375,
+  "iw": 375,
+  "off": [],
+  "h1": 297,
+  "cta": 5944,
+  "nctas": 2,
+  "tbl": [
+   [
+    424,
+    343,
+    "auto"
+   ],
+   [
+    343,
+    343,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "cerca|dark|375": {
+  "sw": 375,
+  "iw": 375,
+  "off": [],
+  "h1": 337,
+  "cta": 6882,
+  "nctas": 2,
+  "tbl": [
+   [
+    343,
+    343,
+    "auto"
+   ],
+   [
+    343,
+    343,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "home|dark|414": {
+  "sw": 414,
+  "iw": 414,
+  "off": [],
+  "h1": 229,
+  "cta": null,
+  "nctas": 0,
+  "tbl": [],
+  "dash": 0,
+  "logo": "none|1",
+  "theme": ""
+ },
+ "tapete|dark|414": {
+  "sw": 414,
+  "iw": 414,
+  "off": [],
+  "h1": 257,
+  "cta": 1992,
+  "nctas": 15,
+  "tbl": [
+   [
+    527,
+    382,
+    "auto"
+   ],
+   [
+    382,
+    414,
+    "visible"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "bebedouro|dark|414": {
+  "sw": 414,
+  "iw": 414,
+  "off": [],
+  "h1": 217,
+  "cta": 9265,
+  "nctas": 7,
+  "tbl": [
+   [
+    382,
+    414,
+    "visible"
+   ],
+   [
+    382,
+    382,
+    "auto"
+   ],
+   [
+    382,
+    382,
+    "auto"
+   ],
+   [
+    382,
+    382,
+    "auto"
+   ],
+   [
+    382,
+    382,
+    "auto"
+   ],
+   [
+    382,
+    382,
+    "auto"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "brinquedo|dark|414": {
+  "sw": 414,
+  "iw": 414,
+  "off": [],
+  "h1": 257,
+  "cta": 4241,
+  "nctas": 4,
+  "tbl": [
+   [
+    382,
+    414,
+    "visible"
+   ],
+   [
+    382,
+    382,
+    "auto"
+   ],
+   [
+    382,
+    382,
+    "auto"
+   ],
+   [
+    382,
+    382,
+    "auto"
+   ],
+   [
+    382,
+    382,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "coleira|dark|414": {
+  "sw": 414,
+  "iw": 414,
+  "off": [],
+  "h1": 257,
+  "cta": 5386,
+  "nctas": 2,
+  "tbl": [
+   [
+    424,
+    382,
+    "auto"
+   ],
+   [
+    382,
+    382,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "cerca|dark|414": {
+  "sw": 414,
+  "iw": 414,
+  "off": [],
+  "h1": 312,
+  "cta": 6285,
+  "nctas": 2,
+  "tbl": [
+   [
+    382,
+    382,
+    "auto"
+   ],
+   [
+    382,
+    382,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "home|dark|768": {
+  "sw": 768,
+  "iw": 768,
+  "off": [],
+  "h1": 209,
+  "cta": null,
+  "nctas": 0,
+  "tbl": [],
+  "dash": 0,
+  "logo": "none|1",
+  "theme": ""
+ },
+ "tapete|dark|768": {
+  "sw": 768,
+  "iw": 768,
+  "off": [],
+  "h1": 152,
+  "cta": 1593,
+  "nctas": 15,
+  "tbl": [
+   [
+    736,
+    736,
+    "auto"
+   ],
+   [
+    736,
+    768,
+    "visible"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "bebedouro|dark|768": {
+  "sw": 768,
+  "iw": 768,
+  "off": [],
+  "h1": 152,
+  "cta": 6468,
+  "nctas": 7,
+  "tbl": [
+   [
+    736,
+    768,
+    "visible"
+   ],
+   [
+    736,
+    736,
+    "auto"
+   ],
+   [
+    736,
+    736,
+    "auto"
+   ],
+   [
+    736,
+    736,
+    "auto"
+   ],
+   [
+    736,
+    736,
+    "auto"
+   ],
+   [
+    736,
+    736,
+    "auto"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "brinquedo|dark|768": {
+  "sw": 768,
+  "iw": 768,
+  "off": [],
+  "h1": 152,
+  "cta": 3329,
+  "nctas": 4,
+  "tbl": [
+   [
+    736,
+    768,
+    "visible"
+   ],
+   [
+    736,
+    736,
+    "auto"
+   ],
+   [
+    736,
+    736,
+    "auto"
+   ],
+   [
+    736,
+    736,
+    "auto"
+   ],
+   [
+    736,
+    736,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "coleira|dark|768": {
+  "sw": 768,
+  "iw": 768,
+  "off": [],
+  "h1": 152,
+  "cta": 3858,
+  "nctas": 2,
+  "tbl": [
+   [
+    736,
+    736,
+    "auto"
+   ],
+   [
+    736,
+    736,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "cerca|dark|768": {
+  "sw": 768,
+  "iw": 768,
+  "off": [],
+  "h1": 192,
+  "cta": 4154,
+  "nctas": 2,
+  "tbl": [
+   [
+    736,
+    736,
+    "auto"
+   ],
+   [
+    736,
+    736,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "home|dark|1280": {
+  "sw": 1280,
+  "iw": 1280,
+  "off": [],
+  "h1": 216,
+  "cta": null,
+  "nctas": 0,
+  "tbl": [],
+  "dash": 0,
+  "logo": "none|1",
+  "theme": ""
+ },
+ "tapete|dark|1280": {
+  "sw": 1280,
+  "iw": 1280,
+  "off": [],
+  "h1": 152,
+  "cta": 1584,
+  "nctas": 15,
+  "tbl": [
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    792,
+    "visible"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "bebedouro|dark|1280": {
+  "sw": 1280,
+  "iw": 1280,
+  "off": [],
+  "h1": 152,
+  "cta": 6400,
+  "nctas": 7,
+  "tbl": [
+   [
+    760,
+    792,
+    "visible"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "brinquedo|dark|1280": {
+  "sw": 1280,
+  "iw": 1280,
+  "off": [],
+  "h1": 152,
+  "cta": 3315,
+  "nctas": 4,
+  "tbl": [
+   [
+    760,
+    792,
+    "visible"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "coleira|dark|1280": {
+  "sw": 1280,
+  "iw": 1280,
+  "off": [],
+  "h1": 152,
+  "cta": 3818,
+  "nctas": 2,
+  "tbl": [
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "cerca|dark|1280": {
+  "sw": 1280,
+  "iw": 1280,
+  "off": [],
+  "h1": 192,
+  "cta": 4139,
+  "nctas": 2,
+  "tbl": [
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "home|dark|1440": {
+  "sw": 1440,
+  "iw": 1440,
+  "off": [],
+  "h1": 216,
+  "cta": null,
+  "nctas": 0,
+  "tbl": [],
+  "dash": 0,
+  "logo": "none|1",
+  "theme": ""
+ },
+ "tapete|dark|1440": {
+  "sw": 1440,
+  "iw": 1440,
+  "off": [],
+  "h1": 152,
+  "cta": 1584,
+  "nctas": 15,
+  "tbl": [
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    792,
+    "visible"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "bebedouro|dark|1440": {
+  "sw": 1440,
+  "iw": 1440,
+  "off": [],
+  "h1": 152,
+  "cta": 6400,
+  "nctas": 7,
+  "tbl": [
+   [
+    760,
+    792,
+    "visible"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ]
+  ],
+  "dash": 5,
+  "logo": null,
+  "theme": ""
+ },
+ "brinquedo|dark|1440": {
+  "sw": 1440,
+  "iw": 1440,
+  "off": [],
+  "h1": 152,
+  "cta": 3315,
+  "nctas": 4,
+  "tbl": [
+   [
+    760,
+    792,
+    "visible"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "coleira|dark|1440": {
+  "sw": 1440,
+  "iw": 1440,
+  "off": [],
+  "h1": 152,
+  "cta": 3818,
+  "nctas": 2,
+  "tbl": [
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ },
+ "cerca|dark|1440": {
+  "sw": 1440,
+  "iw": 1440,
+  "off": [],
+  "h1": 192,
+  "cta": 4139,
+  "nctas": 2,
+  "tbl": [
+   [
+    760,
+    760,
+    "auto"
+   ],
+   [
+    760,
+    760,
+    "auto"
+   ]
+  ],
+  "dash": 0,
+  "logo": null,
+  "theme": ""
+ }
+}

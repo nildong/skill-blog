@@ -1,49 +1,40 @@
-# Plano de Ação — smartpetgadgets.com.br (2026-11-17)
+# Plano de Ação — smartpetgadgets.com.br (24/11/2026)
 
-Score 85/100 (igual a 11-06). Relatório completo: `FULL-AUDIT-REPORT.md`.
+Health Score 87/100. Evidências em `FULL-AUDIT-REPORT.md` e `findings/`.
 
-**Regra da janela de medição:** não reescrever título, meta ou corpo das páginas alteradas depois de 05/11 antes de ~01/12. São as 14 P1 e as reescritas de 12 a 16/11: coleiras, brinquedo, bebedouro ranking, comedouro hub, câmera petisco, Seresto e Tuya. Correções técnicas (rel, imagem, links internos de saída) podem ser feitas.
+## Fase 1: Antes da Black Friday (24–26/11)
 
-Concluído desde 11-06:
-- [x] `affiliate-cta.js` em Seresto, comedouro hub e configurar-app (falta o Newpet 4L)
-- [x] `affiliate_click` funcionando (18 eventos, 10 do ChatGPT)
-- [x] 8 hubs reescritos como rankings; duas rações publicadas
-- [x] Schema: Products sem offers removidos da Seresto; brand nos rankings
+| # | Item | Por quê | Esforço |
+|---|---|---|---|
+| 1 | Gerar novos meli.la para 2p4GhJA, 1pm2i23, 2b9cBHh (não abrem produto) e revisar 1RWrc8a, 2nYXrfG, 15xb2sx, 1KigM7V, 1qA4yst, 2KPepVS, 2om5jBS (abrem outro anúncio) | Clique de Black Friday caindo em produto errado ou página vazia; 1RWrc8a está em 5 posts de GPS | P (você gera os links) |
+| 2 | Bloco "Ofertas de Black Friday" com link para /black-friday-pet/ nos 8–10 posts com mais impressões | O post tem só 1 link de entrada e o evento é em 27/11 | P |
+| 3 | Atualizar os preços que mudaram 20% ou mais nos posts com tráfego (14wjrDr -44%, 2nYXrfG +36%, Tapo C200 +33%, Xiaomi 5 L +23%, 21Haniu -23%, 1y54zGr -21%) | Preço errado no texto quebra a confiança justamente na semana de mais comparação | P |
+| 4 | `AddDefaultCharset UTF-8` no .htaccess | Acentos corrompidos para clientes HTTP simples | PP |
 
-## Fase 1: Correções rápidas (Semana 1)
-- [ ] `rel="sponsored nofollow noopener"` nos 6 links da Seresto e nos 3 de `cachorro-de-casa-pega-pulga`
-- [ ] Incluir `affiliate-cta.js?v=1` em `/comedouro-newpet-4l-review/`
-- [ ] Corrigir o hero de `/bebedouro-inox-x-ceramica/`: srcset 400/800/1200w, `fetchpriority="high"` e preload (o LCP mobile voltou para 2,7 s)
-- [ ] Trocar os 7 links de afiliado mortos apontados pelo price-monitor (`reports/price-monitor/latest.md`)
-- [ ] Commit do `sitemap.xml` (já no ar) e de `img/logo-dark.png`
-- [ ] Pedir indexação no GSC de `/brinquedo-interativo-automatico-para-gato/`, `/melhor-racao-para-cachorro/` e `/melhor-racao-para-gato/`, e enviar ao IndexNow as URLs de 12–16/11
-- [ ] Antipulgas: caixa de alerta FDA/CVM sobre isoxazolinas, com fonte. É uma correção de segurança, liberada mesmo dentro da janela
-- [ ] Barra fixa mobile: corrigir o gatilho na ração e aumentar o "×" para 44x44
+## Fase 2: Alto impacto (semanas 1–2)
 
-## Fase 2: Alto impacto (Semanas 2–3, só páginas fora da janela)
-- [ ] `/bebedouro-inox-x-ceramica/`: título "Fonte para Gato: Inox, Cerâmica ou Plástico? O Mais Higiênico", e a seção "Modelos à Venda" vira uma caixa que leva ao ranking
-- [ ] `/comedouro-automatico-para-dois-gatos/`: título "Comedouro Automático para 2 Gatos: Duplo ou com Chip RFID?" e uma tabela de 3 soluções com produto
-- [ ] Câmera: reconstruir `melhor-camera-para-monitorar-pet` como ranking de 7 modelos e fazer 301 de `camera-para-monitorar-pet` e dos posts finos de câmera para ela (decisão sua sobre qual URL fica)
-- [ ] Nova página `/credeli-ou-simparic/` (com NexGard), tabela na mesma faixa de peso, dados da bula, revisor com CRMV
-- [ ] Aplicar os links internos prioritários 1–13 de `findings/cluster.md`: rações a partir do cluster comedouro, `comedouro-automatico-para-viagem`, câmera petisco e antipulgas
-- [ ] Tapete higiênico (a página que mais converte pelo ChatGPT): preços de novembro, seção "Como escolhemos" e "consultado em"
+| # | Item | Por quê | Esforço |
+|---|---|---|---|
+| 5 | Atualizar /black-friday-pet/ com a leitura do monitor de 30/11; retirar os links temporários depois de 01/12 | Já planejado; evita conteúdo vencido | P |
+| 6 | Trocar o wrapper de conteúdo por `<main>` no template e corrigir a cor de baixo contraste | Acessibilidade 94–96 → 100; ajuda agentes de IA a isolar o conteúdo | P |
+| 7 | 3–5 links contextuais para melhor-racao-para-gato e para melhor-racao-para-cachorro | Gato com 2 links de entrada e pos 21,8; cachorro na pos 10 | P |
+| 8 | Cortar as 7 metas com mais de 160 caracteres (autor, configurar-app, camera-petisco, camera-x-coleira e as que não estão em medição) | Snippet truncado | PP |
 
-## Fase 3: Conteúdo e autoridade (Mês 2, a partir de 01/12)
-- [ ] Medir P1 e as reescritas de 12–16/11 (cliques e CTR por página contra os baselines nas memórias)
-- [ ] Comedouro: decidir o que fazer com `melhor-comedouro-automatico-cachorro` e os 2 rankings antigos (merge, 301 ou ângulo próprio). O cluster está pausado e precisa do seu OK
-- [ ] Recolocar 2–4 fontes externas nos hubs (comedouro, câmera petisco) e nas rações (WSAVA/AAFCO, fabricante)
-- [ ] Ração para cachorro: incluir Golden/Premier, Biofresh, Gran Plus, Hill's e Purina, e a linha "castrado"
-- [ ] Coleira GPS para gato: caixa e FAQ do Tractive
-- [ ] Entidade: `@id` em Organization, WebSite e Person, foto do autor, `sameAs` (Facebook, Pinterest) e remover o YouTube que dá 404
-- [ ] Produtos em `coleira-gps-sem-mensalidade` e na porta eletrônica (você escolhe os produtos)
-- [ ] Backlinks: exportar "Links" do GSC, criar chave gratuita da Moz e começar a divulgação dos rankings
-- [ ] 29 posts finos: juntar com o ranking do cluster (301) ou ampliar só os que têm impressão
-- [ ] Mobile: subir o CTA e a caixa de picks para a primeira tela (H1 mais curto ou picks antes do hero)
+## Fase 3: Conteúdo e autoridade (dezembro)
 
-## Fase 4: Monitoramento (Contínuo)
-- [ ] Price-monitor semanal: sinalizar divergência entre o `price` do JSON-LD e o anúncio
-- [ ] Trocar em lote os 102 "retrieved" por "consultado em". Não mexer no `lastmod` quando a mudança for só de template
-- [ ] GA4: `affiliate_click` por origem (ChatGPT contra Google) e conferir as vendas no painel do ML Afiliados
-- [ ] Decidir a política do robots.txt para robôs de treino (`ai-train=no` contra `Allow`)
-- [ ] Baixa: `.htaccess` (www em 1 salto, 301 de `/index.html`, 404 em pt-BR, Permissions-Policy), fonte do artigo em 16 px, tap targets
-- [ ] Atualizar o `llms.txt` (descrição de configurar-app) a cada novo título
+| # | Item | Por quê | Esforço |
+|---|---|---|---|
+| 9 | Depois de 15/12: reescrever camera-pet-grava-sem-internet (105 impr., pos 7,5, 0 cliques) e melhor-racao-para-cachorro | Páginas com impressões perto do top 5 e sem cliques | M |
+| 10 | Título/meta de bebedouro-inox-x-ceramica (623 impr., pos 5,7, CTR 0,5%) depois do congelamento | Maior volume de impressões com CTR baixo | PP |
+| 11 | Decidir sobre /credeli-ou-simparic/ com os dados de 15/12 | ~60 impr./28 dias em queries de Credeli na pos 22–33 | M |
+| 12 | Expandir /politica-editorial/ (236 palavras) e /sobre/ | Página que sustenta o método de todos os rankings | P |
+| 13 | Troca de ano 2027 em 26/12, incluindo os posts de 22/08 com impressões | Já planejado; 27 posts sem revisão há 3 meses | M |
+
+## Fase 4: Monitoramento (contínuo)
+
+| # | Item |
+|---|---|
+| 14 | Medir o CTR P1 em ~01/12 e as páginas reescritas em ~15/12 |
+| 15 | Conferir em ~15/12 se as impressões de melhor-camera passaram para camera-para-monitorar-pet |
+| 16 | Tratar os alertas do monitor de preços na mesma semana em que aparecem |
+| 17 | Na próxima auditoria completa, rodar screenshots, backlinks e SXO por SERP (ficaram de fora desta) |

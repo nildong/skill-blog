@@ -1,0 +1,188 @@
+{
+  "summary": {
+    "health_score": 87,
+    "business_type": "Site de conteúdo/afiliados (nicho de produtos pet, pt-BR), HTML estático, 77 posts, sem checkout de e-commerce direto",
+    "top_findings": [
+      "ALTA (SxO): o bloqueio de ranqueamento é um descompasso de tipo de página/formato nos termos comerciais de cabeça — as SERPs de 'melhor comedouro automático' e 'coleira gps' são dominadas por listicles multi-produto Top-N com schema ItemList; várias páginas do site têm título de listicle mas são ensaios de produto único com 1 imagem e 1 link de afiliado (SXO Gap Score 60/100)",
+      "ALTA (Google API, confirmado): a indexação está resolvida (11/11 URLs amostradas indexadas, 0 erros no sitemap), mas o ranqueamento é o bloqueio real — a posição média de 10,1 é enganosa; todo termo de cabeça com volume real de impressões ranqueia bem fora da página 1 (ex.: 'melhor comedouro automático para gatos' pos. 45,5; a própria home pos. 40,6 com 0 cliques em 38 impressões)",
+      "MÉDIA (GEO/Autoridade): o Organization.sameAs tem apenas o Facebook — sem YouTube, Reddit ou Wikidata; o schema Person (autor) ainda não tem imagem, limitando a autoridade de citação em IA e os sinais de confiança E-E-A-T",
+      "MÉDIA (Sitemap/Agentic): cerca-virtual-para-cachorro (restaurado em 2026-10-19) está ao vivo e no sitemap.xml, mas ausente do llms.txt e do .data/site-index.json — ambos os manifestos são anteriores à restauração",
+      "INFO (pausado pelo dono): 62/77 posts têm links de afiliado mas sem schema Product/Review, e as seções de CTA/produto do cluster de comedouros ainda são reafirmação de especificações com 1-3 links — problema já conhecido, reformulação explicitamente pausada aguardando retrabalho de conteúdo, não é um fix mecânico"
+    ],
+    "quick_wins": [
+      "Regenerar o llms.txt e o .data/site-index.json para incluir cerca-virtual-para-cachorro (fix de 5 minutos)",
+      "Adicionar Person.image (foto do autor) em todo o schema de autoria — libera sinal de autoridade de citação em IA",
+      "Adicionar entradas de YouTube/Wikidata/outras ao sameAs do schema Organization",
+      "Corrigir a inconsistência de worstRating ('1' vs '0') entre comedouro-newpet-2l-review e os demais posts de review",
+      "Habilitar a Chrome UX Report API para a service account srv-blogs — as chamadas ao CrUX estão retornando 403 (falha de permissão/habilitação, não falta de volume de tráfego), bloqueando a verificação real de CWV por dados de campo",
+      "Reconstruir melhor-coleira-gps-sem-mensalidade como um listicle multi-produto de verdade (ItemList + 5+ produtos), reaproveitando o template já competitivo de melhor-comedouro-automatico-cachorro"
+    ]
+  },
+  "categories": [
+    {
+      "name": "SEO Técnico",
+      "score": 96,
+      "what_works": [
+        "robots.txt com governança explícita de Content-Signal por bot de IA",
+        "Sitemap válido (78 URLs), 0 erros/avisos confirmados ao vivo via GSC Sitemaps API",
+        "HTTPS forçado com HSTS, CSP, X-Frame-Options, X-Content-Type-Options, Referrer-Policy",
+        "Nenhuma cadeia de redirecionamento encontrada; 404s retornam status correto",
+        "PageSpeed ao vivo: Performance 100, LCP 1,58s, CLS 0, TBT 0ms em post amostrado",
+        "0 JSON-LD inválido nos 77 posts",
+        "SSR totalmente estático, sem dependência de renderização SPA/JS",
+        "Chave do IndexNow ativa e disparada automaticamente pelo deploy.sh a cada publicação (antes estava faltando, agora corrigido)"
+      ],
+      "findings": [
+        {"title": "Volume de imagens da home merece uma checagem PSI dedicada", "severity": "Baixa", "description": "A home carrega mais imagens que os posts amostrados; ainda não isolado em uma rodada PSI dedicada.", "recommendation": "Rodar uma checagem PSI isolada no conjunto de imagens da home."},
+        {"title": "Dois posts com títulos levemente longos", "severity": "Baixa", "description": "Duas tags <title> de posts excedem o comprimento recomendado de exibição na SERP.", "recommendation": "Reduzir para menos de ~60 caracteres."},
+        {"title": "Título de FAQ na home sem schema FAQPage correspondente", "severity": "Baixa", "description": "A home tem um título visível estilo FAQ sem JSON-LD de FAQPage por trás.", "recommendation": "Adicionar schema FAQPage ou remover o título estilo FAQ."},
+        {"title": "Schema Person ainda sem o campo image", "severity": "Baixa", "description": "O schema Person do autor já tem sameAs/description, mas ainda não tem imagem, mesmo com melhora desde a última auditoria.", "recommendation": "Adicionar foto do autor e a propriedade image."}
+      ]
+    },
+    {
+      "name": "Qualidade de Conteúdo",
+      "score": 79,
+      "what_works": [
+        "Página de autor agora com 772 palavras, com divulgação honesta de credenciais, jobTitle, sameAs, schema ProfilePage+Person",
+        "Modelo de divulgação honesta: apenas 3 posts afirmam teste prático, e os três declaram explicitamente 'não testamos fisicamente'",
+        "0 conflitos de canibalização de severidade ALTA em 2.485 pares de páginas; sobreposições são pares pilar/FAQ intencionais",
+        "Nova checagem de templating de metadados: site_risk baixo, templated_ratio 0,0, sem frases de CTA compartilhadas",
+        "Prontidão para citação em IA: 82/100",
+        "Tamanho mediano dos posts: 849 palavras (saudável)"
+      ],
+      "findings": [
+        {"title": "Identidade do autor ainda rasa em sinais visuais/de entidade", "severity": "Média", "description": "Sem foto do autor, apenas um sameAs (Facebook), jobTitle genérico.", "recommendation": "Adicionar foto do autor, mais perfis sameAs e um jobTitle específico."},
+        {"title": "Sinal de Experience estruturalmente limitado", "severity": "Média", "description": "O modelo de curadoria honesta (sem divulgar teste físico) limita o sinal de Experiência do E-E-A-T.", "recommendation": "Adicionar artefatos reais de primeira mão (fotos, notas de unboxing) em apenas 3-4 posts de review principais, não no site todo."},
+        {"title": "Cauda de conteúdo raso", "severity": "Média", "description": "8 posts com menos de 600 palavras, 31 com menos de 800; página 'sobre' com 382 palavras, 'contato' com 190.", "recommendation": "Expandir os posts mais rasos e as páginas sobre/contato."},
+        {"title": "Seções de CTA/produto do cluster de comedouros continuam rasas", "severity": "Info", "description": "O corpo do texto é substancial (1300-1700 palavras), mas as seções de CTA/produto reafirmam especificações com 1-3 links. Corresponde a um problema já conhecido e pausado pelo dono.", "recommendation": "Não aplicar fix mecânico; esperar a reformulação de conteúdo/oferta planejada."}
+      ]
+    },
+    {
+      "name": "SEO On-Page",
+      "score": 88,
+      "what_works": [
+        "77/77 posts têm título, descrição e canonical",
+        "0 páginas com múltiplos H1 ou sem H1 nos 77 posts",
+        "1.333 links internos no site, 0 conflitos de canibalização de severidade ALTA",
+        "Meta viewport mobile consistente nas páginas amostradas"
+      ],
+      "findings": [
+        {"title": "Nenhuma varredura on-page dedicada completa rodou neste ciclo", "severity": "Info", "description": "As checagens de título/meta/heading foram cobertas como subproduto das auditorias de Técnico, Conteúdo e Sitemap, não por uma passada on-page independente; a nota aqui é uma síntese, não um score especialista independente.", "recommendation": "Rodar uma passada on-page dedicada (seo-page) nos 77 posts completos em um próximo ciclo de auditoria."}
+      ]
+    },
+    {
+      "name": "Schema / Dados Estruturados",
+      "score": 86,
+      "what_works": [
+        "AggregateRating fabricado (5.501 avaliações) em coleira-seresto-antipulgas: corrigido, confirmado zero blocos aggregateRating no site",
+        "HowTo/HowToStep depreciado em configurar-app-comedouro-wifi: removido, confirmado zero blocos HowTo no site",
+        "Organization.sameAs preenchido com a página real do Facebook (estava vazio)",
+        "Desambiguação de Product Newpet 2L/4L confirmada ao vivo com linguagem explícita de 'não deve ser confundido'",
+        "Texto de divulgação honesta confirmado ao vivo em comedouro-newpet-2l-review"
+      ],
+      "findings": [
+        {"title": "Person.image ainda ausente na página do autor", "severity": "Média", "description": "O schema Person do autor tem sameAs e description, mas não tem a propriedade image.", "recommendation": "Adicionar uma URL de foto do autor ao schema Person."},
+        {"title": "Inconsistência no worstRating", "severity": "Baixa", "description": "comedouro-newpet-2l-review usa worstRating '1' enquanto posts de review semelhantes usam '0'.", "recommendation": "Padronizar o valor de worstRating em todos os blocos de schema Review."},
+        {"title": "Schema FAQPage em 73/77 posts sem benefício atual nas SERPs do Google", "severity": "Info", "description": "O rich result de FAQPage foi descontinuado pelo Google; isso é informativo, não acionável.", "recommendation": "Nenhuma ação necessária; não investir mais esforço aqui."},
+        {"title": "62/77 posts têm links de afiliado mas sem schema Product/Review", "severity": "Info", "description": "Oportunidade real, mas explicitamente pausada pelo dono do site aguardando retrabalho de conteúdo/oferta.", "recommendation": "Não aplicar mecanicamente; revisitar após a reformulação planejada."}
+      ]
+    },
+    {
+      "name": "Performance (CWV)",
+      "score": 94,
+      "what_works": [
+        "PSI ao vivo: home 100/100 em mobile e desktop; LCP 0,4-1,4s, CLS 0, TBT 0ms nas páginas amostradas",
+        "Problema de LCP da hero (2,24s, JPEG de fundo CSS) identificado em auditoria anterior: corrigido, agora WebP + preload/fetchpriority=high, LCP em 1,38s",
+        "Sem recursos bloqueando renderização, sem scripts de terceiros, pilha de fontes de sistema",
+        "width/height corretos em todas as imagens (CLS=0), divisão correta entre lazy/eager loading",
+        "Imagens de vários MB vistas no git status (img/ML/*, img/TAPETE_HIGIENICO/*, cache do social-content-engine) confirmadas como NÃO referenciadas em nenhum HTML publicado — sem impacto no site ao vivo"
+      ],
+      "findings": [
+        {"title": "API de dados de campo do CrUX retornando 403 Forbidden", "severity": "Média", "description": "chromeuxreport.googleapis.com retornou 403 para todas as URLs testadas via a service account srv-blogs — é um problema de habilitação/permissão da API, não um 404 de volume de tráfego insuficiente.", "recommendation": "Habilitar a Chrome UX Report API para a service account srv-blogs@smartpetgadgets-seo.iam.gserviceaccount.com para liberar a verificação real de CWV por dados de campo."}
+      ]
+    },
+    {
+      "name": "Prontidão para Busca por IA",
+      "score": 82,
+      "what_works": [
+        "Fração de Agentic Browsing do Lighthouse: 3/3 em mobile e desktop",
+        "Heurística de Agent-UX: 100/100 (224 âncoras reais, 0 widgets falsos div-onclick, 78 landmarks semânticos, 0 nós interativos sem nome em uma árvore de 1.567 nós, conteúdo completo renderiza sem JS)",
+        "robots.txt permite explicitamente todos os principais bots de citação (OAI-SearchBot, Claude-SearchBot, PerplexityBot, Googlebot, Bingbot, Applebot) com postura deliberada de Content-Signal ai-train=no",
+        "llms.txt cobre 76/77 posts (subiu de um stub de 6 links em auditoria anterior)",
+        "Texto que responde primeiro (answer-first), títulos de FAQ em formato de pergunta, JSON-LD rico (BlogPosting, FAQPage, BreadcrumbList, ItemList/Product/Review em páginas de comparação)"
+      ],
+      "findings": [
+        {"title": "Grafo de entidade Organization/Person raso para autoridade de citação em IA", "severity": "Alta", "description": "sameAs tem apenas um link (Facebook); sem YouTube, Reddit ou Wikidata. O schema Person não tem image/sameAs rico. Esse é o principal limitador de citação em IA para consultas comerciais competitivas.", "recommendation": "Construir o grafo de entidade: adicionar canal no YouTube, entrada no Wikidata (se elegível) e mais perfis sameAs do autor; adicionar Person.image."},
+        {"title": "llms.txt faltando um artigo ao vivo", "severity": "Média", "description": "cerca-virtual-para-cachorro (restaurado em 2026-10-19) está ausente do llms.txt, que é anterior à restauração.", "recommendation": "Regenerar o llms.txt a partir do sitemap atual como etapa de build, não como edição manual isolada."},
+        {"title": "Sem vídeo / schema VideoObject (lacuna multimodal)", "severity": "Média", "description": "Boa cobertura de imagem/alt/ImageObject, mas zero conteúdo em vídeo nos 77 posts.", "recommendation": "Considerar vídeos curtos de demonstração de produto com schema VideoObject para os posts de review principais."},
+        {"title": "Sem entrega equivalente em Markdown ou arquivos de descoberta /.well-known", "severity": "Info", "description": "Sem /index.md, sem negociação Accept: text/markdown, sem ai-catalog.json. Esperado para um blog de conteúdo nesta fase, não é um defeito.", "recommendation": "Baixa prioridade; revisitar se os padrões de tráfego de agentes justificarem."}
+      ]
+    },
+    {
+      "name": "Imagens",
+      "score": 80,
+      "what_works": [
+        "Atributos width/height corretos prevenindo CLS nas páginas amostradas",
+        "Divisão correta entre lazy/eager loading",
+        "Formato WebP em uso nas imagens hero corrigidas",
+        "Grandes arquivos de imagem não utilizados no repositório confirmados como não referenciados em HTML publicado (sem custo de performance ao vivo)"
+      ],
+      "findings": [
+        {"title": "Mídia rasa em posts de comparação/estilo listicle", "severity": "Média", "description": "Mediana de 1-3 imagens e 1 link de afiliado em páginas competindo contra listicles de SERP que mostram 5-10 imagens de produto mais tabelas.", "recommendation": "Adicionar mais imagens de produto por opção listada nas páginas de termo comercial de cabeça, conectando com o fix de descompasso de tipo de página do SxO."}
+      ]
+    }
+  ],
+  "action_plan": {
+    "phases": [
+      {
+        "name": "Fase 1: Correções Críticas",
+        "timeframe": "Semana 1",
+        "items": [
+          "Nenhuma — não há achados de severidade Crítica abertos neste ciclo; todos os Críticos anteriores (AggregateRating falso, HowTo depreciado, contraste do logo em dark mode) estão confirmados corrigidos."
+        ]
+      },
+      {
+        "name": "Fase 2: Melhorias de Alto Impacto",
+        "timeframe": "Semanas 2-3",
+        "items": [
+          "Reconstruir as 2-3 páginas 'melhor X' que têm título de listicle mas conteúdo de produto único (melhor-coleira-gps-sem-mensalidade, melhor-camera-para-monitorar-pet, melhor-bebedouro-automatico-pet) como listicles multi-produto de verdade com schema ItemList, 5+ opções e tabelas — reaproveitar o template de melhor-comedouro-automatico-cachorro que já compete bem",
+          "Construir o grafo de entidade Organization/Person (YouTube, Wikidata, mais sameAs, Person.image) para elevar a autoridade de citação em IA/E-E-A-T",
+          "Direcionar o modificador sub-explorado 'sem mensalidade / sem assinatura' em todo o cluster de coleiras GPS",
+          "Habilitar a Chrome UX Report API para a service account srv-blogs para restaurar a visibilidade real de CWV por dados de campo"
+        ]
+      },
+      {
+        "name": "Fase 3: Conteúdo e Autoridade",
+        "timeframe": "Mês 2",
+        "items": [
+          "Adicionar artefatos reais de primeira mão (fotos, notas de unboxing) em 3-4 posts de review principais para elevar o sinal de Experience do E-E-A-T",
+          "Expandir os 8 posts com menos de 600 palavras e as páginas sobre/contato",
+          "Adicionar schema Product/ItemList e mais imagens aos guias informativos do cluster de coleiras GPS",
+          "Regenerar o llms.txt e o .data/site-index.json para incluir cerca-virtual-para-cachorro, e integrar a geração do llms.txt à etapa de build de deploy/sitemap daqui para frente",
+          "Corrigir a inconsistência de worstRating nos blocos de schema Review"
+        ]
+      },
+      {
+        "name": "Fase 4: Monitoramento e Iteração",
+        "timeframe": "Contínuo",
+        "items": [
+          "Acompanhar mensalmente a posição no GSC para os termos de cabeça amostrados após a reconstrução dos listicles da Fase 2 (posição média atual 10,1 geral, mas 18-45+ em queries de volume real)",
+          "Rodar novamente as checagens de dados de campo do CrUX assim que o problema de habilitação da API for resolvido",
+          "Revisitar as seções de CTA/produto rasas do cluster de comedouros somente quando a reformulação de conteúdo/oferta planejada pelo dono estiver pronta — não aplicar fix mecânico antes disso",
+          "Capturar uma baseline de drift agora (nenhuma existe atualmente) para rastrear regressões em deploys futuros"
+        ]
+      }
+    ]
+  },
+  "artifacts": {
+    "findings_dir": "findings/",
+    "screenshots_dir": "screenshots/"
+  },
+  "google_api_data": {
+    "indexation": "11/11 URLs amostradas (home + 10 posts em clusters distintos) confirmadas como 'Enviada e indexada' via URL Inspection API; o sitemap mostra 78 URLs enviadas, 0 erros",
+    "search_performance_28d": "2026-09-24 a 2026-10-19: 31 cliques / 2.549 impressões / CTR 1,22% / posição média 10,1 (média enganosa — apenas 26/100 queries amostradas ranqueiam na página 1, todas de cauda longa quase sem volume)",
+    "head_term_positions": "Home com posição média 40,6 (0 cliques/38 impressões); 'melhor comedouro automático para gatos' pos. 45,5; 'camera pet' pos. 28,7; 'qual a melhor coleira com gps para gatos' pos. 18",
+    "crux_status": "403 Forbidden tanto na CrUX API quanto na CrUX History API — falha de habilitação/permissão na service account, não um 404 de tráfego insuficiente",
+    "ga4_status": "Não configurado — sem GA4_PROPERTY_ID definido"
+  }
+}

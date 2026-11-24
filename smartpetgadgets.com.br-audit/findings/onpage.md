@@ -1,20 +1,27 @@
-# On-Page SEO — smartpetgadgets.com.br
+# SEO On-Page — 84/100
 
-Score: 85/100
+## O que funciona
 
-Checked homepage + 2 sample articles (`coleira-gps-para-pet`, `melhor-antipulgas-para-cachorro`) via direct HTML fetch (no subagent budget spent on this category — folded into the main audit pass).
+- Nenhum título ou meta duplicado; 1 H1 por página em 100% do site
+- Template completo em todos os posts (GA4 + theme-toggle)
+- Home com 78 links internos e cards para todos os posts
 
-## What works
-- Title tags: unique, descriptive, keyword-led on all 3 samples (53-75 chars).
-- H1 present exactly once per page, distinct from `<title>` (good — avoids duplicate-signal stuffing) but broadly aligned in topic.
-- Meta descriptions present and unique on all 3 samples.
-- Canonical tags self-referential (confirmed by seo-technical).
-- Clean URL slugs, keyword-descriptive, no query-string cruft.
+## Achados
 
-## Issues
-- **Medium**: `melhor-antipulgas-para-cachorro` meta description is 221 characters — well past Google's ~155-160 char practical truncation point. Will get cut off in SERP snippets. Recommend trimming to ~150-160 chars while keeping the comparative hook ("Simparic vs Bravecto vs NexGard").
-- **Low**: Homepage title (61 chars) and H1 ("Cuidados e produtos para cães e gatos, sem enrolação") diverge from each other in phrasing — not a violation, but the H1 skews more brand-voice than keyword-match. Fine as-is given strong technical/schema signals elsewhere, just noting for consistency review.
-- **Not independently re-checked this pass**: internal linking depth/anchor-text diversity (see seo-content and seo-sxo findings, which already flag thin-content and authority gaps that bear on internal linking priority).
+### [High] Post de Black Friday quase órfão
 
-## Recommendation
-Run a meta-description length sweep across all 76 URLs (`grep -oP` pattern used here, or a dedicated script) — this was only spot-checked on 3 pages; likely other comparison/review posts share the same long-description pattern given similar authorial style.
+/black-friday-pet/ recebe 1 link interno (home). A Black Friday é em 27/11 e o post não recebe autoridade das páginas que já ranqueiam (configurar-app-comedouro-wifi 870 impr., bebedouro-inox-x-ceramica 623, melhor-racao-para-cachorro 444, coleira-gps-para-gato 426).
+
+**Correção:** Adicionar um bloco de 1 linha 'Ofertas de Black Friday' com link nos 8–10 posts com mais impressões, e retirar depois de 01/12.
+
+### [Medium] Rações com poucos links e posição fraca
+
+melhor-racao-para-gato: pos 21,8, 93 impr., 2 links de entrada (home e ração de cachorro). melhor-racao-para-cachorro: 444 impr., pos 10, 0,45% de CTR; a query principal tem 89 impr. na pos 9,8 com 0 cliques.
+
+**Correção:** Adicionar 3–5 links contextuais para cada ração a partir de comedouro/bebedouro/obeso/dois-gatos. Mexer no conteúdo só depois do congelamento de 15/12.
+
+### [Low] Meta descriptions e títulos longos
+
+Metas acima de 160 caracteres: autores/nildo-alves (194), coleira-seresto (169), configurar-app (166), brinquedo-gato, camera-para-monitorar, camera-petisco (163–164), camera-x-coleira (162), como-funciona (161). Títulos de 66 caracteres: coleira-seresto, como-funciona-coleira-gps.
+
+**Correção:** Cortar para no máximo 155 caracteres, deixando o benefício no início. Não mexer nas páginas em medição de CTR até ~01/12.
