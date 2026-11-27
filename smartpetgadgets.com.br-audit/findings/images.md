@@ -1,14 +1,20 @@
-# Imagens — 90/100
+# Images — 90/100
 
 ## O que funciona
 
-- 100% das imagens dos posts com alt e width/height; heros em WebP com srcset; sitemap de imagens com 262 itens
-- max-image-preview:large em todo o site
+- alt vazio nas miniaturas da home é decorativo e correto
+- Recortes 16:9/4:3/1:1 no Article
 
 ## Achados
 
-### [Info] Imagens dos cards da home com alt vazio
+### [Medium] Contraste #d9480f na home
 
-10 imagens com alt="" nos cards; como o título do card está ao lado, isso é correto para imagem decorativa.
+`.feat-more` e `.read-more` com 4,29:1 (mínimo 4,5:1); home com acessibilidade 96
 
-**Correção:** Nenhuma ação.
+**Correção:** Usar #b23a0d
+
+### [Low] Tabela do antipulgas sem <th>
+
+Lighthouse td-has-header
+
+**Correção:** Marcar a linha de cabeçalho com <th>

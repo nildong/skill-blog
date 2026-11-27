@@ -1,27 +1,33 @@
-# SEO On-Page — 84/100
+# On-Page SEO — 86/100
 
 ## O que funciona
 
-- Nenhum título ou meta duplicado; 1 H1 por página em 100% do site
-- Template completo em todos os posts (GA4 + theme-toggle)
-- Home com 78 links internos e cards para todos os posts
+- Nenhum título ou meta duplicado
+- 1 H1 por página
+- /black-friday-pet/ com 10 links internos (antes 1)
 
 ## Achados
 
-### [High] Post de Black Friday quase órfão
+### [Medium] bebedouro-inox-x-ceramica com CTR baixo na pos 5,7
 
-/black-friday-pet/ recebe 1 link interno (home). A Black Friday é em 27/11 e o post não recebe autoridade das páginas que já ranqueiam (configurar-app-comedouro-wifi 870 impr., bebedouro-inox-x-ceramica 623, melhor-racao-para-cachorro 444, coleira-gps-para-gato 426).
+711 impr., 3 cliques (0,42%); só 15 impr. atribuídas a queries visíveis
 
-**Correção:** Adicionar um bloco de 1 linha 'Ofertas de Black Friday' com link nos 8–10 posts com mais impressões, e retirar depois de 01/12.
+**Correção:** Novo título com gancho de resposta depois do freeze (~15/12)
 
-### [Medium] Rações com poucos links e posição fraca
+### [Medium] Rações com posição fraca e links trocados
 
-melhor-racao-para-gato: pos 21,8, 93 impr., 2 links de entrada (home e ração de cachorro). melhor-racao-para-cachorro: 444 impr., pos 10, 0,45% de CTR; a query principal tem 89 impr. na pos 9,8 com 0 cliques.
+melhor-racao-para-cachorro 494 impr. pos 10,1 CTR 0,4%; melhor-racao-para-gato pos 19,6
 
-**Correção:** Adicionar 3–5 links contextuais para cada ração a partir de comedouro/bebedouro/obeso/dois-gatos. Mexer no conteúdo só depois do congelamento de 15/12.
+**Correção:** Corrigir os links primeiro; reavaliar depois do freeze
 
-### [Low] Meta descriptions e títulos longos
+### [Low] 3 metas acima de 160 caracteres
 
-Metas acima de 160 caracteres: autores/nildo-alves (194), coleira-seresto (169), configurar-app (166), brinquedo-gato, camera-para-monitorar, camera-petisco (163–164), camera-x-coleira (162), como-funciona (161). Títulos de 66 caracteres: coleira-seresto, como-funciona-coleira-gps.
+autor 191, configurar-app 163, seresto 161
 
-**Correção:** Cortar para no máximo 155 caracteres, deixando o benefício no início. Não mexer nas páginas em medição de CTR até ~01/12.
+**Correção:** Encurtar para 150–155
+
+### [Info] Blocos bf-link temporários
+
+9 posts com bloco entre <!-- bf-link:start/end -->
+
+**Correção:** Remover depois de 01/12

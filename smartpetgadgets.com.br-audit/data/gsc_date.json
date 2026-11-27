@@ -530,22 +530,32 @@
       "ctr": 1.52,
       "position": 8.2,
       "date": "2026-11-22"
+    },
+    {
+      "keys": [
+        "2026-11-23"
+      ],
+      "clicks": 10,
+      "impressions": 732,
+      "ctr": 1.37,
+      "position": 7.8,
+      "date": "2026-11-23"
     }
   ],
   "totals": {
-    "clicks": 135,
-    "impressions": 10810,
-    "ctr": 1.25,
-    "position": 8.9
+    "clicks": 145,
+    "impressions": 11542,
+    "ctr": 1.26,
+    "position": 8.8
   },
   "totals_source": "dimensionless_aggregate",
   "totals_complete": true,
   "quick_wins": [],
   "warnings": [],
-  "row_count": 53,
+  "row_count": 54,
   "error": null,
   "date_range": {
     "start": "2026-10-01",
-    "end": "2026-11-22"
+    "end": "2026-11-23"
   }
 }

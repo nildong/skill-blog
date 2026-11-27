@@ -1,91 +1,76 @@
 # Auditoria SEO Completa — smartpetgadgets.com.br
 
-**Data:** 24/11/2026 · **Health Score: 87/100** (85 em 17/11 e 06/11) · **Tipo:** publisher afiliado (reviews e guias pet, Mercado Livre)
+> **Correção (27/11):** dos "10 links com problema", 7 eram alarme falso do monitor: era o mesmo produto, só com outro número de anúncio (outro vendedor ou variação). Os problemas reais são 3 links que não abrem produto (2p4GhJA, 1pm2i23, 2b9cBHh) e o 1RWrc8a, que em 27/11 passou a abrir outro produto (Kit Coleira c/ AirTag, R$ 237,90). O monitor foi corrigido; a lista está em `reports/price-monitor/substituicoes.txt`.
 
-**Escopo:** 81 URLs rastreadas (79 do sitemap + 2 vídeos), PageSpeed mobile em 4 páginas, Search Console (28 dias + série desde 01/10), monitor de preços de 23/11. Rodada inline, sem os subagentes: screenshots, backlinks e SXO por SERP ficaram de fora desta vez. A auditoria de 17/11 está em `archive/2026-11-17/`.
+**Data:** 26/11/2026 · **Health Score: 88/100** (87 em 24/11, 85 em 17/11) · **Tipo:** publisher afiliado (reviews e guias pet, Mercado Livre)
+
+**Escopo:** 79/79 URLs do sitemap rastreadas, PageSpeed mobile em 4 páginas, Search Console (28 dias até 23/11 + série desde 01/10), URL Inspection do /black-friday-pet/, monitor de preços de 23/11. Rodada inline (sem subagentes: sem screenshots, backlinks nem SXO por SERP). A auditoria de 24/11 está em `archive/2026-11-24/`.
 
 ## Notas por categoria
 
-| Categoria | Peso | Nota | 17/11 |
+| Categoria | Peso | Nota | 24/11 |
 |---|---|---|---|
-| SEO Técnico | 22% | 95 | 93 |
-| Qualidade de Conteúdo | 23% | 80 | 79 |
-| SEO On-Page | 20% | 84 | 81 |
-| Schema | 10% | 89 | 86 |
+| SEO Técnico | 22% | 96 | 95 |
+| Qualidade de Conteúdo | 23% | 79 | 80 |
+| SEO On-Page | 20% | 86 | 84 |
+| Schema | 10% | 89 | 89 |
 | Performance | 10% | 98 | 98 |
-| Busca por IA | 10% | 80 | 75 |
-| Imagens | 5% | 90 | 82 |
+| Busca por IA | 10% | 82 | 80 |
+| Imagens | 5% | 90 | 90 |
+
+## O que mudou desde 24/11
+
+- **Resolvido:** `<main>` nos posts (falta só em 5 páginas institucionais); `content-type: text/html; charset=UTF-8` nas 79 URLs; /black-friday-pet/ agora recebe 10 links internos (antes 1), está **indexado** (GSC: "Submitted and indexed", rastreado em 23/11, canonical aceito); acessibilidade 100 no BF, configurar-app e antipulgas.
+- **Não resolvido:** os **10 links de afiliado com problema continuam no ar** nos mesmos 14 posts, e os 29 preços divergentes também. A Black Friday é amanhã (27/11).
+- **Tráfego:** 28 dias = 109 cliques / 8.759 impressões (eram 88 / 7.348). Só o dia 23/11 teve 10 cliques e 732 impressões (média da semana anterior: 7 cliques e 501 impr./dia).
 
 ## Resumo executivo
 
-O site está tecnicamente limpo: 79/79 URLs com status 200, canonicals corretos, nenhum título ou meta duplicado, JSON-LD válido em todas as páginas e PSI mobile de 99–100. O Google está respondendo: as impressões semanais foram de 327 (semana de 28/09) para 3.509 (semana de 16/11), e os cliques de 4 para 47.
-
-O risco desta semana não é técnico, e sim **comercial e com prazo**: a Black Friday é em 27/11 e:
-
-1. **10 links de afiliado com problema.** 3 não abrem produto e 7 abrem outro anúncio. O `1RWrc8a`, usado em 5 posts de coleira GPS, agora abre um kit de tag para Apple/iPhone; o `1KigM7V` da ração de cachorro abre uma ração terapêutica Royal Canin Gastrointestinal Low Fat.
-2. **/black-friday-pet/ só recebe 1 link interno** (a home). As páginas que já têm impressões não passam autoridade nem visitantes para ele.
-3. **29 preços divergem 5% ou mais** do valor atual, por exemplo a tag rastreadora a R$ 151–159 no texto contra R$ 90 agora.
-
-Depois disso, os achados são de ajuste fino: as rações (cachorro na pos 10 com 444 impr. e CTR de 0,45%; gato na pos 21,8 com 2 links de entrada), o `<main>` ausente em 74/77 páginas e 7 metas longas.
+O site está tecnicamente limpo: 79/79 com status 200, canonicals corretos, nenhum título ou meta duplicado, JSON-LD sem erro de parse, PSI mobile 99–100. O único problema sério é o mesmo de 24/11, agora com prazo vencendo: **links de afiliado que levam ao produto errado ou a lugar nenhum, na véspera do dia de maior intenção de compra do ano.**
 
 ### Top 5 problemas
-1. [Alto] Links de afiliado mortos ou trocados (10), a 3 dias da Black Friday
-2. [Alto] /black-friday-pet/ com 1 link interno de entrada
-3. [Médio] 29 preços desatualizados em 5% ou mais
-4. [Médio] Rações: posição fraca e poucos links internos
-5. [Médio] 74/77 páginas sem `<main>` e falha de contraste (acessibilidade 94–96)
+1. **[Crítico]** 10 meli.la com problema em 14 posts, a 1 dia da Black Friday (3 não abrem produto; 7 abrem outro anúncio)
+2. **[Alto]** 29 preços divergentes em 5% ou mais, incluindo a tag Android (R$ 151–159 no texto, R$ 90 agora) em 3 posts que o próprio post de BF cita como -41%
+3. **[Médio]** Contraste da cor `#d9480f` na home (`.feat-more`, `.read-more`): 4,29:1, abaixo de 4,5:1, e a home é a única página que ainda tem acessibilidade 96
+4. **[Médio]** bebedouro-inox-x-ceramica: 711 impr. na pos 5,7 com CTR de 0,42%, o pior CTR do site para essa posição
+5. **[Baixo]** 5 páginas institucionais sem `<main>`; tabela do antipulgas sem `<th>`; 3 metas longas
 
 ### Top 5 ganhos rápidos
-1. Trocar os 10 meli.la (lista em `reports/price-monitor/latest.md`)
-2. Bloco de link "Ofertas de Black Friday" nos 8–10 posts com mais impressões (temporário)
-3. 3–5 links contextuais para cada ração
-4. `<div>` → `<main>` no wrapper de conteúdo do template
-5. `AddDefaultCharset UTF-8` no .htaccess
+1. Trocar os 10 meli.la hoje (lista em `reports/price-monitor/latest.md`); se não der, tirar o botão desses 10 itens até gerar o link novo
+2. Atualizar os preços dos 3 posts com a tag Android e dos 2 com o Tapo C200 (são os que recebem os links de BF)
+3. `#d9480f` → `#b23a0d` (a mesma cor já usada em 24/11) nas classes `.feat-more` e `.read-more` da home
+4. Trocar `<div>` por `<main>` em /sobre/, /contato/, /politica-editorial/, /politica-de-privacidade/ e /autores/nildo-alves/
+5. Encurtar as metas de autor (191), configurar-app (163) e seresto (161)
 
-## Técnico (95)
-- Funcionando: sitemap com 79 URLs + 262 imagens, 0 erros no GSC; robots.txt com Content-Signal; HSTS e headers de segurança; IndexNow, feed.xml e llms.txt no ar; o 301 de câmera funciona.
-- [Baixo] `content-type: text/html` sem charset. O `<meta charset>` vem no byte 721, então o Google decodifica certo, mas clientes HTTP simples recebem os acentos corrompidos.
-- [Info] /melhor-camera-para-monitorar-pet/ (301 desde 17/11) ainda tem 221 impr./28 dias: é a consolidação normal do Google.
+## Técnico (96)
+- Funcionando: 79/79 com 200; sitemap com 79 URLs + 262 imagens e 0 erros no GSC; robots.txt com Content-Signal; HSTS; charset UTF-8 no header; feed.xml, llms.txt e IndexNow no ar.
+- [Baixo] 5 páginas institucionais sem `<main>`.
+- [Info] /melhor-camera-para-monitorar-pet/ (301 desde 17/11) ainda tem 235 impr. em 28 dias: é consolidação normal.
 
-## Conteúdo (80)
-- Funcionando: mediana de 1.511 palavras; divulgação honesta do método ("Não testamos…", com data da consulta), o que resolve o achado de 17/11; alerta da FDA e seções Credeli no antipulgas.
-- [Alto] Links de afiliado: ver Top 5.
-- [Médio] 29 preços divergentes.
-- [Baixo] Páginas institucionais rasas: /contato/ 192 palavras, /politica-editorial/ 236, /sobre/ 385.
-- [Baixo] 27 posts com dateModified de 22/08.
+## Conteúdo (79)
+- Funcionando: mediana de 1.566 palavras; divulgação honesta do método; post de BF com 2.467 palavras e dados próprios do monitor.
+- [Crítico] 10 links de afiliado: 2p4GhJA (brinquedo-gato), 1pm2i23 (anti-formiga) e 2b9cBHh (viagem, comedouro-x-bebedouro) não abrem produto. 1RWrc8a (5 posts de GPS) abre um kit de tag para iPhone; 1KigM7V e 15xb2sx (ração cachorro) abrem outras rações, uma terapêutica (Royal Canin Gastrointestinal Low Fat); 1qA4yst e 2KPepVS (ração gato) idem; 2nYXrfG (comedouro-para-pet, comedouro-x-bebedouro); 2om5jBS (porta-eletronica).
+- [Alto] 29 preços divergentes (detalhe no monitor). O monitor roda de novo na segunda, 30/11, e essa leitura deve alimentar a atualização do /black-friday-pet/.
+- [Baixo] Páginas institucionais rasas: /contato/, /politica-editorial/, /sobre/.
 
-## On-Page (84)
-- [Alto] Black Friday quase órfão.
-- [Médio] Rações: melhor-racao-para-gato com 2 links de entrada e pos 21,8; "melhor ração para cachorro" com 89 impr., pos 9,8 e 0 cliques.
-- [Baixo] Metas com mais de 160 caracteres: autor (194), seresto (169), configurar-app (166), brinquedo-gato, camera-para-monitorar, camera-petisco, camera-x-coleira, como-funciona. Títulos de 66 caracteres: seresto e como-funciona.
+## On-Page (86)
+- Funcionando: nenhum título ou meta duplicado; 1 H1 por página; BF com 10 links internos.
+- [Médio] bebedouro-inox-x-ceramica: pos 5,7, 711 impr., 3 cliques. O GSC só atribui 15 dessas impressões a queries visíveis (o resto é cauda anônima), então não dá para escolher o título pela query principal; o título atual ("Bebedouro Inox, Cerâmica ou Plástico: Qual o Melhor?") não tem gancho de resposta. Já estava na fila pós-freeze.
+- [Médio] Rações: melhor-racao-para-cachorro com 494 impr., pos 10,1, CTR 0,4%; melhor-racao-para-gato subiu de pos 21,8 para 19,6. Os links de afiliado das duas estão trocados (ver Conteúdo).
+- [Baixo] Metas longas: autor (191), configurar-app (163), seresto (161).
+- [Lembrete] Remover os blocos `bf-link` dos 9 posts depois de 01/12.
 
 ## Schema (89)
-BlogPosting + BreadcrumbList + FAQPage em 73 posts, ItemList em 20, Product/Review em 7, e Organization e Person com sameAs. Nada a corrigir. O FAQPage não gera rich result, mas serve para extração por IA. O aviso de hasMerchantReturnPolicy é mantido por decisão.
+- JSON-LD presente e sem erro de parse nas 79 páginas; BF com Breadcrumbs válido no URL Inspection.
+- Sem mudança desde 24/11 (o aviso de hasMerchantReturnPolicy foi mantido por decisão).
 
 ## Performance (98)
-PSI mobile: home 99 (LCP 1,7 s), posts 99–100 (LCP 0,8 s), 263 KiB por post. Ainda sem dados de campo do CrUX, porque o tráfego é baixo.
+- PSI mobile: home 99, BF 99, configurar-app 100, antipulgas 100. Sobram só oportunidades pequenas (cache de 23 KiB e ~75 KiB de JS sem uso, provavelmente gtag).
+
+## Busca por IA (82)
+- Funcionando: crawlers de IA liberados; llms.txt com 79 URLs; `<main>` nos posts; ChatGPT continua sendo a 2ª fonte e a das vendas.
+- [Médio] Pouca presença fora do site (só Facebook e Pinterest).
 
 ## Imagens (90)
-Todas as imagens dos posts têm alt e dimensões; heros em WebP com srcset; max-image-preview:large. Os cards da home com alt="" estão corretos, por serem decorativos.
-
-## Busca por IA (80)
-Crawlers de IA liberados, llms.txt completo, e o ChatGPT é a 2ª fonte de tráfego. Faltam o `<main>` (landmark-one-main) e menções de terceiros além do Facebook.
-
-## Google Search Console (28 dias)
-88 cliques, 7.348 impressões, 78 páginas com impressões.
-
-| Página | Cliques | Impr. | Pos. |
-|---|---|---|---|
-| configurar-app-comedouro-wifi | 29 | 870 | 4,4 |
-| bebedouro-inox-x-ceramica | 3 | 623 | 5,7 |
-| melhor-racao-para-cachorro | 2 | 444 | 10,0 |
-| coleira-gps-para-gato | 6 | 426 | 8,9 |
-| melhor-antipulgas-para-cachorro | 0 | 264 | 12,0 |
-| melhor-bebedouro-automatico-pet | 4 | 260 | 8,0 |
-| coleira-gps-para-pet | 1 | 255 | 11,9 |
-| camera-pet-grava-sem-internet | 0 | 105 | 7,5 |
-
-- `bebedouro-inox-x-ceramica`: 623 impr. na pos 5,7 com só 3 cliques (CTR 0,5%). Fica congelado até ~15/12 (canibalização com o ranking de bebedouro), mas é o próximo candidato a reescrita de título.
-- Credeli: "credeli ou simparic" (32 impr., pos 22) e "credeli ou nexgard" (19, pos 33) caem no antipulgas geral. As seções novas são de 23/11; reavaliar em ~15/12 antes de criar uma página própria.
-- Queries em inglês sem relação ("neutrogena pet camera review" etc.) inflam as impressões das páginas de câmera. É ruído.
-- Atualizações do Google desde outubro: só mudanças de documentação, nenhum core update. Não há fator externo a atribuir.
+- As 10 imagens sem alt da home são as miniaturas dos cards, com `alt=""` decorativo e o título ao lado. Está correto.
+- Novas páginas continuam precisando dos recortes -16x9/-4x3/-1x1.

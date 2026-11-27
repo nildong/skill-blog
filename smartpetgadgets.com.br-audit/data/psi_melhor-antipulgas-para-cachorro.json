@@ -1,0 +1,764 @@
+{
+  "url": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/",
+  "psi": {
+    "mobile": {
+      "url": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/",
+      "strategy": "mobile",
+      "lighthouse_version": "13.6.0",
+      "lighthouse_scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lab_metrics": {
+        "first-contentful-paint": {
+          "value": 805.9435632742918,
+          "display": "0.8\u00a0s",
+          "score": 1
+        },
+        "largest-contentful-paint": {
+          "value": 1085.572605457153,
+          "display": "1.1\u00a0s",
+          "score": 1
+        },
+        "total-blocking-time": {
+          "value": 61,
+          "display": "60\u00a0ms",
+          "score": 1
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "display": "0",
+          "score": 1
+        },
+        "speed-index": {
+          "value": 1909.145117318063,
+          "display": "1.9\u00a0s",
+          "score": 1
+        },
+        "interactive": {
+          "value": 2622.9435632742916,
+          "display": "2.6\u00a0s",
+          "score": 0.98
+        }
+      },
+      "field_metrics": {},
+      "opportunities": [],
+      "diagnostics": [
+        {
+          "id": "total-byte-weight",
+          "title": "Avoids enormous network payloads",
+          "display": "Total size was 248\u00a0KiB",
+          "score": 1,
+          "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn how to reduce payload sizes](https://developer.chrome.com/docs/lighthouse/performance/total-byte-weight/)."
+        },
+        {
+          "id": "mainthread-work-breakdown",
+          "title": "Minimizes main-thread work",
+          "display": "0.3\u00a0s",
+          "score": 1,
+          "description": "Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to minimize main-thread work](https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown/)"
+        },
+        {
+          "id": "bootup-time",
+          "title": "JavaScript execution time",
+          "display": "0.2\u00a0s",
+          "score": 1,
+          "description": "Consider reducing the time spent parsing, compiling, and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to reduce Javascript execution time](https://developer.chrome.com/docs/lighthouse/performance/bootup-time/)."
+        },
+        {
+          "id": "layout-shifts",
+          "title": "Avoid large layout shifts",
+          "display": "",
+          "score": null,
+          "description": "These are the largest layout shifts observed on the page. Each table item represents a single layout shift, and shows the element that shifted the most. Below each item are possible root causes that led to the layout shift. Some of these layout shifts may not be included in the CLS metric value due to [windowing](https://web.dev/articles/cls#what_is_cls). [Learn how to improve CLS](https://web.dev/articles/optimize-cls)"
+        },
+        {
+          "id": "long-tasks",
+          "title": "Avoid long main-thread tasks",
+          "display": "2 long tasks found",
+          "score": 1,
+          "description": "Lists the longest tasks on the main thread, useful for identifying worst contributors to input delay. [Learn how to avoid long main-thread tasks](https://web.dev/articles/optimize-long-tasks)"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "display": "Est savings of 75\u00a0KiB",
+          "score": 0.5,
+          "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/)."
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "display": "",
+          "score": 1,
+          "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/)."
+        }
+      ],
+      "failed_audits": [
+        {
+          "id": "td-has-header",
+          "title": "`<td>` elements in a large `<table>` do not have table headers.",
+          "score": 0,
+          "display": "",
+          "description": "Screen readers have features to make navigating tables easier. Ensuring that `<td>` elements in a large table (3 or more cells in width and height) have an associated table header may improve the experience for screen reader users. [Learn more about table headers](https://dequeuniversity.com/rules/axe/4.14/td-has-header)."
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0.5,
+          "display": "Est savings of 18\u00a0KiB",
+          "description": "Reducing the download time of images can improve the perceived load time of the page and LCP. [Learn more about optimizing image size](https://developer.chrome.com/docs/performance/insights/image-delivery)."
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "score": 0.5,
+          "display": "Est savings of 6\u00a0KiB",
+          "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache)."
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "score": 0.5,
+          "display": "Est savings of 75\u00a0KiB",
+          "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/)."
+        }
+      ],
+      "passed_audits_count": 90,
+      "seo_audits": [
+        {
+          "id": "is-crawlable",
+          "title": "Page isn\u2019t blocked from indexing",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "document-title",
+          "title": "Document has a `<title>` element",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "meta-description",
+          "title": "Document has a meta description",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "http-status-code",
+          "title": "Page has successful HTTP status code",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "link-text",
+          "title": "Links have descriptive text",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "crawlable-anchors",
+          "title": "Links are crawlable",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "robots-txt",
+          "title": "robots.txt is valid",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements have `[alt]` attributes",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "hreflang",
+          "title": "Document has a valid `hreflang`",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "canonical",
+          "title": "Document has a valid `rel=canonical`",
+          "score": 1,
+          "pass": true
+        }
+      ],
+      "accessibility_audits": [
+        {
+          "id": "td-has-header",
+          "title": "`<td>` elements in a large `<table>` do not have table headers.",
+          "score": 0,
+          "display": ""
+        }
+      ],
+      "audit_details": {
+        "trusted-types-xss": {
+          "title": "Mitigate DOM-based XSS with Trusted Types",
+          "headings": [
+            "description",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "No `Content-Security-Policy` header with Trusted Types directive found",
+              "severity": "High"
+            }
+          ],
+          "total_items": 1
+        },
+        "long-tasks": {
+          "title": "Avoid long main-thread tasks",
+          "headings": [
+            "url",
+            "startTime",
+            "duration"
+          ],
+          "items": [
+            {
+              "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
+              "startTime": 2461.9435632742916,
+              "duration": 92
+            },
+            {
+              "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
+              "startTime": 2553.9435632742916,
+              "duration": 69
+            }
+          ],
+          "total_items": 2
+        },
+        "server-response-time": {
+          "title": "Initial server response time was short",
+          "headings": [
+            "url",
+            "responseTime"
+          ],
+          "items": [
+            {
+              "url": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/",
+              "responseTime": 20
+            }
+          ],
+          "total_items": 1
+        },
+        "has-hsts": {
+          "title": "Use a strong HSTS policy",
+          "headings": [
+            "description",
+            "directive",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "No `preload` directive found",
+              "directive": "preload",
+              "severity": "Medium"
+            }
+          ],
+          "total_items": 1
+        },
+        "td-has-header": {
+          "title": "`<td>` elements in a large `<table>` do not have table headers.",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'boundingRect': {'height': 403, 'width': 620, 'right': 636, 'left': 16, 'top': 10667, 'bottom': 11070}, 'selector': 'body > main > div.table-wrap > table', 'nodeLabel': '\\tCredeli\\tSimparic\\tNexGard\\"
+            }
+          ],
+          "total_items": 1
+        },
+        "dom-size-insight": {
+          "title": "Optimize DOM size",
+          "headings": [
+            "statistic",
+            "node",
+            "value"
+          ],
+          "items": [
+            {
+              "statistic": "Total elements",
+              "value": "{'value': 481, 'granularity': 1, 'type': 'numeric'}"
+            },
+            {
+              "statistic": "DOM depth",
+              "node": "{'nodeLabel': 'Princ\u00edpio ativo', 'lhId': 'page-4-STRONG', 'type': 'node', 'boundingRect': {'top': 10724, 'height': 16, 'bottom': 10740, 'width': 99, 'right': 127, 'left': 28}, 'snippet': '<strong>', '",
+              "value": "{'value': 8, 'granularity': 1, 'type': 'numeric'}"
+            },
+            {
+              "statistic": "Most children",
+              "node": "{'lhId': 'page-3-MAIN', 'type': 'node', 'nodeLabel': 'Melhor Antipulgas para Cachorro em 2026: 6 Op\u00e7\u00f5es Comparadas\\n\\nPublicado em 29 d\u2026', 'path': '1,HTML,1,BODY,1,MAIN', 'boundingRect': {'top': 72, '",
+              "value": "{'value': 80, 'granularity': 1, 'type': 'numeric'}"
+            }
+          ],
+          "total_items": 3
+        },
+        "network-server-latency": {
+          "title": "Server Backend Latencies",
+          "headings": [
+            "origin",
+            "serverResponseTime"
+          ],
+          "items": [
+            {
+              "origin": "https://www.googletagmanager.com",
+              "serverResponseTime": 36
+            },
+            {
+              "origin": "https://smartpetgadgets.com.br",
+              "serverResponseTime": 11.5
+            },
+            {
+              "origin": "https://www.google-analytics.com",
+              "serverResponseTime": 1
+            }
+          ],
+          "total_items": 3
+        },
+        "image-delivery-insight": {
+          "title": "Improve image delivery",
+          "headings": [
+            "node",
+            "url",
+            "totalBytes",
+            "wastedBytes"
+          ],
+          "items": [
+            {
+              "node": "{'selector': 'body > main > div#produto-1 > img', 'type': 'node', 'lhId': 'page-1-IMG', 'snippet': '<img src=\"img/bravecto-caixa.webp\" alt=\"Caixa de Bravecto Azul-celeste comprimido para c\u00e3es de 20 a ",
+              "url": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/img/bravecto-caixa.webp",
+              "totalBytes": 24784,
+              "wastedBytes": 18833
+            }
+          ],
+          "total_items": 1
+        },
+        "third-parties-insight": {
+          "title": "3rd parties",
+          "headings": [
+            "entity",
+            "transferSize",
+            "mainThreadTime"
+          ],
+          "items": [
+            {
+              "entity": "Google Tag Manager",
+              "transferSize": 183610,
+              "mainThreadTime": 137.01600003242493
+            },
+            {
+              "entity": "Google Analytics",
+              "transferSize": 806,
+              "mainThreadTime": 0
+            }
+          ],
+          "total_items": 2
+        },
+        "network-requests": {
+          "title": "Network Requests",
+          "headings": [
+            "url",
+            "protocol",
+            "networkRequestTime",
+            "networkEndTime",
+            "transferSize",
+            "resourceSize",
+            "statusCode",
+            "mimeType",
+            "resourceType"
+          ],
+          "items": [
+            {
+              "url": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/",
+              "protocol": "h2",
+              "networkRequestTime": 1.8150000125169754,
+              "networkEndTime": 643.8560000061989,
+              "transferSize": 12431,
+              "resourceSize": 48756,
+              "statusCode": 200,
+              "mimeType": "text/html",
+              "resourceType": "Document"
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/img/simparic-caixa-800w.webp",
+              "protocol": "h2",
+              "networkRequestTime": 659.3839999884367,
+              "networkEndTime": 1439.2119999974966,
+              "transferSize": 27707,
+              "resourceSize": 27048,
+              "statusCode": 200,
+              "mimeType": "image/webp",
+              "resourceType": "Image"
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/theme-toggle.js?v=2",
+              "protocol": "h2",
+              "networkRequestTime": 659.5259999930859,
+              "networkEndTime": 1249.512999996543,
+              "transferSize": 1772,
+              "resourceSize": 3066,
+              "statusCode": 200,
+              "mimeType": "application/x-javascript",
+              "resourceType": "Script"
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/affiliate-cta.js?v=1",
+              "protocol": "h2",
+              "networkRequestTime": 662.7409999966621,
+              "networkEndTime": 803.457000002265,
+              "transferSize": 2318,
+              "resourceSize": 4193,
+              "statusCode": 200,
+              "mimeType": "application/x-javascript",
+              "resourceType": "Script"
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/img/bravecto-caixa.webp",
+              "protocol": "h2",
+              "networkRequestTime": 705.8310000002384,
+              "networkEndTime": 1409.015000000596,
+              "transferSize": 25443,
+              "resourceSize": 24784,
+              "statusCode": 200,
+              "mimeType": "image/webp",
+              "resourceType": "Image"
+            }
+          ],
+          "total_items": 7
+        },
+        "origin-isolation": {
+          "title": "Ensure proper origin isolation with COOP",
+          "headings": [
+            "description",
+            "directive",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "No COOP header found",
+              "severity": "High"
+            }
+          ],
+          "total_items": 1
+        },
+        "viewport-insight": {
+          "title": "Optimize viewport for mobile",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'snippet': '<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">', 'selector': 'head > meta', 'boundingRect': {'left': 0, 'top': 0, 'height': 0, 'bottom': 0, 'width': 0, 'right': 0}"
+            }
+          ],
+          "total_items": 1
+        },
+        "network-rtt": {
+          "title": "Network Round Trip Times",
+          "headings": [
+            "origin",
+            "rtt"
+          ],
+          "items": [
+            {
+              "origin": "https://smartpetgadgets.com.br",
+              "rtt": 4.815254999999999
+            },
+            {
+              "origin": "https://www.google-analytics.com",
+              "rtt": 0.8999999999999999
+            },
+            {
+              "origin": "https://www.googletagmanager.com",
+              "rtt": 0.000733908569426813
+            }
+          ],
+          "total_items": 3
+        },
+        "baseline": {
+          "title": "Baseline Features",
+          "headings": [
+            "featureId",
+            "displayStatus",
+            "source"
+          ],
+          "items": [
+            {
+              "featureId": "https://webstatus.dev/features/requestidlecallback",
+              "displayStatus": "{'status': 'limited', 'displayString': 'Limited Availability', 'type': 'baseline-status'}",
+              "source": "_lighthouse-eval.js"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/ua-client-hints",
+              "displayStatus": "{'displayString': 'Limited Availability', 'type': 'baseline-status', 'status': 'limited'}",
+              "source": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/scrollend",
+              "displayStatus": "{'type': 'baseline-status', 'displayString': 'Newly Available (2025-12-12)', 'status': 'low'}",
+              "source": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/fetch-priority",
+              "displayStatus": "{'type': 'baseline-status', 'displayString': 'Newly Available (2024-10-29)', 'status': 'low'}",
+              "source": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/overflow",
+              "displayStatus": "{'status': 'high', 'displayString': 'Widely Available (2023-09-18)', 'type': 'baseline-status'}",
+              "source": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/"
+            }
+          ],
+          "total_items": 12
+        },
+        "resource-summary": {
+          "title": "Resources Summary",
+          "headings": [
+            "label",
+            "requestCount",
+            "transferSize"
+          ],
+          "items": [
+            {
+              "label": "Total",
+              "requestCount": 7,
+              "transferSize": 254087
+            },
+            {
+              "label": "Script",
+              "requestCount": 3,
+              "transferSize": 187700
+            },
+            {
+              "label": "Image",
+              "requestCount": 2,
+              "transferSize": 53150
+            },
+            {
+              "label": "Document",
+              "requestCount": 1,
+              "transferSize": 12431
+            },
+            {
+              "label": "Other",
+              "requestCount": 1,
+              "transferSize": 806
+            }
+          ],
+          "total_items": 9
+        },
+        "csp-xss": {
+          "title": "Ensure CSP is effective against XSS attacks",
+          "headings": [
+            "description",
+            "directive",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "`script-src` directive is missing. This can allow the execution of unsafe scripts.",
+              "directive": "script-src",
+              "severity": "High"
+            },
+            {
+              "description": "Missing `object-src` allows the injection of plugins that execute unsafe scripts. Consider setting `object-src` to `'none'` if you can.",
+              "directive": "object-src",
+              "severity": "High"
+            }
+          ],
+          "total_items": 2
+        },
+        "bootup-time": {
+          "title": "JavaScript execution time",
+          "headings": [
+            "url",
+            "total",
+            "scripting",
+            "scriptParseCompile"
+          ],
+          "items": [
+            {
+              "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
+              "total": 165.70439999999994,
+              "scripting": 106.45679999999993,
+              "scriptParseCompile": 58.5852
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/",
+              "total": 68.14320000000001,
+              "scripting": 2.8776,
+              "scriptParseCompile": 0.5376
+            }
+          ],
+          "total_items": 2
+        },
+        "cache-insight": {
+          "title": "Use efficient cache lifetimes",
+          "headings": [
+            "url",
+            "cacheLifetimeMs",
+            "totalBytes"
+          ],
+          "items": [
+            {
+              "url": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/img/simparic-caixa-800w.webp",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 27707
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/img/bravecto-caixa.webp",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 25443
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/affiliate-cta.js?v=1",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 2318
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/theme-toggle.js?v=2",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 1772
+            }
+          ],
+          "total_items": 4
+        },
+        "total-byte-weight": {
+          "title": "Avoids enormous network payloads",
+          "headings": [
+            "url",
+            "totalBytes"
+          ],
+          "items": [
+            {
+              "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
+              "totalBytes": 183610
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/img/simparic-caixa-800w.webp",
+              "totalBytes": 27707
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/img/bravecto-caixa.webp",
+              "totalBytes": 25443
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/",
+              "totalBytes": 12431
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/affiliate-cta.js?v=1",
+              "totalBytes": 2318
+            }
+          ],
+          "total_items": 7
+        },
+        "unused-javascript": {
+          "title": "Reduce unused JavaScript",
+          "headings": [
+            "url",
+            "totalBytes",
+            "wastedBytes"
+          ],
+          "items": [
+            {
+              "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
+              "totalBytes": 182920,
+              "wastedBytes": 77279
+            }
+          ],
+          "total_items": 1
+        },
+        "main-thread-tasks": {
+          "title": "Tasks",
+          "headings": [
+            "startTime",
+            "duration"
+          ],
+          "items": [
+            {
+              "startTime": 647.44,
+              "duration": 12.386
+            },
+            {
+              "startTime": 665.168,
+              "duration": 40.162
+            },
+            {
+              "startTime": 1513.741,
+              "duration": 76.739
+            },
+            {
+              "startTime": 1592.018,
+              "duration": 57.65
+            },
+            {
+              "startTime": 1653.569,
+              "duration": 6.172
+            }
+          ],
+          "total_items": 5
+        },
+        "identical-links-same-purpose": {
+          "title": "Identical links have the same purpose.",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'explanation': 'Fix all of the following:\\n  Check that links have the same purpose, or are intentionally ambiguous.', 'nodeLabel': 'Ver no Mercado Livre \u2192', 'boundingRect': {'height': 46, 'width': 2"
+            }
+          ],
+          "total_items": 1
+        },
+        "mainthread-work-breakdown": {
+          "title": "Minimizes main-thread work",
+          "headings": [
+            "groupLabel",
+            "duration"
+          ],
+          "items": [
+            {
+              "groupLabel": "Script Evaluation",
+              "duration": 116.76720000000006
+            },
+            {
+              "groupLabel": "Script Parsing & Compilation",
+              "duration": 60.586800000000004
+            },
+            {
+              "groupLabel": "Other",
+              "duration": 42.448800000000084
+            },
+            {
+              "groupLabel": "Style & Layout",
+              "duration": 42.3192
+            },
+            {
+              "groupLabel": "Rendering",
+              "duration": 11.498400000000002
+            }
+          ],
+          "total_items": 7
+        }
+      },
+      "analysis_timestamp": "2026-11-26T10:55:05.961Z",
+      "error": null
+    }
+  },
+  "crux": {
+    "target": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/",
+    "metrics": {},
+    "collection_period": null,
+    "form_factor": "ALL",
+    "error": "No CrUX data for this URL. The site likely has insufficient Chrome traffic volume for eligibility."
+  },
+  "error": null
+}

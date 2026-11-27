@@ -5,9 +5,9 @@
       "keys": [
         "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/"
       ],
-      "clicks": 29,
-      "impressions": 870,
-      "ctr": 3.33,
+      "clicks": 33,
+      "impressions": 1006,
+      "ctr": 3.28,
       "position": 4.4,
       "page": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/"
     },
@@ -15,40 +15,50 @@
       "keys": [
         "https://smartpetgadgets.com.br/coleira-gps-para-gato/"
       ],
-      "clicks": 6,
-      "impressions": 426,
-      "ctr": 1.41,
-      "position": 8.9,
+      "clicks": 9,
+      "impressions": 556,
+      "ctr": 1.62,
+      "position": 8.8,
       "page": "https://smartpetgadgets.com.br/coleira-gps-para-gato/"
+    },
+    {
+      "keys": [
+        "https://smartpetgadgets.com.br/melhor-bebedouro-automatico-pet/"
+      ],
+      "clicks": 6,
+      "impressions": 323,
+      "ctr": 1.86,
+      "position": 7.9,
+      "page": "https://smartpetgadgets.com.br/melhor-bebedouro-automatico-pet/"
+    },
+    {
+      "keys": [
+        "https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/"
+      ],
+      "clicks": 5,
+      "impressions": 214,
+      "ctr": 2.34,
+      "position": 10.5,
+      "page": "https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/"
     },
     {
       "keys": [
         "https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/"
       ],
       "clicks": 4,
-      "impressions": 126,
-      "ctr": 3.17,
-      "position": 4.6,
+      "impressions": 142,
+      "ctr": 2.82,
+      "position": 4.5,
       "page": "https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/"
-    },
-    {
-      "keys": [
-        "https://smartpetgadgets.com.br/melhor-bebedouro-automatico-pet/"
-      ],
-      "clicks": 4,
-      "impressions": 260,
-      "ctr": 1.54,
-      "position": 8.0,
-      "page": "https://smartpetgadgets.com.br/melhor-bebedouro-automatico-pet/"
     },
     {
       "keys": [
         "https://smartpetgadgets.com.br/melhor-camera-para-monitorar-pet/"
       ],
       "clicks": 4,
-      "impressions": 221,
-      "ctr": 1.81,
-      "position": 11.9,
+      "impressions": 235,
+      "ctr": 1.7,
+      "position": 12.0,
       "page": "https://smartpetgadgets.com.br/melhor-camera-para-monitorar-pet/"
     },
     {
@@ -56,29 +66,59 @@
         "https://smartpetgadgets.com.br/bebedouro-inox-x-ceramica/"
       ],
       "clicks": 3,
-      "impressions": 623,
-      "ctr": 0.48,
+      "impressions": 711,
+      "ctr": 0.42,
       "position": 5.7,
       "page": "https://smartpetgadgets.com.br/bebedouro-inox-x-ceramica/"
+    },
+    {
+      "keys": [
+        "https://smartpetgadgets.com.br/coleira-gps-para-pet/"
+      ],
+      "clicks": 3,
+      "impressions": 430,
+      "ctr": 0.7,
+      "position": 10.6,
+      "page": "https://smartpetgadgets.com.br/coleira-gps-para-pet/"
     },
     {
       "keys": [
         "https://smartpetgadgets.com.br/comedouro-newpet-2l-review/"
       ],
       "clicks": 3,
-      "impressions": 194,
-      "ctr": 1.55,
-      "position": 7.1,
+      "impressions": 219,
+      "ctr": 1.37,
+      "position": 7.2,
       "page": "https://smartpetgadgets.com.br/comedouro-newpet-2l-review/"
+    },
+    {
+      "keys": [
+        "https://smartpetgadgets.com.br/soprador-pet/"
+      ],
+      "clicks": 3,
+      "impressions": 172,
+      "ctr": 1.74,
+      "position": 6.5,
+      "page": "https://smartpetgadgets.com.br/soprador-pet/"
+    },
+    {
+      "keys": [
+        "https://smartpetgadgets.com.br/camera-pet-visao-noturna-funciona/"
+      ],
+      "clicks": 2,
+      "impressions": 62,
+      "ctr": 3.23,
+      "position": 7.7,
+      "page": "https://smartpetgadgets.com.br/camera-pet-visao-noturna-funciona/"
     },
     {
       "keys": [
         "https://smartpetgadgets.com.br/coleira-gps-cachorro-que-foge/"
       ],
       "clicks": 2,
-      "impressions": 29,
-      "ctr": 6.9,
-      "position": 6.8,
+      "impressions": 36,
+      "ctr": 5.56,
+      "position": 7,
       "page": "https://smartpetgadgets.com.br/coleira-gps-cachorro-que-foge/"
     },
     {
@@ -86,8 +126,8 @@
         "https://smartpetgadgets.com.br/comedouro-automatico-faz-mal/"
       ],
       "clicks": 2,
-      "impressions": 109,
-      "ctr": 1.83,
+      "impressions": 122,
+      "ctr": 1.64,
       "position": 5.9,
       "page": "https://smartpetgadgets.com.br/comedouro-automatico-faz-mal/"
     },
@@ -96,9 +136,9 @@
         "https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/"
       ],
       "clicks": 2,
-      "impressions": 185,
-      "ctr": 1.08,
-      "position": 6.1,
+      "impressions": 194,
+      "ctr": 1.03,
+      "position": 6.0,
       "page": "https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/"
     },
     {
@@ -106,9 +146,9 @@
         "https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/"
       ],
       "clicks": 2,
-      "impressions": 134,
-      "ctr": 1.49,
-      "position": 5.8,
+      "impressions": 167,
+      "ctr": 1.2,
+      "position": 5.6,
       "page": "https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/"
     },
     {
@@ -116,49 +156,29 @@
         "https://smartpetgadgets.com.br/melhor-racao-para-cachorro/"
       ],
       "clicks": 2,
-      "impressions": 444,
-      "ctr": 0.45,
-      "position": 10.0,
+      "impressions": 494,
+      "ctr": 0.4,
+      "position": 10.1,
       "page": "https://smartpetgadgets.com.br/melhor-racao-para-cachorro/"
-    },
-    {
-      "keys": [
-        "https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/"
-      ],
-      "clicks": 2,
-      "impressions": 169,
-      "ctr": 1.18,
-      "position": 11.3,
-      "page": "https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/"
     },
     {
       "keys": [
         "https://smartpetgadgets.com.br/porta-eletronica-funciona-porta-de-vidro/"
       ],
       "clicks": 2,
-      "impressions": 53,
-      "ctr": 3.77,
-      "position": 16.9,
+      "impressions": 67,
+      "ctr": 2.99,
+      "position": 15.1,
       "page": "https://smartpetgadgets.com.br/porta-eletronica-funciona-porta-de-vidro/"
-    },
-    {
-      "keys": [
-        "https://smartpetgadgets.com.br/soprador-pet/"
-      ],
-      "clicks": 2,
-      "impressions": 125,
-      "ctr": 1.6,
-      "position": 6.5,
-      "page": "https://smartpetgadgets.com.br/soprador-pet/"
     },
     {
       "keys": [
         "https://smartpetgadgets.com.br/"
       ],
       "clicks": 1,
-      "impressions": 57,
-      "ctr": 1.75,
-      "position": 41.5,
+      "impressions": 66,
+      "ctr": 1.52,
+      "position": 41.6,
       "page": "https://smartpetgadgets.com.br/"
     },
     {
@@ -166,9 +186,9 @@
         "https://smartpetgadgets.com.br/brinquedo-interativo-sensor-infravermelho-como-funciona/"
       ],
       "clicks": 1,
-      "impressions": 61,
-      "ctr": 1.64,
-      "position": 7.3,
+      "impressions": 65,
+      "ctr": 1.54,
+      "position": 7.2,
       "page": "https://smartpetgadgets.com.br/brinquedo-interativo-sensor-infravermelho-como-funciona/"
     },
     {
@@ -176,29 +196,19 @@
         "https://smartpetgadgets.com.br/camera-para-monitorar-pet/"
       ],
       "clicks": 1,
-      "impressions": 207,
-      "ctr": 0.48,
-      "position": 13.3,
+      "impressions": 283,
+      "ctr": 0.35,
+      "position": 11.7,
       "page": "https://smartpetgadgets.com.br/camera-para-monitorar-pet/"
-    },
-    {
-      "keys": [
-        "https://smartpetgadgets.com.br/camera-pet-visao-noturna-funciona/"
-      ],
-      "clicks": 1,
-      "impressions": 51,
-      "ctr": 1.96,
-      "position": 8.2,
-      "page": "https://smartpetgadgets.com.br/camera-pet-visao-noturna-funciona/"
     },
     {
       "keys": [
         "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/"
       ],
       "clicks": 1,
-      "impressions": 66,
-      "ctr": 1.52,
-      "position": 7.1,
+      "impressions": 76,
+      "ctr": 1.32,
+      "position": 7.2,
       "page": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/"
     },
     {
@@ -206,29 +216,19 @@
         "https://smartpetgadgets.com.br/coleira-gps-bluetooth-x-chip-operadora/"
       ],
       "clicks": 1,
-      "impressions": 36,
-      "ctr": 2.78,
-      "position": 9.9,
+      "impressions": 43,
+      "ctr": 2.33,
+      "position": 9.3,
       "page": "https://smartpetgadgets.com.br/coleira-gps-bluetooth-x-chip-operadora/"
-    },
-    {
-      "keys": [
-        "https://smartpetgadgets.com.br/coleira-gps-para-pet/"
-      ],
-      "clicks": 1,
-      "impressions": 255,
-      "ctr": 0.39,
-      "position": 11.9,
-      "page": "https://smartpetgadgets.com.br/coleira-gps-para-pet/"
     },
     {
       "keys": [
         "https://smartpetgadgets.com.br/coleira-seresto-antipulgas/"
       ],
       "clicks": 1,
-      "impressions": 59,
-      "ctr": 1.69,
-      "position": 11.0,
+      "impressions": 65,
+      "ctr": 1.54,
+      "position": 11.1,
       "page": "https://smartpetgadgets.com.br/coleira-seresto-antipulgas/"
     },
     {
@@ -236,9 +236,9 @@
         "https://smartpetgadgets.com.br/comedouro-automatico-anti-formiga/"
       ],
       "clicks": 1,
-      "impressions": 118,
-      "ctr": 0.85,
-      "position": 6.5,
+      "impressions": 140,
+      "ctr": 0.71,
+      "position": 6.1,
       "page": "https://smartpetgadgets.com.br/comedouro-automatico-anti-formiga/"
     },
     {
@@ -246,28 +246,48 @@
         "https://smartpetgadgets.com.br/comedouro-automatico-para-pet/"
       ],
       "clicks": 1,
-      "impressions": 60,
-      "ctr": 1.67,
-      "position": 9.0,
+      "impressions": 70,
+      "ctr": 1.43,
+      "position": 8.8,
       "page": "https://smartpetgadgets.com.br/comedouro-automatico-para-pet/"
+    },
+    {
+      "keys": [
+        "https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/"
+      ],
+      "clicks": 1,
+      "impressions": 61,
+      "ctr": 1.64,
+      "position": 5.9,
+      "page": "https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/"
     },
     {
       "keys": [
         "https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/"
       ],
       "clicks": 1,
-      "impressions": 28,
-      "ctr": 3.57,
-      "position": 5.8,
+      "impressions": 29,
+      "ctr": 3.45,
+      "position": 5.9,
       "page": "https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/"
+    },
+    {
+      "keys": [
+        "https://smartpetgadgets.com.br/comedouro-newpet-4l-review/"
+      ],
+      "clicks": 1,
+      "impressions": 74,
+      "ctr": 1.35,
+      "position": 6.9,
+      "page": "https://smartpetgadgets.com.br/comedouro-newpet-4l-review/"
     },
     {
       "keys": [
         "https://smartpetgadgets.com.br/como-funciona-coleira-gps-cachorro/"
       ],
       "clicks": 1,
-      "impressions": 122,
-      "ctr": 0.82,
+      "impressions": 154,
+      "ctr": 0.65,
       "position": 7.2,
       "page": "https://smartpetgadgets.com.br/como-funciona-coleira-gps-cachorro/"
     },
@@ -276,9 +296,9 @@
         "https://smartpetgadgets.com.br/como-limpar-comedouro-automatico/"
       ],
       "clicks": 1,
-      "impressions": 53,
-      "ctr": 1.89,
-      "position": 3.9,
+      "impressions": 56,
+      "ctr": 1.79,
+      "position": 3.8,
       "page": "https://smartpetgadgets.com.br/como-limpar-comedouro-automatico/"
     },
     {
@@ -286,18 +306,48 @@
         "https://smartpetgadgets.com.br/duvidas-coleira-gps-pet/"
       ],
       "clicks": 1,
-      "impressions": 52,
-      "ctr": 1.92,
-      "position": 6.9,
+      "impressions": 57,
+      "ctr": 1.75,
+      "position": 6.8,
       "page": "https://smartpetgadgets.com.br/duvidas-coleira-gps-pet/"
+    },
+    {
+      "keys": [
+        "https://smartpetgadgets.com.br/erros-comuns-coleira-gps-pet/"
+      ],
+      "clicks": 1,
+      "impressions": 102,
+      "ctr": 0.98,
+      "position": 6.6,
+      "page": "https://smartpetgadgets.com.br/erros-comuns-coleira-gps-pet/"
+    },
+    {
+      "keys": [
+        "https://smartpetgadgets.com.br/melhor-bolinha-inteligente-para-gato/"
+      ],
+      "clicks": 1,
+      "impressions": 44,
+      "ctr": 2.27,
+      "position": 6.8,
+      "page": "https://smartpetgadgets.com.br/melhor-bolinha-inteligente-para-gato/"
+    },
+    {
+      "keys": [
+        "https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/"
+      ],
+      "clicks": 1,
+      "impressions": 133,
+      "ctr": 0.75,
+      "position": 11.0,
+      "page": "https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/"
     },
     {
       "keys": [
         "https://smartpetgadgets.com.br/melhor-comedouro-interativo-gato/"
       ],
       "clicks": 1,
-      "impressions": 97,
-      "ctr": 1.03,
+      "impressions": 109,
+      "ctr": 0.92,
       "position": 9.9,
       "page": "https://smartpetgadgets.com.br/melhor-comedouro-interativo-gato/"
     },
@@ -316,9 +366,9 @@
         "https://smartpetgadgets.com.br/porta-eletronica-sensor-de-luz-como-funciona/"
       ],
       "clicks": 1,
-      "impressions": 18,
-      "ctr": 5.56,
-      "position": 8.3,
+      "impressions": 20,
+      "ctr": 5.0,
+      "position": 8,
       "page": "https://smartpetgadgets.com.br/porta-eletronica-sensor-de-luz-como-funciona/"
     },
     {
@@ -326,9 +376,9 @@
         "https://smartpetgadgets.com.br/sobre/"
       ],
       "clicks": 1,
-      "impressions": 11,
-      "ctr": 9.09,
-      "position": 18.7,
+      "impressions": 14,
+      "ctr": 7.14,
+      "position": 19.6,
       "page": "https://smartpetgadgets.com.br/sobre/"
     },
     {
@@ -336,9 +386,9 @@
         "https://smartpetgadgets.com.br/tapete-higienico-para-cachorro/"
       ],
       "clicks": 1,
-      "impressions": 44,
-      "ctr": 2.27,
-      "position": 7.6,
+      "impressions": 47,
+      "ctr": 2.13,
+      "position": 7.7,
       "page": "https://smartpetgadgets.com.br/tapete-higienico-para-cachorro/"
     },
     {
@@ -356,9 +406,9 @@
         "https://smartpetgadgets.com.br/brinquedo-automatico-cachorro-sozinho/"
       ],
       "clicks": 0,
-      "impressions": 25,
+      "impressions": 33,
       "ctr": 0,
-      "position": 8.5,
+      "position": 14.4,
       "page": "https://smartpetgadgets.com.br/brinquedo-automatico-cachorro-sozinho/"
     },
     {
@@ -366,9 +416,9 @@
         "https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/"
       ],
       "clicks": 0,
-      "impressions": 73,
+      "impressions": 93,
       "ctr": 0,
-      "position": 10.2,
+      "position": 10.1,
       "page": "https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/"
     },
     {
@@ -376,9 +426,9 @@
         "https://smartpetgadgets.com.br/brinquedo-interativo-pilha-x-recarregavel/"
       ],
       "clicks": 0,
-      "impressions": 73,
+      "impressions": 80,
       "ctr": 0,
-      "position": 8.0,
+      "position": 7.9,
       "page": "https://smartpetgadgets.com.br/brinquedo-interativo-pilha-x-recarregavel/"
     },
     {
@@ -386,9 +436,9 @@
         "https://smartpetgadgets.com.br/brinquedo-interativo-substitui-brincadeira-tutor/"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 10,
+      "position": 8.3,
       "page": "https://smartpetgadgets.com.br/brinquedo-interativo-substitui-brincadeira-tutor/"
     },
     {
@@ -396,7 +446,7 @@
         "https://smartpetgadgets.com.br/cachorro-de-casa-pega-pulga/"
       ],
       "clicks": 0,
-      "impressions": 69,
+      "impressions": 81,
       "ctr": 0,
       "position": 8.8,
       "page": "https://smartpetgadgets.com.br/cachorro-de-casa-pega-pulga/"
@@ -426,7 +476,7 @@
         "https://smartpetgadgets.com.br/camera-pet-grava-sem-internet/"
       ],
       "clicks": 0,
-      "impressions": 105,
+      "impressions": 126,
       "ctr": 0,
       "position": 7.5,
       "page": "https://smartpetgadgets.com.br/camera-pet-grava-sem-internet/"
@@ -436,9 +486,9 @@
         "https://smartpetgadgets.com.br/camera-pet-resolucao-1080p-x-2k/"
       ],
       "clicks": 0,
-      "impressions": 89,
+      "impressions": 100,
       "ctr": 0,
-      "position": 8.8,
+      "position": 8.6,
       "page": "https://smartpetgadgets.com.br/camera-pet-resolucao-1080p-x-2k/"
     },
     {
@@ -446,9 +496,9 @@
         "https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/"
       ],
       "clicks": 0,
-      "impressions": 51,
+      "impressions": 72,
       "ctr": 0,
-      "position": 9.2,
+      "position": 8.9,
       "page": "https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/"
     },
     {
@@ -466,9 +516,9 @@
         "https://smartpetgadgets.com.br/cercado-para-cachorros/"
       ],
       "clicks": 0,
-      "impressions": 18,
+      "impressions": 25,
       "ctr": 0,
-      "position": 9.2,
+      "position": 9.3,
       "page": "https://smartpetgadgets.com.br/cercado-para-cachorros/"
     },
     {
@@ -476,9 +526,9 @@
         "https://smartpetgadgets.com.br/coleira-gps-cachorro-pequeno-porte/"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 7,
       "ctr": 0,
-      "position": 15.5,
+      "position": 9.4,
       "page": "https://smartpetgadgets.com.br/coleira-gps-cachorro-pequeno-porte/"
     },
     {
@@ -486,9 +536,9 @@
         "https://smartpetgadgets.com.br/coleira-gps-x-microchip/"
       ],
       "clicks": 0,
-      "impressions": 25,
+      "impressions": 26,
       "ctr": 0,
-      "position": 5.9,
+      "position": 6.1,
       "page": "https://smartpetgadgets.com.br/coleira-gps-x-microchip/"
     },
     {
@@ -496,7 +546,7 @@
         "https://smartpetgadgets.com.br/comedouro-automatico-gato-obeso/"
       ],
       "clicks": 0,
-      "impressions": 47,
+      "impressions": 52,
       "ctr": 0,
       "position": 5.6,
       "page": "https://smartpetgadgets.com.br/comedouro-automatico-gato-obeso/"
@@ -506,9 +556,9 @@
         "https://smartpetgadgets.com.br/comedouro-automatico-vale-a-pena/"
       ],
       "clicks": 0,
-      "impressions": 43,
+      "impressions": 50,
       "ctr": 0,
-      "position": 6.9,
+      "position": 6.8,
       "page": "https://smartpetgadgets.com.br/comedouro-automatico-vale-a-pena/"
     },
     {
@@ -516,39 +566,19 @@
         "https://smartpetgadgets.com.br/comedouro-cachorro/"
       ],
       "clicks": 0,
-      "impressions": 49,
+      "impressions": 54,
       "ctr": 0,
-      "position": 9.5,
+      "position": 9.4,
       "page": "https://smartpetgadgets.com.br/comedouro-cachorro/"
-    },
-    {
-      "keys": [
-        "https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/"
-      ],
-      "clicks": 0,
-      "impressions": 56,
-      "ctr": 0,
-      "position": 5.9,
-      "page": "https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/"
-    },
-    {
-      "keys": [
-        "https://smartpetgadgets.com.br/comedouro-newpet-4l-review/"
-      ],
-      "clicks": 0,
-      "impressions": 67,
-      "ctr": 0,
-      "position": 6.5,
-      "page": "https://smartpetgadgets.com.br/comedouro-newpet-4l-review/"
     },
     {
       "keys": [
         "https://smartpetgadgets.com.br/comedouro-x-bebedouro-automatico/"
       ],
       "clicks": 0,
-      "impressions": 78,
+      "impressions": 88,
       "ctr": 0,
-      "position": 8.5,
+      "position": 8.6,
       "page": "https://smartpetgadgets.com.br/comedouro-x-bebedouro-automatico/"
     },
     {
@@ -556,9 +586,9 @@
         "https://smartpetgadgets.com.br/como-configurar-camera-pet-wifi/"
       ],
       "clicks": 0,
-      "impressions": 36,
+      "impressions": 39,
       "ctr": 0,
-      "position": 5.6,
+      "position": 5.4,
       "page": "https://smartpetgadgets.com.br/como-configurar-camera-pet-wifi/"
     },
     {
@@ -566,9 +596,9 @@
         "https://smartpetgadgets.com.br/como-instalar-porta-eletronica-pet/"
       ],
       "clicks": 0,
-      "impressions": 21,
+      "impressions": 22,
       "ctr": 0,
-      "position": 11.5,
+      "position": 11.2,
       "page": "https://smartpetgadgets.com.br/como-instalar-porta-eletronica-pet/"
     },
     {
@@ -586,9 +616,9 @@
         "https://smartpetgadgets.com.br/duvidas-brinquedo-interativo-gato/"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 7.2,
+      "position": 6.3,
       "page": "https://smartpetgadgets.com.br/duvidas-brinquedo-interativo-gato/"
     },
     {
@@ -596,9 +626,9 @@
         "https://smartpetgadgets.com.br/duvidas-camera-para-monitorar-pet/"
       ],
       "clicks": 0,
-      "impressions": 16,
+      "impressions": 19,
       "ctr": 0,
-      "position": 22.5,
+      "position": 20.7,
       "page": "https://smartpetgadgets.com.br/duvidas-camera-para-monitorar-pet/"
     },
     {
@@ -606,9 +636,9 @@
         "https://smartpetgadgets.com.br/duvidas-porta-eletronica-pet/"
       ],
       "clicks": 0,
-      "impressions": 11,
+      "impressions": 14,
       "ctr": 0,
-      "position": 8.9,
+      "position": 8.2,
       "page": "https://smartpetgadgets.com.br/duvidas-porta-eletronica-pet/"
     },
     {
@@ -616,9 +646,9 @@
         "https://smartpetgadgets.com.br/erros-comuns-brinquedo-interativo-gato/"
       ],
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 15,
       "ctr": 0,
-      "position": 4.2,
+      "position": 4.1,
       "page": "https://smartpetgadgets.com.br/erros-comuns-brinquedo-interativo-gato/"
     },
     {
@@ -626,20 +656,10 @@
         "https://smartpetgadgets.com.br/erros-comuns-camera-monitorar-pet/"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 7,
       "ctr": 0,
-      "position": 3.8,
+      "position": 4.7,
       "page": "https://smartpetgadgets.com.br/erros-comuns-camera-monitorar-pet/"
-    },
-    {
-      "keys": [
-        "https://smartpetgadgets.com.br/erros-comuns-coleira-gps-pet/"
-      ],
-      "clicks": 0,
-      "impressions": 89,
-      "ctr": 0,
-      "position": 6.8,
-      "page": "https://smartpetgadgets.com.br/erros-comuns-coleira-gps-pet/"
     },
     {
       "keys": [
@@ -656,9 +676,9 @@
         "https://smartpetgadgets.com.br/melhor-alimentador-automatico-gatos/"
       ],
       "clicks": 0,
-      "impressions": 132,
+      "impressions": 143,
       "ctr": 0,
-      "position": 10.5,
+      "position": 10.8,
       "page": "https://smartpetgadgets.com.br/melhor-alimentador-automatico-gatos/"
     },
     {
@@ -666,20 +686,10 @@
         "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/"
       ],
       "clicks": 0,
-      "impressions": 264,
+      "impressions": 323,
       "ctr": 0,
       "position": 12.0,
       "page": "https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/"
-    },
-    {
-      "keys": [
-        "https://smartpetgadgets.com.br/melhor-bolinha-inteligente-para-gato/"
-      ],
-      "clicks": 0,
-      "impressions": 36,
-      "ctr": 0,
-      "position": 7.1,
-      "page": "https://smartpetgadgets.com.br/melhor-bolinha-inteligente-para-gato/"
     },
     {
       "keys": [
@@ -693,22 +703,12 @@
     },
     {
       "keys": [
-        "https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/"
-      ],
-      "clicks": 0,
-      "impressions": 96,
-      "ctr": 0,
-      "position": 12.1,
-      "page": "https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/"
-    },
-    {
-      "keys": [
         "https://smartpetgadgets.com.br/melhor-racao-para-gato/"
       ],
       "clicks": 0,
-      "impressions": 93,
+      "impressions": 120,
       "ctr": 0,
-      "position": 21.8,
+      "position": 19.6,
       "page": "https://smartpetgadgets.com.br/melhor-racao-para-gato/"
     },
     {
@@ -726,9 +726,9 @@
         "https://smartpetgadgets.com.br/porta-eletronica-automatica-para-pet/"
       ],
       "clicks": 0,
-      "impressions": 38,
+      "impressions": 43,
       "ctr": 0,
-      "position": 9.6,
+      "position": 9.7,
       "page": "https://smartpetgadgets.com.br/porta-eletronica-automatica-para-pet/"
     },
     {
@@ -736,9 +736,9 @@
         "https://smartpetgadgets.com.br/porta-eletronica-gato-x-cachorro-diferenca/"
       ],
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 8,
       "ctr": 0,
-      "position": 11,
+      "position": 10.9,
       "page": "https://smartpetgadgets.com.br/porta-eletronica-gato-x-cachorro-diferenca/"
     },
     {
@@ -746,9 +746,9 @@
         "https://smartpetgadgets.com.br/porta-eletronica-impede-entrada-outros-animais/"
       ],
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 9,
       "ctr": 0,
-      "position": 5.6,
+      "position": 5.3,
       "page": "https://smartpetgadgets.com.br/porta-eletronica-impede-entrada-outros-animais/"
     },
     {
@@ -756,9 +756,9 @@
         "https://smartpetgadgets.com.br/porta-eletronica-microchip-x-rfid-coleira/"
       ],
       "clicks": 0,
-      "impressions": 14,
+      "impressions": 16,
       "ctr": 0,
-      "position": 6.3,
+      "position": 6.2,
       "page": "https://smartpetgadgets.com.br/porta-eletronica-microchip-x-rfid-coleira/"
     },
     {
@@ -783,10 +783,10 @@
     }
   ],
   "totals": {
-    "clicks": 88,
-    "impressions": 7228,
-    "ctr": 1.22,
-    "position": 8.5
+    "clicks": 108,
+    "impressions": 8618,
+    "ctr": 1.25,
+    "position": 8.4
   },
   "totals_source": "dimensionless_aggregate",
   "totals_complete": true,
@@ -796,6 +796,6 @@
   "error": null,
   "date_range": {
     "start": "2026-10-27",
-    "end": "2026-11-21"
+    "end": "2026-11-23"
   }
 }

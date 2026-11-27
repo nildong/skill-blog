@@ -1,4 +1,5 @@
 {
+  "url": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/",
   "psi": {
     "mobile": {
       "url": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/",
@@ -6,24 +7,24 @@
       "lighthouse_version": "13.6.0",
       "lighthouse_scores": {
         "performance": 100,
-        "accessibility": 94,
+        "accessibility": 100,
         "best-practices": 100,
         "seo": 100
       },
       "lab_metrics": {
         "first-contentful-paint": {
-          "value": 795.7362557945883,
+          "value": 837.9208025596488,
           "display": "0.8\u00a0s",
           "score": 1
         },
         "largest-contentful-paint": {
-          "value": 795.7362557945883,
+          "value": 837.9208025596488,
           "display": "0.8\u00a0s",
           "score": 1
         },
         "total-blocking-time": {
-          "value": 5.5,
-          "display": "10\u00a0ms",
+          "value": 22,
+          "display": "20\u00a0ms",
           "score": 1
         },
         "cumulative-layout-shift": {
@@ -32,14 +33,14 @@
           "score": 1
         },
         "speed-index": {
-          "value": 2070.455472638537,
-          "display": "2.1\u00a0s",
-          "score": 0.99
+          "value": 1412.9822888654849,
+          "display": "1.4\u00a0s",
+          "score": 1
         },
         "interactive": {
-          "value": 2823.2362557945885,
-          "display": "2.8\u00a0s",
-          "score": 0.97
+          "value": 2920.420802559649,
+          "display": "2.9\u00a0s",
+          "score": 0.96
         }
       },
       "field_metrics": {},
@@ -83,7 +84,7 @@
         {
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
-          "display": "Est savings of 76\u00a0KiB",
+          "display": "Est savings of 75\u00a0KiB",
           "score": 0.5,
           "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/)."
         },
@@ -97,32 +98,11 @@
       ],
       "failed_audits": [
         {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "score": 0,
-          "display": "",
-          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.14/color-contrast)."
-        },
-        {
-          "id": "landmark-one-main",
-          "title": "Document does not have a main landmark.",
-          "score": 0,
-          "display": "",
-          "description": "One main landmark helps screen reader users navigate a web page. [Learn more about landmarks](https://dequeuniversity.com/rules/axe/4.14/landmark-one-main)."
-        },
-        {
           "id": "unused-javascript",
           "title": "Reduce unused JavaScript",
           "score": 0.5,
-          "display": "Est savings of 76\u00a0KiB",
+          "display": "Est savings of 75\u00a0KiB",
           "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/)."
-        },
-        {
-          "id": "cache-insight",
-          "title": "Use efficient cache lifetimes",
-          "score": 0.5,
-          "display": "Est savings of 14\u00a0KiB",
-          "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache)."
         },
         {
           "id": "image-delivery-insight",
@@ -130,9 +110,16 @@
           "score": 0.5,
           "display": "Est savings of 90\u00a0KiB",
           "description": "Reducing the download time of images can improve the perceived load time of the page and LCP. [Learn more about optimizing image size](https://developer.chrome.com/docs/performance/insights/image-delivery)."
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "score": 0.5,
+          "display": "Est savings of 14\u00a0KiB",
+          "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache)."
         }
       ],
-      "passed_audits_count": 88,
+      "passed_audits_count": 90,
       "seo_audits": [
         {
           "id": "is-crawlable",
@@ -195,21 +182,23 @@
           "pass": true
         }
       ],
-      "accessibility_audits": [
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "score": 0,
-          "display": ""
-        },
-        {
-          "id": "landmark-one-main",
-          "title": "Document does not have a main landmark.",
-          "score": 0,
-          "display": ""
-        }
-      ],
+      "accessibility_audits": [],
       "audit_details": {
+        "origin-isolation": {
+          "title": "Ensure proper origin isolation with COOP",
+          "headings": [
+            "description",
+            "directive",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "No COOP header found",
+              "severity": "High"
+            }
+          ],
+          "total_items": 1
+        },
         "has-hsts": {
           "title": "Use a strong HSTS policy",
           "headings": [
@@ -226,77 +215,53 @@
           ],
           "total_items": 1
         },
-        "network-requests": {
-          "title": "Network Requests",
+        "unused-javascript": {
+          "title": "Reduce unused JavaScript",
           "headings": [
             "url",
-            "protocol",
-            "networkRequestTime",
-            "networkEndTime",
-            "transferSize",
-            "resourceSize",
-            "statusCode",
-            "mimeType",
-            "resourceType"
+            "totalBytes",
+            "wastedBytes"
+          ],
+          "items": [
+            {
+              "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
+              "totalBytes": 182919,
+              "wastedBytes": 76685
+            }
+          ],
+          "total_items": 1
+        },
+        "bootup-time": {
+          "title": "JavaScript execution time",
+          "headings": [
+            "url",
+            "total",
+            "scripting",
+            "scriptParseCompile"
+          ],
+          "items": [
+            {
+              "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
+              "total": 147.3228000000003,
+              "scripting": 98.0892000000003,
+              "scriptParseCompile": 47.436
+            }
+          ],
+          "total_items": 1
+        },
+        "server-response-time": {
+          "title": "Initial server response time was short",
+          "headings": [
+            "url",
+            "responseTime"
           ],
           "items": [
             {
               "url": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/",
-              "protocol": "h2",
-              "networkRequestTime": 0.7949998378753662,
-              "networkEndTime": 700.2859997749329,
-              "transferSize": 10571,
-              "resourceSize": 36121,
-              "statusCode": 200,
-              "mimeType": "text/html",
-              "resourceType": "Document"
-            },
-            {
-              "url": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/img/configurar-app-comedouro-wifi-hero.webp",
-              "protocol": "h2",
-              "networkRequestTime": 710.3429999351501,
-              "networkEndTime": 1641.9879999160767,
-              "transferSize": 80174,
-              "resourceSize": 79514,
-              "statusCode": 200,
-              "mimeType": "image/webp",
-              "resourceType": "Image"
-            },
-            {
-              "url": "https://smartpetgadgets.com.br/theme-toggle.js?v=2",
-              "protocol": "h2",
-              "networkRequestTime": 711.0449998378754,
-              "networkEndTime": 856.1819999217987,
-              "transferSize": 1699,
-              "resourceSize": 3066,
-              "statusCode": 200,
-              "mimeType": "application/x-javascript",
-              "resourceType": "Script"
-            },
-            {
-              "url": "https://smartpetgadgets.com.br/affiliate-cta.js?v=1",
-              "protocol": "h2",
-              "networkRequestTime": 712.059999704361,
-              "networkEndTime": 1256.7799999713898,
-              "transferSize": 2361,
-              "resourceSize": 4193,
-              "statusCode": 200,
-              "mimeType": "application/x-javascript",
-              "resourceType": "Script"
-            },
-            {
-              "url": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/img/configurar-comedouro-wifi-5-passos.webp",
-              "protocol": "h2",
-              "networkRequestTime": 743.2889997959137,
-              "networkEndTime": 1267.7239997386932,
-              "transferSize": 54341,
-              "resourceSize": 53740,
-              "statusCode": 200,
-              "mimeType": "image/webp",
-              "resourceType": "Image"
+              "responseTime": 93
             }
           ],
-          "total_items": 7
+          "total_items": 1
         },
         "identical-links-same-purpose": {
           "title": "Identical links have the same purpose.",
@@ -305,79 +270,35 @@
           ],
           "items": [
             {
-              "node": "{'selector': 'div.pick-box > div.pick-item > div.pick-body > a.pick-btn', 'lhId': '1-4-A', 'type': 'node', 'path': '1,HTML,1,BODY,51,DIV,1,DIV,1,DIV,3,A', 'explanation': 'Fix all of the following:\\n  "
+              "node": "{'selector': 'div.pick-box > div.pick-item > div.pick-body > a.pick-btn', 'type': 'node', 'lhId': '1-2-A', 'snippet': '<a class=\"pick-btn\" href=\"https://meli.la/17VqkwJ\" target=\"_blank\" rel=\"nofollow "
             }
           ],
           "total_items": 1
         },
-        "baseline": {
-          "title": "Baseline Features",
+        "dom-size-insight": {
+          "title": "Optimize DOM size",
           "headings": [
-            "featureId",
-            "displayStatus",
-            "source"
+            "statistic",
+            "node",
+            "value"
           ],
           "items": [
             {
-              "featureId": "https://webstatus.dev/features/requestidlecallback",
-              "displayStatus": "{'status': 'limited', 'displayString': 'Limited Availability', 'type': 'baseline-status'}",
-              "source": "_lighthouse-eval.js"
+              "statistic": "Total elements",
+              "value": "{'type': 'numeric', 'value': 268, 'granularity': 1}"
             },
             {
-              "featureId": "https://webstatus.dev/features/ua-client-hints",
-              "displayStatus": "{'status': 'limited', 'displayString': 'Limited Availability', 'type': 'baseline-status'}",
-              "source": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK"
+              "statistic": "DOM depth",
+              "node": "{'lhId': 'page-5-STRONG', 'snippet': '<strong>', 'type': 'node', 'boundingRect': {'left': 29, 'width': 43, 'height': 43, 'top': 2336, 'bottom': 2379, 'right': 72}, 'selector': 'tbody > tr > td > stron",
+              "value": "{'type': 'numeric', 'granularity': 1, 'value': 8}"
             },
             {
-              "featureId": "https://webstatus.dev/features/scrollend",
-              "displayStatus": "{'status': 'low', 'type': 'baseline-status', 'displayString': 'Newly Available (2025-12-12)'}",
-              "source": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK"
-            },
-            {
-              "featureId": "https://webstatus.dev/features/overflow",
-              "displayStatus": "{'status': 'high', 'displayString': 'Widely Available (2023-09-18)', 'type': 'baseline-status'}",
-              "source": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/"
-            },
-            {
-              "featureId": "https://webstatus.dev/features/color-scheme",
-              "displayStatus": "{'type': 'baseline-status', 'displayString': 'Widely Available (2022-02-03)', 'status': 'high'}",
-              "source": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/"
+              "statistic": "Most children",
+              "node": "{'nodeLabel': 'Como Configurar Comedouro Wi-Fi no App Tuya: Passo a Passo\\n\\nPublicado em 20 de \u2026', 'type': 'node', 'lhId': 'page-4-MAIN', 'selector': 'body > main', 'snippet': '<main>', 'path': '1,HT",
+              "value": "{'value': 78, 'granularity': 1, 'type': 'numeric'}"
             }
           ],
-          "total_items": 9
-        },
-        "third-parties-insight": {
-          "title": "3rd parties",
-          "headings": [
-            "entity",
-            "transferSize",
-            "mainThreadTime"
-          ],
-          "items": [
-            {
-              "entity": "Google Tag Manager",
-              "transferSize": 183614,
-              "mainThreadTime": 95.26100039482117
-            },
-            {
-              "entity": "Google Analytics",
-              "transferSize": 806,
-              "mainThreadTime": 0
-            }
-          ],
-          "total_items": 2
-        },
-        "color-contrast": {
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "headings": [
-            "node"
-          ],
-          "items": [
-            {
-              "node": "{'type': 'node', 'selector': 'body > div > div', 'path': '1,HTML,1,BODY,79,DIV,0,DIV', 'lhId': '1-0-DIV', 'snippet': '<div style=\"width: 64px; height: 64px; border-radius: 50%; flex-shrink: 0;\">', 'bo"
-            }
-          ],
-          "total_items": 1
+          "total_items": 3
         },
         "resource-summary": {
           "title": "Resources Summary",
@@ -390,12 +311,12 @@
             {
               "label": "Total",
               "requestCount": 7,
-              "transferSize": 333566
+              "transferSize": 333842
             },
             {
               "label": "Script",
               "requestCount": 3,
-              "transferSize": 187674
+              "transferSize": 187758
             },
             {
               "label": "Image",
@@ -405,7 +326,7 @@
             {
               "label": "Document",
               "requestCount": 1,
-              "transferSize": 10571
+              "transferSize": 10763
             },
             {
               "label": "Other",
@@ -414,73 +335,6 @@
             }
           ],
           "total_items": 9
-        },
-        "total-byte-weight": {
-          "title": "Avoids enormous network payloads",
-          "headings": [
-            "url",
-            "totalBytes"
-          ],
-          "items": [
-            {
-              "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
-              "totalBytes": 183614
-            },
-            {
-              "url": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/img/configurar-app-comedouro-wifi-hero.webp",
-              "totalBytes": 80174
-            },
-            {
-              "url": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/img/configurar-comedouro-wifi-5-passos.webp",
-              "totalBytes": 54341
-            },
-            {
-              "url": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/",
-              "totalBytes": 10571
-            },
-            {
-              "url": "https://smartpetgadgets.com.br/affiliate-cta.js?v=1",
-              "totalBytes": 2361
-            }
-          ],
-          "total_items": 7
-        },
-        "network-rtt": {
-          "title": "Network Round Trip Times",
-          "headings": [
-            "origin",
-            "rtt"
-          ],
-          "items": [
-            {
-              "origin": "https://smartpetgadgets.com.br",
-              "rtt": 5.246152500000002
-            },
-            {
-              "origin": "https://www.google-analytics.com",
-              "rtt": 0.8999999999999999
-            },
-            {
-              "origin": "https://www.googletagmanager.com",
-              "rtt": 0.0007339018039126985
-            }
-          ],
-          "total_items": 3
-        },
-        "origin-isolation": {
-          "title": "Ensure proper origin isolation with COOP",
-          "headings": [
-            "description",
-            "directive",
-            "severity"
-          ],
-          "items": [
-            {
-              "description": "No COOP header found",
-              "severity": "High"
-            }
-          ],
-          "total_items": 1
         },
         "trusted-types-xss": {
           "title": "Mitigate DOM-based XSS with Trusted Types",
@@ -496,116 +350,126 @@
           ],
           "total_items": 1
         },
-        "landmark-one-main": {
-          "title": "Document does not have a main landmark.",
+        "network-rtt": {
+          "title": "Network Round Trip Times",
+          "headings": [
+            "origin",
+            "rtt"
+          ],
+          "items": [
+            {
+              "origin": "https://smartpetgadgets.com.br",
+              "rtt": 2.8075050000000004
+            },
+            {
+              "origin": "https://www.google-analytics.com",
+              "rtt": 0.8999999999999999
+            },
+            {
+              "origin": "https://www.googletagmanager.com",
+              "rtt": 0.0005708134503874893
+            }
+          ],
+          "total_items": 3
+        },
+        "viewport-insight": {
+          "title": "Optimize viewport for mobile",
           "headings": [
             "node"
           ],
           "items": [
             {
-              "node": "{'nodeLabel': 'html', 'explanation': 'Fix all of the following:\\n  Document does not have a main landmark', 'lhId': '1-1-HTML', 'selector': 'html', 'snippet': '<html lang=\"pt-BR\">', 'type': 'node', 'b"
+              "node": "{'nodeLabel': 'head > meta', 'path': '1,HTML,0,HEAD,3,META', 'selector': 'head > meta', 'snippet': '<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">', 'boundingRect': {'right': 0"
             }
           ],
           "total_items": 1
         },
-        "unused-javascript": {
-          "title": "Reduce unused JavaScript",
+        "third-parties-insight": {
+          "title": "3rd parties",
           "headings": [
-            "url",
-            "totalBytes",
-            "wastedBytes"
+            "entity",
+            "transferSize",
+            "mainThreadTime"
           ],
           "items": [
             {
-              "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
-              "totalBytes": 182924,
-              "wastedBytes": 77313
+              "entity": "Google Tag Manager",
+              "transferSize": 183610,
+              "mainThreadTime": 120.90999984741211
+            },
+            {
+              "entity": "Google Analytics",
+              "transferSize": 806,
+              "mainThreadTime": 0
             }
           ],
-          "total_items": 1
+          "total_items": 2
         },
-        "mainthread-work-breakdown": {
-          "title": "Minimizes main-thread work",
-          "headings": [
-            "groupLabel",
-            "duration"
-          ],
-          "items": [
-            {
-              "groupLabel": "Script Evaluation",
-              "duration": 92.68800000000059
-            },
-            {
-              "groupLabel": "Other",
-              "duration": 33.39120000000002
-            },
-            {
-              "groupLabel": "Script Parsing & Compilation",
-              "duration": 32.1504
-            },
-            {
-              "groupLabel": "Style & Layout",
-              "duration": 27.618
-            },
-            {
-              "groupLabel": "Rendering",
-              "duration": 6.383999999999998
-            }
-          ],
-          "total_items": 6
-        },
-        "cache-insight": {
-          "title": "Use efficient cache lifetimes",
+        "total-byte-weight": {
+          "title": "Avoids enormous network payloads",
           "headings": [
             "url",
-            "cacheLifetimeMs",
             "totalBytes"
           ],
           "items": [
             {
+              "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
+              "totalBytes": 183610
+            },
+            {
               "url": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/img/configurar-app-comedouro-wifi-hero.webp",
-              "cacheLifetimeMs": 604800000,
               "totalBytes": 80174
             },
             {
               "url": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/img/configurar-comedouro-wifi-5-passos.webp",
-              "cacheLifetimeMs": 604800000,
               "totalBytes": 54341
             },
             {
-              "url": "https://smartpetgadgets.com.br/affiliate-cta.js?v=1",
-              "cacheLifetimeMs": 604800000,
-              "totalBytes": 2361
+              "url": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/",
+              "totalBytes": 10763
             },
             {
-              "url": "https://smartpetgadgets.com.br/theme-toggle.js?v=2",
-              "cacheLifetimeMs": 604800000,
-              "totalBytes": 1699
+              "url": "https://smartpetgadgets.com.br/affiliate-cta.js?v=1",
+              "totalBytes": 2376
             }
           ],
-          "total_items": 4
+          "total_items": 7
         },
-        "network-server-latency": {
-          "title": "Server Backend Latencies",
+        "baseline": {
+          "title": "Baseline Features",
           "headings": [
-            "origin",
-            "serverResponseTime"
+            "featureId",
+            "displayStatus",
+            "source"
           ],
           "items": [
             {
-              "origin": "https://www.googletagmanager.com",
-              "serverResponseTime": 37
+              "featureId": "https://webstatus.dev/features/requestidlecallback",
+              "displayStatus": "{'type': 'baseline-status', 'status': 'limited', 'displayString': 'Limited Availability'}",
+              "source": "_lighthouse-eval.js"
             },
             {
-              "origin": "https://smartpetgadgets.com.br",
-              "serverResponseTime": 12
+              "featureId": "https://webstatus.dev/features/ua-client-hints",
+              "displayStatus": "{'displayString': 'Limited Availability', 'status': 'limited', 'type': 'baseline-status'}",
+              "source": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK"
             },
             {
-              "origin": "https://www.google-analytics.com",
-              "serverResponseTime": 1
+              "featureId": "https://webstatus.dev/features/scrollend",
+              "displayStatus": "{'type': 'baseline-status', 'displayString': 'Newly Available (2025-12-12)', 'status': 'low'}",
+              "source": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/overflow",
+              "displayStatus": "{'displayString': 'Widely Available (2023-09-18)', 'type': 'baseline-status', 'status': 'high'}",
+              "source": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/color-scheme",
+              "displayStatus": "{'status': 'high', 'displayString': 'Widely Available (2022-02-03)', 'type': 'baseline-status'}",
+              "source": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/"
             }
           ],
-          "total_items": 3
+          "total_items": 9
         },
         "long-tasks": {
           "title": "Avoid long main-thread tasks",
@@ -617,13 +481,13 @@
           "items": [
             {
               "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
-              "startTime": 2968.736255794588,
-              "duration": 57
+              "startTime": 2978.920802559649,
+              "duration": 80
             },
             {
               "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
-              "startTime": 2914.736255794588,
-              "duration": 54
+              "startTime": 3058.920802559649,
+              "duration": 64
             }
           ],
           "total_items": 2
@@ -638,100 +502,19 @@
           ],
           "items": [
             {
-              "node": "{'selector': 'body > figure > picture > img', 'lhId': 'page-1-IMG', 'nodeLabel': 'Tela de celular mostrando o aplicativo de configura\u00e7\u00e3o de um comedouro autom\u00e1ti\u2026', 'type': 'node', 'path': '1,HTML,1,B",
+              "node": "{'snippet': '<img src=\"https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/img/configura\u2026\" alt=\"Tela de celular mostrando o aplicativo de configura\u00e7\u00e3o de um comedouro aut\u2026\" width=\"1200\" heigh",
               "url": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/img/configurar-app-comedouro-wifi-hero.webp",
               "totalBytes": 79514,
               "wastedBytes": 55095
             },
             {
-              "node": "{'lhId': 'page-2-IMG', 'type': 'node', 'selector': 'body > figure > picture > img', 'snippet': '<img src=\"https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/img/configura\u2026\" alt=\"Infogr\u00e1fico ",
+              "node": "{'selector': 'main > figure > picture > img', 'path': '1,HTML,1,BODY,1,MAIN,5,FIGURE,0,PICTURE,1,IMG', 'lhId': 'page-2-IMG', 'snippet': '<img src=\"https://smartpetgadgets.com.br/configurar-app-comedou",
               "url": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/img/configurar-comedouro-wifi-5-passos.webp",
               "totalBytes": 53740,
               "wastedBytes": 37236
             }
           ],
           "total_items": 2
-        },
-        "viewport-insight": {
-          "title": "Optimize viewport for mobile",
-          "headings": [
-            "node"
-          ],
-          "items": [
-            {
-              "node": "{'snippet': '<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">', 'path': '1,HTML,0,HEAD,3,META', 'boundingRect': {'left': 0, 'width': 0, 'height': 0, 'right': 0, 'top': 0, 'bottom"
-            }
-          ],
-          "total_items": 1
-        },
-        "dom-size-insight": {
-          "title": "Optimize DOM size",
-          "headings": [
-            "statistic",
-            "node",
-            "value"
-          ],
-          "items": [
-            {
-              "statistic": "Total elements",
-              "value": "{'value': 264, 'type': 'numeric', 'granularity': 1}"
-            },
-            {
-              "statistic": "DOM depth",
-              "node": "{'nodeLabel': 'Tuya Smart', 'selector': 'tbody > tr > td > strong', 'boundingRect': {'bottom': 2223, 'width': 43, 'left': 29, 'right': 72, 'top': 2180, 'height': 43}, 'lhId': 'page-5-STRONG', 'type': ",
-              "value": "{'type': 'numeric', 'granularity': 1, 'value': 7}"
-            },
-            {
-              "statistic": "Most children",
-              "node": "{'lhId': 'page-4-BODY', 'selector': 'body', 'snippet': '<body>', 'path': '1,HTML,1,BODY', 'type': 'node', 'nodeLabel': 'body', 'boundingRect': {'bottom': 15548, 'width': 412, 'left': 0, 'right': 412, ",
-              "value": "{'type': 'numeric', 'granularity': 1, 'value': 84}"
-            }
-          ],
-          "total_items": 3
-        },
-        "bootup-time": {
-          "title": "JavaScript execution time",
-          "headings": [
-            "url",
-            "total",
-            "scripting",
-            "scriptParseCompile"
-          ],
-          "items": [
-            {
-              "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
-              "total": 115.29480000000049,
-              "scripting": 84.0624000000005,
-              "scriptParseCompile": 30.737999999999996
-            }
-          ],
-          "total_items": 1
-        },
-        "main-thread-tasks": {
-          "title": "Tasks",
-          "headings": [
-            "startTime",
-            "duration"
-          ],
-          "items": [
-            {
-              "startTime": 702.702,
-              "duration": 7.429
-            },
-            {
-              "startTime": 716.465,
-              "duration": 25.677
-            },
-            {
-              "startTime": 1737.136,
-              "duration": 45.225
-            },
-            {
-              "startTime": 1782.499,
-              "duration": 47.752
-            }
-          ],
-          "total_items": 4
         },
         "csp-xss": {
           "title": "Ensure CSP is effective against XSS attacks",
@@ -754,24 +537,198 @@
           ],
           "total_items": 2
         },
-        "server-response-time": {
-          "title": "Initial server response time was short",
+        "cache-insight": {
+          "title": "Use efficient cache lifetimes",
           "headings": [
             "url",
-            "responseTime"
+            "cacheLifetimeMs",
+            "totalBytes"
+          ],
+          "items": [
+            {
+              "url": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/img/configurar-app-comedouro-wifi-hero.webp",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 80174
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/img/configurar-comedouro-wifi-5-passos.webp",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 54341
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/affiliate-cta.js?v=1",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 2376
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/theme-toggle.js?v=2",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 1772
+            }
+          ],
+          "total_items": 4
+        },
+        "mainthread-work-breakdown": {
+          "title": "Minimizes main-thread work",
+          "headings": [
+            "groupLabel",
+            "duration"
+          ],
+          "items": [
+            {
+              "groupLabel": "Script Evaluation",
+              "duration": 103.93200000000034
+            },
+            {
+              "groupLabel": "Script Parsing & Compilation",
+              "duration": 48.660000000000004
+            },
+            {
+              "groupLabel": "Other",
+              "duration": 26.732400000000002
+            },
+            {
+              "groupLabel": "Style & Layout",
+              "duration": 17.0772
+            },
+            {
+              "groupLabel": "Rendering",
+              "duration": 5.5764000000000005
+            }
+          ],
+          "total_items": 6
+        },
+        "network-requests": {
+          "title": "Network Requests",
+          "headings": [
+            "url",
+            "protocol",
+            "networkRequestTime",
+            "networkEndTime",
+            "transferSize",
+            "resourceSize",
+            "statusCode",
+            "mimeType",
+            "resourceType"
           ],
           "items": [
             {
               "url": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/",
-              "responseTime": 12
+              "protocol": "h2",
+              "networkRequestTime": 1.003999948501587,
+              "networkEndTime": 375.3440001010895,
+              "transferSize": 10763,
+              "resourceSize": 36603,
+              "statusCode": 200,
+              "mimeType": "text/html",
+              "resourceType": "Document"
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/img/configurar-app-comedouro-wifi-hero.webp",
+              "protocol": "h2",
+              "networkRequestTime": 384.31699991226196,
+              "networkEndTime": 1027.608999967575,
+              "transferSize": 80174,
+              "resourceSize": 79514,
+              "statusCode": 200,
+              "mimeType": "image/webp",
+              "resourceType": "Image"
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/theme-toggle.js?v=2",
+              "protocol": "h2",
+              "networkRequestTime": 384.492999792099,
+              "networkEndTime": 1026.960000038147,
+              "transferSize": 1772,
+              "resourceSize": 3066,
+              "statusCode": 200,
+              "mimeType": "application/x-javascript",
+              "resourceType": "Script"
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/affiliate-cta.js?v=1",
+              "protocol": "h2",
+              "networkRequestTime": 386.1210000514984,
+              "networkEndTime": 754.204999923706,
+              "transferSize": 2376,
+              "resourceSize": 4193,
+              "statusCode": 200,
+              "mimeType": "application/x-javascript",
+              "resourceType": "Script"
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/img/configurar-comedouro-wifi-5-passos.webp",
+              "protocol": "h2",
+              "networkRequestTime": 405.4609999656677,
+              "networkEndTime": 776.6909999847412,
+              "transferSize": 54341,
+              "resourceSize": 53740,
+              "statusCode": 200,
+              "mimeType": "image/webp",
+              "resourceType": "Image"
             }
           ],
-          "total_items": 1
+          "total_items": 7
+        },
+        "main-thread-tasks": {
+          "title": "Tasks",
+          "headings": [
+            "startTime",
+            "duration"
+          ],
+          "items": [
+            {
+              "startTime": 377.227,
+              "duration": 7.352
+            },
+            {
+              "startTime": 388.245,
+              "duration": 16.555
+            },
+            {
+              "startTime": 1160.098,
+              "duration": 66.257
+            },
+            {
+              "startTime": 1226.522,
+              "duration": 53.67
+            }
+          ],
+          "total_items": 4
+        },
+        "network-server-latency": {
+          "title": "Server Backend Latencies",
+          "headings": [
+            "origin",
+            "serverResponseTime"
+          ],
+          "items": [
+            {
+              "origin": "https://smartpetgadgets.com.br",
+              "serverResponseTime": 66.5
+            },
+            {
+              "origin": "https://www.googletagmanager.com",
+              "serverResponseTime": 54
+            },
+            {
+              "origin": "https://www.google-analytics.com",
+              "serverResponseTime": 1
+            }
+          ],
+          "total_items": 3
         }
       },
-      "analysis_timestamp": "2026-11-24T12:10:59.794Z",
+      "analysis_timestamp": "2026-11-26T10:55:05.548Z",
       "error": null
     }
+  },
+  "crux": {
+    "target": "https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/",
+    "metrics": {},
+    "collection_period": null,
+    "form_factor": "ALL",
+    "error": "No CrUX data for this URL. The site likely has insufficient Chrome traffic volume for eligibility."
   },
   "error": null
 }

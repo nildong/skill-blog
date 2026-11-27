@@ -1,4 +1,5 @@
 {
+  "url": "https://smartpetgadgets.com.br/black-friday-pet/",
   "psi": {
     "mobile": {
       "url": "https://smartpetgadgets.com.br/black-friday-pet/",
@@ -6,25 +7,25 @@
       "lighthouse_version": "13.6.0",
       "lighthouse_scores": {
         "performance": 99,
-        "accessibility": 95,
+        "accessibility": 100,
         "best-practices": 100,
         "seo": 100
       },
       "lab_metrics": {
         "first-contentful-paint": {
-          "value": 811.4383943297929,
+          "value": 807.390507987705,
           "display": "0.8\u00a0s",
           "score": 1
         },
         "largest-contentful-paint": {
-          "value": 811.4383943297929,
+          "value": 807.390507987705,
           "display": "0.8\u00a0s",
           "score": 1
         },
         "total-blocking-time": {
-          "value": 138,
-          "display": "140\u00a0ms",
-          "score": 0.95
+          "value": 99,
+          "display": "100\u00a0ms",
+          "score": 0.98
         },
         "cumulative-layout-shift": {
           "value": 0,
@@ -32,12 +33,12 @@
           "score": 1
         },
         "speed-index": {
-          "value": 1640.1643900171307,
-          "display": "1.6\u00a0s",
+          "value": 1425.4638214726313,
+          "display": "1.4\u00a0s",
           "score": 1
         },
         "interactive": {
-          "value": 2705.4383943297926,
+          "value": 2665.390507987705,
           "display": "2.7\u00a0s",
           "score": 0.97
         }
@@ -55,7 +56,7 @@
         {
           "id": "mainthread-work-breakdown",
           "title": "Minimizes main-thread work",
-          "display": "0.4\u00a0s",
+          "display": "0.3\u00a0s",
           "score": 1,
           "description": "Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to minimize main-thread work](https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown/)"
         },
@@ -97,20 +98,6 @@
       ],
       "failed_audits": [
         {
-          "id": "landmark-one-main",
-          "title": "Document does not have a main landmark.",
-          "score": 0,
-          "display": "",
-          "description": "One main landmark helps screen reader users navigate a web page. [Learn more about landmarks](https://dequeuniversity.com/rules/axe/4.14/landmark-one-main)."
-        },
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "score": 0,
-          "display": "",
-          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.14/color-contrast)."
-        },
-        {
           "id": "cache-insight",
           "title": "Use efficient cache lifetimes",
           "score": 0.5,
@@ -123,16 +110,9 @@
           "score": 0.5,
           "display": "Est savings of 76\u00a0KiB",
           "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/)."
-        },
-        {
-          "id": "max-potential-fid",
-          "title": "Max Potential First Input Delay",
-          "score": 0.85,
-          "display": "150\u00a0ms",
-          "description": "The maximum potential First Input Delay that your users could experience is the duration of the longest task. [Learn more about the Maximum Potential First Input Delay metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-max-potential-fid/)."
         }
       ],
-      "passed_audits_count": 94,
+      "passed_audits_count": 97,
       "seo_audits": [
         {
           "id": "is-crawlable",
@@ -195,20 +175,7 @@
           "pass": true
         }
       ],
-      "accessibility_audits": [
-        {
-          "id": "color-contrast",
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "score": 0,
-          "display": ""
-        },
-        {
-          "id": "landmark-one-main",
-          "title": "Document does not have a main landmark.",
-          "score": 0,
-          "display": ""
-        }
-      ],
+      "accessibility_audits": [],
       "audit_details": {
         "resource-summary": {
           "title": "Resources Summary",
@@ -221,22 +188,22 @@
             {
               "label": "Total",
               "requestCount": 6,
-              "transferSize": 237519
+              "transferSize": 237506
             },
             {
               "label": "Script",
               "requestCount": 3,
-              "transferSize": 187732
+              "transferSize": 187758
             },
             {
               "label": "Image",
               "requestCount": 1,
-              "transferSize": 38947
+              "transferSize": 38889
             },
             {
               "label": "Document",
               "requestCount": 1,
-              "transferSize": 10034
+              "transferSize": 10053
             },
             {
               "label": "Other",
@@ -245,57 +212,6 @@
             }
           ],
           "total_items": 9
-        },
-        "main-thread-tasks": {
-          "title": "Tasks",
-          "headings": [
-            "startTime",
-            "duration"
-          ],
-          "items": [
-            {
-              "startTime": 558.911,
-              "duration": 16.038
-            },
-            {
-              "startTime": 575.476,
-              "duration": 6.811
-            },
-            {
-              "startTime": 583.235,
-              "duration": 50.98
-            },
-            {
-              "startTime": 971.571,
-              "duration": 8.983
-            },
-            {
-              "startTime": 1216.268,
-              "duration": 122.055
-            }
-          ],
-          "total_items": 6
-        },
-        "long-tasks": {
-          "title": "Avoid long main-thread tasks",
-          "headings": [
-            "url",
-            "startTime",
-            "duration"
-          ],
-          "items": [
-            {
-              "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
-              "startTime": 2467.4383943297926,
-              "duration": 146
-            },
-            {
-              "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
-              "startTime": 2613.4383943297926,
-              "duration": 92
-            }
-          ],
-          "total_items": 2
         },
         "has-hsts": {
           "title": "Use a strong HSTS policy",
@@ -313,31 +229,90 @@
           ],
           "total_items": 1
         },
-        "cache-insight": {
-          "title": "Use efficient cache lifetimes",
+        "dom-size-insight": {
+          "title": "Optimize DOM size",
           "headings": [
-            "url",
-            "cacheLifetimeMs",
-            "totalBytes"
+            "statistic",
+            "node",
+            "value"
           ],
           "items": [
             {
-              "url": "https://smartpetgadgets.com.br/black-friday-pet/img/black-friday-pet-hero-800w.webp",
-              "cacheLifetimeMs": 604800000,
-              "totalBytes": 38947
+              "statistic": "Total elements",
+              "value": "{'value': 548, 'granularity': 1, 'type': 'numeric'}"
             },
             {
-              "url": "https://smartpetgadgets.com.br/affiliate-cta.js?v=1",
-              "cacheLifetimeMs": 604800000,
-              "totalBytes": 2361
+              "statistic": "DOM depth",
+              "node": "{'selector': 'svg.bf-desktop > g > g > title', 'nodeLabel': 'svg.bf-desktop > g > g > title', 'type': 'node', 'path': '1,HTML,1,BODY,1,MAIN,7,FIGURE,0,DIV,0,svg,2,g,13,g,0,title', 'boundingRect': {'he",
+              "value": "{'type': 'numeric', 'value': 8, 'granularity': 1}"
             },
             {
-              "url": "https://smartpetgadgets.com.br/theme-toggle.js?v=2",
-              "cacheLifetimeMs": 604800000,
-              "totalBytes": 1757
+              "statistic": "Most children",
+              "node": "{'boundingRect': {'bottom': 9392, 'height': 9320, 'top': 72, 'right': 396, 'left': 16, 'width': 380}, 'lhId': 'page-2-MAIN', 'selector': 'body > main', 'nodeLabel': 'Black Friday Pet 2026: 1 em Cada 6",
+              "value": "{'value': 40, 'type': 'numeric', 'granularity': 1}"
             }
           ],
           "total_items": 3
+        },
+        "mainthread-work-breakdown": {
+          "title": "Minimizes main-thread work",
+          "headings": [
+            "groupLabel",
+            "duration"
+          ],
+          "items": [
+            {
+              "groupLabel": "Script Evaluation",
+              "duration": 141.61919999999998
+            },
+            {
+              "groupLabel": "Script Parsing & Compilation",
+              "duration": 71.8128
+            },
+            {
+              "groupLabel": "Other",
+              "duration": 46.5444
+            },
+            {
+              "groupLabel": "Style & Layout",
+              "duration": 44.0472
+            },
+            {
+              "groupLabel": "Rendering",
+              "duration": 11.322000000000001
+            }
+          ],
+          "total_items": 7
+        },
+        "main-thread-tasks": {
+          "title": "Tasks",
+          "headings": [
+            "startTime",
+            "duration"
+          ],
+          "items": [
+            {
+              "startTime": 534.791,
+              "duration": 15.627
+            },
+            {
+              "startTime": 550.956,
+              "duration": 5.894
+            },
+            {
+              "startTime": 557.535,
+              "duration": 41.027
+            },
+            {
+              "startTime": 1278.016,
+              "duration": 5.037
+            },
+            {
+              "startTime": 1386.697,
+              "duration": 96.875
+            }
+          ],
+          "total_items": 7
         },
         "baseline": {
           "title": "Baseline Features",
@@ -349,12 +324,12 @@
           "items": [
             {
               "featureId": "https://webstatus.dev/features/requestidlecallback",
-              "displayStatus": "{'displayString': 'Limited Availability', 'type': 'baseline-status', 'status': 'limited'}",
+              "displayStatus": "{'displayString': 'Limited Availability', 'status': 'limited', 'type': 'baseline-status'}",
               "source": "_lighthouse-eval.js"
             },
             {
               "featureId": "https://webstatus.dev/features/ua-client-hints",
-              "displayStatus": "{'displayString': 'Limited Availability', 'type': 'baseline-status', 'status': 'limited'}",
+              "displayStatus": "{'type': 'baseline-status', 'displayString': 'Limited Availability', 'status': 'limited'}",
               "source": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK"
             },
             {
@@ -364,63 +339,16 @@
             },
             {
               "featureId": "https://webstatus.dev/features/fetch-priority",
-              "displayStatus": "{'displayString': 'Newly Available (2024-10-29)', 'status': 'low', 'type': 'baseline-status'}",
+              "displayStatus": "{'type': 'baseline-status', 'displayString': 'Newly Available (2024-10-29)', 'status': 'low'}",
               "source": "https://smartpetgadgets.com.br/black-friday-pet/"
             },
             {
               "featureId": "https://webstatus.dev/features/paint-order",
-              "displayStatus": "{'displayString': 'Widely Available (2024-03-22)', 'type': 'baseline-status', 'status': 'high'}",
+              "displayStatus": "{'type': 'baseline-status', 'displayString': 'Widely Available (2024-03-22)', 'status': 'high'}",
               "source": "https://smartpetgadgets.com.br/black-friday-pet/"
             }
           ],
           "total_items": 12
-        },
-        "network-rtt": {
-          "title": "Network Round Trip Times",
-          "headings": [
-            "origin",
-            "rtt"
-          ],
-          "items": [
-            {
-              "origin": "https://smartpetgadgets.com.br",
-              "rtt": 4.1471100000000005
-            },
-            {
-              "origin": "https://www.google-analytics.com",
-              "rtt": 0.8999999999999999
-            },
-            {
-              "origin": "https://www.googletagmanager.com",
-              "rtt": 0.0009785567356749014
-            }
-          ],
-          "total_items": 3
-        },
-        "dom-size-insight": {
-          "title": "Optimize DOM size",
-          "headings": [
-            "statistic",
-            "node",
-            "value"
-          ],
-          "items": [
-            {
-              "statistic": "Total elements",
-              "value": "{'type': 'numeric', 'value': 547, 'granularity': 1}"
-            },
-            {
-              "statistic": "DOM depth",
-              "node": "{'snippet': '<title>', 'lhId': 'page-3-title', 'selector': 'svg.bf-desktop > g > g > title', 'type': 'node', 'nodeLabel': 'svg.bf-desktop > g > g > title', 'path': '1,HTML,1,BODY,8,FIGURE,0,DIV,0,svg,",
-              "value": "{'type': 'numeric', 'granularity': 1, 'value': 7}"
-            },
-            {
-              "statistic": "Most children",
-              "node": "{'nodeLabel': 'body', 'type': 'node', 'lhId': 'page-2-BODY', 'path': '1,HTML,1,BODY', 'boundingRect': {'top': 0, 'bottom': 9833, 'right': 412, 'left': 0, 'width': 412, 'height': 9833}, 'snippet': '<bo",
-              "value": "{'type': 'numeric', 'value': 47, 'granularity': 1}"
-            }
-          ],
-          "total_items": 3
         },
         "bootup-time": {
           "title": "JavaScript execution time",
@@ -433,48 +361,39 @@
           "items": [
             {
               "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
-              "total": 245.07720000000035,
-              "scripting": 164.42880000000034,
-              "scriptParseCompile": 78.1356
+              "total": 205.65839999999994,
+              "scripting": 133.26959999999994,
+              "scriptParseCompile": 69.9768
             },
             {
               "url": "https://smartpetgadgets.com.br/black-friday-pet/",
-              "total": 91.14959999999999,
-              "scripting": 3.5399999999999996,
-              "scriptParseCompile": 0.636
+              "total": 69.372,
+              "scripting": 2.2523999999999997,
+              "scriptParseCompile": 0.5531999999999999
             }
           ],
           "total_items": 2
         },
-        "total-byte-weight": {
-          "title": "Avoids enormous network payloads",
+        "long-tasks": {
+          "title": "Avoid long main-thread tasks",
           "headings": [
             "url",
-            "totalBytes"
+            "startTime",
+            "duration"
           ],
           "items": [
             {
               "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
-              "totalBytes": 183614
+              "startTime": 2466.390507987705,
+              "duration": 116
             },
             {
-              "url": "https://smartpetgadgets.com.br/black-friday-pet/img/black-friday-pet-hero-800w.webp",
-              "totalBytes": 38947
-            },
-            {
-              "url": "https://smartpetgadgets.com.br/black-friday-pet/",
-              "totalBytes": 10034
-            },
-            {
-              "url": "https://smartpetgadgets.com.br/affiliate-cta.js?v=1",
-              "totalBytes": 2361
-            },
-            {
-              "url": "https://smartpetgadgets.com.br/theme-toggle.js?v=2",
-              "totalBytes": 1757
+              "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
+              "startTime": 2582.390507987705,
+              "duration": 83
             }
           ],
-          "total_items": 6
+          "total_items": 2
         },
         "trusted-types-xss": {
           "title": "Mitigate DOM-based XSS with Trusted Types",
@@ -490,31 +409,54 @@
           ],
           "total_items": 1
         },
-        "viewport-insight": {
-          "title": "Optimize viewport for mobile",
+        "identical-links-same-purpose": {
+          "title": "Identical links have the same purpose.",
           "headings": [
             "node"
           ],
           "items": [
             {
-              "node": "{'snippet': '<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">', 'boundingRect': {'top': 0, 'height': 0, 'width': 0, 'left': 0, 'bottom': 0, 'right': 0}, 'lhId': 'page-1-META', 's"
+              "node": "{'selector': 'tbody > tr > td > a', 'snippet': '<a href=\"https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/\">', 'boundingRect': {'right': 124, 'left': 47, 'top': 2736, 'bottom': 2752, 'he"
             }
           ],
           "total_items": 1
         },
-        "server-response-time": {
-          "title": "Initial server response time was short",
+        "origin-isolation": {
+          "title": "Ensure proper origin isolation with COOP",
           "headings": [
-            "url",
-            "responseTime"
+            "description",
+            "directive",
+            "severity"
           ],
           "items": [
             {
-              "url": "https://smartpetgadgets.com.br/black-friday-pet/",
-              "responseTime": 10
+              "description": "No COOP header found",
+              "severity": "High"
             }
           ],
           "total_items": 1
+        },
+        "network-rtt": {
+          "title": "Network Round Trip Times",
+          "headings": [
+            "origin",
+            "rtt"
+          ],
+          "items": [
+            {
+              "origin": "https://smartpetgadgets.com.br",
+              "rtt": 3.964154999999998
+            },
+            {
+              "origin": "https://www.google-analytics.com",
+              "rtt": 0.8999999999999999
+            },
+            {
+              "origin": "https://www.googletagmanager.com",
+              "rtt": 0.0006523374316832315
+            }
+          ],
+          "total_items": 3
         },
         "csp-xss": {
           "title": "Ensure CSP is effective against XSS attacks",
@@ -537,6 +479,36 @@
           ],
           "total_items": 2
         },
+        "total-byte-weight": {
+          "title": "Avoids enormous network payloads",
+          "headings": [
+            "url",
+            "totalBytes"
+          ],
+          "items": [
+            {
+              "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
+              "totalBytes": 183610
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/black-friday-pet/img/black-friday-pet-hero-800w.webp",
+              "totalBytes": 38889
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/black-friday-pet/",
+              "totalBytes": 10053
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/affiliate-cta.js?v=1",
+              "totalBytes": 2376
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/theme-toggle.js?v=2",
+              "totalBytes": 1772
+            }
+          ],
+          "total_items": 6
+        },
         "network-server-latency": {
           "title": "Server Backend Latencies",
           "headings": [
@@ -546,18 +518,107 @@
           "items": [
             {
               "origin": "https://www.googletagmanager.com",
-              "serverResponseTime": 45
+              "serverResponseTime": 41
             },
             {
               "origin": "https://smartpetgadgets.com.br",
-              "serverResponseTime": 10
+              "serverResponseTime": 13.5
             },
             {
               "origin": "https://www.google-analytics.com",
-              "serverResponseTime": 0
+              "serverResponseTime": 1
             }
           ],
           "total_items": 3
+        },
+        "cache-insight": {
+          "title": "Use efficient cache lifetimes",
+          "headings": [
+            "url",
+            "cacheLifetimeMs",
+            "totalBytes"
+          ],
+          "items": [
+            {
+              "url": "https://smartpetgadgets.com.br/black-friday-pet/img/black-friday-pet-hero-800w.webp",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 38889
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/affiliate-cta.js?v=1",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 2376
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/theme-toggle.js?v=2",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 1772
+            }
+          ],
+          "total_items": 3
+        },
+        "unused-javascript": {
+          "title": "Reduce unused JavaScript",
+          "headings": [
+            "url",
+            "totalBytes",
+            "wastedBytes"
+          ],
+          "items": [
+            {
+              "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
+              "totalBytes": 182920,
+              "wastedBytes": 77312
+            }
+          ],
+          "total_items": 1
+        },
+        "server-response-time": {
+          "title": "Initial server response time was short",
+          "headings": [
+            "url",
+            "responseTime"
+          ],
+          "items": [
+            {
+              "url": "https://smartpetgadgets.com.br/black-friday-pet/",
+              "responseTime": 26
+            }
+          ],
+          "total_items": 1
+        },
+        "viewport-insight": {
+          "title": "Optimize viewport for mobile",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'lhId': 'page-1-META', 'nodeLabel': 'head > meta', 'selector': 'head > meta', 'boundingRect': {'height': 0, 'bottom': 0, 'top': 0, 'right': 0, 'left': 0, 'width': 0}, 'type': 'node', 'path': '1,HTML,"
+            }
+          ],
+          "total_items": 1
+        },
+        "third-parties-insight": {
+          "title": "3rd parties",
+          "headings": [
+            "entity",
+            "transferSize",
+            "mainThreadTime"
+          ],
+          "items": [
+            {
+              "entity": "Google Tag Manager",
+              "transferSize": 183610,
+              "mainThreadTime": 168.6909990310669
+            },
+            {
+              "entity": "Google Analytics",
+              "transferSize": 806,
+              "mainThreadTime": 0
+            }
+          ],
+          "total_items": 2
         },
         "network-requests": {
           "title": "Network Requests",
@@ -576,10 +637,10 @@
             {
               "url": "https://smartpetgadgets.com.br/black-friday-pet/",
               "protocol": "h2",
-              "networkRequestTime": 1.7609999179840088,
-              "networkEndTime": 554.7149999141693,
-              "transferSize": 10034,
-              "resourceSize": 43933,
+              "networkRequestTime": 2.7680001258850098,
+              "networkEndTime": 531.3309998512268,
+              "transferSize": 10053,
+              "resourceSize": 43949,
               "statusCode": 200,
               "mimeType": "text/html",
               "resourceType": "Document"
@@ -587,9 +648,9 @@
             {
               "url": "https://smartpetgadgets.com.br/black-friday-pet/img/black-friday-pet-hero-800w.webp",
               "protocol": "h2",
-              "networkRequestTime": 574.8039999008179,
-              "networkEndTime": 1128.8259999752045,
-              "transferSize": 38947,
+              "networkRequestTime": 549.8679995536804,
+              "networkEndTime": 882.2219996452332,
+              "transferSize": 38889,
               "resourceSize": 38288,
               "statusCode": 200,
               "mimeType": "image/webp",
@@ -598,9 +659,9 @@
             {
               "url": "https://smartpetgadgets.com.br/theme-toggle.js?v=2",
               "protocol": "h2",
-              "networkRequestTime": 576.1860001087189,
-              "networkEndTime": 958.1620001792908,
-              "transferSize": 1757,
+              "networkRequestTime": 550.0509996414185,
+              "networkEndTime": 1272.262999534607,
+              "transferSize": 1772,
               "resourceSize": 3066,
               "statusCode": 200,
               "mimeType": "application/x-javascript",
@@ -609,9 +670,9 @@
             {
               "url": "https://smartpetgadgets.com.br/affiliate-cta.js?v=1",
               "protocol": "h2",
-              "networkRequestTime": 578.7379999160767,
-              "networkEndTime": 958.5199999809265,
-              "transferSize": 2361,
+              "networkRequestTime": 553.5299997329712,
+              "networkEndTime": 1000.0609993934631,
+              "transferSize": 2376,
               "resourceSize": 4193,
               "statusCode": 200,
               "mimeType": "application/x-javascript",
@@ -620,9 +681,9 @@
             {
               "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
               "protocol": "h2",
-              "networkRequestTime": 1141.6789999008179,
-              "networkEndTime": 1212.2250001430511,
-              "transferSize": 183614,
+              "networkRequestTime": 1293.8269996643066,
+              "networkEndTime": 1383.587999343872,
+              "transferSize": 183610,
               "resourceSize": 545441,
               "statusCode": 200,
               "mimeType": "application/javascript",
@@ -630,129 +691,18 @@
             }
           ],
           "total_items": 6
-        },
-        "identical-links-same-purpose": {
-          "title": "Identical links have the same purpose.",
-          "headings": [
-            "node"
-          ],
-          "items": [
-            {
-              "node": "{'path': '1,HTML,1,BODY,12,DIV,0,TABLE,1,TBODY,0,TR,0,TD,1,A', 'type': 'node', 'lhId': '1-4-A', 'snippet': '<a href=\"https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/\">', 'explanation': "
-            }
-          ],
-          "total_items": 1
-        },
-        "landmark-one-main": {
-          "title": "Document does not have a main landmark.",
-          "headings": [
-            "node"
-          ],
-          "items": [
-            {
-              "node": "{'type': 'node', 'selector': 'html', 'lhId': '1-1-HTML', 'snippet': '<html lang=\"pt-BR\">', 'nodeLabel': 'html', 'path': '1,HTML', 'explanation': 'Fix all of the following:\\n  Document does not have a "
-            }
-          ],
-          "total_items": 1
-        },
-        "third-parties-insight": {
-          "title": "3rd parties",
-          "headings": [
-            "entity",
-            "transferSize",
-            "mainThreadTime"
-          ],
-          "items": [
-            {
-              "entity": "Google Tag Manager",
-              "transferSize": 183614,
-              "mainThreadTime": 201.3950011730194
-            },
-            {
-              "entity": "Google Analytics",
-              "transferSize": 806,
-              "mainThreadTime": 0
-            }
-          ],
-          "total_items": 2
-        },
-        "unused-javascript": {
-          "title": "Reduce unused JavaScript",
-          "headings": [
-            "url",
-            "totalBytes",
-            "wastedBytes"
-          ],
-          "items": [
-            {
-              "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
-              "totalBytes": 182924,
-              "wastedBytes": 77313
-            }
-          ],
-          "total_items": 1
-        },
-        "color-contrast": {
-          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
-          "headings": [
-            "node"
-          ],
-          "items": [
-            {
-              "node": "{'selector': 'body > div > div', 'boundingRect': {'bottom': 9538, 'right': 80, 'left': 16, 'width': 64, 'height': 64, 'top': 9474}, 'nodeLabel': 'NA', 'snippet': '<div style=\"width: 64px; height: 64px"
-            }
-          ],
-          "total_items": 1
-        },
-        "mainthread-work-breakdown": {
-          "title": "Minimizes main-thread work",
-          "headings": [
-            "groupLabel",
-            "duration"
-          ],
-          "items": [
-            {
-              "groupLabel": "Script Evaluation",
-              "duration": 177.21360000000033
-            },
-            {
-              "groupLabel": "Script Parsing & Compilation",
-              "duration": 80.34840000000001
-            },
-            {
-              "groupLabel": "Style & Layout",
-              "duration": 58.019999999999996
-            },
-            {
-              "groupLabel": "Other",
-              "duration": 52.08720000000003
-            },
-            {
-              "groupLabel": "Rendering",
-              "duration": 14.9508
-            }
-          ],
-          "total_items": 6
-        },
-        "origin-isolation": {
-          "title": "Ensure proper origin isolation with COOP",
-          "headings": [
-            "description",
-            "directive",
-            "severity"
-          ],
-          "items": [
-            {
-              "description": "No COOP header found",
-              "severity": "High"
-            }
-          ],
-          "total_items": 1
         }
       },
-      "analysis_timestamp": "2026-11-24T12:11:00.585Z",
+      "analysis_timestamp": "2026-11-26T10:55:05.249Z",
       "error": null
     }
+  },
+  "crux": {
+    "target": "https://smartpetgadgets.com.br/black-friday-pet/",
+    "metrics": {},
+    "collection_period": null,
+    "form_factor": "ALL",
+    "error": "No CrUX data for this URL. The site likely has insufficient Chrome traffic volume for eligibility."
   },
   "error": null
 }

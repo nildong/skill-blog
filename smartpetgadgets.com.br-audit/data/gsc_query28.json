@@ -3,12 +3,22 @@
   "rows": [
     {
       "keys": [
+        "coleira com gps para gatos"
+      ],
+      "clicks": 1,
+      "impressions": 21,
+      "ctr": 4.76,
+      "position": 9.6,
+      "query": "coleira com gps para gatos"
+    },
+    {
+      "keys": [
         "coleira rastreador gps anxk 4g g68 para c\u00e3es pet localiza\u00e7\u00e3o"
       ],
       "clicks": 1,
-      "impressions": 22,
-      "ctr": 4.55,
-      "position": 6,
+      "impressions": 26,
+      "ctr": 3.85,
+      "position": 5.9,
       "query": "coleira rastreador gps anxk 4g g68 para c\u00e3es pet localiza\u00e7\u00e3o"
     },
     {
@@ -20,6 +30,16 @@
       "ctr": 25.0,
       "position": 7.8,
       "query": "comedouro newpet como configurar"
+    },
+    {
+      "keys": [
+        "configurar o wi-fi"
+      ],
+      "clicks": 1,
+      "impressions": 1,
+      "ctr": 100,
+      "position": 3,
+      "query": "configurar o wi-fi"
     },
     {
       "keys": [
@@ -83,6 +103,16 @@
     },
     {
       "keys": [
+        "a melhor ra\u00e7\u00e3o para gatos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 57,
+      "query": "a melhor ra\u00e7\u00e3o para gatos"
+    },
+    {
+      "keys": [
         "acr\u00edlico"
       ],
       "clicks": 0,
@@ -106,9 +136,9 @@
         "alimentador automatico gatos"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 18.2,
+      "position": 17,
       "query": "alimentador automatico gatos"
     },
     {
@@ -116,9 +146,9 @@
         "alimentador automatico para gatos"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 6,
       "ctr": 0,
-      "position": 36,
+      "position": 33.3,
       "query": "alimentador automatico para gatos"
     },
     {
@@ -176,7 +206,7 @@
         "app"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
       "position": 2,
       "query": "app"
@@ -286,9 +316,9 @@
         "bebedouro de agua pet automatico"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 5,
       "ctr": 0,
-      "position": 10.7,
+      "position": 10.6,
       "query": "bebedouro de agua pet automatico"
     },
     {
@@ -296,7 +326,7 @@
         "bebedouro de barro para gatos \u00e9 bom"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
       "position": 12,
       "query": "bebedouro de barro para gatos \u00e9 bom"
@@ -376,9 +406,9 @@
         "best best pet camera"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0,
-      "position": 1.5,
+      "position": 1.4,
       "query": "best best pet camera"
     },
     {
@@ -486,9 +516,9 @@
         "bravecto ou simparic qual o melhor"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 3,
       "ctr": 0,
-      "position": 50,
+      "position": 43.3,
       "query": "bravecto ou simparic qual o melhor"
     },
     {
@@ -516,9 +546,9 @@
         "brinquedo automatico para gatos"
       ],
       "clicks": 0,
-      "impressions": 10,
+      "impressions": 12,
       "ctr": 0,
-      "position": 11,
+      "position": 11.1,
       "query": "brinquedo automatico para gatos"
     },
     {
@@ -526,9 +556,9 @@
         "brinquedo autom\u00e1tico para gatos"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 8,
       "ctr": 0,
-      "position": 10.7,
+      "position": 10.8,
       "query": "brinquedo autom\u00e1tico para gatos"
     },
     {
@@ -540,6 +570,16 @@
       "ctr": 0,
       "position": 11.7,
       "query": "brinquedo gato automatico"
+    },
+    {
+      "keys": [
+        "brinquedo para cachorro que fica sozinho"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 71,
+      "query": "brinquedo para cachorro que fica sozinho"
     },
     {
       "keys": [
@@ -556,10 +596,30 @@
         "brinquedos autom\u00e1ticos"
       ],
       "clicks": 0,
+      "impressions": 3,
+      "ctr": 0,
+      "position": 12.3,
+      "query": "brinquedos autom\u00e1ticos"
+    },
+    {
+      "keys": [
+        "brinquedos para cachorro que ficam sozinhos"
+      ],
+      "clicks": 0,
       "impressions": 1,
       "ctr": 0,
-      "position": 13,
-      "query": "brinquedos autom\u00e1ticos"
+      "position": 75,
+      "query": "brinquedos para cachorro que ficam sozinhos"
+    },
+    {
+      "keys": [
+        "brinquedos para cachorros que ficam sozinhos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 74,
+      "query": "brinquedos para cachorros que ficam sozinhos"
     },
     {
       "keys": [
@@ -596,9 +656,9 @@
         "camera coleira cachorro"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 11.4,
+      "position": 11.3,
       "query": "camera coleira cachorro"
     },
     {
@@ -626,9 +686,9 @@
         "camera noturna para animais"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 4,
       "ctr": 0,
-      "position": 69,
+      "position": 22.8,
       "query": "camera noturna para animais"
     },
     {
@@ -693,6 +753,16 @@
     },
     {
       "keys": [
+        "camera para pet wifi"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11.5,
+      "query": "camera para pet wifi"
+    },
+    {
+      "keys": [
         "camera para pets"
       ],
       "clicks": 0,
@@ -700,6 +770,16 @@
       "ctr": 0,
       "position": 18,
       "query": "camera para pets"
+    },
+    {
+      "keys": [
+        "camera para ver cachorro em casa"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 5.5,
+      "query": "camera para ver cachorro em casa"
     },
     {
       "keys": [
@@ -716,9 +796,9 @@
         "camera para vigiar pet"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 41.5,
+      "position": 41.3,
       "query": "camera para vigiar pet"
     },
     {
@@ -726,9 +806,9 @@
         "camera pet"
       ],
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 10,
       "ctr": 0,
-      "position": 32,
+      "position": 29.8,
       "query": "camera pet"
     },
     {
@@ -746,9 +826,9 @@
         "cameras para pet"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 6,
       "ctr": 0,
-      "position": 45,
+      "position": 32,
       "query": "cameras para pet"
     },
     {
@@ -803,12 +883,22 @@
     },
     {
       "keys": [
+        "coleira chip para gato"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10,
+      "query": "coleira chip para gato"
+    },
+    {
+      "keys": [
         "coleira com camera"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0,
-      "position": 10.7,
+      "position": 10.2,
       "query": "coleira com camera"
     },
     {
@@ -816,9 +906,9 @@
         "coleira com camera para cachorro"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 7,
       "ctr": 0,
-      "position": 10.8,
+      "position": 11.1,
       "query": "coleira com camera para cachorro"
     },
     {
@@ -826,9 +916,9 @@
         "coleira com chip"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 7,
       "ctr": 0,
-      "position": 30.7,
+      "position": 27.9,
       "query": "coleira com chip"
     },
     {
@@ -836,7 +926,7 @@
         "coleira com chip para cachorro"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
       "position": 8,
       "query": "coleira com chip para cachorro"
@@ -846,9 +936,9 @@
         "coleira com chip para gato"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 6,
       "ctr": 0,
-      "position": 9,
+      "position": 8.5,
       "query": "coleira com chip para gato"
     },
     {
@@ -856,9 +946,9 @@
         "coleira com chip rastreador cachorro"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 7,
       "ctr": 0,
-      "position": 5.3,
+      "position": 7.4,
       "query": "coleira com chip rastreador cachorro"
     },
     {
@@ -866,9 +956,9 @@
         "coleira com chip rastreador para gatos"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 6,
       "ctr": 0,
-      "position": 9,
+      "position": 9.8,
       "query": "coleira com chip rastreador para gatos"
     },
     {
@@ -906,9 +996,9 @@
         "coleira com gps para cachorro"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 6,
       "ctr": 0,
-      "position": 11.5,
+      "position": 10,
       "query": "coleira com gps para cachorro"
     },
     {
@@ -933,22 +1023,12 @@
     },
     {
       "keys": [
-        "coleira com gps para gatos"
-      ],
-      "clicks": 0,
-      "impressions": 12,
-      "ctr": 0,
-      "position": 9.5,
-      "query": "coleira com gps para gatos"
-    },
-    {
-      "keys": [
         "coleira com gps para gatos android"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 7,
       "ctr": 0,
-      "position": 9.2,
+      "position": 9.3,
       "query": "coleira com gps para gatos android"
     },
     {
@@ -956,7 +1036,7 @@
         "coleira com localizador gato"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 9,
       "ctr": 0,
       "position": 12,
       "query": "coleira com localizador gato"
@@ -973,6 +1053,46 @@
     },
     {
       "keys": [
+        "coleira com rastreador"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 12,
+      "query": "coleira com rastreador"
+    },
+    {
+      "keys": [
+        "coleira com rastreador android"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 12,
+      "query": "coleira com rastreador android"
+    },
+    {
+      "keys": [
+        "coleira com rastreador cachorro"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11,
+      "query": "coleira com rastreador cachorro"
+    },
+    {
+      "keys": [
+        "coleira com rastreador gato"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 13,
+      "query": "coleira com rastreador gato"
+    },
+    {
+      "keys": [
         "coleira com rastreador gatos"
       ],
       "clicks": 0,
@@ -986,9 +1106,9 @@
         "coleira com rastreador para cachorro"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 4,
       "ctr": 0,
-      "position": 9,
+      "position": 11.8,
       "query": "coleira com rastreador para cachorro"
     },
     {
@@ -1006,9 +1126,9 @@
         "coleira com rastreador para gatos"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 7,
       "ctr": 0,
-      "position": 1,
+      "position": 9,
       "query": "coleira com rastreador para gatos"
     },
     {
@@ -1016,9 +1136,9 @@
         "coleira com rastreador para gatos android"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 10,
+      "position": 9.5,
       "query": "coleira com rastreador para gatos android"
     },
     {
@@ -1026,9 +1146,9 @@
         "coleira de cachorro com gps"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 7,
       "ctr": 0,
-      "position": 10.5,
+      "position": 9.9,
       "query": "coleira de cachorro com gps"
     },
     {
@@ -1036,9 +1156,9 @@
         "coleira de gps para cachorro"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 12,
+      "position": 11.5,
       "query": "coleira de gps para cachorro"
     },
     {
@@ -1046,7 +1166,7 @@
         "coleira de rastreamento para cachorro"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
       "position": 11,
       "query": "coleira de rastreamento para cachorro"
@@ -1076,19 +1196,29 @@
         "coleira gato rastreador"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 7,
       "ctr": 0,
-      "position": 10.5,
+      "position": 10.7,
       "query": "coleira gato rastreador"
+    },
+    {
+      "keys": [
+        "coleira gps"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 5,
+      "query": "coleira gps"
     },
     {
       "keys": [
         "coleira gps cachorro"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 3,
       "ctr": 0,
-      "position": 11,
+      "position": 12.7,
       "query": "coleira gps cachorro"
     },
     {
@@ -1096,9 +1226,9 @@
         "coleira gps gato"
       ],
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 16,
       "ctr": 0,
-      "position": 16.9,
+      "position": 15.5,
       "query": "coleira gps gato"
     },
     {
@@ -1106,9 +1236,9 @@
         "coleira gps gato android"
       ],
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 6,
       "ctr": 0,
-      "position": 8.5,
+      "position": 8.7,
       "query": "coleira gps gato android"
     },
     {
@@ -1116,9 +1246,9 @@
         "coleira gps para cachorro"
       ],
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 10,
       "ctr": 0,
-      "position": 10.3,
+      "position": 10.7,
       "query": "coleira gps para cachorro"
     },
     {
@@ -1136,9 +1266,9 @@
         "coleira identifica\u00e7\u00e3o cachorro gps"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 6,
       "ctr": 0,
-      "position": 9.7,
+      "position": 9,
       "query": "coleira identifica\u00e7\u00e3o cachorro gps"
     },
     {
@@ -1153,12 +1283,22 @@
     },
     {
       "keys": [
-        "coleira para cachorro com rastreador"
+        "coleira para cachorro com gps"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
       "position": 10,
+      "query": "coleira para cachorro com gps"
+    },
+    {
+      "keys": [
+        "coleira para cachorro com rastreador"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10.5,
       "query": "coleira para cachorro com rastreador"
     },
     {
@@ -1170,6 +1310,16 @@
       "ctr": 0,
       "position": 10,
       "query": "coleira para gato com chip rastreador"
+    },
+    {
+      "keys": [
+        "coleira para gato com gps"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 13,
+      "query": "coleira para gato com gps"
     },
     {
       "keys": [
@@ -1193,6 +1343,16 @@
     },
     {
       "keys": [
+        "coleira para gato com rastreador android"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10,
+      "query": "coleira para gato com rastreador android"
+    },
+    {
+      "keys": [
         "coleira para gato com rastreador e nome"
       ],
       "clicks": 0,
@@ -1213,22 +1373,62 @@
     },
     {
       "keys": [
-        "coleira rastreador cachorro"
+        "coleira para gatos com rastreador"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10.5,
+      "query": "coleira para gatos com rastreador"
+    },
+    {
+      "keys": [
+        "coleira para rastreador cachorro"
       ],
       "clicks": 0,
       "impressions": 1,
       "ctr": 0,
       "position": 11,
+      "query": "coleira para rastreador cachorro"
+    },
+    {
+      "keys": [
+        "coleira rastreador cachorro"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 11.5,
       "query": "coleira rastreador cachorro"
+    },
+    {
+      "keys": [
+        "coleira rastreador gato"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 12,
+      "query": "coleira rastreador gato"
+    },
+    {
+      "keys": [
+        "coleira rastreador gps anxk 4g g58 para c\u00e3es pet localiza\u00e7\u00e3o"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 2,
+      "query": "coleira rastreador gps anxk 4g g58 para c\u00e3es pet localiza\u00e7\u00e3o"
     },
     {
       "keys": [
         "coleira rastreadora para cachorro"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 9.5,
+      "position": 10.3,
       "query": "coleira rastreadora para cachorro"
     },
     {
@@ -1236,9 +1436,9 @@
         "coleira rastreadora para c\u00e3es"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 10.5,
+      "position": 10.7,
       "query": "coleira rastreadora para c\u00e3es"
     },
     {
@@ -1246,19 +1446,29 @@
         "coleira rastreadora para gatos"
       ],
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 7,
       "ctr": 0,
-      "position": 10.3,
+      "position": 9.7,
       "query": "coleira rastreadora para gatos"
+    },
+    {
+      "keys": [
+        "coleiras gps"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3,
+      "query": "coleiras gps"
     },
     {
       "keys": [
         "comedoro e bebedouro"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 12,
+      "position": 14,
       "query": "comedoro e bebedouro"
     },
     {
@@ -1366,19 +1576,29 @@
         "comedouro gato interativo"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 1,
+      "position": 4.5,
       "query": "comedouro gato interativo"
+    },
+    {
+      "keys": [
+        "comedouro interativo"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 38,
+      "query": "comedouro interativo"
     },
     {
       "keys": [
         "comedouro interativo gato"
       ],
       "clicks": 0,
-      "impressions": 28,
+      "impressions": 29,
       "ctr": 0,
-      "position": 11.4,
+      "position": 11.3,
       "query": "comedouro interativo gato"
     },
     {
@@ -1426,9 +1646,9 @@
         "comedouro para caes com suporte"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 4,
       "ctr": 0,
-      "position": 12.5,
+      "position": 11.5,
       "query": "comedouro para caes com suporte"
     },
     {
@@ -1466,9 +1686,9 @@
         "como configurar"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 4,
+      "position": 4.3,
       "query": "como configurar"
     },
     {
@@ -1493,6 +1713,16 @@
     },
     {
       "keys": [
+        "como configurar?"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5,
+      "query": "como configurar?"
+    },
+    {
+      "keys": [
         "como fa\u00e7o para baixar o aplicativo?"
       ],
       "clicks": 0,
@@ -1510,6 +1740,16 @@
       "ctr": 0,
       "position": 13,
       "query": "como funciona"
+    },
+    {
+      "keys": [
+        "como instalar"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3,
+      "query": "como instalar"
     },
     {
       "keys": [
@@ -1533,6 +1773,16 @@
     },
     {
       "keys": [
+        "como programar"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1,
+      "query": "como programar"
+    },
+    {
+      "keys": [
         "comparando"
       ],
       "clicks": 0,
@@ -1543,6 +1793,16 @@
     },
     {
       "keys": [
+        "comparar op\u00e7\u00f5es"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1,
+      "query": "comparar op\u00e7\u00f5es"
+    },
+    {
+      "keys": [
         "comparar precos"
       ],
       "clicks": 0,
@@ -1550,6 +1810,16 @@
       "ctr": 0,
       "position": 11,
       "query": "comparar precos"
+    },
+    {
+      "keys": [
+        "compara\u00e7\u00e3o de modelos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3,
+      "query": "compara\u00e7\u00e3o de modelos"
     },
     {
       "keys": [
@@ -1586,9 +1856,9 @@
         "credeli ou nexgard qual o melhor"
       ],
       "clicks": 0,
-      "impressions": 19,
+      "impressions": 20,
       "ctr": 0,
-      "position": 33.2,
+      "position": 32,
       "query": "credeli ou nexgard qual o melhor"
     },
     {
@@ -1596,9 +1866,9 @@
         "credeli ou simparic qual o melhor"
       ],
       "clicks": 0,
-      "impressions": 32,
+      "impressions": 33,
       "ctr": 0,
-      "position": 22.3,
+      "position": 22,
       "query": "credeli ou simparic qual o melhor"
     },
     {
@@ -1693,6 +1963,26 @@
     },
     {
       "keys": [
+        "divipets"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 13,
+      "query": "divipets"
+    },
+    {
+      "keys": [
+        "divipets cercado"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10,
+      "query": "divipets cercado"
+    },
+    {
+      "keys": [
         "dog collar vs dash cam"
       ],
       "clicks": 0,
@@ -1783,6 +2073,16 @@
     },
     {
       "keys": [
+        "gps coleira cachorro"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 12,
+      "query": "gps coleira cachorro"
+    },
+    {
+      "keys": [
         "gps coleira gato"
       ],
       "clicks": 0,
@@ -1796,9 +2096,9 @@
         "gps para coleira de cachorro"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 10,
+      "position": 11.5,
       "query": "gps para coleira de cachorro"
     },
     {
@@ -1820,6 +2120,16 @@
       "ctr": 0,
       "position": 25.5,
       "query": "gps para gato"
+    },
+    {
+      "keys": [
+        "gps para gatos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 14,
+      "query": "gps para gatos"
     },
     {
       "keys": [
@@ -1863,6 +2173,16 @@
     },
     {
       "keys": [
+        "lancheira pet"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 45,
+      "query": "lancheira pet"
+    },
+    {
+      "keys": [
         "me mostre a imagem"
       ],
       "clicks": 0,
@@ -1896,9 +2216,9 @@
         "melhor antipulgas para cachorro"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 51,
+      "position": 47.5,
       "query": "melhor antipulgas para cachorro"
     },
     {
@@ -1916,9 +2236,9 @@
         "melhor comedouro autom\u00e1tico para cachorro"
       ],
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 6,
       "ctr": 0,
-      "position": 7.2,
+      "position": 7.5,
       "query": "melhor comedouro autom\u00e1tico para cachorro"
     },
     {
@@ -1946,9 +2266,9 @@
         "melhor c\u00e2mera para monitorar pet"
       ],
       "clicks": 0,
-      "impressions": 40,
+      "impressions": 47,
       "ctr": 0,
-      "position": 11.2,
+      "position": 11.4,
       "query": "melhor c\u00e2mera para monitorar pet"
     },
     {
@@ -2016,9 +2336,9 @@
         "melhor ra\u00e7\u00e3o para cachorro"
       ],
       "clicks": 0,
-      "impressions": 89,
+      "impressions": 90,
       "ctr": 0,
-      "position": 9.8,
+      "position": 10.7,
       "query": "melhor ra\u00e7\u00e3o para cachorro"
     },
     {
@@ -2106,9 +2426,9 @@
         "melhor tapete higienico cachorro"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 24,
+      "position": 19.3,
       "query": "melhor tapete higienico cachorro"
     },
     {
@@ -2136,9 +2456,9 @@
         "melhores antipulgas para cachorro"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0,
-      "position": 59,
+      "position": 63.5,
       "query": "melhores antipulgas para cachorro"
     },
     {
@@ -2156,7 +2476,7 @@
         "melhores c\u00e2meras para monitorar pet"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
       "position": 25,
       "query": "melhores c\u00e2meras para monitorar pet"
@@ -2170,6 +2490,16 @@
       "ctr": 0,
       "position": 65,
       "query": "melhores racao gato castrado"
+    },
+    {
+      "keys": [
+        "melhores racao gato filhote"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 72,
+      "query": "melhores racao gato filhote"
     },
     {
       "keys": [
@@ -2206,7 +2536,7 @@
         "memory card vs pet camera"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 4,
       "ctr": 0,
       "position": 1,
       "query": "memory card vs pet camera"
@@ -2273,12 +2603,22 @@
     },
     {
       "keys": [
+        "newpet"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1,
+      "query": "newpet"
+    },
+    {
+      "keys": [
         "newpet 2l mini comedouro autom\u00e1tico para gatos, aplicativo inteligente tuya wifi dispenser comida pet automatico, potes e tigelas para c\u00e3es"
       ],
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 9,
       "ctr": 0,
-      "position": 8.4,
+      "position": 7.8,
       "query": "newpet 2l mini comedouro autom\u00e1tico para gatos, aplicativo inteligente tuya wifi dispenser comida pet automatico, potes e tigelas para c\u00e3es"
     },
     {
@@ -2356,7 +2696,7 @@
         "pet camera vs capture card"
       ],
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 8,
       "ctr": 0,
       "position": 7,
       "query": "pet camera vs capture card"
@@ -2433,6 +2773,16 @@
     },
     {
       "keys": [
+        "pets"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 2,
+      "query": "pets"
+    },
+    {
+      "keys": [
         "piscando"
       ],
       "clicks": 0,
@@ -2450,6 +2800,16 @@
       "ctr": 0,
       "position": 80,
       "query": "pitpet automatic feeder"
+    },
+    {
+      "keys": [
+        "porta pet para porta de vidro"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 9.5,
+      "query": "porta pet para porta de vidro"
     },
     {
       "keys": [
@@ -2473,6 +2833,16 @@
     },
     {
       "keys": [
+        "pre\u00e7o m\u00e9dio"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1,
+      "query": "pre\u00e7o m\u00e9dio"
+    },
+    {
+      "keys": [
         "procure mais."
       ],
       "clicks": 0,
@@ -2480,6 +2850,16 @@
       "ctr": 0,
       "position": 9,
       "query": "procure mais."
+    },
+    {
+      "keys": [
+        "pulgas e carrapatos"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5,
+      "query": "pulgas e carrapatos"
     },
     {
       "keys": [
@@ -2506,9 +2886,9 @@
         "qual a melhor coleira com gps para gatos"
       ],
       "clicks": 0,
-      "impressions": 54,
+      "impressions": 60,
       "ctr": 0,
-      "position": 23.1,
+      "position": 21.7,
       "query": "qual a melhor coleira com gps para gatos"
     },
     {
@@ -2580,6 +2960,16 @@
       "ctr": 0,
       "position": 12,
       "query": "qual a melhor ra\u00e7\u00e3o para c\u00e3es"
+    },
+    {
+      "keys": [
+        "qual a melhor ra\u00e7\u00e3o para filhotes?"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 8,
+      "query": "qual a melhor ra\u00e7\u00e3o para filhotes?"
     },
     {
       "keys": [
@@ -2660,6 +3050,16 @@
       "ctr": 0,
       "position": 82,
       "query": "qual melhor ra\u00e7\u00e3o para gato"
+    },
+    {
+      "keys": [
+        "qual melhor simparic ou credeli"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11,
+      "query": "qual melhor simparic ou credeli"
     },
     {
       "keys": [
@@ -2756,9 +3156,9 @@
         "qual o melhor rastreador para gatos"
       ],
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 4,
       "ctr": 0,
-      "position": 9,
+      "position": 7.8,
       "query": "qual o melhor rastreador para gatos"
     },
     {
@@ -2783,6 +3183,26 @@
     },
     {
       "keys": [
+        "qual seria a melhor op\u00e7\u00e3o"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5,
+      "query": "qual seria a melhor op\u00e7\u00e3o"
+    },
+    {
+      "keys": [
+        "qual \u00e9 a aplica\u00e7\u00e3o?"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5,
+      "query": "qual \u00e9 a aplica\u00e7\u00e3o?"
+    },
+    {
+      "keys": [
         "qual \u00e9 a melhor marca de ra\u00e7\u00e3o para cachorro"
       ],
       "clicks": 0,
@@ -2790,6 +3210,26 @@
       "ctr": 0,
       "position": 93,
       "query": "qual \u00e9 a melhor marca de ra\u00e7\u00e3o para cachorro"
+    },
+    {
+      "keys": [
+        "qual \u00e9 a melhor ra\u00e7\u00e3o para gatos que vivem dentro de casa?"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7,
+      "query": "qual \u00e9 a melhor ra\u00e7\u00e3o para gatos que vivem dentro de casa?"
+    },
+    {
+      "keys": [
+        "qual \u00e9 esse"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1,
+      "query": "qual \u00e9 esse"
     },
     {
       "keys": [
@@ -2810,6 +3250,16 @@
       "ctr": 0,
       "position": 12,
       "query": "quanto tempo demora para fazer efeito?"
+    },
+    {
+      "keys": [
+        "quatree supreme ou bionatural"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11,
+      "query": "quatree supreme ou bionatural"
     },
     {
       "keys": [
@@ -2863,6 +3313,16 @@
     },
     {
       "keys": [
+        "rastreador coleira cachorro"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9,
+      "query": "rastreador coleira cachorro"
+    },
+    {
+      "keys": [
         "rastreador gps para gato"
       ],
       "clicks": 0,
@@ -2876,10 +3336,20 @@
         "rastreador gps para gatos"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 13,
+      "position": 12.3,
       "query": "rastreador gps para gatos"
+    },
+    {
+      "keys": [
+        "rastreador gps para gatos android"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 11,
+      "query": "rastreador gps para gatos android"
     },
     {
       "keys": [
@@ -2986,9 +3456,9 @@
         "simparic ou credeli qual o melhor"
       ],
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0,
-      "position": 9,
+      "position": 9.7,
       "query": "simparic ou credeli qual o melhor"
     },
     {
@@ -3000,33 +3470,252 @@
       "ctr": 0,
       "position": 2,
       "query": "simples"
+    },
+    {
+      "keys": [
+        "sistemas para pet e vidro"
+      ],
+      "clicks": 0,
+      "impressions": 13,
+      "ctr": 0,
+      "position": 45.7,
+      "query": "sistemas para pet e vidro"
+    },
+    {
+      "keys": [
+        "smart pet door model m1"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 18,
+      "query": "smart pet door model m1"
+    },
+    {
+      "keys": [
+        "smart petz"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6,
+      "query": "smart petz"
+    },
+    {
+      "keys": [
+        "soprador cachorro"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3,
+      "query": "soprador cachorro"
+    },
+    {
+      "keys": [
+        "suporte para comida de cachorro"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 21,
+      "query": "suporte para comida de cachorro"
+    },
+    {
+      "keys": [
+        "suporte racao cachorro"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 16,
+      "query": "suporte racao cachorro"
+    },
+    {
+      "keys": [
+        "tapete anti formiga"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 5,
+      "query": "tapete anti formiga"
+    },
+    {
+      "keys": [
+        "tapete higienico bamboo"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 10,
+      "query": "tapete higienico bamboo"
+    },
+    {
+      "keys": [
+        "tapete higienico biosec standard"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7,
+      "query": "tapete higienico biosec standard"
+    },
+    {
+      "keys": [
+        "tapete higienico dry bamboo"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 16.5,
+      "query": "tapete higienico dry bamboo"
+    },
+    {
+      "keys": [
+        "tapete higienico pet melhor custo beneficio"
+      ],
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0,
+      "position": 8,
+      "query": "tapete higienico pet melhor custo beneficio"
+    },
+    {
+      "keys": [
+        "telefone para suporte"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 3,
+      "query": "telefone para suporte"
+    },
+    {
+      "keys": [
+        "televis\u00e3o de cachorro"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 67,
+      "query": "televis\u00e3o de cachorro"
+    },
+    {
+      "keys": [
+        "tem boa avalia\u00e7\u00e3o?"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 7,
+      "query": "tem boa avalia\u00e7\u00e3o?"
+    },
+    {
+      "keys": [
+        "traga para mim um comparativo de palatabilidade entre isoxazolinas"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6,
+      "query": "traga para mim um comparativo de palatabilidade entre isoxazolinas"
+    },
+    {
+      "keys": [
+        "tratador automatico gato"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1,
+      "query": "tratador automatico gato"
+    },
+    {
+      "keys": [
+        "trek pet camera review"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1,
+      "query": "trek pet camera review"
+    },
+    {
+      "keys": [
+        "uiooq cat feeder"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 64,
+      "query": "uiooq cat feeder"
+    },
+    {
+      "keys": [
+        "um dia s\u00f3"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 1,
+      "query": "um dia s\u00f3"
+    },
+    {
+      "keys": [
+        "valve pet camera review 2025"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 10,
+      "query": "valve pet camera review 2025"
+    },
+    {
+      "keys": [
+        "vdrbg"
+      ],
+      "clicks": 0,
+      "impressions": 31,
+      "ctr": 0,
+      "position": 3.4,
+      "query": "vdrbg"
+    },
+    {
+      "keys": [
+        "vermitril para cachorro \u00e9 bom"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 9,
+      "query": "vermitril para cachorro \u00e9 bom"
+    },
+    {
+      "keys": [
+        "vidro"
+      ],
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0,
+      "position": 6,
+      "query": "vidro"
     }
   ],
   "totals": {
-    "clicks": 88,
-    "impressions": 7228,
-    "ctr": 1.22,
-    "position": 8.5
+    "clicks": 108,
+    "impressions": 8618,
+    "ctr": 1.25,
+    "position": 8.4
   },
   "totals_source": "dimensionless_aggregate",
   "totals_complete": true,
-  "quick_wins": [
-    {
-      "keys": [
-        "melhor ra\u00e7\u00e3o para cachorro"
-      ],
-      "position": 9.8,
-      "impressions": 89,
-      "clicks": 0,
-      "ctr": 0,
-      "opportunity": "Position 4-10 with high impressions -- small ranking improvement yields significant traffic gain"
-    }
-  ],
+  "quick_wins": [],
   "warnings": [],
-  "row_count": 300,
+  "row_count": 370,
   "error": null,
   "date_range": {
     "start": "2026-10-27",
-    "end": "2026-11-21"
+    "end": "2026-11-23"
   }
 }
