@@ -47,7 +47,7 @@ async function main() {
   for (const [i, link] of links.entries()) {
     const r = await check(link.url);
     results.push({ ...link, ...r });
-    console.log(`[${i + 1}/${links.length}] ${link.url} ${r.status} ${r.price ?? ''} ${r.title ? r.title.slice(0, 60) : ''}`);
+    console.log(`[${i + 1}/${links.length}] ${link.url} ${r.status} ${r.price ?? ''} ${r.rating ?? ''} ${r.title ? r.title.slice(0, 60) : ''}`);
     await sleep(DELAY_MS + Math.random() * 1000);
   }
 
@@ -58,7 +58,12 @@ async function main() {
   fs.writeFileSync(path.join(STATE_DIR, `${date}.json`), JSON.stringify(results, null, 2));
 
   const state = { ...previous };
-  for (const r of results) if (r.status === 'ok') state[r.url] = { itemId: r.itemId, title: r.title, price: r.price, checkedAt: date };
+  for (const r of results) {
+    if (r.status !== 'ok') continue;
+    const prev = previous[r.url];
+    const expected = (prev && prev.expected) || (prev ? { itemId: prev.itemId, title: prev.title, price: prev.price } : { itemId: r.itemId, title: r.title, price: r.price });
+    state[r.url] = { itemId: r.itemId, title: r.title, price: r.price, rating: r.rating ?? null, sold: r.sold ?? null, checkedAt: date, expected };
+  }
   fs.writeFileSync(statePath, JSON.stringify(state, null, 2));
 
   console.log(`Relatório: reports/price-monitor/${date}.md · mudanças: ${summary.changes.length} · alertas: ${summary.alerts.length}`);

@@ -44,3 +44,42 @@ test('classify separa mudanças e alertas', () => {
   assert.strictEqual(out.changes[0].slug, 'p1');
   assert.strictEqual(out.alerts.length, 2);
 });
+
+test('parseLanding lê nota, vendidos e preço anterior do card do produto', () => {
+  const html = '<meta name="description" content="Olha o que eu encontrei! Tag Android - R$ 99,19 no Mercado Livre."> '
+    + '{"unique_id":"x","metadata":{"id":"MLB5218289593","signal":{}},"float_highlight":{"text":"{icon_flame_orange} ÚLTIMAS 5"},'
+    + '"price":{"previous_price":{"value":159.99},"current_price":{"value":99.19}},'
+    + '"review_compacted":{"alt_text":"Classificação 4.8 de 5 estrelas. Mais de 100 produtos vendidos.","values":[{"key":"label2","type":"label","label":{"text":"| +100 vendidos"}}]}},'
+    + '{"unique_id":"y","metadata":{"id":"MLB1"},"review_compacted":{"alt_text":"Classificação 3.1 de 5 estrelas."}} MLB5218289593';
+  const r = parseLanding(html);
+  assert.strictEqual(r.itemId, 'MLB5218289593');
+  assert.strictEqual(r.rating, 4.8);
+  assert.strictEqual(r.sold, '+100 vendidos');
+  assert.strictEqual(r.previousPrice, 159.99);
+  assert.strictEqual(r.lastUnits, 'ÚLTIMAS 5');
+});
+
+test('classify ignora troca de anúncio do mesmo produto e usa o produto original', () => {
+  const pages = [{ slug: 'p', shownPrices: [] }];
+  const prev = {
+    a: { itemId: 'MLB9', title: 'X', expected: { itemId: 'MLB1', title: 'Ração Royal Canin Small Dog Gastrointestinal Low Fat 1,5kg' } },
+    b: { itemId: 'MLB2', title: 'Fonte Inox 3L' },
+  };
+  const results = [
+    { url: 'a', status: 'ok', title: 'Ração Royal Canin Small Dog Gastrointestinal Low Fat 1,5kg', price: 100, itemId: 'MLB3', pages },
+    { url: 'b', status: 'ok', title: 'Guia Longa 2,5m Para Cães', price: 30, itemId: 'MLB4', pages },
+  ];
+  const out = classify(results, prev, 5);
+  assert.deepStrictEqual(out.alerts.map((x) => x.url), ['b']);
+  assert.strictEqual(out.alerts[0].original.title, 'Fonte Inox 3L');
+});
+
+test('substituir: parseMap e replaceLink exato', () => {
+  const { parseMap, replaceLink } = require('../src/substituir');
+  const { pairs, errors } = parseMap('# x\nhttps://meli.la/abc https://meli.la/NEW1\n\nhttps://meli.la/abc\n# feito: https://meli.la/z https://meli.la/y\n');
+  assert.deepStrictEqual(pairs.map((p) => [p.from, p.to, p.line]), [['https://meli.la/abc', 'https://meli.la/NEW1', 1]]);
+  assert.strictEqual(errors.length, 1);
+  const r = replaceLink('<a href="https://meli.la/abc">1</a> <a href="https://meli.la/abcd">2</a> "url": "https://meli.la/abc"', 'https://meli.la/abc', 'https://meli.la/NEW1');
+  assert.strictEqual(r.count, 2);
+  assert.ok(r.html.includes('https://meli.la/abcd'));
+});

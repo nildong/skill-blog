@@ -4,6 +4,24 @@ const { parsePrice } = require('./scan');
 
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
 
+// Card do produto do link (polycard com metadata.id = anúncio): nota, vendidos, preço anterior e "últimas unidades".
+function parseFeatured(html, itemId) {
+  const start = itemId ? html.indexOf(`"metadata":{"id":"${itemId}"`) : -1;
+  if (start === -1) return {};
+  const end = html.indexOf('"unique_id"', start);
+  const card = html.slice(start, end === -1 ? start + 8000 : end);
+  const rating = /"alt_text":"Classificação ([\d.]+) de 5 estrelas/.exec(card);
+  const sold = /"key":"label2","type":"label","label":\{"text":"\|?\s*([^"]*?vendidos?)"/.exec(card);
+  const previous = /"previous_price":\{"value":([\d.]+)/.exec(card);
+  const lastUnits = /"float_highlight":\{"text":"(?:\{[^}]*\}\s*)?(ÚLTIMA[^"]*)"/.exec(card);
+  return {
+    rating: rating ? Number(rating[1]) : null,
+    sold: sold ? sold[1].trim() : null,
+    previousPrice: previous ? Number(previous[1]) : null,
+    lastUnits: lastUnits ? lastUnits[1].trim() : null,
+  };
+}
+
 // A página de afiliado que o meli.la abre (/social/<afiliado>?ref=…) não é bloqueada
 // e traz o produto na meta description: "Olha o que eu encontrei! <título> - R$ 42,50 no Mercado Livre".
 function parseLanding(html) {
@@ -13,7 +31,7 @@ function parseLanding(html) {
   for (const id of html.match(/MLB\d{8,}/g) || []) counts.set(id, (counts.get(id) || 0) + 1);
   const itemId = [...counts.entries()].sort((a, b) => b[1] - a[1])[0]?.[0] || null;
   if (!m) return { status: 'sem_produto', title: null, price: null, itemId, raw: desc.slice(0, 120) };
-  return { status: 'ok', title: m[1].trim(), price: parsePrice(m[2]), itemId };
+  return { status: 'ok', title: m[1].trim(), price: parsePrice(m[2]), itemId, ...parseFeatured(html, itemId) };
 }
 
 async function fetchLanding(url, { timeoutMs = 30000 } = {}) {
@@ -24,4 +42,4 @@ async function fetchLanding(url, { timeoutMs = 30000 } = {}) {
   return { ...parseLanding(html), finalUrl: res.url };
 }
 
-module.exports = { parseLanding, fetchLanding };
+module.exports = { parseLanding, parseFeatured, fetchLanding };

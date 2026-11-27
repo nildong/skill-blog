@@ -48,12 +48,18 @@ function shownPriceNear(html, index) {
   return null;
 }
 
+// [{ slug, file }] de cada artigo publicado (pasta com index.html).
+function articleFiles(root) {
+  return fs.readdirSync(root, { withFileTypes: true })
+    .filter((d) => d.isDirectory() && !d.name.startsWith('.') && !SKIP_DIRS.has(d.name))
+    .map((d) => ({ slug: d.name, file: path.join(root, d.name, 'index.html') }))
+    .filter((a) => fs.existsSync(a.file));
+}
+
 function scanSite(root) {
   const links = new Map();
-  for (const dir of fs.readdirSync(root, { withFileTypes: true })) {
-    if (!dir.isDirectory() || dir.name.startsWith('.') || SKIP_DIRS.has(dir.name)) continue;
-    const file = path.join(root, dir.name, 'index.html');
-    if (!fs.existsSync(file)) continue;
+  for (const { slug, file } of articleFiles(root)) {
+    const dir = { name: slug };
     const html = fs.readFileSync(file, 'utf8');
     const offers = offerPrices(html);
     let m;
@@ -90,4 +96,4 @@ function scanSite(root) {
   }));
 }
 
-module.exports = { scanSite, parsePrice, shownPriceNear, offerPrices };
+module.exports = { scanSite, articleFiles, parsePrice, shownPriceNear, offerPrices };

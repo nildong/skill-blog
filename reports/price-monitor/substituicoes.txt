@@ -1,0 +1,16 @@
+# Substituição de links de afiliado
+#
+# Uma troca por linha: link-antigo link-novo
+#   https://meli.la/2p4GhJA https://meli.la/NOVOLINK
+#
+# Depois de preencher:
+#   node tools/price-monitor/src/substituir.js            (prévia, não altera nada)
+#   node tools/price-monitor/src/substituir.js --aplicar  (troca em todos os artigos)
+# As linhas aplicadas viram comentário "# feito AAAA-MM-DD".
+#
+# Pendentes em 27/11:
+#   https://meli.la/2p4GhJA  brinquedo-interativo-automatico-para-gato — Borboleta Rotativa Para Gatos Elétrica (R$ 29,87)
+#   https://meli.la/1pm2i23  comedouro-automatico-anti-formiga — Comedouro Automático Anti-formiga Preto (R$ 90)
+#   https://meli.la/2b9cBHh  comedouro-automatico-para-viagem, comedouro-x-bebedouro-automatico — Comedouro Newpet 5L com Câmera (R$ 468)
+#   https://meli.la/1RWrc8a  5 posts de coleira GPS — era Kit Coleira Tag Compatível Apple (R$ 123,38); hoje abre Kit Coleira c/ AirTag (R$ 237,90)
+
