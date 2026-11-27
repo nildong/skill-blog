@@ -108,7 +108,10 @@ async function main() {
     const map = fs.readFileSync(MAP_PATH, 'utf8').split('\n');
     for (const d of done) map[d.line] = `# feito ${date}: ${map[d.line].trim()}`;
     fs.writeFileSync(MAP_PATH, map.join('\n'));
-    fs.writeFileSync(path.join(REPORT_DIR, `substituicoes-${date}.md`), lines.join('\n'));
+    // Mais de uma rodada no mesmo dia: acrescenta ao registro em vez de sobrescrever.
+    const logPath = path.join(REPORT_DIR, `substituicoes-${date}.md`);
+    if (fs.existsSync(logPath)) fs.appendFileSync(logPath, '\n' + lines.slice(2).join('\n'));
+    else fs.writeFileSync(logPath, lines.join('\n'));
     console.log(`Registro: reports/price-monitor/substituicoes-${date}.md`);
   } else {
     console.log('\n' + lines.join('\n'));
