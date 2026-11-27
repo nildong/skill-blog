@@ -76,17 +76,6 @@
       "price": 22
     }
   },
-  "https://meli.la/2p4GhJA": {
-    "itemId": "MLB5034387798",
-    "title": "Borboleta Rotativa Para Gatos Elétrica Voadora Diversão Borboleta Giratória",
-    "price": 29.87,
-    "checkedAt": "2026-11-16",
-    "expected": {
-      "itemId": "MLB5034387798",
-      "title": "Borboleta Rotativa Para Gatos Elétrica Voadora Diversão Borboleta Giratória",
-      "price": 29.87
-    }
-  },
   "https://meli.la/1QKx1Ys": {
     "itemId": "MLB7594612422",
     "title": "Brinquedo Laser Automático Interativo Para Gatos E Pets",
@@ -395,17 +384,6 @@
       "price": 217.99
     }
   },
-  "https://meli.la/1RWrc8a": {
-    "itemId": "MLB106781827884",
-    "title": "Kit Coleira Com Tag Rastreador Cães Compatível Apple/iPhone",
-    "price": 123.38,
-    "checkedAt": "2026-11-23",
-    "expected": {
-      "itemId": "MLB106782653118",
-      "title": "Kit Coleira Com Tag Rastreador Cães Compatível Apple/iPhone",
-      "price": 123.38
-    }
-  },
   "https://meli.la/27ETHda": {
     "itemId": "MLB4585606833",
     "title": "Gps Coleira Cachorro Caça Localizador Controle Remoto Lcd Am Amarelo G",
@@ -448,17 +426,6 @@
       "itemId": "MLB39256316",
       "title": "Coleira Seresto Elanco Antipulgas e carrapatos Cachorros +8kg 1unid Cor Cinza",
       "price": 168.9
-    }
-  },
-  "https://meli.la/1pm2i23": {
-    "itemId": "MLB72271373",
-    "title": "Comedouro Automático Ração Cães Gatos Pet Anti-formiga Preto",
-    "price": 90,
-    "checkedAt": "2026-11-16",
-    "expected": {
-      "itemId": "MLB72271373",
-      "title": "Comedouro Automático Ração Cães Gatos Pet Anti-formiga Preto",
-      "price": 90
     }
   },
   "https://meli.la/2Zc4xU2": {
@@ -1592,6 +1559,58 @@
       "itemId": "MLB5391716249",
       "title": "Bebedouro Automático Acquapet Cerâmica 4l Para Gatos E Cachorros Bivolt 127/220v Marrom",
       "price": 254
+    }
+  },
+  "https://meli.la/2btQU9x": {
+    "itemId": "MLB5002947157",
+    "title": "Brinquedo Automático Borboleta Com Sensor Para Gatos Branco",
+    "price": 96.03,
+    "rating": null,
+    "sold": null,
+    "checkedAt": "2026-11-27",
+    "expected": {
+      "itemId": "MLB5002947157",
+      "title": "Brinquedo Automático Borboleta Com Sensor Para Gatos Branco",
+      "price": 96.03
+    }
+  },
+  "https://meli.la/1Z8KSiK": {
+    "itemId": "MLB69792243",
+    "title": "Comedouro Automático Ração Cães Gatos Pet Anti-formiga Vinho",
+    "price": 73.79,
+    "rating": null,
+    "sold": null,
+    "checkedAt": "2026-11-27",
+    "expected": {
+      "itemId": "MLB69792243",
+      "title": "Comedouro Automático Ração Cães Gatos Pet Anti-formiga Vinho",
+      "price": 73.79
+    }
+  },
+  "https://meli.la/1QFdKiK": {
+    "itemId": "MLB7426556070",
+    "title": "Comedouro Automático Inteligente 5L com Câmera para Gatos e Cães",
+    "price": 468,
+    "rating": 4.8,
+    "sold": "+100 vendidos",
+    "checkedAt": "2026-11-27",
+    "expected": {
+      "itemId": "MLB7426556070",
+      "title": "Comedouro Automático Inteligente 5L com Câmera para Gatos e Cães",
+      "price": 468
+    }
+  },
+  "https://meli.la/2UsKarx": {
+    "itemId": "MLB8048107910",
+    "title": "Coleira Suporte Pet Com Rastreador Compatível iPhone Cães Preto Coleira P",
+    "price": 123.19,
+    "rating": null,
+    "sold": "+100 vendidos",
+    "checkedAt": "2026-11-27",
+    "expected": {
+      "itemId": "MLB8048107910",
+      "title": "Coleira Suporte Pet Com Rastreador Compatível iPhone Cães Preto Coleira P",
+      "price": 123.19
     }
   }
 }
