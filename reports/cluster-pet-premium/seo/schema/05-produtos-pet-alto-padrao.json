@@ -1,0 +1,193 @@
+[
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "Produtos Pet de Alto Padrão em 2026: Coleira GPS de Longo Alcance, Viveiro e Chocadeira",
+    "description": "Coleira GPS Eseek com rádio e 4G, viveiro Veneza para papagaio e chocadeira Hobby 130: specs, preço e para quem vale. Veja antes de comprar.",
+    "image": [
+      "https://smartpetgadgets.com.br/produtos-pet-alto-padrao/img/produtos-pet-alto-padrao-hero-16x9.webp",
+      "https://smartpetgadgets.com.br/produtos-pet-alto-padrao/img/produtos-pet-alto-padrao-hero-4x3.webp",
+      "https://smartpetgadgets.com.br/produtos-pet-alto-padrao/img/produtos-pet-alto-padrao-hero-1x1.webp"
+    ],
+    "datePublished": "2026-11-27",
+    "dateModified": "2026-11-27",
+    "author": {
+      "@type": "Person",
+      "name": "Nildo Alves",
+      "url": "https://smartpetgadgets.com.br/autores/nildo-alves/"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Smart Pet Gadgets",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://smartpetgadgets.com.br/img/logo.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://smartpetgadgets.com.br/produtos-pet-alto-padrao/"
+    }
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Início",
+        "item": "https://smartpetgadgets.com.br/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Produtos Pet Premium",
+        "item": "https://smartpetgadgets.com.br/produtos-pet-premium/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Produtos Pet de Alto Padrão",
+        "item": "https://smartpetgadgets.com.br/produtos-pet-alto-padrao/"
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Produtos pet de alto padrão analisados",
+    "itemListOrder": "https://schema.org/ItemListOrderAscending",
+    "numberOfItems": 3,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "url": "https://smartpetgadgets.com.br/produtos-pet-alto-padrao/#eseek",
+        "item": {
+          "@type": "Product",
+          "name": "Coleira GPS Eseek de Longo Alcance para Cães",
+          "image": "https://smartpetgadgets.com.br/produtos-pet-alto-padrao/img/coleira-gps-eseek.webp",
+          "brand": {
+            "@type": "Brand",
+            "name": "eSEEK"
+          },
+          "description": "Rastreador para cães com coleira e aparelho de mão, rádio VHF de cerca de 15 km e 4G, coleira IP68 e até 20 cães por aparelho.",
+          "offers": {
+            "@type": "Offer",
+            "price": "5650.00",
+            "priceCurrency": "BRL",
+            "availability": "https://schema.org/InStock",
+            "url": "https://meli.la/2JzE9hw"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "url": "https://smartpetgadgets.com.br/produtos-pet-alto-padrao/#viveiro-veneza",
+        "item": {
+          "@type": "Product",
+          "name": "Viveiro Veneza American Pets para Papagaio (preto)",
+          "image": "https://smartpetgadgets.com.br/produtos-pet-alto-padrao/img/viveiro-veneza-american-pets.webp",
+          "brand": {
+            "@type": "Brand",
+            "name": "American Pets"
+          },
+          "description": "Viveiro para aves de grande porte com 185 x 131 x 102 cm. Nota 4,4 no Mercado Livre, mais de 100 vendidos.",
+          "offers": {
+            "@type": "Offer",
+            "price": "4749.00",
+            "priceCurrency": "BRL",
+            "availability": "https://schema.org/InStock",
+            "url": "https://meli.la/14RXQSn"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "url": "https://smartpetgadgets.com.br/produtos-pet-alto-padrao/#hobby-130",
+        "item": {
+          "@type": "Product",
+          "name": "Chocadeira Premium Ecológica Hobby 130",
+          "image": "https://smartpetgadgets.com.br/produtos-pet-alto-padrao/img/chocadeira-premium-ecologica-hobby-130.webp",
+          "brand": {
+            "@type": "Brand",
+            "name": "Premium Ecológica"
+          },
+          "description": "Chocadeira para 130 ovos de galinha com viragem automática, temperatura digital, circulação forçada de ar e umidade ajustada manualmente. 127 V ou 220 V.",
+          "offers": {
+            "@type": "Offer",
+            "price": "3990.00",
+            "priceCurrency": "BRL",
+            "availability": "https://schema.org/InStock",
+            "url": "https://meli.la/21dS1d8"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Coleira GPS de longo alcance funciona sem sinal de celular?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende da tecnologia. Coleiras só com chip 4G param de atualizar sem cobertura. Modelos com rádio, como a Eseek, continuam enviando a posição ao aparelho de mão por VHF, com alcance de cerca de 15 km em linha de visada. Relevo e mata fechada reduzem o alcance real."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Qual o melhor rastreador GPS para cães?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Depende de onde o cão anda. Para cidade e quintal, um rastreador com chip ou Bluetooth resolve gastando menos, como mostramos no nosso ranking de coleiras GPS. Para fazendas, trilhas e áreas sem sinal, um sistema com rádio e aparelho de mão, como a Eseek de R$ 5.650, é o mais indicado."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "A coleira GPS Eseek precisa de chip?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Para o modo 4G, sim: um distribuidor informa que são necessários dois chips ativos, um no aparelho de mão e outro na coleira, com custo de operadora. O modo de rádio VHF funciona sem chip, dentro do alcance. Confirme com o vendedor a versão de rádio e a homologação na Anatel."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Qual o tamanho ideal de viveiro para papagaio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Grande o bastante para a ave abrir as asas e se deslocar entre poleiros sem bater nas grades. Viveiros como o Veneza, com 185 x 131 x 102 cm, oferecem bem mais espaço que gaiolas comuns. Além do tamanho, confira o espaçamento entre as grades e a resistência do arame."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Precisa de autorização para ter papagaio?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Sim. O papagaio é ave silvestre, e só pode ser mantido com origem legal: comprado de criadouro autorizado, com nota fiscal e documentação de identificação da ave. Retirar da natureza ou comprar sem documentos é crime ambiental. Na dúvida, consulte o órgão ambiental do seu estado."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Qual a melhor chocadeira automática para começar?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Entre as opções que analisamos, a Premium Ecológica Hobby 130 tem a melhor avaliação (4,9 no Mercado Livre), viragem automática e temperatura digital, por R$ 3.990. A umidade é ajustada manualmente. Para quem quer umidade digital, a mesma marca vende a linha IP 130 D, mais cara."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Quantos ovos cabem numa chocadeira de 130 ovos?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Os 130 se referem a ovos de galinha. Com ovos menores ou maiores, a conta muda: na Hobby 130, o fabricante indica cerca de 300 ovos de codorna, 180 de faisão, 65 de pavão e 50 de ganso. São valores aproximados, que dependem do tamanho dos ovos."
+        }
+      }
+    ]
+  }
+]
