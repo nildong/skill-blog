@@ -1,323 +1,1206 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://smartpetgadgets.com.br/</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-27</lastmod>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/autores/nildo-alves/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/img/og-home.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/bebedouro-inox-x-ceramica/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-14</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/bebedouro-inox-x-ceramica/img/bebedouro-inox-x-ceramica-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/bebedouro-inox-x-ceramica/img/fonte-inox-newpet-3l.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/bebedouro-inox-x-ceramica/img/fonte-ceramica-amicus-aqua-clay-2-5l.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/bebedouro-inox-x-ceramica/img/ilustracao-fonte-barro-terracota.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/bebedouro-inox-x-ceramica/img/agbe-ag-200.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/bebedouro-inox-x-ceramica/img/fonte-plastico-premium-1-5l.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://smartpetgadgets.com.br/black-friday-pet/</loc>
+    <lastmod>2026-11-23</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/black-friday-pet/img/black-friday-pet-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/brinquedo-automatico-cachorro-sozinho/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-automatico-cachorro-sozinho/img/brinquedo-automatico-cachorro-sozinho-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-automatico-cachorro-sozinho/img/brinquedos-cachorro-sozinho-6-opcoes.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-automatico-cachorro-sozinho/img/kong-classic-recheavel.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-automatico-cachorro-sozinho/img/odontopet-dura-monster-nylon.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-automatico-cachorro-sozinho/img/bola-macica-cravo-kit-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-automatico-cachorro-sozinho/img/pato-pelucia-com-som-32cm.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-automatico-cachorro-sozinho/img/tapete-de-farejar-feltro.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-automatico-cachorro-sozinho/img/lancador-de-bolinhas-automatico.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/img/brinquedo-interativo-automatico-para-gato-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/img/brinquedo-automatico-gato-6-modelos.jpg?v=2</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/img/varinha-automatica-new-pet.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/img/bolinha-giratoria-led-recarregavel.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/img/borboleta-sensor-gatos.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/img/laser-automatico-gatos.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/img/alimentador-brinquedo-dispensador-racao.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-interativo-automatico-para-gato/img/ratinho-eletrico-patyocat.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/brinquedo-interativo-gato-idoso-vale-a-pena/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-interativo-gato-idoso-vale-a-pena/img/brinquedo-interativo-gato-idoso-vale-a-pena-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/brinquedo-interativo-pilha-x-recarregavel/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-interativo-pilha-x-recarregavel/img/brinquedo-interativo-pilha-x-recarregavel-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-interativo-pilha-x-recarregavel/img/bola-recarregavel-chocyn.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-interativo-pilha-x-recarregavel/img/varinha-ventosa-catnip-gaisapet.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-interativo-pilha-x-recarregavel/img/tunel-arco-iris-zgy.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-interativo-pilha-x-recarregavel/img/arranhador-papelao-mymia.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/brinquedo-interativo-sensor-infravermelho-como-funciona/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-interativo-sensor-infravermelho-como-funciona/img/brinquedo-interativo-sensor-infravermelho-como-funciona-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/brinquedo-interativo-substitui-brincadeira-tutor/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/brinquedo-interativo-substitui-brincadeira-tutor/img/brinquedo-interativo-substitui-brincadeira-tutor-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/cachorro-de-casa-pega-pulga/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/cachorro-de-casa-pega-pulga/img/cachorro-sofa-vida-boa-hero.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/camera-para-monitorar-pet/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-23</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-para-monitorar-pet/img/camera-para-monitorar-pet-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-para-monitorar-pet/img/cameras-monitorar-pet-6-modelos.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-para-monitorar-pet/img/tp-link-tapo-c200.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-para-monitorar-pet/img/tp-link-tapo-c210-2k.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-para-monitorar-pet/img/intelbras-im4-c.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-para-monitorar-pet/img/intelbras-im3-c.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-para-monitorar-pet/img/xiaomi-smart-c300-dual.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-para-monitorar-pet/img/enabot-ebo-air.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/camera-pet-cachorro-ansiedade-separacao/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-pet-cachorro-ansiedade-separacao/img/camera-pet-cachorro-ansiedade-separacao-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/camera-pet-com-dispensador-de-petisco/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-pet-com-dispensador-de-petisco/img/camera-pet-com-dispensador-de-petisco-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-pet-com-dispensador-de-petisco/img/cameras-pet-petisco-6-modelos.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-pet-com-dispensador-de-petisco/img/camera-pet-2k-petiscos-newpet.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-pet-com-dispensador-de-petisco/img/comedouro-camera-dogis-tech-6l.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-pet-com-dispensador-de-petisco/img/alimentador-camera-6l-root-tech.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-pet-com-dispensador-de-petisco/img/furbo-dog-360.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-pet-com-dispensador-de-petisco/img/comedouro-camera-4l-hipertech.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-pet-com-dispensador-de-petisco/img/dispensador-petiscos-camera-petnow.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/camera-pet-grava-sem-internet/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-pet-grava-sem-internet/img/camera-pet-grava-sem-internet-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/camera-pet-resolucao-1080p-x-2k/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-pet-resolucao-1080p-x-2k/img/camera-pet-resolucao-1080p-x-2k-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/camera-pet-visao-noturna-funciona/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-pet-visao-noturna-funciona/img/camera-pet-visao-noturna-funciona-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/img/camera-pet-x-coleira-gps-qual-escolher-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/img/tp-link-tapo-c200.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/img/tp-link-tapo-c210-2k.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/img/intelbras-im4-c.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/img/coleira-gps-the-pet-gps-cachorro.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/img/rastreador-gps-anxk-g58.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/camera-pet-x-coleira-gps-qual-escolher/img/kit-coleira-cachorro-tag-apple-ideashop.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/cat-mate-c500-review/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/cat-mate-c500-review/img/cat-mate-c500-review-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/cercado-para-cachorros/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-23</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/cercado-para-cachorros/img/og-cercado-cachorros.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/cercado-para-cachorros/img/cercado-cachorros-divipets-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/cercado-para-cachorros/img/cercado-cachorros-divipets-02.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/cercado-para-cachorros/img/cercado-cachorros-divipets-03.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/cercado-para-cachorros/img/cercado-cachorros-divipets-04.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/cercado-para-cachorros/img/cercado-cachorros-divipets-05.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-12</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/img/cerca-virtual-para-cachorro-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/coleira-gps-bluetooth-x-chip-operadora/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-bluetooth-x-chip-operadora/img/coleira-gps-bluetooth-x-chip-operadora-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/coleira-gps-cachorro-pequeno-porte/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-cachorro-pequeno-porte/img/coleira-gps-cachorro-pequeno-porte-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-cachorro-pequeno-porte/img/coleira-gps-the-pet-gps-cachorro.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-cachorro-pequeno-porte/img/rastreador-gps-anxk-g68.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-cachorro-pequeno-porte/img/kit-coleira-cachorro-tag-apple-ideashop.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-cachorro-pequeno-porte/img/coleira-mestre-tag-google-android.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-cachorro-pequeno-porte/img/apple-airtag-kit-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-cachorro-pequeno-porte/img/samsung-galaxy-smarttag2.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/coleira-gps-cachorro-que-foge/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-12</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-cachorro-que-foge/img/coleira-gps-cachorro-que-foge-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/coleira-gps-para-gato/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-22</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-para-gato/img/coleira-gps-para-gato-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-para-gato/img/coleira-gps-the-pet-gps-4g.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-para-gato/img/rastreador-gps-anxk-g68.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-para-gato/img/coleira-gato-tag-apple-ideashop.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-para-gato/img/apple-airtag-kit-2.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-para-gato/img/coleira-mestre-tag-google-android.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-para-gato/img/samsung-galaxy-smarttag2.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/coleira-gps-para-pet/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-para-pet/img/coleira-gps-para-pet-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-para-pet/img/coleira-gps-the-pet-gps-cachorro.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-para-pet/img/rastreador-gps-anxk-g58.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-para-pet/img/kit-coleira-cachorro-tag-apple-ideashop.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-para-pet/img/coleira-gps-caca-gps-25000-compass.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-para-pet/img/coleira-the-pet-gps-keylock.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/coleira-gps-x-microchip/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-gps-x-microchip/img/coleira-gps-x-microchip-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/coleira-seresto-antipulgas/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-seresto-antipulgas/img/coleira-seresto-hero.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-seresto-antipulgas/img/coleira-seresto-protecao.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-seresto-antipulgas/img/coleira-seresto-mecanismo.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-seresto-antipulgas/img/coleira-seresto-resistente-agua.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-seresto-antipulgas/img/coleira-seresto-ajuste-seguranca.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-seresto-antipulgas/img/avaliacao-comprador-1.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-seresto-antipulgas/img/avaliacao-comprador-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-seresto-antipulgas/img/avaliacao-comprador-3.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/coleira-seresto-antipulgas/img/avaliacao-comprador-4.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/comedouro-automatico-anti-formiga/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-anti-formiga/img/comedouro-automatico-anti-formiga-hero.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-anti-formiga/img/comedouro-automatico-anti-formiga-02.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-anti-formiga/img/comedouro-automatico-anti-formiga-03.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/comedouro-automatico-faz-mal/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-11</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-faz-mal/img/comedouro-automatico-faz-mal-hero.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-faz-mal/img/comedouro-automatico-faz-mal-03.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/img/comedouro-dogis-tech.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-faz-mal/img/comedouro-automatico-faz-mal-02.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/comedouro-automatico-gato-obeso/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-gato-obeso/img/comedouro-automatico-gato-obeso-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-gato-obeso/img/comedouro-automatico-gato-obeso-02.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-gato-obeso/img/comedouro-automatico-gato-obeso-03.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-para-dois-gatos/img/comedouro-automatico-para-dois-gatos-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-alimentador-automatico-gatos/img/alimentador-rfid-multigato.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/comedouro-automatico-para-pet/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-para-pet/img/comedouro-automatico-para-pet-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-para-pet/img/melhores-comedouros-automaticos-6-modelos.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-para-pet/img/comedouro-newpet-4l-voz-app.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-para-pet/img/comedouro-automatico-8kg-ideal-dog.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-para-pet/img/alimentador-automatico-camera-6l.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-para-pet/img/alimentador-newpet-6l-3-tigelas.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-para-pet/img/alimentador-xiaomi-smart-pet-food-feeder-2.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-para-pet/img/comedouro-bebedouro-2-em-1-gravidade.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/img/comedouro-automatico-para-viagem-hero.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/img/comedouro-newpet-5l-camera.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/img/comedouro-newpet-2l-np1322.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/img/comedouro-newpet-5l-inox-duas-tigelas.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/img/comedouro-baakin-8l-duplo-camera.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/img/comedouro-root-tech-6l-duplo-camera.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/img/comedouro-automatico-para-viagem-03.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/img/comedouro-fercar-10kg-gravidade.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/img/comedouro-bebedouro-gravidade-pet-for-you.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/img/fonte-bebedouro-inox-3l.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/img/bebedouro-acquapet-ceramica-4l.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-para-viagem/img/comedouro-automatico-para-viagem-02.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/comedouro-automatico-vale-a-pena/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-21</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-vale-a-pena/img/comedouro-automatico-vale-a-pena-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/comedouro-cachorro/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-cachorro/img/og-comedouro-cachorro-suporte-baia.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-cachorro/img/comedouro-cachorro-suporte-baia-01.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-cachorro/img/comedouro-cachorro-suporte-baia-02.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-cachorro/img/comedouro-cachorro-suporte-baia-03.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-cachorro/img/comedouro-cachorro-suporte-baia-04.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-23</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/img/comedouro-com-ou-sem-wifi-hero.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/img/comedouro-com-ou-sem-wifi-02.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-com-ou-sem-wifi/img/comedouro-com-ou-sem-wifi-03.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-15</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-gato-x-cachorro-diferenca/img/comedouro-gato-x-cachorro-diferenca-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/comedouro-newpet-2l-review/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-23</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-newpet-2l-review/img/comedouro-newpet-2l-review-hero.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-newpet-2l-review/img/comedouro-newpet-2l-review-02.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-newpet-2l-review/img/comedouro-newpet-2l-review-03.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/comedouro-newpet-4l-review/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-newpet-4l-review/img/comedouro-newpet-4l-review-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/img/comedouro-vdrbg-4l-wifi-review-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/img/velds-4l-wifi-app.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/img/newpet-4l-app.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/img/alimentador-programavel-lcd.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/img/velds-4l-detalhe.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/img/newpet-4l-detalhe.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-vdrbg-4l-wifi-review/img/alimentador-programavel-lcd-detalhe.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/comedouro-x-bebedouro-automatico/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-x-bebedouro-automatico/img/comedouro-x-bebedouro-automatico-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-x-bebedouro-automatico/img/comedouro-bebedouro-gravidade-pet-for-you.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-x-bebedouro-automatico/img/comedouro-bebedouro-2-em-1-gravidade.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-x-bebedouro-automatico/img/comedouro-newpet-4l-voz-app.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-x-bebedouro-automatico/img/fonte-bebedouro-inox-3l.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-x-bebedouro-automatico/img/comedouro-fercar-10kg-gravidade.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-x-bebedouro-automatico/img/bebedouro-acquapet-ceramica-4l.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-x-bebedouro-automatico/img/comedouro-newpet-5l-camera.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-x-bebedouro-automatico/img/bebedouro-fonte-sensor-sem-fio.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/como-configurar-camera-pet-wifi/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/como-configurar-camera-pet-wifi/img/como-configurar-camera-pet-wifi-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/como-escolher-brinquedo-interativo-gato-entediado/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/como-escolher-brinquedo-interativo-gato-entediado/img/como-escolher-brinquedo-interativo-gato-entediado-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/como-funciona-coleira-gps-cachorro/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/como-funciona-coleira-gps-cachorro/img/como-funciona-coleira-gps-cachorro-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/como-funciona-coleira-gps-cachorro/img/coleira-gps-the-pet-gps-cachorro.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/como-funciona-coleira-gps-cachorro/img/rastreador-gps-anxk-g68.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/como-funciona-coleira-gps-cachorro/img/kit-coleira-cachorro-tag-apple-ideashop.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/como-funciona-coleira-gps-cachorro/img/coleira-mestre-tag-google-android.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/como-instalar-porta-eletronica-pet/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/como-instalar-porta-eletronica-pet/img/como-instalar-porta-eletronica-pet-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/como-limpar-comedouro-automatico/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/como-limpar-comedouro-automatico/img/como-limpar-comedouro-automatico-hero.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/como-limpar-comedouro-automatico/img/como-limpar-comedouro-automatico-02.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/como-limpar-comedouro-automatico/img/como-limpar-comedouro-automatico-03.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/img/configurar-app-comedouro-wifi-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/img/configurar-comedouro-wifi-5-passos.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/img/luz-comedouro-wifi-modo-pareamento.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/img/comedouro-wifi-rede-2-4-ghz-x-5-ghz.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/configurar-app-comedouro-wifi/img/comedouro-newpet-5l-tuya.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/comedouro-automatico-para-pet/img/alimentador-newpet-6l-3-tigelas.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/contato/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/img/og-home.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/duvidas-brinquedo-interativo-gato/</loc>
     <lastmod>2026-11-05</lastmod>
-  </url>
-  <url>
-    <loc>https://smartpetgadgets.com.br/duvidas-camera-para-monitorar-pet/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/duvidas-brinquedo-interativo-gato/img/duvidas-brinquedo-interativo-gato-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/duvidas-coleira-gps-pet/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-12</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/duvidas-coleira-gps-pet/img/duvidas-coleira-gps-pet-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/duvidas-porta-eletronica-pet/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/duvidas-porta-eletronica-pet/img/duvidas-porta-eletronica-pet-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/erros-comuns-brinquedo-interativo-gato/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/erros-comuns-brinquedo-interativo-gato/img/erros-comuns-brinquedo-interativo-gato-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/erros-comuns-camera-monitorar-pet/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/erros-comuns-camera-monitorar-pet/img/erros-comuns-camera-monitorar-pet-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/erros-comuns-coleira-gps-pet/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-22</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/erros-comuns-coleira-gps-pet/img/erros-comuns-coleira-gps-pet-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/erros-comuns-coleira-gps-pet/img/coleira-gps-the-pet-gps-cachorro.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/erros-comuns-coleira-gps-pet/img/rastreador-gps-anxk-g58.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/erros-comuns-coleira-gps-pet/img/rastreador-gps-anxk-g68.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/erros-comuns-porta-eletronica-pet/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/erros-comuns-porta-eletronica-pet/img/erros-comuns-porta-eletronica-pet-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/melhor-alimentador-automatico-gatos/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-alimentador-automatico-gatos/img/melhor-alimentador-automatico-gatos-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-alimentador-automatico-gatos/img/alimentador-cat-mate-c500.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-alimentador-automatico-gatos/img/alimentador-velds-4l.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-alimentador-automatico-gatos/img/alimentador-newpet-2l.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-alimentador-automatico-gatos/img/alimentador-rfid-multigato.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-alimentador-automatico-gatos/img/alimentador-dogis-lite.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/img/simparic-caixa.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/img/bravecto-caixa.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/img/credeli-caixa.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/img/nexgard-caixa.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/img/frontline-plus-pipeta.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-antipulgas-para-cachorro/img/vermitril-caixa.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/melhor-bebedouro-automatico-pet/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-bebedouro-automatico-pet/img/melhor-bebedouro-automatico-pet-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-bebedouro-automatico-pet/img/melhores-bebedouros-automaticos-6-modelos.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-bebedouro-automatico-pet/img/bebedouro-amicus-aqua-clay.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-bebedouro-automatico-pet/img/bebedouro-agbe-ag-200.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-bebedouro-automatico-pet/img/bebedouro-fonte-sensor-sem-fio.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-bebedouro-automatico-pet/img/bebedouro-newpet-inox-3l.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-bebedouro-automatico-pet/img/bebedouro-ponte-lar-2-5l.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-bebedouro-automatico-pet/img/bebedouro-patas-fieis-pelos-livres.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/melhor-bolinha-inteligente-para-gato/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-bolinha-inteligente-para-gato/img/melhor-bolinha-inteligente-para-gato-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
-    <loc>https://smartpetgadgets.com.br/melhor-camera-para-monitorar-pet/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <loc>https://smartpetgadgets.com.br/melhor-caixa-de-areia-automatica/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-caixa-de-areia-automatica/img/melhor-caixa-de-areia-automatica-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-caixa-de-areia-automatica/img/litter-robot-4.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-caixa-de-areia-automatica/img/petlibro-luma.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-caixa-de-areia-automatica/img/neakasa-m1-plus.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-caixa-de-areia-automatica/img/petkit-purobot-max-pro.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-caixa-de-areia-automatica/img/litter-robot-evo.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://smartpetgadgets.com.br/melhor-chiller-para-aquario/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-chiller-para-aquario/img/melhor-chiller-para-aquario-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-chiller-para-aquario/img/chiller-gelaqua-1-3-hp.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-chiller-para-aquario/img/chiller-boyu-ls5.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-chiller-para-aquario/img/filtro-canister-fluval-fx6.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-chiller-para-aquario/img/ecotech-radion-xr15-g6-blue.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/melhor-coleira-gps-sem-mensalidade/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-coleira-gps-sem-mensalidade/img/melhor-coleira-gps-sem-mensalidade-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/img/melhor-comedouro-automatico-cachorro-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/img/comedouro-vdrbg-4l-wifi.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/img/comedouro-dogis-tech.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/img/comedouro-newpet-4l.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/img/comedouro-madog-camera.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/img/comedouro-jwcom-jw4l-w.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/img/comedouro-hi-by-geonav.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-comedouro-automatico-cachorro/img/comedouro-luatek-4l.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/melhor-comedouro-interativo-gato/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-comedouro-interativo-gato/img/melhor-comedouro-interativo-gato-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-comedouro-interativo-gato/img/quebra-cabeca-esconde-petisco.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-comedouro-interativo-gato/img/comedouro-elevado-lento-stark-pet.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-comedouro-interativo-gato/img/bola-dispensadora-pet-ball.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-comedouro-interativo-gato/img/tapete-lambedor-ventosa.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-comedouro-interativo-gato/img/comedouro-lento-labirinto-petyc.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-comedouro-interativo-gato/img/torre-petiscos-ajeito.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/melhor-racao-para-cachorro/</loc>
     <lastmod>2026-11-08</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-racao-para-cachorro/img/melhor-racao-para-cachorro-capa.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-racao-para-cachorro/img/racao-quatree-supreme-racas-pequenas.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-racao-para-cachorro/img/racao-magnus-todo-dia-pequeno-porte.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-racao-para-cachorro/img/racao-nd-tropical-selection-adult-mini.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-racao-para-cachorro/img/racao-formula-natural-fresh-meat-sensitive.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-racao-para-cachorro/img/racao-royal-canin-gastrointestinal-low-fat-small-dog.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-racao-para-cachorro/img/racao-bionatural-prime-junior-medios-grandes.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/melhor-racao-para-gato/</loc>
-    <lastmod>2026-11-08</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-racao-para-gato/img/melhor-racao-para-gato-capa.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-racao-para-gato/img/racao-nd-tropical-gatos-castrados.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-racao-para-gato/img/racao-royal-canin-exigent-gato.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-racao-para-gato/img/racao-formula-natural-fresh-meat-gato-senior.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-racao-para-gato/img/racao-golden-gatos-filhotes-frango.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-racao-para-gato/img/racao-premier-gatos-filhotes-frango.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-racao-para-gato/img/racao-vet-life-gastro-intestinal-gato.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://smartpetgadgets.com.br/melhor-secador-pet-shop/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-secador-pet-shop/img/melhor-secador-pet-shop-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-secador-pet-shop/img/kit-kyklon-maestro-revolution.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-secador-pet-shop/img/kit-petshop-secador-soprador-mesa-banheira.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-secador-pet-shop/img/maquina-secar-minag-compacta.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-secador-pet-shop/img/homerunpet-drybo-plus.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-17</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/img/melhor-tapete-higienico-para-cachorro-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/img/melhor-tapete-higienico-para-cachorro-embalagem.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/img/tapete-pet-for-you.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/img/tapete-higienepet-bamboo-carvao.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/img/tapete-luxena-pipi.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/img/tapete-petlike-ultra-pads.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/img/tapete-sanol-dog.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/melhor-tapete-higienico-para-cachorro/img/tapete-pet-confortavel.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/politica-de-privacidade/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/img/og-home.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/politica-editorial/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/img/og-home.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/porta-eletronica-automatica-para-pet/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/porta-eletronica-automatica-para-pet/img/porta-eletronica-automatica-para-pet-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/porta-eletronica-funciona-porta-de-vidro/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/porta-eletronica-funciona-porta-de-vidro/img/porta-eletronica-funciona-porta-de-vidro-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/porta-eletronica-gato-x-cachorro-diferenca/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/porta-eletronica-gato-x-cachorro-diferenca/img/porta-eletronica-gato-x-cachorro-diferenca-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/porta-eletronica-impede-entrada-outros-animais/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/porta-eletronica-impede-entrada-outros-animais/img/porta-eletronica-impede-entrada-outros-animais-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/porta-eletronica-microchip-x-rfid-coleira/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/porta-eletronica-microchip-x-rfid-coleira/img/porta-eletronica-microchip-x-rfid-coleira-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/porta-eletronica-reconhecimento-facial-vale-a-pena/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/porta-eletronica-reconhecimento-facial-vale-a-pena/img/porta-eletronica-reconhecimento-facial-vale-a-pena-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/porta-eletronica-sensor-de-luz-como-funciona/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/porta-eletronica-sensor-de-luz-como-funciona/img/porta-eletronica-sensor-de-luz-como-funciona-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/porta-eletronica-x-alcapao-tradicional/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/porta-eletronica-x-alcapao-tradicional/img/porta-eletronica-x-alcapao-tradicional-hero.jpg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://smartpetgadgets.com.br/produtos-pet-alto-padrao/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/produtos-pet-alto-padrao/img/produtos-pet-alto-padrao-hero.jpg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/produtos-pet-alto-padrao/img/coleira-gps-eseek.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/produtos-pet-alto-padrao/img/viveiro-veneza-american-pets.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/produtos-pet-alto-padrao/img/chocadeira-premium-ecologica-hobby-130.webp</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://smartpetgadgets.com.br/produtos-pet-premium/</loc>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/produtos-pet-premium/img/produtos-pet-premium-hero.jpg</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/sobre/</loc>
-    <lastmod>2026-11-04</lastmod>
+    <lastmod>2026-11-27</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/img/og-home.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/soprador-pet/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/soprador-pet/img/D_NQ_NP_2X_980310-MLB114713959501_072026-F-soprador-pet-2-motores-forte-super-turbo-code-pet-banho-tosa.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/soprador-pet/img/D_NQ_NP_2X_743162-MLB115087302585_072026-F-soprador-pet-2-motores-forte-super-turbo-code-pet-banho-tosa.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/soprador-pet/img/D_NQ_NP_2X_928547-MLB115088065491_072026-F-soprador-pet-2-motores-forte-super-turbo-code-pet-banho-tosa.webp</image:loc>
+    </image:image>
   </url>
   <url>
     <loc>https://smartpetgadgets.com.br/tapete-higienico-para-cachorro/</loc>
     <lastmod>2026-11-05</lastmod>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/tapete-higienico-para-cachorro/img/og-tapete-higienico-cachorro.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/tapete-higienico-para-cachorro/img/tapete-higienico-02-lifestyle-apartamento.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/tapete-higienico-para-cachorro/img/tapete-higienico-04-seis-camadas.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/tapete-higienico-para-cachorro/img/tapete-higienico-07-carvao-bambu.webp</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>https://smartpetgadgets.com.br/tapete-higienico-para-cachorro/img/tapete-higienico-05-embalagem-kit30.webp</image:loc>
+    </image:image>
   </url>
 </urlset>

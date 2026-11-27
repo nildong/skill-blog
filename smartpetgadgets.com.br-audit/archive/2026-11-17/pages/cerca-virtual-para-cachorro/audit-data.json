@@ -1,0 +1,236 @@
+{
+  "summary": {
+    "health_score": 63,
+    "business_type": "Publisher / blog de afiliados (pet)",
+    "scope": "Página única: https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/",
+    "top_findings": [
+      "Canibalização com /coleira-gps-cachorro-que-foge/",
+      "Página quase órfã (o pilar não linka)",
+      "Conteúdo raso (~550 palavras únicas)",
+      "Intenção GPS x cerca sem fio não atendida",
+      "Autoria contraditória e alegação de teste"
+    ],
+    "quick_wins": [
+      "Linkar a partir do pilar e de erros-comuns",
+      "Retitular o que-foge",
+      "Remover 'retrieved' e unificar o autor",
+      "Adicionar <main> e ajustar o contraste",
+      "Pedir reindexação no GSC"
+    ]
+  },
+  "categories": [
+    {
+      "name": "Technical SEO",
+      "score": 85,
+      "what_works": [
+        "Indexada, canonical igual ao do Google",
+        "HTTPS + HSTS + headers de segurança",
+        "No sitemap e no llms.txt"
+      ],
+      "findings": [
+        {
+          "title": "Página quase órfã",
+          "severity": "High",
+          "description": "Só a home linka; o pilar não linka; GSC referring_urls vazio",
+          "recommendation": "Linkar a partir do pilar e de 4+ posts do cluster"
+        },
+        {
+          "title": "Crawl anterior à última alteração",
+          "severity": "Medium",
+          "description": "Crawl em 28/09, lastmod em 19/10",
+          "recommendation": "Pedir indexação após as correções"
+        },
+        {
+          "title": "Sem <main> e contraste baixo",
+          "severity": "Low",
+          "description": "Lighthouse a11y 93",
+          "recommendation": "Adicionar <main>; subir a opacidade de .meta/.disclosure"
+        }
+      ]
+    },
+    {
+      "name": "Content Quality",
+      "score": 40,
+      "what_works": [
+        "Definição direta no primeiro parágrafo",
+        "Passo a passo numerado"
+      ],
+      "findings": [
+        {
+          "title": "Conteúdo raso",
+          "severity": "High",
+          "description": "~550 palavras únicas; 'Erros comuns' com 1 parágrafo; 1 fonte",
+          "recommendation": "Expandir para ~1.500 palavras com dados, tabela e mais fontes"
+        },
+        {
+          "title": "Intenção mista não atendida",
+          "severity": "High",
+          "description": "'Cerca virtual' no BR também nomeia produto sem fio com transmissor (ex.: Amicus/Petlove)",
+          "recommendation": "Adicionar a seção comparativa GPS x transmissor"
+        },
+        {
+          "title": "Autoria contraditória e alegação de teste",
+          "severity": "High",
+          "description": "Nildo no topo/schema x 'Equipe' no rodapé; bio diz 'Testa'",
+          "recommendation": "Unificar o autor; remover a alegação se não houve teste"
+        },
+        {
+          "title": "Resíduos de rascunho",
+          "severity": "Medium",
+          "description": "'retrieved 2026-08-22' 2x; 'resultados de mercado indicam'",
+          "recommendation": "Reescrever as citações em pt-BR"
+        }
+      ]
+    },
+    {
+      "name": "On-Page SEO",
+      "score": 45,
+      "what_works": [
+        "Title de 55 caracteres e meta de 140 caracteres dentro do limite"
+      ],
+      "findings": [
+        {
+          "title": "Canibalização com coleira-gps-cachorro-que-foge",
+          "severity": "Critical",
+          "description": "Title do que-foge começa com 'Cerca Virtual para Cachorro'; as duas URLs aparecem no GSC para a query",
+          "recommendation": "Retitular o que-foge e consolidar o tema aqui"
+        },
+        {
+          "title": "9 posts citam cerca virtual sem linkar",
+          "severity": "High",
+          "description": "Inclui o pilar e erros-comuns",
+          "recommendation": "Adicionar links contextuais"
+        },
+        {
+          "title": "Datas desalinhadas",
+          "severity": "Medium",
+          "description": "dateModified 22/08 x lastmod 19/10",
+          "recommendation": "Atualizar juntos com o conteúdo"
+        }
+      ]
+    },
+    {
+      "name": "Schema / Structured Data",
+      "score": 70,
+      "what_works": [
+        "BlogPosting, BreadcrumbList e FAQPage válidos"
+      ],
+      "findings": [
+        {
+          "title": "dateModified desatualizado e Person raso",
+          "severity": "Medium",
+          "description": "Sem image/sameAs",
+          "recommendation": "Atualizar a data; enriquecer o Person no site todo"
+        }
+      ]
+    },
+    {
+      "name": "Performance (CWV)",
+      "score": 98,
+      "what_works": [
+        "LCP 0,8 s, CLS 0, TBT 0, 53 KiB"
+      ],
+      "findings": [
+        {
+          "title": "Sem dados de campo CrUX",
+          "severity": "Info",
+          "description": "CrUX 403",
+          "recommendation": "—"
+        }
+      ]
+    },
+    {
+      "name": "AI Search Readiness",
+      "score": 55,
+      "what_works": [
+        "Definição citável",
+        "No llms.txt"
+      ],
+      "findings": [
+        {
+          "title": "Sem números citáveis",
+          "severity": "Medium",
+          "description": "Sem precisão, raio ou intervalo",
+          "recommendation": "Adicionar specs com fonte e uma tabela"
+        }
+      ]
+    },
+    {
+      "name": "Images",
+      "score": 75,
+      "what_works": [
+        "Alt descritivo",
+        "srcset WebP com preload"
+      ],
+      "findings": [
+        {
+          "title": "Só 1 imagem num tutorial",
+          "severity": "Low",
+          "description": "Hero apenas",
+          "recommendation": "Adicionar diagramas explicativos"
+        }
+      ]
+    }
+  ],
+  "action_plan": {
+    "phases": [
+      {
+        "name": "Phase 1: Critical Fixes",
+        "timeframe": "Week 1",
+        "items": [
+          "Resolver a canibalização com o que-foge",
+          "Linkar a partir do pilar e do cluster"
+        ]
+      },
+      {
+        "name": "Phase 2: High-Impact Improvements",
+        "timeframe": "Weeks 2-3",
+        "items": [
+          "Expandir o conteúdo + seção GPS x transmissor",
+          "Unificar a autoria",
+          "Limpar resíduos de rascunho"
+        ]
+      },
+      {
+        "name": "Phase 3: Content & Authority",
+        "timeframe": "Month 2",
+        "items": [
+          "Novo FAQ",
+          "CTA com produto nomeado",
+          "Imagens explicativas",
+          "Mais fontes"
+        ]
+      },
+      {
+        "name": "Phase 4: Monitoring & Iteration",
+        "timeframe": "Ongoing",
+        "items": [
+          "Acompanhar posição e CTR no GSC por 28 dias após a reindexação"
+        ]
+      }
+    ]
+  },
+  "gsc": {
+    "window_days": 90,
+    "rows": [
+      {
+        "query": "cerca virtual para cachorro",
+        "page": "/cerca-virtual-para-cachorro/",
+        "impressions": 34,
+        "clicks": 0,
+        "position": 10.6
+      },
+      {
+        "query": "cerca virtual para cachorro",
+        "page": "/coleira-gps-cachorro-que-foge/",
+        "impressions": 3,
+        "clicks": 0,
+        "position": 9.3
+      }
+    ]
+  },
+  "artifacts": {
+    "findings_dir": "findings/",
+    "screenshots_dir": "screenshots/"
+  }
+}

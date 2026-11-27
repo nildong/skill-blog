@@ -1,0 +1,153 @@
+{
+  "summary": {
+    "health_score": 87,
+    "business_type": "Publisher afiliado (reviews e guias de produtos pet, Mercado Livre)",
+    "audit_date": "2026-11-24",
+    "previous_score": {"2026-11-17": 85, "2026-11-06": 85},
+    "top_findings": [
+      "10 links de afiliado com alerta a 3 dias da Black Friday: 3 não abrem produto, 7 mudaram de anúncio (1RWrc8a, em 5 posts de coleira GPS, agora abre um kit de tag para Apple/iPhone)",
+      "/black-friday-pet/ só recebe 1 link interno (home); a data é 27/11 e o post não tem links das páginas que já têm tráfego",
+      "29 preços desatualizados em 5% ou mais (ex.: tag rastreadora 14wjrDr: R$ 151–159 no texto vs R$ 90 agora, -44%)",
+      "melhor-racao-para-cachorro: 444 impr. em 28 dias, pos 10, 'melhor ração para cachorro' com 89 impr. e 0 cliques; melhor-racao-para-gato na pos 21,8 com apenas 2 links internos de entrada",
+      "74 de 77 páginas sem landmark <main>; falha de contraste de cor no Lighthouse (acessibilidade 94–96)"
+    ],
+    "quick_wins": [
+      "Trocar os 3 meli.la mortos e revisar os 7 que mudaram de anúncio antes de 27/11",
+      "Adicionar link contextual para /black-friday-pet/ nos 8–10 posts com mais impressões (remover depois de 01/12)",
+      "Adicionar 3–5 links internos para /melhor-racao-para-gato/",
+      "Envolver o conteúdo em <main> no template (troca de <div> por <main>, sem mudança visual)",
+      "Cortar 7 meta descriptions com mais de 160 caracteres e 2 títulos de 66"
+    ]
+  },
+  "categories": [
+    {
+      "name": "SEO Técnico", "score": 95,
+      "what_works": [
+        "79/79 URLs do sitemap respondem 200; nenhum redirect em cadeia; nenhuma URL fora do sitemap além de 2 vídeos .mp4",
+        "Canonical autorreferente em 100% das páginas; nenhum noindex acidental",
+        "HTTPS com HSTS, nosniff, X-Frame-Options, Referrer-Policy",
+        "robots.txt com Content-Signal (search=yes, ai-input=yes, ai-train=no) e sitemap declarado; GSC lê 79 URLs + 262 imagens, 0 erros",
+        "Chave IndexNow publicada; feed.xml e llms.txt (79 URLs) no ar; .htaccess bloqueado (403)",
+        "301 de melhor-camera-para-monitorar-pet para camera-para-monitorar-pet funcionando"
+      ],
+      "findings": [
+        {"title": "Content-Type sem charset", "severity": "Low", "description": "O servidor envia 'content-type: text/html' sem charset. O <meta charset> está no byte 721 (dentro dos 1024 exigidos), então navegadores e o Google decodificam certo, mas clientes HTTP simples (alguns crawlers de IA) leem como Latin-1 — o crawl desta auditoria recebeu os títulos com mojibake.", "recommendation": "Adicionar 'AddDefaultCharset UTF-8' no .htaccess."},
+        {"title": "URL antiga de câmera ainda recebe impressões", "severity": "Info", "description": "/melhor-camera-para-monitorar-pet/ (301 desde 17/11) ainda aparece com 221 impr. em 28 dias; é o tempo normal de consolidação do Google.", "recommendation": "Manter o 301; conferir em ~15/12 se as impressões passaram para /camera-para-monitorar-pet/."}
+      ]
+    },
+    {
+      "name": "Qualidade de Conteúdo", "score": 80,
+      "what_works": [
+        "Mediana de 1.511 palavras por post; nenhum post abaixo de 600 palavras",
+        "Divulgação honesta do método ('Não testamos os aparelhos', data da consulta ao Mercado Livre) nos rankings — o problema de afirmações de teste da auditoria anterior está resolvido",
+        "Alerta FDA sobre isoxazolinas e seções Credeli x Simparic/NexGard no antipulgas (desde 23/11)"
+      ],
+      "findings": [
+        {"title": "Links de afiliado quebrados ou trocados", "severity": "High", "description": "Monitor de 23/11: 3 links não abrem produto (2p4GhJA em brinquedo-gato; 1pm2i23 em anti-formiga; 2b9cBHh em viagem e comedouro-x-bebedouro) e 7 apontam para outro anúncio. O pior: 1RWrc8a, em 5 posts de coleira GPS, agora abre um kit de tag compatível com Apple/iPhone; 1KigM7V e 15xb2sx na ração de cachorro abrem outras rações (Royal Canin Gastrointestinal Low Fat, um produto terapêutico).", "recommendation": "Antes de 27/11, gerar novos meli.la para os 10 itens (lista em reports/price-monitor/latest.md)."},
+        {"title": "29 preços divergentes em 5% ou mais", "severity": "Medium", "description": "Ex.: tag rastreadora 14wjrDr R$ 151–159 no texto contra R$ 90 (-44%) em 3 posts; Tapo C200 R$ 111 contra R$ 147,99 (+33%); Xiaomi 5 L R$ 1.299 contra R$ 1.599.", "recommendation": "Atualizar os preços dos posts que vão receber tráfego de Black Friday; a leitura de 30/11 alimenta o post /black-friday-pet/."},
+        {"title": "Páginas institucionais rasas", "severity": "Low", "description": "/contato/ 192 palavras, /politica-editorial/ 236, /sobre/ 385. A política editorial é a página que sustenta o método de todos os rankings.", "recommendation": "Expandir /politica-editorial/ com o processo real (fontes, frequência do monitor de preços, critérios de ordem, como erros são corrigidos)."},
+        {"title": "27 posts com dateModified de 22/08", "severity": "Low", "description": "Um terço dos posts não é revisado há 3 meses. A troca de ano planejada para 26/12 cobre 15 títulos.", "recommendation": "Na revisão de 26/12, incluir os posts de 22/08 que têm impressões no GSC; não mudar a data sem mudança real."}
+      ]
+    },
+    {
+      "name": "SEO On-Page", "score": 84,
+      "what_works": [
+        "Nenhum título ou meta duplicado; 1 H1 por página em 100% do site",
+        "Template completo em todos os posts (GA4 + theme-toggle)",
+        "Home com 78 links internos e cards para todos os posts"
+      ],
+      "findings": [
+        {"title": "Post de Black Friday quase órfão", "severity": "High", "description": "/black-friday-pet/ recebe 1 link interno (home). A Black Friday é em 27/11 e o post não recebe autoridade das páginas que já ranqueiam (configurar-app-comedouro-wifi 870 impr., bebedouro-inox-x-ceramica 623, melhor-racao-para-cachorro 444, coleira-gps-para-gato 426).", "recommendation": "Adicionar um bloco de 1 linha 'Ofertas de Black Friday' com link nos 8–10 posts com mais impressões, e retirar depois de 01/12."},
+        {"title": "Rações com poucos links e posição fraca", "severity": "Medium", "description": "melhor-racao-para-gato: pos 21,8, 93 impr., 2 links de entrada (home e ração de cachorro). melhor-racao-para-cachorro: 444 impr., pos 10, 0,45% de CTR; a query principal tem 89 impr. na pos 9,8 com 0 cliques.", "recommendation": "Adicionar 3–5 links contextuais para cada ração a partir de comedouro/bebedouro/obeso/dois-gatos. Mexer no conteúdo só depois do congelamento de 15/12."},
+        {"title": "Meta descriptions e títulos longos", "severity": "Low", "description": "Metas acima de 160 caracteres: autores/nildo-alves (194), coleira-seresto (169), configurar-app (166), brinquedo-gato, camera-para-monitorar, camera-petisco (163–164), camera-x-coleira (162), como-funciona (161). Títulos de 66 caracteres: coleira-seresto, como-funciona-coleira-gps.", "recommendation": "Cortar para no máximo 155 caracteres, deixando o benefício no início. Não mexer nas páginas em medição de CTR até ~01/12."}
+      ]
+    },
+    {
+      "name": "Schema / Dados Estruturados", "score": 89,
+      "what_works": [
+        "JSON-LD válido nas 79 páginas: BlogPosting + BreadcrumbList + FAQPage em 73 posts, ItemList em 20 rankings, Product/Review em 7 reviews",
+        "Organization e Person com sameAs (Facebook) — enriquecimento pendente da auditoria anterior feito",
+        "Imagem do Article em 3 proporções; ProfilePage no autor; VideoObject nos 2 vídeos"
+      ],
+      "findings": [
+        {"title": "FAQPage sem rich result", "severity": "Info", "description": "O FAQPage em 73 posts não gera rich result desde 2026, mas continua útil para extração por IA. Não há nada a corrigir.", "recommendation": "Manter; não adicionar mais esforço nisso."},
+        {"title": "Aviso hasMerchantReturnPolicy nos rankings", "severity": "Info", "description": "Mantido de propósito (site afiliado, não lojista).", "recommendation": "Nenhuma ação."}
+      ]
+    },
+    {
+      "name": "Performance (CWV)", "score": 98,
+      "what_works": [
+        "PSI mobile: home 99, black-friday 99, configurar-app 100, ração cachorro 99",
+        "LCP mobile em laboratório: 0,8 s nos posts e 1,7 s na home; 263 KiB no total por post; gtag carregado após o load"
+      ],
+      "findings": [
+        {"title": "Sem dados de campo (CrUX)", "severity": "Info", "description": "O tráfego ainda é baixo para o CrUX; os números são de laboratório.", "recommendation": "Conferir de novo quando o site passar de ~1.000 visitas/mês."},
+        {"title": "Entrega de imagem", "severity": "Low", "description": "O Lighthouse estima economia de 32 KiB na ração de cachorro.", "recommendation": "Opcional."}
+      ]
+    },
+    {
+      "name": "Prontidão para Busca por IA", "score": 80,
+      "what_works": [
+        "Todos os crawlers de IA liberados com Content-Signal explícito",
+        "llms.txt com as 79 URLs, incluindo black-friday",
+        "ChatGPT é a 2ª fonte de tráfego e gerou as únicas vendas",
+        "Respostas diretas em FAQ e caixas de escolha nos posts de alto valor"
+      ],
+      "findings": [
+        {"title": "Sem landmark <main>", "severity": "Medium", "description": "74 de 77 páginas não têm <main>; o Lighthouse falha em landmark-one-main e color-contrast (acessibilidade 94–96). Agentes e leitores de tela usam o <main> para isolar o conteúdo do menu e do rodapé.", "recommendation": "Trocar o wrapper do conteúdo por <main> no template dos posts e corrigir a cor de baixo contraste apontada pelo Lighthouse."},
+        {"title": "Pouca presença fora do site", "severity": "Medium", "description": "A única entidade externa é a página do Facebook. A citação por IA depende de menções de terceiros.", "recommendation": "Seguir com Pinterest/Facebook; buscar 2–3 menções em comunidades ou blogs pet BR."}
+      ]
+    },
+    {
+      "name": "Imagens", "score": 90,
+      "what_works": [
+        "100% das imagens dos posts com alt e width/height; heros em WebP com srcset; sitemap de imagens com 262 itens",
+        "max-image-preview:large em todo o site"
+      ],
+      "findings": [
+        {"title": "Imagens dos cards da home com alt vazio", "severity": "Info", "description": "10 imagens com alt=\"\" nos cards; como o título do card está ao lado, isso é correto para imagem decorativa.", "recommendation": "Nenhuma ação."}
+      ]
+    },
+    {
+      "name": "Desempenho no Google (GSC)", "score": null,
+      "what_works": [
+        "Impressões semanais: 327 (28/09) → 1.421 (02/11) → 3.509 (16/11); cliques 4 → 14 → 47",
+        "28 dias: 88 cliques, 7.348 impressões, 78 páginas com impressões",
+        "configurar-app-comedouro-wifi: 29 cliques, pos 4,4; comedouro-vdrbg-4l-wifi-review: CTR 3,2%, pos 4,6"
+      ],
+      "findings": [
+        {"title": "Páginas com impressões e 0 cliques", "severity": "Medium", "description": "melhor-antipulgas-para-cachorro 264 impr. pos 12; melhor-alimentador-automatico-gatos 132 pos 10,5; camera-pet-grava-sem-internet 105 pos 7,5; melhor-comedouro-automatico-cachorro 96 pos 12,1; camera-pet-resolucao-1080p-x-2k 89 pos 8,8; erros-comuns-coleira-gps 89 pos 6,8.", "recommendation": "A maioria está em medição até ~01–15/12. Primeiro alvo depois disso: camera-pet-grava-sem-internet (pos 7,5, nunca reescrita)."},
+        {"title": "Queries de Credeli ainda sem página própria", "severity": "Low", "description": "'credeli ou simparic' (32 impr., pos 22) e 'credeli ou nexgard' (19, pos 33) caem no antipulgas geral. As seções Credeli entraram em 23/11; ainda não dá para medir.", "recommendation": "Reavaliar em ~15/12; se não subir para o top 10, criar a página /credeli-ou-simparic/."},
+        {"title": "Queries em inglês sem relação", "severity": "Info", "description": "'neutrogena pet camera review', 'pet camera vs graphics card' etc. trazem impressões sem intenção real para páginas de câmera.", "recommendation": "Ignorar; é ruído que infla as impressões e derruba o CTR médio."}
+      ]
+    }
+  ],
+  "action_plan": {
+    "phases": [
+      {"name": "Fase 1: Antes da Black Friday", "timeframe": "24–26/11", "items": [
+        "Substituir os 3 meli.la que não abrem produto e os 7 que mudaram de anúncio",
+        "Links para /black-friday-pet/ nos 8–10 posts com mais impressões",
+        "Atualizar os preços divergentes nos posts com tráfego (14wjrDr, Tapo C200, Xiaomi 5 L, 2nYXrfG)",
+        "AddDefaultCharset UTF-8 no .htaccess"
+      ]},
+      {"name": "Fase 2: Alto impacto", "timeframe": "Semanas 1–2", "items": [
+        "<main> no template + correção de contraste",
+        "3–5 links internos para cada ração",
+        "Atualizar /black-friday-pet/ com a leitura de 30/11; remover os links temporários depois de 01/12",
+        "Cortar 7 metas longas (fora das páginas em medição)"
+      ]},
+      {"name": "Fase 3: Conteúdo e autoridade", "timeframe": "Dezembro", "items": [
+        "Depois de 15/12: reescrever camera-pet-grava-sem-internet e melhor-racao-para-cachorro",
+        "Decidir sobre a página Credeli x Simparic com os dados de 15/12",
+        "Expandir /politica-editorial/ e /sobre/",
+        "Troca de ano 2027 em 26/12 com revisão dos posts de 22/08"
+      ]},
+      {"name": "Fase 4: Monitoramento", "timeframe": "Contínuo", "items": [
+        "Medir o CTR P1 em ~01/12 e as páginas reescritas em ~15/12",
+        "Conferir a consolidação do 301 de câmera",
+        "Monitor de preços semanal: tratar os alertas na mesma semana"
+      ]}
+    ]
+  },
+  "artifacts": {"findings_dir": "findings/", "data_dir": "data/", "screenshots_dir": null}
+}

@@ -32,6 +32,8 @@ BLOG_ROOT="$(cd "$SCRIPT_DIR/../../../.." && pwd)"
 
 # shellcheck disable=SC1091
 source "$SCRIPT_DIR/generate-sitemap.sh"
+# shellcheck disable=SC1091
+source "$SCRIPT_DIR/generate-feed.sh"
 
 POST_DIR="${1:-}"
 REMOTE_SUBDIR="${2:-}"
@@ -147,6 +149,10 @@ DOMAIN="${SITE_DOMAIN:-https://smartpetgadgets.com.br}"
 generate_sitemap "$BLOG_ROOT" "$DOMAIN" "$SITEMAP"
 echo "    OK: sitemap.xml atualizado ($SITEMAP)"
 
+FEED="$BLOG_ROOT/feed.xml"
+generate_feed "$BLOG_ROOT" "$DOMAIN" "$FEED"
+echo "    OK: feed.xml atualizado ($FEED)"
+
 # ---------------------------------------------------------------------------
 # 5. Conectar na Hostinger e enviar os arquivos (SSH key preferencial)
 # ---------------------------------------------------------------------------
@@ -183,6 +189,9 @@ if [[ -n "${SFTP_KEY_PATH:-}" ]]; then
   rsync -avz \
     -e "$RSYNC_RSH" \
     "$SITEMAP" "$SFTP_USER@$SFTP_HOST:$REMOTE_BASE/sitemap.xml"
+  rsync -avz \
+    -e "$RSYNC_RSH" \
+    "$FEED" "$SFTP_USER@$SFTP_HOST:$REMOTE_BASE/feed.xml"
   if [[ -f "$HOME_INDEX" ]]; then
     rsync -avz \
       -e "$RSYNC_RSH" \
@@ -205,6 +214,9 @@ elif [[ -n "${SFTP_PASSWORD:-}" ]]; then
   sshpass -e -- rsync -avz \
     -e "ssh ${SSH_OPTS[*]}" \
     "$SITEMAP" "$SFTP_USER@$SFTP_HOST:$REMOTE_BASE/sitemap.xml"
+  sshpass -e -- rsync -avz \
+    -e "ssh ${SSH_OPTS[*]}" \
+    "$FEED" "$SFTP_USER@$SFTP_HOST:$REMOTE_BASE/feed.xml"
   if [[ -f "$HOME_INDEX" ]]; then
     sshpass -e -- rsync -avz \
       -e "ssh ${SSH_OPTS[*]}" \

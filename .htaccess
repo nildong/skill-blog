@@ -1,3 +1,7 @@
+# Charset no header Content-Type (o <meta charset> sozinho não basta para clientes HTTP simples)
+AddDefaultCharset UTF-8
+AddCharset UTF-8 .html .txt .xml
+
 # Security headers
 <IfModule mod_headers.c>
     Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
@@ -24,4 +28,6 @@ RewriteRule ^cluster-comedouro-automatico-pet/ - [G,L]
 
 # BEGIN SLUG REDIRECTS
 Redirect 301 /soprador-para-pet/ https://smartpetgadgets.com.br/soprador-pet/
+Redirect 301 /melhor-camera-para-monitorar-pet/ https://smartpetgadgets.com.br/camera-para-monitorar-pet/
+Redirect 301 /duvidas-camera-para-monitorar-pet/ https://smartpetgadgets.com.br/camera-para-monitorar-pet/
 # END SLUG REDIRECTS

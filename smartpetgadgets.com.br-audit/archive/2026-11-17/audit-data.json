@@ -1,0 +1,369 @@
+{
+  "summary": {
+    "health_score": 85,
+    "business_type": "Publisher afiliado/review (pet gadgets, pt-BR), HTML estático",
+    "audit_date": "2026-11-17",
+    "previous": {
+      "date": "2026-11-06",
+      "health_score": 85
+    },
+    "top_findings": [
+      "Canibalização no cluster câmera: camera-para-monitorar-pet e melhor-camera-para-monitorar-pet dividem 9–10 dos 10 resultados; a money page tem ~400–650 palavras e nenhum preço",
+      "Três rankings de comedouro com vencedores diferentes (Newpet 4L x VDRBG x rankings antigos com preços de outubro); melhor-comedouro-automatico-cachorro caiu de 9,8 para 22,8",
+      "Hubs reescritos perderam fontes externas (comedouro 2→0, câmera petisco 1→0); rações (saúde) sem fonte; 11 posts sem link externo",
+      "Busca 'Credeli ou Simparic/NexGard' na posição ~30 sem página que atenda; antipulgas sem alerta FDA/CVM de isoxazolinas",
+      "Autoridade off-page não mensurável e provavelmente baixa; Person/Organization sem @id, foto e sameAs completo"
+    ],
+    "quick_wins": [
+      "bebedouro-inox-x-ceramica: título com 'fonte' e 'gato' + caixa para o ranking + corrigir o hero (LCP mobile 2,7 s)",
+      "comedouro-automatico-para-dois-gatos: título 'Duplo ou com Chip RFID?' + tabela de 3 soluções",
+      "rel sponsored nofollow em 9 links de afiliado + affiliate-cta.js no Newpet 4L",
+      "Pedir indexação de brinquedo-gato e das 2 rações + IndexNow das URLs de 12–16/11",
+      "Commit do sitemap.xml e de img/logo-dark.png (deploy reproduzível)"
+    ]
+  },
+  "google_data": {
+    "period": "2026-10-18..2026-11-14",
+    "clicks": 63,
+    "impressions": 5090,
+    "ctr": 1.24,
+    "position": 9.3,
+    "prev": {
+      "period": "2026-09-20..2026-10-17",
+      "clicks": 29,
+      "impressions": 2450,
+      "ctr": 1.18,
+      "position": 10.1
+    },
+    "device": {
+      "mobile": {
+        "share_impr": "76%",
+        "position": 7.0
+      },
+      "desktop": {
+        "position": 16.6
+      }
+    },
+    "crux": "sem dados (tráfego insuficiente)",
+    "indexed_inspected": "8/8 existentes (coleira-gps-para-cachorro não existe)",
+    "ga4_sessions": "~177 (10-27..11-16): Orgânico 61, Direct 61, ChatGPT/Gemini 30, Social 25",
+    "affiliate_click_events": 18,
+    "affiliate_click_from_chatgpt": 10,
+    "sitemap_last_submitted": "2026-11-04",
+    "p1_rewrite_signal": "CTR 0,28% → 1,21% (10d antes/depois de 05/11, mesma posição)"
+  },
+  "categories": [
+    {
+      "name": "Technical SEO",
+      "score": 93,
+      "what_works": [
+        "80/80 URLs 200, canonical autorreferente, sem noindex",
+        "0 títulos/metas duplicados; JSON-LD válido em 80/80",
+        "410 em /cluster-comedouro-automatico-pet/ e /reports/; .md/.json/.git/pins bloqueados",
+        "Sitemap local idêntico ao live"
+      ],
+      "findings": [
+        {
+          "title": "9 links de afiliado com rel incompleto",
+          "severity": "Medium",
+          "description": "6 na Seresto sem sponsored; 3 em cachorro-de-casa-pega-pulga sem nofollow",
+          "recommendation": "rel='sponsored nofollow noopener'"
+        },
+        {
+          "title": "Newpet 4L sem affiliate-cta.js",
+          "severity": "Medium",
+          "description": "/comedouro-newpet-4l-review/ tem afiliado mas não mede affiliate_click nem mostra a barra",
+          "recommendation": "Incluir a tag do script"
+        },
+        {
+          "title": "Deploy não reproduzível",
+          "severity": "Low",
+          "description": "sitemap.xml modificado sem commit; img/logo-dark.png no ar fora do git",
+          "recommendation": "Commit"
+        },
+        {
+          "title": ".htaccess e 404",
+          "severity": "Low",
+          "description": "www em 2 saltos, /index.html 200, 404 genérica em inglês, sem Permissions-Policy",
+          "recommendation": "Ajustar .htaccess"
+        },
+        {
+          "title": "IndexNow sem ping recente",
+          "severity": "Info",
+          "description": "Sem evidência de envio das URLs de 12–16/11",
+          "recommendation": "Enviar"
+        }
+      ]
+    },
+    {
+      "name": "Content Quality",
+      "score": 79,
+      "what_works": [
+        "8 hubs reescritos como rankings com produto escolhido e preço datado",
+        "'Não testamos' + 'Como Escolhemos' nos rankings",
+        "Seresto com 5 fontes fortes; ANXK G68 corrigido"
+      ],
+      "findings": [
+        {
+          "title": "Hubs novos competem com posts finos",
+          "severity": "High",
+          "description": "Câmera (3 páginas), comedouro (3 rankings com vencedores diferentes), brinquedo",
+          "recommendation": "Merge com 301 ou ângulo próprio; comedouro precisa do OK do dono"
+        },
+        {
+          "title": "melhor-camera-para-monitorar-pet rasa",
+          "severity": "High",
+          "description": "386 palavras, sem preço nem método, resumo de 1 listicle",
+          "recommendation": "Ranking de 7 modelos"
+        },
+        {
+          "title": "Fontes externas perdidas",
+          "severity": "High",
+          "description": "Comedouro 2→0, câmera petisco 1→0, rações 0; 11 posts sem link externo",
+          "recommendation": "2–4 fontes por hub; WSAVA/AAFCO nas rações"
+        },
+        {
+          "title": "Antipulgas sem alerta FDA/CVM",
+          "severity": "Medium",
+          "description": "Recomenda 4 isoxazolinas sem o alerta de efeitos neurológicos",
+          "recommendation": "Caixa de alerta com fonte"
+        },
+        {
+          "title": "29 posts finos e 7 links de afiliado mortos",
+          "severity": "Medium",
+          "description": "Menos de 450 palavras, intocados desde 22/08; variação de preço de até 22%",
+          "recommendation": "Trocar links; merge ou ampliação"
+        }
+      ]
+    },
+    {
+      "name": "On-Page SEO",
+      "score": 81,
+      "what_works": [
+        "Títulos/metas/H1/canonical limpos",
+        "Sem metadados em template (site_risk low)"
+      ],
+      "findings": [
+        {
+          "title": "'Melhor' em guias e posts finos",
+          "severity": "Medium",
+          "description": "Disputam a busca com o ranking do cluster",
+          "recommendation": "Mudar o ângulo do título"
+        },
+        {
+          "title": "Money pages com poucos links internos",
+          "severity": "High",
+          "description": "Rações 2, câmera petisco 4, antipulgas 4; 18 páginas com menos de 3 links",
+          "recommendation": "Aplicar os links 1–13 de findings/cluster.md"
+        },
+        {
+          "title": "CTR baixo por posição",
+          "severity": "High",
+          "description": "62% das impressões nas posições 5–10; 25 páginas nas posições 4–20 com 0 cliques",
+          "recommendation": "Ver reports/ctr-diagnostico-2026-11-17.md"
+        }
+      ]
+    },
+    {
+      "name": "Schema / Structured Data",
+      "score": 86,
+      "what_works": [
+        "0 erros de parse",
+        "347 perguntas FAQ batem com o texto",
+        "63 Products / 34 Offers completos nos rankings"
+      ],
+      "findings": [
+        {
+          "title": "Offers com preço fixo",
+          "severity": "Medium",
+          "description": "34 Offers sem priceValidUntil; risco de divergência",
+          "recommendation": "Price-monitor sinaliza divergência"
+        },
+        {
+          "title": "Grafo sem @id e Person fraco",
+          "severity": "Medium",
+          "description": "75 Person sem image/sameAs",
+          "recommendation": "Ajuste de template com foto do autor"
+        },
+        {
+          "title": "Products incompletos",
+          "severity": "Low",
+          "description": "10 sem image, 33 sem brand",
+          "recommendation": "Completar onde verificável"
+        },
+        {
+          "title": "Sem return policy/shipping",
+          "severity": "Info",
+          "description": "Decisão mantida (afiliado)",
+          "recommendation": "—"
+        }
+      ]
+    },
+    {
+      "name": "Performance (CWV)",
+      "score": 98,
+      "what_works": [
+        "LCP mobile de 0,8–1,7 s em 8/9",
+        "CLS ≈ 0; TBT de 0–70 ms",
+        "affiliate-cta.js sem impacto"
+      ],
+      "findings": [
+        {
+          "title": "LCP regrediu no bebedouro inox",
+          "severity": "Medium",
+          "description": "2,7 s mobile (era 1,2 s): hero só em 1200w, sem fetchpriority/preload",
+          "recommendation": "Copiar o padrão de melhor-bebedouro-automatico-pet"
+        },
+        {
+          "title": "gtag é a maior tarefa",
+          "severity": "Low",
+          "description": "274 ms de execução no inox",
+          "recommendation": "Monitorar"
+        }
+      ]
+    },
+    {
+      "name": "AI Search Readiness",
+      "score": 75,
+      "what_works": [
+        "Citabilidade 87; rankings com produto escolhido, números e tabelas",
+        "Lighthouse Agentic 3/3",
+        "llms.txt com as mesmas 80 URLs do sitemap",
+        "ChatGPT gera 10 de 18 affiliate_click"
+      ],
+      "findings": [
+        {
+          "title": "Tapete higiênico desatualizado",
+          "severity": "High",
+          "description": "A página que mais converte pelo ChatGPT tem preços de 23/10 e não tem método",
+          "recommendation": "Preço de novembro + método"
+        },
+        {
+          "title": "Entidade fraca",
+          "severity": "High",
+          "description": "Sem @id, sem foto do autor, YouTube dá 404, sem Wikidata",
+          "recommendation": "Template e perfis"
+        },
+        {
+          "title": "Páginas sem produto",
+          "severity": "High",
+          "description": "coleira-gps-sem-mensalidade e porta eletrônica",
+          "recommendation": "Escolher produtos"
+        },
+        {
+          "title": "102 'retrieved' em inglês",
+          "severity": "Medium",
+          "description": "51 páginas",
+          "recommendation": "Troca em lote"
+        },
+        {
+          "title": "robots.txt de treino incoerente",
+          "severity": "Low",
+          "description": "Allow para robôs de treino com ai-train=no",
+          "recommendation": "Decisão do dono"
+        }
+      ]
+    },
+    {
+      "name": "Images",
+      "score": 82,
+      "what_works": [
+        "0 imagens sem alt ou dimensões na amostra",
+        "Nenhuma acima de 150 KB na amostra"
+      ],
+      "findings": [
+        {
+          "title": "JPG com WebP ao lado sem uso",
+          "severity": "Low",
+          "description": "Inox (AGBE 47 contra 25 KB); 7 JPG na coleira de gato",
+          "recommendation": "Servir WebP"
+        },
+        {
+          "title": "6 arquivos acima de 200 KB em posts antigos",
+          "severity": "Low",
+          "description": "Não reverificados",
+          "recommendation": "Converter"
+        }
+      ]
+    }
+  ],
+  "sxo": {
+    "gap_score": 70,
+    "previous": 66
+  },
+  "diagnostics": {
+    "agentic": {
+      "score": 96,
+      "lighthouse_agentic": "3/3"
+    },
+    "geo": 74,
+    "citability": 87,
+    "visual": 82,
+    "sitemap": 96,
+    "backlinks": "dados insuficientes"
+  },
+  "action_plan": {
+    "phases": [
+      {
+        "name": "Fase 1: Correções rápidas",
+        "timeframe": "Semana 1",
+        "items": [
+          "rel sponsored nofollow em 9 links",
+          "affiliate-cta.js no Newpet 4L",
+          "Hero do bebedouro inox (LCP)",
+          "Trocar os 7 links de afiliado mortos",
+          "Commit do sitemap e do logo-dark",
+          "Pedir indexação de 3 páginas + IndexNow",
+          "Alerta FDA/CVM no antipulgas",
+          "Barra fixa na ração e '×' 44px"
+        ]
+      },
+      {
+        "name": "Fase 2: Alto impacto",
+        "timeframe": "Semanas 2-3",
+        "items": [
+          "Título e caixa do bebedouro inox",
+          "Título e tabela do comedouro para 2 gatos",
+          "Ranking de câmera com 7 modelos + 301",
+          "Nova página /credeli-ou-simparic/",
+          "Links internos 1–13",
+          "Tapete higiênico: preços e método"
+        ]
+      },
+      {
+        "name": "Fase 3: Conteúdo e autoridade",
+        "timeframe": "Mês 2 (a partir de 01/12)",
+        "items": [
+          "Medir P1 e as reescritas",
+          "Decidir os rankings de comedouro",
+          "Fontes externas nos hubs e nas rações",
+          "Marcas de consenso na ração",
+          "Tractive na coleira de gato",
+          "Entidade: @id, foto, sameAs",
+          "Produtos em sem-mensalidade e porta",
+          "Backlinks: GSC Links + Moz",
+          "29 posts finos",
+          "CTA na primeira tela mobile"
+        ]
+      },
+      {
+        "name": "Fase 4: Monitoramento",
+        "timeframe": "Contínuo",
+        "items": [
+          "Price-monitor com divergência do JSON-LD",
+          "'retrieved' → 'consultado em'",
+          "affiliate_click por origem + vendas ML",
+          "Política do robots para treino",
+          "Itens baixos do .htaccess e mobile",
+          "llms.txt a cada novo título"
+        ]
+      }
+    ]
+  },
+  "artifacts": {
+    "findings_dir": "findings/",
+    "screenshots_dir": "screenshots/",
+    "previous_audit": "archive/2026-11-06/",
+    "ctr_diagnosis": "../reports/ctr-diagnostico-2026-11-17.md"
+  }
+}

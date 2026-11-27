@@ -1,0 +1,806 @@
+{
+  "psi": {
+    "mobile": {
+      "url": "https://smartpetgadgets.com.br/melhor-racao-para-cachorro/",
+      "strategy": "mobile",
+      "lighthouse_version": "13.6.0",
+      "lighthouse_scores": {
+        "performance": 99,
+        "accessibility": 94,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lab_metrics": {
+        "first-contentful-paint": {
+          "value": 822.9230215218972,
+          "display": "0.8\u00a0s",
+          "score": 1
+        },
+        "largest-contentful-paint": {
+          "value": 822.9230215218972,
+          "display": "0.8\u00a0s",
+          "score": 1
+        },
+        "total-blocking-time": {
+          "value": 102.99999999999977,
+          "display": "100\u00a0ms",
+          "score": 0.98
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "display": "0",
+          "score": 1
+        },
+        "speed-index": {
+          "value": 1878.8353567306174,
+          "display": "1.9\u00a0s",
+          "score": 1
+        },
+        "interactive": {
+          "value": 2770.4230215218977,
+          "display": "2.8\u00a0s",
+          "score": 0.97
+        }
+      },
+      "field_metrics": {},
+      "opportunities": [],
+      "diagnostics": [
+        {
+          "id": "total-byte-weight",
+          "title": "Avoids enormous network payloads",
+          "display": "Total size was 263\u00a0KiB",
+          "score": 1,
+          "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn how to reduce payload sizes](https://developer.chrome.com/docs/lighthouse/performance/total-byte-weight/)."
+        },
+        {
+          "id": "mainthread-work-breakdown",
+          "title": "Minimizes main-thread work",
+          "display": "0.4\u00a0s",
+          "score": 1,
+          "description": "Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to minimize main-thread work](https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown/)"
+        },
+        {
+          "id": "bootup-time",
+          "title": "JavaScript execution time",
+          "display": "0.3\u00a0s",
+          "score": 1,
+          "description": "Consider reducing the time spent parsing, compiling, and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to reduce Javascript execution time](https://developer.chrome.com/docs/lighthouse/performance/bootup-time/)."
+        },
+        {
+          "id": "layout-shifts",
+          "title": "Avoid large layout shifts",
+          "display": "",
+          "score": null,
+          "description": "These are the largest layout shifts observed on the page. Each table item represents a single layout shift, and shows the element that shifted the most. Below each item are possible root causes that led to the layout shift. Some of these layout shifts may not be included in the CLS metric value due to [windowing](https://web.dev/articles/cls#what_is_cls). [Learn how to improve CLS](https://web.dev/articles/optimize-cls)"
+        },
+        {
+          "id": "long-tasks",
+          "title": "Avoid long main-thread tasks",
+          "display": "2 long tasks found",
+          "score": 1,
+          "description": "Lists the longest tasks on the main thread, useful for identifying worst contributors to input delay. [Learn how to avoid long main-thread tasks](https://web.dev/articles/optimize-long-tasks)"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "display": "Est savings of 75\u00a0KiB",
+          "score": 0.5,
+          "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/)."
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "display": "",
+          "score": 1,
+          "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/)."
+        }
+      ],
+      "failed_audits": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0,
+          "display": "",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.14/color-contrast)."
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "score": 0,
+          "display": "",
+          "description": "One main landmark helps screen reader users navigate a web page. [Learn more about landmarks](https://dequeuniversity.com/rules/axe/4.14/landmark-one-main)."
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0.5,
+          "display": "Est savings of 32\u00a0KiB",
+          "description": "Reducing the download time of images can improve the perceived load time of the page and LCP. [Learn more about optimizing image size](https://developer.chrome.com/docs/performance/insights/image-delivery)."
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "score": 0.5,
+          "display": "Est savings of 75\u00a0KiB",
+          "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/)."
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "score": 0.5,
+          "display": "Est savings of 7\u00a0KiB",
+          "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache)."
+        },
+        {
+          "id": "max-potential-fid",
+          "title": "Max Potential First Input Delay",
+          "score": 0.86,
+          "display": "140\u00a0ms",
+          "description": "The maximum potential First Input Delay that your users could experience is the duration of the longest task. [Learn more about the Maximum Potential First Input Delay metric](https://developer.chrome.com/docs/lighthouse/performance/lighthouse-max-potential-fid/)."
+        }
+      ],
+      "passed_audits_count": 90,
+      "seo_audits": [
+        {
+          "id": "is-crawlable",
+          "title": "Page isn\u2019t blocked from indexing",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "document-title",
+          "title": "Document has a `<title>` element",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "meta-description",
+          "title": "Document has a meta description",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "http-status-code",
+          "title": "Page has successful HTTP status code",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "link-text",
+          "title": "Links have descriptive text",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "crawlable-anchors",
+          "title": "Links are crawlable",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "robots-txt",
+          "title": "robots.txt is valid",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements have `[alt]` attributes",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "hreflang",
+          "title": "Document has a valid `hreflang`",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "canonical",
+          "title": "Document has a valid `rel=canonical`",
+          "score": 1,
+          "pass": true
+        }
+      ],
+      "accessibility_audits": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0,
+          "display": ""
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "score": 0,
+          "display": ""
+        }
+      ],
+      "audit_details": {
+        "network-rtt": {
+          "title": "Network Round Trip Times",
+          "headings": [
+            "origin",
+            "rtt"
+          ],
+          "items": [
+            {
+              "origin": "https://smartpetgadgets.com.br",
+              "rtt": 4.9752374999999995
+            },
+            {
+              "origin": "https://www.google-analytics.com",
+              "rtt": 0.8999999999999999
+            },
+            {
+              "origin": "https://www.googletagmanager.com",
+              "rtt": 0.0008969927008579366
+            }
+          ],
+          "total_items": 3
+        },
+        "image-delivery-insight": {
+          "title": "Improve image delivery",
+          "headings": [
+            "node",
+            "url",
+            "totalBytes",
+            "wastedBytes"
+          ],
+          "items": [
+            {
+              "node": "{'type': 'node', 'selector': 'body > div#produto-1 > img', 'path': '1,HTML,1,BODY,15,DIV,0,IMG', 'snippet': '<img src=\"img/racao-quatree-supreme-racas-pequenas.webp\" alt=\"Embalagem da ra\u00e7\u00e3o Quatree Su",
+              "url": "https://smartpetgadgets.com.br/melhor-racao-para-cachorro/img/racao-quatree-supreme-racas-pequenas.webp",
+              "totalBytes": 21962,
+              "wastedBytes": 18300
+            },
+            {
+              "node": "{'path': '1,HTML,1,BODY,3,FIGURE,0,IMG', 'type': 'node', 'selector': 'body > figure > img', 'lhId': 'page-2-IMG', 'nodeLabel': 'Embalagens das 6 ra\u00e7\u00f5es comparadas: Quatree Supreme, Magnus Todo Dia, F\u00f3",
+              "url": "https://smartpetgadgets.com.br/melhor-racao-para-cachorro/img/melhor-racao-para-cachorro-capa-800w.webp",
+              "totalBytes": 45404,
+              "wastedBytes": 14031
+            }
+          ],
+          "total_items": 2
+        },
+        "server-response-time": {
+          "title": "Initial server response time was short",
+          "headings": [
+            "url",
+            "responseTime"
+          ],
+          "items": [
+            {
+              "url": "https://smartpetgadgets.com.br/melhor-racao-para-cachorro/",
+              "responseTime": 27
+            }
+          ],
+          "total_items": 1
+        },
+        "trusted-types-xss": {
+          "title": "Mitigate DOM-based XSS with Trusted Types",
+          "headings": [
+            "description",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "No `Content-Security-Policy` header with Trusted Types directive found",
+              "severity": "High"
+            }
+          ],
+          "total_items": 1
+        },
+        "identical-links-same-purpose": {
+          "title": "Identical links have the same purpose.",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'selector': 'div#produto-1 > div.product-body > p > a.small-cta', 'boundingRect': {'bottom': 4653, 'width': 213, 'right': 250, 'left': 37, 'height': 46, 'top': 4607}, 'lhId': '1-0-A', 'nodeLabel': 'V"
+            }
+          ],
+          "total_items": 1
+        },
+        "baseline": {
+          "title": "Baseline Features",
+          "headings": [
+            "featureId",
+            "displayStatus",
+            "source"
+          ],
+          "items": [
+            {
+              "featureId": "https://webstatus.dev/features/requestidlecallback",
+              "displayStatus": "{'displayString': 'Limited Availability', 'type': 'baseline-status', 'status': 'limited'}",
+              "source": "_lighthouse-eval.js"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/ua-client-hints",
+              "displayStatus": "{'status': 'limited', 'type': 'baseline-status', 'displayString': 'Limited Availability'}",
+              "source": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/scrollend",
+              "displayStatus": "{'displayString': 'Newly Available (2025-12-12)', 'type': 'baseline-status', 'status': 'low'}",
+              "source": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/fetch-priority",
+              "displayStatus": "{'status': 'low', 'type': 'baseline-status', 'displayString': 'Newly Available (2024-10-29)'}",
+              "source": "https://smartpetgadgets.com.br/melhor-racao-para-cachorro/"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/overflow",
+              "displayStatus": "{'displayString': 'Widely Available (2023-09-18)', 'type': 'baseline-status', 'status': 'high'}",
+              "source": "https://smartpetgadgets.com.br/melhor-racao-para-cachorro/"
+            }
+          ],
+          "total_items": 12
+        },
+        "bootup-time": {
+          "title": "JavaScript execution time",
+          "headings": [
+            "url",
+            "total",
+            "scripting",
+            "scriptParseCompile"
+          ],
+          "items": [
+            {
+              "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
+              "total": 259.71119999999974,
+              "scripting": 170.22119999999975,
+              "scriptParseCompile": 87.1248
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/melhor-racao-para-cachorro/",
+              "total": 116.21159999999998,
+              "scripting": 4.771199999999999,
+              "scriptParseCompile": 0.7488
+            }
+          ],
+          "total_items": 2
+        },
+        "network-requests": {
+          "title": "Network Requests",
+          "headings": [
+            "url",
+            "protocol",
+            "networkRequestTime",
+            "networkEndTime",
+            "transferSize",
+            "resourceSize",
+            "statusCode",
+            "mimeType",
+            "resourceType"
+          ],
+          "items": [
+            {
+              "url": "https://smartpetgadgets.com.br/melhor-racao-para-cachorro/",
+              "protocol": "h2",
+              "networkRequestTime": 2.2169997692108154,
+              "networkEndTime": 665.587000131607,
+              "transferSize": 12281,
+              "resourceSize": 49097,
+              "statusCode": 200,
+              "mimeType": "text/html",
+              "resourceType": "Document"
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/melhor-racao-para-cachorro/img/melhor-racao-para-cachorro-capa-800w.webp",
+              "protocol": "h2",
+              "networkRequestTime": 681.8079998493195,
+              "networkEndTime": 1306.8739998340607,
+              "transferSize": 46005,
+              "resourceSize": 45404,
+              "statusCode": 200,
+              "mimeType": "image/webp",
+              "resourceType": "Image"
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/theme-toggle.js?v=2",
+              "protocol": "h2",
+              "networkRequestTime": 683.404000043869,
+              "networkEndTime": 1075.0019998550415,
+              "transferSize": 1699,
+              "resourceSize": 3066,
+              "statusCode": 200,
+              "mimeType": "application/x-javascript",
+              "resourceType": "Script"
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/affiliate-cta.js?v=1",
+              "protocol": "h2",
+              "networkRequestTime": 685.7869999408722,
+              "networkEndTime": 1265.7249999046326,
+              "transferSize": 2361,
+              "resourceSize": 4193,
+              "statusCode": 200,
+              "mimeType": "application/x-javascript",
+              "resourceType": "Script"
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/melhor-racao-para-cachorro/img/racao-quatree-supreme-racas-pequenas.webp",
+              "protocol": "h2",
+              "networkRequestTime": 750.5310001373291,
+              "networkEndTime": 1461.1909999847412,
+              "transferSize": 22621,
+              "resourceSize": 21962,
+              "statusCode": 200,
+              "mimeType": "image/webp",
+              "resourceType": "Image"
+            }
+          ],
+          "total_items": 7
+        },
+        "total-byte-weight": {
+          "title": "Avoids enormous network payloads",
+          "headings": [
+            "url",
+            "totalBytes"
+          ],
+          "items": [
+            {
+              "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
+              "totalBytes": 183614
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/melhor-racao-para-cachorro/img/melhor-racao-para-cachorro-capa-800w.webp",
+              "totalBytes": 46005
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/melhor-racao-para-cachorro/img/racao-quatree-supreme-racas-pequenas.webp",
+              "totalBytes": 22621
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/melhor-racao-para-cachorro/",
+              "totalBytes": 12281
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/affiliate-cta.js?v=1",
+              "totalBytes": 2361
+            }
+          ],
+          "total_items": 7
+        },
+        "network-server-latency": {
+          "title": "Server Backend Latencies",
+          "headings": [
+            "origin",
+            "serverResponseTime"
+          ],
+          "items": [
+            {
+              "origin": "https://smartpetgadgets.com.br",
+              "serverResponseTime": 14
+            },
+            {
+              "origin": "https://www.googletagmanager.com",
+              "serverResponseTime": 6
+            },
+            {
+              "origin": "https://www.google-analytics.com",
+              "serverResponseTime": 0
+            }
+          ],
+          "total_items": 3
+        },
+        "has-hsts": {
+          "title": "Use a strong HSTS policy",
+          "headings": [
+            "description",
+            "directive",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "No `preload` directive found",
+              "directive": "preload",
+              "severity": "Medium"
+            }
+          ],
+          "total_items": 1
+        },
+        "color-contrast": {
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'selector': 'div#produto-1 > div.product-body > p > a.small-cta', 'boundingRect': {'left': 37, 'height': 46, 'width': 213, 'right': 250, 'bottom': 4653, 'top': 4607}, 'snippet': '<a class=\"small-cta\""
+            },
+            {
+              "node": "{'selector': 'div#produto-2 > div.product-body > p > a.small-cta', 'snippet': '<a class=\"small-cta\" href=\"https://meli.la/1C438jG\" target=\"_blank\" rel=\"nofollow sponsored noopener\">', 'path': '1,HTML,"
+            },
+            {
+              "node": "{'lhId': '1-2-A', 'boundingRect': {'top': 6375, 'bottom': 6421, 'width': 213, 'right': 250, 'height': 46, 'left': 37}, 'explanation': 'Fix any of the following:\\n  Element has insufficient color contr"
+            },
+            {
+              "node": "{'snippet': '<a class=\"small-cta\" href=\"https://meli.la/15xb2sx\" target=\"_blank\" rel=\"nofollow sponsored noopener\">', 'lhId': '1-3-A', 'selector': 'div#produto-4 > div.product-body > p > a.small-cta',"
+            },
+            {
+              "node": "{'lhId': '1-4-A', 'selector': 'div#produto-5 > div.product-body > p > a.small-cta', 'path': '1,HTML,1,BODY,19,DIV,1,DIV,5,P,0,A', 'type': 'node', 'boundingRect': {'bottom': 8303, 'width': 213, 'right'"
+            }
+          ],
+          "total_items": 7
+        },
+        "origin-isolation": {
+          "title": "Ensure proper origin isolation with COOP",
+          "headings": [
+            "description",
+            "directive",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "No COOP header found",
+              "severity": "High"
+            }
+          ],
+          "total_items": 1
+        },
+        "viewport-insight": {
+          "title": "Optimize viewport for mobile",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'nodeLabel': 'head > meta', 'lhId': 'page-3-META', 'boundingRect': {'bottom': 0, 'width': 0, 'right': 0, 'left': 0, 'height': 0, 'top': 0}, 'path': '1,HTML,0,HEAD,3,META', 'type': 'node', 'snippet': "
+            }
+          ],
+          "total_items": 1
+        },
+        "third-parties-insight": {
+          "title": "3rd parties",
+          "headings": [
+            "entity",
+            "transferSize",
+            "mainThreadTime"
+          ],
+          "items": [
+            {
+              "entity": "Google Tag Manager",
+              "transferSize": 183614,
+              "mainThreadTime": 213.7759997844696
+            },
+            {
+              "entity": "Google Analytics",
+              "transferSize": 806,
+              "mainThreadTime": 0
+            }
+          ],
+          "total_items": 2
+        },
+        "csp-xss": {
+          "title": "Ensure CSP is effective against XSS attacks",
+          "headings": [
+            "description",
+            "directive",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "`script-src` directive is missing. This can allow the execution of unsafe scripts.",
+              "directive": "script-src",
+              "severity": "High"
+            },
+            {
+              "description": "Missing `object-src` allows the injection of plugins that execute unsafe scripts. Consider setting `object-src` to `'none'` if you can.",
+              "directive": "object-src",
+              "severity": "High"
+            }
+          ],
+          "total_items": 2
+        },
+        "main-thread-tasks": {
+          "title": "Tasks",
+          "headings": [
+            "startTime",
+            "duration"
+          ],
+          "items": [
+            {
+              "startTime": 669.181,
+              "duration": 12.896
+            },
+            {
+              "startTime": 682.673,
+              "duration": 5.717
+            },
+            {
+              "startTime": 688.401,
+              "duration": 61.497
+            },
+            {
+              "startTime": 1275.303,
+              "duration": 11.494
+            },
+            {
+              "startTime": 1367.22,
+              "duration": 118.362
+            }
+          ],
+          "total_items": 6
+        },
+        "dom-size-insight": {
+          "title": "Optimize DOM size",
+          "headings": [
+            "statistic",
+            "node",
+            "value"
+          ],
+          "items": [
+            {
+              "statistic": "Total elements",
+              "value": "{'granularity': 1, 'value': 510, 'type': 'numeric'}"
+            },
+            {
+              "statistic": "DOM depth",
+              "node": "{'snippet': '<circle cx=\"9\" cy=\"21\" r=\"1\">', 'nodeLabel': 'a.cta-btn > span.cta-btn-icon > svg > circle', 'selector': 'a.cta-btn > span.cta-btn-icon > svg > circle', 'lhId': 'page-5-circle', 'type': '",
+              "value": "{'granularity': 1, 'type': 'numeric', 'value': 7}"
+            },
+            {
+              "statistic": "Most children",
+              "node": "{'selector': 'body', 'snippet': '<body>', 'lhId': 'page-4-BODY', 'type': 'node', 'boundingRect': {'top': 0, 'left': 0, 'height': 19128, 'width': 412, 'right': 412, 'bottom': 19128}, 'nodeLabel': 'body",
+              "value": "{'value': 74, 'granularity': 1, 'type': 'numeric'}"
+            }
+          ],
+          "total_items": 3
+        },
+        "landmark-one-main": {
+          "title": "Document does not have a main landmark.",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'selector': 'html', 'snippet': '<html lang=\"pt-BR\">', 'explanation': 'Fix all of the following:\\n  Document does not have a main landmark', 'nodeLabel': 'html', 'lhId': '1-7-HTML', 'type': 'node', 'b"
+            }
+          ],
+          "total_items": 1
+        },
+        "mainthread-work-breakdown": {
+          "title": "Minimizes main-thread work",
+          "headings": [
+            "groupLabel",
+            "duration"
+          ],
+          "items": [
+            {
+              "groupLabel": "Script Evaluation",
+              "duration": 186.67559999999972
+            },
+            {
+              "groupLabel": "Script Parsing & Compilation",
+              "duration": 89.6844
+            },
+            {
+              "groupLabel": "Style & Layout",
+              "duration": 77.18639999999998
+            },
+            {
+              "groupLabel": "Other",
+              "duration": 54.89520000000006
+            },
+            {
+              "groupLabel": "Rendering",
+              "duration": 18.076800000000002
+            }
+          ],
+          "total_items": 7
+        },
+        "resource-summary": {
+          "title": "Resources Summary",
+          "headings": [
+            "label",
+            "requestCount",
+            "transferSize"
+          ],
+          "items": [
+            {
+              "label": "Total",
+              "requestCount": 7,
+              "transferSize": 269387
+            },
+            {
+              "label": "Script",
+              "requestCount": 3,
+              "transferSize": 187674
+            },
+            {
+              "label": "Image",
+              "requestCount": 2,
+              "transferSize": 68626
+            },
+            {
+              "label": "Document",
+              "requestCount": 1,
+              "transferSize": 12281
+            },
+            {
+              "label": "Other",
+              "requestCount": 1,
+              "transferSize": 806
+            }
+          ],
+          "total_items": 9
+        },
+        "unused-javascript": {
+          "title": "Reduce unused JavaScript",
+          "headings": [
+            "url",
+            "totalBytes",
+            "wastedBytes"
+          ],
+          "items": [
+            {
+              "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
+              "totalBytes": 182925,
+              "wastedBytes": 77281
+            }
+          ],
+          "total_items": 1
+        },
+        "cache-insight": {
+          "title": "Use efficient cache lifetimes",
+          "headings": [
+            "url",
+            "cacheLifetimeMs",
+            "totalBytes"
+          ],
+          "items": [
+            {
+              "url": "https://smartpetgadgets.com.br/melhor-racao-para-cachorro/img/melhor-racao-para-cachorro-capa-800w.webp",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 46005
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/melhor-racao-para-cachorro/img/racao-quatree-supreme-racas-pequenas.webp",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 22621
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/affiliate-cta.js?v=1",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 2361
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/theme-toggle.js?v=2",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 1699
+            }
+          ],
+          "total_items": 4
+        },
+        "long-tasks": {
+          "title": "Avoid long main-thread tasks",
+          "headings": [
+            "url",
+            "startTime",
+            "duration"
+          ],
+          "items": [
+            {
+              "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
+              "startTime": 2584.9230215218977,
+              "duration": 142
+            },
+            {
+              "url": "https://www.googletagmanager.com/gtag/js?id=G-WDT1Q1NLKK",
+              "startTime": 2726.9230215218977,
+              "duration": 111
+            }
+          ],
+          "total_items": 2
+        }
+      },
+      "analysis_timestamp": "2026-11-24T12:11:00.506Z",
+      "error": null
+    }
+  },
+  "error": null
+}

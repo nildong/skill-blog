@@ -1,294 +1,228 @@
 {
   "summary": {
-    "health_score": 83,
-    "business_type": "Affiliate/review publisher (pet gadgets, pt-BR), static HTML, 72 posts / 78 URLs",
+    "health_score": 88,
+    "business_type": "Publisher afiliado (reviews e guias pet, Mercado Livre)",
+    "audit_date": "2026-11-26",
+    "previous_score": 87,
     "top_findings": [
-      "Ranking bottleneck still page-type mismatch: coleira GPS and câmera 'melhor' pages lack multi-product Top-N (SXO gap 63/100, up from 60)",
-      "False testing claim 'Testamos 3 comedouros' on comedouro-vdrbg-4l-wifi-review + contradictory bylines on 61 pages (E-E-A-T)",
-      "Thin clusters: camera/brinquedo/porta median ~500 body words, FAQs duplicate body",
-      "/melhor-comedouro-automatico-cachorro/ fell pos 7.7 -> 21.6 (before the 10-22 update; overlaps Sept 2026 Spam Update — hypothesis only)",
-      "Homepage mobile horizontal scroll (fixed locally, pending deploy)"
+      "[Crítico] 10 meli.la quebrados/trocados em 14 posts, véspera da Black Friday",
+      "[Alto] 29 preços divergentes ≥5%",
+      "[Médio] Contraste #d9480f na home",
+      "[Médio] bebedouro-inox-x-ceramica CTR 0,42% na pos 5,7",
+      "[Baixo] 5 institucionais sem <main>, tabela sem <th>, 3 metas longas"
     ],
     "quick_wins": [
-      "Deploy index.html nav fix",
-      "Change 'Testamos' to 'Comparamos' on VDRBG review",
-      "Regenerate llms.txt + site-index (cerca-virtual)",
-      "Trim tapete title/description; fix R$ per-unit numbers",
-      "Resubmit sitemap in GSC; enable CrUX API"
+      "Trocar os 10 meli.la hoje",
+      "Atualizar preços da tag Android e do Tapo C200",
+      "#d9480f → #b23a0d na home",
+      "<main> nas 5 institucionais",
+      "Encurtar 3 metas"
     ]
   },
   "categories": [
     {
       "name": "Technical SEO",
-      "score": 94,
+      "score": 96,
       "what_works": [
-        "78/78 URLs 200, self-canonical, none noindexed",
-        "Security headers (HSTS, nosniff, XFO, referrer-policy)",
-        "No _backup*/reports URLs reachable (404); .git/.env 403",
-        "IndexNow key live; robots.txt AI policy with Content-Signal"
+        "79/79 URLs com status 200 e canonical correto",
+        "Sitemap 79 URLs + 262 imagens, 0 erros no GSC",
+        "content-type com charset=UTF-8 nas 79 URLs",
+        "robots.txt com Content-Signal, HSTS, IndexNow, feed.xml"
       ],
       "findings": [
         {
-          "title": "Homepage horizontal scroll on mobile",
-          "severity": "High",
-          "description": "nav.main-nav rendered 445px wide on a 375px viewport (non-wrapping flex row: logo + 4 links, gap 22px); 'Contato' cut off. Fixed theme toggle also overlapped 'Contato' at <1180px.",
-          "recommendation": "FIXED LOCALLY 2026-10-23 in index.html (nav wraps below logo <=600px; header reserves 64px for toggle <=1200px). Verified 320-1440px. Pending deploy."
-        },
-        {
-          "title": "http://www takes 2 redirect hops",
+          "title": "5 páginas institucionais sem <main>",
           "severity": "Low",
-          "description": "http://www.smartpetgadgets.com.br -> https://www -> https://apex.",
-          "recommendation": "Single 301 to https apex in .htaccess."
+          "description": "/sobre/, /contato/, /politica-editorial/, /politica-de-privacidade/, /autores/nildo-alves/",
+          "recommendation": "Trocar o wrapper por <main>"
         },
         {
-          "title": "Dirty working tree vs live",
+          "title": "301 de melhor-camera ainda com impressões",
           "severity": "Info",
-          "description": "Many uncommitted changes (comedouro posts, images, sitemap.xml, llms.txt, deploy.sh); live appears deployed from working tree.",
-          "recommendation": "Commit current state so git reflects production."
+          "description": "235 impr./28 dias na URL antiga",
+          "recommendation": "Nenhuma ação; consolidação normal"
         }
       ]
     },
     {
       "name": "Content Quality",
-      "score": 71,
+      "score": 79,
       "what_works": [
-        "melhor-tapete-higienico-para-cachorro rewrite is now the strongest page (7 products, table, ItemList)",
-        "Metadata templating clean (templated_ratio 0.0)"
+        "Mediana de 1.566 palavras",
+        "Divulgação honesta do método nos rankings",
+        "Post de Black Friday com dados próprios do monitor (2.467 palavras)"
       ],
       "findings": [
         {
-          "title": "False first-hand testing claim",
+          "title": "10 links de afiliado quebrados ou trocados, véspera da Black Friday",
+          "severity": "Critical",
+          "description": "Continuam no ar em 14 posts: 3 não abrem produto (2p4GhJA, 1pm2i23, 2b9cBHh) e 7 abrem outro anúncio (1RWrc8a em 5 posts de GPS abre kit de tag para iPhone; 1KigM7V/15xb2sx/1qA4yst/2KPepVS nas rações; 2nYXrfG; 2om5jBS)",
+          "recommendation": "Gerar novos meli.la hoje; onde o produto acabou, trocar por equivalente ou remover o botão"
+        },
+        {
+          "title": "29 preços divergentes em 5% ou mais",
           "severity": "High",
-          "description": "comedouro-vdrbg-4l-wifi-review Key Takeaways: 'Testamos 3 comedouros automáticos de 4L' — contradicts the site's 'não testamos' disclosures (verified in source).",
-          "recommendation": "Rewrite as 'Comparamos 3 comedouros...' based on specs and reviews."
+          "description": "Ex.: tag Android R$ 151–159 no texto vs R$ 90; Tapo C200 R$ 111 vs R$ 147,99; Xiaomi 5 L R$ 1.299 vs R$ 1.599",
+          "recommendation": "Atualizar os ≥20% antes de 30/11; usar a leitura de 30/11 no /black-friday-pet/"
         },
         {
-          "title": "Contradictory bylines",
-          "severity": "High",
-          "description": "61 pages show 'Por Nildo Alves' and also 'Escrito pela Equipe Smart Pet Gadgets'; 52 author boxes say 'Testa e pesquisa produtos'.",
-          "recommendation": "Pick one attribution model; one template change across posts."
-        },
-        {
-          "title": "Thin cluster content",
-          "severity": "High",
-          "description": "Camera, brinquedo interativo and porta eletrônica clusters: median body 473-530 words, ~320-350 excluding FAQs that repeat the body (overlap 0.88). 31/72 posts <600 words.",
-          "recommendation": "Consolidate or expand; rewrite FAQs to add new info instead of repeating."
-        },
-        {
-          "title": "Tapete page price-per-unit inconsistency",
-          "severity": "Medium",
-          "description": "Luxena listed as 'menor preço por unidade R$ 0,92' while its own price R$ 42,23/50un = R$ 0,84; Biosec R$ 44/50 = R$ 0,88. Rating formula not stated; item 6 reviewBody cites 4.9 (ML buyer rating) next to 7.7 site score.",
-          "recommendation": "Recalculate per-unit prices, state scoring method, label ML rating."
-        },
-        {
-          "title": "No first-hand experience evidence",
-          "severity": "Medium",
-          "description": "Flagship reviews have no own photos or measurements; /sobre/ and /politica-editorial/ don't explain AI use or rating method.",
-          "recommendation": "Add methodology section; disclose process."
-        },
-        {
-          "title": "Comedouro cluster CTA/product depth",
-          "severity": "Info",
-          "description": "Owner-paused rework; not re-flagged as actionable.",
-          "recommendation": "—"
+          "title": "Páginas institucionais rasas",
+          "severity": "Low",
+          "description": "/contato/, /politica-editorial/, /sobre/ com menos de 400 palavras",
+          "recommendation": "Expandir a política editorial com o processo real"
         }
       ]
     },
     {
       "name": "On-Page SEO",
-      "score": 82,
+      "score": 86,
       "what_works": [
-        "Unique titles, 1 H1 per page, self-canonicals"
+        "Nenhum título ou meta duplicado",
+        "1 H1 por página",
+        "/black-friday-pet/ com 10 links internos (antes 1)"
       ],
       "findings": [
         {
-          "title": "Long titles/descriptions",
+          "title": "bebedouro-inox-x-ceramica com CTR baixo na pos 5,7",
           "severity": "Medium",
-          "description": "6 titles >60 chars (tapete 67, coleira-gps-cachorro-que-foge 66); 3 descriptions >160 (tapete 170).",
-          "recommendation": "Trim to ~60 / ~155 chars."
+          "description": "711 impr., 3 cliques (0,42%); só 15 impr. atribuídas a queries visíveis",
+          "recommendation": "Novo título com gancho de resposta depois do freeze (~15/12)"
         },
         {
-          "title": "Weak internal linking",
+          "title": "Rações com posição fraca e links trocados",
           "severity": "Medium",
-          "description": "23 posts have <=3 internal links; generic anchors.",
-          "recommendation": "Run internal-linking skill and add descriptive anchors."
+          "description": "melhor-racao-para-cachorro 494 impr. pos 10,1 CTR 0,4%; melhor-racao-para-gato pos 19,6",
+          "recommendation": "Corrigir os links primeiro; reavaliar depois do freeze"
         },
         {
-          "title": "Possible cannibalization",
+          "title": "3 metas acima de 160 caracteres",
           "severity": "Low",
-          "description": "/tapete-higienico-para-cachorro/ vs /melhor-tapete-higienico-para-cachorro/; camera-para-monitorar-pet vs melhor-camera-para-monitorar-pet.",
-          "recommendation": "Differentiate intent (guide vs Top-N) or consolidate with 301."
+          "description": "autor 191, configurar-app 163, seresto 161",
+          "recommendation": "Encurtar para 150–155"
+        },
+        {
+          "title": "Blocos bf-link temporários",
+          "severity": "Info",
+          "description": "9 posts com bloco entre <!-- bf-link:start/end -->",
+          "recommendation": "Remover depois de 01/12"
         }
       ]
     },
     {
       "name": "Schema / Structured Data",
-      "score": 88,
+      "score": 89,
       "what_works": [
-        "All 78 pages valid JSON-LD; no HowTo/AggregateRating",
-        "BlogPosting+BreadcrumbList+FAQPage on 72 posts",
-        "New ItemList on tapete (7) and comedouro cachorro (7) valid"
+        "JSON-LD sem erro de parse nas 79 páginas",
+        "BF com Breadcrumbs válido no URL Inspection"
       ],
       "findings": [
         {
-          "title": "Author Person lacks image",
-          "severity": "Medium",
-          "description": "/autores/nildo-alves/ Person has no image, one sameAs.",
-          "recommendation": "Add author photo and profile URLs."
-        },
-        {
-          "title": "ItemList Products lack image/offers",
-          "severity": "Low",
-          "description": "7/7 on tapete, 3/7 on comedouro cachorro.",
-          "recommendation": "Add product images."
-        },
-        {
-          "title": "worstRating inconsistency",
-          "severity": "Low",
-          "description": "comedouro-newpet-2l-review uses worstRating 1 vs 0 elsewhere.",
-          "recommendation": "Normalize."
+          "title": "hasMerchantReturnPolicy nos rankings",
+          "severity": "Info",
+          "description": "Aviso mantido por decisão (afiliado, não lojista)",
+          "recommendation": "Nenhuma ação"
         }
       ]
     },
     {
       "name": "Performance (CWV)",
-      "score": 95,
+      "score": 98,
       "what_works": [
-        "Lighthouse 100 on 10/10 runs; LCP 0.3-1.7s, TBT 0, CLS 0"
+        "PSI mobile: home 99, BF 99, configurar-app 100, antipulgas 100"
       ],
       "findings": [
         {
-          "title": "No field data (CrUX 403)",
-          "severity": "Medium",
-          "description": "CrUX API returns 403 for origin and URLs.",
-          "recommendation": "Enable Chrome UX Report API in the GCP project."
-        },
-        {
-          "title": "Hero images lack fetchpriority",
+          "title": "Pequenas oportunidades de cache e JS",
           "severity": "Low",
-          "description": "Comedouro, coleira, antipulgas pages.",
-          "recommendation": "Add fetchpriority=high to hero img."
-        },
-        {
-          "title": "Oversized home thumbnails",
-          "severity": "Low",
-          "description": "Home cards 761 KiB mobile / 2,097 KiB desktop.",
-          "recommendation": "Serve smaller srcset thumbnails."
+          "description": "~23 KiB de cache e ~75 KiB de JS sem uso na home",
+          "recommendation": "Opcional"
         }
       ]
     },
     {
       "name": "AI Search Readiness",
-      "score": 70,
+      "score": 82,
       "what_works": [
-        "Tapete & comedouro comparisons highly citable",
-        "robots.txt allows search/AI-input crawlers"
+        "Crawlers de IA liberados",
+        "llms.txt com 79 URLs",
+        "<main> nos posts",
+        "ChatGPT é a 2ª fonte e gerou as vendas"
       ],
       "findings": [
         {
-          "title": "Coleira GPS cluster names no products",
-          "severity": "High",
-          "description": "0 products across 8 pages; melhor-coleira-gps-sem-mensalidade has no figures.",
-          "recommendation": "Add named product comparisons with specs/prices."
-        },
-        {
-          "title": "Weak entity signals",
-          "severity": "High",
-          "description": "Organization.sameAs only Facebook; no Wikidata/YouTube/Reddit presence.",
-          "recommendation": "Add profiles and sameAs."
-        },
-        {
-          "title": "llms.txt stale",
+          "title": "Pouca presença fora do site",
           "severity": "Medium",
-          "description": "cerca-virtual-para-cachorro missing; tapete/comedouro descriptions outdated.",
-          "recommendation": "Regenerate llms.txt and .data/site-index.json."
-        },
-        {
-          "title": "English-style citations in pt-BR text",
-          "severity": "Medium",
-          "description": "122 'retrieved 2026-08-22' citations across 60 pages, many to competitor blogs, many unlinked.",
-          "recommendation": "Localize and link to primary sources."
-        },
-        {
-          "title": "Hostinger 429 to GPTBot/Meta UA",
-          "severity": "Low",
-          "description": "Spoofed-UA test only; training crawlers, not search.",
-          "recommendation": "Monitor in server logs."
+          "description": "Só Facebook e Pinterest como entidades externas",
+          "recommendation": "Buscar 2–3 menções em comunidades pet BR"
         }
       ]
     },
     {
       "name": "Images",
-      "score": 88,
+      "score": 90,
       "what_works": [
-        "All images have alt and dimensions; none broken"
+        "alt vazio nas miniaturas da home é decorativo e correto",
+        "Recortes 16:9/4:3/1:1 no Article"
       ],
       "findings": [
         {
-          "title": "Mobile comparison tables clipped",
+          "title": "Contraste #d9480f na home",
           "severity": "Medium",
-          "description": "Tapete table 527px in 343px wrapper, comedouro 645px; no scroll hint.",
-          "recommendation": "Add scroll hint/shadow or card layout on mobile."
+          "description": "`.feat-more` e `.read-more` com 4,29:1 (mínimo 4,5:1); home com acessibilidade 96",
+          "recommendation": "Usar #b23a0d"
         },
         {
-          "title": "Literal '- ' bullets in takeaway boxes",
+          "title": "Tabela do antipulgas sem <th>",
           "severity": "Low",
-          "description": "Tapete/VDRBG 'Key Takeaways' render hyphens as text.",
-          "recommendation": "Convert to <ul>."
+          "description": "Lighthouse td-has-header",
+          "recommendation": "Marcar a linha de cabeçalho com <th>"
         }
       ]
     }
   ],
-  "google_data": {
-    "window": "2026-09-23..2026-10-20",
-    "clicks": 34,
-    "clicks_prev": 4,
-    "impressions": 2690,
-    "impressions_prev": 162,
-    "ctr": 1.26,
-    "avg_position": 10.0,
-    "page1_query_share": "29/109",
-    "indexed_sample": "10/10"
+  "gsc": {
+    "window": "28 dias até 2026-11-23",
+    "clicks": 109,
+    "impressions": 8759,
+    "pages_with_impressions": 78
   },
   "action_plan": {
     "phases": [
       {
         "name": "Phase 1: Critical Fixes",
-        "timeframe": "Week 1",
+        "timeframe": "Hoje (26/11)",
         "items": [
-          "Deploy homepage nav fix",
-          "Remove false 'Testamos' claim; unify bylines/author box",
-          "Fix tapete per-unit prices, title/description length",
-          "Regenerate llms.txt & site-index; resubmit sitemap"
+          "Trocar os 10 meli.la do alerta"
         ]
       },
       {
         "name": "Phase 2: High-Impact Improvements",
-        "timeframe": "Weeks 2-3",
+        "timeframe": "Até 30/11",
         "items": [
-          "Convert melhor-coleira-gps-sem-mensalidade to Top-N with ItemList",
-          "Rebuild melhor-camera-para-monitorar-pet as listicle; re-angle or 301 camera-para-monitorar-pet",
-          "Add ItemList to antipulgas; 'comedouro' in alimentador title",
-          "Investigate comedouro-cachorro drop in GSC after 10-22 update settles"
+          "Atualizar preços ≥20%",
+          "Atualizar /black-friday-pet/ com a leitura de 30/11"
         ]
       },
       {
         "name": "Phase 3: Content & Authority",
-        "timeframe": "Month 2",
+        "timeframe": "Semana de 30/11 e pós-freeze (~15/12)",
         "items": [
-          "Expand/consolidate thin camera, brinquedo, porta clusters",
-          "Author photo + sameAs; Organization sameAs beyond Facebook",
-          "Localize/link citations; methodology page",
-          "Mobile table scroll hints"
+          "Contraste da home",
+          "<main> nas institucionais",
+          "<th> no antipulgas",
+          "Remover bf-link após 01/12",
+          "Título do bebedouro-inox-x-ceramica",
+          "camera-pet-grava-sem-internet e ração cachorro",
+          "Decisão Credeli ou Simparic"
         ]
       },
       {
         "name": "Phase 4: Monitoring & Iteration",
-        "timeframe": "Ongoing",
+        "timeframe": "Contínuo",
         "items": [
-          "Enable CrUX API for field data",
-          "Weekly GSC position check for tapete & comedouro",
-          "Drift baseline after deploy"
+          "Monitor de preços semanal",
+          "Medição dos CTR P1 em ~01/12",
+          "Menções externas"
         ]
       }
     ]

@@ -1,0 +1,639 @@
+{
+  "url": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
+  "psi": {
+    "mobile": {
+      "url": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
+      "strategy": "mobile",
+      "lighthouse_version": "13.5.0",
+      "lighthouse_scores": {
+        "performance": 100,
+        "accessibility": 94,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lab_metrics": {
+        "first-contentful-paint": {
+          "value": 770,
+          "display": "0.8\u00a0s",
+          "score": 1
+        },
+        "largest-contentful-paint": {
+          "value": 770,
+          "display": "0.8\u00a0s",
+          "score": 1
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "display": "0\u00a0ms",
+          "score": 1
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "display": "0",
+          "score": 1
+        },
+        "speed-index": {
+          "value": 2018.5310960178376,
+          "display": "2.0\u00a0s",
+          "score": 0.99
+        },
+        "interactive": {
+          "value": 770,
+          "display": "0.8\u00a0s",
+          "score": 1
+        }
+      },
+      "field_metrics": {},
+      "opportunities": [],
+      "diagnostics": [
+        {
+          "id": "total-byte-weight",
+          "title": "Avoids enormous network payloads",
+          "display": "Total size was 163\u00a0KiB",
+          "score": 1,
+          "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn how to reduce payload sizes](https://developer.chrome.com/docs/lighthouse/performance/total-byte-weight/)."
+        },
+        {
+          "id": "mainthread-work-breakdown",
+          "title": "Minimizes main-thread work",
+          "display": "0.1\u00a0s",
+          "score": 1,
+          "description": "Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to minimize main-thread work](https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown/)"
+        },
+        {
+          "id": "bootup-time",
+          "title": "JavaScript execution time",
+          "display": "",
+          "score": null,
+          "description": "Consider reducing the time spent parsing, compiling, and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to reduce Javascript execution time](https://developer.chrome.com/docs/lighthouse/performance/bootup-time/)."
+        },
+        {
+          "id": "layout-shifts",
+          "title": "Avoid large layout shifts",
+          "display": "",
+          "score": null,
+          "description": "These are the largest layout shifts observed on the page. Each table item represents a single layout shift, and shows the element that shifted the most. Below each item are possible root causes that led to the layout shift. Some of these layout shifts may not be included in the CLS metric value due to [windowing](https://web.dev/articles/cls#what_is_cls). [Learn how to improve CLS](https://web.dev/articles/optimize-cls)"
+        },
+        {
+          "id": "long-tasks",
+          "title": "Avoid long main-thread tasks",
+          "display": "",
+          "score": null,
+          "description": "Lists the longest tasks on the main thread, useful for identifying worst contributors to input delay. [Learn how to avoid long main-thread tasks](https://web.dev/articles/optimize-long-tasks)"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "display": "",
+          "score": 1,
+          "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/)."
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "display": "",
+          "score": 1,
+          "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/)."
+        }
+      ],
+      "failed_audits": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0,
+          "display": "",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.13/color-contrast)."
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "score": 0,
+          "display": "",
+          "description": "One main landmark helps screen reader users navigate a web page. [Learn more about landmarks](https://dequeuniversity.com/rules/axe/4.13/landmark-one-main)."
+        },
+        {
+          "id": "image-delivery-insight",
+          "title": "Improve image delivery",
+          "score": 0.5,
+          "display": "Est savings of 30\u00a0KiB",
+          "description": "Reducing the download time of images can improve the perceived load time of the page and LCP. [Learn more about optimizing image size](https://developer.chrome.com/docs/performance/insights/image-delivery)"
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "score": 0.5,
+          "display": "Est savings of 16\u00a0KiB",
+          "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache)."
+        }
+      ],
+      "passed_audits_count": 86,
+      "seo_audits": [
+        {
+          "id": "is-crawlable",
+          "title": "Page isn\u2019t blocked from indexing",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "document-title",
+          "title": "Document has a `<title>` element",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "meta-description",
+          "title": "Document has a meta description",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "http-status-code",
+          "title": "Page has successful HTTP status code",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "link-text",
+          "title": "Links have descriptive text",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "crawlable-anchors",
+          "title": "Links are crawlable",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "robots-txt",
+          "title": "robots.txt is valid",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements have `[alt]` attributes",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "hreflang",
+          "title": "Document has a valid `hreflang`",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "canonical",
+          "title": "Document has a valid `rel=canonical`",
+          "score": 1,
+          "pass": true
+        }
+      ],
+      "accessibility_audits": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0,
+          "display": ""
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "score": 0,
+          "display": ""
+        }
+      ],
+      "audit_details": {
+        "color-contrast": {
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'nodeLabel': 'NA', 'selector': 'body > div > div', 'path': '1,HTML,1,BODY,38,DIV,0,DIV', 'snippet': '<div style=\"width: 64px; height: 64px; border-radius: 50%; flex-shrink: 0;\">', 'explanation': 'Fix"
+            }
+          ],
+          "total_items": 1
+        },
+        "network-server-latency": {
+          "title": "Server Backend Latencies",
+          "headings": [
+            "origin",
+            "serverResponseTime"
+          ],
+          "items": [
+            {
+              "origin": "https://smartpetgadgets.com.br",
+              "serverResponseTime": 1
+            }
+          ],
+          "total_items": 1
+        },
+        "trusted-types-xss": {
+          "title": "Mitigate DOM-based XSS with Trusted Types",
+          "headings": [
+            "description",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "No `Content-Security-Policy` header with Trusted Types directive found",
+              "severity": "High"
+            }
+          ],
+          "total_items": 1
+        },
+        "server-response-time": {
+          "title": "Initial server response time was short",
+          "headings": [
+            "url",
+            "responseTime"
+          ],
+          "items": [
+            {
+              "url": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
+              "responseTime": 1
+            }
+          ],
+          "total_items": 1
+        },
+        "has-hsts": {
+          "title": "Use a strong HSTS policy",
+          "headings": [
+            "description",
+            "directive",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "No `preload` directive found",
+              "directive": "preload",
+              "severity": "Medium"
+            }
+          ],
+          "total_items": 1
+        },
+        "baseline": {
+          "title": "Baseline Features",
+          "headings": [
+            "featureId",
+            "displayStatus",
+            "source"
+          ],
+          "items": [
+            {
+              "featureId": "https://webstatus.dev/features/fetch-priority",
+              "displayStatus": "{'status': 'low', 'type': 'baseline-status', 'displayString': 'Newly Available (2024-10-29)'}",
+              "source": "https://smartpetgadgets.com.br/coleira-gps-para-gato/"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/overflow",
+              "displayStatus": "{'type': 'baseline-status', 'displayString': 'Widely Available (2023-09-18)', 'status': 'high'}",
+              "source": "https://smartpetgadgets.com.br/coleira-gps-para-gato/"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/color-scheme",
+              "displayStatus": "{'status': 'high', 'displayString': 'Widely Available (2022-02-03)', 'type': 'baseline-status'}",
+              "source": "https://smartpetgadgets.com.br/coleira-gps-para-gato/"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/referrer-policy",
+              "displayStatus": "{'status': 'high', 'displayString': 'Widely Available (2021-09-20)', 'type': 'baseline-status'}"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/not",
+              "displayStatus": "{'status': 'high', 'displayString': 'Widely Available (2021-01-21)', 'type': 'baseline-status'}",
+              "source": "https://smartpetgadgets.com.br/theme-toggle.js?v=2"
+            }
+          ],
+          "total_items": 7
+        },
+        "viewport-insight": {
+          "title": "Optimize viewport for mobile",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'lhId': 'page-2-META', 'type': 'node', 'boundingRect': {'right': 0, 'width': 0, 'height': 0, 'bottom': 0, 'left': 0, 'top': 0}, 'nodeLabel': 'head > meta', 'snippet': '<meta name=\"viewport\" content=\""
+            }
+          ],
+          "total_items": 1
+        },
+        "image-delivery-insight": {
+          "title": "Improve image delivery",
+          "headings": [
+            "node",
+            "url",
+            "totalBytes",
+            "wastedBytes"
+          ],
+          "items": [
+            {
+              "node": "{'selector': 'figure > a > picture > img', 'nodeLabel': 'Gato usando coleira com dispositivo de rastreamento GPS', 'snippet': '<img src=\"https://smartpetgadgets.com.br/coleira-gps-para-gato/img/coleir",
+              "url": "https://smartpetgadgets.com.br/coleira-gps-para-gato/img/coleira-gps-para-gato-hero-800w.webp",
+              "totalBytes": 69632,
+              "wastedBytes": 30937
+            }
+          ],
+          "total_items": 1
+        },
+        "cache-insight": {
+          "title": "Use efficient cache lifetimes",
+          "headings": [
+            "url",
+            "cacheLifetimeMs",
+            "totalBytes"
+          ],
+          "items": [
+            {
+              "url": "https://smartpetgadgets.com.br/coleira-gps-para-gato/img/coleira-gps-para-gato-hero-800w.jpg",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 88325
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/coleira-gps-para-gato/img/coleira-gps-para-gato-hero-800w.webp",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 70292
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/theme-toggle.js?v=2",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 1757
+            }
+          ],
+          "total_items": 3
+        },
+        "mainthread-work-breakdown": {
+          "title": "Minimizes main-thread work",
+          "headings": [
+            "groupLabel",
+            "duration"
+          ],
+          "items": [
+            {
+              "groupLabel": "Other",
+              "duration": 30.60000000000004
+            },
+            {
+              "groupLabel": "Style & Layout",
+              "duration": 29.650800000000004
+            },
+            {
+              "groupLabel": "Rendering",
+              "duration": 6.493200000000001
+            },
+            {
+              "groupLabel": "Script Evaluation",
+              "duration": 6.392399999999999
+            },
+            {
+              "groupLabel": "Parse HTML & CSS",
+              "duration": 2.6952
+            }
+          ],
+          "total_items": 6
+        },
+        "dom-size-insight": {
+          "title": "Optimize DOM size",
+          "headings": [
+            "statistic",
+            "node",
+            "value"
+          ],
+          "items": [
+            {
+              "statistic": "Total elements",
+              "value": "{'type': 'numeric', 'value': 120, 'granularity': 1}"
+            },
+            {
+              "statistic": "DOM depth",
+              "node": "{'lhId': 'page-4-A', 'boundingRect': {'height': 17, 'top': 1842, 'left': 29, 'right': 93, 'width': 64, 'bottom': 1859}, 'type': 'node', 'selector': 'tbody > tr > td > a', 'snippet': '<a href=\"https://",
+              "value": "{'value': 6, 'granularity': 1, 'type': 'numeric'}"
+            },
+            {
+              "statistic": "Most children",
+              "node": "{'snippet': '<body>', 'type': 'node', 'lhId': 'page-3-BODY', 'selector': 'body', 'nodeLabel': 'body', 'boundingRect': {'top': 0, 'left': 0, 'bottom': 7305, 'width': 412, 'height': 7305, 'right': 412},",
+              "value": "{'type': 'numeric', 'granularity': 1, 'value': 42}"
+            }
+          ],
+          "total_items": 3
+        },
+        "network-rtt": {
+          "title": "Network Round Trip Times",
+          "headings": [
+            "origin",
+            "rtt"
+          ],
+          "items": [
+            {
+              "origin": "https://smartpetgadgets.com.br",
+              "rtt": 4.6313324999999965
+            }
+          ],
+          "total_items": 1
+        },
+        "total-byte-weight": {
+          "title": "Avoids enormous network payloads",
+          "headings": [
+            "url",
+            "totalBytes"
+          ],
+          "items": [
+            {
+              "url": "https://smartpetgadgets.com.br/coleira-gps-para-gato/img/coleira-gps-para-gato-hero-800w.jpg",
+              "totalBytes": 88325
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/coleira-gps-para-gato/img/coleira-gps-para-gato-hero-800w.webp",
+              "totalBytes": 70292
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
+              "totalBytes": 6318
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/theme-toggle.js?v=2",
+              "totalBytes": 1757
+            }
+          ],
+          "total_items": 4
+        },
+        "csp-xss": {
+          "title": "Ensure CSP is effective against XSS attacks",
+          "headings": [
+            "description",
+            "directive",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "`script-src` directive is missing. This can allow the execution of unsafe scripts.",
+              "directive": "script-src",
+              "severity": "High"
+            },
+            {
+              "description": "Missing `object-src` allows the injection of plugins that execute unsafe scripts. Consider setting `object-src` to `'none'` if you can.",
+              "directive": "object-src",
+              "severity": "High"
+            }
+          ],
+          "total_items": 2
+        },
+        "landmark-one-main": {
+          "title": "Document does not have a main landmark.",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'path': '1,HTML', 'nodeLabel': 'html', 'snippet': '<html lang=\"pt-BR\">', 'selector': 'html', 'boundingRect': {'height': 7305, 'top': 0, 'right': 412, 'left': 0, 'bottom': 7305, 'width': 412}, 'type':"
+            }
+          ],
+          "total_items": 1
+        },
+        "resource-summary": {
+          "title": "Resources Summary",
+          "headings": [
+            "label",
+            "requestCount",
+            "transferSize"
+          ],
+          "items": [
+            {
+              "label": "Total",
+              "requestCount": 4,
+              "transferSize": 166692
+            },
+            {
+              "label": "Image",
+              "requestCount": 2,
+              "transferSize": 158617
+            },
+            {
+              "label": "Document",
+              "requestCount": 1,
+              "transferSize": 6318
+            },
+            {
+              "label": "Script",
+              "requestCount": 1,
+              "transferSize": 1757
+            },
+            {
+              "label": "Stylesheet",
+              "requestCount": 0,
+              "transferSize": 0
+            }
+          ],
+          "total_items": 9
+        },
+        "network-requests": {
+          "title": "Network Requests",
+          "headings": [
+            "url",
+            "protocol",
+            "networkRequestTime",
+            "networkEndTime",
+            "transferSize",
+            "resourceSize",
+            "statusCode",
+            "mimeType",
+            "resourceType"
+          ],
+          "items": [
+            {
+              "url": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
+              "protocol": "h2",
+              "networkRequestTime": 1.4279999732971191,
+              "networkEndTime": 618.942999958992,
+              "transferSize": 6318,
+              "resourceSize": 19520,
+              "statusCode": 200,
+              "mimeType": "text/html",
+              "resourceType": "Document"
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/coleira-gps-para-gato/img/coleira-gps-para-gato-hero-800w.jpg",
+              "protocol": "h2",
+              "networkRequestTime": 632.8309999704361,
+              "networkEndTime": 1527.7149999141693,
+              "transferSize": 88325,
+              "resourceSize": 87666,
+              "statusCode": 200,
+              "mimeType": "image/jpeg",
+              "resourceType": "Image"
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/coleira-gps-para-gato/img/coleira-gps-para-gato-hero-800w.webp",
+              "protocol": "h2",
+              "networkRequestTime": 633.7480000257492,
+              "networkEndTime": 1619.7699999809265,
+              "transferSize": 70292,
+              "resourceSize": 69632,
+              "statusCode": 200,
+              "mimeType": "image/webp",
+              "resourceType": "Image"
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/theme-toggle.js?v=2",
+              "protocol": "h2",
+              "networkRequestTime": 634.1909999847412,
+              "networkEndTime": 1139.6419999599457,
+              "transferSize": 1757,
+              "resourceSize": 3066,
+              "statusCode": 200,
+              "mimeType": "application/x-javascript",
+              "resourceType": "Script"
+            }
+          ],
+          "total_items": 4
+        },
+        "main-thread-tasks": {
+          "title": "Tasks",
+          "headings": [
+            "startTime",
+            "duration"
+          ],
+          "items": [
+            {
+              "startTime": 622.085,
+              "duration": 10.447
+            },
+            {
+              "startTime": 635.634,
+              "duration": 26.921
+            }
+          ],
+          "total_items": 2
+        },
+        "origin-isolation": {
+          "title": "Ensure proper origin isolation with COOP",
+          "headings": [
+            "description",
+            "directive",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "No COOP header found",
+              "severity": "High"
+            }
+          ],
+          "total_items": 1
+        }
+      },
+      "analysis_timestamp": "2026-10-24T16:10:54.128Z",
+      "error": null
+    }
+  },
+  "crux": {
+    "target": "https://smartpetgadgets.com.br/coleira-gps-para-gato/",
+    "metrics": {},
+    "collection_period": null,
+    "form_factor": "ALL",
+    "error": "CrUX API request failed: 403 Client Error: Forbidden for url: https://chromeuxreport.googleapis.com/v1/records:queryRecord"
+  },
+  "error": null
+}

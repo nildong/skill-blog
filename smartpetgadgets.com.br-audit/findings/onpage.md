@@ -1,20 +1,33 @@
-# On-Page SEO — smartpetgadgets.com.br
+# On-Page SEO — 86/100
 
-Score: 85/100
+## O que funciona
 
-Checked homepage + 2 sample articles (`coleira-gps-para-pet`, `melhor-antipulgas-para-cachorro`) via direct HTML fetch (no subagent budget spent on this category — folded into the main audit pass).
+- Nenhum título ou meta duplicado
+- 1 H1 por página
+- /black-friday-pet/ com 10 links internos (antes 1)
 
-## What works
-- Title tags: unique, descriptive, keyword-led on all 3 samples (53-75 chars).
-- H1 present exactly once per page, distinct from `<title>` (good — avoids duplicate-signal stuffing) but broadly aligned in topic.
-- Meta descriptions present and unique on all 3 samples.
-- Canonical tags self-referential (confirmed by seo-technical).
-- Clean URL slugs, keyword-descriptive, no query-string cruft.
+## Achados
 
-## Issues
-- **Medium**: `melhor-antipulgas-para-cachorro` meta description is 221 characters — well past Google's ~155-160 char practical truncation point. Will get cut off in SERP snippets. Recommend trimming to ~150-160 chars while keeping the comparative hook ("Simparic vs Bravecto vs NexGard").
-- **Low**: Homepage title (61 chars) and H1 ("Cuidados e produtos para cães e gatos, sem enrolação") diverge from each other in phrasing — not a violation, but the H1 skews more brand-voice than keyword-match. Fine as-is given strong technical/schema signals elsewhere, just noting for consistency review.
-- **Not independently re-checked this pass**: internal linking depth/anchor-text diversity (see seo-content and seo-sxo findings, which already flag thin-content and authority gaps that bear on internal linking priority).
+### [Medium] bebedouro-inox-x-ceramica com CTR baixo na pos 5,7
 
-## Recommendation
-Run a meta-description length sweep across all 76 URLs (`grep -oP` pattern used here, or a dedicated script) — this was only spot-checked on 3 pages; likely other comparison/review posts share the same long-description pattern given similar authorial style.
+711 impr., 3 cliques (0,42%); só 15 impr. atribuídas a queries visíveis
+
+**Correção:** Novo título com gancho de resposta depois do freeze (~15/12)
+
+### [Medium] Rações com posição fraca e links trocados
+
+melhor-racao-para-cachorro 494 impr. pos 10,1 CTR 0,4%; melhor-racao-para-gato pos 19,6
+
+**Correção:** Corrigir os links primeiro; reavaliar depois do freeze
+
+### [Low] 3 metas acima de 160 caracteres
+
+autor 191, configurar-app 163, seresto 161
+
+**Correção:** Encurtar para 150–155
+
+### [Info] Blocos bf-link temporários
+
+9 posts com bloco entre <!-- bf-link:start/end -->
+
+**Correção:** Remover depois de 01/12

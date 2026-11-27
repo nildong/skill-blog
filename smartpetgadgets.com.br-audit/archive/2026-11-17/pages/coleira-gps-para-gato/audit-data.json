@@ -1,0 +1,207 @@
+{
+  "summary": {
+    "health_score": 69,
+    "business_type": "Publisher / blog de afiliados (pet)",
+    "scope": "Página única: https://smartpetgadgets.com.br/coleira-gps-para-gato/",
+    "top_findings": [
+      "Intenção 'melhor coleira' sem nenhum modelo",
+      "Link de afiliado único em 6 lugares (hero, tecnologias)",
+      "Bluetooth tratado como GPS / NB-IoT sem fonte",
+      "Title sem 'melhor'",
+      "Resíduos de rascunho e autoria contraditória"
+    ],
+    "quick_wins": [
+      "Retitular",
+      "Tirar o link de afiliado da hero e da tabela",
+      "Traduzir Key Takeaways/retrieved",
+      "Linkar /cerca-virtual-para-cachorro/",
+      "Alinhar as datas"
+    ]
+  },
+  "categories": [
+    {
+      "name": "Technical SEO",
+      "score": 90,
+      "what_works": [
+        "Indexada e rastreada hoje",
+        "10 links internos de entrada",
+        "Lighthouse 100/94/100/100"
+      ],
+      "findings": [
+        {
+          "title": "Sem <main> e contraste baixo",
+          "severity": "Low",
+          "description": "a11y 94",
+          "recommendation": "Adicionar <main>; ajustar opacidade"
+        }
+      ]
+    },
+    {
+      "name": "Content Quality",
+      "score": 50,
+      "what_works": [
+        "1.300 palavras",
+        "Resposta direta + bloco de resumo + tabela"
+      ],
+      "findings": [
+        {
+          "title": "Intenção 'melhor' sem nenhum modelo",
+          "severity": "Critical",
+          "description": "98% das impressões são 'qual a melhor coleira com gps para gatos'; a SERP é de listas top-N",
+          "recommendation": "Adicionar 3 a 5 modelos reais com ficha"
+        },
+        {
+          "title": "Bluetooth tratado como GPS; NB-IoT sem fonte; faixa de preço errada",
+          "severity": "High",
+          "description": "Afirmações técnicas imprecisas",
+          "recommendation": "Corrigir e dar fonte"
+        },
+        {
+          "title": "Resíduos e autoria",
+          "severity": "Medium",
+          "description": "'Key Takeaways', 4x 'retrieved', Nildo x Equipe, 'Testa'",
+          "recommendation": "Traduzir e unificar"
+        }
+      ]
+    },
+    {
+      "name": "On-Page SEO",
+      "score": 60,
+      "what_works": [
+        "Bem linkada no cluster"
+      ],
+      "findings": [
+        {
+          "title": "Afiliado enganoso",
+          "severity": "High",
+          "description": "O mesmo meli.la em 6 lugares, inclusive na hero e em 3 tecnologias diferentes",
+          "recommendation": "Um link por produto nomeado; tirar o link da hero"
+        },
+        {
+          "title": "Title sem 'melhor'",
+          "severity": "Medium",
+          "description": "A query dominante contém 'melhor'",
+          "recommendation": "Usar 'Melhor Coleira GPS para Gato em 2026: Qual Escolher'"
+        },
+        {
+          "title": "Link de cerca virtual vai para o pilar",
+          "severity": "Low",
+          "description": "—",
+          "recommendation": "Apontar para /cerca-virtual-para-cachorro/"
+        }
+      ]
+    },
+    {
+      "name": "Schema / Structured Data",
+      "score": 70,
+      "what_works": [
+        "BlogPosting, Breadcrumb e FAQ válidos"
+      ],
+      "findings": [
+        {
+          "title": "Datas divergentes",
+          "severity": "Medium",
+          "description": "Visível 14/09 x schema 09/10",
+          "recommendation": "Alinhar"
+        }
+      ]
+    },
+    {
+      "name": "Performance (CWV)",
+      "score": 97,
+      "what_works": [
+        "LCP 0,8 s, CLS 0"
+      ],
+      "findings": [
+        {
+          "title": "Hero de 127 KB",
+          "severity": "Low",
+          "description": "WebP 1200w",
+          "recommendation": "Recomprimir"
+        }
+      ]
+    },
+    {
+      "name": "AI Search Readiness",
+      "score": 60,
+      "what_works": [
+        "Answer-first, FAQ"
+      ],
+      "findings": [
+        {
+          "title": "Sem modelos nomeados",
+          "severity": "Medium",
+          "description": "—",
+          "recommendation": "Adicionar uma lista de modelos"
+        }
+      ]
+    },
+    {
+      "name": "Images",
+      "score": 65,
+      "what_works": [
+        "srcset + WebP"
+      ],
+      "findings": [
+        {
+          "title": "Só a hero",
+          "severity": "Low",
+          "description": "Sem fotos de produto",
+          "recommendation": "Adicionar imagens dos modelos"
+        }
+      ]
+    }
+  ],
+  "action_plan": {
+    "phases": [
+      {
+        "name": "Phase 1: Critical Fixes",
+        "timeframe": "Week 1",
+        "items": [
+          "Modelos reais",
+          "Links de afiliado",
+          "Title"
+        ]
+      },
+      {
+        "name": "Phase 2: High-Impact Improvements",
+        "timeframe": "Weeks 2-3",
+        "items": [
+          "Precisão técnica",
+          "Resíduos e autoria"
+        ]
+      },
+      {
+        "name": "Phase 3: Content & Authority",
+        "timeframe": "Month 2",
+        "items": [
+          "Seções novas",
+          "Imagens de produto"
+        ]
+      },
+      {
+        "name": "Phase 4: Monitoring & Iteration",
+        "timeframe": "Ongoing",
+        "items": [
+          "Posição para 'qual a melhor coleira com gps para gatos'"
+        ]
+      }
+    ]
+  },
+  "gsc": {
+    "window_days": 90,
+    "page_totals": {
+      "impressions": 103,
+      "clicks": 1,
+      "position": 10.5
+    },
+    "top_query": {
+      "query": "qual a melhor coleira com gps para gatos",
+      "impressions": 55,
+      "position": 11.3
+    }
+  },
+  "artifacts": {
+    "findings_dir": "findings/"
+  }
+}

@@ -1,0 +1,594 @@
+{
+  "url": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/",
+  "psi": {
+    "mobile": {
+      "url": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/",
+      "strategy": "mobile",
+      "lighthouse_version": "13.5.0",
+      "lighthouse_scores": {
+        "performance": 100,
+        "accessibility": 93,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "lab_metrics": {
+        "first-contentful-paint": {
+          "value": 805,
+          "display": "0.8\u00a0s",
+          "score": 1
+        },
+        "largest-contentful-paint": {
+          "value": 805,
+          "display": "0.8\u00a0s",
+          "score": 1
+        },
+        "total-blocking-time": {
+          "value": 0,
+          "display": "0\u00a0ms",
+          "score": 1
+        },
+        "cumulative-layout-shift": {
+          "value": 0,
+          "display": "0",
+          "score": 1
+        },
+        "speed-index": {
+          "value": 1999.9855139877202,
+          "display": "2.0\u00a0s",
+          "score": 0.99
+        },
+        "interactive": {
+          "value": 805,
+          "display": "0.8\u00a0s",
+          "score": 1
+        }
+      },
+      "field_metrics": {},
+      "opportunities": [],
+      "diagnostics": [
+        {
+          "id": "total-byte-weight",
+          "title": "Avoids enormous network payloads",
+          "display": "Total size was 53\u00a0KiB",
+          "score": 1,
+          "description": "Large network payloads cost users real money and are highly correlated with long load times. [Learn how to reduce payload sizes](https://developer.chrome.com/docs/lighthouse/performance/total-byte-weight/)."
+        },
+        {
+          "id": "mainthread-work-breakdown",
+          "title": "Minimizes main-thread work",
+          "display": "0.1\u00a0s",
+          "score": 1,
+          "description": "Consider reducing the time spent parsing, compiling and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to minimize main-thread work](https://developer.chrome.com/docs/lighthouse/performance/mainthread-work-breakdown/)"
+        },
+        {
+          "id": "bootup-time",
+          "title": "JavaScript execution time",
+          "display": "",
+          "score": null,
+          "description": "Consider reducing the time spent parsing, compiling, and executing JS. You may find delivering smaller JS payloads helps with this. [Learn how to reduce Javascript execution time](https://developer.chrome.com/docs/lighthouse/performance/bootup-time/)."
+        },
+        {
+          "id": "layout-shifts",
+          "title": "Avoid large layout shifts",
+          "display": "",
+          "score": null,
+          "description": "These are the largest layout shifts observed on the page. Each table item represents a single layout shift, and shows the element that shifted the most. Below each item are possible root causes that led to the layout shift. Some of these layout shifts may not be included in the CLS metric value due to [windowing](https://web.dev/articles/cls#what_is_cls). [Learn how to improve CLS](https://web.dev/articles/optimize-cls)"
+        },
+        {
+          "id": "long-tasks",
+          "title": "Avoid long main-thread tasks",
+          "display": "",
+          "score": null,
+          "description": "Lists the longest tasks on the main thread, useful for identifying worst contributors to input delay. [Learn how to avoid long main-thread tasks](https://web.dev/articles/optimize-long-tasks)"
+        },
+        {
+          "id": "unused-javascript",
+          "title": "Reduce unused JavaScript",
+          "display": "",
+          "score": 1,
+          "description": "Reduce unused JavaScript and defer loading scripts until they are required to decrease bytes consumed by network activity. [Learn how to reduce unused JavaScript](https://developer.chrome.com/docs/lighthouse/performance/unused-javascript/)."
+        },
+        {
+          "id": "unused-css-rules",
+          "title": "Reduce unused CSS",
+          "display": "",
+          "score": 1,
+          "description": "Reduce unused rules from stylesheets and defer CSS not used for above-the-fold content to decrease bytes consumed by network activity. [Learn how to reduce unused CSS](https://developer.chrome.com/docs/lighthouse/performance/unused-css-rules/)."
+        }
+      ],
+      "failed_audits": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0,
+          "display": "",
+          "description": "Low-contrast text is difficult or impossible for many users to read. [Learn how to provide sufficient color contrast](https://dequeuniversity.com/rules/axe/4.13/color-contrast)."
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "score": 0,
+          "display": "",
+          "description": "One main landmark helps screen reader users navigate a web page. [Learn more about landmarks](https://dequeuniversity.com/rules/axe/4.13/landmark-one-main)."
+        },
+        {
+          "id": "cache-insight",
+          "title": "Use efficient cache lifetimes",
+          "score": 0.5,
+          "display": "Est savings of 5\u00a0KiB",
+          "description": "A long cache lifetime can speed up repeat visits to your page. [Learn more about caching](https://developer.chrome.com/docs/performance/insights/cache)."
+        }
+      ],
+      "passed_audits_count": 82,
+      "seo_audits": [
+        {
+          "id": "is-crawlable",
+          "title": "Page isn\u2019t blocked from indexing",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "document-title",
+          "title": "Document has a `<title>` element",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "meta-description",
+          "title": "Document has a meta description",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "http-status-code",
+          "title": "Page has successful HTTP status code",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "link-text",
+          "title": "Links have descriptive text",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "crawlable-anchors",
+          "title": "Links are crawlable",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "robots-txt",
+          "title": "robots.txt is valid",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "image-alt",
+          "title": "Image elements have `[alt]` attributes",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "hreflang",
+          "title": "Document has a valid `hreflang`",
+          "score": 1,
+          "pass": true
+        },
+        {
+          "id": "canonical",
+          "title": "Document has a valid `rel=canonical`",
+          "score": 1,
+          "pass": true
+        }
+      ],
+      "accessibility_audits": [
+        {
+          "id": "color-contrast",
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "score": 0,
+          "display": ""
+        },
+        {
+          "id": "landmark-one-main",
+          "title": "Document does not have a main landmark.",
+          "score": 0,
+          "display": ""
+        }
+      ],
+      "audit_details": {
+        "baseline": {
+          "title": "Baseline Features",
+          "headings": [
+            "featureId",
+            "displayStatus",
+            "source"
+          ],
+          "items": [
+            {
+              "featureId": "https://webstatus.dev/features/fetch-priority",
+              "displayStatus": "{'type': 'baseline-status', 'displayString': 'Newly Available (2024-10-29)', 'status': 'low'}",
+              "source": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/color-scheme",
+              "displayStatus": "{'displayString': 'Widely Available (2022-02-03)', 'status': 'high', 'type': 'baseline-status'}",
+              "source": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/referrer-policy",
+              "displayStatus": "{'displayString': 'Widely Available (2021-09-20)', 'type': 'baseline-status', 'status': 'high'}"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/webp",
+              "displayStatus": "{'status': 'high', 'displayString': 'Widely Available (2020-09-16)', 'type': 'baseline-status'}",
+              "source": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/"
+            },
+            {
+              "featureId": "https://webstatus.dev/features/flexbox",
+              "displayStatus": "{'displayString': 'Widely Available (2015-09-30)', 'status': 'high', 'type': 'baseline-status'}",
+              "source": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/"
+            }
+          ],
+          "total_items": 5
+        },
+        "trusted-types-xss": {
+          "title": "Mitigate DOM-based XSS with Trusted Types",
+          "headings": [
+            "description",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "No `Content-Security-Policy` header with Trusted Types directive found",
+              "severity": "High"
+            }
+          ],
+          "total_items": 1
+        },
+        "mainthread-work-breakdown": {
+          "title": "Minimizes main-thread work",
+          "headings": [
+            "groupLabel",
+            "duration"
+          ],
+          "items": [
+            {
+              "groupLabel": "Style & Layout",
+              "duration": 30.556800000000003
+            },
+            {
+              "groupLabel": "Other",
+              "duration": 29.439600000000013
+            },
+            {
+              "groupLabel": "Script Evaluation",
+              "duration": 3.7463999999999986
+            },
+            {
+              "groupLabel": "Rendering",
+              "duration": 3.4859999999999998
+            },
+            {
+              "groupLabel": "Parse HTML & CSS",
+              "duration": 2.8679999999999994
+            }
+          ],
+          "total_items": 6
+        },
+        "has-hsts": {
+          "title": "Use a strong HSTS policy",
+          "headings": [
+            "description",
+            "directive",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "No `preload` directive found",
+              "directive": "preload",
+              "severity": "Medium"
+            }
+          ],
+          "total_items": 1
+        },
+        "viewport-insight": {
+          "title": "Optimize viewport for mobile",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'type': 'node', 'snippet': '<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">', 'selector': 'head > meta', 'nodeLabel': 'head > meta', 'lhId': 'page-1-META', 'path': '1,HTML,0,HE"
+            }
+          ],
+          "total_items": 1
+        },
+        "server-response-time": {
+          "title": "Initial server response time was short",
+          "headings": [
+            "url",
+            "responseTime"
+          ],
+          "items": [
+            {
+              "url": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/",
+              "responseTime": 2
+            }
+          ],
+          "total_items": 1
+        },
+        "origin-isolation": {
+          "title": "Ensure proper origin isolation with COOP",
+          "headings": [
+            "description",
+            "directive",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "No COOP header found",
+              "severity": "High"
+            }
+          ],
+          "total_items": 1
+        },
+        "color-contrast": {
+          "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'snippet': '<div style=\"width: 64px; height: 64px; border-radius: 50%; flex-shrink: 0;\">', 'type': 'node', 'selector': 'body > div > div', 'explanation': 'Fix any of the following:\\n  Element has ins"
+            }
+          ],
+          "total_items": 1
+        },
+        "resource-summary": {
+          "title": "Resources Summary",
+          "headings": [
+            "label",
+            "requestCount",
+            "transferSize"
+          ],
+          "items": [
+            {
+              "label": "Total",
+              "requestCount": 3,
+              "transferSize": 54538
+            },
+            {
+              "label": "Image",
+              "requestCount": 2,
+              "transferSize": 49888
+            },
+            {
+              "label": "Document",
+              "requestCount": 1,
+              "transferSize": 4650
+            },
+            {
+              "label": "Stylesheet",
+              "requestCount": 0,
+              "transferSize": 0
+            },
+            {
+              "label": "Media",
+              "requestCount": 0,
+              "transferSize": 0
+            }
+          ],
+          "total_items": 9
+        },
+        "network-server-latency": {
+          "title": "Server Backend Latencies",
+          "headings": [
+            "origin",
+            "serverResponseTime"
+          ],
+          "items": [
+            {
+              "origin": "https://smartpetgadgets.com.br",
+              "serverResponseTime": 35
+            }
+          ],
+          "total_items": 1
+        },
+        "main-thread-tasks": {
+          "title": "Tasks",
+          "headings": [
+            "startTime",
+            "duration"
+          ],
+          "items": [
+            {
+              "startTime": 739.281,
+              "duration": 10.255
+            },
+            {
+              "startTime": 752.151,
+              "duration": 28.113
+            }
+          ],
+          "total_items": 2
+        },
+        "total-byte-weight": {
+          "title": "Avoids enormous network payloads",
+          "headings": [
+            "url",
+            "totalBytes"
+          ],
+          "items": [
+            {
+              "url": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/img/cerca-virtual-para-cachorro-hero-800w.jpg",
+              "totalBytes": 32532
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/img/cerca-virtual-para-cachorro-hero-800w.webp",
+              "totalBytes": 17356
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/",
+              "totalBytes": 4650
+            }
+          ],
+          "total_items": 3
+        },
+        "landmark-one-main": {
+          "title": "Document does not have a main landmark.",
+          "headings": [
+            "node"
+          ],
+          "items": [
+            {
+              "node": "{'selector': 'html', 'explanation': 'Fix all of the following:\\n  Document does not have a main landmark', 'type': 'node', 'nodeLabel': 'html', 'snippet': '<html lang=\"pt-BR\">', 'path': '1,HTML', 'lhI"
+            }
+          ],
+          "total_items": 1
+        },
+        "network-rtt": {
+          "title": "Network Round Trip Times",
+          "headings": [
+            "origin",
+            "rtt"
+          ],
+          "items": [
+            {
+              "origin": "https://smartpetgadgets.com.br",
+              "rtt": 5.508015
+            }
+          ],
+          "total_items": 1
+        },
+        "cache-insight": {
+          "title": "Use efficient cache lifetimes",
+          "headings": [
+            "url",
+            "cacheLifetimeMs",
+            "totalBytes"
+          ],
+          "items": [
+            {
+              "url": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/img/cerca-virtual-para-cachorro-hero-800w.jpg",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 32532
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/img/cerca-virtual-para-cachorro-hero-800w.webp",
+              "cacheLifetimeMs": 604800000,
+              "totalBytes": 17356
+            }
+          ],
+          "total_items": 2
+        },
+        "csp-xss": {
+          "title": "Ensure CSP is effective against XSS attacks",
+          "headings": [
+            "description",
+            "directive",
+            "severity"
+          ],
+          "items": [
+            {
+              "description": "`script-src` directive is missing. This can allow the execution of unsafe scripts.",
+              "directive": "script-src",
+              "severity": "High"
+            },
+            {
+              "description": "Missing `object-src` allows the injection of plugins that execute unsafe scripts. Consider setting `object-src` to `'none'` if you can.",
+              "directive": "object-src",
+              "severity": "High"
+            }
+          ],
+          "total_items": 2
+        },
+        "network-requests": {
+          "title": "Network Requests",
+          "headings": [
+            "url",
+            "protocol",
+            "networkRequestTime",
+            "networkEndTime",
+            "transferSize",
+            "resourceSize",
+            "statusCode",
+            "mimeType",
+            "resourceType"
+          ],
+          "items": [
+            {
+              "url": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/",
+              "protocol": "h2",
+              "networkRequestTime": 1.0039999783039093,
+              "networkEndTime": 735.4099999964237,
+              "transferSize": 4650,
+              "resourceSize": 14419,
+              "statusCode": 200,
+              "mimeType": "text/html",
+              "resourceType": "Document"
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/img/cerca-virtual-para-cachorro-hero-800w.jpg",
+              "protocol": "h2",
+              "networkRequestTime": 751.4230000078678,
+              "networkEndTime": 1298.9689999818802,
+              "transferSize": 32532,
+              "resourceSize": 31931,
+              "statusCode": 200,
+              "mimeType": "image/jpeg",
+              "resourceType": "Image"
+            },
+            {
+              "url": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/img/cerca-virtual-para-cachorro-hero-800w.webp",
+              "protocol": "h2",
+              "networkRequestTime": 751.6639999747276,
+              "networkEndTime": 1484.953999966383,
+              "transferSize": 17356,
+              "resourceSize": 16698,
+              "statusCode": 200,
+              "mimeType": "image/webp",
+              "resourceType": "Image"
+            }
+          ],
+          "total_items": 3
+        },
+        "dom-size-insight": {
+          "title": "Optimize DOM size",
+          "headings": [
+            "statistic",
+            "node",
+            "value"
+          ],
+          "items": [
+            {
+              "statistic": "Total elements",
+              "value": "{'type': 'numeric', 'value': 61, 'granularity': 1}"
+            },
+            {
+              "statistic": "DOM depth",
+              "node": "{'snippet': '<a href=\"https://smartpetgadgets.com.br/autores/nildo-alves/\">', 'path': '1,HTML,1,BODY,31,DIV,1,DIV,0,P,0,STRONG,0,A', 'selector': 'div > p > strong > a', 'lhId': 'page-3-A', 'nodeLabel'",
+              "value": "{'value': 6, 'type': 'numeric', 'granularity': 1}"
+            },
+            {
+              "statistic": "Most children",
+              "node": "{'path': '1,HTML,1,BODY', 'lhId': 'page-2-BODY', 'boundingRect': {'height': 4646, 'bottom': 4646, 'top': 0, 'width': 412, 'left': 0, 'right': 412}, 'snippet': '<body>', 'type': 'node', 'nodeLabel': 'b",
+              "value": "{'granularity': 1, 'type': 'numeric', 'value': 32}"
+            }
+          ],
+          "total_items": 3
+        }
+      },
+      "analysis_timestamp": "2026-10-24T14:39:33.518Z",
+      "error": null
+    }
+  },
+  "crux": {
+    "target": "https://smartpetgadgets.com.br/cerca-virtual-para-cachorro/",
+    "metrics": {},
+    "collection_period": null,
+    "form_factor": "ALL",
+    "error": "CrUX API request failed: 403 Client Error: Forbidden for url: https://chromeuxreport.googleapis.com/v1/records:queryRecord"
+  },
+  "error": null
+}
