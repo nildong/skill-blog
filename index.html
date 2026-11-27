@@ -72,7 +72,7 @@
   :root {
     color-scheme: light dark;
     --text: #1d1d1f; --muted: #5b5b66; --bg: #fff; --panel: #fbf8f4; --card: #fff;
-    --line: rgba(20,20,40,.09); --accent: #d9480f; --accent-strong: #ff5f0f; --link: #d9480f;
+    --line: rgba(20,20,40,.09); --accent: #d9480f; --accent-strong: #ff5f0f; --link: #b23a0d;
     --shadow: 0 1px 2px rgba(20,20,40,.05), 0 6px 20px rgba(20,20,40,.06);
     --blue: #2563eb; --amber: #f2b01e; --orange: #c94d12; --green: #1a7f55; --purple: #7253e0; --pink: #d0325a;
   }
@@ -162,6 +162,8 @@
   .feat-text { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
   .feat strong { font-size: 1.02rem; line-height: 1.3; font-weight: 800; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
   .feat-more { color: var(--link); font-weight: 700; font-size: .88rem; }
+  /* "Voltar ao topo" do theme-toggle.js usa opacity .8, que derruba o contraste do link na home */
+  body #spg-back-to-top a { opacity: 1; }
   .feat-main { border: 2px solid var(--amber); }
 
   /* Badges de tipo de conteúdo */
